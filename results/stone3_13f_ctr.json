@@ -1,0 +1,104 @@
+{
+  "stone": 3,
+  "name": "13F & FOCUS Double-Entry Trap",
+  "timestamp": "2026-02-18T01:31:38.104466",
+  "gme_cusip": "36467W109",
+  "entities": {
+    "Citadel Advisors LLC": {
+      "cik": "0001423053",
+      "role": "Non-ATS Internalizer #2 (56.2M GME, 22.8\u00d7 surge)",
+      "ctr_check": {
+        "13F-CTR_filings": [],
+        "13F-NT_filings": [],
+        "has_Q2_2024_CTR": false
+      },
+      "gme_positions": []
+    },
+    "Virtu Financial LLC": {
+      "cik": "0001571891",
+      "role": "Non-ATS Internalizer #1 (81.3M GME, 42.1\u00d7 surge)",
+      "ctr_check": {
+        "13F-CTR_filings": [],
+        "13F-NT_filings": [],
+        "has_Q2_2024_CTR": false
+      },
+      "gme_positions": []
+    },
+    "Susquehanna International Group (G1 parent)": {
+      "cik": "0001446194",
+      "role": "Non-ATS Internalizer #3 via G1 Execution (44.2M GME)",
+      "ctr_check": {
+        "13F-CTR_filings": [],
+        "13F-NT_filings": [],
+        "has_Q2_2024_CTR": false
+      },
+      "gme_positions": []
+    },
+    "Jane Street Group LLC": {
+      "cik": "0001595097",
+      "role": "Non-ATS Internalizer #4 (38.7M GME, 44.4\u00d7 surge)",
+      "ctr_check": {
+        "13F-CTR_filings": [],
+        "13F-NT_filings": [],
+        "has_Q2_2024_CTR": false
+      },
+      "gme_positions": []
+    },
+    "UBS Group AG": {
+      "cik": "0001114446",
+      "role": "Dual-channel: #1 ATS (8.9M) + #8 OTC (3.6M from zero)",
+      "ctr_check": {
+        "13F-CTR_filings": [],
+        "13F-NT_filings": [
+          {
+            "form": "13F-NT",
+            "date": "2026-01-30",
+            "accession": "000111444626000617",
+            "accession_raw": "0001114446-26-000617",
+            "primary_doc": "xslForm13F_X02/primary_doc.xml",
+            "url": "https://www.sec.gov/Archives/edgar/data/1114446/000111444626000617/xslForm13F_X02/primary_doc.xml"
+          },
+          {
+            "form": "13F-NT",
+            "date": "2025-11-13",
+            "accession": "000111444625005657",
+            "accession_raw": "0001114446-25-005657",
+            "primary_doc": "xslForm13F_X02/primary_doc.xml",
+            "url": "https://www.sec.gov/Archives/edgar/data/1114446/000111444625005657/xslForm13F_X02/primary_doc.xml"
+          },
+          {
+            "form": "13F-NT",
+            "date": "2025-08-14",
+            "accession": "000095012325008108",
+            "accession_raw": "0000950123-25-008108",
+            "primary_doc": "xslForm13F_X02/primary_doc.xml",
+            "url": "https://www.sec.gov/Archives/edgar/data/1114446/000095012325008108/xslForm13F_X02/primary_doc.xml"
+          },
+          {
+            "form": "13F-NT",
+            "date": "2025-05-13",
+            "accession": "000095012325004905",
+            "accession_raw": "0000950123-25-004905",
+            "primary_doc": "xslForm13F_X02/primary_doc.xml",
+            "url": "https://www.sec.gov/Archives/edgar/data/1114446/000095012325004905/xslForm13F_X02/primary_doc.xml"
+          },
+          {
+            "form": "13F-NT",
+            "date": "2025-02-14",
+            "accession": "000095012325002333",
+            "accession_raw": "0000950123-25-002333",
+            "primary_doc": "xslForm13F_X02/primary_doc.xml",
+            "url": "https://www.sec.gov/Archives/edgar/data/1114446/000095012325002333/xslForm13F_X02/primary_doc.xml"
+          }
+        ],
+        "has_Q2_2024_CTR": false
+      },
+      "gme_positions": []
+    }
+  },
+  "summary": {
+    "entities_with_Q2_2024_CTR": [],
+    "synthetic_parity_alerts": [],
+    "ctr_killshot": false
+  }
+}

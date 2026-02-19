@@ -1,0 +1,77 @@
+[
+  {
+    "filing_date": "2025-02-28",
+    "accession": "0001146184-25-000003",
+    "html_docs": [
+      "/index.htm",
+      "/edgar/searchedgar/companysearch.html"
+    ],
+    "pdf_docs": [
+      "/Archives/edgar/data/1146184/000114618425000003/CDRG_BS_ONLY_FS_2024.pdf"
+    ],
+    "xml_docs": [
+      "/Archives/edgar/data/1146184/000114618425000003/xslX-17A-5_X01/primary_doc.xml",
+      "/Archives/edgar/data/1146184/000114618425000003/primary_doc.xml"
+    ]
+  },
+  {
+    "filing_date": "2024-02-28",
+    "accession": "0001146184-24-000001",
+    "html_docs": [
+      "/index.htm",
+      "/edgar/searchedgar/companysearch.html"
+    ],
+    "pdf_docs": [
+      "/Archives/edgar/data/1146184/000114618424000001/CDRG_BS_Only_2023.pdf"
+    ],
+    "xml_docs": [
+      "/Archives/edgar/data/1146184/000114618424000001/xslX-17A-5_X01/primary_doc.xml",
+      "/Archives/edgar/data/1146184/000114618424000001/primary_doc.xml"
+    ]
+  },
+  {
+    "filing_date": "2023-03-01",
+    "accession": "0001146184-23-000003",
+    "html_docs": [
+      "/index.htm",
+      "/edgar/searchedgar/companysearch.html"
+    ],
+    "pdf_docs": [
+      "/Archives/edgar/data/1146184/000114618423000003/CDRG_BS_Only_2022.pdf"
+    ],
+    "xml_docs": [
+      "/Archives/edgar/data/1146184/000114618423000003/xslX-17A-5_X01/primary_doc.xml",
+      "/Archives/edgar/data/1146184/000114618423000003/primary_doc.xml"
+    ]
+  },
+  {
+    "filing_date": "2022-02-28",
+    "accession": "0001284170-22-000004",
+    "html_docs": [
+      "/index.htm",
+      "/edgar/searchedgar/companysearch.html"
+    ],
+    "pdf_docs": [
+      "/Archives/edgar/data/1146184/000128417022000004/CDRG_BS_Only_FS_2021.pdf"
+    ],
+    "xml_docs": [
+      "/Archives/edgar/data/1146184/000128417022000004/xslX-17A-5_X01/primary_doc.xml",
+      "/Archives/edgar/data/1146184/000128417022000004/primary_doc.xml"
+    ]
+  },
+  {
+    "filing_date": "2021-02-25",
+    "accession": "0001616344-21-000004",
+    "html_docs": [
+      "/index.htm",
+      "/edgar/searchedgar/companysearch.html"
+    ],
+    "pdf_docs": [
+      "/Archives/edgar/data/1146184/000161634421000004/CDRG_StmtFinCndtn2020.pdf"
+    ],
+    "xml_docs": [
+      "/Archives/edgar/data/1146184/000161634421000004/xslX-17A-5_X01/primary_doc.xml",
+      "/Archives/edgar/data/1146184/000161634421000004/primary_doc.xml"
+    ]
+  }
+]

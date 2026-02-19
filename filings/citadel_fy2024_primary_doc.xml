@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/seventeenafiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>X-17A-5</submissionType>
+    <filerInfo>
+      <filer>
+        <filerCredentials>
+          <filerCik>0001146184</filerCik>
+          <filerCcc>XXXXXXXX</filerCcc>
+        </filerCredentials>
+      </filer>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <returnCopyFlag>true</returnCopyFlag>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <submissionInformation>
+      <periodBegin>01-01-2024</periodBegin>
+      <periodEnd>12-31-2024</periodEnd>
+      <typeOfRegistrant>
+        <typeOfBDRegistrant>Broker-dealer</typeOfBDRegistrant>
+      </typeOfRegistrant>
+      <materialWeakness>N</materialWeakness>
+    </submissionInformation>
+    <registrantIdentification>
+      <brokerDealerName>CITADEL SECURITIES LLC</brokerDealerName>
+      <businessAddress>
+        <com:street1>200 SOUTH BISCAYNE BLVD</com:street1>
+        <com:street2>33RD FLOOR</com:street2>
+        <com:city>MIAMI</com:city>
+        <com:stateOrCountry>FL</com:stateOrCountry>
+        <com:zipCode>33131</com:zipCode>
+      </businessAddress>
+      <contactPersonName>Sergio Lupetin</contactPersonName>
+      <contactPersonPhoneNumber>212-271-8728</contactPersonPhoneNumber>
+    </registrantIdentification>
+    <accountantIdentification>
+      <accountantName>PricewaterhouseCoopers LLP</accountantName>
+      <accountantAddress>
+        <com:street1>1 North Wacker Drive</com:street1>
+        <com:city>Chicago</com:city>
+        <com:stateOrCountry>IL</com:stateOrCountry>
+        <com:zipCode>60606</com:zipCode>
+      </accountantAddress>
+      <accountantType>Certified Public Accountant</accountantType>
+    </accountantIdentification>
+    <oathSignature>
+      <signPersonName>Michael Henry</signPersonName>
+      <entityName>CITADEL SECURITIES LLC</entityName>
+      <signDate>12-31-2024</signDate>
+      <signature>Michael Henry</signature>
+      <oathTitle>Chief Accounting Officer</oathTitle>
+      <confirmNotarizedFlag>Y</confirmNotarizedFlag>
+    </oathSignature>
+  </formData>
+</edgarSubmission>

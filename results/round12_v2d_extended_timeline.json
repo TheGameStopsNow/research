@@ -1,0 +1,1178 @@
+{
+  "2021-02-22": {
+    "label": "Feb 2021 (post-squeeze)",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "XRT": {
+        "cs_vol": 89090,
+        "ubs_vol": 820822,
+        "total": 1555854,
+        "combined": 909912,
+        "top_mpid": "UBSA",
+        "top_vol": 820822,
+        "cs_pct": 5.7,
+        "ubs_pct": 52.8,
+        "combined_pct": 58.5
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2021-03-22": {
+    "label": "Mar 2021 (Archegos)",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "XRT": {
+        "cs_vol": 118054,
+        "ubs_vol": 471372,
+        "total": 955533,
+        "combined": 589426,
+        "top_mpid": "UBSA",
+        "top_vol": 471372,
+        "cs_pct": 12.4,
+        "ubs_pct": 49.3,
+        "combined_pct": 61.7
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2021-04-19": {
+    "label": "Apr 2021",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "XRT": {
+        "cs_vol": 243817,
+        "ubs_vol": 345540,
+        "total": 1064652,
+        "combined": 589357,
+        "top_mpid": "UBSA",
+        "top_vol": 345540,
+        "cs_pct": 22.9,
+        "ubs_pct": 32.5,
+        "combined_pct": 55.4
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2021-06-14": {
+    "label": "Jun 2021",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "XRT": {
+        "cs_vol": 126107,
+        "ubs_vol": 539041,
+        "total": 1104035,
+        "combined": 665148,
+        "top_mpid": "UBSA",
+        "top_vol": 539041,
+        "cs_pct": 11.4,
+        "ubs_pct": 48.8,
+        "combined_pct": 60.2
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2021-08-16": {
+    "label": "Aug 2021",
+    "stats": {
+      "GME": {
+        "cs_vol": 24251,
+        "ubs_vol": 63976,
+        "total": 482085,
+        "combined": 88227,
+        "top_mpid": "IATS",
+        "top_vol": 105319,
+        "cs_pct": 5.0,
+        "ubs_pct": 13.3,
+        "combined_pct": 18.3
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "XRT": {
+        "cs_vol": 263372,
+        "ubs_vol": 715017,
+        "total": 1991659,
+        "combined": 978389,
+        "top_mpid": "UBSA",
+        "top_vol": 715017,
+        "cs_pct": 13.2,
+        "ubs_pct": 35.9,
+        "combined_pct": 49.1
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2021-10-18": {
+    "label": "Oct 2021",
+    "stats": {
+      "GME": {
+        "cs_vol": 58156,
+        "ubs_vol": 120360,
+        "total": 701405,
+        "combined": 178516,
+        "top_mpid": "IATS",
+        "top_vol": 172571,
+        "cs_pct": 8.3,
+        "ubs_pct": 17.2,
+        "combined_pct": 25.5
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "XRT": {
+        "cs_vol": 143539,
+        "ubs_vol": 353464,
+        "total": 894029,
+        "combined": 497003,
+        "top_mpid": "UBSA",
+        "top_vol": 353464,
+        "cs_pct": 16.1,
+        "ubs_pct": 39.5,
+        "combined_pct": 55.6
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2021-12-13": {
+    "label": "Dec 2021",
+    "stats": {
+      "GME": {
+        "cs_vol": 85417,
+        "ubs_vol": 476514,
+        "total": 2027601,
+        "combined": 561931,
+        "top_mpid": "UBSA",
+        "top_vol": 476514,
+        "cs_pct": 4.2,
+        "ubs_pct": 23.5,
+        "combined_pct": 27.7
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "XRT": {
+        "cs_vol": 484360,
+        "ubs_vol": 1427897,
+        "total": 3670844,
+        "combined": 1912257,
+        "top_mpid": "UBSA",
+        "top_vol": 1427897,
+        "cs_pct": 13.2,
+        "ubs_pct": 38.9,
+        "combined_pct": 52.1
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2022-02-14": {
+    "label": "Feb 2022",
+    "stats": {
+      "GME": {
+        "cs_vol": 48537,
+        "ubs_vol": 133237,
+        "total": 824690,
+        "combined": 181774,
+        "top_mpid": "IATS",
+        "top_vol": 156060,
+        "cs_pct": 5.9,
+        "ubs_pct": 16.2,
+        "combined_pct": 22.0
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "XRT": {
+        "cs_vol": 111818,
+        "ubs_vol": 444171,
+        "total": 1287519,
+        "combined": 555989,
+        "top_mpid": "UBSA",
+        "top_vol": 444171,
+        "cs_pct": 8.7,
+        "ubs_pct": 34.5,
+        "combined_pct": 43.2
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2022-05-16": {
+    "label": "May 2022",
+    "stats": {
+      "GME": {
+        "cs_vol": 92897,
+        "ubs_vol": 163305,
+        "total": 1169866,
+        "combined": 256202,
+        "top_mpid": "IATS",
+        "top_vol": 163375,
+        "cs_pct": 7.9,
+        "ubs_pct": 14.0,
+        "combined_pct": 21.9
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      },
+      "XRT": {
+        "cs_vol": 291170,
+        "ubs_vol": 1791478,
+        "total": 5052663,
+        "combined": 2082648,
+        "top_mpid": "UBSA",
+        "top_vol": 1791478,
+        "cs_pct": 5.8,
+        "ubs_pct": 35.5,
+        "combined_pct": 41.2
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2022-08-15": {
+    "label": "Aug 2022",
+    "stats": {
+      "GME": {
+        "cs_vol": 512879,
+        "ubs_vol": 675476,
+        "total": 4665156,
+        "combined": 1188355,
+        "top_mpid": "IATS",
+        "top_vol": 869240,
+        "cs_pct": 11.0,
+        "ubs_pct": 14.5,
+        "combined_pct": 25.5
+      },
+      "AMC": {
+        "cs_vol": 1860921,
+        "ubs_vol": 3336951,
+        "total": 16807225,
+        "combined": 5197872,
+        "top_mpid": "UBSA",
+        "top_vol": 3336951,
+        "cs_pct": 11.1,
+        "ubs_pct": 19.9,
+        "combined_pct": 30.9
+      },
+      "XRT": {
+        "cs_vol": 237588,
+        "ubs_vol": 535361,
+        "total": 2094561,
+        "combined": 772949,
+        "top_mpid": "UBSA",
+        "top_vol": 535361,
+        "cs_pct": 11.3,
+        "ubs_pct": 25.6,
+        "combined_pct": 36.9
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2022-11-14": {
+    "label": "Nov 2022",
+    "stats": {
+      "GME": {
+        "cs_vol": 149546,
+        "ubs_vol": 243365,
+        "total": 1436993,
+        "combined": 392911,
+        "top_mpid": "UBSA",
+        "top_vol": 243365,
+        "cs_pct": 10.4,
+        "ubs_pct": 16.9,
+        "combined_pct": 27.3
+      },
+      "AMC": {
+        "cs_vol": 429670,
+        "ubs_vol": 732230,
+        "total": 7337157,
+        "combined": 1161900,
+        "top_mpid": "INCR",
+        "top_vol": 1052837,
+        "cs_pct": 5.9,
+        "ubs_pct": 10.0,
+        "combined_pct": 15.8
+      },
+      "XRT": {
+        "cs_vol": 275513,
+        "ubs_vol": 724141,
+        "total": 2324737,
+        "combined": 999654,
+        "top_mpid": "UBSA",
+        "top_vol": 724141,
+        "cs_pct": 11.9,
+        "ubs_pct": 31.1,
+        "combined_pct": 43.0
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2023-02-13": {
+    "label": "Feb 2023",
+    "stats": {
+      "GME": {
+        "cs_vol": 217278,
+        "ubs_vol": 241060,
+        "total": 1900684,
+        "combined": 458338,
+        "top_mpid": "IATS",
+        "top_vol": 256332,
+        "cs_pct": 11.4,
+        "ubs_pct": 12.7,
+        "combined_pct": 24.1
+      },
+      "AMC": {
+        "cs_vol": 1013940,
+        "ubs_vol": 2067047,
+        "total": 14466205,
+        "combined": 3080987,
+        "top_mpid": "UBSA",
+        "top_vol": 2067047,
+        "cs_pct": 7.0,
+        "ubs_pct": 14.3,
+        "combined_pct": 21.3
+      },
+      "XRT": {
+        "cs_vol": 189371,
+        "ubs_vol": 524322,
+        "total": 2220689,
+        "combined": 713693,
+        "top_mpid": "UBSA",
+        "top_vol": 524322,
+        "cs_pct": 8.5,
+        "ubs_pct": 23.6,
+        "combined_pct": 32.1
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2023-04-17": {
+    "label": "Apr 2023",
+    "stats": {
+      "GME": {
+        "cs_vol": 30014,
+        "ubs_vol": 156388,
+        "total": 1033603,
+        "combined": 186402,
+        "top_mpid": "UBSA",
+        "top_vol": 156388,
+        "cs_pct": 2.9,
+        "ubs_pct": 15.1,
+        "combined_pct": 18.0
+      },
+      "AMC": {
+        "cs_vol": 128449,
+        "ubs_vol": 667158,
+        "total": 4576759,
+        "combined": 795607,
+        "top_mpid": "UBSA",
+        "top_vol": 667158,
+        "cs_pct": 2.8,
+        "ubs_pct": 14.6,
+        "combined_pct": 17.4
+      },
+      "XRT": {
+        "cs_vol": 85701,
+        "ubs_vol": 554582,
+        "total": 1710260,
+        "combined": 640283,
+        "top_mpid": "UBSA",
+        "top_vol": 554582,
+        "cs_pct": 5.0,
+        "ubs_pct": 32.4,
+        "combined_pct": 37.4
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2023-05-15": {
+    "label": "May 2023 (pre-merger)",
+    "stats": {
+      "GME": {
+        "cs_vol": 29519,
+        "ubs_vol": 153666,
+        "total": 1209282,
+        "combined": 183185,
+        "top_mpid": "INCR",
+        "top_vol": 298091,
+        "cs_pct": 2.4,
+        "ubs_pct": 12.7,
+        "combined_pct": 15.1
+      },
+      "AMC": {
+        "cs_vol": 97023,
+        "ubs_vol": 476426,
+        "total": 4360651,
+        "combined": 573449,
+        "top_mpid": "INCR",
+        "top_vol": 553126,
+        "cs_pct": 2.2,
+        "ubs_pct": 10.9,
+        "combined_pct": 13.2
+      },
+      "XRT": {
+        "cs_vol": 68081,
+        "ubs_vol": 726277,
+        "total": 2842398,
+        "combined": 794358,
+        "top_mpid": "UBSA",
+        "top_vol": 726277,
+        "cs_pct": 2.4,
+        "ubs_pct": 25.6,
+        "combined_pct": 27.9
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2023-06-12": {
+    "label": "Jun 2023 (MERGER CLOSE)",
+    "stats": {
+      "GME": {
+        "cs_vol": 97819,
+        "ubs_vol": 440495,
+        "total": 3183833,
+        "combined": 538314,
+        "top_mpid": "INCR",
+        "top_vol": 536474,
+        "cs_pct": 3.1,
+        "ubs_pct": 13.8,
+        "combined_pct": 16.9
+      },
+      "AMC": {
+        "cs_vol": 205722,
+        "ubs_vol": 539241,
+        "total": 4635567,
+        "combined": 744963,
+        "top_mpid": "INCR",
+        "top_vol": 666922,
+        "cs_pct": 4.4,
+        "ubs_pct": 11.6,
+        "combined_pct": 16.1
+      },
+      "XRT": {
+        "cs_vol": 78156,
+        "ubs_vol": 722172,
+        "total": 2682844,
+        "combined": 800328,
+        "top_mpid": "UBSA",
+        "top_vol": 722172,
+        "cs_pct": 2.9,
+        "ubs_pct": 26.9,
+        "combined_pct": 29.8
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2023-07-17": {
+    "label": "Jul 2023 (post-merger)",
+    "stats": {
+      "GME": {
+        "cs_vol": 23690,
+        "ubs_vol": 191169,
+        "total": 1260452,
+        "combined": 214859,
+        "top_mpid": "INCR",
+        "top_vol": 281860,
+        "cs_pct": 1.9,
+        "ubs_pct": 15.2,
+        "combined_pct": 17.0
+      },
+      "AMC": {
+        "cs_vol": 309522,
+        "ubs_vol": 1079060,
+        "total": 8007012,
+        "combined": 1388582,
+        "top_mpid": "MLIX",
+        "top_vol": 1159299,
+        "cs_pct": 3.9,
+        "ubs_pct": 13.5,
+        "combined_pct": 17.3
+      },
+      "XRT": {
+        "cs_vol": 37724,
+        "ubs_vol": 848744,
+        "total": 2346091,
+        "combined": 886468,
+        "top_mpid": "UBSA",
+        "top_vol": 848744,
+        "cs_pct": 1.6,
+        "ubs_pct": 36.2,
+        "combined_pct": 37.8
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2023-09-11": {
+    "label": "Sep 2023",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 260749,
+        "total": 2012248,
+        "combined": 260749,
+        "top_mpid": "INCR",
+        "top_vol": 424337,
+        "cs_pct": 0.0,
+        "ubs_pct": 13.0,
+        "combined_pct": 13.0
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 1521010,
+        "total": 11727376,
+        "combined": 1521010,
+        "top_mpid": "INCR",
+        "top_vol": 2205232,
+        "cs_pct": 0.0,
+        "ubs_pct": 13.0,
+        "combined_pct": 13.0
+      },
+      "XRT": {
+        "cs_vol": 0,
+        "ubs_vol": 679441,
+        "total": 2654499,
+        "combined": 679441,
+        "top_mpid": "UBSA",
+        "top_vol": 679441,
+        "cs_pct": 0.0,
+        "ubs_pct": 25.6,
+        "combined_pct": 25.6
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2023-11-13": {
+    "label": "Nov 2023",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 263634,
+        "total": 2290709,
+        "combined": 263634,
+        "top_mpid": "INCR",
+        "top_vol": 309747,
+        "cs_pct": 0.0,
+        "ubs_pct": 11.5,
+        "combined_pct": 11.5
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 648089,
+        "total": 8098992,
+        "combined": 648089,
+        "top_mpid": "INCR",
+        "top_vol": 1921118,
+        "cs_pct": 0.0,
+        "ubs_pct": 8.0,
+        "combined_pct": 8.0
+      },
+      "XRT": {
+        "cs_vol": 0,
+        "ubs_vol": 853726,
+        "total": 4573405,
+        "combined": 853726,
+        "top_mpid": "UBSA",
+        "top_vol": 853726,
+        "cs_pct": 0.0,
+        "ubs_pct": 18.7,
+        "combined_pct": 18.7
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2024-01-15": {
+    "label": "Jan 2024",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 179158,
+        "total": 1183274,
+        "combined": 179158,
+        "top_mpid": "INCR",
+        "top_vol": 215612,
+        "cs_pct": 0.0,
+        "ubs_pct": 15.1,
+        "combined_pct": 15.1
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 758669,
+        "total": 5910779,
+        "combined": 758669,
+        "top_mpid": "MLIX",
+        "top_vol": 881190,
+        "cs_pct": 0.0,
+        "ubs_pct": 12.8,
+        "combined_pct": 12.8
+      },
+      "XRT": {
+        "cs_vol": 0,
+        "ubs_vol": 1017166,
+        "total": 3425457,
+        "combined": 1017166,
+        "top_mpid": "UBSA",
+        "top_vol": 1017166,
+        "cs_pct": 0.0,
+        "ubs_pct": 29.7,
+        "combined_pct": 29.7
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2024-03-11": {
+    "label": "Mar 2024",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 119373,
+        "total": 1150703,
+        "combined": 119373,
+        "top_mpid": "MSTX",
+        "top_vol": 167500,
+        "cs_pct": 0.0,
+        "ubs_pct": 10.4,
+        "combined_pct": 10.4
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 477968,
+        "total": 4470982,
+        "combined": 477968,
+        "top_mpid": "INCR",
+        "top_vol": 584441,
+        "cs_pct": 0.0,
+        "ubs_pct": 10.7,
+        "combined_pct": 10.7
+      },
+      "XRT": {
+        "cs_vol": 0,
+        "ubs_vol": 792647,
+        "total": 2458143,
+        "combined": 792647,
+        "top_mpid": "UBSA",
+        "top_vol": 792647,
+        "cs_pct": 0.0,
+        "ubs_pct": 32.2,
+        "combined_pct": 32.2
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2024-04-15": {
+    "label": "Apr 2024 (baseline)",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 240859,
+        "total": 1594975,
+        "combined": 240859,
+        "top_mpid": "MSPL",
+        "top_vol": 273300,
+        "cs_pct": 0.0,
+        "ubs_pct": 15.1,
+        "combined_pct": 15.1
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 944066,
+        "total": 8969651,
+        "combined": 944066,
+        "top_mpid": "INCR",
+        "top_vol": 1482326,
+        "cs_pct": 0.0,
+        "ubs_pct": 10.5,
+        "combined_pct": 10.5
+      },
+      "XRT": {
+        "cs_vol": 0,
+        "ubs_vol": 1074952,
+        "total": 3654066,
+        "combined": 1074952,
+        "top_mpid": "UBSA",
+        "top_vol": 1074952,
+        "cs_pct": 0.0,
+        "ubs_pct": 29.4,
+        "combined_pct": 29.4
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2024-05-06": {
+    "label": "May 6, 2024 (pre-event)",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 3173249,
+        "total": 11937276,
+        "combined": 3173249,
+        "top_mpid": "UBSA",
+        "top_vol": 3173249,
+        "cs_pct": 0.0,
+        "ubs_pct": 26.6,
+        "combined_pct": 26.6
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 1382290,
+        "total": 11924699,
+        "combined": 1382290,
+        "top_mpid": "INCR",
+        "top_vol": 2029172,
+        "cs_pct": 0.0,
+        "ubs_pct": 11.6,
+        "combined_pct": 11.6
+      },
+      "XRT": {
+        "cs_vol": 0,
+        "ubs_vol": 681058,
+        "total": 3328695,
+        "combined": 681058,
+        "top_mpid": "UBSA",
+        "top_vol": 681058,
+        "cs_pct": 0.0,
+        "ubs_pct": 20.5,
+        "combined_pct": 20.5
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2024-05-13": {
+    "label": "May 13, 2024 (EVENT)",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 8935557,
+        "total": 44330291,
+        "combined": 8935557,
+        "top_mpid": "UBSA",
+        "top_vol": 8935557,
+        "cs_pct": 0.0,
+        "ubs_pct": 20.2,
+        "combined_pct": 20.2
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 18063814,
+        "total": 95550114,
+        "combined": 18063814,
+        "top_mpid": "UBSA",
+        "top_vol": 18063814,
+        "cs_pct": 0.0,
+        "ubs_pct": 18.9,
+        "combined_pct": 18.9
+      },
+      "XRT": {
+        "cs_vol": 0,
+        "ubs_vol": 1290768,
+        "total": 5583924,
+        "combined": 1290768,
+        "top_mpid": "UBSA",
+        "top_vol": 1290768,
+        "cs_pct": 0.0,
+        "ubs_pct": 23.1,
+        "combined_pct": 23.1
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  },
+  "2024-05-20": {
+    "label": "May 20, 2024 (post-event)",
+    "stats": {
+      "GME": {
+        "cs_vol": 0,
+        "ubs_vol": 8230384,
+        "total": 33156803,
+        "combined": 8230384,
+        "top_mpid": "UBSA",
+        "top_vol": 8230384,
+        "cs_pct": 0.0,
+        "ubs_pct": 24.8,
+        "combined_pct": 24.8
+      },
+      "AMC": {
+        "cs_vol": 0,
+        "ubs_vol": 1811290,
+        "total": 10246671,
+        "combined": 1811290,
+        "top_mpid": "UBSA",
+        "top_vol": 1811290,
+        "cs_pct": 0.0,
+        "ubs_pct": 17.7,
+        "combined_pct": 17.7
+      },
+      "XRT": {
+        "cs_vol": 0,
+        "ubs_vol": 430454,
+        "total": 1931119,
+        "combined": 430454,
+        "top_mpid": "UBSA",
+        "top_vol": 430454,
+        "cs_pct": 0.0,
+        "ubs_pct": 22.3,
+        "combined_pct": 22.3
+      },
+      "KOSS": {
+        "cs_vol": 0,
+        "ubs_vol": 0,
+        "total": 0,
+        "combined": 0,
+        "top_mpid": "",
+        "top_vol": 0,
+        "cs_pct": 0,
+        "ubs_pct": 0,
+        "combined_pct": 0
+      }
+    }
+  }
+}

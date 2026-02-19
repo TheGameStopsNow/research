@@ -1,0 +1,13 @@
+{
+  "source": "UBS Q2 2024 6-K (ubs-20240630.htm)",
+  "filing_date": "2024-08-14",
+  "ncl_mentions": 33,
+  "key_findings": {
+    "rwa_decrease": "USD 15.1bn decrease to USD 511.4bn",
+    "ncl_wind_down": "Selling Credit Suisse US mortgage servicing; closing expected Q1 2025",
+    "scffs": "Supply Chain Finance Funds managed in NCL division",
+    "rwa_impact_ncl_sale": "Reduces Group RWA by ~1.3bn, LRD by ~1.7bn",
+    "credit_loss_q2": "95M vs 106M (prior)",
+    "basel_iii_impact": "~5% RWA increase from Jan 2025 (FRTB)"
+  }
+}

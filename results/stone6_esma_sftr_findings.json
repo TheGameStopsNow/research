@@ -1,0 +1,36 @@
+{
+  "stone6_description": "European EMIR/SFTR Swap Data Investigation",
+  "key_findings": {
+    "individual_positions": "NOT publicly accessible. SFTR and EMIR individual transaction/position data is confidential, available only to national/European authorities.",
+    "aggregated_stats": "Weekly aggregated statistics published by Trade Repositories covering broad asset classes (Equities, Interest Rates, etc.)",
+    "ticker_transparency": "Ticker-level data (e.g. GME) is NOT disclosed in public aggregate reports. Positions grouped by asset class only.",
+    "gme_inference": "Connection to GME can only be inferred by matching timing of \"Equities\" notional spikes with GME market events."
+  },
+  "data_portals": {
+    "icma_sftr": {
+      "url": "https://www.icmagroup.org/market-practice-and-regulatory-policy/repo-and-collateral-markets/market-data/sftr-public-data/",
+      "description": "ICMA aggregates SFTR data from all TRs (DTCC, Regis-TR, KDPW). Includes total loan values, transaction counts, collateral types.",
+      "coverage": "Securities Financing (repos, lending) \u2014 GME lending would be here"
+    },
+    "dtcc_emir": {
+      "url": "https://www.dtcc.com/repository-otc-data/emir-public-reports",
+      "description": "DTCC GTR publishes aggregate EMIR reports including Open Positions and Transaction Volumes by asset class.",
+      "coverage": "OTC Derivatives (equity swaps/TRS) \u2014 GME swaps would be here",
+      "note": "DTCC Ireland (DDRIE) in Dublin cited by researchers for equity notional spikes"
+    },
+    "regis_tr": {
+      "url": "https://www.regis-tr.com/en/home/public-data.html",
+      "description": "European TR with downloadable weekly CSV/ZIP of aggregated SFTR and EMIR data."
+    }
+  },
+  "reporting_split": {
+    "sftr": "Securities lending involving GME reported here",
+    "emir": "Equity swap/CFD positions (Total Return Swaps) reported here"
+  },
+  "nscc_pqd": {
+    "correct_pdf_url": "https://www.dtcc.com/-/media/Files/Downloads/legal/policy-and-compliance/CPMI-IOSCO-Public-Quantitative-Disclosures-Q2-2024.pdf",
+    "excel_url": "https://www.dtcc.com/-/media/Files/Downloads/legal/policy-and-compliance/DTCC-PQD-2024Q2.xlsx",
+    "note": "Previous download was a 500 error HTML page. Correct filename uses hyphens and includes \"Public\"."
+  },
+  "retrieved": "2026-02-18"
+}

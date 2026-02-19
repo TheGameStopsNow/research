@@ -1,0 +1,31 @@
+{
+  "action": "EDGAR Balance Sheet Verification",
+  "pdf_path": "[BUNDLE_PATH]/results/CDRG_BS_ONLY_FS_2024_edgar.pdf",
+  "method": "prior_ocr_crossref",
+  "targets": {
+    "Total Assets (~$58.6B)": {
+      "status": "VERIFIED_VIA_PRIOR_OCR",
+      "matched": "58,608"
+    },
+    "Member's Capital (~$6.2B)": {
+      "status": "VERIFIED_VIA_PRIOR_OCR",
+      "matched": "6,216"
+    },
+    "Derivative Notional (~$2.16T)": {
+      "status": "VERIFIED_VIA_PRIOR_OCR",
+      "matched": "2,159,664"
+    },
+    "SSNYP / Shorts (~$35.17B)": {
+      "status": "NOT_FOUND",
+      "matched": null
+    }
+  },
+  "verdict": "PARTIAL_MATCH",
+  "pages_extracted": 19,
+  "total_characters": 0,
+  "notes": [
+    "Native PDF text only yielded 0/4 targets \u2014 PDF is mostly scanned images",
+    "Using prior OCR from citadel_ocr.py (67671 chars)"
+  ],
+  "text_sample_first_2000": "UNITED STATES OMB APPROVAL\nOMB Number:\nSECURITIES AND EXCHANGE COMMISSION\nExpires:\nWashington, D.C. 20549 Estimated average burden\nhours per response:\nANNUAL REPORTS\nSEC FILE NUMBER\nFORM X-17A-5\n8-53574\nPART III\nFACING PAGE\nInformation Required Pursuant to Rules 17a-5, 17a-12, and 18a-7 under the Securities Exchange Act of 1934\n01/01/24 12/31/24\nFILING FOR THE PERIOD BEGINNING _____________________ AND ENDING ______________________\nMM/DD/YY MM/DD/YY\nA.REGISTRANT IDENTIFICATION\nCitadel Securities LLC\nNAME OF FIRM: _______________________________________________________________________\nTYPE OF REGISTRANT (check all applicable boxes):\nBroker-dealer Security-based swap dealer Major security-based swap participant\nCheck here if respondent is also an OTC derivatives dealer\nADDRESS OF PRINCIPAL PLACE OF BUSINESS: (Do not use a P.O. box no.)\n200 South Biscayne Boulevard, Suite 3300\n_____________________________________________________________________________________\n(No. and Street)\nMiami Florida 33131\n_____________________________________________________________________________________\n(City) (State) (Zip Code)\nPERSON TO CONTACT WITH REGARD TO THIS FILING\nMichael Henry (212) 651-7726\nMichael.Henry@citadel.com\n_____________________________________________________________________________________\n(Name) (Area Code \u0096 Telephone Number) (Email Address)\nB.ACCOUNTANT IDENTIFICATION\nINDEPENDENT PUBLIC ACCOUNTANT whose reports are contained in this filing*\nPricewaterhouseCoopers LLP\n_____________________________________________________________________________________\n(Name \u0096 if individual, state last, first, and middle name)\n1 North Wacker Drive Chicago Illinois 60606\n_____________________________________________________________________________________\n(Address) (City) (State) (Zip Code)\n10/20/2003 238\n_____________________________________________________________________________________\n(Date of Registration with PCAOB)(if applicable) (PCAOB Registration Number, if applicable)\nFOR O"
+}

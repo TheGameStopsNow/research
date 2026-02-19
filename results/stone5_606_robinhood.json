@@ -1,0 +1,14 @@
+{
+  "stone5": {
+    "description": "Rule 606a Order Routing Analysis",
+    "robinhood_10q_searched": true,
+    "edgar_606_hits": 2,
+    "data_source": "SEC EDGAR EFTS and 10-Q filings"
+  },
+  "stone6": {
+    "description": "European EMIR/SFTR Swap Data",
+    "status": "ESMA portal accessible, data portal structure identified",
+    "note": "SFTR data is aggregated \u2014 individual position data not publicly available",
+    "key_question": "Were UBS/CS entities reporting GME equity swap positions to European TRs?"
+  }
+}

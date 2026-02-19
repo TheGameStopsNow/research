@@ -1,0 +1,422 @@
+{
+  "T1_T4_rolling_cgd_velocity": {
+    "tickers_analyzed": 39,
+    "false_positive_rate_pct": 94.9,
+    "breached_tickers": [
+      "AAPL",
+      "ABNB",
+      "AMC",
+      "AMD",
+      "ARM",
+      "BAC",
+      "BB",
+      "BBBY",
+      "BYND",
+      "CHWY",
+      "CRWD",
+      "DASH",
+      "DJT",
+      "DKNG",
+      "DUOL",
+      "GME",
+      "HOOD",
+      "IEP",
+      "LCID",
+      "LYFT",
+      "META",
+      "MSFT",
+      "NET",
+      "NVDA",
+      "PLTR",
+      "RBLX",
+      "RDDT",
+      "RIVN",
+      "SIRI",
+      "SNAP",
+      "SOFI",
+      "TSLA",
+      "U",
+      "UBER",
+      "W",
+      "XYZ",
+      "ZM"
+    ],
+    "not_breached_tickers": [
+      "AFRM",
+      "SNOW"
+    ],
+    "per_ticker": {
+      "AAPL": {
+        "dates_available": 438,
+        "peak_rolling_R": 3955.6915,
+        "peak_velocity_dR_dt": 3954.0116,
+        "breach_date": "20240529",
+        "breached": true
+      },
+      "ABNB": {
+        "dates_available": 56,
+        "peak_rolling_R": 4.5634,
+        "peak_velocity_dR_dt": 2.8245,
+        "breach_date": "20210114",
+        "breached": true
+      },
+      "AFRM": {
+        "dates_available": 56,
+        "peak_rolling_R": 0.5228,
+        "peak_velocity_dR_dt": 0.251,
+        "breach_date": null,
+        "breached": false
+      },
+      "AMC": {
+        "dates_available": 97,
+        "peak_rolling_R": 15.3103,
+        "peak_velocity_dR_dt": 10.218,
+        "breach_date": "20240510",
+        "breached": true
+      },
+      "AMD": {
+        "dates_available": 190,
+        "peak_rolling_R": 53.8988,
+        "peak_velocity_dR_dt": 39.1441,
+        "breach_date": "20250529",
+        "breached": true
+      },
+      "ARM": {
+        "dates_available": 58,
+        "peak_rolling_R": 3.771,
+        "peak_velocity_dR_dt": 1.8578,
+        "breach_date": "20231013",
+        "breached": true
+      },
+      "BAC": {
+        "dates_available": 190,
+        "peak_rolling_R": 42.6243,
+        "peak_velocity_dR_dt": 41.924,
+        "breach_date": "20250530",
+        "breached": true
+      },
+      "BB": {
+        "dates_available": 62,
+        "peak_rolling_R": 4.9207,
+        "peak_velocity_dR_dt": 3.1375,
+        "breach_date": "20251224",
+        "breached": true
+      },
+      "BBBY": {
+        "dates_available": 945,
+        "peak_rolling_R": 76.9988,
+        "peak_velocity_dR_dt": 60.1967,
+        "breach_date": "20200130",
+        "breached": true
+      },
+      "BYND": {
+        "dates_available": 245,
+        "peak_rolling_R": 57.3566,
+        "peak_velocity_dR_dt": 33.0125,
+        "breach_date": "20190605",
+        "breached": true
+      },
+      "CHWY": {
+        "dates_available": 516,
+        "peak_rolling_R": 170.6234,
+        "peak_velocity_dR_dt": 156.4675,
+        "breach_date": "20190806",
+        "breached": true
+      },
+      "CRWD": {
+        "dates_available": 53,
+        "peak_rolling_R": 1.0632,
+        "peak_velocity_dR_dt": 0.5604,
+        "breach_date": "20190815",
+        "breached": true
+      },
+      "DASH": {
+        "dates_available": 56,
+        "peak_rolling_R": 5.2481,
+        "peak_velocity_dR_dt": 2.0674,
+        "breach_date": "20210113",
+        "breached": true
+      },
+      "DJT": {
+        "dates_available": 122,
+        "peak_rolling_R": 9.6443,
+        "peak_velocity_dR_dt": 5.678,
+        "breach_date": "20240423",
+        "breached": true
+      },
+      "DKNG": {
+        "dates_available": 60,
+        "peak_rolling_R": 1.6734,
+        "peak_velocity_dR_dt": 0.9965,
+        "breach_date": "20200605",
+        "breached": true
+      },
+      "DUOL": {
+        "dates_available": 56,
+        "peak_rolling_R": 1.1173,
+        "peak_velocity_dR_dt": 0.6804,
+        "breach_date": "20210924",
+        "breached": true
+      },
+      "GME": {
+        "dates_available": 2038,
+        "peak_rolling_R": 878.9984,
+        "peak_velocity_dR_dt": 729.0987,
+        "breach_date": "20180523",
+        "breached": true
+      },
+      "HOOD": {
+        "dates_available": 56,
+        "peak_rolling_R": 4.6703,
+        "peak_velocity_dR_dt": 1.717,
+        "breach_date": "20210831",
+        "breached": true
+      },
+      "IEP": {
+        "dates_available": 62,
+        "peak_rolling_R": 1.3503,
+        "peak_velocity_dR_dt": 1.2538,
+        "breach_date": "20251201",
+        "breached": true
+      },
+      "LCID": {
+        "dates_available": 60,
+        "peak_rolling_R": 5.7207,
+        "peak_velocity_dR_dt": 2.8129,
+        "breach_date": "20210820",
+        "breached": true
+      },
+      "LYFT": {
+        "dates_available": 117,
+        "peak_rolling_R": 4.817,
+        "peak_velocity_dR_dt": 2.3483,
+        "breach_date": "20190503",
+        "breached": true
+      },
+      "META": {
+        "dates_available": 43,
+        "peak_rolling_R": 3.4165,
+        "peak_velocity_dR_dt": 1.9731,
+        "breach_date": "20251229",
+        "breached": true
+      },
+      "MSFT": {
+        "dates_available": 195,
+        "peak_rolling_R": 5.9001,
+        "peak_velocity_dR_dt": 3.2035,
+        "breach_date": "20250521",
+        "breached": true
+      },
+      "NET": {
+        "dates_available": 53,
+        "peak_rolling_R": 1.2073,
+        "peak_velocity_dR_dt": 0.8107,
+        "breach_date": "20191113",
+        "breached": true
+      },
+      "NVDA": {
+        "dates_available": 256,
+        "peak_rolling_R": 5.0453,
+        "peak_velocity_dR_dt": 2.4539,
+        "breach_date": "20250224",
+        "breached": true
+      },
+      "PLTR": {
+        "dates_available": 100,
+        "peak_rolling_R": 5.0401,
+        "peak_velocity_dR_dt": 2.8054,
+        "breach_date": "20201204",
+        "breached": true
+      },
+      "RBLX": {
+        "dates_available": 56,
+        "peak_rolling_R": 3.8447,
+        "peak_velocity_dR_dt": 2.5771,
+        "breach_date": "20210416",
+        "breached": true
+      },
+      "RDDT": {
+        "dates_available": 58,
+        "peak_rolling_R": 8.286,
+        "peak_velocity_dR_dt": 3.5386,
+        "breach_date": "20240422",
+        "breached": true
+      },
+      "RIVN": {
+        "dates_available": 56,
+        "peak_rolling_R": 7.4955,
+        "peak_velocity_dR_dt": 5.6975,
+        "breach_date": "20211214",
+        "breached": true
+      },
+      "SIRI": {
+        "dates_available": 62,
+        "peak_rolling_R": 4.971,
+        "peak_velocity_dR_dt": 4.2011,
+        "breach_date": "20251203",
+        "breached": true
+      },
+      "SNAP": {
+        "dates_available": 54,
+        "peak_rolling_R": 3.0228,
+        "peak_velocity_dR_dt": 1.5001,
+        "breach_date": "20170407",
+        "breached": true
+      },
+      "SNOW": {
+        "dates_available": 33,
+        "peak_rolling_R": 0.0145,
+        "peak_velocity_dR_dt": 0.0145,
+        "breach_date": null,
+        "breached": false
+      },
+      "SOFI": {
+        "dates_available": 60,
+        "peak_rolling_R": 1.906,
+        "peak_velocity_dR_dt": 0.8938,
+        "breach_date": "20210708",
+        "breached": true
+      },
+      "TSLA": {
+        "dates_available": 438,
+        "peak_rolling_R": 3382.9238,
+        "peak_velocity_dR_dt": 3254.7738,
+        "breach_date": "20240529",
+        "breached": true
+      },
+      "U": {
+        "dates_available": 464,
+        "peak_rolling_R": 149.1742,
+        "peak_velocity_dR_dt": 143.1186,
+        "breach_date": "20240430",
+        "breached": true
+      },
+      "UBER": {
+        "dates_available": 55,
+        "peak_rolling_R": 3.6884,
+        "peak_velocity_dR_dt": 2.4013,
+        "breach_date": "20190613",
+        "breached": true
+      },
+      "W": {
+        "dates_available": 60,
+        "peak_rolling_R": 10.767,
+        "peak_velocity_dR_dt": 7.1265,
+        "breach_date": "20170131",
+        "breached": true
+      },
+      "XYZ": {
+        "dates_available": 128,
+        "peak_rolling_R": 5.1695,
+        "peak_velocity_dR_dt": 3.6587,
+        "breach_date": "20250827",
+        "breached": true
+      },
+      "ZM": {
+        "dates_available": 55,
+        "peak_rolling_R": 2.9062,
+        "peak_velocity_dR_dt": 1.2097,
+        "breach_date": "20190604",
+        "breached": true
+      }
+    },
+    "verdict": "Rolling CGD FP Rate: 94.9% (37/39 tickers breach R_rolling >= 1.0)."
+  },
+  "T2_expanded_vanna_lag": {
+    "events": 74,
+    "dates_scanned": 367,
+    "median_lag_min": 6.0,
+    "mean_lag_min": 6.41,
+    "pct_in_3_5_window": 24.3,
+    "pct_in_7_9_window": 24.3,
+    "lag_distribution": {
+      "1": 9,
+      "2": 8,
+      "3": 7,
+      "4": 7,
+      "5": 4,
+      "6": 3,
+      "7": 7,
+      "8": 5,
+      "9": 6,
+      "10": 2,
+      "11": 7,
+      "12": 3,
+      "13": 1,
+      "14": 2,
+      "15": 3
+    },
+    "verdict": "74 events, median=6.0min, 3-5min window=24.3%, 7-9min window=24.3%"
+  },
+  "T3_regime_price_impact": {
+    "pre_breach_cascades": 1538549,
+    "post_breach_cascades": 8222037,
+    "pre_cpi_median_bps": -7.6628,
+    "post_cpi_median_bps": -8.7451,
+    "pre_cpi_mean_bps": -19.2616,
+    "post_cpi_mean_bps": -18.0341,
+    "verdict": "Price impact SPIKES 1.14\u00d7 after Confinement Field fails. Pre=-7.66 bps \u2192 Post=-8.75 bps."
+  },
+  "T5_code12_volume": {
+    "dates_analyzed": 2036,
+    "correlation": 0.5911,
+    "days_with_code12": 2036,
+    "pct_with_code12": 100.0,
+    "code12_mean_vol": 657465.0,
+    "code12_median_vol": 105394.0,
+    "code12_p95_vol": 2080276.0,
+    "top_10_days": [
+      {
+        "date": "20240514",
+        "code12_vol": 56897389,
+        "options_vol": 651660
+      },
+      {
+        "date": "20240607",
+        "code12_vol": 52604004,
+        "options_vol": 2077076
+      },
+      {
+        "date": "20210224",
+        "code12_vol": 41375457,
+        "options_vol": 381012
+      },
+      {
+        "date": "20240603",
+        "code12_vol": 38644675,
+        "options_vol": 796150
+      },
+      {
+        "date": "20240606",
+        "code12_vol": 33607375,
+        "options_vol": 1346667
+      },
+      {
+        "date": "20240513",
+        "code12_vol": 25762428,
+        "options_vol": 573040
+      },
+      {
+        "date": "20240515",
+        "code12_vol": 25658642,
+        "options_vol": 682547
+      },
+      {
+        "date": "20210225",
+        "code12_vol": 21719598,
+        "options_vol": 1098408
+      },
+      {
+        "date": "20240517",
+        "code12_vol": 21613444,
+        "options_vol": 968210
+      },
+      {
+        "date": "20210126",
+        "code12_vol": 21473986,
+        "options_vol": 1277615
+      }
+    ],
+    "verdict": "Code 12 \u2194 Options r=0.5911. 100.0% of days show Code 12. Mean vol=657,465 shares."
+  }
+}

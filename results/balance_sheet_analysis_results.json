@@ -1,0 +1,110 @@
+{
+  "_metadata": {
+    "title": "Client Autopsy \u2014 Third Point & AETOS Keyword Extraction",
+    "date": "2026-02-18",
+    "purpose": "Determine if 'orderly wind down' and 'margin call' references are boilerplate or event-specific",
+    "keywords_searched": [
+      "orderly wind down",
+      "prime broker",
+      "forced liquidation",
+      "margin call",
+      "swap",
+      "ubs",
+      "liquidat"
+    ]
+  },
+  "third_point": [
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "orderly wind down",
+      "hit_number": 1,
+      "context": "ty to tender Shares at a per-Share price based on our net asset value or other applicable measurement, (iii) a merger or other transaction in which shareholders will receive cash or shares of a listed company, (iv) a sale of all or substantially all of our assets either on a complete portfolio basis or individually to an unaffiliated third party or an affiliate followed by a liquidation or (v) an orderly wind down or liquidation of the Fund. If no Liquidity Event occurs by the ten-year anniversary of the Commencement Date, the Board will consider whether it is appropriate to wind-down the Fund with the net proceeds to be returned to investors as investments are liquidated. Investment Process Sourcing The TP Private Credit Team maintains what we believe are extensive direct sourcing relationships across mul",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "prime broker",
+      "hit_number": 1,
+      "context": "professionals. Moreover, the Personnel Services Agreement may be terminated by either party on thirty days' notice, and the termination of the Personnel Services Agreement may have a material adverse consequence on our operations. 34 Necessity for Counterparty Trading Relationships; Counterparty Risk We have relationships with counterparties used to obtain financing, derivative intermediation and prime brokerage services; however, there can be no assurance that we will be able to maintain such relationships or establish new ones. An inability to establish or maintain such relationships would limit our trading activities and could create losses, preclude us from engaging in certain transactions, financing, derivative intermediation and prime brokerage services and prevent us from trading at optimal rat",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "prime broker",
+      "hit_number": 2,
+      "context": "sed to obtain financing, derivative intermediation and prime brokerage services; however, there can be no assurance that we will be able to maintain such relationships or establish new ones. An inability to establish or maintain such relationships would limit our trading activities and could create losses, preclude us from engaging in certain transactions, financing, derivative intermediation and prime brokerage services and prevent us from trading at optimal rates and terms. Moreover, a disruption in the financing, derivative intermediation and prime brokerage services provided by any such relationships before we establish additional relationships could have a significant impact on our business due to our reliance on such counterparties. Some of the markets in which we may affect our transactions are",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "prime broker",
+      "hit_number": 3,
+      "context": "h relationships or establish new ones. An inability to establish or maintain such relationships would limit our trading activities and could create losses, preclude us from engaging in certain transactions, financing, derivative intermediation and prime brokerage services and prevent us from trading at optimal rates and terms. Moreover, a disruption in the financing, derivative intermediation and prime brokerage services provided by any such relationships before we establish additional relationships could have a significant impact on our business due to our reliance on such counterparties. Some of the markets in which we may affect our transactions are \"over-the- counter\" or \"interdealer\" markets. The participants in such markets are typically not subject to credit evaluation and regulatory oversight",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "prime broker",
+      "hit_number": 4,
+      "context": "our counterparties could become insolvent or the subject of insolvency proceedings. If one or more of our counterparties were to become insolvent or the subject of insolvency proceedings in the United States (either under the U.S. Securities Investor Protection Act of 1970, as amended or the U.S. Bankruptcy Code), there exists the risk that the recovery of our securities and other assets from our prime brokers or broker-dealers will be delayed or be of a value less than the value of the securities or assets originally entrusted to such prime broker or broker-dealer. The insolvency of such prime broker or broker-dealer could seriously damage our operations, and we could lose a substantial portion or all of our assets held with such prime broker or broker- dealer. Securities and other assets deposited w",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "prime broker",
+      "hit_number": 5,
+      "context": "ent or the subject of insolvency proceedings in the United States (either under the U.S. Securities Investor Protection Act of 1970, as amended or the U.S. Bankruptcy Code), there exists the risk that the recovery of our securities and other assets from our prime brokers or broker-dealers will be delayed or be of a value less than the value of the securities or assets originally entrusted to such prime broker or broker-dealer. The insolvency of such prime broker or broker-dealer could seriously damage our operations, and we could lose a substantial portion or all of our assets held with such prime broker or broker- dealer. Securities and other assets deposited with custodians or brokers may not be clearly identified as being our assets, and hence we may be exposed to a credit risk with regard to such",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "margin call",
+      "hit_number": 1,
+      "context": "tive investment opportunities in disrupted credit markets is difficult and involves a significant degree of uncertainty. During periods of \"credit squeezes\" or \"flights to quality,\" the market for fixed income investments can become substantially reduced. This poses a particular risk that leveraged credit instrument positions we hold may need to be sold at discounts to fair value in order to meet margin calls. At the same time, the dealers may correspondingly reduce the value of outstanding positions, resulting in additional margin calls as loan to value triggers are hit under prime brokerage and swap agreements. PIK Interest Payments Certain of our debt investments may contain provisions providing for the payment of PIK interest. Because PIK interest results in an increase in the size of the loan ba",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "margin call",
+      "hit_number": 2,
+      "context": "iods of \"credit squeezes\" or \"flights to quality,\" the market for fixed income investments can become substantially reduced. This poses a particular risk that leveraged credit instrument positions we hold may need to be sold at discounts to fair value in order to meet margin calls. At the same time, the dealers may correspondingly reduce the value of outstanding positions, resulting in additional margin calls as loan to value triggers are hit under prime brokerage and swap agreements. PIK Interest Payments Certain of our debt investments may contain provisions providing for the payment of PIK interest. Because PIK interest results in an increase in the size of the loan balance of the underlying loan, the receipt by us of PIK interest will have the effect of increasing our assets under management. As",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "swap",
+      "hit_number": 1,
+      "context": "entive Fees. We will accrue, but will not pay, a Capital Gains Incentive Fee with respect to unrealized appreciation because a Capital Gains Incentive Fee would be owed to the Adviser if we were to sell the relevant investment and realize a capital gain. For the purpose of computing the Capital Gains Incentive Fees, the calculation methodology will look through derivative financial instruments or swaps as if we owned the reference assets directly. Numerical examples of the application of the Incentive Fee are set forth below. 11 Examples of Quarterly Incentive Fee Calculation Example 1: Income Related Portion of Incentive Fee( 1 ): Income Related Portion of Incentive Fee( 1 ): Alternative 1 Assumptions \u00b7 Investment income (including interest, dividends, fees, etc.) = 1.25% \u00b7 Hurdle Rate (2) =",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "swap",
+      "hit_number": 2,
+      "context": "ncome investments can become substantially reduced. This poses a particular risk that leveraged credit instrument positions we hold may need to be sold at discounts to fair value in order to meet margin calls. At the same time, the dealers may correspondingly reduce the value of outstanding positions, resulting in additional margin calls as loan to value triggers are hit under prime brokerage and swap agreements. PIK Interest Payments Certain of our debt investments may contain provisions providing for the payment of PIK interest. Because PIK interest results in an increase in the size of the loan balance of the underlying loan, the receipt by us of PIK interest will have the effect of increasing our assets under management. As a result, because the Management Fee that we pay to the Adviser is",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "swap",
+      "hit_number": 3,
+      "context": "ted derivatives user under Rule 18f-4, which will require us to limit our derivatives exposure to 10% of our net assets at any time, excluding certain currency and interest rate hedging transactions. See \" \u2014 Regulation of Derivative Instruments and Financial Commitment Transactions in General \" below. We may seek to utilize instruments such as forward contracts, currency options and interest rate swaps, caps, collars and floors to seek to hedge against fluctuations in the relative values of our portfolio positions from changes in currency exchange rates and market interest rates and the relative value of certain debt securities from changes in market interest rates, and such hedging activities may be aimed at protecting our unrealized gains in the value of the portfolio, enhancing or preservin",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "swap",
+      "hit_number": 4,
+      "context": "e of correlation between the performance of the instruments used in the hedging strategy and the performance of our investments being hedged. Since the characteristics of many instruments change as markets change or time passes, the success of our hedging strategy will also be subject to the Adviser's ability to continually recalculate, adjust and execute hedges in an efficient and timely manner. Swap Agreements Swap agreements are privately negotiated over-the-counter derivative products in which two parties agree to exchange actual or contingent payment streams that may be calculated in relation to a rate, index, instrument, or certain securities, and a particular \"notional amount.\" We will only invest in swap agreements to the extent consistent with Rule 18f-4 under the 1940 Act and our com",
+      "is_boilerplate": null
+    },
+    {
+      "entity": "THIRD POINT (Form 10-12G)",
+      "keyword": "swap",
+      "hit_number": 5,
+      "context": "between the performance of the instruments used in the hedging strategy and the performance of our investments being hedged. Since the characteristics of many instruments change as markets change or time passes, the success of our hedging strategy will also be subject to the Adviser's ability to continually recalculate, adjust and execute hedges in an efficient and timely manner. Swap Agreements Swap agreements are privately negotiated over-the-counter derivative products in which two parties agree to exchange actual or contingent payment streams that may be calculated in relation to a rate, index, instrument, or certain securities, and a particular \"notional amount.\" We will only invest in swap agreements to the extent consistent with Rule 18f-4 under the 1940 Act and our compliance policies",
+      "is_boilerplate": null
+    }
+  ],
+  "aetos": []
+}

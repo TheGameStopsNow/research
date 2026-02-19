@@ -1,0 +1,395 @@
+{
+  "Citadel_2020-09-30": [
+    {
+      "value_thousands": 1140,
+      "shares": 111805,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 20568,
+      "shares": 2016500,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 26215,
+      "shares": 2570100,
+      "type": "Put"
+    }
+  ],
+  "Citadel_2020-12-31": [
+    {
+      "value_thousands": 32294,
+      "shares": 1714100,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 41910,
+      "shares": 2224500,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 4091,
+      "shares": 217132,
+      "type": "Shares"
+    }
+  ],
+  "Citadel_2021-03-31": [
+    {
+      "value_thousands": 432410,
+      "shares": 2278000,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 620977,
+      "shares": 3271400,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 4253,
+      "shares": 22405,
+      "type": "Shares"
+    }
+  ],
+  "Susquehanna_2020-09-30": [
+    {
+      "value_thousands": 694,
+      "shares": 68083,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 44636,
+      "shares": 4376045,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 602,
+      "shares": 59000,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 28259,
+      "shares": 2770500,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 6654,
+      "shares": 652400,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 462,
+      "shares": 45300,
+      "type": "Call"
+    }
+  ],
+  "Susquehanna_2020-12-31": [
+    {
+      "value_thousands": 46048,
+      "shares": 2444172,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 814,
+      "shares": 43194,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 1042,
+      "shares": 55300,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 90946,
+      "shares": 4827300,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 853,
+      "shares": 45300,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 33857,
+      "shares": 1797100,
+      "type": "Call"
+    }
+  ],
+  "Susquehanna_2021-03-31": [
+    {
+      "value_thousands": 14279,
+      "shares": 75223,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 546,
+      "shares": 2876,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 13026,
+      "shares": 68621,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 36870,
+      "shares": 189600,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 1159273,
+      "shares": 5961500,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 643701,
+      "shares": 3310200,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 28041,
+      "shares": 144200,
+      "type": "Call"
+    }
+  ],
+  "Jane Street_2020-09-30": [
+    {
+      "value_thousands": 467,
+      "shares": 45743,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 82,
+      "shares": 8000,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 1522,
+      "shares": 149187,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 10265,
+      "shares": 1006400,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 10270,
+      "shares": 1006900,
+      "type": "Put"
+    }
+  ],
+  "Jane Street_2020-12-31": [
+    {
+      "value_thousands": 3813,
+      "shares": 202376,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 151,
+      "shares": 8000,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 104,
+      "shares": 5500,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 29694,
+      "shares": 1576100,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 20159,
+      "shares": 1070000,
+      "type": "Put"
+    }
+  ],
+  "Jane Street_2021-03-31": [
+    {
+      "value_thousands": 79453,
+      "shares": 418570,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 17340,
+      "shares": 91352,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 661713,
+      "shares": 3486000,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 674943,
+      "shares": 3555700,
+      "type": "Put"
+    }
+  ],
+  "Melvin_2020-12-31": [
+    {
+      "type": "Call",
+      "shares": 683243,
+      "value_thousands": 341703
+    }
+  ],
+  "Melvin_2020-09-30": [
+    {
+      "type": "Call",
+      "shares": 380000,
+      "value_thousands": 58330
+    }
+  ],
+  "Melvin_2020-06-30": [
+    {
+      "type": "Call",
+      "shares": 750000,
+      "value_thousands": 106838
+    }
+  ],
+  "Melvin_2020-03-31": [
+    {
+      "type": "Put",
+      "shares": 400000,
+      "value_thousands": 10716
+    }
+  ],
+  "Citadel_2020-03-31": [
+    {
+      "value_thousands": 330,
+      "shares": 94299,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 3471,
+      "shares": 991700,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 3184,
+      "shares": 909600,
+      "type": "Put"
+    }
+  ],
+  "Citadel_2020-06-30": [
+    {
+      "value_thousands": 7426,
+      "shares": 1711100,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 6601,
+      "shares": 1520900,
+      "type": "Put"
+    }
+  ],
+  "Susquehanna_2020-03-31": [
+    {
+      "value_thousands": 164,
+      "shares": 46904,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 2705,
+      "shares": 772832,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 4073,
+      "shares": 1163800,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 434,
+      "shares": 124100,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 5979,
+      "shares": 1708400,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 735,
+      "shares": 209900,
+      "type": "Call"
+    }
+  ],
+  "Susquehanna_2020-06-30": [
+    {
+      "value_thousands": 6379,
+      "shares": 1469738,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 209,
+      "shares": 48078,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 7119,
+      "shares": 1640300,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 299,
+      "shares": 68900,
+      "type": "Put"
+    },
+    {
+      "value_thousands": 5582,
+      "shares": 1286200,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 236,
+      "shares": 54300,
+      "type": "Call"
+    }
+  ],
+  "Jane Street_2020-03-31": [
+    {
+      "value_thousands": 164,
+      "shares": 46718,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 28,
+      "shares": 8000,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 2398,
+      "shares": 685000,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 292,
+      "shares": 83400,
+      "type": "Put"
+    }
+  ],
+  "Jane Street_2020-06-30": [
+    {
+      "value_thousands": 178,
+      "shares": 40959,
+      "type": "Shares"
+    },
+    {
+      "value_thousands": 35,
+      "shares": 8000,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 3325,
+      "shares": 766100,
+      "type": "Call"
+    },
+    {
+      "value_thousands": 3590,
+      "shares": 827300,
+      "type": "Put"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "Citadel Advisors": {
+    "cik": "0001423053",
+    "ctr_filings": [],
+    "nt_filings": [],
+    "amendment_filings": [
+      {
+        "form": "13F-HR/A",
+        "date": "2022-03-11",
+        "accession": "0000950123-22-003427"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2021-05-21",
+        "accession": "0000950123-21-007263"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2021-05-21",
+        "accession": "0000950123-21-007261"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2020-02-14",
+        "accession": "0000950123-20-002478"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2019-11-14",
+        "accession": "0000950123-19-011341"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2019-11-14",
+        "accession": "0000950123-19-011339"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2019-08-14",
+        "accession": "0000950123-19-008322"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2019-08-14",
+        "accession": "0000950123-19-008318"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2019-05-15",
+        "accession": "0000950123-19-005412"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2019-05-15",
+        "accession": "0000950123-19-005410"
+      }
+    ],
+    "has_historical": true,
+    "historical_files": [
+      "CIK0001423053-submissions-001.json"
+    ]
+  },
+  "Susquehanna Intl Group": {
+    "cik": "0001446194",
+    "ctr_filings": [],
+    "nt_filings": [],
+    "amendment_filings": [
+      {
+        "form": "13F-HR/A",
+        "date": "2022-04-05",
+        "accession": "0001446194-22-000003"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2021-03-26",
+        "accession": "0001011712-21-000002"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2019-11-14",
+        "accession": "0001446194-19-000008"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2019-08-16",
+        "accession": "0001446194-19-000006"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2017-11-20",
+        "accession": "0001446194-17-000017"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2016-02-26",
+        "accession": "0001446194-16-000012"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2011-08-25",
+        "accession": "0001446194-11-000004"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2010-05-21",
+        "accession": "0001446194-10-000011"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2010-03-02",
+        "accession": "0001446194-10-000007"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2010-03-02",
+        "accession": "0001446194-10-000005"
+      }
+    ],
+    "has_historical": false,
+    "historical_files": []
+  },
+  "Jane Street Group": {
+    "cik": "0001595889",
+    "ctr_filings": [],
+    "nt_filings": [],
+    "amendment_filings": [],
+    "has_historical": false,
+    "historical_files": []
+  },
+  "Jane Street Capital": {
+    "cik": "0001442628",
+    "ctr_filings": [],
+    "nt_filings": [],
+    "amendment_filings": [],
+    "has_historical": false,
+    "historical_files": []
+  },
+  "UBS Group AG": {
+    "cik": "0001610520",
+    "ctr_filings": [],
+    "nt_filings": [],
+    "amendment_filings": [
+      {
+        "form": "13F-HR/A",
+        "date": "2017-11-14",
+        "accession": "0000950123-17-010878"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2017-11-14",
+        "accession": "0000950123-17-010864"
+      }
+    ],
+    "has_historical": true,
+    "historical_files": [
+      "CIK0001610520-submissions-001.json"
+    ]
+  },
+  "Melvin Capital": {
+    "cik": "0001628110",
+    "ctr_filings": [],
+    "nt_filings": [],
+    "amendment_filings": [
+      {
+        "form": "13F-HR/A",
+        "date": "2021-08-16",
+        "accession": "0000905718-21-001081"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2021-04-28",
+        "accession": "0000905718-21-000618"
+      }
+    ],
+    "has_historical": false,
+    "historical_files": []
+  },
+  "Point72": {
+    "cik": "0001603466",
+    "ctr_filings": [],
+    "nt_filings": [],
+    "amendment_filings": [
+      {
+        "form": "13F-HR/A",
+        "date": "2025-07-21",
+        "accession": "0000902664-25-003078"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2024-09-16",
+        "accession": "0000902664-24-005526"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2024-08-19",
+        "accession": "0000902664-24-005203"
+      },
+      {
+        "form": "13F-HR/A",
+        "date": "2023-05-15",
+        "accession": "0000902664-23-003096"
+      }
+    ],
+    "has_historical": false,
+    "historical_files": []
+  }
+}

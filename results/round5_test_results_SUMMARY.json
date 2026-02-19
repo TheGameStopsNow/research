@@ -1,0 +1,15 @@
+{
+  "original_file": "../review_package_02_archive/round5_test_results.json",
+  "original_size_bytes": 121851,
+  "note": "Full data archived. This summary contains key findings only.",
+  "description": "Round 5 forensic test battery results \u2014 options microstructure analysis",
+  "key_findings": [
+    "Options flow analysis for GME event period",
+    "Includes tick-level options data analysis"
+  ],
+  "data_keys": [
+    "Q7",
+    "Q10",
+    "Q18"
+  ]
+}

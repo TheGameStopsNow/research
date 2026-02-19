@@ -1,0 +1,951 @@
+{
+  "Citadel_FY2024": {
+    "ssnyp_references": [],
+    "total_assets": null,
+    "total_liabilities": null,
+    "member_equity": null
+  },
+  "Citadel_FY2023": {
+    "ssnyp_references": [
+      {
+        "line": 123,
+        "context": [
+          "LIABILITIES AND MEMBER\u2019S CAPITAL",
+          "Liabilities:",
+          "Securities sold, not yet purchased, at fair value $ 27,758",
+          "Payable to brokers, dealers, clearing organizations, and custodians  8,172",
+          "Securities sold under agreements to repurchase, at fair value  8,022",
+          "Securities loaned  3,019",
+          "Payable to affiliates  289"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 187,
+        "context": [
+          "original maturities of 90 days or less  as well as investments in money",
+          "market funds . Cash and cash equivalents are held at global financial",
+          "institutions.",
+          "Securities Owned and Securities Sold, Not Yet Purchased",
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 188,
+        "context": [
+          "market funds . Cash and cash equivalents are held at global financial",
+          "institutions.",
+          "Securities Owned and Securities Sold, Not Yet Purchased",
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,",
+          "2023 , gross securities owned of approximate ly $60.17 billion have"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 201,
+        "context": [
+          "and cash collateral transferred to or from counterparties that are",
+          "determined to be subject to legally enforceable credit support",
+          "agreements. Options and warrants are included in securities owned or",
+          "securities sold, not yet purchased, as applicable, on the statement of",
+          "financial condition. Futures, swaps, and related collateral are included",
+          "in receivable from and payable to brokers dealers, clearing",
+          "organizations, and custodians on the statement of financial condition.",
+          "Offsetting Financial Assets and Liabilities"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 622,
+        "context": [
+          "Total derivative liabilities  1,788",
+          "Total $ 35,780",
+          "In the tables above:",
+          "\u2022 Trading assets, trading liabilities, options and warrants are included in securities owned or securities sold, not yet purchased, as applicable,",
+          "on the statement of financial condition.",
+          "\u2022 Futures, swaps and related collateral are included in receivable from brokers and dealers and payable to brokers, dealers, clearing",
+          "organization, and custodians on the statement of financial condition as discussed in Note 2.",
+          "\u2022 Cross-level counterparty netting includes counterparty netting for positions with the same counterparty that cross over the levels of the fair"
+        ],
+        "amounts": []
+      }
+    ],
+    "total_assets": null,
+    "total_liabilities": null,
+    "member_equity": null
+  },
+  "Citadel_FY2021": {
+    "ssnyp_references": [
+      {
+        "line": 131,
+        "context": [
+          "LIABILITIES AND MEMBER\u2019S CAPITAL",
+          "Liabilities:",
+          "Securities sold, not yet purchased, at fair value  $ 65,703",
+          "Securities sold under agreements to repurchase, at fair value   4,527",
+          "Payable to brokers, dealers, clearing organization, and custodian   3,312",
+          "Securities loaned   906",
+          "Other liabilities   261"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 194,
+        "context": [
+          "The Company defines cash on the statement of financial condition as",
+          "liquid amounts on deposit. Cash is held at various global financial",
+          "institutions.",
+          "Securities Owned and Securities Sold, Not Yet Purchased",
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 195,
+        "context": [
+          "liquid amounts on deposit. Cash is held at various global financial",
+          "institutions.",
+          "Securities Owned and Securities Sold, Not Yet Purchased",
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,",
+          "2021, securities owned of approximately $71.33 billion, have been"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 207,
+        "context": [
+          "exchange of related cash flows at contractually specified intervals.",
+          "Derivative assets and derivative liabilities also include cash and cash",
+          "collateral transferred to or from such counterparties. Options and",
+          "warrants are included in securities owned or securities sold, not yet",
+          "purchased, as applicable, on the statement of financial condition.",
+          "Futures, swaps, and related collateral are included in receivable from",
+          "brokers and dealers on the statement of financial condition.",
+          "Offsetting Financial Instruments"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 629,
+        "context": [
+          "Total derivative liabilities 35,804 2 \u2014 35,806",
+          "Total $65,110  $5,120  $ \u2014  $70,230",
+          "In the tables above:",
+          "\u2022Trading assets, trading liabilities, options and warrants are included in securities owned or securities sold, not yet purchased, as applicable,",
+          "on the statement of financial condition.",
+          "\u2022Futures, swaps and related collateral are included in receivable from brokers and dealers as discussed in Note 2.",
+          "\u2022Both counterparty netting for positions with the same counterparty that cross over the levels of the fair value hierarchy and cash collateral",
+          "(including initial margin) are included in the column titled \u201cNetting and Collateral.\u201d Counterparty netting among derivative financial"
+        ],
+        "amounts": []
+      }
+    ],
+    "total_assets": null,
+    "total_liabilities": null,
+    "member_equity": null
+  },
+  "Citadel_FY2020": {
+    "ssnyp_references": [
+      {
+        "line": 146,
+        "context": [
+          "Total assets $ 71.004",
+          "LIABILITIES AND MEMBER 'S CAPITAL",
+          "Liabilities:",
+          "Securities sold, not yet purchased , at fair value $ 57,506",
+          "Securities sold under agreeme nts to repurchase 4,472",
+          "2,847 Payable to brokers, dealers, and clearing org\"-'a_n....;;iz\"\"'a\"\"\"ti-\"-on-'-s\"-------------------- ----\"-'-'--",
+          "1,653 Loans and interest pa~,_a'--b\"\"'-le-'---\"to'--a.;_ff_i_lia'--t\"\"'-e __________________________ ..:...;....;_;,__",
+          "Securities loaned 867"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 208,
+        "context": [
+          "Cash",
+          "The Company defines cash on the statement of financial condition as",
+          "liquid amounts on deposit. Cash is held at various global financial",
+          "institutions. Securities Owned and Securities Sold. Not Yet Purchased",
+          "The Company 's securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 209,
+        "context": [
+          "The Company defines cash on the statement of financial condition as",
+          "liquid amounts on deposit. Cash is held at various global financial",
+          "institutions. Securities Owned and Securities Sold. Not Yet Purchased",
+          "The Company 's securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,",
+          "2020, securities owned of approximately $63.86 billion, have been"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 220,
+        "context": [
+          "Derivative financial instruments are referred to as off-balance sheet",
+          "instruments because neither their notional amounts nor the underlying",
+          "reference instruments are reported as securities owned or securities",
+          "sold, not yet purchased on the statement of financial condition. Rather,",
+          "if derivative financial instruments are cash-settled at contractually",
+          "specified intervals, the resulting gain or loss is recorded as a derivative",
+          "asset or derivative liability, respectively, prior to the exchange of",
+          "related cash flows. Derivative assets and derivative liabilities also"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 229,
+        "context": [
+          "counterpart ies, and such cash and cash collateral amounts may",
+          "exceed the amount of net derivative exposure with the respective",
+          "counterparties. Options and warrants are included in securities owned",
+          "or securities sold, not yet purchased, as applicable, on the statement",
+          "of financial condition. Futures, swaps, and related collateral are",
+          "included in receivable from brokers and dealers on the statement of",
+          "financial condition.",
+          "Offsetting Financial Instruments"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 699,
+        "context": [
+          "Total derivative liabilities 32,453 2 (68) 32,387",
+          "Total $ 57,472 $ 102 $ (68) $ 57,506",
+          "In the tables above:",
+          "\u2022 Trading assets, trading liabilities, options and warrants are included in securities owned or securities sold, not yet purchased, as applicable ,",
+          "on the statement of financial condition.",
+          "Futures, swaps and related collateral are included in receivable from brokers and dealers as discussed in Note 2.",
+          "\u2022 Both counterparty netting and cash collateral nettting for positions with the same counterparty that cross over the levels of the fair value",
+          "hierarchy are included in the column titled \"Netting and Collateral. \" Counterparty netting among derivative financial instruments classified"
+        ],
+        "amounts": []
+      }
+    ],
+    "total_assets": null,
+    "total_liabilities": null,
+    "member_equity": null
+  },
+  "Virtu_FY2024": {
+    "ssnyp_references": [
+      {
+        "line": 86,
+        "context": [
+          "Liabilities and Member's Equity",
+          "Liabilities",
+          "Trading liabilities, at fair value",
+          "Financial instruments sold, not yet purchased   $ 5,863,610",
+          "Securities loaned    2,437,319",
+          "Securities sold under agreements to repurchase    1,271,788",
+          "Payables to brokers, dealers and clearing organizations    636,691",
+          "Payable to affiliates    109,911"
+        ],
+        "amounts": [
+          "5,863,610",
+          "2,437,319",
+          "1,271,788",
+          "636,691",
+          "109,911"
+        ]
+      },
+      {
+        "line": 249,
+        "context": [
+          "amounts due for unsettled trades, open equity in futures transactions, securities failed to deliver or failed to",
+          "receive, deposits with clearing organizations or exchanges and balances due from or due to prime brokers in",
+          "relation to the Company\u2019s trading. Amounts receivable from broker-dealers and clearing organizations may be",
+          "restricted to the extent that they serve as deposits for securities sold, not yet purchased.  The Company presents",
+          "its balances, including outstanding principal balances on all credit facilities, on a net-by-counterparty basis within",
+          "Receivables from and Payables to broker-dealers and clearing organizations when the criteria for offsetting are",
+          "met."
+        ],
+        "amounts": []
+      },
+      {
+        "line": 270,
+        "context": [
+          "Financial Instruments Owned Including Those Pledged as Collateral and Financial Instruments Sold, Not",
+          "Yet Purchased",
+          "Financial instruments owned and Financial instruments sold, not yet purchased relate to market making",
+          "and trading activities, and include listed and other equity securities, listed equity options and fixed income",
+          "securities.",
+          "The Company records Financial instruments owned and pledged and Financial instruments sold, not yet"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 274,
+        "context": [
+          "and trading activities, and include listed and other equity securities, listed equity options and fixed income",
+          "securities.",
+          "The Company records Financial instruments owned and pledged and Financial instruments sold, not yet",
+          "purchased at fair value.",
+          "Fair Value Measurements"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 711,
+        "context": [
+          "party Netting   Total",
+          "(Level 1)  (Level 2)  (Level 3)   Fair Value",
+          "Liabilities",
+          "Financial instruments sold, not yet",
+          "purchased, at fair value:",
+          "Equities $ 1,593,606   $ 1,525,827   $ \u2014   $ \u2014    3,119,433",
+          "Corporate debt   \u2014    1,249,233    \u2014    \u2014    1,249,233",
+          "U.S. government and Non-U.S."
+        ],
+        "amounts": [
+          "1,593,606",
+          "1,525,827",
+          "3,119,433",
+          "1,249,233",
+          "1,249,233"
+        ]
+      },
+      {
+        "line": 870,
+        "context": [
+          "Commodity futures  Payables to brokers, dealers and clearing organizations    (11)    5,735",
+          "Currency futures  Payables to brokers, dealers and clearing organizations    \u2014    \u2014",
+          "Fixed income futures  Payables to brokers, dealers and clearing organizations    1    238",
+          "Options Financial instruments sold, not yet purchased    3,438    580,999",
+          "Amounts included in Receivables from and Payables to broker-dealers and clearing organizations",
+          "represent variation margin on long and short futures contracts."
+        ],
+        "amounts": [
+          "580,999"
+        ]
+      }
+    ],
+    "total_assets": [
+      "3,331,336",
+      "3,331,336",
+      "3,204,967"
+    ],
+    "total_liabilities": [
+      "3,712,545",
+      "3,712,545",
+      "3,646,945"
+    ],
+    "member_equity": [
+      "11,655,902"
+    ]
+  },
+  "Virtu_FY2021": {
+    "ssnyp_references": [
+      {
+        "line": 73,
+        "context": [
+          "Liabilities and Member's Equity",
+          "Liabilities",
+          "Trading liabilities, at fair value",
+          "Financial instruments sold, not yet purchased    3,320,890",
+          "Securities loaned    1,142,048",
+          "Securities sold under agreements to repurchase    514,325",
+          "Short term borrowings, net    56,454",
+          "Payables to brokers, dealers and clearing organizations    468,442"
+        ],
+        "amounts": [
+          "3,320,890",
+          "1,142,048",
+          "514,325",
+          "468,442"
+        ]
+      },
+      {
+        "line": 214,
+        "context": [
+          "Receivables from/Payables to B roker-dealers and Clearing Organi zations",
+          "Amounts receivable from broke r-dealers and clearing organizati ons may be restricted  to the extent that",
+          "they serve as deposits for securities sold, not yet purchased. At December 31, 2021, receivables from and",
+          "payables to broker-dealers and clearing organizations primarily  represented amounts due for unsettled trades,",
+          "open equity in futures transactions, securities failed to deliv er or failed to receive, deposits with clearing",
+          "organizations or exchanges and balances due from or due to prim e brokers in relation to the Company\u2019s trading.",
+          "The Company presents its balances, including outstanding princi pal balances on all credit facilities, on a net-by-"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 236,
+        "context": [
+          "these counterparties.",
+          "Financial Instruments Owned Including Those Pledged as Collater al and Financial Instruments Sold, Not",
+          "Yet Purchased",
+          "Financial instruments owned and Financial instruments sold, not  yet purchased relate to market making",
+          "and trading activities, and include listed and other equity sec urities, listed equity options and fixed income",
+          "securities. The Company records Financial instruments owned and  pledged and Financial instruments sold, not",
+          "yet purchased at fair value.",
+          "Fair Value Measurements"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 635,
+        "context": [
+          "670,277    347,683    \u2014     \u2014     1,017,960",
+          "Liabilities",
+          "Financial instruments sold, not yet",
+          "purchased:",
+          "Equities   1,375,572    724,680    \u2014     \u2014     2,100,252",
+          "Corporate debt   \u2014     851,871    \u2014     \u2014     851,871",
+          "U.S. government and Non-U.S."
+        ],
+        "amounts": [
+          "670,277",
+          "347,683",
+          "1,017,960",
+          "1,375,572",
+          "724,680",
+          "2,100,252",
+          "851,871",
+          "851,871"
+        ]
+      },
+      {
+        "line": 799,
+        "context": [
+          "Commodity futures  Payables to brokers, dealer s and clearing organizations    \u2014     \u2014",
+          "Currency futures  Payables to brokers, dealer s and clearing organizations    29    4,988",
+          "Fixed Income Futures  Payables to brokers, dealer s and clearing organizations    (201)    113,921",
+          "Options  Financial instruments sold, not yet purchased    5,085    1,028,730",
+          "Currency forwards  Financial instruments sold, not yet purchased    2     65,239",
+          "Amounts included in Receivables f rom and Payables to broker-dea lers and clearing organizations",
+          "represent variation margin on l ong and short futu res contracts."
+        ],
+        "amounts": [
+          "113,921",
+          "1,028,730"
+        ]
+      },
+      {
+        "line": 800,
+        "context": [
+          "Currency futures  Payables to brokers, dealer s and clearing organizations    29    4,988",
+          "Fixed Income Futures  Payables to brokers, dealer s and clearing organizations    (201)    113,921",
+          "Options  Financial instruments sold, not yet purchased    5,085    1,028,730",
+          "Currency forwards  Financial instruments sold, not yet purchased    2     65,239",
+          "Amounts included in Receivables f rom and Payables to broker-dea lers and clearing organizations",
+          "represent variation margin on l ong and short futu res contracts."
+        ],
+        "amounts": [
+          "113,921",
+          "1,028,730"
+        ]
+      }
+    ],
+    "total_assets": [
+      "1,476,346",
+      "1,476,344",
+      "1,417,864"
+    ],
+    "total_liabilities": [
+      "1,661,460",
+      "1,661,458",
+      "1,622,013"
+    ],
+    "member_equity": [
+      "994,339"
+    ]
+  },
+  "G1_FY2024": {
+    "ssnyp_references": [],
+    "total_assets": null,
+    "total_liabilities": null,
+    "member_equity": null
+  },
+  "G1_FY2021": {
+    "ssnyp_references": [
+      {
+        "line": 156,
+        "context": [
+          "Other assets",
+          "Total assets",
+          "Liabilities and member's equity",
+          "Securities sold, not yet purchased -at fair value",
+          "Accrued trading payables",
+          "Payable to affiliates",
+          "Accrued compensation",
+          "Guaranteed payments to member"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 200,
+        "context": [
+          "NOTE B -SIGNIFIC ANT ACCOUNTING POLICIES",
+          "The Entity records purchases and sales of securities, and related revenues and expenses on a trade-date basis.",
+          "Interest income and expense are recorded on the accrual basis.",
+          "Dividend income and dividends on securities sold, not yet purchased, are recorded on the ex-dividend date.",
+          "The Entity maintains cash in a deposit account which, at times, may exceed federally insured limits.",
+          "Depreciation of fixed assets is computed using either a straig,ht-line -.method or a double-declining balance method",
+          "over the estimated useful life of the assets.",
+          "Goodwill and intangibles represent the excess of the purcli'ase price over the fair value of net tangible assets"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 313,
+        "context": [
+          "NOTE E -RECEIVABLE FROM CLEARING BROKERS AND CONCEN TRATION OF CREDIT RISK",
+          "The clearing and depository operations for the Entity's securities transactions are provided by Merrill Lynch",
+          "Professional Clearing Corp., Cowen and Company LLC, and BofA Securities, Inc.",
+          "At December 31, 2021, all of the securities owned and securities sold, not yet purchased, and the amounts",
+          "receivable from clearing brokers reflected on the statement of financial condition are securities positions with and",
+          "amounts d'ue from these clearing brokers. The securities at these clearing brokers serve as collateral for the",
+          "amounts payable to such clearing brokers. The clearing brokers have the right to sell or repledge this collateral,",
+          "subject to the clearing agreemen ts with the Entity."
+        ],
+        "amounts": []
+      },
+      {
+        "line": 421,
+        "context": [
+          "NOTE J-INCOME TAXES Statement of Financial",
+          "Condition Location",
+          "'5ecurities o Qed; Securities",
+          "sold, not yet purchased",
+          "Securities owned; Securities",
+          "sold, not yet purchased",
+          ",",
+          "No provision for federal income taxes has been made because the Entity is a single-member LLC and,"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 423,
+        "context": [
+          "'5ecurities o Qed; Securities",
+          "sold, not yet purchased",
+          "Securities owned; Securities",
+          "sold, not yet purchased",
+          ",",
+          "No provision for federal income taxes has been made because the Entity is a single-member LLC and,",
+          "therefore, is not subject to federal ineo e taxes. The Entity is currently not subject to state or local income taxes.",
+          "At December 31, 2021, managemen has'determined that there are no material uncertain income tax positions."
+        ],
+        "amounts": []
+      }
+    ],
+    "total_assets": null,
+    "total_liabilities": null,
+    "member_equity": null
+  },
+  "JaneStreet_FY2024": {
+    "ssnyp_references": [
+      {
+        "line": 66,
+        "context": [
+          "32,786",
+          "$ 48,947,528",
+          "Liabilities and member's equity",
+          "Securities andother financial instruments sold, notyetpurchased, atfairvalue",
+          "Due tobrokers, clearing organizations, andother",
+          "Securities sold under agreements torepurchase",
+          "Securities loaned",
+          "Due toParent"
+        ],
+        "amounts": [
+          "48,947,528"
+        ]
+      },
+      {
+        "line": 132,
+        "context": [
+          "Cash and cash equivalents may include cash andshort-term investments with amaturity ofthree",
+          "months orlessfrom thedate ofpurchase.",
+          "Securities andOther Financial Instruments Owned andSecurities andOther Financial",
+          "Instruments Sold, NotYetPurchased, atFair Value",
+          "Equity securities traded onanational securities exchange, orover thecounter (\"OTC\"), aregenerally",
+          "valued atthelastreported sales price fortheidentical instrument atthedate ofvaluation. Incertain",
+          "cases, where theCompany believes thelastreported sales price isnotthebestindication offairvalue,",
+          "theCompany adjusts itsestimate offairvalue toanalternate source."
+        ],
+        "amounts": []
+      },
+      {
+        "line": 161,
+        "context": [
+          "company when thecriteria aremet. During 2024, theCompany elected tonettheassets andliabilities",
+          "ofoptions held with thesame counterparty that meet theoffsetting criteria. This change in",
+          "presentation reduced Securities andother financial instruments owned, atfairvalue by5.33% and",
+          "reduced Securities andother financial instruments sold, notyetpurchased, atfairvalue by5.56%,",
+          "with corresponding reductions inTotal assets andTotal liabilities. Thechange hadnoimpact onthe",
+          "Company's equity. The Company believes netpresentation ispreferable asitmore accurately",
+          "represents thebalance sheet exposure associated with these financial instruments.",
+          "Allother securities included inSecurities andother financial instruments owned, atfairvalue and"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 166,
+        "context": [
+          "Company's equity. The Company believes netpresentation ispreferable asitmore accurately",
+          "represents thebalance sheet exposure associated with these financial instruments.",
+          "Allother securities included inSecurities andother financial instruments owned, atfairvalue and",
+          "Securities andother financial instruments sold, notyetpurchased, atfairvalue arenetbyCUSIP, by",
+          "each clearing broker.",
+          "Incarrying outitsvaluation responsibilities, theCompany hasconsidered theavailability andquality",
+          "ofexternal market information toprovide justification andrationale foritsfairvalue estimates.",
+          "Transfers ofFinancial Assets"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 196,
+        "context": [
+          "The Company records transactions andtherelated revenues andexpenses onatrade date basis. All",
+          "resulting realized andunrealized gains andlosses arereflected inMember's equity.",
+          "Interest income andinterest expense arerecorded onanaccrual basis. Dividend income onequities",
+          "owned anddividend expense onequities sold, notyetpurchased arerecorded ontheex-dividend date.",
+          "Fixed Assets",
+          "Furniture, equipment, and software arecarried atcost netofaccumulated depreciation and",
+          "amortization. Depreciation and amortization areprovided bythestraight line method over the",
+          "estimated useful lives oftherelated assets."
+        ],
+        "amounts": []
+      },
+      {
+        "line": 319,
+        "context": [
+          "Jane Street Capital, LLC",
+          "Notes toConsolidated Statement ofFinancial Condition",
+          "December 31,2024",
+          "Securities andother financial instruments sold, notyetpurchased:Fair Value Hierarchy",
+          "(inthousands) Level 1 Level 2 Total",
+          "Equities $23,446,810 $ 2,875 $23,449,685",
+          "Options 2,249,243 175,483 2,424,726",
+          "Corporate bonds \u2014 6,297,182 6,297,182"
+        ],
+        "amounts": [
+          "31,2024",
+          "23,446,810",
+          "23,449,685",
+          "2,249,243",
+          "175,483",
+          "2,424,726",
+          "6,297,182",
+          "6,297,182"
+        ]
+      },
+      {
+        "line": 329,
+        "context": [
+          "Foreign sovereign bonds 414,725 361,032 775,757",
+          "Counterparty netting inlevels (651,620) (175,483) (827,103)",
+          "Cross level counterparty netting \u2014 \u2014 (1,243,398)",
+          "Total Securities andother financial instruments sold, notyetpurchased $29,750,732 $ 6,661,468 $35,168,802",
+          "Derivative liabilities3:",
+          "Futures contracts $ 29,700 $ $ 29,700",
+          "CFDs \u2014 824 824",
+          "Netting4 (7,673) (2) (7,675)"
+        ],
+        "amounts": [
+          "414,725",
+          "361,032",
+          "775,757",
+          "651,620",
+          "175,483",
+          "827,103",
+          "1,243,398",
+          "29,750,732",
+          "6,661,468",
+          "35,168,802"
+        ]
+      },
+      {
+        "line": 417,
+        "context": [
+          "The following table presents thefairvalue andoutstanding notional value ofderivative financial",
+          "instruments, which areincluded inDue from brokers, clearing organizations, andother (see Note 5),",
+          "Securities and other financial instruments owned, atfairvalue andSecurities andother financial",
+          "instruments sold, notyetpurchased, atfairvalue:",
+          "(inthousands) Derivative Fair Value Notional Value",
+          "Derivative Category1 Assets Liabilities Assets Liabilities",
+          "Indices $ 218,136 $ 1,696,969 $ 33,344,875 $ 12,003,073",
+          "Equities 2,412,060 755,563 11,485,734 10,922,623"
+        ],
+        "amounts": [
+          "218,136",
+          "1,696,969",
+          "33,344,875",
+          "12,003,073",
+          "2,412,060",
+          "755,563",
+          "11,485,734",
+          "10,922,623"
+        ]
+      },
+      {
+        "line": 441,
+        "context": [
+          "Consolidated Statement ofFinancial Condition, asrequired byASC 210, areasfollows:",
+          "'See Note 5.(inthousands) Assets Liabilities",
+          "Securities andother financial instruments owned, atfairvalue /Securities and",
+          "other financial instruments sold, notyetpurchased, atfairvalue:",
+          "Options",
+          "Indices $ 184,259 $ 1,669,841",
+          "Equities 2,402,043 754,522",
+          "Commodities \u2014 310"
+        ],
+        "amounts": [
+          "184,259",
+          "1,669,841",
+          "2,402,043",
+          "754,522"
+        ]
+      },
+      {
+        "line": 478,
+        "context": [
+          "Substantially allsecurities held atthebrokers serve ascollateral fortheamounts duetotherelevant",
+          "broker. Subject totheclearing agreement between theCompany andtheclearing broker, theclearing",
+          "broker hastheright tosellorrepledge thiscollateral. Additionally, securities andother financial",
+          "instruments owned and securities and other financial instruments sold, not yetpurchased, are",
+          "generally subject tomargin requirements.",
+          "TheCompany also maintains cash deposit andinvestment accounts with financial institutions which,",
+          "attimes, may exceed U.S. federal insured limits. Intheevent ofafinancial institution's insolvency,",
+          "recovery ofassets may belimited toaccount insurance orother protection afforded tosuch accounts."
+        ],
+        "amounts": []
+      }
+    ],
+    "total_assets": null,
+    "total_liabilities": [
+      "5,169,738"
+    ],
+    "member_equity": [
+      "5,169,738"
+    ]
+  },
+  "JaneStreet_FY2021": {
+    "ssnyp_references": [
+      {
+        "line": 82,
+        "context": [
+          "$36,336.116 .134",
+          "Liabilities andmember 'sequity",
+          "Liabilities :",
+          "Securities andother financial instruments sold,notyetpurchased ,atfairvalue :",
+          "Equities",
+          "Options",
+          "Corporate bonds",
+          "Municipal bonds"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 148,
+        "context": [
+          "December 31,2021",
+          "2.Summary ofSignificant Accounting Policies (continued )",
+          "Securities and Other Financial Instruments Owned and Securities and Other Financial",
+          "Instruments Sold,NotYetPurchased ,atFair Value",
+          "Equity securities traded onanational securities exchange ,orover thecounter (\"OTC \"),are",
+          "generally valued atthelastreported sales price fortheidentical instrument atthedate ofvaluation .",
+          "Incertain cases ,where theCompany believes thelastreported sales price isnotthebestindication",
+          "offairvalue ,theCompany adjusts itsestimate offairvalue toanalternate source ."
+        ],
+        "amounts": [
+          "31,2021"
+        ]
+      },
+      {
+        "line": 161,
+        "context": [
+          "agencies .The fairvalue ofmortgage -backed securities isgenerally determined using quoted",
+          "market prices ,recent market transactions ,andspread data forsimilar instruments .",
+          "Securities andother financial instruments owned andSecurities andother financial instruments",
+          "sold,notyetpurchased ,intheConsolidated Statement ofFinancial Condition ,arenetbyCUSIP ,",
+          "byeach clearing broker .",
+          "Futures contracts traded onanational securities exchange ,orOTC,areincluded inDue toand",
+          "from brokers ,clearing organizations ,and other intheConsolidated Statement ofFinancial",
+          "Condition andaregenerally valued atthelastreported sales price atthedate ofvaluation ."
+        ],
+        "amounts": []
+      },
+      {
+        "line": 181,
+        "context": [
+          "TheCompany records transactions insecurities andtherelated revenues andexpenses onatrade",
+          "date basis.Allresulting realized andunrealized gains andlosses arereflected inMember \u2019sequity .",
+          "Interest income andexpense arerecorded onanaccrual basis.Dividend income onequities owned",
+          "anddividend expense onequities sold,notyetpurchased arerecorded ontheex-dividend date.",
+          "Repurchase Agreements",
+          "Tri-party repurchase agreements areaccounted forascollateralized financing transactions because",
+          "they require securities sold bytheCompany toberepurchased atorbefore thematurity ofthe",
+          "respective agreements ,atafixed price.Accordingly ,securities sold under tri-party repurchase"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 316,
+        "context": [
+          "Fair Value Hierarchy",
+          "Level 1 Level 2 Total",
+          "Securities andother financial",
+          "instruments sold,notyetpurchased :",
+          "Equities",
+          "Options",
+          "Corporate bonds",
+          "Municipal bonds"
+        ],
+        "amounts": []
+      },
+      {
+        "line": 324,
+        "context": [
+          "U.S.government bonds",
+          "Foreign sovereign bonds",
+          "Total Securities andother financial",
+          "instruments sold ,notyetpurchased$13,669 ,156,164 $ 376,082,941 $ 14,045,239,105",
+          "25,520,656 197,794 ,804",
+          "6,840,794 ,865",
+          "139,496223 ,315,460",
+          "6,840,794,865"
+        ],
+        "amounts": [
+          ",156,164",
+          "376,082,941",
+          "14,045,239,105",
+          "25,520,656",
+          "197,794",
+          "6,840,794",
+          "139,496223",
+          ",315,460",
+          "6,840,794,865"
+        ]
+      },
+      {
+        "line": 361,
+        "context": [
+          "Substantially allsecurities held atthebrokers serve ascollateral fortheamounts duetotherelevant",
+          "broker .Subject totheclearing agreement between theCompany and theclearing broker ,the",
+          "clearing broker hastheright tosellorrepledge thiscollateral .Additionally ,securities andother",
+          "financial instruments owned andsecurities andother financial instruments sold,notyetpurchased ,",
+          "aregenerally subject tomargin requirements .",
+          "The Company also maintains accounts with financial institutions .Intheevent ofafinancial",
+          "institution 'sinsolvency ,recovery ofassets may belimited toaccount insurance orother protection",
+          "afforded tosuch accounts .TheCompany hasnotexperienced anylosses onthese accounts ."
+        ],
+        "amounts": []
+      },
+      {
+        "line": 541,
+        "context": [
+          "financial instruments",
+          "S50,085,243 S15,380,305 owned ;Securities and",
+          "other financial instruments",
+          "sold,notyetpurchasedIndices -Options 222,639,800",
+          "Due to/from brokers1Indices -Futures 37,965,677 15,911,981 8,229,490",
+          "Securities andother",
+          "financial instruments",
+          "owned ;Securities and"
+        ],
+        "amounts": [
+          "50,085,243",
+          "15,380,305",
+          "222,639,800",
+          "37,965,677",
+          "15,911,981",
+          "8,229,490"
+        ]
+      },
+      {
+        "line": 547,
+        "context": [
+          "financial instruments",
+          "owned ;Securities and",
+          "other financial instruments",
+          "sold,notyetpurchasedEquities -Options 239,728,786 177,717,715 318,598,300",
+          "Due from brokers1Equities -CFDs 3,791,768 8,118,626 3,487,236,966",
+          "Securities andother",
+          "financial instruments",
+          "802,911 owned ;Securities and"
+        ],
+        "amounts": [
+          "239,728,786",
+          "177,717,715",
+          "318,598,300",
+          "3,791,768",
+          "8,118,626",
+          "3,487,236,966",
+          "802,911"
+        ]
+      },
+      {
+        "line": 553,
+        "context": [
+          "financial instruments",
+          "802,911 owned ;Securities and",
+          "other financial instruments",
+          "sold,notyetpurchasedEquities -Rights and",
+          "Warrants35,671,730 644,969,611",
+          "Duefrom brokers1Fixed Income -Futures 526,522 333,615 1,430,938",
+          "Securities andother",
+          "financial instruments"
+        ],
+        "amounts": [
+          "802,911",
+          "35,671,730",
+          "644,969,611",
+          "526,522",
+          "333,615",
+          "1,430,938"
+        ]
+      },
+      {
+        "line": 560,
+        "context": [
+          "financial instruments",
+          "30,217,440 owned ;Securities and",
+          "other financial instruments",
+          "sold,notyetpurchasedCommodities -Options 22,576 40,839,100",
+          "Due to/from brokers1Commodities -Futures 9,501,371 5,017,360 2,667,700",
+          "Currencies -Futures 8,368",
+          "1SeeNote 4",
+          "15"
+        ],
+        "amounts": [
+          "30,217,440",
+          "40,839,100",
+          "9,501,371",
+          "5,017,360",
+          "2,667,700"
+        ]
+      }
+    ],
+    "total_assets": [
+      "933,781,745"
+    ],
+    "total_liabilities": [
+      "275,000,000"
+    ],
+    "member_equity": [
+      "275,000,000"
+    ]
+  }
+}

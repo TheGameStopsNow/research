@@ -1,0 +1,118 @@
+{
+  "2024-05-13": {
+    "GME": {
+      "minutes": 330,
+      "volume": 5801736
+    },
+    "KOSS": {
+      "minutes": 290,
+      "volume": 500196,
+      "overlap": 290,
+      "ticker_only": 0,
+      "pct_of_ticker": 100.0,
+      "pct_of_gme": 87.9,
+      "jaccard": 0.879
+    },
+    "AMC": {
+      "status": "NO_DATA"
+    },
+    "CHWY": {
+      "minutes": 99,
+      "volume": 555144,
+      "overlap": 99,
+      "ticker_only": 0,
+      "pct_of_ticker": 100.0,
+      "pct_of_gme": 30.0,
+      "jaccard": 0.3
+    },
+    "DJT": {
+      "minutes": 298,
+      "volume": 139056,
+      "overlap": 298,
+      "ticker_only": 0,
+      "pct_of_ticker": 100.0,
+      "pct_of_gme": 90.3,
+      "jaccard": 0.903
+    },
+    "IWM": {
+      "status": "NO_DATA"
+    },
+    "AAPL": {
+      "minutes": 330,
+      "volume": 6363364,
+      "overlap": 330,
+      "ticker_only": 0,
+      "pct_of_ticker": 100.0,
+      "pct_of_gme": 100.0,
+      "jaccard": 1.0
+    },
+    "SPY": {
+      "minutes": 331,
+      "volume": 1161444,
+      "overlap": 330,
+      "ticker_only": 1,
+      "pct_of_ticker": 99.7,
+      "pct_of_gme": 100.0,
+      "jaccard": 0.997
+    },
+    "gme_uncovered_minutes": 0
+  },
+  "2024-05-14": {
+    "GME": {
+      "minutes": 330,
+      "volume": 8982894
+    },
+    "KOSS": {
+      "minutes": 291,
+      "volume": 1324381,
+      "overlap": 291,
+      "ticker_only": 0,
+      "pct_of_ticker": 100.0,
+      "pct_of_gme": 88.2,
+      "jaccard": 0.882
+    },
+    "AMC": {
+      "status": "NO_DATA"
+    },
+    "CHWY": {
+      "minutes": 146,
+      "volume": 336509,
+      "overlap": 146,
+      "ticker_only": 0,
+      "pct_of_ticker": 100.0,
+      "pct_of_gme": 44.2,
+      "jaccard": 0.442
+    },
+    "DJT": {
+      "minutes": 252,
+      "volume": 146359,
+      "overlap": 252,
+      "ticker_only": 0,
+      "pct_of_ticker": 100.0,
+      "pct_of_gme": 76.4,
+      "jaccard": 0.764
+    },
+    "IWM": {
+      "status": "NO_DATA"
+    },
+    "AAPL": {
+      "minutes": 330,
+      "volume": 6704506,
+      "overlap": 330,
+      "ticker_only": 0,
+      "pct_of_ticker": 100.0,
+      "pct_of_gme": 100.0,
+      "jaccard": 1.0
+    },
+    "SPY": {
+      "minutes": 330,
+      "volume": 7081906,
+      "overlap": 330,
+      "ticker_only": 0,
+      "pct_of_ticker": 100.0,
+      "pct_of_gme": 100.0,
+      "jaccard": 1.0
+    },
+    "gme_uncovered_minutes": 0
+  }
+}

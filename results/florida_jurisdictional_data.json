@@ -1,0 +1,62 @@
+{
+  "_metadata": {
+    "title": "Florida Jurisdictional Asset Protection \u2014 Citadel HQ Move Analysis",
+    "extraction_date": "2026-02-18",
+    "sources": [
+      "FL Constitution Art. VII \u00a75 (no income tax)",
+      "FL Constitution Art. X \u00a74 (homestead)",
+      "FL Statute \u00a7689.115 (TBE)",
+      "FL UCC Chapter 679 (secured transactions)",
+      "Citadel X-17A-5 FY2022 vs FY2023 cover pages"
+    ]
+  },
+  "hq_timeline": {
+    "FY2020": {
+      "address": "131 S Dearborn St, Chicago, IL 60603",
+      "state": "IL"
+    },
+    "FY2021": {
+      "address": "131 S Dearborn St, Chicago, IL 60603",
+      "state": "IL"
+    },
+    "FY2022": {
+      "address": "131 S Dearborn St, Chicago, IL 60603",
+      "state": "IL"
+    },
+    "FY2023": {
+      "address": "200 S Biscayne Blvd, Suite 3300, Miami, FL 33131",
+      "state": "FL"
+    },
+    "FY2024": {
+      "address": "200 S Biscayne Blvd, Suite 3300, Miami, FL 33131",
+      "state": "FL"
+    }
+  },
+  "layer_1_tax": {
+    "protection": "Zero state personal income tax",
+    "legal_basis": "FL Constitution Art. VII \u00a75",
+    "estimated_annual_savings_vs_ny": "$450M+",
+    "calculation": "Based on ~$4.2B FY2024 net income \u00d7 (13.3% NY + 3.876% NYC surcharge)"
+  },
+  "layer_2_homestead": {
+    "protection": "Unlimited value homestead exemption",
+    "legal_basis": "FL Constitution Art. X \u00a74",
+    "key_feature": "No dollar cap on property value (unlike TX which has acreage limits only)",
+    "residency_requirement": "Bona fide FL residency, intent to remain"
+  },
+  "layer_3_tbe": {
+    "protection": "Tenancy by the entirety for all personal property",
+    "legal_basis": "FL Statute \u00a7689.115; Beal Bank v. Almand (2001)",
+    "scope": "Stocks, bank accounts, brokerage holdings \u2014 all personal property",
+    "effect": "Individual creditor of one spouse cannot seize jointly held assets"
+  },
+  "layer_4_ucc": {
+    "impact": "Marginal for broker-dealer operations",
+    "reason": "Securities perfected by control (UCC \u00a78-106), not filing. Filing jurisdiction shifts to FL for personal guarantees only.",
+    "legal_basis": "FL UCC Chapter 679"
+  },
+  "layer_5_regulatory": {
+    "impact": "None \u2014 federal oversight unchanged",
+    "explanation": "FINRA, SEC, OCC regulation is federal. State of domicile does not affect regulatory jurisdiction for broker-dealers."
+  }
+}

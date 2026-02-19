@@ -1,0 +1,209 @@
+{
+  "AETOS_Dist_2023": {
+    "pages": 37,
+    "text_pages": 36,
+    "total_chars": 69686,
+    "tables": 29,
+    "image_pages": 3,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/aetos/AETOS_Distressed_NCSR_2023.pdf"
+  },
+  "AETOS_Dist_2024": {
+    "pages": 37,
+    "text_pages": 36,
+    "total_chars": 69395,
+    "tables": 134,
+    "image_pages": 3,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/aetos/AETOS_Distressed_NCSR_2024.pdf"
+  },
+  "AETOS_Dist_Jan2024": {
+    "pages": 42,
+    "text_pages": 42,
+    "total_chars": 90415,
+    "tables": 23,
+    "image_pages": 4,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/aetos/AETOS_Distressed_NCSR_Jan2024.pdf"
+  },
+  "AETOS_LS_Jan2024": {
+    "pages": 42,
+    "text_pages": 42,
+    "total_chars": 90381,
+    "tables": 25,
+    "image_pages": 4,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/aetos/AETOS_LongShort_NCSR_Jan2024.pdf"
+  },
+  "CDRG_FY2020": {
+    "pages": 18,
+    "text_pages": 16,
+    "total_chars": 66333,
+    "tables": 2,
+    "image_pages": 18,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/citadel_main/CDRG_FY2020.pdf"
+  },
+  "CDRG_FY2021": {
+    "pages": 18,
+    "text_pages": 15,
+    "total_chars": 64977,
+    "tables": 19,
+    "image_pages": 3,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/citadel_main/CDRG_FY2021.pdf"
+  },
+  "CDRG_FY2022": {
+    "pages": 20,
+    "text_pages": 16,
+    "total_chars": 64256,
+    "tables": 20,
+    "image_pages": 5,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/citadel_main/CDRG_FY2022.pdf"
+  },
+  "CDRG_FY2023": {
+    "pages": 19,
+    "text_pages": 16,
+    "total_chars": 65928,
+    "tables": 64,
+    "image_pages": 4,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/citadel_securities_x17a5_FY2023.pdf"
+  },
+  "CDRG_FY2024": {
+    "pages": 19,
+    "text_pages": 2,
+    "total_chars": 4580,
+    "tables": 6,
+    "image_pages": 4,
+    "status": "\ud83d\udfe1 MIXED",
+    "path": "[ARCHIVE_PATH]/citadel_main/CDRG_FY2024.pdf"
+  },
+  "CSIN_FY2024": {
+    "pages": 13,
+    "text_pages": 11,
+    "total_chars": 36567,
+    "tables": 44,
+    "image_pages": 4,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/citadel_institutional/CSIN_FY2024.pdf"
+  },
+  "CSIN_H1_2025": {
+    "pages": 11,
+    "text_pages": 9,
+    "total_chars": 31536,
+    "tables": 43,
+    "image_pages": 2,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/citadel_institutional/CSIN_Interim_H1_2025.pdf"
+  },
+  "CSSD_FY2024": {
+    "pages": 18,
+    "text_pages": 15,
+    "total_chars": 54227,
+    "tables": 68,
+    "image_pages": 5,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/citadel_swap_dealer/CSSD_FY2024.pdf"
+  },
+  "CSSD_H1_2024": {
+    "pages": 8,
+    "text_pages": 5,
+    "total_chars": 2316,
+    "tables": 1,
+    "image_pages": 2,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/citadel_swap_dealer/CSSD_Interim_H1_2024.pdf"
+  },
+  "PALA_FY2021": {
+    "pages": 14,
+    "text_pages": 11,
+    "total_chars": 36800,
+    "tables": 18,
+    "image_pages": 3,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/palafox_g1/PALA_FY2021.pdf"
+  },
+  "PALA_FY2022": {
+    "pages": 13,
+    "text_pages": 9,
+    "total_chars": 35332,
+    "tables": 9,
+    "image_pages": 5,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/palafox_g1/PALA_FY2022.pdf"
+  },
+  "PALA_FY2023": {
+    "pages": 13,
+    "text_pages": 10,
+    "total_chars": 36180,
+    "tables": 41,
+    "image_pages": 4,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/palafox_g1/PALA_FY2023.pdf"
+  },
+  "PALA_FY2024": {
+    "pages": 15,
+    "text_pages": 2,
+    "total_chars": 4628,
+    "tables": 4,
+    "image_pages": 4,
+    "status": "\ud83d\udfe1 MIXED",
+    "path": "[ARCHIVE_PATH]/palafox_g1/PALA_FY2024.pdf"
+  },
+  "VAL_FY2022": {
+    "pages": 26,
+    "text_pages": 26,
+    "total_chars": 59490,
+    "tables": 0,
+    "image_pages": 1,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/virtu/VAL_FY2022.pdf"
+  },
+  "Virtu_FY2020": {
+    "pages": 2,
+    "text_pages": 2,
+    "total_chars": 2494,
+    "tables": 8,
+    "image_pages": 2,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/virtu/Virtu_FY2020_xml.pdf"
+  },
+  "Virtu_FY2021": {
+    "pages": 2,
+    "text_pages": 2,
+    "total_chars": 2505,
+    "tables": 7,
+    "image_pages": 2,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/virtu/Virtu_FY2021_xml.pdf"
+  },
+  "Virtu_FY2022": {
+    "pages": 2,
+    "text_pages": 2,
+    "total_chars": 2505,
+    "tables": 7,
+    "image_pages": 2,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/virtu/Virtu_FY2022_xml.pdf"
+  },
+  "Virtu_FY2023": {
+    "pages": 2,
+    "text_pages": 2,
+    "total_chars": 2505,
+    "tables": 7,
+    "image_pages": 2,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/virtu/Virtu_FY2023_xml.pdf"
+  },
+  "Virtu_FY2024": {
+    "pages": 2,
+    "text_pages": 2,
+    "total_chars": 2505,
+    "tables": 7,
+    "image_pages": 2,
+    "status": "\u2705 NATIVE",
+    "path": "[ARCHIVE_PATH]/virtu/Virtu_FY2024_xml.pdf"
+  }
+}

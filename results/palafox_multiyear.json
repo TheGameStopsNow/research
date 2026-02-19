@@ -1,0 +1,53 @@
+{
+  "_metadata": {
+    "entity": "Palafox Trading LLC (G1 Execution Services)",
+    "source": "SEC EDGAR X-17A-5 filings (audited)",
+    "extracted_by": "pdfplumber line-level extraction",
+    "extraction_date": "2026-02-18",
+    "units": "USD millions unless noted",
+    "archive_location": "review_package_02_archive/palafox_g1/"
+  },
+  "FY2021": {
+    "total_assets": 16427,
+    "total_liabilities": 16168,
+    "members_capital": 258.6,
+    "repos_repurchase": 15933,
+    "reverse_repos_resell": null,
+    "net_capital_excess_millions": 243.9,
+    "unsettled_forward_reverse_repos_billions": null,
+    "unsettled_forward_repos_billions": null,
+    "securities_owned": null,
+    "notes": "FY2021 \u2014 repo-dominated balance sheet, clearing entity for GFIL"
+  },
+  "FY2022": {
+    "total_assets": 29695,
+    "total_liabilities": 29236,
+    "members_capital": 458.7,
+    "repos_repurchase": 28488,
+    "reverse_repos_resell": 28476,
+    "net_capital_excess_millions": 431.4,
+    "unsettled_forward_reverse_repos_billions": 14.1,
+    "unsettled_forward_repos_billions": 14.1,
+    "securities_owned": null,
+    "notes": "FY2022 \u2014 peak assets at $29.7B, massive matched-book repo"
+  },
+  "FY2023": {
+    "total_assets": 93.4,
+    "total_liabilities": 91.7,
+    "members_capital": 1.7,
+    "repos_repurchase": 89.7,
+    "reverse_repos_resell": 89.7,
+    "net_capital_excess_billions": 1.67,
+    "unsettled_forward_reverse_repos_billions": 56.9,
+    "unsettled_forward_repos_billions": 21.3,
+    "securities_owned": null,
+    "notes": "FY2023 \u2014 COLLAPSE: 99.7% asset reduction. Off-BS unsettled forwards = $78.2B total"
+  },
+  "analysis": {
+    "asset_collapse_pct": -99.7,
+    "peak_to_trough": "FY2022 $29.7B \u2192 FY2023 $93M",
+    "off_balance_sheet_total_fy2023": "~$78.2B ($56.9B + $21.3B unsettled forward repos)",
+    "counterparty": "GFIL (Citadel Global Fixed Income Master Fund Ltd.)",
+    "significance": "Entity drained of on-balance-sheet assets while accumulating $78B in off-BS commitments. Pattern consistent with liability migration to avoid consolidated reporting."
+  }
+}

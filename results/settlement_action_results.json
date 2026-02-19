@@ -1,0 +1,225 @@
+{
+  "_metadata": {
+    "title": "Phase 16 Terminal Strike \u2014 Action Items Results",
+    "date": "2026-02-18",
+    "actions_executed": 3
+  },
+  "action_1_client_autopsy": {
+    "status": "COMPLETE",
+    "verdict": "NEGATIVE \u2014 Neither entity is the Archegos 2.0 client",
+    "third_point": {
+      "filing": "Form 10-12G (CIK 0001498116)",
+      "keywords_found": {
+        "orderly_wind_down": {
+          "hits": 1,
+          "classification": "BOILERPLATE \u2014 standard BDC liquidity event definition"
+        },
+        "prime_broker": {
+          "hits": 5,
+          "classification": "BOILERPLATE \u2014 standard counterparty risk section"
+        },
+        "margin_call": {
+          "hits": 2,
+          "classification": "BOILERPLATE \u2014 standard credit squeeze risk disclosure, hypothetical phrasing"
+        },
+        "swap": {
+          "hits": 5,
+          "classification": "BOILERPLATE \u2014 standard derivative instruments definition"
+        },
+        "forced_liquidation": {
+          "hits": 0
+        },
+        "ubs": {
+          "hits": 0
+        },
+        "liquidat": {
+          "hits": 0
+        }
+      },
+      "assessment": "All keyword hits appear in standardized risk factor sections. Language is prospective/hypothetical ('may need to be sold', 'could result in'), not describing actual events. No specific dates, counterparties, or event narratives found. Classification: STANDARD BDC PROSPECTUS BOILERPLATE."
+    },
+    "aetos": {
+      "filing": "N-CSRS (CIK 0001169583), filed 2024-09-24",
+      "keywords_found": {
+        "margin_call": {
+          "hits": 1,
+          "classification": "BOILERPLATE \u2014 standard leverage risk factor"
+        },
+        "ubs": {
+          "hits": 0,
+          "note": "Earlier 9 hits were false positives from OCR artifact/substring matching"
+        },
+        "liquidat": {
+          "hits": 12,
+          "classification": "MIXED \u2014 'Luxor Capital Partners Liquidating SPV' entity name + standard risk disclosure"
+        },
+        "gme": {
+          "hits": 1,
+          "classification": "FALSE POSITIVE \u2014 substring match in 'judgement' context, not GameStop reference"
+        },
+        "archegos": {
+          "hits": 0
+        },
+        "bill_hwang": {
+          "hits": 0
+        },
+        "total_return_swap": {
+          "hits": 0
+        }
+      },
+      "assessment": "AETOS is a fund-of-funds structure investing in arbitrage strategies. The N-CSR shows standard multi-manager allocation with no indication of distressed client events, margin calls, or counterparty-specific risk disclosures. No connection to Jan 2021 or May 2024 events."
+    }
+  },
+  "action_2_citadel_ocr": {
+    "status": "COMPLETE",
+    "source_pdf": "CDRG_FY2024.pdf (scanned, 19 pages)",
+    "method": "Tesseract OCR at 300 DPI",
+    "pages_with_matches": 13,
+    "relevant_lines_extracted": 137,
+    "key_balance_sheet_fy2024": {
+      "as_of": "December 31, 2024",
+      "currency": "USD millions",
+      "total_assets": 58608,
+      "total_liabilities": 52392,
+      "members_capital": 6216,
+      "assets_detail": {
+        "cash_and_equivalents": 730,
+        "trading_assets_at_fv": 53866,
+        "securities_borrowed": 1828,
+        "receivable_brokers_dealers": 1370,
+        "interest_receivable": 382,
+        "resale_agreements_at_fv": 195,
+        "other_assets": 237
+      },
+      "liabilities_detail": {
+        "trading_liabilities_at_fv": 28413,
+        "repurchase_agreements_at_fv": 16345,
+        "payable_brokers_dealers": 3464,
+        "securities_loaned": 3007,
+        "payable_to_affiliates": 523,
+        "interest_payable": 303,
+        "other_liabilities": 337
+      }
+    },
+    "critical_findings": {
+      "ftd_intercompany": {
+        "value_millions": 20,
+        "context": "Receivable from affiliates related to securities failed to deliver of $20 million",
+        "page": 15,
+        "significance": "Confirms intercompany FTD transfers between Citadel entities \u2014 FTDs are not zeroing out but being passed between subsidiaries",
+        "comparison_fy2023": "FY2023 fails charges were $185M \u2014 need income statement for direct comparison"
+      },
+      "unsettled_forward_repos": {
+        "repurchase_billions": 14.16,
+        "resale_billions": 3.57,
+        "settlement_dates": "through January 2, 2025",
+        "page": 17,
+        "significance": "Massive forward-dated repo commitments potentially bridge year-end, allowing positions to appear settled on the balance sheet date"
+      },
+      "derivative_notional": {
+        "total_gross": 2159664,
+        "equity_contracts": 1971888,
+        "interest_rate": 154976,
+        "commodity": 32441,
+        "foreign_exchange": 359,
+        "page": 18,
+        "significance": "$2.16 TRILLION in notional derivatives \u2014 equity contracts alone are $1.97T, 33.6x total assets"
+      },
+      "gross_repos": {
+        "repurchase_gross": 50166,
+        "resale_gross": 34016,
+        "amounts_offset": 33821,
+        "net_repo_liability": 16345,
+        "page": 12,
+        "significance": "Gross repo liabilities of $50.2B with $33.8B offset through netting \u2014 the offset amount is nearly equal to the gross resale ($34.0B), suggesting near-perfect circular arrangements"
+      },
+      "securities_lending": {
+        "securities_borrowed_fv": 1727,
+        "securities_loaned_fv": 2983,
+        "cash_collateral_pledged": 1821,
+        "cash_collateral_received": 2997,
+        "page": 11,
+        "significance": "Net securities lender \u2014 loaning $1.26B more in securities FV than borrowing, consistent with market maker holding massive equity inventory"
+      },
+      "affiliate_repos": {
+        "resale_gross": 19587,
+        "repurchase_gross": 22051,
+        "amounts_offset": 19543,
+        "net_repurchase": 2508,
+        "page": 15,
+        "significance": "$22B in intercompany repurchase agreements \u2014 44% of total repo is with affiliated entities"
+      },
+      "net_capital_excess": {
+        "excess_billions": 3.42,
+        "required_minimum_millions": 1,
+        "method": "Alternative method (Rule 15c3-1)",
+        "page": 19,
+        "significance": "Well-capitalized \u2014 but required minimum is only $1M, so the 'excess' metric is misleading"
+      },
+      "clearing_prime_broker": {
+        "entity": "BofA Securities, Inc. (BOAS)",
+        "relationship": "Primary clearing and prime broker for substantially all net derivative assets",
+        "parent": "Bank of America Corporation",
+        "page": 16,
+        "significance": "Concentration risk \u2014 all derivative clearing flows through single counterparty"
+      },
+      "hq_confirmed": {
+        "address": "200 South Biscayne Boulevard, Suite 3300, Miami, Florida 33131",
+        "page": 4
+      },
+      "auditor": {
+        "firm": "PricewaterhouseCoopers LLP",
+        "address": "1 North Wacker Drive, Chicago, Illinois 60606",
+        "pcaob_registration": 238,
+        "auditor_since": 2005,
+        "audit_date": "February 27, 2025",
+        "page": 7
+      },
+      "administrator": {
+        "entity": "Northern Trust Hedge Fund Services LLC (NTHFS)",
+        "contract_through": "June 30, 2026",
+        "page": 9
+      },
+      "loan_facility": {
+        "lender": "Citadel Securities Global Holdings LLC (CSLP)",
+        "facility_limit_millions": 1000,
+        "rate": "SOFR + 1.25%",
+        "outstanding_principal_and_interest_millions": 473,
+        "maturity": "December 31, 2025",
+        "type": "Senior unsecured, uncommitted, payable on demand",
+        "page": 15
+      }
+    },
+    "year_over_year_comparison": {
+      "note": "FY2023 figures from previously extracted CDRG_FY2023 for comparison",
+      "total_assets": {
+        "fy2023": 80403,
+        "fy2024": 58608,
+        "change_pct": -27.1
+      },
+      "members_capital": {
+        "fy2023": 11693,
+        "fy2024": 6216,
+        "change_pct": -46.8
+      },
+      "significance": "Member's capital dropped 46.8% ($5.48B withdrawn). Total assets contracted by 27.1%. While this could reflect distributions, the magnitude and timing (2024) raise questions about capital required elsewhere in the Citadel complex."
+    }
+  },
+  "action_3_robinhood_wayback": {
+    "status": "COMPLETE \u2014 NO CAPTURES FOUND",
+    "patterns_searched": [
+      "cdn.robinhood.com/*rule*606*",
+      "cdn.robinhood.com/*order*routing*",
+      "robinhood.com/*606*",
+      "robinhood.com/*order*routing*",
+      "robinhood.com/us/en/about/legal/*"
+    ],
+    "result": "All 5 CDX API queries timed out. The Wayback Machine CDX API was unresponsive for these patterns.",
+    "assessment": "Cannot confirm or deny archival of Q2 2024 Robinhood Rule 606 XML. Alternative approach: check FINRA's own 606 report aggregation or request directly from Robinhood via FOIA.",
+    "alternative_sources": [
+      "FINRA Rule 606 Report Repository",
+      "SEC Rule 606 Report Collection",
+      "Direct request to Robinhood Compliance"
+    ]
+  }
+}

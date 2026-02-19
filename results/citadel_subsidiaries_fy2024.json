@@ -1,0 +1,27 @@
+{
+  "_metadata": {
+    "title": "Citadel Securities Subsidiaries \u2014 FY2024 Balance Sheets",
+    "source": "X-17A-5 filings via citadelsecurities.com/disclosures/",
+    "extraction_date": "2026-02-18",
+    "units": "USD millions"
+  },
+  "citadel_securities_institutional_llc": {
+    "abbreviation": "CSIN",
+    "period": "FY2024 (December 31, 2024)",
+    "total_assets": 380,
+    "total_liabilities": 233,
+    "members_capital": 147,
+    "principal_address": "200 South Biscayne Blvd, Suite 3300, Miami, FL 33131",
+    "auditor": "PricewaterhouseCoopers LLP"
+  },
+  "citadel_securities_swap_dealer_llc": {
+    "abbreviation": "CSSD",
+    "period": "FY2024 (December 31, 2024)",
+    "total_assets": 3388,
+    "total_liabilities": 2977,
+    "members_capital": 411,
+    "principal_address": "200 South Biscayne Blvd, Suite 3300, Miami, FL 33131",
+    "auditor": "PricewaterhouseCoopers LLP",
+    "notes": "Derivative financial instruments on balance sheet"
+  }
+}

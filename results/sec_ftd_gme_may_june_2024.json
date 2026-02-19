@@ -1,0 +1,2483 @@
+{
+  "metadata": {
+    "periods": [
+      "2024-04a",
+      "2024-04b",
+      "2024-05a",
+      "2024-05b",
+      "2024-06a",
+      "2024-06b",
+      "2024-07a"
+    ],
+    "symbols_tracked": [
+      "GME",
+      "AMC",
+      "KOSS"
+    ],
+    "source": "SEC Fails-to-Deliver Data (CNS)",
+    "gme_cusip": "36467W109"
+  },
+  "gme_ftds": [
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240402",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 214199,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.99,
+      "notional_value": 2568246.01
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240403",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 155,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.28,
+      "notional_value": 1748.4
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240404",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 240,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.38,
+      "notional_value": 2731.2
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240405",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 122793,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.53,
+      "notional_value": 1415803.29
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240408",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 57317,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.25,
+      "notional_value": 644816.25
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240409",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 95371,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.83,
+      "notional_value": 1032867.93
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240410",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 68011,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.01,
+      "notional_value": 748801.11
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240411",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 152169,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.85,
+      "notional_value": 1651033.65
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240412",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 44718,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.29,
+      "notional_value": 504866.22
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240415",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 51674,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.77,
+      "notional_value": 556528.98
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240416",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 23127,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.06,
+      "notional_value": 232657.62
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240417",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 80587,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.37,
+      "notional_value": 835687.19
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240418",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 15066,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.3,
+      "notional_value": 155179.8
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240419",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 14164,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.31,
+      "notional_value": 146030.84
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240422",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 3306,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.42,
+      "notional_value": 34448.52
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240423",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 2303,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.01,
+      "notional_value": 23053.03
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240424",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 1267,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.16,
+      "notional_value": 12872.72
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240425",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 102,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.93,
+      "notional_value": 1114.86
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240426",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 866,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.21,
+      "notional_value": 9707.86
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240429",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 17862,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.9,
+      "notional_value": 212557.8
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240430",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 75357,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.29,
+      "notional_value": 850780.53
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240501",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 8167,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.09,
+      "notional_value": 90572.03
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240502",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 6793,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.91,
+      "notional_value": 74111.63
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240503",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 941,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 12.76,
+      "notional_value": 12007.16
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240506",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 186627,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 16.47,
+      "notional_value": 3073746.69
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240507",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 433054,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 16.31,
+      "notional_value": 7063110.74
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240508",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 525493,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 16.31,
+      "notional_value": 8570790.83
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240509",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 366850,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 15.92,
+      "notional_value": 5840252.0
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240510",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 223129,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 18.01,
+      "notional_value": 4018553.29
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240513",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 152482,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 17.46,
+      "notional_value": 2662335.72
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240514",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 344501,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 30.45,
+      "notional_value": 10490055.45
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240515",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 571602,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 48.75,
+      "notional_value": 27865597.5
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240516",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 22407,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 39.55,
+      "notional_value": 886196.85
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240517",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 82732,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 27.67,
+      "notional_value": 2289194.44
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240520",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 1143,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 22.21,
+      "notional_value": 25386.03
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240521",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 51196,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.14,
+      "notional_value": 1184675.44
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240522",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 160,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 22.12,
+      "notional_value": 3539.2
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240523",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 55,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 21.12,
+      "notional_value": 1161.6
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240528",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 211603,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 19.0,
+      "notional_value": 4020457.0
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240529",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 7425,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.78,
+      "notional_value": 176566.5
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240531",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 9629,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 22.61,
+      "notional_value": 217711.69
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240603",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 135641,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.14,
+      "notional_value": 3138732.74
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240604",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 35959,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 28.0,
+      "notional_value": 1006852.0
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240605",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 92853,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 26.5,
+      "notional_value": 2460604.5
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240606",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 276,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 31.57,
+      "notional_value": 8713.32
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240607",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 242827,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 46.55,
+      "notional_value": 11303596.85
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240610",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 74712,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 28.22,
+      "notional_value": 2108372.64
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240613",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 352476,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 25.46,
+      "notional_value": 8974038.96
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240614",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 4142,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 29.12,
+      "notional_value": 120615.04
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240617",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 17531,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 28.7,
+      "notional_value": 503139.7
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240618",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 10638,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 25.22,
+      "notional_value": 268290.36
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240620",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 19581,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.7,
+      "notional_value": 483650.7
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240621",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 4035,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 25.59,
+      "notional_value": 103255.65
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240624",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 148333,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.93,
+      "notional_value": 3549608.69
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240625",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 877,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.65,
+      "notional_value": 20741.05
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240626",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 2044,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.93,
+      "notional_value": 50956.92
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240627",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 92,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.2,
+      "notional_value": 2226.4
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240628",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 7889,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 25.09,
+      "notional_value": 197935.01
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240701",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 32428,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.69,
+      "notional_value": 800647.32
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240702",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 13376,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.33,
+      "notional_value": 312062.08
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240703",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 5871,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.98,
+      "notional_value": 140786.58
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240705",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 13451,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.37,
+      "notional_value": 327800.87
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240708",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 14019,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.18,
+      "notional_value": 338979.42
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240709",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 1960,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.45,
+      "notional_value": 47922.0
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240710",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 2060,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.6,
+      "notional_value": 50676.0
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240711",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 4404,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.97,
+      "notional_value": 109967.88
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240712",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 11585,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 25.57,
+      "notional_value": 296228.45
+    }
+  ],
+  "all_tracked_ftds": [
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240401",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 46710,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.72,
+      "notional_value": 173761.2
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240401",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 187,
+      "description": "KOSS CORP",
+      "price": 2.57,
+      "notional_value": 480.59
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240402",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 65147,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.14,
+      "notional_value": 204561.58
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240402",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 214199,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.99,
+      "notional_value": 2568246.01
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240403",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 812461,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.1,
+      "notional_value": 2518629.1
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240403",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 155,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.28,
+      "notional_value": 1748.4
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240404",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 53028,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.02,
+      "notional_value": 160144.56
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240404",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 240,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.38,
+      "notional_value": 2731.2
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240405",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 1611197,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.0,
+      "notional_value": 4833591.0
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240405",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 122793,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.53,
+      "notional_value": 1415803.29
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240405",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 483,
+      "description": "KOSS CORP",
+      "price": 2.56,
+      "notional_value": 1236.48
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240408",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 163096,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.01,
+      "notional_value": 490918.96
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240408",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 57317,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.25,
+      "notional_value": 644816.25
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240409",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 22480,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.95,
+      "notional_value": 66316.0
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240409",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 95371,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.83,
+      "notional_value": 1032867.93
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240410",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 8083,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.97,
+      "notional_value": 24006.51
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240410",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 68011,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.01,
+      "notional_value": 748801.11
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240411",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 99064,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.83,
+      "notional_value": 280351.12
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240411",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 152169,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.85,
+      "notional_value": 1651033.65
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240412",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 1788,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.8,
+      "notional_value": 5006.4
+    },
+    {
+      "period": "2024-04a",
+      "settlement_date": "20240412",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 44718,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.29,
+      "notional_value": 504866.22
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240415",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 160676,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.65,
+      "notional_value": 425791.4
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240415",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 51674,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.77,
+      "notional_value": 556528.98
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240415",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 74,
+      "description": "KOSS CORP",
+      "price": 2.39,
+      "notional_value": 176.86
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240416",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 53294,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.47,
+      "notional_value": 131636.18
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240416",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 23127,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.06,
+      "notional_value": 232657.62
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240416",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 1362,
+      "description": "KOSS CORP",
+      "price": 2.32,
+      "notional_value": 3159.84
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240417",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 20,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.72,
+      "notional_value": 54.4
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240417",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 80587,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.37,
+      "notional_value": 835687.19
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240418",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 524604,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.98,
+      "notional_value": 1563319.92
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240418",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 15066,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.3,
+      "notional_value": 155179.8
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240419",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 214310,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.92,
+      "notional_value": 625785.2
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240419",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 14164,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.31,
+      "notional_value": 146030.84
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240422",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 112237,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.16,
+      "notional_value": 354668.92
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240422",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 3306,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.42,
+      "notional_value": 34448.52
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240422",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 136,
+      "description": "KOSS CORP",
+      "price": 2.34,
+      "notional_value": 318.24
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240423",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 128,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.42,
+      "notional_value": 437.76
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240423",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 2303,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.01,
+      "notional_value": 23053.03
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240423",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 70,
+      "description": "KOSS CORP",
+      "price": 2.31,
+      "notional_value": 161.7
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240424",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 157224,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.39,
+      "notional_value": 532989.36
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240424",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 1267,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.16,
+      "notional_value": 12872.72
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240425",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 694231,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.28,
+      "notional_value": 2277077.68
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240425",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 102,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.93,
+      "notional_value": 1114.86
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240426",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 142541,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.28,
+      "notional_value": 467534.48
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240426",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 866,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.21,
+      "notional_value": 9707.86
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240429",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 131654,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.41,
+      "notional_value": 448940.14
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240429",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 17862,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.9,
+      "notional_value": 212557.8
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240430",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 336989,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.03,
+      "notional_value": 1021076.67
+    },
+    {
+      "period": "2024-04b",
+      "settlement_date": "20240430",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 75357,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.29,
+      "notional_value": 850780.53
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240501",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 610867,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.93,
+      "notional_value": 1789840.31
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240501",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 8167,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 11.09,
+      "notional_value": 90572.03
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240502",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 498099,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.97,
+      "notional_value": 1479354.03
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240502",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 6793,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 10.91,
+      "notional_value": 74111.63
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240503",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 426709,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.13,
+      "notional_value": 1335599.17
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240503",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 941,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 12.76,
+      "notional_value": 12007.16
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240506",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 357229,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.3,
+      "notional_value": 1178855.7
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240506",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 186627,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 16.47,
+      "notional_value": 3073746.69
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240506",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 4219,
+      "description": "KOSS CORP",
+      "price": 3.1,
+      "notional_value": 13078.9
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240507",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 6726965,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.29,
+      "notional_value": 22131714.85
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240507",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 433054,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 16.31,
+      "notional_value": 7063110.74
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240507",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 104,
+      "description": "KOSS CORP",
+      "price": 3.38,
+      "notional_value": 351.52
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240508",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 155501,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.19,
+      "notional_value": 496048.19
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240508",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 525493,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 16.31,
+      "notional_value": 8570790.83
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240509",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 1967728,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.19,
+      "notional_value": 6277052.32
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240509",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 366850,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 15.92,
+      "notional_value": 5840252.0
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240509",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 629,
+      "description": "KOSS CORP",
+      "price": 3.32,
+      "notional_value": 2088.28
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240510",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 294273,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 3.05,
+      "notional_value": 897532.65
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240510",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 223129,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 18.01,
+      "notional_value": 4018553.29
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240510",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 284,
+      "description": "KOSS CORP",
+      "price": 3.57,
+      "notional_value": 1013.88
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240513",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 553661,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 2.91,
+      "notional_value": 1611153.51
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240513",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 152482,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 17.46,
+      "notional_value": 2662335.72
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240513",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 304,
+      "description": "KOSS CORP",
+      "price": 3.16,
+      "notional_value": 960.64
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240514",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 865512,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.19,
+      "notional_value": 4492007.28
+    },
+    {
+      "period": "2024-05a",
+      "settlement_date": "20240514",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 344501,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 30.45,
+      "notional_value": 10490055.45
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240515",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 917,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 6.85,
+      "notional_value": 6281.45
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240515",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 571602,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 48.75,
+      "notional_value": 27865597.5
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240515",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 220302,
+      "description": "KOSS CORP",
+      "price": 6.15,
+      "notional_value": 1354857.3
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240516",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 1925587,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.48,
+      "notional_value": 10552216.76
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240516",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 22407,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 39.55,
+      "notional_value": 886196.85
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240516",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 63227,
+      "description": "KOSS CORP",
+      "price": 4.97,
+      "notional_value": 314238.19
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240517",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 1092764,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.64,
+      "notional_value": 5070424.96
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240517",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 82732,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 27.67,
+      "notional_value": 2289194.44
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240517",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 18457,
+      "description": "KOSS CORP",
+      "price": 4.73,
+      "notional_value": 87301.61
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240520",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 107880,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.4,
+      "notional_value": 474672.0
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240520",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 1143,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 22.21,
+      "notional_value": 25386.03
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240520",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 8513,
+      "description": "KOSS CORP",
+      "price": 4.79,
+      "notional_value": 40777.27
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240521",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 272656,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.83,
+      "notional_value": 1316928.48
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240521",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 51196,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.14,
+      "notional_value": 1184675.44
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240521",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 16989,
+      "description": "KOSS CORP",
+      "price": 5.29,
+      "notional_value": 89871.81
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240522",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 49043,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.65,
+      "notional_value": 228049.95
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240522",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 160,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 22.12,
+      "notional_value": 3539.2
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240522",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 4272,
+      "description": "KOSS CORP",
+      "price": 5.25,
+      "notional_value": 22428.0
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240523",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 255565,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.06,
+      "notional_value": 1293158.9
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240523",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 55,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 21.12,
+      "notional_value": 1161.6
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240523",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 7602,
+      "description": "KOSS CORP",
+      "price": 5.26,
+      "notional_value": 39986.52
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240524",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 63996,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.55,
+      "notional_value": 291181.8
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240528",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 40009,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.84,
+      "notional_value": 193643.56
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240528",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 211603,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 19.0,
+      "notional_value": 4020457.0
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240529",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 84730,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.88,
+      "notional_value": 413482.4
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240529",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 7425,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.78,
+      "notional_value": 176566.5
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240529",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 6830,
+      "description": "KOSS CORP",
+      "price": 5.0,
+      "notional_value": 34150.0
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240530",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 385903,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.5,
+      "notional_value": 1736563.5
+    },
+    {
+      "period": "2024-05b",
+      "settlement_date": "20240531",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 9629,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 22.61,
+      "notional_value": 217711.69
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240603",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 31048,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.33,
+      "notional_value": 134437.84
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240603",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 135641,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.14,
+      "notional_value": 3138732.74
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240603",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 1194,
+      "description": "KOSS CORP",
+      "price": 4.7,
+      "notional_value": 5611.8
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240604",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 102248,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.81,
+      "notional_value": 491812.88
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240604",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 35959,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 28.0,
+      "notional_value": 1006852.0
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240604",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 13387,
+      "description": "KOSS CORP",
+      "price": 4.73,
+      "notional_value": 63320.51
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240605",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 27989,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.79,
+      "notional_value": 134067.31
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240605",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 92853,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 26.5,
+      "notional_value": 2460604.5
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240605",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 8773,
+      "description": "KOSS CORP",
+      "price": 4.65,
+      "notional_value": 40794.45
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240606",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 149157,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.15,
+      "notional_value": 768158.55
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240606",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 276,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 31.57,
+      "notional_value": 8713.32
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240606",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 10244,
+      "description": "KOSS CORP",
+      "price": 4.78,
+      "notional_value": 48966.32
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240607",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 1873690,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.79,
+      "notional_value": 10848665.1
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240607",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 242827,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 46.55,
+      "notional_value": 11303596.85
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240607",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 47077,
+      "description": "KOSS CORP",
+      "price": 5.52,
+      "notional_value": 259865.04
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240610",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 60840,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.91,
+      "notional_value": 298724.4
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240610",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 74712,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 28.22,
+      "notional_value": 2108372.64
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240611",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 31269,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.71,
+      "notional_value": 147276.99
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240611",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 1810,
+      "description": "KOSS CORP",
+      "price": 4.29,
+      "notional_value": 7764.9
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240612",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 76379,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.22,
+      "notional_value": 398698.38
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240613",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 192609,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.91,
+      "notional_value": 945710.19
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240613",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 352476,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 25.46,
+      "notional_value": 8974038.96
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240614",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 168279,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.2,
+      "notional_value": 875050.8
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240614",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 4142,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 29.12,
+      "notional_value": 120615.04
+    },
+    {
+      "period": "2024-06a",
+      "settlement_date": "20240614",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 2511,
+      "description": "KOSS CORP",
+      "price": 4.26,
+      "notional_value": 10696.86
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240617",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 333219,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.99,
+      "notional_value": 1662762.81
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240617",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 17531,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 28.7,
+      "notional_value": 503139.7
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240617",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 254,
+      "description": "KOSS CORP",
+      "price": 4.02,
+      "notional_value": 1021.08
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240618",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 176575,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.89,
+      "notional_value": 863451.75
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240618",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 10638,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 25.22,
+      "notional_value": 268290.36
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240620",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 164803,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.86,
+      "notional_value": 800942.58
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240620",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 19581,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.7,
+      "notional_value": 483650.7
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240621",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 40919,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.81,
+      "notional_value": 196820.39
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240621",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 4035,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 25.59,
+      "notional_value": 103255.65
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240621",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 181,
+      "description": "KOSS CORP",
+      "price": 3.93,
+      "notional_value": 711.33
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240624",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 483587,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.55,
+      "notional_value": 2200320.85
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240624",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 148333,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.93,
+      "notional_value": 3549608.69
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240624",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 3588,
+      "description": "KOSS CORP",
+      "price": 3.94,
+      "notional_value": 14136.72
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240625",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 877,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.65,
+      "notional_value": 20741.05
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240625",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 2198,
+      "description": "KOSS CORP",
+      "price": 3.88,
+      "notional_value": 8528.24
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240626",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 15647,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.53,
+      "notional_value": 70880.91
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240626",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 2044,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.93,
+      "notional_value": 50956.92
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240627",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 35950,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.68,
+      "notional_value": 168246.0
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240627",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 92,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.2,
+      "notional_value": 2226.4
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240627",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 13422,
+      "description": "KOSS CORP",
+      "price": 4.2,
+      "notional_value": 56372.4
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240628",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 38377,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.78,
+      "notional_value": 183442.06
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240628",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 7889,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 25.09,
+      "notional_value": 197935.01
+    },
+    {
+      "period": "2024-06b",
+      "settlement_date": "20240628",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 14624,
+      "description": "KOSS CORP",
+      "price": 4.2,
+      "notional_value": 61420.8
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240701",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 1069737,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 4.98,
+      "notional_value": 5327290.26
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240701",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 32428,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.69,
+      "notional_value": 800647.32
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240701",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 13811,
+      "description": "KOSS CORP",
+      "price": 4.45,
+      "notional_value": 61458.95
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240702",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 170805,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.04,
+      "notional_value": 860857.2
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240702",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 13376,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.33,
+      "notional_value": 312062.08
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240702",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 932,
+      "description": "KOSS CORP",
+      "price": 4.59,
+      "notional_value": 4277.88
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240703",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 75268,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.21,
+      "notional_value": 392146.28
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240703",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 5871,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 23.98,
+      "notional_value": 140786.58
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240703",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 5260,
+      "description": "KOSS CORP",
+      "price": 4.36,
+      "notional_value": 22933.6
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240705",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 74868,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.03,
+      "notional_value": 376586.04
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240705",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 13451,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.37,
+      "notional_value": 327800.87
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240705",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 245020,
+      "description": "KOSS CORP",
+      "price": 10.63,
+      "notional_value": 2604562.6
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240708",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 20785,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.05,
+      "notional_value": 104964.25
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240708",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 14019,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.18,
+      "notional_value": 338979.42
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240708",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 99721,
+      "description": "KOSS CORP",
+      "price": 13.35,
+      "notional_value": 1331275.35
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240709",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 92078,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.47,
+      "notional_value": 503666.66
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240709",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 1960,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.45,
+      "notional_value": 47922.0
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240709",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 266518,
+      "description": "KOSS CORP",
+      "price": 10.49,
+      "notional_value": 2795773.82
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240710",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 9524,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.46,
+      "notional_value": 52001.04
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240710",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 2060,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.6,
+      "notional_value": 50676.0
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240710",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 144900,
+      "description": "KOSS CORP",
+      "price": 9.92,
+      "notional_value": 1437408.0
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240711",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 402462,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.21,
+      "notional_value": 2096827.02
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240711",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 4404,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 24.97,
+      "notional_value": 109967.88
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240711",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 208459,
+      "description": "KOSS CORP",
+      "price": 8.39,
+      "notional_value": 1748971.01
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240712",
+      "cusip": "00165C302",
+      "symbol": "AMC",
+      "quantity_fails": 411197,
+      "description": "AMC ENTMT HLDGS INC CL A NEW",
+      "price": 5.22,
+      "notional_value": 2146448.34
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240712",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity_fails": 11585,
+      "description": "GAMESTOP CORP (HLDG CO) CL A",
+      "price": 25.57,
+      "notional_value": 296228.45
+    },
+    {
+      "period": "2024-07a",
+      "settlement_date": "20240712",
+      "cusip": "500692108",
+      "symbol": "KOSS",
+      "quantity_fails": 69458,
+      "description": "KOSS CORP",
+      "price": 8.79,
+      "notional_value": 610535.82
+    }
+  ],
+  "gme_summary": {
+    "total_data_points": 67,
+    "total_fail_shares": 5495703,
+    "total_notional": 126933956.72999997,
+    "peak_date": "20240515",
+    "peak_shares": 571602,
+    "pre_may17_avg": 117657.57575757576,
+    "post_may17_avg": 47441.26470588235
+  }
+}

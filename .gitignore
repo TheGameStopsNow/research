@@ -1,0 +1,23 @@
+
+__pycache__/
+*.py[cod]
+.DS_Store
+*.zip
+*.log
+.vscode/
+.idea/
+venv/
+.venv/
+env/
+reports/raw_logs/
+notebooks/.ipynb_checkpoints/
+references/regulatory_dissemination_plan.md
+references/SEC_TCR_NARRATIVE.md
+code/data/
+
+# === EMBARGO BLOCK (remove entries as Parts 3 & 4 are published) ===
+papers/03_policy_regulatory_implications.md
+papers/04_infrastructure_macro.md
+posts/part3_systemic_exhaust.md
+posts/part4_macro_machine.md
+# === END EMBARGO BLOCK ===

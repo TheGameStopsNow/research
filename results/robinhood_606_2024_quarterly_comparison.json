@@ -1,0 +1,222 @@
+{
+  "all_quarters": {
+    "Q1": {
+      "CITADEL SECURITIES LLC": {
+        "equity_pfof": 14828704.080000002,
+        "options_pfof": 58305712.91,
+        "total_pfof": 73134416.99000001
+      },
+      "Virtu Americas, LLC": {
+        "equity_pfof": 8126538.130000001,
+        "options_pfof": 0,
+        "total_pfof": 8126538.130000001
+      },
+      "G1 Execution Services, LLC": {
+        "equity_pfof": 2880800.08,
+        "options_pfof": 0,
+        "total_pfof": 2880800.08
+      },
+      "Jane Street Capital": {
+        "equity_pfof": 9364648.4,
+        "options_pfof": 0,
+        "total_pfof": 9364648.4
+      },
+      "Two Sigma Securities, LLC": {
+        "equity_pfof": 3067977.27,
+        "options_pfof": 0,
+        "total_pfof": 3067977.27
+      },
+      "Wolverine Execution Services, LLC": {
+        "equity_pfof": 0,
+        "options_pfof": 27227022.39,
+        "total_pfof": 27227022.39
+      },
+      "Dash/IMC Financial Markets": {
+        "equity_pfof": 0,
+        "options_pfof": 26036104.0,
+        "total_pfof": 26036104.0
+      },
+      "Morgan Stanley & Co., LLC": {
+        "equity_pfof": 0,
+        "options_pfof": 22671966.48,
+        "total_pfof": 22671966.48
+      },
+      "Global Execution Brokers, LP": {
+        "equity_pfof": 0,
+        "options_pfof": 16225147.899999999,
+        "total_pfof": 16225147.899999999
+      }
+    },
+    "Q3": {
+      "Virtu Americas, LLC": {
+        "equity_pfof": 8951119.03,
+        "options_pfof": 0,
+        "total_pfof": 8951119.03
+      },
+      "CITADEL SECURITIES LLC": {
+        "equity_pfof": 15444651.69,
+        "options_pfof": 71162410.46000001,
+        "total_pfof": 86607062.14999999
+      },
+      "G1 Execution Services, LLC": {
+        "equity_pfof": 2284042.76,
+        "options_pfof": 0,
+        "total_pfof": 2284042.76
+      },
+      "Jane Street Capital": {
+        "equity_pfof": 8827943.590000002,
+        "options_pfof": 0,
+        "total_pfof": 8827943.590000002
+      },
+      "Two Sigma Securities, LLC": {
+        "equity_pfof": 3231861.8100000005,
+        "options_pfof": 0,
+        "total_pfof": 3231861.8100000005
+      },
+      "Dash/IMC Financial Markets": {
+        "equity_pfof": 0,
+        "options_pfof": 48919292.2,
+        "total_pfof": 48919292.2
+      },
+      "Global Execution Brokers, LP": {
+        "equity_pfof": 0,
+        "options_pfof": 30194441.51,
+        "total_pfof": 30194441.51
+      },
+      "Wolverine Execution Services, LLC": {
+        "equity_pfof": 0,
+        "options_pfof": 31147998.69,
+        "total_pfof": 31147998.69
+      },
+      "Morgan Stanley & Co., LLC": {
+        "equity_pfof": 0,
+        "options_pfof": 33232371.18,
+        "total_pfof": 33232371.18
+      }
+    },
+    "Q4": {
+      "Virtu Americas, LLC": {
+        "equity_pfof": 14918812.01,
+        "options_pfof": 0,
+        "total_pfof": 14918812.01
+      },
+      "CITADEL SECURITIES LLC": {
+        "equity_pfof": 25455670.339999996,
+        "options_pfof": 84059752.34,
+        "total_pfof": 109515422.67999999
+      },
+      "G1 Execution Services, LLC": {
+        "equity_pfof": 4779369.98,
+        "options_pfof": 0,
+        "total_pfof": 4779369.98
+      },
+      "Jane Street Capital": {
+        "equity_pfof": 15520275.350000001,
+        "options_pfof": 0,
+        "total_pfof": 15520275.350000001
+      },
+      "Two Sigma Securities, LLC": {
+        "equity_pfof": 5103275.029999999,
+        "options_pfof": 0,
+        "total_pfof": 5103275.029999999
+      },
+      "Dash/IMC Financial Markets": {
+        "equity_pfof": 0,
+        "options_pfof": 60921273.349999994,
+        "total_pfof": 60921273.349999994
+      },
+      "Wolverine Execution Services, LLC": {
+        "equity_pfof": 0,
+        "options_pfof": 31141892.03,
+        "total_pfof": 31141892.03
+      },
+      "Morgan Stanley & Co., LLC": {
+        "equity_pfof": 0,
+        "options_pfof": 31804522.479999997,
+        "total_pfof": 31804522.479999997
+      },
+      "Global Execution Brokers, LP": {
+        "equity_pfof": 0,
+        "options_pfof": 25543262.610000003,
+        "total_pfof": 25543262.610000003
+      }
+    },
+    "Q2": {
+      "Virtu Americas, LLC": {
+        "equity_pfof": 10347024.07,
+        "options_pfof": 0,
+        "total_pfof": 10347024.07
+      },
+      "CITADEL SECURITIES LLC": {
+        "equity_pfof": 14293375.23,
+        "options_pfof": 68982609.1,
+        "total_pfof": 83275984.33
+      },
+      "G1 Execution Services, LLC": {
+        "equity_pfof": 3671514.15,
+        "options_pfof": 0,
+        "total_pfof": 3671514.15
+      },
+      "Two Sigma Securities, LLC": {
+        "equity_pfof": 3827881.15,
+        "options_pfof": 0,
+        "total_pfof": 3827881.15
+      },
+      "Jane Street Capital": {
+        "equity_pfof": 10376268.72,
+        "options_pfof": 0,
+        "total_pfof": 10376268.72
+      },
+      "Wolverine Execution Services, LLC": {
+        "equity_pfof": 0,
+        "options_pfof": 31558169.17,
+        "total_pfof": 31558169.17
+      },
+      "Global Execution Brokers, LP": {
+        "equity_pfof": 0,
+        "options_pfof": 27633453.87,
+        "total_pfof": 27633453.87
+      },
+      "Dash/IMC Financial Markets": {
+        "equity_pfof": 0,
+        "options_pfof": 30691505.88,
+        "total_pfof": 30691505.88
+      },
+      "Morgan Stanley & Co., LLC": {
+        "equity_pfof": 0,
+        "options_pfof": 27152151.43,
+        "total_pfof": 27152151.43
+      }
+    }
+  },
+  "citadel_trend": {
+    "Q1": {
+      "grand_total_pfof": 188734621.64000002,
+      "citadel_total_pfof": 73134416.99000001,
+      "citadel_share_pct": 38.74986812408988,
+      "citadel_options_pfof": 58305712.91,
+      "citadel_equity_pfof": 14828704.080000002
+    },
+    "Q2": {
+      "grand_total_pfof": 228533952.77,
+      "citadel_total_pfof": 83275984.33,
+      "citadel_share_pct": 36.439217595737375,
+      "citadel_options_pfof": 68982609.1,
+      "citadel_equity_pfof": 14293375.23
+    },
+    "Q3": {
+      "grand_total_pfof": 253396132.92,
+      "citadel_total_pfof": 86607062.14999999,
+      "citadel_share_pct": 34.17852559626189,
+      "citadel_options_pfof": 71162410.46000001,
+      "citadel_equity_pfof": 15444651.69
+    },
+    "Q4": {
+      "grand_total_pfof": 299248105.52,
+      "citadel_total_pfof": 109515422.67999999,
+      "citadel_share_pct": 36.59686416049194,
+      "citadel_options_pfof": 84059752.34,
+      "citadel_equity_pfof": 25455670.339999996
+    }
+  }
+}

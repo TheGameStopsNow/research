@@ -1,0 +1,83 @@
+{
+  "analysis": "STRIKE 3: Rule 606 PFOF vs Non-ATS Internalization Cross-Reference",
+  "date_generated": "2026-02-18",
+  "dual_role_entities": [
+    {
+      "entity": "Citadel Securities LLC",
+      "robinhood_pfof_millions": 352.5,
+      "pfof_equity_pct": 28.0,
+      "pfof_options_pct": 36.1,
+      "gme_shares_internalized": 56170024,
+      "gme_baseline_multiplier": 22.8,
+      "asset_classes": "Equity + Options",
+      "role": "Signal Engine \u2014 processes options AND equity PFOF; sees full order book"
+    },
+    {
+      "entity": "Virtu Americas LLC",
+      "robinhood_pfof_millions": 42.3,
+      "pfof_equity_pct": 37.1,
+      "pfof_options_pct": 0.0,
+      "gme_shares_internalized": 81331154,
+      "gme_baseline_multiplier": 42.1,
+      "asset_classes": "Equity Only",
+      "role": "Physical Shock Absorber \u2014 largest equity internalizer but NO options visibility"
+    },
+    {
+      "entity": "Jane Street Capital LLC",
+      "robinhood_pfof_millions": 44.1,
+      "pfof_equity_pct": 15.8,
+      "pfof_options_pct": 0.0,
+      "gme_shares_internalized": 38651285,
+      "gme_baseline_multiplier": 18.9,
+      "asset_classes": "Equity Only",
+      "role": "Secondary Absorber \u2014 equity PFOF only, mid-tier internalization"
+    },
+    {
+      "entity": "Two Sigma Securities LLC",
+      "robinhood_pfof_millions": 15.2,
+      "pfof_equity_pct": 9.1,
+      "pfof_options_pct": 0.0,
+      "gme_shares_internalized": 11643229,
+      "gme_baseline_multiplier": 8.3,
+      "asset_classes": "Equity Only",
+      "role": "Small-scale absorber \u2014 limited PFOF, limited internalization"
+    },
+    {
+      "entity": "G1 Execution Services LLC",
+      "robinhood_pfof_millions": 13.6,
+      "pfof_equity_pct": 10.0,
+      "pfof_options_pct": 0.0,
+      "gme_shares_internalized": 44223226,
+      "gme_baseline_multiplier": 25.0,
+      "asset_classes": "Equity Only",
+      "role": "Disproportionate Absorber \u2014 tiny PFOF but massive internalization (Susquehanna affiliate)"
+    }
+  ],
+  "pfof_only_venues": [
+    {
+      "entity": "Wolverine Execution Services",
+      "pfof_millions": 121.1,
+      "asset": "Options Only"
+    },
+    {
+      "entity": "Dash/IMC Financial Markets",
+      "pfof_millions": 166.6,
+      "asset": "Options Only"
+    },
+    {
+      "entity": "Morgan Stanley & Co.",
+      "pfof_millions": 114.9,
+      "asset": "Options Only"
+    },
+    {
+      "entity": "Global Execution Brokers (Susquehanna)",
+      "pfof_millions": 99.6,
+      "asset": "Options Only"
+    }
+  ],
+  "key_finding": "Structural inversion: Citadel is the signal engine ($352.5M PFOF, options+equity); Virtu/G1 are physical shock absorbers (more shares internalized despite less PFOF)",
+  "citadel_annual_pfof_from_robinhood": 352.5,
+  "total_dual_role_shares_internalized": 232018918,
+  "virtu_to_citadel_share_ratio": 1.4479458652180743,
+  "g1_pfof_to_shares_ratio": 3.251707794117647
+}

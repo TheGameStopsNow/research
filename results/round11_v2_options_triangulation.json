@@ -1,0 +1,37 @@
+{
+  "20240513": {
+    "total_trades": 150326,
+    "total_volume": 573040,
+    "big_blocks": 524,
+    "monster_blocks": 15,
+    "giant_blocks": 3
+  },
+  "20240514": {
+    "total_trades": 173023,
+    "total_volume": 651660,
+    "big_blocks": 612,
+    "monster_blocks": 51,
+    "giant_blocks": 28
+  },
+  "20240515": {
+    "total_trades": 155102,
+    "total_volume": 682547,
+    "big_blocks": 572,
+    "monster_blocks": 78,
+    "giant_blocks": 55
+  },
+  "20240516": {
+    "total_trades": 136406,
+    "total_volume": 676442,
+    "big_blocks": 602,
+    "monster_blocks": 58,
+    "giant_blocks": 41
+  },
+  "20240517": {
+    "total_trades": 171656,
+    "total_volume": 968210,
+    "big_blocks": 1150,
+    "monster_blocks": 74,
+    "giant_blocks": 17
+  }
+}

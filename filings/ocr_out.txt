@@ -1,0 +1,155 @@
+--- PAGE 8 OCR ---
+CITADEL SECURITIES LLC
+Statement of Financial Condition
+(Expressed in U.S. dollars in millions)
+ASSETS
+As of December 31, 2024
+Assets:
+Cash and cash equivalents $ 730
+Trading assets, at fair value 53,866
+Securities borrowed 1,828
+Receivable from brokers, dealers, clearing organizations, and custodians 1,370
+Interest receivable 382
+Securities purchased under agreements to resell, at fair value 195
+Other assets 237
+Total assets $ 58,608
+LIABILITIES AND MEMBER’S CAPITAL
+Liabilities:
+Trading liabilities, at fair value $ 28,413
+Securities sold under agreements to repurchase, at fair value 16,345
+Payable to brokers, dealers, clearing organizations, and custodians 3,464
+Securities loaned 3,007
+Payable to affiliates 523
+Interest payable 303
+Other liabilities 337
+Total liabilities 52,392
+Member’s capital 6,216
+Total liabilities and member’s capital $ 58,608
+See notes to financial statement
+--- PAGE 9 OCR ---
+CITADEL SECURITIES LLC
+Notes to Statement of Financial Condition
+NOTE 1
+Organization
+Citadel Securities LLC (the “Company”), a Delaware limited liability
+company, is registered with the U.S. Securities and Exchange
+Commission (“SEC”) as a broker and dealer, and is a member of the
+Financial Industry Regulatory Authority, Inc. (“FINRA”) and Securities
+Investor Protection Corporation. CSHC US LLC (“CSHC’), an affiliate,
+is the sole member of the Company.
+Citadel Securities Group LP (“CSG”), an affiliate, is the manager of the
+Company. The Company has entered into a portfolio management
+agreement with CSUS (Hong Kong) Limited (“CS-HK”), an affiliate,
+whereby the Company appointed CS-HK to manage a portion of its
+financial instruments that were traded or arranged in Hong Kong or
+Asia. CSG and CS-HK are collectively referred to as the “Trading
+Managers”. The Company’s designated self-regulatory organization is
+FINRA. The Company is a clearing member of the Depository Trust
+Company, National Securities Clearing Corporation (“NSCC’), and
+Fixed Income Clearing Corporation (“FICC”), (together, the Depository
+Trust & Clearing Corporation, or “DTCC”). The Company is a clearing
+member of the Options Clearing Corporation (“OCC”) and certain
+subsidiaries of CME Group Inc. Additionally the Company is a
+participant in the OCC stock loan program.
+The Company primarily engages in market making and _ liquidity
+provision in U.S. options, equities, government securities, and foreign
+exchange products.
+Citadel Enterprise Americas LLC, Citadel Enterprise Americas
+Services LLC, Citadel Securities Americas Services LLC, and certain
+of their affiliates (collectively, the “Citadel Parties”), provide
+administrative and investment-related services to the Company.
+Northern Trust Hedge Fund Services LLC (“NTHFS’) is responsible for
+providing certain administrative services to the Company. The services
+contract between the Company and NTHFS is currently effective
+through June 30, 2026.
+NOTE 2
+Significant Accounting Policies
+The accompanying financial statement has been prepared in
+accordance with accounting principles generally accepted in the
+United States of America (“GAAP”).
+Use of Estimates
+The preparation of the financial statement in accordance with GAAP
+requires CSG to make estimates and assumptions, the most important
+of which relate to fair value measurements, that affect the reported
+amounts of assets and liabilities, and the disclosure of contingent
+assets and liabilities at the date of the financial statement. Actual
+results could differ significantly from those estimates.
+Cash and Cash Equivalents
+The Company defines cash and cash equivalents on the statement of
+financial condition as cash and funds held in liquid investments with
+original maturities of 90 days or less as well as investments in money
+market funds. Cash and cash equivalents are held at global financial
+institutions.
+Trading Assets and Trading Liabilities
+The Company’s trading assets and trading liabilities include securities
+and derivatives contracts, which are recorded at fair value.
+Transactions related to trading assets and trading liabilities are
+recorded on a trade date basis. Trading assets are held at various
+global financial institutions, the DTCC, and the OCC. As of
+December 31, 2024, substantially all non-derivative gross trading
+assets have been pledged as collateral to counterparties on contract
+terms which may permit the counterparties to sell or repledge these
+assets to others.
+Receivable from_and Payable to Brokers, Dealers, Clearing
+Organizations, and Custodians
+The receivable from and payable to brokers, dealers, clearing
+organizations, and custodians may include cash balances (including
+cash margin), to the extent not offset against derivative financial
+instruments, and balances associated with unsettled trades and
+securities failed to deliver or receive. The Company has the ability to
+clear proprietary transactions through its self directed channels as well
+as through clearing brokers. For those cleared through clearing
+brokers, the applicable regulatory and/or contractual collateral
+requirements on open short positions and securities purchased on
+margin may require that cash and/or securities be maintained in the
+Company’s accounts to satisfy such requirements.
+Offsetting Financial Assets and Liabilities
+The Company has elected to offset financial assets and financial
+liabilities by counterparty when it has determined that there exists a
+legally enforceable right to offset the recognized amounts and when
+certain other criteria are met in accordance with applicable accounting
+guidance on offsetting. As a result, the net exposure to each
+counterparty is reported as either an asset or liability on the statement
+of financial condition, where applicable.
+Foreign Currency Translation
+The functional currency of the Company is the U.S. dollar. The
+Company may hold assets and liabilities denominated in foreign
+currencies, The fair value of assets and liabilities is remeasured into
+U.S. dollars using spot currency rates on the date of valuation.
+Segment Reporting
+Operating segments represent components of a company that engage
+in business activities and for which discrete financial information is
+available and regularly reviewed by the chief operating decision maker
+(‘CODM”’) in assessing performance and allocating resources. The
+CODM has been identified as the Chief Operating Officer functions for
+the Citadel Parties. The CODM reviews excess net capital as a key
+financial metric to guide operational decisions for the Company,
+including capital adequacy. The Company's business activities as
+described in Note 1 constitute a single operating segment and financial
+information is reviewed for the Company as a whole. Excess net
+capital (see Note 11) is measured in accordance with SEC Rule
+15c3-1.
+Transfers of Financial Assets
+Transfers of financial assets are accounted for as sales when the
+Company has relinquished control over the transferred assets. For
+transfers of financial assets that are not accounted for as sales, in
+which the transferor retains control of the financial assets, the financial
+assets remain on the statement of financial condition and the transfer
+is accounted for as a collateralized financing. Securities borrowed,
+securities loaned, securities purchased under agreements to resell
+(‘resale agreements”), and securities sold under agreements to
+repurchase (“repurchase agreements”) are treated as collateralized
+financings (see Note 3).
+Resale agreements and repurchase agreements held as of the
+reporting date are recorded on the statement of financial condition at
+their fair value pursuant to the fair value option, plus accrued interest.
+The Company has elected to report resale and repurchase
+agreements on a net basis when it has determined that there exists a
+legally enforceable right to offset the recognized amounts and when
+certain other criteria are met in accordance with applicable accounting
+guidance on offsetting.
+Securities borrowing and lending transactions require cash or other
+financial instruments as collateral to be deposited or taken in.
+Securities borrowed are recorded at the amount of cash collateral
+advanced plus accrued interest. Securities loaned are recorded at the
+amount of cash collateral received plus accrued interest.

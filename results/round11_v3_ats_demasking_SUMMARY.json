@@ -1,0 +1,15 @@
+{
+  "original_file": "../review_package_02_archive/round11_v3_ats_demasking.json",
+  "original_size_bytes": 51939,
+  "note": "Full data archived. This summary contains key findings only.",
+  "description": "ATS venue demasking \u2014 dark pool market share for GME/XRT",
+  "key_findings": [
+    "UBS ATS = #1 dark pool venue for XRT (24/24 months)",
+    "CS CrossFinder \u2192 UBS ATS migration visible in time series",
+    "ATS venue-level share data for multiple tickers"
+  ],
+  "data_keys": [
+    "GME",
+    "KOSS"
+  ]
+}

@@ -1,0 +1,86 @@
+
+============================================================
+page_4
+============================================================
+UNITED STATES OMB APPROVAL
+OMB Number:
+SECURITIES AND EXCHANGE COMMISSION
+Expires:
+Washington, D.C. 20549 Estimated average burden
+hours per response:
+ANNUAL REPORTS
+SEC FILE NUMBER
+FORM X-17A-5
+8-53574
+PART III
+FACING PAGE
+Information Required Pursuant to Rules 17a-5, 17a-12, and 18a-7 under the Securities Exchange Act of 1934
+01/01/24 12/31/24
+FILING FOR THE PERIOD BEGINNING _____________________ AND ENDING ______________________
+MM/DD/YY MM/DD/YY
+A.REGISTRANT IDENTIFICATION
+Citadel Securities LLC
+NAME OF FIRM: _______________________________________________________________________
+TYPE OF REGISTRANT (check all applicable boxes):
+Broker-dealer Security-based swap dealer Major security-based swap participant
+Check here if respondent is also an OTC derivatives dealer
+ADDRESS OF PRINCIPAL PLACE OF BUSINESS: (Do not use a P.O. box no.)
+200 South Biscayne Boulevard, Suite 3300
+_____________________________________________________________________________________
+(No. and Street)
+Miami Florida 33131
+_____________________________________________________________________________________
+(City) (State) (Zip Code)
+PERSON TO CONTACT WITH REGARD TO THIS FILING
+Michael Henry (212) 651-7726
+Michael.Henry@citadel.com
+_____________________________________________________________________________________
+(Name) (Area Code  Telephone Number) (Email Address)
+B.ACCOUNTANT IDENTIFICATION
+INDEPENDENT PUBLIC ACCOUNTANT whose reports are contained in this filing*
+PricewaterhouseCoopers LLP
+_____________________________________________________________________________________
+(Name  if individual, state last, first, and middle name)
+1 North Wacker Drive Chicago Illinois 60606
+_____________________________________________________________________________________
+(Address) (City) (State) (Zip Code)
+10/20/2003 238
+_____________________________________________________________________________________
+(Date of Registration with PCAOB)(if applicable) (PCAOB Registration Number, if applicable)
+FOR OFFICIAL USE ONLY
+* Claims for exemption from the requirement that the annual reports be covered by the reports of an independent public
+accountant must be supported by a statement of facts and circumstances relied on as the basis of the exemption. See 17
+CFR 240.17a-5(e)(1)(ii), if applicable.
+Persons who are to respond to the collection of information contained in this form are not required to respond unless the form
+displays a currently valid OMB control number.
+
+============================================================
+page_7
+============================================================
+ReportofIndependentRegisteredPublicAccountingFirm
+TotheMemberofCitadel Securities LLC
+Opinion on theFinancial Statement– Statement ofFinancial Condition
+We have audited the accompanyingstatement offinancialcondition ofCitadel Securities LLC(the
+“Company”)as ofDecember 31,2024, includingthe relatednotes(collectively referred toas the “financial
+statement”).In our opinion, the financial statementpresents fairly, in all materialrespects, thefinancial
+position of the Companyas ofDecember 31,2024 in conformity with accounting principles generally
+accepted in the United States of America.
+Basisfor Opinion
+The financial statementis the responsibility ofthe Company’s management. Our responsibility is to
+express an opinion on the Company'sfinancial statementbased on our audit. We are a public accounting
+firm registered with the Public Company AccountingOversight Board (UnitedStates) (PCAOB) and are
+requiredtobe independent with respectto the Company in accordance with the U.S. federal securities
+laws andtheapplicable rules and regulations of theSecurities andExchangeCommission and the PCAOB.
+We conducted ouraudit of this financialstatementin accordancewiththe standards of the PCAOB. Those
+standardsrequire that we plan and perform the audit to obtain reasonable assurance about whether the
+financial statementis freeof material misstatement,whetherdue to error or fraud.
+Ouraudit included performing procedures toassess therisks ofmaterial misstatement ofthefinancial
+statement,whether due toerror orfraud, andperformingproceduresthat respondto those risks. Such
+procedures included examining, on a test basis,evidence regardingthe amountsand disclosures in the
+financial statement. Ouraudit also included evaluating the accounting principles used and significant
+estimates made by management, as well asevaluating the overall presentation of thefinancial statement.
+We believe that our audit provides a reasonable basis for our opinion.
+February 27, 2025
+We haveserved as the Company's auditor since2005.
+PricewaterhouseCoopers LLP,One North Wacker, Chicago, IL 60606
+T: (312) 298 2000, www.pwc.com/us

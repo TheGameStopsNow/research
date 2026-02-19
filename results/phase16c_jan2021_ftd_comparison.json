@@ -1,0 +1,809 @@
+{
+  "analysis": "STRIKE 1: Jan 2021 Pre-Crime FTD Comparison",
+  "date_generated": "2026-02-18",
+  "gme_jan2021": [
+    {
+      "date": "20201201",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 91971,
+      "price": 16.56
+    },
+    {
+      "date": "20201202",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 1061397,
+      "price": 15.8
+    },
+    {
+      "date": "20201203",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 1787191,
+      "price": 16.58
+    },
+    {
+      "date": "20201204",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 999475,
+      "price": 16.12
+    },
+    {
+      "date": "20201207",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 1002379,
+      "price": 16.9
+    },
+    {
+      "date": "20201208",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 872292,
+      "price": 16.35
+    },
+    {
+      "date": "20201209",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 721361,
+      "price": 16.94
+    },
+    {
+      "date": "20201210",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 605975,
+      "price": 13.66
+    },
+    {
+      "date": "20201211",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 880063,
+      "price": 14.12
+    },
+    {
+      "date": "20201214",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 284296,
+      "price": 13.31
+    },
+    {
+      "date": "20201215",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 170655,
+      "price": 12.72
+    },
+    {
+      "date": "20201216",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 10784,
+      "price": 13.85
+    },
+    {
+      "date": "20201217",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 500162,
+      "price": 13.85
+    },
+    {
+      "date": "20201218",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 872523,
+      "price": 14.83
+    },
+    {
+      "date": "20201221",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 619404,
+      "price": 15.63
+    },
+    {
+      "date": "20201222",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 744478,
+      "price": 15.53
+    },
+    {
+      "date": "20201223",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 700507,
+      "price": 19.46
+    },
+    {
+      "date": "20201224",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 839699,
+      "price": 20.57
+    },
+    {
+      "date": "20201228",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 351316,
+      "price": 20.15
+    },
+    {
+      "date": "20201229",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 283294,
+      "price": 20.99
+    },
+    {
+      "date": "20201230",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 648513,
+      "price": 19.38
+    },
+    {
+      "date": "20201231",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 228358,
+      "price": 19.26
+    },
+    {
+      "date": "20210104",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 182269,
+      "price": 18.84
+    },
+    {
+      "date": "20210105",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 490723,
+      "price": 17.25
+    },
+    {
+      "date": "20210106",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 772112,
+      "price": 17.37
+    },
+    {
+      "date": "20210107",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 799328,
+      "price": 18.36
+    },
+    {
+      "date": "20210108",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 555658,
+      "price": 18.08
+    },
+    {
+      "date": "20210111",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 703110,
+      "price": 17.69
+    },
+    {
+      "date": "20210112",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 287730,
+      "price": 19.94
+    },
+    {
+      "date": "20210113",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 662524,
+      "price": 19.95
+    },
+    {
+      "date": "20210114",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 621483,
+      "price": 31.4
+    },
+    {
+      "date": "20210115",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 892653,
+      "price": 39.91
+    },
+    {
+      "date": "20210119",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 1498576,
+      "price": 35.5
+    },
+    {
+      "date": "20210120",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 1007562,
+      "price": 39.36
+    },
+    {
+      "date": "20210121",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 1438994,
+      "price": 39.12
+    },
+    {
+      "date": "20210122",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 273600,
+      "price": 43.03
+    },
+    {
+      "date": "20210125",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 275113,
+      "price": 65.01
+    },
+    {
+      "date": "20210126",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 2099572,
+      "price": 76.79
+    },
+    {
+      "date": "20210127",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 1972862,
+      "price": 147.98
+    },
+    {
+      "date": "20210128",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 1032986,
+      "price": 347.51
+    },
+    {
+      "date": "20210129",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 138179,
+      "price": 193.6
+    },
+    {
+      "date": "20210201",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 10975,
+      "price": 325.0
+    },
+    {
+      "date": "20210202",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 159298,
+      "price": 225.0
+    },
+    {
+      "date": "20210203",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 47564,
+      "price": 90.0
+    },
+    {
+      "date": "20210204",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 88767,
+      "price": 92.41
+    },
+    {
+      "date": "20210205",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 27307,
+      "price": 53.5
+    },
+    {
+      "date": "20210208",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 304,
+      "price": 63.77
+    },
+    {
+      "date": "20210209",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 22796,
+      "price": 60.0
+    },
+    {
+      "date": "20210210",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 99,
+      "price": 50.31
+    },
+    {
+      "date": "20210211",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 1534,
+      "price": 51.2
+    },
+    {
+      "date": "20210212",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 15102,
+      "price": 51.1
+    },
+    {
+      "date": "20210216",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 5218,
+      "price": 52.4
+    },
+    {
+      "date": "20210217",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 52861,
+      "price": 49.51
+    },
+    {
+      "date": "20210218",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 8435,
+      "price": 45.94
+    },
+    {
+      "date": "20210219",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 16734,
+      "price": 40.69
+    },
+    {
+      "date": "20210222",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 1910,
+      "price": 40.59
+    },
+    {
+      "date": "20210223",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 14856,
+      "price": 46.0
+    },
+    {
+      "date": "20210224",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 173307,
+      "price": 44.97
+    },
+    {
+      "date": "20210225",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 29072,
+      "price": 91.71
+    },
+    {
+      "date": "20210226",
+      "cusip": "36467W109",
+      "symbol": "GME",
+      "quantity": 298018,
+      "price": 108.73
+    }
+  ],
+  "amc_jan2021": [
+    {
+      "date": "20201201",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 345244,
+      "price": 4.27
+    },
+    {
+      "date": "20201202",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 67606,
+      "price": 4.15
+    },
+    {
+      "date": "20201203",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 166717,
+      "price": 4.32
+    },
+    {
+      "date": "20201204",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 210098,
+      "price": 3.63
+    },
+    {
+      "date": "20201207",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 4698986,
+      "price": 3.51
+    },
+    {
+      "date": "20201208",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 3662517,
+      "price": 3.56
+    },
+    {
+      "date": "20201209",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 2707506,
+      "price": 3.98
+    },
+    {
+      "date": "20201210",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 467070,
+      "price": 3.86
+    },
+    {
+      "date": "20201211",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 1106222,
+      "price": 4.09
+    },
+    {
+      "date": "20201214",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 1899282,
+      "price": 3.92
+    },
+    {
+      "date": "20201215",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 1087046,
+      "price": 3.19
+    },
+    {
+      "date": "20201216",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 2032579,
+      "price": 2.86
+    },
+    {
+      "date": "20201217",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 2957930,
+      "price": 2.78
+    },
+    {
+      "date": "20201218",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 4333865,
+      "price": 2.85
+    },
+    {
+      "date": "20201221",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 3208259,
+      "price": 2.8
+    },
+    {
+      "date": "20201222",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 222569,
+      "price": 2.68
+    },
+    {
+      "date": "20201223",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 210768,
+      "price": 2.59
+    },
+    {
+      "date": "20201224",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 34950,
+      "price": 2.56
+    },
+    {
+      "date": "20201230",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 1321922,
+      "price": 2.29
+    },
+    {
+      "date": "20201231",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 80241,
+      "price": 2.16
+    },
+    {
+      "date": "20210104",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 111844,
+      "price": 2.12
+    },
+    {
+      "date": "20210105",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 1631091,
+      "price": 2.01
+    },
+    {
+      "date": "20210107",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 4241943,
+      "price": 2.01
+    },
+    {
+      "date": "20210108",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 11547981,
+      "price": 2.05
+    },
+    {
+      "date": "20210112",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 5900,
+      "price": 2.2
+    },
+    {
+      "date": "20210115",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 102589,
+      "price": 2.18
+    },
+    {
+      "date": "20210119",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 8842791,
+      "price": 2.33
+    },
+    {
+      "date": "20210120",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 13399807,
+      "price": 3.06
+    },
+    {
+      "date": "20210121",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 3167557,
+      "price": 2.97
+    },
+    {
+      "date": "20210122",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 200,
+      "price": 2.98
+    },
+    {
+      "date": "20210125",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 15521,
+      "price": 3.51
+    },
+    {
+      "date": "20210126",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 385273,
+      "price": 4.42
+    },
+    {
+      "date": "20210127",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 27693649,
+      "price": 4.96
+    },
+    {
+      "date": "20210128",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 584097,
+      "price": 19.9
+    },
+    {
+      "date": "20210129",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 15902,
+      "price": 8.63
+    },
+    {
+      "date": "20210201",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 56769,
+      "price": 13.26
+    },
+    {
+      "date": "20210202",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 1914426,
+      "price": 13.3
+    },
+    {
+      "date": "20210203",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 1872148,
+      "price": 7.82
+    },
+    {
+      "date": "20210204",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 202204,
+      "price": 8.97
+    },
+    {
+      "date": "20210205",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 451078,
+      "price": 7.09
+    },
+    {
+      "date": "20210208",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 512677,
+      "price": 6.83
+    },
+    {
+      "date": "20210209",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 302591,
+      "price": 6.18
+    },
+    {
+      "date": "20210210",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 345652,
+      "price": 5.5
+    },
+    {
+      "date": "20210211",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 189887,
+      "price": 5.8
+    },
+    {
+      "date": "20210212",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 447556,
+      "price": 5.61
+    },
+    {
+      "date": "20210216",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 99707,
+      "price": 5.59
+    },
+    {
+      "date": "20210217",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 289519,
+      "price": 5.65
+    },
+    {
+      "date": "20210218",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 7178,
+      "price": 5.55
+    },
+    {
+      "date": "20210219",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 22773,
+      "price": 5.51
+    },
+    {
+      "date": "20210222",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 13900,
+      "price": 5.7
+    },
+    {
+      "date": "20210223",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 104070,
+      "price": 6.55
+    },
+    {
+      "date": "20210224",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 364072,
+      "price": 7.7
+    },
+    {
+      "date": "20210226",
+      "cusip": "00165C104",
+      "symbol": "AMC",
+      "quantity": 644732,
+      "price": 8.29
+    }
+  ],
+  "koss_jan2021": [],
+  "summary": {
+    "gme_total_records": 60,
+    "dec_2020_avg_daily_ftd": 648913,
+    "jan_pre_event_peak": 799328,
+    "jan_pre_event_peak_date": "20210107",
+    "jan_pre_event_avg": 541561,
+    "amc_pre_event_peak": 11547981,
+    "pattern_match": false
+  }
+}

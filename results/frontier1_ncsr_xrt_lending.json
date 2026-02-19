@@ -1,0 +1,70 @@
+{
+  "file": "https://www.sec.gov/Archives/edgar/data/1064642/000119312524214954/d882631dncsr.htm",
+  "chunks_processed": 48,
+  "xrt_sections_found": 11,
+  "sections": [
+    {
+      "chunk": 6,
+      "has_lending": false,
+      "has_numbers": true,
+      "text": "tyle=\"padding: 2px; font-family: Arial; font-weight: 400; font-size: 12px; text-align: center; vertical-align: middle; text-decoration: unset; font-style: normal; color: rgb(0, 0, 0); white-space: pre-wrap; line-height: 18px; background-color: rgb(222, 222, 222); box-sizing: border-box; display: table-cell; flex-wrap: nowrap; grid-area: auto; margin: 0px; overflow: visible; width: calc(306px);\"> Costs paid as a percentage of a $10,000 investment SPDR S&P Retail ETF $ 38 0.35 % How did the Fund perform last year and what affected its performance? <div style=\"background: unset; color: rgb(0, 0, 0); text-align: left; font-family: var(--ssr-body1-font-family); font-size: 13.3333px; font-weight: 400; box-sizing:"
+    },
+    {
+      "chunk": 6,
+      "has_lending": false,
+      "has_numbers": true,
+      "text": ": 2px; font-family: Arial; font-weight: 400; font-size: 12px; text-align: center; vertical-align: middle; text-decoration: unset; font-style: normal; color: rgb(0, 0, 0); white-space: pre-wrap; line-height: 18px; background-color: rgb(222, 222, 222); box-sizing: border-box; display: table-cell; flex-wrap: nowrap; grid-area: auto; margin: 0px; overflow: visible; width: calc(306px);\"> Costs paid as a percentage of a $10,000 investment SPDR S&P Retail ETF $ 38 0.35 % How did the Fund perform last year and what affected its performance? <div style=\"background: unset; color: rgb(0, 0, 0); text-align: left; font-family: var(--ssr-body1-font-family); font-size: 13.3333px; font-weight: 400; box-sizing:"
+    },
+    {
+      "chunk": 15,
+      "has_lending": false,
+      "has_numbers": true,
+      "text": "idth:2.00%\"> $11,265,744 $607,899 See accompanying notes to financial statements. 40 Table of Contents SPDR S&P RETAIL ETF SCHEDULE OF INVESTMENTS June 30, 2024 Security Description Shares Value COMMON STOCKS 99.9% APPAREL RETAIL 21.0% Abercrombie & Fitch Co. Class A (a) <td st"
+    },
+    {
+      "chunk": 15,
+      "has_lending": false,
+      "has_numbers": true,
+      "text": "#160; $11,265,744 $607,899 See accompanying notes to financial statements. 40 Table of Contents SPDR S&P RETAIL ETF SCHEDULE OF INVESTMENTS June 30, 2024 Security Description Shares Value COMMON STOCKS 99.9% APPAREL RETAIL 21.0% Abercrombie & Fitch Co. Class A (a) <td st"
+    },
+    {
+      "chunk": 17,
+      "has_lending": false,
+      "has_numbers": true,
+      "text": "tom:medium double #000000;color:#000000;font-family:Arial;font-size:9pt;font-style:Normal;font-weight:Normal;line-height:12pt;padding-bottom:1.25pt;padding-left:3.5pt;padding-top:2.5pt; text-align:center;text-decoration:none;text-transform:none;vertical-align:bottom;width:17.37%\">$ 19,225,820 See accompanying notes to financial statements. 63 Table of Contents SPDR S&P Retail ETF SPDR S&P Semiconductor ETF SPDR S&P Software & Services ETF SPDR S&P Telecom ETF SPDR S&P Transportation ETF SPDR MSCI USA Gender Diversity ETF $ 356,019,094 $1,533,244,893 <td style=\"color:#000000;font-family:Arial;font-size:9pt;font-style:Normal;font-"
+    },
+    {
+      "chunk": 17,
+      "has_lending": false,
+      "has_numbers": true,
+      "text": "uble #000000;color:#000000;font-family:Arial;font-size:9pt;font-style:Normal;font-weight:Normal;line-height:12pt;padding-bottom:1.25pt;padding-left:3.5pt;padding-top:2.5pt; text-align:center;text-decoration:none;text-transform:none;vertical-align:bottom;width:17.37%\">$ 19,225,820 See accompanying notes to financial statements. 63 Table of Contents SPDR S&P Retail ETF SPDR S&P Semiconductor ETF SPDR S&P Software & Services ETF SPDR S&P Telecom ETF SPDR S&P Transportation ETF SPDR MSCI USA Gender Diversity ETF $ 356,019,094 $1,533,244,893 <td style=\"color:#000000;font-family:Arial;font-size:9pt;font-style:Normal;font-"
+    },
+    {
+      "chunk": 18,
+      "has_lending": false,
+      "has_numbers": true,
+      "text": "=\"font-weight:Normal;text-transform:none\"> (continued) June 30, 2024 Purchases Sales SPDR S&P Retail ETF $148,562,375 $148,756,840 SPDR S&P Semiconductor ETF 435,447,295 432,972,190 SPDR S&P Software & Services ETF 141,693,794 137,615,471 SPDR S&P Telecom ETF 28,718,606 <td style=\"color:#000000;font-family:Arial;font-size:9pt;font-style:Normal;font-weight:Normal;line-height:12pt; padding-bottom:1.5pt;padding-left:12.45pt;pa"
+    },
+    {
+      "chunk": 18,
+      "has_lending": false,
+      "has_numbers": true,
+      "text": ":Normal;text-transform:none\"> (continued) June 30, 2024 Purchases Sales SPDR S&P Retail ETF $148,562,375 $148,756,840 SPDR S&P Semiconductor ETF 435,447,295 432,972,190 SPDR S&P Software & Services ETF 141,693,794 137,615,471 SPDR S&P Telecom ETF 28,718,606 <td style=\"color:#000000;font-family:Arial;font-size:9pt;font-style:Normal;font-weight:Normal;line-height:12pt; padding-bottom:1.5pt;padding-left:12.45pt;pa"
+    },
+    {
+      "chunk": 18,
+      "type": "lending_schedule",
+      "text": "U.S. government securities held as collateral, net of fee rebates paid to the borrower and net of fees paid to State Street as the lending agent. Additionally, a Fund will receive a fee from the borrower for non-cash collateral equal to a percentage of the market value of the loaned securities. The market value of securities on loan as of June 30, 2024, and the value of the invested cash collateral are disclosed in the Funds' Statements of Assets and Liabilities. Non-cash collateral is not disclosed in the Funds' Statements of Assets and Liabilities as it is held by the lending agent on behalf of the Funds, and the Funds do not have the ability to re-hypothecate those securities. Securities lending income, as disclosed in the Funds' Statements of Operations, represents the income earned from the non-cash collateral and the investment of cash collateral, net of fee rebates paid to the borrower and net of fees paid to State Street as lending agent. The following is a summary of each Fund"
+    },
+    {
+      "chunk": 26,
+      "type": "lending_schedule",
+      "text": "e\">(continued) June 30, 2024 The market value of securities on loan as of June 30, 2024, and the value of the invested cash collateral are disclosed in the Funds' Statements of Assets and Liabilities. Non-cash collateral is not disclosed in the Funds Statements of Assets and Liabilities as it is held by the lending agent on behalf of the Funds, and the Funds do not have the ability to re-hypothecate those securities. Securities lending income, as disclosed in the Funds Statements of Operations, represents the income earned from the non-cash collateral and the investment of cash collateral, net of fee rebates paid to the borrower and net of fees paid to State Street as lending agent. The following is a summary of each Fund's securities lending agreements and related cash and non-cash collateral received as of June 30, 2024: Fund Market Value of Securities on Loan Cash Collateral Received Non-Cash Collateral Received* <td style=\"border-bottom:0.5pt solid #000000;color:#000000;font-family"
+    },
+    {
+      "chunk": 48,
+      "type": "lending_schedule",
+      "text": "securities from interest or dividends earned on the cash, cash equivalents or U.S. government securities held as collateral, net of fee rebates paid to the borrower and net of fees paid to State Street as the lending agent. Additionally, a Fund will receive a fee from the borrower for non-cash collateral equal to a percentage of the market value of the loaned securities. The market value of securities on loan as of June 30, 2024, and the value of the invested cash collateral are disclosed in the Funds' Statements of Assets and Liabilities. Non-cash collateral is not disclosed in the Funds' Statements of Assets and Liabilities as it is held by the lending agent on behalf of the Funds, and the Funds do not have the ability to re-hypothecate those securities. Securities lending income, as disclosed in the Funds' Statements of Operations, represents the income earned from the non-cash collateral and the investment of cash collateral, net of fee rebates paid to the borrower and net of fees "
+    }
+  ]
+}

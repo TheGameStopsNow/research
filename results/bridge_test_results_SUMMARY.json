@@ -1,0 +1,19 @@
+{
+  "original_file": "../review_package_02_archive/bridge_test_results.json",
+  "original_size_bytes": 42138,
+  "note": "Full data archived. This summary contains key findings only.",
+  "description": "Bridge test results \u2014 connecting options analysis to equity flow",
+  "data_keys": [
+    "Q1",
+    "Q2",
+    "Q5",
+    "Q6",
+    "Q8",
+    "Q9",
+    "Q11",
+    "Q13",
+    "Q14",
+    "Q15",
+    "Q14b"
+  ]
+}

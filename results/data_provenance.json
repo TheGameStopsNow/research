@@ -1,0 +1,30 @@
+{
+  "broker_606_q2_2024": {
+    "schwab_xml": "https://public.s3.com/rule606/chas/5393_606_NMS_2024_Q2_CHAS.xml",
+    "fidelity_xml": "https://clearingcustody.fidelity.com/-/media/project/shared-regulatory/xml/fbs-q2-2024.xml",
+    "ibkr_xml": "https://www.interactivebrokers.com/ibkr606Reports/IBKR_606a_2024_Q2.xml",
+    "ibkr_page": "https://www.interactivebrokers.com/en/index.php?f=563",
+    "retrieved": "2026-02-18"
+  },
+  "ssga_xrt": {
+    "url": "https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-sp-retail-etf-xrt",
+    "retrieved": "2026-02-18",
+    "current_so": "7.75M"
+  },
+  "nscc_pqd_q2_2024": {
+    "correct_pdf_url": "https://www.dtcc.com/-/media/Files/Downloads/legal/policy-and-compliance/CPMI-IOSCO-Public-Quantitative-Disclosures-Q2-2024.pdf",
+    "excel_url": "https://www.dtcc.com/-/media/Files/Downloads/legal/policy-and-compliance/DTCC-PQD-2024Q2.xlsx",
+    "previous_file_was": "HTML 500 error page from DTCC, not actual PDF",
+    "retrieved": "2026-02-18",
+    "verified": true,
+    "peak_margin_call": "$1,162,003,169.65",
+    "source_type": "XLSX directly from DTCC website"
+  },
+  "esma_sftr": {
+    "icma_sftr": "https://www.icmagroup.org/market-practice-and-regulatory-policy/repo-and-collateral-markets/market-data/sftr-public-data/",
+    "dtcc_emir": "https://www.dtcc.com/repository-otc-data/emir-public-reports",
+    "regis_tr": "https://www.regis-tr.com/en/home/public-data.html",
+    "note": "Individual position data NOT public. Only aggregate by asset class.",
+    "retrieved": "2026-02-18"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "_metadata": {
+    "title": "Phase 16 Evidence Data File Index",
+    "created": "2026-02-18",
+    "purpose": "Master index of all structured evidence files generated during Phase 16"
+  },
+  "evidence_files": [
+    {
+      "file": "citadel_multiyear_final.json",
+      "description": "Citadel Securities LLC FY2020-2023 balance sheets (audited X-17A-5)",
+      "key_finding": "Assets peaked $79.1B (FY2021), member's capital grew 49% ($3.1B\u2192$4.7B)"
+    },
+    {
+      "file": "palafox_multiyear.json",
+      "description": "Palafox Trading LLC FY2021-2023 (G1/GFIL clearing entity)",
+      "key_finding": "99.7% asset collapse ($29.7B\u2192$93M) with $78.2B off-BS commitments"
+    },
+    {
+      "file": "occ_vs_nscc_margin.json",
+      "description": "OCC vs NSCC initial margin comparison Q1-Q2 2024",
+      "key_finding": "OCC peak IM $107.59B was 92.6\u00d7 NSCC's $1.16B"
+    },
+    {
+      "file": "state_street_nexus.json",
+      "description": "State Street triple-role nexus (XRT lending + OCC custodian + SSNYP)",
+      "key_finding": "$35.2B tape-reconstructed TRS matches $35.17B audited SSNYP (0.08% error)"
+    },
+    {
+      "file": "citadel_subsidiaries_fy2024.json",
+      "description": "CSIN and CSSD FY2024 balance sheets",
+      "key_finding": "Both subsidiaries confirm Miami FL address, CSSD has $3.4B assets"
+    },
+    {
+      "file": "florida_jurisdictional_data.json",
+      "description": "5-layer Florida asset protection analysis",
+      "key_finding": "$450M+ annual tax savings, unlimited homestead, TBE for all personalty"
+    },
+    {
+      "file": "citadel_fy2024_public.json",
+      "description": "FY2024 public financial data (from reporting, not direct extraction)",
+      "key_finding": "Record $9.7B revenue, $4.2B net income, $80.4B total assets"
+    },
+    {
+      "file": "citadel_line_extraction.json",
+      "description": "Line-by-line keyword extraction from all entity PDFs",
+      "key_finding": "Raw evidence of every parsed line with page numbers"
+    },
+    {
+      "file": "pdf_diagnostics.json",
+      "description": "Text/scan analysis for all 22 archived PDFs",
+      "key_finding": "21 native text (extractable), 2 scanned (FY2024 CDRG + PALA)"
+    },
+    {
+      "file": "aetos_fund_filings.json",
+      "description": "AETOS Capital Group N-CSR keyword analysis",
+      "key_finding": "Margin call references are standard risk disclosure language"
+    },
+    {
+      "file": "frontier1_ncsr_xrt_lending.json",
+      "description": "N-CSR XRT securities lending agent identification",
+      "key_finding": "State Street Bank = lending agent for XRT shares"
+    },
+    {
+      "file": "frontier2_fails_charges.json",
+      "description": "X-17A-5 fails-to-deliver/receive charges data",
+      "key_finding": "Citadel FY2023: $185M FTDs, $108M FTRs"
+    },
+    {
+      "file": "frontier3_ib_606_venues.json",
+      "description": "Interactive Brokers Rule 606 venue routing data",
+      "key_finding": "IB LITE routes to Citadel/Jane Street as primary venues"
+    }
+  ]
+}

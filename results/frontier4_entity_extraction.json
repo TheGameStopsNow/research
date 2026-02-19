@@ -1,0 +1,2005 @@
+{
+  "orderly_wind_down_pb": [
+    {
+      "entity": [
+        "Third Point Private Capital Partners  (CIK 0002025369)"
+      ],
+      "date": "2024-05-31",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0002025369"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "000-56662"
+        ],
+        "display_names": [
+          "Third Point Private Capital Partners  (CIK 0002025369)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "10-12G"
+        ],
+        "file_date": "2024-05-31",
+        "biz_states": [
+          "NY"
+        ],
+        "sics": [],
+        "form": "10-12G",
+        "adsh": "0001104659-24-067309",
+        "film_num": [
+          "241011124"
+        ],
+        "biz_locations": [
+          "New York, NY"
+        ],
+        "file_type": "10-12G",
+        "file_description": "10-12G",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Third Point Private Capital Partners  (CIK 0002025369)"
+      ],
+      "date": "2024-09-20",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0002025369"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "000-56662"
+        ],
+        "display_names": [
+          "Third Point Private Capital Partners  (CIK 0002025369)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "10-12G"
+        ],
+        "file_date": "2024-09-20",
+        "biz_states": [
+          "NY"
+        ],
+        "sics": [],
+        "form": "10-12G",
+        "adsh": "0001104659-24-101580",
+        "film_num": [
+          "241312233"
+        ],
+        "biz_locations": [
+          "New York, NY"
+        ],
+        "file_type": "10-12G",
+        "file_description": "10-12G",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Third Point Private Capital Partners  (CIK 0002025369)"
+      ],
+      "date": "2024-07-25",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0002025369"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "000-56662"
+        ],
+        "display_names": [
+          "Third Point Private Capital Partners  (CIK 0002025369)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "10-12G"
+        ],
+        "file_date": "2024-07-25",
+        "biz_states": [
+          "NY"
+        ],
+        "sics": [],
+        "form": "10-12G",
+        "adsh": "0001104659-24-082557",
+        "film_num": [
+          "241140289"
+        ],
+        "biz_locations": [
+          "New York, NY"
+        ],
+        "file_type": "10-12G",
+        "file_description": "10-12G",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    }
+  ],
+  "trs_unwind_ubs_may": [
+    {
+      "entity": [
+        "Cosan S.A.  (CSAN)  (CIK 0001430162)"
+      ],
+      "date": "2024-05-29",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001430162"
+        ],
+        "period_ending": "2024-05-29",
+        "file_num": [
+          "001-40155"
+        ],
+        "display_names": [
+          "Cosan S.A.  (CSAN)  (CIK 0001430162)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "6-K"
+        ],
+        "file_date": "2024-05-29",
+        "biz_states": [
+          "D5"
+        ],
+        "sics": [
+          "5500"
+        ],
+        "form": "6-K",
+        "adsh": "0001554855-24-000440",
+        "film_num": [
+          "24994045"
+        ],
+        "biz_locations": [
+          "Sao Paulo, Sp, D5"
+        ],
+        "file_type": "6-K",
+        "file_description": "6-K",
+        "inc_states": [
+          "D5"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Tidal ETF Trust  (CIK 0001742912)"
+      ],
+      "date": "2024-05-09",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001742912"
+        ],
+        "period_ending": "2024-02-29",
+        "file_num": [
+          "811-23377"
+        ],
+        "display_names": [
+          "Tidal ETF Trust  (CIK 0001742912)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "N-CSRS"
+        ],
+        "file_date": "2024-05-09",
+        "biz_states": [
+          "WI"
+        ],
+        "sics": [],
+        "form": "N-CSRS",
+        "adsh": "0001999371-24-005823",
+        "film_num": [
+          "24929401"
+        ],
+        "biz_locations": [
+          "Milwaukee, WI"
+        ],
+        "file_type": "N-CSRS",
+        "file_description": "CERTIFIED SEMI-ANNUAL SHAREHOLDER REPORT",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "AQR Funds  (CIK 0001444822)"
+      ],
+      "date": "2024-05-24",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001444822"
+        ],
+        "period_ending": "2024-03-31",
+        "file_num": [
+          "811-22235"
+        ],
+        "display_names": [
+          "AQR Funds  (CIK 0001444822)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "N-CSRS"
+        ],
+        "file_date": "2024-05-24",
+        "biz_states": [
+          "CT"
+        ],
+        "sics": [],
+        "form": "N-CSRS",
+        "adsh": "0001981158-24-000004",
+        "film_num": [
+          "24982931"
+        ],
+        "biz_locations": [
+          "Greenwich, CT"
+        ],
+        "file_type": "N-CSRS",
+        "file_description": null,
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Tidal ETF Trust  (CIK 0001742912)"
+      ],
+      "date": "2024-06-07",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001742912"
+        ],
+        "period_ending": "2024-03-31",
+        "file_num": [
+          "811-23377"
+        ],
+        "display_names": [
+          "Tidal ETF Trust  (CIK 0001742912)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "N-CSRS"
+        ],
+        "file_date": "2024-06-07",
+        "biz_states": [
+          "WI"
+        ],
+        "sics": [],
+        "form": "N-CSRS",
+        "adsh": "0001999371-24-007274",
+        "film_num": [
+          "241030313"
+        ],
+        "biz_locations": [
+          "Milwaukee, WI"
+        ],
+        "file_type": "N-CSRS",
+        "file_description": "CERTIFIED SEMI-ANNUAL SHAREHOLDER REPORT",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Listed Funds Trust  (CIK 0001683471)"
+      ],
+      "date": "2024-05-02",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001683471"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "333-215588"
+        ],
+        "display_names": [
+          "Listed Funds Trust  (CIK 0001683471)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "497K"
+        ],
+        "file_date": "2024-05-02",
+        "biz_states": [
+          "WI"
+        ],
+        "sics": [],
+        "form": "497K",
+        "adsh": "0000894189-24-003144",
+        "film_num": [
+          "24909608"
+        ],
+        "biz_locations": [
+          "Milwaukee, WI"
+        ],
+        "file_type": "497K",
+        "file_description": "497K ROUNDHILL CANNABIS ETF",
+        "inc_states": [],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "ProShares Trust II  (AGQ, EUO, GLL, SCO, UCO, UGL, ULE, YCL, YCS, ZSL, BOIL, KOLD, SVXY, UVXY, VIXM, VIXY)  (CIK 0001415311)"
+      ],
+      "date": "2024-05-10",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001415311"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "333-262728"
+        ],
+        "display_names": [
+          "ProShares Trust II  (AGQ, EUO, GLL, SCO, UCO, UGL, ULE, YCL, YCS, ZSL, BOIL, KOLD, SVXY, UVXY, VIXM, VIXY)  (CIK 0001415311)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "424B3"
+        ],
+        "file_date": "2024-05-10",
+        "biz_states": [
+          "MD"
+        ],
+        "sics": [
+          "6221"
+        ],
+        "form": "424B3",
+        "adsh": "0001193125-24-135935",
+        "film_num": [
+          "24933674"
+        ],
+        "biz_locations": [
+          "Bethesda, MD"
+        ],
+        "file_type": "424B3",
+        "file_description": "424B3",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Cosan S.A.  (CSAN)  (CIK 0001430162)"
+      ],
+      "date": "2024-05-29",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001430162"
+        ],
+        "period_ending": "2024-05-29",
+        "file_num": [
+          "001-40155"
+        ],
+        "display_names": [
+          "Cosan S.A.  (CSAN)  (CIK 0001430162)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "6-K"
+        ],
+        "file_date": "2024-05-29",
+        "biz_states": [
+          "D5"
+        ],
+        "sics": [
+          "5500"
+        ],
+        "form": "6-K/A",
+        "adsh": "0001554855-24-000444",
+        "film_num": [
+          "24999225"
+        ],
+        "biz_locations": [
+          "Sao Paulo, Sp, D5"
+        ],
+        "file_type": "6-K/A",
+        "file_description": "6-K/A",
+        "inc_states": [
+          "D5"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Cosan S.A.  (CSAN)  (CIK 0001430162)"
+      ],
+      "date": "2024-05-29",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001430162"
+        ],
+        "period_ending": "2024-05-28",
+        "file_num": [
+          "001-40155"
+        ],
+        "display_names": [
+          "Cosan S.A.  (CSAN)  (CIK 0001430162)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "6-K"
+        ],
+        "file_date": "2024-05-29",
+        "biz_states": [
+          "D5"
+        ],
+        "sics": [
+          "5500"
+        ],
+        "form": "6-K",
+        "adsh": "0001554855-24-000433",
+        "film_num": [
+          "24993655"
+        ],
+        "biz_locations": [
+          "Sao Paulo, Sp, D5"
+        ],
+        "file_type": "6-K",
+        "file_description": "6-K",
+        "inc_states": [
+          "D5"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "ProShares Trust II  (AGQ, EUO, GLL, SCO, UCO, UGL, ULE, YCL, YCS, ZSL, BOIL, KOLD, SVXY, UVXY, VIXM, VIXY)  (CIK 0001415311)"
+      ],
+      "date": "2024-05-09",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001415311"
+        ],
+        "period_ending": "2024-03-31",
+        "file_num": [
+          "001-34200"
+        ],
+        "display_names": [
+          "ProShares Trust II  (AGQ, EUO, GLL, SCO, UCO, UGL, ULE, YCL, YCS, ZSL, BOIL, KOLD, SVXY, UVXY, VIXM, VIXY)  (CIK 0001415311)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "10-Q"
+        ],
+        "file_date": "2024-05-09",
+        "biz_states": [
+          "MD"
+        ],
+        "sics": [
+          "6221"
+        ],
+        "form": "10-Q",
+        "adsh": "0001193125-24-134425",
+        "film_num": [
+          "24927857"
+        ],
+        "biz_locations": [
+          "Bethesda, MD"
+        ],
+        "file_type": "10-Q",
+        "file_description": "10-Q",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Cosan S.A.  (CSAN)  (CIK 0001430162)"
+      ],
+      "date": "2024-05-29",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001430162"
+        ],
+        "period_ending": "2024-05-28",
+        "file_num": [
+          "001-40155"
+        ],
+        "display_names": [
+          "Cosan S.A.  (CSAN)  (CIK 0001430162)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "6-K"
+        ],
+        "file_date": "2024-05-29",
+        "biz_states": [
+          "D5"
+        ],
+        "sics": [
+          "5500"
+        ],
+        "form": "6-K",
+        "adsh": "0001554855-24-000436",
+        "film_num": [
+          "24993773"
+        ],
+        "biz_locations": [
+          "Sao Paulo, Sp, D5"
+        ],
+        "file_type": "6-K",
+        "file_description": "6-K",
+        "inc_states": [
+          "D5"
+        ],
+        "items": []
+      }
+    }
+  ],
+  "margin_call_ubs_may": [
+    {
+      "entity": [
+        "Hut 8 Corp.  (HUT)  (CIK 0001964789)"
+      ],
+      "date": "2024-06-24",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001964789"
+        ],
+        "period_ending": "2024-06-17",
+        "file_num": [
+          "001-41864"
+        ],
+        "display_names": [
+          "Hut 8 Corp.  (HUT)  (CIK 0001964789)"
+        ],
+        "xsl": null,
+        "sequence": 2,
+        "root_forms": [
+          "8-K"
+        ],
+        "file_date": "2024-06-24",
+        "biz_states": [
+          "FL"
+        ],
+        "sics": [
+          "6199"
+        ],
+        "form": "8-K",
+        "adsh": "0001558370-24-009445",
+        "film_num": [
+          "241064799"
+        ],
+        "biz_locations": [
+          "Miami, FL"
+        ],
+        "file_type": "EX-10.1",
+        "file_description": "EX-10.1",
+        "inc_states": [
+          "DE"
+        ],
+        "items": [
+          "1.01",
+          "2.03",
+          "5.07",
+          "9.01"
+        ]
+      }
+    },
+    {
+      "entity": [
+        "Dynamic Shares Trust  (WEIX)  (CIK 0001771951)"
+      ],
+      "date": "2024-05-29",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001771951"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "333-277681"
+        ],
+        "display_names": [
+          "Dynamic Shares Trust  (WEIX)  (CIK 0001771951)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "424B3"
+        ],
+        "file_date": "2024-05-29",
+        "biz_states": [
+          "IL"
+        ],
+        "sics": [
+          "6221"
+        ],
+        "form": "424B3",
+        "adsh": "0001493152-24-021739",
+        "film_num": [
+          "24994626"
+        ],
+        "biz_locations": [
+          "Chicago, IL"
+        ],
+        "file_type": "424B3",
+        "file_description": null,
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Dynamic Shares Trust  (WEIX)  (CIK 0001771951)"
+      ],
+      "date": "2024-05-16",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001771951"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "333-277681"
+        ],
+        "display_names": [
+          "Dynamic Shares Trust  (WEIX)  (CIK 0001771951)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "S-1"
+        ],
+        "file_date": "2024-05-16",
+        "biz_states": [
+          "IL"
+        ],
+        "sics": [
+          "6221"
+        ],
+        "form": "S-1/A",
+        "adsh": "0001493152-24-020289",
+        "film_num": [
+          "24956666"
+        ],
+        "biz_locations": [
+          "Chicago, IL"
+        ],
+        "file_type": "S-1/A",
+        "file_description": null,
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "RBB FUND, INC.  (CIK 0000831114)"
+      ],
+      "date": "2024-05-02",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0000831114"
+        ],
+        "period_ending": "2024-02-29",
+        "file_num": [
+          "811-05518"
+        ],
+        "display_names": [
+          "RBB FUND, INC.  (CIK 0000831114)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "N-CSRS"
+        ],
+        "file_date": "2024-05-02",
+        "biz_states": [
+          "WI"
+        ],
+        "sics": [],
+        "form": "N-CSRS",
+        "adsh": "0001398344-24-008549",
+        "film_num": [
+          "24907109"
+        ],
+        "biz_locations": [
+          "Milwaukee, WI"
+        ],
+        "file_type": "N-CSRS",
+        "file_description": null,
+        "inc_states": [
+          "MD"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Marex Group plc  (MRX)  (CIK 0001997464)"
+      ],
+      "date": "2024-05-16",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001997464"
+        ],
+        "period_ending": "2024-05-16",
+        "file_num": [
+          "001-42020"
+        ],
+        "display_names": [
+          "Marex Group plc  (MRX)  (CIK 0001997464)"
+        ],
+        "xsl": null,
+        "sequence": 3,
+        "root_forms": [
+          "6-K"
+        ],
+        "file_date": "2024-05-16",
+        "biz_states": [
+          "X0"
+        ],
+        "sics": [
+          "6200"
+        ],
+        "form": "6-K",
+        "adsh": "0001193125-24-140007",
+        "film_num": [
+          "24953570"
+        ],
+        "biz_locations": [
+          "London, X0"
+        ],
+        "file_type": "EX-99.2",
+        "file_description": "EX-99.2",
+        "inc_states": [
+          "X0"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "AETOS DISTRESSED INVESTMENT STRATEGIES FUND LLC  (CIK 0001169578)"
+      ],
+      "date": "2024-06-03",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001169578"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "811-21059"
+        ],
+        "display_names": [
+          "AETOS DISTRESSED INVESTMENT STRATEGIES FUND LLC  (CIK 0001169578)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "486BPOS"
+        ],
+        "file_date": "2024-06-03",
+        "biz_states": [
+          "NY"
+        ],
+        "sics": [],
+        "form": "486BPOS",
+        "adsh": "0001104659-24-067832",
+        "film_num": [
+          "241014450"
+        ],
+        "biz_locations": [
+          "New York, NY"
+        ],
+        "file_type": "486BPOS",
+        "file_description": "486BPOS",
+        "inc_states": [],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "AETOS MULTI-STRATEGY ARBITRAGE FUND LLC  (CIK 0001169580)"
+      ],
+      "date": "2024-06-03",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001169580"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "811-21061"
+        ],
+        "display_names": [
+          "AETOS MULTI-STRATEGY ARBITRAGE FUND LLC  (CIK 0001169580)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "486BPOS"
+        ],
+        "file_date": "2024-06-03",
+        "biz_states": [
+          "NY"
+        ],
+        "sics": [],
+        "form": "486BPOS",
+        "adsh": "0001104659-24-067828",
+        "film_num": [
+          "241014424"
+        ],
+        "biz_locations": [
+          "New York, NY"
+        ],
+        "file_type": "486BPOS",
+        "file_description": "486BPOS",
+        "inc_states": [],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "AETOS LONG/SHORT STRATEGIES FUND LLC  (CIK 0001169583)"
+      ],
+      "date": "2024-06-03",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001169583"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "811-21058"
+        ],
+        "display_names": [
+          "AETOS LONG/SHORT STRATEGIES FUND LLC  (CIK 0001169583)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "486BPOS"
+        ],
+        "file_date": "2024-06-03",
+        "biz_states": [
+          "NY"
+        ],
+        "sics": [],
+        "form": "486BPOS",
+        "adsh": "0001104659-24-067833",
+        "film_num": [
+          "241014460"
+        ],
+        "biz_locations": [
+          "New York, NY"
+        ],
+        "file_type": "486BPOS",
+        "file_description": "486BPOS",
+        "inc_states": [],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "AETOS MULTI-STRATEGY ARBITRAGE FUND LLC  (CIK 0001169580)"
+      ],
+      "date": "2024-05-31",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001169580"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "811-21061"
+        ],
+        "display_names": [
+          "AETOS MULTI-STRATEGY ARBITRAGE FUND LLC  (CIK 0001169580)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "486BPOS"
+        ],
+        "file_date": "2024-05-31",
+        "biz_states": [
+          "NY"
+        ],
+        "sics": [],
+        "form": "486BPOS",
+        "adsh": "0001104659-24-067163",
+        "film_num": [
+          "241009828"
+        ],
+        "biz_locations": [
+          "New York, NY"
+        ],
+        "file_type": "486BPOS",
+        "file_description": "486BPOS",
+        "inc_states": [],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "AETOS DISTRESSED INVESTMENT STRATEGIES FUND LLC  (CIK 0001169578)"
+      ],
+      "date": "2024-05-31",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001169578"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "811-21059"
+        ],
+        "display_names": [
+          "AETOS DISTRESSED INVESTMENT STRATEGIES FUND LLC  (CIK 0001169578)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "486BPOS"
+        ],
+        "file_date": "2024-05-31",
+        "biz_states": [
+          "NY"
+        ],
+        "sics": [],
+        "form": "486BPOS",
+        "adsh": "0001104659-24-067197",
+        "film_num": [
+          "241010089"
+        ],
+        "biz_locations": [
+          "New York, NY"
+        ],
+        "file_type": "486BPOS",
+        "file_description": "486BPOS",
+        "inc_states": [],
+        "items": []
+      }
+    }
+  ],
+  "swap_termination_may": [
+    {
+      "entity": [
+        "HORIZON BANCORP INC /IN/  (HBNC)  (CIK 0000706129)"
+      ],
+      "date": "2024-05-10",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0000706129"
+        ],
+        "period_ending": "2024-03-31",
+        "file_num": [
+          "000-10792"
+        ],
+        "display_names": [
+          "HORIZON BANCORP INC /IN/  (HBNC)  (CIK 0000706129)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "10-Q"
+        ],
+        "file_date": "2024-05-10",
+        "biz_states": [
+          "IN"
+        ],
+        "sics": [
+          "6022"
+        ],
+        "form": "10-Q",
+        "adsh": "0000706129-24-000070",
+        "film_num": [
+          "24935268"
+        ],
+        "biz_locations": [
+          "Michigan City, IN"
+        ],
+        "file_type": "10-Q",
+        "file_description": "10-Q",
+        "inc_states": [
+          "IN"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "NISSAN AUTO RECEIVABLES Co II LLC  (CIK 0001129068)"
+      ],
+      "date": "2024-05-16",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001129068"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "333-279448"
+        ],
+        "display_names": [
+          "NISSAN AUTO RECEIVABLES Co II LLC  (CIK 0001129068)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "SF-3"
+        ],
+        "file_date": "2024-05-16",
+        "biz_states": [
+          "TN"
+        ],
+        "sics": [
+          "6189"
+        ],
+        "form": "SF-3",
+        "adsh": "0001193125-24-140439",
+        "film_num": [
+          "24955002"
+        ],
+        "biz_locations": [
+          "Franklin, TN"
+        ],
+        "file_type": "SF-3",
+        "file_description": "SF-3",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "NISSAN AUTO RECEIVABLES Co II LLC  (CIK 0001129068)"
+      ],
+      "date": "2024-05-16",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001129068"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "333-279448"
+        ],
+        "display_names": [
+          "NISSAN AUTO RECEIVABLES Co II LLC  (CIK 0001129068)"
+        ],
+        "xsl": null,
+        "sequence": 9,
+        "root_forms": [
+          "SF-3"
+        ],
+        "file_date": "2024-05-16",
+        "biz_states": [
+          "TN"
+        ],
+        "sics": [
+          "6189"
+        ],
+        "form": "SF-3",
+        "adsh": "0001193125-24-140439",
+        "film_num": [
+          "24955002"
+        ],
+        "biz_locations": [
+          "Franklin, TN"
+        ],
+        "file_type": "EX-10.2",
+        "file_description": "EX-10.2",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "VOLKSWAGEN AUTO LEASE/LOAN UNDERWRITTEN FUNDING, LLC  (CIK 0001182534)",
+        "VW CREDIT LEASING LTD  (CIK 0001202610)"
+      ],
+      "date": "2024-05-31",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001182534",
+          "0001202610"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "333-276654",
+          "333-276654-01"
+        ],
+        "display_names": [
+          "VOLKSWAGEN AUTO LEASE/LOAN UNDERWRITTEN FUNDING, LLC  (CIK 0001182534)",
+          "VW CREDIT LEASING LTD  (CIK 0001202610)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "SF-3"
+        ],
+        "file_date": "2024-05-31",
+        "biz_states": [
+          "VA"
+        ],
+        "sics": [
+          "6189",
+          "6189"
+        ],
+        "form": "SF-3/A",
+        "adsh": "0001104659-24-067056",
+        "film_num": [
+          "241008777",
+          "241008778"
+        ],
+        "biz_locations": [
+          "Reston, VA",
+          ""
+        ],
+        "file_type": "SF-3/A",
+        "file_description": "SF-3/A",
+        "inc_states": [
+          "DE",
+          ""
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "FIRST REAL ESTATE INVESTMENT TRUST OF NEW JERSEY  (FREVS)  (CIK 0000036840)"
+      ],
+      "date": "2024-05-13",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0000036840"
+        ],
+        "period_ending": "2023-10-31",
+        "file_num": [
+          "001-41771"
+        ],
+        "display_names": [
+          "FIRST REAL ESTATE INVESTMENT TRUST OF NEW JERSEY  (FREVS)  (CIK 0000036840)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "ARS"
+        ],
+        "file_date": "2024-05-13",
+        "biz_states": [
+          "NJ"
+        ],
+        "sics": [
+          "6798"
+        ],
+        "form": "ARS",
+        "adsh": "0001174947-24-000735",
+        "film_num": [
+          "24937702"
+        ],
+        "biz_locations": [
+          "Hackensack, NJ"
+        ],
+        "file_type": "ARS",
+        "file_description": "ANNUAL REPORT",
+        "inc_states": [
+          "NJ"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "CENTERSPACE  (CSR, IRET, CSR-PC)  (CIK 0000798359)"
+      ],
+      "date": "2024-05-03",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0000798359"
+        ],
+        "period_ending": "2024-05-03",
+        "file_num": [
+          "001-35624"
+        ],
+        "display_names": [
+          "CENTERSPACE  (CSR, IRET, CSR-PC)  (CIK 0000798359)"
+        ],
+        "xsl": null,
+        "sequence": 2,
+        "root_forms": [
+          "8-K"
+        ],
+        "file_date": "2024-05-03",
+        "biz_states": [
+          "ND"
+        ],
+        "sics": [
+          "6798"
+        ],
+        "form": "8-K",
+        "adsh": "0000798359-24-000043",
+        "film_num": [
+          "24913623"
+        ],
+        "biz_locations": [
+          "Minot, ND"
+        ],
+        "file_type": "EX-99.1",
+        "file_description": "EX-99.1",
+        "inc_states": [
+          "ND"
+        ],
+        "items": [
+          "7.01",
+          "9.01"
+        ]
+      }
+    },
+    {
+      "entity": [
+        "CENTERSPACE  (CSR, IRET, CSR-PC)  (CIK 0000798359)"
+      ],
+      "date": "2024-05-31",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0000798359"
+        ],
+        "period_ending": "2024-05-31",
+        "file_num": [
+          "001-35624"
+        ],
+        "display_names": [
+          "CENTERSPACE  (CSR, IRET, CSR-PC)  (CIK 0000798359)"
+        ],
+        "xsl": null,
+        "sequence": 2,
+        "root_forms": [
+          "8-K"
+        ],
+        "file_date": "2024-05-31",
+        "biz_states": [
+          "ND"
+        ],
+        "sics": [
+          "6798"
+        ],
+        "form": "8-K",
+        "adsh": "0000798359-24-000087",
+        "film_num": [
+          "241010181"
+        ],
+        "biz_locations": [
+          "Minot, ND"
+        ],
+        "file_type": "EX-99.1",
+        "file_description": "EX-99.1",
+        "inc_states": [
+          "ND"
+        ],
+        "items": [
+          "7.01",
+          "9.01"
+        ]
+      }
+    },
+    {
+      "entity": [
+        "Federal Home Loan Bank of Indianapolis  (CIK 0001331754)"
+      ],
+      "date": "2024-05-09",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001331754"
+        ],
+        "period_ending": "2024-03-31",
+        "file_num": [
+          "000-51404"
+        ],
+        "display_names": [
+          "Federal Home Loan Bank of Indianapolis  (CIK 0001331754)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "10-Q"
+        ],
+        "file_date": "2024-05-09",
+        "biz_states": [
+          "IN"
+        ],
+        "sics": [
+          "6111"
+        ],
+        "form": "10-Q",
+        "adsh": "0001331754-24-000106",
+        "film_num": [
+          "24929266"
+        ],
+        "biz_locations": [
+          "Indianapolis, IN"
+        ],
+        "file_type": "10-Q",
+        "file_description": "10-Q",
+        "inc_states": [
+          "X1"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "EnerSys  (ENS)  (CIK 0001289308)"
+      ],
+      "date": "2024-05-22",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001289308"
+        ],
+        "period_ending": "2024-05-22",
+        "file_num": [
+          "001-32253"
+        ],
+        "display_names": [
+          "EnerSys  (ENS)  (CIK 0001289308)"
+        ],
+        "xsl": null,
+        "sequence": 2,
+        "root_forms": [
+          "8-K"
+        ],
+        "file_date": "2024-05-22",
+        "biz_states": [
+          "PA"
+        ],
+        "sics": [
+          "3690"
+        ],
+        "form": "8-K",
+        "adsh": "0001289308-24-000019",
+        "film_num": [
+          "24973520"
+        ],
+        "biz_locations": [
+          "Reading, PA"
+        ],
+        "file_type": "EX-99.1",
+        "file_description": "EX-99.1",
+        "inc_states": [
+          "DE"
+        ],
+        "items": [
+          "2.02",
+          "8.01"
+        ]
+      }
+    },
+    {
+      "entity": [
+        "RGC RESOURCES INC  (RGCO)  (CIK 0001069533)"
+      ],
+      "date": "2024-05-03",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001069533"
+        ],
+        "period_ending": "2024-03-31",
+        "file_num": [
+          "000-26591"
+        ],
+        "display_names": [
+          "RGC RESOURCES INC  (RGCO)  (CIK 0001069533)"
+        ],
+        "xsl": null,
+        "sequence": 2,
+        "root_forms": [
+          "10-Q"
+        ],
+        "file_date": "2024-05-03",
+        "biz_states": [
+          "VA"
+        ],
+        "sics": [
+          "4923"
+        ],
+        "form": "10-Q",
+        "adsh": "0001437749-24-014594",
+        "film_num": [
+          "24912136"
+        ],
+        "biz_locations": [
+          "Roanoke, VA"
+        ],
+        "file_type": "EX-10.5",
+        "file_description": "EXHIBIT 10.5 BOA CREDIT AGREEMENT",
+        "inc_states": [
+          "VA"
+        ],
+        "items": []
+      }
+    }
+  ],
+  "forced_liquidation_may": [
+    {
+      "entity": [
+        "BLACKROCK CALIFORNIA MUNICIPAL INCOME TRUST  (BFZ)  (CIK 0001137391)",
+        "BLACKROCK MUNIYIELD PENNSYLVANIA QUALITY FUND  (CIK 0000891038)",
+        "BLACKROCK MUNIHOLDINGS NEW YORK QUALITY FUND, INC.  (CIK 0001038186)",
+        "BLACKROCK NEW YORK MUNICIPAL INCOME TRUST  (CIK 0001137390)",
+        "BlackRock ESG Capital Allocation Term Trust  (CIK 0001864843)",
+        "BLACKROCK MUNIYIELD NEW YORK QUALITY FUND, INC.  (CIK 0000882150)",
+        "BlackRock Health Sciences Term Trust  (CIK 0001785971)",
+        "BlackRock Capital Allocation Term Trust  (CIK 0001809541)",
+        "BlackRock Innovation & Growth Term Trust  (CIK 0001836057)",
+        "BlackRock Science & Technology Term Trust  (CIK 0001768666)"
+      ],
+      "date": "2024-05-15",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001137391",
+          "0000891038",
+          "0001038186",
+          "0001137390",
+          "0001864843",
+          "0000882150",
+          "0001785971",
+          "0001809541",
+          "0001836057",
+          "0001768666"
+        ],
+        "period_ending": null,
+        "file_num": [],
+        "display_names": [
+          "BLACKROCK CALIFORNIA MUNICIPAL INCOME TRUST  (BFZ)  (CIK 0001137391)",
+          "BLACKROCK MUNIYIELD PENNSYLVANIA QUALITY FUND  (CIK 0000891038)",
+          "BLACKROCK MUNIHOLDINGS NEW YORK QUALITY FUND, INC.  (CIK 0001038186)",
+          "BLACKROCK NEW YORK MUNICIPAL INCOME TRUST  (CIK 0001137390)",
+          "BlackRock ESG Capital Allocation Term Trust  (CIK 0001864843)",
+          "BLACKROCK MUNIYIELD NEW YORK QUALITY FUND, INC.  (CIK 0000882150)",
+          "BlackRock Health Sciences Term Trust  (CIK 0001785971)",
+          "BlackRock Capital Allocation Term Trust  (CIK 0001809541)",
+          "BlackRock Innovation & Growth Term Trust  (CIK 0001836057)",
+          "BlackRock Science & Technology Term Trust  (CIK 0001768666)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "CORRESP"
+        ],
+        "file_date": "2024-05-15",
+        "biz_states": [
+          "DE"
+        ],
+        "sics": [],
+        "form": "CORRESP",
+        "adsh": "0001193125-24-139597",
+        "film_num": [],
+        "biz_locations": [
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE"
+        ],
+        "file_type": "CORRESP",
+        "file_description": null,
+        "inc_states": [
+          "DE",
+          "NJ",
+          "MD",
+          "DE",
+          "MD",
+          "MD",
+          "MD",
+          "MD",
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Astra Space, Inc.  (CIK 0001814329)"
+      ],
+      "date": "2024-05-08",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001814329"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "005-91610"
+        ],
+        "display_names": [
+          "Astra Space, Inc.  (CIK 0001814329)"
+        ],
+        "xsl": null,
+        "sequence": 6,
+        "root_forms": [
+          "SC 13E3"
+        ],
+        "file_date": "2024-05-08",
+        "biz_states": [
+          "CA"
+        ],
+        "sics": [
+          "4700"
+        ],
+        "form": "SC 13E3/A",
+        "adsh": "0001193125-24-133385",
+        "film_num": [
+          "24923685"
+        ],
+        "biz_locations": [
+          "Alameda, CA"
+        ],
+        "file_type": "EX-99.(C)(6)",
+        "file_description": "EX-99.(C)(6)",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "Astra Space, Inc.  (CIK 0001814329)"
+      ],
+      "date": "2024-06-04",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001814329"
+        ],
+        "period_ending": null,
+        "file_num": [
+          "005-91610"
+        ],
+        "display_names": [
+          "Astra Space, Inc.  (CIK 0001814329)"
+        ],
+        "xsl": null,
+        "sequence": 7,
+        "root_forms": [
+          "SC 13E3"
+        ],
+        "file_date": "2024-06-04",
+        "biz_states": [
+          "CA"
+        ],
+        "sics": [
+          "4700"
+        ],
+        "form": "SC 13E3/A",
+        "adsh": "0001193125-24-153732",
+        "film_num": [
+          "241016193"
+        ],
+        "biz_locations": [
+          "Alameda, CA"
+        ],
+        "file_type": "EX-99.(C)(7)",
+        "file_description": "EX-99.(C)(7)",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "BLACKROCK CALIFORNIA MUNICIPAL INCOME TRUST  (BFZ)  (CIK 0001137391)",
+        "BLACKROCK MUNIYIELD PENNSYLVANIA QUALITY FUND  (CIK 0000891038)",
+        "BLACKROCK MUNIHOLDINGS NEW YORK QUALITY FUND, INC.  (CIK 0001038186)",
+        "BLACKROCK NEW YORK MUNICIPAL INCOME TRUST  (CIK 0001137390)",
+        "BlackRock ESG Capital Allocation Term Trust  (CIK 0001864843)",
+        "BLACKROCK MUNIYIELD NEW YORK QUALITY FUND, INC.  (CIK 0000882150)",
+        "BlackRock Health Sciences Term Trust  (CIK 0001785971)",
+        "BlackRock Capital Allocation Term Trust  (CIK 0001809541)",
+        "BlackRock Innovation & Growth Term Trust  (CIK 0001836057)",
+        "BlackRock Science & Technology Term Trust  (CIK 0001768666)"
+      ],
+      "date": "2024-05-13",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001137391",
+          "0000891038",
+          "0001038186",
+          "0001137390",
+          "0001864843",
+          "0000882150",
+          "0001785971",
+          "0001809541",
+          "0001836057",
+          "0001768666"
+        ],
+        "period_ending": null,
+        "file_num": [],
+        "display_names": [
+          "BLACKROCK CALIFORNIA MUNICIPAL INCOME TRUST  (BFZ)  (CIK 0001137391)",
+          "BLACKROCK MUNIYIELD PENNSYLVANIA QUALITY FUND  (CIK 0000891038)",
+          "BLACKROCK MUNIHOLDINGS NEW YORK QUALITY FUND, INC.  (CIK 0001038186)",
+          "BLACKROCK NEW YORK MUNICIPAL INCOME TRUST  (CIK 0001137390)",
+          "BlackRock ESG Capital Allocation Term Trust  (CIK 0001864843)",
+          "BLACKROCK MUNIYIELD NEW YORK QUALITY FUND, INC.  (CIK 0000882150)",
+          "BlackRock Health Sciences Term Trust  (CIK 0001785971)",
+          "BlackRock Capital Allocation Term Trust  (CIK 0001809541)",
+          "BlackRock Innovation & Growth Term Trust  (CIK 0001836057)",
+          "BlackRock Science & Technology Term Trust  (CIK 0001768666)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "CORRESP"
+        ],
+        "file_date": "2024-05-13",
+        "biz_states": [
+          "DE"
+        ],
+        "sics": [],
+        "form": "CORRESP",
+        "adsh": "0001193125-24-137130",
+        "film_num": [],
+        "biz_locations": [
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE",
+          "Wilmington, DE"
+        ],
+        "file_type": "CORRESP",
+        "file_description": null,
+        "inc_states": [
+          "DE",
+          "NJ",
+          "MD",
+          "DE",
+          "MD",
+          "MD",
+          "MD",
+          "MD",
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "AMERIPRISE CERTIFICATE CO  (CIK 0000052428)"
+      ],
+      "date": "2024-05-06",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0000052428"
+        ],
+        "period_ending": "2024-03-31",
+        "file_num": [
+          "811-00002"
+        ],
+        "display_names": [
+          "AMERIPRISE CERTIFICATE CO  (CIK 0000052428)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "10-Q"
+        ],
+        "file_date": "2024-05-06",
+        "biz_states": [
+          "MN"
+        ],
+        "sics": [],
+        "form": "10-Q",
+        "adsh": "0000820027-24-000057",
+        "film_num": [
+          "24917136"
+        ],
+        "biz_locations": [
+          "Minneapolis, MN"
+        ],
+        "file_type": "10-Q",
+        "file_description": "10-Q",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "CSB Bancorp, Inc.  (CSBB)  (CIK 0000880417)"
+      ],
+      "date": "2024-06-18",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0000880417"
+        ],
+        "period_ending": "2023-12-31",
+        "file_num": [
+          "000-21714"
+        ],
+        "display_names": [
+          "CSB Bancorp, Inc.  (CSBB)  (CIK 0000880417)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "11-K"
+        ],
+        "file_date": "2024-06-18",
+        "biz_states": [
+          "OH"
+        ],
+        "sics": [
+          "6022"
+        ],
+        "form": "11-K",
+        "adsh": "0000950170-24-074921",
+        "film_num": [
+          "241052315"
+        ],
+        "biz_locations": [
+          "Millersburg, OH"
+        ],
+        "file_type": "11-K",
+        "file_description": "11-K",
+        "inc_states": [
+          "OH"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "INDEPENDENT BANK CORP  (INDB)  (CIK 0000776901)"
+      ],
+      "date": "2024-06-21",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0000776901"
+        ],
+        "period_ending": "2023-12-31",
+        "file_num": [
+          "001-09047"
+        ],
+        "display_names": [
+          "INDEPENDENT BANK CORP  (INDB)  (CIK 0000776901)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "11-K"
+        ],
+        "file_date": "2024-06-21",
+        "biz_states": [
+          "MA"
+        ],
+        "sics": [
+          "6022"
+        ],
+        "form": "11-K",
+        "adsh": "0000776901-24-000145",
+        "film_num": [
+          "241060266"
+        ],
+        "biz_locations": [
+          "Rockland, MA"
+        ],
+        "file_type": "11-K",
+        "file_description": "11-K 2023",
+        "inc_states": [
+          "MA"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "AMERISERV FINANCIAL INC /PA/  (ASRV)  (CIK 0000707605)"
+      ],
+      "date": "2024-06-25",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0000707605"
+        ],
+        "period_ending": "2023-12-31",
+        "file_num": [
+          "000-11204"
+        ],
+        "display_names": [
+          "AMERISERV FINANCIAL INC /PA/  (ASRV)  (CIK 0000707605)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "11-K"
+        ],
+        "file_date": "2024-06-25",
+        "biz_states": [
+          "PA"
+        ],
+        "sics": [
+          "6021"
+        ],
+        "form": "11-K",
+        "adsh": "0001558370-24-009463",
+        "film_num": [
+          "241067663"
+        ],
+        "biz_locations": [
+          "Johnstown, PA"
+        ],
+        "file_type": "11-K",
+        "file_description": "11-K",
+        "inc_states": [
+          "PA"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "1895 Bancorp of Wisconsin, Inc. /MD/  (BCOW)  (CIK 0001847360)"
+      ],
+      "date": "2024-05-08",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0001847360"
+        ],
+        "period_ending": "2024-03-31",
+        "file_num": [
+          "001-40609"
+        ],
+        "display_names": [
+          "1895 Bancorp of Wisconsin, Inc. /MD/  (BCOW)  (CIK 0001847360)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "10-Q"
+        ],
+        "file_date": "2024-05-08",
+        "biz_states": [
+          "WI"
+        ],
+        "sics": [
+          "6036"
+        ],
+        "form": "10-Q",
+        "adsh": "0000950170-24-055922",
+        "film_num": [
+          "24927679"
+        ],
+        "biz_locations": [
+          "Greenfield, WI"
+        ],
+        "file_type": "10-Q",
+        "file_description": "10-Q",
+        "inc_states": [
+          "MD"
+        ],
+        "items": []
+      }
+    },
+    {
+      "entity": [
+        "AMERIPRISE FINANCIAL INC  (AMP)  (CIK 0000820027)"
+      ],
+      "date": "2024-06-20",
+      "form": "?",
+      "source": {
+        "ciks": [
+          "0000820027"
+        ],
+        "period_ending": "2023-12-31",
+        "file_num": [
+          "001-32525"
+        ],
+        "display_names": [
+          "AMERIPRISE FINANCIAL INC  (AMP)  (CIK 0000820027)"
+        ],
+        "xsl": null,
+        "sequence": 1,
+        "root_forms": [
+          "11-K"
+        ],
+        "file_date": "2024-06-20",
+        "biz_states": [
+          "MN"
+        ],
+        "sics": [
+          "6282"
+        ],
+        "form": "11-K",
+        "adsh": "0000820027-24-000062",
+        "film_num": [
+          "241055808"
+        ],
+        "biz_locations": [
+          "Minneapolis, MN"
+        ],
+        "file_type": "11-K",
+        "file_description": "11-K",
+        "inc_states": [
+          "DE"
+        ],
+        "items": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "note": "Binary files archived to ../review_package_02_archive/ (OUTSIDE upload directory)",
+  "nscc_pqd_data": {
+    "description": "NSCC PQD Q2 2024 \u2014 data already extracted",
+    "extracted_to": "nscc_pqd_q2_2024_extracted.json",
+    "source_xlsx": "../review_package_02_archive/nscc_pqd_q2_2024.xlsx",
+    "key_figures": {
+      "peak_initial_margin_call": "$1,162,003,169.65",
+      "aggregate_initial_margin": "$11.3B",
+      "total_clearing_fund": "$25.4B",
+      "qualifying_liquid_resources": "$22.3B",
+      "margin_breach_days": 0
+    }
+  },
+  "archived_pdfs": [
+    "nscc_pqd_nscc_q1_2024.pdf (334K \u2014 DTCC error page, not real data)",
+    "nscc_pqd_nscc_q2_2024.pdf (334K \u2014 DTCC error page, not real data)",
+    "nscc_pqd_nscc_q4_2023.pdf (334K \u2014 DTCC error page, not real data)",
+    "nscc_pqd_q2_2024_real.pdf (5K \u2014 incomplete download)"
+  ]
+}

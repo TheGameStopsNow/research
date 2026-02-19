@@ -1,0 +1,106 @@
+{
+  "quarter": "Q2 2024 (April-June)",
+  "data_sources": {
+    "schwab": {
+      "url": "https://public.s3.com/rule606/chas/5393_606_NMS_2024_Q2_CHAS.xml",
+      "source_type": "SEC Rule 606a XML filing"
+    },
+    "fidelity": {
+      "url": "https://clearingcustody.fidelity.com/-/media/project/shared-regulatory/xml/fbs-q2-2024.xml",
+      "source_type": "SEC Rule 606a XML filing"
+    },
+    "ibkr": {
+      "url": "https://www.interactivebrokers.com/ibkr606Reports/IBKR_606a_2024_Q2.xml",
+      "source_type": "SEC Rule 606a XML filing"
+    }
+  },
+  "schwab": {
+    "sp500_stock_routing": {
+      "Citadel Securities LLC": {
+        "total_pct": 26.93,
+        "market_orders_pct": 30.13,
+        "marketable_limit_pct": 32.89
+      },
+      "Virtu Americas LLC": {
+        "total_pct": 19.98,
+        "market_orders_pct": 23.01,
+        "marketable_limit_pct": 23.99
+      },
+      "Jane Street Capital LLC": {
+        "total_pct": 19.69
+      },
+      "G1 Execution Services LLC": {
+        "total_pct": 17.83
+      },
+      "Two Sigma Securities LLC": {
+        "total_pct": 5.86
+      },
+      "UBS Securities LLC": {
+        "total_pct": 5.25
+      }
+    },
+    "pfof": "Yes - typically $0.001 per share or less for marketable orders"
+  },
+  "fidelity": {
+    "sp500_stock_routing": {
+      "Nasdaq Execution Services LLC": {
+        "total_pct": 23.28
+      },
+      "New York Stock Exchange": {
+        "total_pct": 23.27
+      },
+      "Citadel Securities LLC": {
+        "total_pct": 16.09,
+        "market_orders_pct": 27.18,
+        "marketable_limit_pct": 35.53
+      },
+      "Virtu Americas LLC": {
+        "total_pct": 11.76,
+        "market_orders_pct": 21.15,
+        "marketable_limit_pct": 21.4
+      },
+      "National Financial Services LLC": {
+        "total_pct": 7.67,
+        "note": "Internal/affiliate"
+      }
+    },
+    "pfof": "NO - Fidelity does not receive PFOF from wholesale market makers"
+  },
+  "ibkr": {
+    "sp500_stock_routing": {
+      "Nasdaq Stock Market": {
+        "total_pct": 38.78
+      },
+      "CBOE EDGX Exchange": {
+        "total_pct": 16.13
+      },
+      "New York Stock Exchange": {
+        "total_pct": 16.03
+      },
+      "IBKR ATS (IATS)": {
+        "total_pct": 9.7,
+        "marketable_limit_pct": 32.91
+      },
+      "Citadel Securities LLC (CDED)": {
+        "total_pct": 2.91,
+        "market_orders_pct": 16.09
+      }
+    },
+    "pfof": "Yes for LITE orders (~12% of spread), No for PRO accounts"
+  },
+  "key_findings": {
+    "citadel_schwab": "Citadel handles 26.93% of Schwab S&P 500 orders and 32.89% of marketable limit orders",
+    "citadel_virtu_schwab_combined": "Citadel + Virtu = 46.91% of all Schwab S&P 500 order flow",
+    "citadel_fidelity_marketable": "Citadel receives 35.53% of Fidelity marketable limit orders",
+    "ubs_schwab": "UBS Securities receives 5.25% of Schwab order flow",
+    "g1_execution": "G1 Execution (Susquehanna subsidiary) handles 17.83% of Schwab orders"
+  },
+  "ssga_xrt_verification": {
+    "current_shares_outstanding": "7.75M (as of Feb 13, 2026)",
+    "total_net_assets": "$680.93M",
+    "nav": "$87.86",
+    "holdings": 73,
+    "gme_status": "Not in Top 10 holdings. Avg holding ~1.37%.",
+    "source": "https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-sp-retail-etf-xrt"
+  }
+}

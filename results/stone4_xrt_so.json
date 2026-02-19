@@ -1,0 +1,421 @@
+{
+  "stone": 4,
+  "name": "Physical ETF Destruction \u2014 XRT Shares Outstanding",
+  "timestamp": "2026-02-18T01:31:12.577775",
+  "xrt_info": {
+    "ticker": "XRT",
+    "name": "SPDR S&P Retail ETF",
+    "cusip": "78464A870",
+    "isin": "US78464A8707",
+    "sponsor": "State Street Global Advisors",
+    "cik_state_street": "0001064642",
+    "cik_spdr": "0001168164"
+  },
+  "event_window": {
+    "start": "2024-05-06",
+    "event_start": "2024-05-13",
+    "event_peak": "2024-05-14",
+    "peak_2": "2024-05-15",
+    "settlement": "2024-05-17",
+    "end": "2024-05-24"
+  },
+  "hypothesis": "XRT Shares Outstanding drops sharply on May 14-15 as Authorized Participants redeem ETF units to extract underlying GME shares for CNS delivery. KOSS shares in XRT are too illiquid to extract, so they fail \u2192 63.4\u00d7 FTD surge.",
+  "data_sources": {
+    "nport_filings": [
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196609",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196608",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196607",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196604",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196603",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196598",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196597",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196596",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196602",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196593",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196592",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196591",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196587",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196586",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196585",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196583",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196581",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196580",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196578",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196579",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196576",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196577",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196575",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-08-28",
+        "accession": "0001752724-24-196574",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122763",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122764",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122760",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122761",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122759",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122758",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122757",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122750",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122744",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122754",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122749",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122748",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122745",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122742",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122730",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122737",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122734",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122736",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122733",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122731",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122728",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122726",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122732",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      },
+      {
+        "form": "NPORT-P",
+        "date": "2024-05-28",
+        "accession": "0001752724-24-122725",
+        "primary_doc": "xslFormNPORT-P_X01/primary_doc.xml"
+      }
+    ],
+    "edgar_search": {
+      "\"SPDR S&P Retail\" \"shares outstanding\"": {
+        "total": 6,
+        "top_hits": [
+          {
+            "form": "",
+            "date": "2024-08-29",
+            "entity": ""
+          },
+          {
+            "form": "",
+            "date": "2024-07-03",
+            "entity": ""
+          },
+          {
+            "form": "",
+            "date": "2024-09-06",
+            "entity": ""
+          }
+        ]
+      },
+      "\"78464A870\" \"shares outstanding\"": {
+        "total": 2,
+        "top_hits": [
+          {
+            "form": "",
+            "date": "2024-06-03",
+            "entity": ""
+          },
+          {
+            "form": "",
+            "date": "2024-06-13",
+            "entity": ""
+          }
+        ]
+      },
+      "\"XRT\" \"creation\" \"redemption\" 2024": {
+        "total": 19,
+        "top_hits": [
+          {
+            "form": "",
+            "date": "2024-08-23",
+            "entity": ""
+          },
+          {
+            "form": "",
+            "date": "2024-09-25",
+            "entity": ""
+          },
+          {
+            "form": "",
+            "date": "2024-07-15",
+            "entity": ""
+          }
+        ]
+      }
+    },
+    "polygon": {
+      "status": "ok",
+      "current_shares_outstanding": 7850226,
+      "weighted_shares_outstanding": null,
+      "note": "This is current data. Historical daily SO requires Polygon Business plan."
+    },
+    "spdr_website": {
+      "https://www.ssga.com/us/en/intermediary/etfs/funds": {
+        "status": "ok",
+        "shares_outstanding": "34",
+        "nav": "67",
+        "data_download_links": [
+          "/library-content/products/fund-data/etfs/us/pdhist-us-en-xrt.xlsx",
+          "/library-content/products/fund-data/etfs/us/navhist-us-en-xrt.xlsx",
+          "/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xrt.xlsx",
+          "/library-content/products/fund-docs/etfs/us/tax-documents/SPDR_ICI_Tax_Summary_Secondary.xlsx",
+          "/library-content/products/fund-docs/etfs/us/tax-documents/SPDR_ICI_Tax_Summary_Primary.xlsx"
+        ]
+      },
+      "https://www.ssga.com/us/en/intermediary/etfs/libra": {
+        "status": "ok",
+        "shares_outstanding": null,
+        "nav": "13,",
+        "data_download_links": [
+          "/library-content/products/fund-docs/etfs/us/tax-documents/SPDR_ICI_Tax_Summary_Primary.xlsx",
+          "/library-content/products/fund-docs/etfs/us/tax-documents/SPDR_ICI_Tax_Summary_Secondary.xlsx"
+        ]
+      }
+    }
+  },
+  "manual_research_needed": {
+    "description": "Get daily XRT Shares Outstanding for May 2024",
+    "best_sources": [
+      "Bloomberg Terminal: XRT US Equity \u2192 DES \u2192 Shares Outstanding history",
+      "State Street SPDR daily holdings file: https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-sp-retail-etf-xrt (Holdings tab, download daily)",
+      "Polygon.io Business plan: GET /v3/reference/tickers/XRT?date=2024-05-14",
+      "CRSP database (academic access): daily shares outstanding"
+    ],
+    "what_proves_hypothesis": [
+      "Compare XRT SO on May 13 vs May 15 vs May 17",
+      "A drop of >1M shares on May 14-15 proves Custom Redemptions occurred",
+      "Cross-reference with XRT FTD data (387K \u2192 3K collapse on May 15)",
+      "If GME weight in XRT dropped simultaneously, it proves GME-specific harvesting"
+    ],
+    "xrt_components_to_check": [
+      "GME weight in XRT on May 13 vs May 17",
+      "KOSS weight in XRT (if any \u2014 KOSS may not be in XRT)",
+      "Total creation/redemption unit activity for May 13-17"
+    ]
+  }
+}

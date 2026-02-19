@@ -1,0 +1,48 @@
+{
+  "source": "DTCC-PQD-2024Q2.xlsx",
+  "url": "https://www.dtcc.com/-/media/Files/Downloads/legal/policy-and-compliance/DTCC-PQD-2024Q2.xlsx",
+  "report_date": "2024-06-28 (Excel serial 45471)",
+  "entity": "NSCC",
+  "currency": "USD",
+  "verified_from_excel": true,
+  "disclosures": {
+    "4.1_peak_aggregate_initial_margin": {
+      "nscc": "$11,297,844,056.92",
+      "note": "From consolidated data row, NSCC column"
+    },
+    "6.1_peak_day_initial_margin_call": {
+      "nscc": "$1,162,003,169.65",
+      "note": "Largest single-day margin call during Q2 2024"
+    },
+    "6.5_margin_breaches": {
+      "nscc_exceeded": 0,
+      "note": "No days where margin was exceeded (4.4 AmountExceeded = 0)"
+    },
+    "7.1_qualifying_liquid_resources": {
+      "nscc": "$22,322,364,589",
+      "credit_line": "$1,350,000,000",
+      "note": "Total qualifying liquid resources available to NSCC"
+    },
+    "7.3_payment_total": {
+      "nscc_daily_peak": "$36,981,524,835",
+      "nscc_aggregate_peak": "$44,743,198,808"
+    },
+    "clearing_fund": {
+      "nscc_total": "$25,435,114,000",
+      "nscc_required": "$24,701,573,000"
+    },
+    "capital_adequacy": {
+      "nscc_financial_resources": "$142,705,000"
+    }
+  },
+  "related_entities": {
+    "ficc_gsd": {
+      "aggregate_initial_margin": "$10,234,676,406"
+    },
+    "ficc_mbsd": {
+      "aggregate_initial_margin": "see row (different columns)"
+    }
+  },
+  "retrieved": "2026-02-18",
+  "local_file": "results/nscc_pqd_q2_2024.xlsx"
+}

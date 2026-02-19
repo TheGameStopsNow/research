@@ -1,0 +1,110 @@
+{
+  "Citadel Securities": {
+    "company": "CITADEL SECURITIES LLC",
+    "cik": "0001146184",
+    "filings_found": [
+      {
+        "form": "X-17A-5",
+        "date": "2025-02-28",
+        "accession": "0001146184-25-000003",
+        "doc": "xslX-17A-5_X01/primary_doc.xml"
+      },
+      {
+        "form": "X-17A-5",
+        "date": "2024-02-28",
+        "accession": "0001146184-24-000001",
+        "doc": "xslX-17A-5_X01/primary_doc.xml"
+      },
+      {
+        "form": "X-17A-5",
+        "date": "2023-03-01",
+        "accession": "0001146184-23-000003",
+        "doc": "xslX-17A-5_X01/primary_doc.xml"
+      },
+      {
+        "form": "X-17A-5",
+        "date": "2022-02-28",
+        "accession": "0001284170-22-000004",
+        "doc": "xslX-17A-5_X01/primary_doc.xml"
+      },
+      {
+        "form": "X-17A-5",
+        "date": "2021-02-25",
+        "accession": "0001616344-21-000004",
+        "doc": "xslX-17A-5_X01/primary_doc.xml"
+      },
+      {
+        "form": "X-17A-5",
+        "date": "2020-02-28",
+        "accession": "0001146184-20-000006",
+        "doc": "xslX-17A-5_X01/primary_doc.xml"
+      },
+      {
+        "form": "X-17A-5",
+        "date": "2019-02-28",
+        "accession": "0001146184-19-000002",
+        "doc": "xslX-17A-5_X01/primary_doc.xml"
+      },
+      {
+        "form": "X-17A-5",
+        "date": "2018-02-27",
+        "accession": "0001146184-18-000003",
+        "doc": "xslX-17A-5_X01/primary_doc.xml"
+      },
+      {
+        "form": "X-17A-5",
+        "date": "2017-02-24",
+        "accession": "0001146184-17-000003",
+        "doc": "xslX-17A-5_X01/primary_doc.xml"
+      },
+      {
+        "form": "FOCUSN",
+        "date": "2016-02-24",
+        "accession": "9999999997-16-017545",
+        "doc": "9999999997-16-017545.paper"
+      }
+    ],
+    "all_form_types": [
+      "FOCUSN",
+      "FOCUSN/A",
+      "X-17A-5",
+      "X-17A-5/A"
+    ]
+  },
+  "Virtu Americas": {
+    "company": "Bray Jesse K",
+    "cik": "0001543932",
+    "filings_found": [],
+    "all_form_types": [
+      "144",
+      "3",
+      "4",
+      "4/A"
+    ]
+  },
+  "G1 Execution Services": {
+    "company": "Evan Tova Enterprises LLC",
+    "cik": "0001326184",
+    "filings_found": [],
+    "all_form_types": [
+      "REGDEX"
+    ]
+  },
+  "Jane Street Capital": {
+    "company": "Private Advisors Small Co Private Equity Fund VI, LP",
+    "cik": "0001595889",
+    "filings_found": [],
+    "all_form_types": [
+      "D",
+      "D/A"
+    ]
+  },
+  "Jane Street Execution": {
+    "company": "Woods James L.",
+    "cik": "0001442628",
+    "filings_found": [],
+    "all_form_types": [
+      "3"
+    ]
+  }
+}

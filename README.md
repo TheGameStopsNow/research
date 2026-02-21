@@ -49,7 +49,12 @@ shasum -a 256 papers/03_policy_regulatory_implications.md
 shasum -a 256 papers/04_infrastructure_macro.md
 ```
 
-**Dead Man's Switch:** The file `evidence_package.zip` (available under [Releases](../../releases)) is an AES-256 encrypted archive containing all four papers, replication scripts, and source data. If this repository or the author's accounts are removed before the series concludes, the decryption password will be published independently.
+**Dead Man's Switch:** The file `evidence_package.zip.enc` (available under [Releases](../../releases)) is an AES-256-CBC encrypted archive containing all four papers, replication scripts, and source data. If this repository or the author's accounts are removed before the series concludes, the decryption password will be published independently.
+
+To decrypt (when password is released):
+```bash
+openssl enc -aes-256-cbc -d -salt -pbkdf2 -iter 100000 -in evidence_package.zip.enc -out evidence_package.zip -pass 'pass:PASSWORD_HERE'
+```
 
 ## ⚠️ Disclaimer
 

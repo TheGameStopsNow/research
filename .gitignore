@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 .DS_Store
 *.zip
+*.zip.enc
 *.log
 .vscode/
 .idea/

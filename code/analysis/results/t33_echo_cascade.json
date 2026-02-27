@@ -1,0 +1,488 @@
+{
+  "ftd_stats": {
+    "mean": 81167.22390174776,
+    "std": 198315.2588127507,
+    "threshold_2sigma": 477797.7415272491,
+    "threshold_3sigma": 676113.0003399998,
+    "initial_spikes": 157
+  },
+  "echo_hit_rates": {
+    "T+33": {
+      "elevated_rate": 0.8980891719745223,
+      "spike_rate": 0.24203821656050956,
+      "total_tested": 157
+    },
+    "T+66": {
+      "elevated_rate": 0.7307692307692307,
+      "spike_rate": 0.25,
+      "total_tested": 156
+    },
+    "T+99": {
+      "elevated_rate": 0.5816993464052288,
+      "spike_rate": 0.22875816993464052,
+      "total_tested": 153
+    },
+    "T+132": {
+      "elevated_rate": 0.6688741721854304,
+      "spike_rate": 0.16556291390728478,
+      "total_tested": 151
+    }
+  },
+  "top_cascades": [
+    {
+      "origin_date": "2005-09-27",
+      "origin_ftd": 559030,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2005-09-27",
+          "ftd": 559030,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2005-11-07",
+          "expected_date": "2005-11-11",
+          "ftd": 98336,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2005-12-21",
+          "expected_date": "2005-12-22",
+          "ftd": 135261,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2006-02-02",
+          "expected_date": "2006-02-06",
+          "ftd": 65906,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2006-03-24",
+          "expected_date": "2006-03-21",
+          "ftd": 104134,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.75
+    },
+    {
+      "origin_date": "2005-09-28",
+      "origin_ftd": 669784,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2005-09-28",
+          "ftd": 669784,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2005-11-18",
+          "expected_date": "2005-11-14",
+          "ftd": 94764,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2006-01-05",
+          "expected_date": "2006-01-04",
+          "ftd": 90456,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2006-02-21",
+          "expected_date": "2006-02-21",
+          "ftd": 183606,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2006-04-05",
+          "expected_date": "2006-04-07",
+          "ftd": 89576,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 1.0
+    },
+    {
+      "origin_date": "2005-09-29",
+      "origin_ftd": 697511,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2005-09-29",
+          "ftd": 697511,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2005-11-18",
+          "expected_date": "2005-11-15",
+          "ftd": 94764,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2006-01-05",
+          "expected_date": "2006-01-04",
+          "ftd": 90456,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2006-02-21",
+          "expected_date": "2006-02-21",
+          "ftd": 183606,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2006-04-05",
+          "expected_date": "2006-04-07",
+          "ftd": 89576,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 1.0
+    },
+    {
+      "origin_date": "2005-09-30",
+      "origin_ftd": 550901,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2005-09-30",
+          "ftd": 550901,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2005-11-18",
+          "expected_date": "2005-11-16",
+          "ftd": 94764,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2006-01-05",
+          "expected_date": "2006-01-04",
+          "ftd": 90456,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2006-02-21",
+          "expected_date": "2006-02-21",
+          "ftd": 183606,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2006-04-05",
+          "expected_date": "2006-04-07",
+          "ftd": 89576,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 1.0
+    },
+    {
+      "origin_date": "2005-10-03",
+      "origin_ftd": 597353,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2005-10-03",
+          "ftd": 597353,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2005-11-21",
+          "expected_date": "2005-11-17",
+          "ftd": 125384,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2006-01-05",
+          "expected_date": "2006-01-05",
+          "ftd": 90456,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2006-02-21",
+          "expected_date": "2006-02-21",
+          "ftd": 183606,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2006-04-05",
+          "expected_date": "2006-04-07",
+          "ftd": 89576,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 1.0
+    },
+    {
+      "origin_date": "2005-10-04",
+      "origin_ftd": 614450,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2005-10-04",
+          "ftd": 614450,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2005-11-21",
+          "expected_date": "2005-11-18",
+          "ftd": 125384,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2006-01-05",
+          "expected_date": "2006-01-05",
+          "ftd": 90456,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2006-02-21",
+          "expected_date": "2006-02-21",
+          "ftd": 183606,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2006-04-05",
+          "expected_date": "2006-04-07",
+          "ftd": 89576,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 1.0
+    },
+    {
+      "origin_date": "2005-10-05",
+      "origin_ftd": 588425,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2005-10-05",
+          "ftd": 588425,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2005-11-21",
+          "expected_date": "2005-11-21",
+          "ftd": 125384,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2006-01-05",
+          "expected_date": "2006-01-05",
+          "ftd": 90456,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2006-02-21",
+          "expected_date": "2006-02-21",
+          "ftd": 183606,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2006-04-05",
+          "expected_date": "2006-04-07",
+          "ftd": 89576,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 1.0
+    },
+    {
+      "origin_date": "2005-10-06",
+      "origin_ftd": 753933,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2005-10-06",
+          "ftd": 753933,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2005-11-21",
+          "expected_date": "2005-11-22",
+          "ftd": 125384,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2006-01-05",
+          "expected_date": "2006-01-05",
+          "ftd": 90456,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2006-02-21",
+          "expected_date": "2006-02-21",
+          "ftd": 183606,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2006-04-05",
+          "expected_date": "2006-04-07",
+          "ftd": 89576,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 1.0
+    },
+    {
+      "origin_date": "2005-10-07",
+      "origin_ftd": 651400,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2005-10-07",
+          "ftd": 651400,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2005-11-21",
+          "expected_date": "2005-11-23",
+          "ftd": 125384,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2006-01-05",
+          "expected_date": "2006-01-05",
+          "ftd": 90456,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2006-02-21",
+          "expected_date": "2006-02-21",
+          "ftd": 183606,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2006-04-05",
+          "expected_date": "2006-04-07",
+          "ftd": 89576,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 1.0
+    },
+    {
+      "origin_date": "2005-10-12",
+      "origin_ftd": 898491,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2005-10-12",
+          "ftd": 898491,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2005-12-02",
+          "expected_date": "2005-11-28",
+          "ftd": 44235,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2006-01-18",
+          "expected_date": "2006-01-18",
+          "ftd": 59662,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2006-03-06",
+          "expected_date": "2006-03-06",
+          "ftd": 169108,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2006-04-21",
+          "expected_date": "2006-04-20",
+          "ftd": 20564,
+          "is_elevated": false,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.25
+    }
+  ],
+  "echo_returns": {
+    "mean_3d": null,
+    "mean_5d": null,
+    "n": 0
+  }
+}

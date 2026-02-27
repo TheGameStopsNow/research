@@ -1,0 +1,578 @@
+{
+  "orderly_wind_down": {
+    "total": 3,
+    "hits": [
+      {
+        "entity": "?",
+        "date": "2024-05-31",
+        "form": "?",
+        "cik": "?",
+        "description": "10-12G"
+      },
+      {
+        "entity": "?",
+        "date": "2024-09-20",
+        "form": "?",
+        "cik": "?",
+        "description": "10-12G"
+      },
+      {
+        "entity": "?",
+        "date": "2024-07-25",
+        "form": "?",
+        "cik": "?",
+        "description": "10-12G"
+      }
+    ]
+  },
+  "fund_liquidation_ubs": {
+    "total": 116,
+    "hits": [
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "N-VPFS"
+      }
+    ]
+  },
+  "margin_call_ubs": {
+    "total": 52,
+    "hits": [
+      {
+        "entity": "?",
+        "date": "2024-03-29",
+        "form": "?",
+        "cik": "?",
+        "description": "424B3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-03-07",
+        "form": "?",
+        "cik": "?",
+        "description": "POS AM"
+      },
+      {
+        "entity": "?",
+        "date": "2024-03-29",
+        "form": "?",
+        "cik": "?",
+        "description": "424B3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-03-29",
+        "form": "?",
+        "cik": "?",
+        "description": "424B3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-07-29",
+        "form": "?",
+        "cik": "?",
+        "description": "N-2"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-29",
+        "form": "?",
+        "cik": "?",
+        "description": "486BPOS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-12",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-01-30",
+        "form": "?",
+        "cik": "?",
+        "description": "POS AMI"
+      },
+      {
+        "entity": "?",
+        "date": "2024-05-02",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-09-03",
+        "form": "?",
+        "cik": "?",
+        "description": "NB PRIVATE MARKETS ACCESS FUND LLC - 424B3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-01-29",
+        "form": "?",
+        "cik": "?",
+        "description": "486BPOS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-12-26",
+        "form": "?",
+        "cik": "?",
+        "description": "NCSRS"
+      },
+      {
+        "entity": "?",
+        "date": "2024-02-21",
+        "form": "?",
+        "cik": "?",
+        "description": "POS AMI"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-01",
+        "form": "?",
+        "cik": "?",
+        "description": "POS AMI"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-26",
+        "form": "?",
+        "cik": "?",
+        "description": "ALTERNATIVE INVESTMENT PARTNERS ABSOLUTE RETURN FUND - 486BPOS"
+      }
+    ]
+  },
+  "forced_liquidation": {
+    "total": 434,
+    "hits": [
+      {
+        "entity": "?",
+        "date": "2024-11-14",
+        "form": "?",
+        "cik": "?",
+        "description": "N-2"
+      },
+      {
+        "entity": "?",
+        "date": "2024-03-22",
+        "form": "?",
+        "cik": "?",
+        "description": "10-K"
+      },
+      {
+        "entity": "?",
+        "date": "2024-05-07",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-03-28",
+        "form": "?",
+        "cik": "?",
+        "description": "20-F"
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-26",
+        "form": "?",
+        "cik": "?",
+        "description": "SF-3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-08-15",
+        "form": "?",
+        "cik": "?",
+        "description": "424B3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-08-15",
+        "form": "?",
+        "cik": "?",
+        "description": "424B3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-08-15",
+        "form": "?",
+        "cik": "?",
+        "description": "424B3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-08-14",
+        "form": "?",
+        "cik": "?",
+        "description": "10-Q"
+      },
+      {
+        "entity": "?",
+        "date": "2024-08-15",
+        "form": "?",
+        "cik": "?",
+        "description": "424B3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-06-04",
+        "form": "?",
+        "cik": "?",
+        "description": "DEF 14A"
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-20",
+        "form": "?",
+        "cik": "?",
+        "description": "424B3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-20",
+        "form": "?",
+        "cik": "?",
+        "description": "424B3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-07-18",
+        "form": "?",
+        "cik": "?",
+        "description": "424B2"
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-20",
+        "form": "?",
+        "cik": "?",
+        "description": "424B3"
+      }
+    ]
+  },
+  "total_return_swap_unwind": {
+    "total": 531,
+    "hits": [
+      {
+        "entity": "?",
+        "date": "2024-05-10",
+        "form": "?",
+        "cik": "?",
+        "description": "424B3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-05-09",
+        "form": "?",
+        "cik": "?",
+        "description": "10-Q"
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-18",
+        "form": "?",
+        "cik": "?",
+        "description": "10-Q/A"
+      },
+      {
+        "entity": "?",
+        "date": "2024-02-28",
+        "form": "?",
+        "cik": "?",
+        "description": "10-K"
+      },
+      {
+        "entity": "?",
+        "date": "2024-08-08",
+        "form": "?",
+        "cik": "?",
+        "description": "10-Q"
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-18",
+        "form": "?",
+        "cik": "?",
+        "description": "10-Q"
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-18",
+        "form": "?",
+        "cik": "?",
+        "description": "10-Q/A"
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-18",
+        "form": "?",
+        "cik": "?",
+        "description": "10-K/A"
+      },
+      {
+        "entity": "?",
+        "date": "2024-05-24",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-02-26",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-27",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-27",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-27",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-27",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-11-27",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      }
+    ]
+  },
+  "swap_termination": {
+    "total": 68,
+    "hits": [
+      {
+        "entity": "?",
+        "date": "2024-11-20",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-08-23",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-02-22",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-05-16",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-08-02",
+        "form": "?",
+        "cik": "?",
+        "description": "EX-10.2"
+      },
+      {
+        "entity": "?",
+        "date": "2024-09-06",
+        "form": "?",
+        "cik": "?",
+        "description": "EX-10.9"
+      },
+      {
+        "entity": "?",
+        "date": "2024-06-04",
+        "form": "?",
+        "cik": "?",
+        "description": "EXHIBIT 4.3"
+      },
+      {
+        "entity": "?",
+        "date": "2024-02-05",
+        "form": "?",
+        "cik": "?",
+        "description": "EXHIBIT 10.1"
+      },
+      {
+        "entity": "?",
+        "date": "2024-07-26",
+        "form": "?",
+        "cik": "?",
+        "description": null
+      },
+      {
+        "entity": "?",
+        "date": "2024-09-06",
+        "form": "?",
+        "cik": "?",
+        "description": "EX-10.7"
+      },
+      {
+        "entity": "?",
+        "date": "2024-01-23",
+        "form": "?",
+        "cik": "?",
+        "description": "EX-10.1"
+      },
+      {
+        "entity": "?",
+        "date": "2024-04-16",
+        "form": "?",
+        "cik": "?",
+        "description": "EXHIBIT 99.1"
+      },
+      {
+        "entity": "?",
+        "date": "2024-10-16",
+        "form": "?",
+        "cik": "?",
+        "description": "EXHIBIT 99.1"
+      },
+      {
+        "entity": "?",
+        "date": "2024-07-15",
+        "form": "?",
+        "cik": "?",
+        "description": "EXHIBIT 99.1"
+      },
+      {
+        "entity": "?",
+        "date": "2024-01-12",
+        "form": "?",
+        "cik": "?",
+        "description": "EXHIBIT 99.1"
+      }
+    ]
+  }
+}

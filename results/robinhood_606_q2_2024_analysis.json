@@ -1,0 +1,525 @@
+{
+  "broker_dealer": "Robinhood Securities, LLC",
+  "year": 2024,
+  "quarter": 2,
+  "source": "SEC EDGAR + S3 XML (287900_606_NMS_2024_Q2_HOOD.xml)",
+  "pfof_structure": "RHS receives PFOF and passes 80% to Robinhood Financial LLC (RHF). Fixed percentage of NBBO spread (12.35% regular hours, 9% extended hours).",
+  "grand_total_pfof_usd": 228533952.77,
+  "quarterly_venue_totals": {
+    "Virtu Americas, LLC": {
+      "equity_pfof_usd": 10347024.07,
+      "options_pfof_usd": 0,
+      "total_pfof_usd": 10347024.07,
+      "avg_equity_order_share_pct": 41.89,
+      "avg_options_order_share_pct": 0
+    },
+    "CITADEL SECURITIES LLC": {
+      "equity_pfof_usd": 14293375.23,
+      "options_pfof_usd": 68982609.1,
+      "total_pfof_usd": 83275984.33,
+      "avg_equity_order_share_pct": 21.31,
+      "avg_options_order_share_pct": 37.03
+    },
+    "G1 Execution Services, LLC": {
+      "equity_pfof_usd": 3671514.15,
+      "options_pfof_usd": 0,
+      "total_pfof_usd": 3671514.15,
+      "avg_equity_order_share_pct": 8.88,
+      "avg_options_order_share_pct": 0
+    },
+    "Two Sigma Securities, LLC": {
+      "equity_pfof_usd": 3827881.15,
+      "options_pfof_usd": 0,
+      "total_pfof_usd": 3827881.15,
+      "avg_equity_order_share_pct": 10.89,
+      "avg_options_order_share_pct": 0
+    },
+    "Jane Street Capital": {
+      "equity_pfof_usd": 10376268.72,
+      "options_pfof_usd": 0,
+      "total_pfof_usd": 10376268.72,
+      "avg_equity_order_share_pct": 16.48,
+      "avg_options_order_share_pct": 0
+    },
+    "Wolverine Execution Services, LLC": {
+      "equity_pfof_usd": 0,
+      "options_pfof_usd": 31558169.17,
+      "total_pfof_usd": 31558169.17,
+      "avg_equity_order_share_pct": 0,
+      "avg_options_order_share_pct": 18.66
+    },
+    "Global Execution Brokers, LP": {
+      "equity_pfof_usd": 0,
+      "options_pfof_usd": 27633453.87,
+      "total_pfof_usd": 27633453.87,
+      "avg_equity_order_share_pct": 0,
+      "avg_options_order_share_pct": 14.2
+    },
+    "Dash/IMC Financial Markets": {
+      "equity_pfof_usd": 0,
+      "options_pfof_usd": 30691505.88,
+      "total_pfof_usd": 30691505.88,
+      "avg_equity_order_share_pct": 0,
+      "avg_options_order_share_pct": 17.87
+    },
+    "Morgan Stanley & Co., LLC": {
+      "equity_pfof_usd": 0,
+      "options_pfof_usd": 27152151.43,
+      "total_pfof_usd": 27152151.43,
+      "avg_equity_order_share_pct": 0,
+      "avg_options_order_share_pct": 12.24
+    }
+  },
+  "monthly_detail": [
+    {
+      "month": "Month 1",
+      "section": "S&P 500 Stocks",
+      "venue": "Virtu Americas, LLC",
+      "order_pct": 59.99,
+      "market_pct": 53.48,
+      "marketable_limit_pct": 63.74,
+      "non_marketable_limit_pct": 61.59,
+      "total_pfof_usd": 977397.29
+    },
+    {
+      "month": "Month 1",
+      "section": "S&P 500 Stocks",
+      "venue": "CITADEL SECURITIES LLC",
+      "order_pct": 16.13,
+      "market_pct": 14.54,
+      "marketable_limit_pct": 15.31,
+      "non_marketable_limit_pct": 18.23,
+      "total_pfof_usd": 795889.89
+    },
+    {
+      "month": "Month 1",
+      "section": "S&P 500 Stocks",
+      "venue": "G1 Execution Services, LLC",
+      "order_pct": 8.28,
+      "market_pct": 12.95,
+      "marketable_limit_pct": 7.83,
+      "non_marketable_limit_pct": 5.22,
+      "total_pfof_usd": 177776.15
+    },
+    {
+      "month": "Month 1",
+      "section": "S&P 500 Stocks",
+      "venue": "Two Sigma Securities, LLC",
+      "order_pct": 7.7,
+      "market_pct": 10.7,
+      "marketable_limit_pct": 5.95,
+      "non_marketable_limit_pct": 4.37,
+      "total_pfof_usd": 124039.03
+    },
+    {
+      "month": "Month 1",
+      "section": "S&P 500 Stocks",
+      "venue": "Jane Street Capital",
+      "order_pct": 7.3,
+      "market_pct": 7.35,
+      "marketable_limit_pct": 6.65,
+      "non_marketable_limit_pct": 10.22,
+      "total_pfof_usd": 301837.01999999996
+    },
+    {
+      "month": "Month 1",
+      "section": "Other NMS Stocks",
+      "venue": "Virtu Americas, LLC",
+      "order_pct": 29.39,
+      "market_pct": 25.54,
+      "marketable_limit_pct": 28.95,
+      "non_marketable_limit_pct": 31.83,
+      "total_pfof_usd": 2032688.39
+    },
+    {
+      "month": "Month 1",
+      "section": "Other NMS Stocks",
+      "venue": "CITADEL SECURITIES LLC",
+      "order_pct": 28.54,
+      "market_pct": 23.59,
+      "marketable_limit_pct": 27.64,
+      "non_marketable_limit_pct": 32.27,
+      "total_pfof_usd": 3662622.27
+    },
+    {
+      "month": "Month 1",
+      "section": "Other NMS Stocks",
+      "venue": "Jane Street Capital",
+      "order_pct": 24.45,
+      "market_pct": 20.52,
+      "marketable_limit_pct": 24.96,
+      "non_marketable_limit_pct": 28.87,
+      "total_pfof_usd": 2821743.62
+    },
+    {
+      "month": "Month 1",
+      "section": "Other NMS Stocks",
+      "venue": "Two Sigma Securities, LLC",
+      "order_pct": 11.63,
+      "market_pct": 19.17,
+      "marketable_limit_pct": 12.27,
+      "non_marketable_limit_pct": 4.43,
+      "total_pfof_usd": 892354.25
+    },
+    {
+      "month": "Month 1",
+      "section": "Other NMS Stocks",
+      "venue": "G1 Execution Services, LLC",
+      "order_pct": 5.52,
+      "market_pct": 10.32,
+      "marketable_limit_pct": 5.66,
+      "non_marketable_limit_pct": 2.39,
+      "total_pfof_usd": 801426.52
+    },
+    {
+      "month": "Month 1",
+      "section": "Options",
+      "venue": "CITADEL SECURITIES LLC",
+      "order_pct": 41.28,
+      "market_pct": 36.39,
+      "marketable_limit_pct": 43.69,
+      "non_marketable_limit_pct": 38.6,
+      "total_pfof_usd": 23396941.54
+    },
+    {
+      "month": "Month 1",
+      "section": "Options",
+      "venue": "Wolverine Execution Services, LLC",
+      "order_pct": 20.23,
+      "market_pct": 19.09,
+      "marketable_limit_pct": 20.71,
+      "non_marketable_limit_pct": 19.21,
+      "total_pfof_usd": 10980878.86
+    },
+    {
+      "month": "Month 1",
+      "section": "Options",
+      "venue": "Global Execution Brokers, LP",
+      "order_pct": 15.81,
+      "market_pct": 22.55,
+      "marketable_limit_pct": 13.26,
+      "non_marketable_limit_pct": 16.69,
+      "total_pfof_usd": 9319152.08
+    },
+    {
+      "month": "Month 1",
+      "section": "Options",
+      "venue": "Dash/IMC Financial Markets",
+      "order_pct": 11.74,
+      "market_pct": 10.24,
+      "marketable_limit_pct": 10.25,
+      "non_marketable_limit_pct": 12.13,
+      "total_pfof_usd": 8208082.06
+    },
+    {
+      "month": "Month 1",
+      "section": "Options",
+      "venue": "Morgan Stanley & Co., LLC",
+      "order_pct": 10.95,
+      "market_pct": 11.73,
+      "marketable_limit_pct": 12.09,
+      "non_marketable_limit_pct": 13.37,
+      "total_pfof_usd": 7769957.33
+    },
+    {
+      "month": "Month 2",
+      "section": "S&P 500 Stocks",
+      "venue": "Virtu Americas, LLC",
+      "order_pct": 52.42,
+      "market_pct": 43.79,
+      "marketable_limit_pct": 55.04,
+      "non_marketable_limit_pct": 57.94,
+      "total_pfof_usd": 944400.72
+    },
+    {
+      "month": "Month 2",
+      "section": "S&P 500 Stocks",
+      "venue": "G1 Execution Services, LLC",
+      "order_pct": 15.72,
+      "market_pct": 23.55,
+      "marketable_limit_pct": 15.63,
+      "non_marketable_limit_pct": 9.15,
+      "total_pfof_usd": 358140.51
+    },
+    {
+      "month": "Month 2",
+      "section": "S&P 500 Stocks",
+      "venue": "CITADEL SECURITIES LLC",
+      "order_pct": 13.96,
+      "market_pct": 11.57,
+      "marketable_limit_pct": 13.96,
+      "non_marketable_limit_pct": 16.2,
+      "total_pfof_usd": 698884.63
+    },
+    {
+      "month": "Month 2",
+      "section": "S&P 500 Stocks",
+      "venue": "Two Sigma Securities, LLC",
+      "order_pct": 9.15,
+      "market_pct": 12.37,
+      "marketable_limit_pct": 7.21,
+      "non_marketable_limit_pct": 4.98,
+      "total_pfof_usd": 127057.62
+    },
+    {
+      "month": "Month 2",
+      "section": "S&P 500 Stocks",
+      "venue": "Jane Street Capital",
+      "order_pct": 8.13,
+      "market_pct": 7.73,
+      "marketable_limit_pct": 7.62,
+      "non_marketable_limit_pct": 11.35,
+      "total_pfof_usd": 264336.05
+    },
+    {
+      "month": "Month 2",
+      "section": "Other NMS Stocks",
+      "venue": "CITADEL SECURITIES LLC",
+      "order_pct": 27.1,
+      "market_pct": 21.47,
+      "marketable_limit_pct": 26.77,
+      "non_marketable_limit_pct": 31.24,
+      "total_pfof_usd": 4838826.2
+    },
+    {
+      "month": "Month 2",
+      "section": "Other NMS Stocks",
+      "venue": "Jane Street Capital",
+      "order_pct": 26.56,
+      "market_pct": 22.06,
+      "marketable_limit_pct": 28.74,
+      "non_marketable_limit_pct": 29.95,
+      "total_pfof_usd": 3910512.8
+    },
+    {
+      "month": "Month 2",
+      "section": "Other NMS Stocks",
+      "venue": "Virtu Americas, LLC",
+      "order_pct": 26.33,
+      "market_pct": 22.31,
+      "marketable_limit_pct": 25.38,
+      "non_marketable_limit_pct": 29.97,
+      "total_pfof_usd": 3125280.84
+    },
+    {
+      "month": "Month 2",
+      "section": "Other NMS Stocks",
+      "venue": "Two Sigma Securities, LLC",
+      "order_pct": 12.67,
+      "market_pct": 20.57,
+      "marketable_limit_pct": 12.29,
+      "non_marketable_limit_pct": 5.33,
+      "total_pfof_usd": 1404651.75
+    },
+    {
+      "month": "Month 2",
+      "section": "Other NMS Stocks",
+      "venue": "G1 Execution Services, LLC",
+      "order_pct": 6.86,
+      "market_pct": 12.71,
+      "marketable_limit_pct": 6.36,
+      "non_marketable_limit_pct": 3.28,
+      "total_pfof_usd": 1361721.93
+    },
+    {
+      "month": "Month 2",
+      "section": "Options",
+      "venue": "CITADEL SECURITIES LLC",
+      "order_pct": 35.06,
+      "market_pct": 25.97,
+      "marketable_limit_pct": 40.26,
+      "non_marketable_limit_pct": 30.89,
+      "total_pfof_usd": 23040670.84
+    },
+    {
+      "month": "Month 2",
+      "section": "Options",
+      "venue": "Dash/IMC Financial Markets",
+      "order_pct": 23.19,
+      "market_pct": 26.49,
+      "marketable_limit_pct": 20.61,
+      "non_marketable_limit_pct": 24.43,
+      "total_pfof_usd": 11870500.4
+    },
+    {
+      "month": "Month 2",
+      "section": "Options",
+      "venue": "Wolverine Execution Services, LLC",
+      "order_pct": 18.22,
+      "market_pct": 17.75,
+      "marketable_limit_pct": 17.14,
+      "non_marketable_limit_pct": 18.09,
+      "total_pfof_usd": 10224995.15
+    },
+    {
+      "month": "Month 2",
+      "section": "Options",
+      "venue": "Global Execution Brokers, LP",
+      "order_pct": 12.49,
+      "market_pct": 15.06,
+      "marketable_limit_pct": 10.51,
+      "non_marketable_limit_pct": 13.2,
+      "total_pfof_usd": 8341399.89
+    },
+    {
+      "month": "Month 2",
+      "section": "Options",
+      "venue": "Morgan Stanley & Co., LLC",
+      "order_pct": 11.04,
+      "market_pct": 14.73,
+      "marketable_limit_pct": 11.48,
+      "non_marketable_limit_pct": 13.39,
+      "total_pfof_usd": 8403444.57
+    },
+    {
+      "month": "Month 3",
+      "section": "S&P 500 Stocks",
+      "venue": "Virtu Americas, LLC",
+      "order_pct": 55.72,
+      "market_pct": 47.25,
+      "marketable_limit_pct": 59.73,
+      "non_marketable_limit_pct": 59.41,
+      "total_pfof_usd": 922549.96
+    },
+    {
+      "month": "Month 3",
+      "section": "S&P 500 Stocks",
+      "venue": "CITADEL SECURITIES LLC",
+      "order_pct": 15.76,
+      "market_pct": 13.63,
+      "marketable_limit_pct": 15.48,
+      "non_marketable_limit_pct": 17.99,
+      "total_pfof_usd": 688952.98
+    },
+    {
+      "month": "Month 3",
+      "section": "S&P 500 Stocks",
+      "venue": "G1 Execution Services, LLC",
+      "order_pct": 11.15,
+      "market_pct": 16.97,
+      "marketable_limit_pct": 10.77,
+      "non_marketable_limit_pct": 6.66,
+      "total_pfof_usd": 215515.69999999998
+    },
+    {
+      "month": "Month 3",
+      "section": "S&P 500 Stocks",
+      "venue": "Two Sigma Securities, LLC",
+      "order_pct": 9.81,
+      "market_pct": 13.89,
+      "marketable_limit_pct": 7.59,
+      "non_marketable_limit_pct": 5.6,
+      "total_pfof_usd": 167211.46
+    },
+    {
+      "month": "Month 3",
+      "section": "S&P 500 Stocks",
+      "venue": "Jane Street Capital",
+      "order_pct": 6.94,
+      "market_pct": 7.27,
+      "marketable_limit_pct": 5.9,
+      "non_marketable_limit_pct": 9.93,
+      "total_pfof_usd": 281462.72
+    },
+    {
+      "month": "Month 3",
+      "section": "Other NMS Stocks",
+      "venue": "Virtu Americas, LLC",
+      "order_pct": 27.49,
+      "market_pct": 23.53,
+      "marketable_limit_pct": 27.3,
+      "non_marketable_limit_pct": 30.35,
+      "total_pfof_usd": 2344706.87
+    },
+    {
+      "month": "Month 3",
+      "section": "Other NMS Stocks",
+      "venue": "CITADEL SECURITIES LLC",
+      "order_pct": 26.36,
+      "market_pct": 20.94,
+      "marketable_limit_pct": 25.31,
+      "non_marketable_limit_pct": 31.1,
+      "total_pfof_usd": 3608199.26
+    },
+    {
+      "month": "Month 3",
+      "section": "Other NMS Stocks",
+      "venue": "Jane Street Capital",
+      "order_pct": 25.5,
+      "market_pct": 21.1,
+      "marketable_limit_pct": 27.1,
+      "non_marketable_limit_pct": 29.41,
+      "total_pfof_usd": 2796376.5100000002
+    },
+    {
+      "month": "Month 3",
+      "section": "Other NMS Stocks",
+      "venue": "Two Sigma Securities, LLC",
+      "order_pct": 14.38,
+      "market_pct": 23.16,
+      "marketable_limit_pct": 14.05,
+      "non_marketable_limit_pct": 6.31,
+      "total_pfof_usd": 1112567.04
+    },
+    {
+      "month": "Month 3",
+      "section": "Other NMS Stocks",
+      "venue": "G1 Execution Services, LLC",
+      "order_pct": 5.78,
+      "market_pct": 10.4,
+      "marketable_limit_pct": 5.75,
+      "non_marketable_limit_pct": 2.61,
+      "total_pfof_usd": 756933.34
+    },
+    {
+      "month": "Month 3",
+      "section": "Options",
+      "venue": "CITADEL SECURITIES LLC",
+      "order_pct": 34.75,
+      "market_pct": 36.1,
+      "marketable_limit_pct": 38.18,
+      "non_marketable_limit_pct": 31.53,
+      "total_pfof_usd": 22544996.72
+    },
+    {
+      "month": "Month 3",
+      "section": "Options",
+      "venue": "Dash/IMC Financial Markets",
+      "order_pct": 18.68,
+      "market_pct": 19.92,
+      "marketable_limit_pct": 16.89,
+      "non_marketable_limit_pct": 19.14,
+      "total_pfof_usd": 10612923.42
+    },
+    {
+      "month": "Month 3",
+      "section": "Options",
+      "venue": "Wolverine Execution Services, LLC",
+      "order_pct": 17.53,
+      "market_pct": 17.06,
+      "marketable_limit_pct": 17.31,
+      "non_marketable_limit_pct": 16.69,
+      "total_pfof_usd": 10352295.16
+    },
+    {
+      "month": "Month 3",
+      "section": "Options",
+      "venue": "Morgan Stanley & Co., LLC",
+      "order_pct": 14.73,
+      "market_pct": 15.42,
+      "marketable_limit_pct": 15.49,
+      "non_marketable_limit_pct": 17.85,
+      "total_pfof_usd": 10978749.53
+    },
+    {
+      "month": "Month 3",
+      "section": "Options",
+      "venue": "Global Execution Brokers, LP",
+      "order_pct": 14.31,
+      "market_pct": 11.5,
+      "marketable_limit_pct": 12.14,
+      "non_marketable_limit_pct": 14.8,
+      "total_pfof_usd": 9972901.9
+    }
+  ]
+}

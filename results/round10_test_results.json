@@ -1,0 +1,106 @@
+{
+  "T1_fullday_fracture": {
+    "pre_market": {
+      "max_spread": 8.42,
+      "mean_spread": 0.78,
+      "minutes_gt5": 8,
+      "minutes_gt1": 14,
+      "minutes_analyzed": 90
+    },
+    "regular_hours": {
+      "max_spread": 0.11,
+      "mean_spread": 0.01,
+      "minutes_gt5": 0,
+      "minutes_gt1": 0,
+      "minutes_analyzed": 390
+    },
+    "after_hours": {
+      "max_spread": 6.43,
+      "mean_spread": 0.07,
+      "minutes_analyzed": 240
+    },
+    "verdict": "Tape Fracture STRICTLY confined to pre-market. Pre-mkt max=$8.42, Reg hrs max=$0.11."
+  },
+  "T2_crossdate_trf": {
+    "2024-05-13": {
+      "all_day_max_dark": 38.2,
+      "all_day_p99_dark": 37.31,
+      "all_day_max_lit": 38.2,
+      "pm_max_dark": 26.58,
+      "pm_p99_dark": 26.42,
+      "pm_max_lit": 26.6,
+      "pm_dark_volume": 3088216
+    },
+    "2024-05-14": {
+      "all_day_max_dark": 80.0,
+      "all_day_p99_dark": 74.28,
+      "all_day_max_lit": 80.07,
+      "pm_max_dark": 80.0,
+      "pm_p99_dark": 79.25,
+      "pm_max_lit": 80.07,
+      "pm_dark_volume": 7462297
+    },
+    "2024-05-15": {
+      "all_day_max_dark": 64.74,
+      "all_day_p99_dark": 63.68,
+      "all_day_max_lit": 64.38,
+      "pm_max_dark": 64.74,
+      "pm_p99_dark": 64.5,
+      "pm_max_lit": 64.38,
+      "pm_dark_volume": 4167362
+    },
+    "2024-05-16": {
+      "all_day_max_dark": 39.55,
+      "all_day_p99_dark": 36.24,
+      "all_day_max_lit": 37.33,
+      "pm_max_dark": 39.55,
+      "pm_p99_dark": 37.19,
+      "pm_max_lit": 37.33,
+      "pm_dark_volume": 1714733
+    },
+    "2024-05-17": {
+      "all_day_max_dark": 34.01,
+      "all_day_p99_dark": 32.0,
+      "all_day_max_lit": 32.23,
+      "pm_max_dark": 33.0,
+      "pm_p99_dark": 32.89,
+      "pm_max_lit": 32.23,
+      "pm_dark_volume": 4433841
+    },
+    "verdict": "$33.00 ceiling also appears on non-OpEx days (max: $80.0)."
+  },
+  "T3_contingent_flag": {
+    "GME": {
+      "dates_analyzed": 8,
+      "total_off_market_trades": 699,
+      "total_off_market_shares": 132434,
+      "has_flag_trades": 3,
+      "missing_flag_trades": 696,
+      "missing_flag_shares": 58034,
+      "pct_missing_trades": 99.6,
+      "pct_missing_shares": 43.8
+    },
+    "SPY": {
+      "dates_analyzed": 14,
+      "total_off_market_trades": 37,
+      "total_off_market_shares": 5234,
+      "has_flag_trades": 14,
+      "missing_flag_trades": 23,
+      "missing_flag_shares": 1922,
+      "pct_missing_trades": 62.2,
+      "pct_missing_shares": 36.7
+    },
+    "AAPL": {
+      "dates_analyzed": 17,
+      "total_off_market_trades": 75,
+      "total_off_market_shares": 11059,
+      "has_flag_trades": 42,
+      "missing_flag_trades": 33,
+      "missing_flag_shares": 10121,
+      "pct_missing_trades": 44.0,
+      "pct_missing_shares": 91.5
+    },
+    "baseline_pct": 53.1,
+    "verdict": "GME shows SYSTEMATIC evasion (99.6%) vs baseline (53.1%). \u0394 = 46.5pp."
+  }
+}

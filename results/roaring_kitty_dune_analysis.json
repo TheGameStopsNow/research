@@ -1,0 +1,118 @@
+{
+  "tweet": {
+    "id": "1801313585421029445",
+    "url": "https://x.com/TheRoaringKitty/status/1801313585421029445",
+    "timestamp_utc": "2024-06-13T18:00:00Z",
+    "timestamp_edt": "2024-06-13T14:00:00-04:00",
+    "content": "Dune \"thump thump thump\" - sandworm calling / rhythmic pattern"
+  },
+  "daily_context": {
+    "date": "2024-06-13",
+    "open": 26.56,
+    "high": 29.58,
+    "low": 25.56,
+    "close": 29.12,
+    "volume": 107306569
+  },
+  "volume_analysis": {
+    "total_1min_bars": 480,
+    "avg_1min_volume": 207007,
+    "spike_count_3x": 19,
+    "cluster_count": 8
+  },
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "start_time": "09:30",
+      "end_time": "09:32",
+      "bar_count": 3,
+      "total_volume": 2473827.0,
+      "peak_1min_volume": 1028350.0,
+      "price_high": 27.4,
+      "price_low": 26.2,
+      "tweet_cluster": false
+    },
+    {
+      "cluster_id": 2,
+      "start_time": "10:02",
+      "end_time": "10:02",
+      "bar_count": 1,
+      "total_volume": 1082038.0,
+      "peak_1min_volume": 1082038.0,
+      "price_high": 26.02,
+      "price_low": 25.56,
+      "tweet_cluster": false
+    },
+    {
+      "cluster_id": 3,
+      "start_time": "10:46",
+      "end_time": "10:47",
+      "bar_count": 2,
+      "total_volume": 1476746,
+      "peak_1min_volume": 811383,
+      "price_high": 27.96,
+      "price_low": 27.2,
+      "tweet_cluster": false
+    },
+    {
+      "cluster_id": 4,
+      "start_time": "11:25",
+      "end_time": "11:49",
+      "bar_count": 6,
+      "total_volume": 5745180.0,
+      "peak_1min_volume": 1429745.0,
+      "price_high": 28.09,
+      "price_low": 25.7,
+      "tweet_cluster": false
+    },
+    {
+      "cluster_id": 5,
+      "start_time": "12:14",
+      "end_time": "12:14",
+      "bar_count": 1,
+      "total_volume": 629083,
+      "peak_1min_volume": 629083,
+      "price_high": 27.35,
+      "price_low": 26.95,
+      "tweet_cluster": false
+    },
+    {
+      "cluster_id": 6,
+      "start_time": "14:00",
+      "end_time": "14:06",
+      "bar_count": 4,
+      "total_volume": 3651508.0,
+      "peak_1min_volume": 1117399.0,
+      "price_high": 29.1699,
+      "price_low": 27.8,
+      "tweet_cluster": true
+    },
+    {
+      "cluster_id": 7,
+      "start_time": "14:49",
+      "end_time": "14:49",
+      "bar_count": 1,
+      "total_volume": 1053100.0,
+      "peak_1min_volume": 1053100.0,
+      "price_high": 29.55,
+      "price_low": 28.85,
+      "tweet_cluster": true
+    },
+    {
+      "cluster_id": 8,
+      "start_time": "15:48",
+      "end_time": "15:48",
+      "bar_count": 1,
+      "total_volume": 657148,
+      "peak_1min_volume": 657148,
+      "price_high": 29.58,
+      "price_low": 29.42,
+      "tweet_cluster": false
+    }
+  ],
+  "data_source": {
+    "provider": "Polygon.io",
+    "api_endpoint": "https://api.polygon.io/v2/aggs/ticker/GME/range/1/minute/2024-06-13/2024-06-13",
+    "retrieved": "2026-02-18"
+  }
+}

@@ -1,0 +1,813 @@
+{
+  "metadata": {
+    "n_settlement_dates": 8,
+    "n_control_dates": 24,
+    "t33_targets": [
+      {
+        "spike_date": "2020-10-13",
+        "spike_qty": 3210148,
+        "t33_date": "2020-11-27"
+      },
+      {
+        "spike_date": "2020-09-22",
+        "spike_qty": 2655764,
+        "t33_date": "2020-11-06"
+      },
+      {
+        "spike_date": "2020-04-17",
+        "spike_qty": 2105715,
+        "t33_date": "2020-06-03"
+      },
+      {
+        "spike_date": "2021-01-26",
+        "spike_qty": 2099572,
+        "t33_date": "2021-03-12"
+      },
+      {
+        "spike_date": "2025-12-04",
+        "spike_qty": 2068490,
+        "t33_date": "2026-01-20"
+      },
+      {
+        "spike_date": "2021-01-27",
+        "spike_qty": 1972862,
+        "t33_date": "2021-03-15"
+      },
+      {
+        "spike_date": "2020-04-21",
+        "spike_qty": 1932850,
+        "t33_date": "2020-06-05"
+      },
+      {
+        "spike_date": "2020-12-03",
+        "spike_qty": 1787191,
+        "t33_date": "2021-01-19"
+      }
+    ]
+  },
+  "exchange_comparison": {
+    "settlement": {
+      "NYSE American": {
+        "id": 1,
+        "is_trf": false,
+        "avg_pct_trades": 0.002083805110951518,
+        "avg_pct_volume": 0.0009358927249632526,
+        "avg_median_size": 57.625,
+        "n_dates": 8
+      },
+      "Nasdaq BX": {
+        "id": 2,
+        "is_trf": false,
+        "avg_pct_trades": 0.007983827319109946,
+        "avg_pct_volume": 0.005779584855267476,
+        "avg_median_size": 78.0,
+        "n_dates": 8
+      },
+      "NYSE National": {
+        "id": 3,
+        "is_trf": false,
+        "avg_pct_trades": 0.013616610963990576,
+        "avg_pct_volume": 0.006233759824721328,
+        "avg_median_size": 70.125,
+        "n_dates": 8
+      },
+      "FINRA ADF": {
+        "id": 4,
+        "is_trf": true,
+        "avg_pct_trades": 0.4112578839346923,
+        "avg_pct_volume": 0.4611993157751611,
+        "avg_median_size": 58.125,
+        "n_dates": 8
+      },
+      "Cboe EDGA": {
+        "id": 7,
+        "is_trf": false,
+        "avg_pct_trades": 0.013002745029455483,
+        "avg_pct_volume": 0.007222662736583072,
+        "avg_median_size": 74.5625,
+        "n_dates": 8
+      },
+      "Cboe EDGX": {
+        "id": 8,
+        "is_trf": false,
+        "avg_pct_trades": 0.10370822502330694,
+        "avg_pct_volume": 0.08805837966900396,
+        "avg_median_size": 65.0,
+        "n_dates": 8
+      },
+      "NYSE Chicago": {
+        "id": 9,
+        "is_trf": false,
+        "avg_pct_trades": 0.001831920741609548,
+        "avg_pct_volume": 0.0023045491048010744,
+        "avg_median_size": 53.9375,
+        "n_dates": 8
+      },
+      "NYSE": {
+        "id": 10,
+        "is_trf": false,
+        "avg_pct_trades": 0.09805958864458171,
+        "avg_pct_volume": 0.18910124308366547,
+        "avg_median_size": 72.125,
+        "n_dates": 8
+      },
+      "NYSE Arca": {
+        "id": 11,
+        "is_trf": false,
+        "avg_pct_trades": 0.08282826818734543,
+        "avg_pct_volume": 0.06530161930209863,
+        "avg_median_size": 71.75,
+        "n_dates": 8
+      },
+      "Nasdaq": {
+        "id": 12,
+        "is_trf": false,
+        "avg_pct_trades": 0.13939635368635006,
+        "avg_pct_volume": 0.10028104384296523,
+        "avg_median_size": 72.375,
+        "n_dates": 8
+      },
+      "IEX": {
+        "id": 15,
+        "is_trf": false,
+        "avg_pct_trades": 0.021501460749606557,
+        "avg_pct_volume": 0.013375548792945014,
+        "avg_median_size": 80.0625,
+        "n_dates": 8
+      },
+      "Nasdaq PHLX": {
+        "id": 17,
+        "is_trf": false,
+        "avg_pct_trades": 0.00454766948070255,
+        "avg_pct_volume": 0.003777948865806407,
+        "avg_median_size": 67.75,
+        "n_dates": 8
+      },
+      "Cboe BYX": {
+        "id": 18,
+        "is_trf": false,
+        "avg_pct_trades": 0.019590479855823562,
+        "avg_pct_volume": 0.009355262102513598,
+        "avg_median_size": 76.375,
+        "n_dates": 8
+      },
+      "Cboe BZX": {
+        "id": 19,
+        "is_trf": false,
+        "avg_pct_trades": 0.06462008304150649,
+        "avg_pct_volume": 0.038443784179629306,
+        "avg_median_size": 71.25,
+        "n_dates": 8
+      },
+      "MIAX Pearl": {
+        "id": 20,
+        "is_trf": false,
+        "avg_pct_trades": 0.002855471622263797,
+        "avg_pct_volume": 0.0014342101351937744,
+        "avg_median_size": 66.5,
+        "n_dates": 5
+      },
+      "MEMX": {
+        "id": 21,
+        "is_trf": false,
+        "avg_pct_trades": 0.018539981384194933,
+        "avg_pct_volume": 0.010074422099868677,
+        "avg_median_size": 56.333333333333336,
+        "n_dates": 6
+      },
+      "24X National": {
+        "id": 22,
+        "is_trf": false,
+        "avg_pct_trades": 0.0022513794312498847,
+        "avg_pct_volume": 0.0014176578438198743,
+        "avg_median_size": 100.0,
+        "n_dates": 1
+      }
+    },
+    "control": {
+      "NYSE American": {
+        "id": 1,
+        "is_trf": false,
+        "avg_pct_trades": 0.002487156620470212,
+        "avg_pct_volume": 0.0009566321499117014,
+        "avg_median_size": 56.625,
+        "n_dates": 24
+      },
+      "Nasdaq BX": {
+        "id": 2,
+        "is_trf": false,
+        "avg_pct_trades": 0.008241602180280189,
+        "avg_pct_volume": 0.005526574883180476,
+        "avg_median_size": 74.41666666666667,
+        "n_dates": 24
+      },
+      "NYSE National": {
+        "id": 3,
+        "is_trf": false,
+        "avg_pct_trades": 0.014582130399349339,
+        "avg_pct_volume": 0.005554580635043008,
+        "avg_median_size": 70.0,
+        "n_dates": 24
+      },
+      "FINRA ADF": {
+        "id": 4,
+        "is_trf": true,
+        "avg_pct_trades": 0.40253381994963117,
+        "avg_pct_volume": 0.4353888551174827,
+        "avg_median_size": 55.333333333333336,
+        "n_dates": 24
+      },
+      "Cboe EDGA": {
+        "id": 7,
+        "is_trf": false,
+        "avg_pct_trades": 0.014110984896739917,
+        "avg_pct_volume": 0.007163184443741424,
+        "avg_median_size": 70.20833333333333,
+        "n_dates": 24
+      },
+      "Cboe EDGX": {
+        "id": 8,
+        "is_trf": false,
+        "avg_pct_trades": 0.10544783608987911,
+        "avg_pct_volume": 0.08733847844246474,
+        "avg_median_size": 62.333333333333336,
+        "n_dates": 24
+      },
+      "NYSE Chicago": {
+        "id": 9,
+        "is_trf": false,
+        "avg_pct_trades": 0.0014488542486419632,
+        "avg_pct_volume": 0.004688936112519833,
+        "avg_median_size": 56.90909090909091,
+        "n_dates": 22
+      },
+      "NYSE": {
+        "id": 10,
+        "is_trf": false,
+        "avg_pct_trades": 0.09882862198956888,
+        "avg_pct_volume": 0.2274236180355721,
+        "avg_median_size": 73.75,
+        "n_dates": 24
+      },
+      "NYSE Arca": {
+        "id": 11,
+        "is_trf": false,
+        "avg_pct_trades": 0.08256100042078197,
+        "avg_pct_volume": 0.05986570735516664,
+        "avg_median_size": 68.41666666666667,
+        "n_dates": 24
+      },
+      "Nasdaq": {
+        "id": 12,
+        "is_trf": false,
+        "avg_pct_trades": 0.14221293180052952,
+        "avg_pct_volume": 0.09624267442671607,
+        "avg_median_size": 68.58333333333333,
+        "n_dates": 24
+      },
+      "IEX": {
+        "id": 15,
+        "is_trf": false,
+        "avg_pct_trades": 0.021478170224688415,
+        "avg_pct_volume": 0.013056596976123222,
+        "avg_median_size": 76.66666666666667,
+        "n_dates": 24
+      },
+      "Nasdaq PHLX": {
+        "id": 17,
+        "is_trf": false,
+        "avg_pct_trades": 0.004498875914150788,
+        "avg_pct_volume": 0.0033919593525234028,
+        "avg_median_size": 66.47916666666667,
+        "n_dates": 24
+      },
+      "Cboe BYX": {
+        "id": 18,
+        "is_trf": false,
+        "avg_pct_trades": 0.02234512668045036,
+        "avg_pct_volume": 0.009730587038000147,
+        "avg_median_size": 73.16666666666667,
+        "n_dates": 24
+      },
+      "Cboe BZX": {
+        "id": 19,
+        "is_trf": false,
+        "avg_pct_trades": 0.0635799436230141,
+        "avg_pct_volume": 0.03549138992925824,
+        "avg_median_size": 68.0,
+        "n_dates": 24
+      },
+      "MIAX Pearl": {
+        "id": 20,
+        "is_trf": false,
+        "avg_pct_trades": 0.0029706721330552037,
+        "avg_pct_volume": 0.0017087654819256796,
+        "avg_median_size": 56.333333333333336,
+        "n_dates": 15
+      },
+      "MEMX": {
+        "id": 21,
+        "is_trf": false,
+        "avg_pct_trades": 0.018141883967615433,
+        "avg_pct_volume": 0.00974303252562058,
+        "avg_median_size": 52.55555555555556,
+        "n_dates": 18
+      },
+      "24X National": {
+        "id": 22,
+        "is_trf": false,
+        "avg_pct_trades": 0.0024047980560520966,
+        "avg_pct_volume": 0.0015657356633651022,
+        "avg_median_size": 100.0,
+        "n_dates": 3
+      }
+    },
+    "deltas": {
+      "FINRA ADF": {
+        "delta": 0.02581046065767839,
+        "s_vol": 0.4611993157751611,
+        "c_vol": 0.4353888551174827,
+        "is_trf": true
+      },
+      "NYSE": {
+        "delta": -0.03832237495190663,
+        "s_vol": 0.18910124308366547,
+        "c_vol": 0.2274236180355721,
+        "is_trf": false
+      },
+      "Nasdaq": {
+        "delta": 0.00403836941624916,
+        "s_vol": 0.10028104384296523,
+        "c_vol": 0.09624267442671607,
+        "is_trf": false
+      },
+      "Cboe EDGX": {
+        "delta": 0.000719901226539213,
+        "s_vol": 0.08805837966900396,
+        "c_vol": 0.08733847844246474,
+        "is_trf": false
+      },
+      "NYSE Arca": {
+        "delta": 0.005435911946931986,
+        "s_vol": 0.06530161930209863,
+        "c_vol": 0.05986570735516664,
+        "is_trf": false
+      },
+      "Cboe BZX": {
+        "delta": 0.002952394250371068,
+        "s_vol": 0.038443784179629306,
+        "c_vol": 0.03549138992925824,
+        "is_trf": false
+      },
+      "IEX": {
+        "delta": 0.0003189518168217921,
+        "s_vol": 0.013375548792945014,
+        "c_vol": 0.013056596976123222,
+        "is_trf": false
+      },
+      "MEMX": {
+        "delta": 0.00033138957424809663,
+        "s_vol": 0.010074422099868677,
+        "c_vol": 0.00974303252562058,
+        "is_trf": false
+      },
+      "Cboe BYX": {
+        "delta": -0.00037532493548654913,
+        "s_vol": 0.009355262102513598,
+        "c_vol": 0.009730587038000147,
+        "is_trf": false
+      },
+      "Cboe EDGA": {
+        "delta": 5.9478292841647594e-05,
+        "s_vol": 0.007222662736583072,
+        "c_vol": 0.007163184443741424,
+        "is_trf": false
+      },
+      "NYSE National": {
+        "delta": 0.0006791791896783202,
+        "s_vol": 0.006233759824721328,
+        "c_vol": 0.005554580635043008,
+        "is_trf": false
+      },
+      "Nasdaq BX": {
+        "delta": 0.00025300997208699966,
+        "s_vol": 0.005779584855267476,
+        "c_vol": 0.005526574883180476,
+        "is_trf": false
+      },
+      "Nasdaq PHLX": {
+        "delta": 0.0003859895132830044,
+        "s_vol": 0.003777948865806407,
+        "c_vol": 0.0033919593525234028,
+        "is_trf": false
+      },
+      "NYSE Chicago": {
+        "delta": -0.0023843870077187588,
+        "s_vol": 0.0023045491048010744,
+        "c_vol": 0.004688936112519833,
+        "is_trf": false
+      },
+      "MIAX Pearl": {
+        "delta": -0.00027455534673190523,
+        "s_vol": 0.0014342101351937744,
+        "c_vol": 0.0017087654819256796,
+        "is_trf": false
+      }
+    }
+  },
+  "condition_comparison": {
+    "settlement": {
+      "Contingent Trade": {
+        "code": 37,
+        "avg_pct": 0.5619323645313998,
+        "n_dates": 8
+      },
+      "Prior Reference Price": {
+        "code": 41,
+        "avg_pct": 0.29968997503109557,
+        "n_dates": 8
+      },
+      "Derivatively Priced": {
+        "code": 14,
+        "avg_pct": 0.2901147871162606,
+        "n_dates": 8
+      },
+      "Average Price": {
+        "code": 12,
+        "avg_pct": 0.06376199208188904,
+        "n_dates": 8
+      },
+      "Sold Last": {
+        "code": 10,
+        "avg_pct": 0.008739865855060097,
+        "n_dates": 8
+      },
+      "Acquisition": {
+        "code": 2,
+        "avg_pct": 0.003090318225050859,
+        "n_dates": 8
+      },
+      "Rule 155 Trade (NYSE)": {
+        "code": 53,
+        "avg_pct": 0.0007031789336454942,
+        "n_dates": 8
+      },
+      "Corrected Consolidated Close": {
+        "code": 52,
+        "avg_pct": 0.0006799662723253892,
+        "n_dates": 8
+      },
+      "Opening/Reopening": {
+        "code": 15,
+        "avg_pct": 0.00012866314598480286,
+        "n_dates": 8
+      },
+      "Bunched": {
+        "code": 7,
+        "avg_pct": 0.00010306916253446145,
+        "n_dates": 6
+      },
+      "Closing": {
+        "code": 16,
+        "avg_pct": 7.136987595620852e-05,
+        "n_dates": 8
+      },
+      "Qualified Contingent": {
+        "code": 38,
+        "avg_pct": 5.729327002859434e-05,
+        "n_dates": 8
+      },
+      "Re-Opening": {
+        "code": 17,
+        "avg_pct": 3.119657015598193e-05,
+        "n_dates": 8
+      },
+      "Code_8": {
+        "code": 8,
+        "avg_pct": 2.378995865206951e-05,
+        "n_dates": 8
+      },
+      "Code_20": {
+        "code": 20,
+        "avg_pct": 2.8416944224132432e-05,
+        "n_dates": 6
+      },
+      "Code_32": {
+        "code": 32,
+        "avg_pct": 0.0006373651362097807,
+        "n_dates": 6
+      },
+      "Code_13": {
+        "code": 13,
+        "avg_pct": 6.536578977349912e-05,
+        "n_dates": 5
+      },
+      "Form T (After Hours)": {
+        "code": 22,
+        "avg_pct": 9.111362955964345e-05,
+        "n_dates": 3
+      },
+      "Code_18": {
+        "code": 18,
+        "avg_pct": 1.2751247390776002e-06,
+        "n_dates": 1
+      },
+      "Code_9": {
+        "code": 9,
+        "avg_pct": 2.1787299311739215e-06,
+        "n_dates": 1
+      }
+    },
+    "control": {
+      "Contingent Trade": {
+        "code": 37,
+        "avg_pct": 0.5734337041689997,
+        "n_dates": 24
+      },
+      "Prior Reference Price": {
+        "code": 41,
+        "avg_pct": 0.30678431599610617,
+        "n_dates": 24
+      },
+      "Derivatively Priced": {
+        "code": 14,
+        "avg_pct": 0.2980828755200216,
+        "n_dates": 24
+      },
+      "Average Price": {
+        "code": 12,
+        "avg_pct": 0.05937494822727923,
+        "n_dates": 24
+      },
+      "Sold Last": {
+        "code": 10,
+        "avg_pct": 0.008675190263720333,
+        "n_dates": 24
+      },
+      "Acquisition": {
+        "code": 2,
+        "avg_pct": 0.0034638504693843847,
+        "n_dates": 24
+      },
+      "Rule 155 Trade (NYSE)": {
+        "code": 53,
+        "avg_pct": 0.0007038533669493297,
+        "n_dates": 24
+      },
+      "Corrected Consolidated Close": {
+        "code": 52,
+        "avg_pct": 0.0006800470731478684,
+        "n_dates": 24
+      },
+      "Opening/Reopening": {
+        "code": 15,
+        "avg_pct": 0.00013176518594092896,
+        "n_dates": 24
+      },
+      "Bunched": {
+        "code": 7,
+        "avg_pct": 0.00011617865656920139,
+        "n_dates": 18
+      },
+      "Closing": {
+        "code": 16,
+        "avg_pct": 7.352950588997248e-05,
+        "n_dates": 24
+      },
+      "Qualified Contingent": {
+        "code": 38,
+        "avg_pct": 5.823568005095648e-05,
+        "n_dates": 24
+      },
+      "Re-Opening": {
+        "code": 17,
+        "avg_pct": 3.1076520844063576e-05,
+        "n_dates": 24
+      },
+      "Code_8": {
+        "code": 8,
+        "avg_pct": 2.5621331726530963e-05,
+        "n_dates": 24
+      },
+      "Code_20": {
+        "code": 20,
+        "avg_pct": 2.8522293751097217e-05,
+        "n_dates": 19
+      },
+      "Code_32": {
+        "code": 32,
+        "avg_pct": 0.00046250656711843897,
+        "n_dates": 20
+      },
+      "Form T (After Hours)": {
+        "code": 22,
+        "avg_pct": 8.423290715503837e-05,
+        "n_dates": 12
+      },
+      "Code_9": {
+        "code": 9,
+        "avg_pct": 6.78993031577439e-06,
+        "n_dates": 6
+      },
+      "Code_13": {
+        "code": 13,
+        "avg_pct": 0.00019573098092206227,
+        "n_dates": 15
+      },
+      "Code_18": {
+        "code": 18,
+        "avg_pct": 1.5024141991224646e-06,
+        "n_dates": 3
+      }
+    },
+    "deltas": {
+      "Contingent Trade": {
+        "delta": -0.011501339637599917,
+        "s_pct": 0.5619323645313998,
+        "c_pct": 0.5734337041689997
+      },
+      "Prior Reference Price": {
+        "delta": -0.007094340965010604,
+        "s_pct": 0.29968997503109557,
+        "c_pct": 0.30678431599610617
+      },
+      "Derivatively Priced": {
+        "delta": -0.007968088403761009,
+        "s_pct": 0.2901147871162606,
+        "c_pct": 0.2980828755200216
+      },
+      "Average Price": {
+        "delta": 0.004387043854609814,
+        "s_pct": 0.06376199208188904,
+        "c_pct": 0.05937494822727923
+      },
+      "Sold Last": {
+        "delta": 6.467559133976376e-05,
+        "s_pct": 0.008739865855060097,
+        "c_pct": 0.008675190263720333
+      },
+      "Acquisition": {
+        "delta": -0.00037353224433352584,
+        "s_pct": 0.003090318225050859,
+        "c_pct": 0.0034638504693843847
+      },
+      "Rule 155 Trade (NYSE)": {
+        "delta": -6.744333038355074e-07,
+        "s_pct": 0.0007031789336454942,
+        "c_pct": 0.0007038533669493297
+      },
+      "Corrected Consolidated Close": {
+        "delta": -8.080082247925204e-08,
+        "s_pct": 0.0006799662723253892,
+        "c_pct": 0.0006800470731478684
+      },
+      "Code_32": {
+        "delta": 0.00017485856909134177,
+        "s_pct": 0.0006373651362097807,
+        "c_pct": 0.00046250656711843897
+      },
+      "Opening/Reopening": {
+        "delta": -3.102039956126107e-06,
+        "s_pct": 0.00012866314598480286,
+        "c_pct": 0.00013176518594092896
+      },
+      "Bunched": {
+        "delta": -1.3109494034739942e-05,
+        "s_pct": 0.00010306916253446145,
+        "c_pct": 0.00011617865656920139
+      },
+      "Form T (After Hours)": {
+        "delta": 6.8807224046050776e-06,
+        "s_pct": 9.111362955964345e-05,
+        "c_pct": 8.423290715503837e-05
+      },
+      "Closing": {
+        "delta": -2.159629933763969e-06,
+        "s_pct": 7.136987595620852e-05,
+        "c_pct": 7.352950588997248e-05
+      },
+      "Code_13": {
+        "delta": -0.00013036519114856314,
+        "s_pct": 6.536578977349912e-05,
+        "c_pct": 0.00019573098092206227
+      },
+      "Qualified Contingent": {
+        "delta": -9.424100223621377e-07,
+        "s_pct": 5.729327002859434e-05,
+        "c_pct": 5.823568005095648e-05
+      }
+    }
+  },
+  "size_comparison": {
+    "settlement": {
+      "median": 65.25,
+      "mean": 167.89081524479892,
+      "odd_lot_pct": 0.5620238688831202,
+      "round_lot_pct": 0.2586734766990946,
+      "block_count": 38.875
+    },
+    "control": {
+      "median": 63.25,
+      "mean": 202.77261201150918,
+      "odd_lot_pct": 0.5735285645731792,
+      "round_lot_pct": 0.25344503331744694,
+      "block_count": 36.166666666666664
+    }
+  },
+  "finra_short_volume": {
+    "settlement": {
+      "20201127": {
+        "short_pcts": 0.3654605908038284,
+        "total_vols": 6666883.0
+      },
+      "20201106": {
+        "short_pcts": 0.6144575633573992,
+        "total_vols": 2877525.0
+      },
+      "20200603": {
+        "short_pcts": 0.37364702936883526,
+        "total_vols": 1549738.0
+      },
+      "20210312": {
+        "short_pcts": 0.5531438017127346,
+        "total_vols": 9833047.0
+      },
+      "20260120": {
+        "short_pcts": 0.4384172826550409,
+        "total_vols": 2481378.0
+      }
+    },
+    "control": {
+      "20201127": {
+        "short_pcts": 0.3654605908038284,
+        "total_vols": 6666883.0
+      },
+      "20201211": {
+        "short_pcts": 0.32604819318891176,
+        "total_vols": 3460240.0
+      },
+      "20201106": {
+        "short_pcts": 0.6144575633573992,
+        "total_vols": 2877525.0
+      },
+      "20201120": {
+        "short_pcts": 0.5741960505637662,
+        "total_vols": 4458054.0
+      },
+      "20200603": {
+        "short_pcts": 0.37364702936883526,
+        "total_vols": 1549738.0
+      },
+      "20200617": {
+        "short_pcts": 0.359969225239796,
+        "total_vols": 1602612.0
+      },
+      "20210312": {
+        "short_pcts": 0.5531438017127346,
+        "total_vols": 9833047.0
+      }
+    },
+    "deltas": {
+      "20200603": {
+        "delta": 0.0,
+        "s_pct": 0.37364702936883526,
+        "c_pct": 0.37364702936883526
+      },
+      "20200617": {
+        "delta": -0.359969225239796,
+        "s_pct": 0.0,
+        "c_pct": 0.359969225239796
+      },
+      "20201106": {
+        "delta": 0.0,
+        "s_pct": 0.6144575633573992,
+        "c_pct": 0.6144575633573992
+      },
+      "20201120": {
+        "delta": -0.5741960505637662,
+        "s_pct": 0.0,
+        "c_pct": 0.5741960505637662
+      },
+      "20201127": {
+        "delta": 0.0,
+        "s_pct": 0.3654605908038284,
+        "c_pct": 0.3654605908038284
+      },
+      "20201211": {
+        "delta": -0.32604819318891176,
+        "s_pct": 0.0,
+        "c_pct": 0.32604819318891176
+      },
+      "20210312": {
+        "delta": 0.0,
+        "s_pct": 0.5531438017127346,
+        "c_pct": 0.5531438017127346
+      },
+      "20260120": {
+        "delta": 0.4384172826550409,
+        "s_pct": 0.4384172826550409,
+        "c_pct": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "original_file": "../review_package_02_archive/round12_v2b_unmasked.json",
+  "original_size_bytes": 81602,
+  "note": "Full data archived. This summary contains key findings only.",
+  "description": "Full 24 Non-ATS internalizer firm data with surge ratios",
+  "key_findings": [
+    "All 24 firms with CRD numbers, volumes, surge ratios",
+    "Virtu 42.1\u00d7, Citadel 22.8\u00d7, G1 47.2\u00d7, Jane Street 44.4\u00d7",
+    "DriveWealth 51.0\u00d7, Robinhood 173.9\u00d7",
+    "UBS: \u221e surge (zero baseline)",
+    "AMC showed identical pattern: same 4 dominant firms"
+  ],
+  "data_keys": [
+    "EVENT",
+    "BASELINE"
+  ]
+}

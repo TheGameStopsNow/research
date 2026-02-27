@@ -1,0 +1,1132 @@
+{
+  "events": [
+    {
+      "date": "2018-01-12",
+      "storm_hour": 11,
+      "median_mm": 1.3,
+      "max_mm": 4.0,
+      "n_wet": 6,
+      "severity": "MODERATE",
+      "n_storm_hours": 4
+    },
+    {
+      "date": "2018-01-23",
+      "storm_hour": 10,
+      "median_mm": 0.2,
+      "max_mm": 2.1,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-02-07",
+      "storm_hour": 9,
+      "median_mm": 1.5,
+      "max_mm": 2.8,
+      "n_wet": 6,
+      "severity": "MODERATE",
+      "n_storm_hours": 7
+    },
+    {
+      "date": "2018-02-19",
+      "storm_hour": 13,
+      "median_mm": 0.7,
+      "max_mm": 3.4,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2018-02-22",
+      "storm_hour": 10,
+      "median_mm": 0.9,
+      "max_mm": 2.7,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2018-02-23",
+      "storm_hour": 11,
+      "median_mm": 0.3,
+      "max_mm": 3.3,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-03-01",
+      "storm_hour": 14,
+      "median_mm": 1.1,
+      "max_mm": 3.3,
+      "n_wet": 6,
+      "severity": "MODERATE",
+      "n_storm_hours": 6
+    },
+    {
+      "date": "2018-03-21",
+      "storm_hour": 12,
+      "median_mm": 0.9,
+      "max_mm": 2.3,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 7
+    },
+    {
+      "date": "2018-03-27",
+      "storm_hour": 11,
+      "median_mm": 0.4,
+      "max_mm": 2.0,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-03-29",
+      "storm_hour": 10,
+      "median_mm": 0.6,
+      "max_mm": 1.6,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-04-03",
+      "storm_hour": 11,
+      "median_mm": 0.9,
+      "max_mm": 2.9,
+      "n_wet": 6,
+      "severity": "LIGHT",
+      "n_storm_hours": 6
+    },
+    {
+      "date": "2018-04-16",
+      "storm_hour": 9,
+      "median_mm": 0.8,
+      "max_mm": 9.1,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2018-05-22",
+      "storm_hour": 14,
+      "median_mm": 0.5,
+      "max_mm": 2.0,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-07-05",
+      "storm_hour": 15,
+      "median_mm": 0.5,
+      "max_mm": 5.8,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-07-23",
+      "storm_hour": 15,
+      "median_mm": 1.2,
+      "max_mm": 2.6,
+      "n_wet": 6,
+      "severity": "MODERATE",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2018-07-24",
+      "storm_hour": 10,
+      "median_mm": 0.2,
+      "max_mm": 7.4,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-07-31",
+      "storm_hour": 13,
+      "median_mm": 0.5,
+      "max_mm": 2.9,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-08-07",
+      "storm_hour": 15,
+      "median_mm": 0.5,
+      "max_mm": 12.6,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-08-13",
+      "storm_hour": 15,
+      "median_mm": 0.4,
+      "max_mm": 20.0,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2018-08-17",
+      "storm_hour": 10,
+      "median_mm": 0.5,
+      "max_mm": 1.0,
+      "n_wet": 3,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-08-21",
+      "storm_hour": 12,
+      "median_mm": 0.4,
+      "max_mm": 2.3,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2018-09-06",
+      "storm_hour": 15,
+      "median_mm": 0.2,
+      "max_mm": 2.8,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-09-07",
+      "storm_hour": 14,
+      "median_mm": 1.0,
+      "max_mm": 3.8,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-09-10",
+      "storm_hour": 9,
+      "median_mm": 1.3,
+      "max_mm": 3.0,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 6
+    },
+    {
+      "date": "2018-09-17",
+      "storm_hour": 12,
+      "median_mm": 1.3,
+      "max_mm": 2.4,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2018-09-24",
+      "storm_hour": 15,
+      "median_mm": 0.0,
+      "max_mm": 2.0,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-09-25",
+      "storm_hour": 11,
+      "median_mm": 1.4,
+      "max_mm": 4.0,
+      "n_wet": 6,
+      "severity": "MODERATE",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2018-10-11",
+      "storm_hour": 9,
+      "median_mm": 0.5,
+      "max_mm": 2.6,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-11-05",
+      "storm_hour": 11,
+      "median_mm": 0.1,
+      "max_mm": 2.6,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2018-11-06",
+      "storm_hour": 10,
+      "median_mm": 0.1,
+      "max_mm": 5.3,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2018-11-09",
+      "storm_hour": 15,
+      "median_mm": 1.8,
+      "max_mm": 3.2,
+      "n_wet": 6,
+      "severity": "MODERATE",
+      "n_storm_hours": 4
+    },
+    {
+      "date": "2018-11-15",
+      "storm_hour": 15,
+      "median_mm": 2.7,
+      "max_mm": 3.9,
+      "n_wet": 7,
+      "severity": "MODERATE",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2018-11-26",
+      "storm_hour": 15,
+      "median_mm": 0.4,
+      "max_mm": 4.5,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2018-12-21",
+      "storm_hour": 9,
+      "median_mm": 0.0,
+      "max_mm": 2.7,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-12-28",
+      "storm_hour": 10,
+      "median_mm": 0.5,
+      "max_mm": 2.7,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2018-12-31",
+      "storm_hour": 15,
+      "median_mm": 1.4,
+      "max_mm": 5.6,
+      "n_wet": 9,
+      "severity": "MODERATE",
+      "n_storm_hours": 4
+    },
+    {
+      "date": "2019-01-23",
+      "storm_hour": 10,
+      "median_mm": 0.9,
+      "max_mm": 2.4,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2019-01-24",
+      "storm_hour": 9,
+      "median_mm": 0.5,
+      "max_mm": 2.4,
+      "n_wet": 3,
+      "severity": "LIGHT",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2019-02-06",
+      "storm_hour": 13,
+      "median_mm": 0.2,
+      "max_mm": 4.5,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2019-02-07",
+      "storm_hour": 15,
+      "median_mm": 0.1,
+      "max_mm": 2.3,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2019-02-12",
+      "storm_hour": 10,
+      "median_mm": 1.2,
+      "max_mm": 1.5,
+      "n_wet": 7,
+      "severity": "MODERATE",
+      "n_storm_hours": 7
+    },
+    {
+      "date": "2019-02-20",
+      "storm_hour": 11,
+      "median_mm": 1.0,
+      "max_mm": 3.2,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 6
+    },
+    {
+      "date": "2019-04-19",
+      "storm_hour": 14,
+      "median_mm": 0.4,
+      "max_mm": 4.3,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2019-04-26",
+      "storm_hour": 9,
+      "median_mm": 1.5,
+      "max_mm": 2.2,
+      "n_wet": 7,
+      "severity": "MODERATE",
+      "n_storm_hours": 4
+    },
+    {
+      "date": "2019-05-13",
+      "storm_hour": 13,
+      "median_mm": 0.7,
+      "max_mm": 3.5,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2019-05-28",
+      "storm_hour": 13,
+      "median_mm": 0.4,
+      "max_mm": 2.7,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2019-05-29",
+      "storm_hour": 13,
+      "median_mm": 0.0,
+      "max_mm": 2.9,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2019-05-30",
+      "storm_hour": 15,
+      "median_mm": 0.5,
+      "max_mm": 4.8,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2019-06-10",
+      "storm_hour": 14,
+      "median_mm": 1.3,
+      "max_mm": 6.3,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2019-06-13",
+      "storm_hour": 11,
+      "median_mm": 0.9,
+      "max_mm": 2.3,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2019-06-17",
+      "storm_hour": 12,
+      "median_mm": 0.5,
+      "max_mm": 0.8,
+      "n_wet": 2,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2019-06-20",
+      "storm_hour": 14,
+      "median_mm": 0.5,
+      "max_mm": 3.6,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2019-07-04",
+      "storm_hour": 15,
+      "median_mm": 0.5,
+      "max_mm": 1.5,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2019-07-11",
+      "storm_hour": 14,
+      "median_mm": 0.5,
+      "max_mm": 8.1,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2019-07-22",
+      "storm_hour": 13,
+      "median_mm": 0.6,
+      "max_mm": 6.3,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2019-07-30",
+      "storm_hour": 12,
+      "median_mm": 0.0,
+      "max_mm": 2.0,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2019-09-12",
+      "storm_hour": 15,
+      "median_mm": 0.5,
+      "max_mm": 1.5,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2019-10-07",
+      "storm_hour": 14,
+      "median_mm": 0.0,
+      "max_mm": 2.0,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2019-10-16",
+      "storm_hour": 12,
+      "median_mm": 0.3,
+      "max_mm": 6.2,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2019-10-31",
+      "storm_hour": 14,
+      "median_mm": 1.5,
+      "max_mm": 6.2,
+      "n_wet": 6,
+      "severity": "MODERATE",
+      "n_storm_hours": 7
+    },
+    {
+      "date": "2019-11-07",
+      "storm_hour": 12,
+      "median_mm": 0.5,
+      "max_mm": 1.3,
+      "n_wet": 3,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2019-12-09",
+      "storm_hour": 15,
+      "median_mm": 1.1,
+      "max_mm": 2.9,
+      "n_wet": 6,
+      "severity": "MODERATE",
+      "n_storm_hours": 7
+    },
+    {
+      "date": "2020-01-24",
+      "storm_hour": 15,
+      "median_mm": 0.0,
+      "max_mm": 2.5,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2020-02-07",
+      "storm_hour": 9,
+      "median_mm": 0.5,
+      "max_mm": 7.9,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2020-03-20",
+      "storm_hour": 9,
+      "median_mm": 0.6,
+      "max_mm": 1.0,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2020-03-23",
+      "storm_hour": 10,
+      "median_mm": 1.2,
+      "max_mm": 3.8,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2020-04-13",
+      "storm_hour": 10,
+      "median_mm": 0.8,
+      "max_mm": 6.0,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2020-04-30",
+      "storm_hour": 9,
+      "median_mm": 0.3,
+      "max_mm": 5.1,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2020-05-28",
+      "storm_hour": 9,
+      "median_mm": 0.6,
+      "max_mm": 2.3,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2020-06-22",
+      "storm_hour": 14,
+      "median_mm": 0.1,
+      "max_mm": 2.1,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2020-07-10",
+      "storm_hour": 14,
+      "median_mm": 1.9,
+      "max_mm": 13.0,
+      "n_wet": 6,
+      "severity": "MODERATE",
+      "n_storm_hours": 4
+    },
+    {
+      "date": "2020-08-04",
+      "storm_hour": 10,
+      "median_mm": 1.4,
+      "max_mm": 10.0,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 4
+    },
+    {
+      "date": "2020-08-28",
+      "storm_hour": 13,
+      "median_mm": 0.1,
+      "max_mm": 2.7,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2020-10-29",
+      "storm_hour": 10,
+      "median_mm": 2.4,
+      "max_mm": 5.2,
+      "n_wet": 7,
+      "severity": "MODERATE",
+      "n_storm_hours": 7
+    },
+    {
+      "date": "2020-11-11",
+      "storm_hour": 15,
+      "median_mm": 0.2,
+      "max_mm": 2.2,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2020-11-30",
+      "storm_hour": 9,
+      "median_mm": 1.5,
+      "max_mm": 3.6,
+      "n_wet": 7,
+      "severity": "MODERATE",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2020-12-14",
+      "storm_hour": 10,
+      "median_mm": 0.0,
+      "max_mm": 2.0,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2020-12-16",
+      "storm_hour": 15,
+      "median_mm": 0.7,
+      "max_mm": 1.6,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 4
+    },
+    {
+      "date": "2020-12-24",
+      "storm_hour": 15,
+      "median_mm": 0.7,
+      "max_mm": 5.0,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2021-01-01",
+      "storm_hour": 14,
+      "median_mm": 1.2,
+      "max_mm": 7.1,
+      "n_wet": 7,
+      "severity": "MODERATE",
+      "n_storm_hours": 4
+    },
+    {
+      "date": "2021-02-01",
+      "storm_hour": 9,
+      "median_mm": 0.2,
+      "max_mm": 2.0,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2021-02-22",
+      "storm_hour": 10,
+      "median_mm": 0.4,
+      "max_mm": 2.4,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2021-03-18",
+      "storm_hour": 9,
+      "median_mm": 1.8,
+      "max_mm": 2.7,
+      "n_wet": 9,
+      "severity": "MODERATE",
+      "n_storm_hours": 7
+    },
+    {
+      "date": "2021-04-29",
+      "storm_hour": 10,
+      "median_mm": 1.1,
+      "max_mm": 3.2,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 6
+    },
+    {
+      "date": "2021-05-03",
+      "storm_hour": 9,
+      "median_mm": 0.3,
+      "max_mm": 3.5,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2021-05-05",
+      "storm_hour": 9,
+      "median_mm": 0.5,
+      "max_mm": 2.7,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2021-05-28",
+      "storm_hour": 15,
+      "median_mm": 1.4,
+      "max_mm": 3.4,
+      "n_wet": 7,
+      "severity": "MODERATE",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2021-06-11",
+      "storm_hour": 12,
+      "median_mm": 0.1,
+      "max_mm": 2.8,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2021-06-30",
+      "storm_hour": 15,
+      "median_mm": 0.7,
+      "max_mm": 3.7,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2021-07-01",
+      "storm_hour": 15,
+      "median_mm": 1.1,
+      "max_mm": 1.7,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2021-07-08",
+      "storm_hour": 9,
+      "median_mm": 1.0,
+      "max_mm": 3.6,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2021-07-12",
+      "storm_hour": 14,
+      "median_mm": 0.8,
+      "max_mm": 3.1,
+      "n_wet": 6,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2021-07-13",
+      "storm_hour": 13,
+      "median_mm": 0.3,
+      "max_mm": 3.1,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2021-07-29",
+      "storm_hour": 14,
+      "median_mm": 0.3,
+      "max_mm": 5.6,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2021-08-18",
+      "storm_hour": 10,
+      "median_mm": 0.1,
+      "max_mm": 3.9,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2021-09-01",
+      "storm_hour": 10,
+      "median_mm": 1.3,
+      "max_mm": 10.3,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 7
+    },
+    {
+      "date": "2021-09-22",
+      "storm_hour": 15,
+      "median_mm": 1.2,
+      "max_mm": 4.4,
+      "n_wet": 6,
+      "severity": "MODERATE",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2021-10-29",
+      "storm_hour": 9,
+      "median_mm": 0.7,
+      "max_mm": 3.8,
+      "n_wet": 6,
+      "severity": "LIGHT",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2021-12-27",
+      "storm_hour": 11,
+      "median_mm": 0.5,
+      "max_mm": 1.7,
+      "n_wet": 3,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2022-02-03",
+      "storm_hour": 15,
+      "median_mm": 1.3,
+      "max_mm": 3.5,
+      "n_wet": 8,
+      "severity": "MODERATE",
+      "n_storm_hours": 6
+    },
+    {
+      "date": "2022-02-04",
+      "storm_hour": 9,
+      "median_mm": 0.2,
+      "max_mm": 2.6,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2022-02-17",
+      "storm_hour": 15,
+      "median_mm": 0.4,
+      "max_mm": 2.2,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2022-02-22",
+      "storm_hour": 14,
+      "median_mm": 1.1,
+      "max_mm": 3.9,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 4
+    },
+    {
+      "date": "2022-03-07",
+      "storm_hour": 10,
+      "median_mm": 0.4,
+      "max_mm": 2.6,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2022-03-09",
+      "storm_hour": 11,
+      "median_mm": 1.0,
+      "max_mm": 2.0,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 4
+    },
+    {
+      "date": "2022-04-06",
+      "storm_hour": 9,
+      "median_mm": 0.1,
+      "max_mm": 2.2,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2022-04-07",
+      "storm_hour": 14,
+      "median_mm": 0.3,
+      "max_mm": 13.9,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 4
+    },
+    {
+      "date": "2022-04-18",
+      "storm_hour": 13,
+      "median_mm": 0.9,
+      "max_mm": 2.4,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    },
+    {
+      "date": "2022-05-06",
+      "storm_hour": 10,
+      "median_mm": 2.1,
+      "max_mm": 3.9,
+      "n_wet": 7,
+      "severity": "MODERATE",
+      "n_storm_hours": 7
+    },
+    {
+      "date": "2022-05-16",
+      "storm_hour": 11,
+      "median_mm": 0.3,
+      "max_mm": 5.8,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2022-05-20",
+      "storm_hour": 12,
+      "median_mm": 0.1,
+      "max_mm": 4.7,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2022-05-27",
+      "storm_hour": 15,
+      "median_mm": 0.1,
+      "max_mm": 3.6,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2022-06-22",
+      "storm_hour": 12,
+      "median_mm": 0.0,
+      "max_mm": 8.0,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2022-07-05",
+      "storm_hour": 9,
+      "median_mm": 0.0,
+      "max_mm": 4.1,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2022-07-18",
+      "storm_hour": 9,
+      "median_mm": 0.3,
+      "max_mm": 2.3,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 1
+    },
+    {
+      "date": "2022-09-05",
+      "storm_hour": 13,
+      "median_mm": 1.1,
+      "max_mm": 2.9,
+      "n_wet": 5,
+      "severity": "MODERATE",
+      "n_storm_hours": 2
+    },
+    {
+      "date": "2022-11-11",
+      "storm_hour": 13,
+      "median_mm": 2.1,
+      "max_mm": 5.7,
+      "n_wet": 7,
+      "severity": "MODERATE",
+      "n_storm_hours": 7
+    },
+    {
+      "date": "2022-11-30",
+      "storm_hour": 10,
+      "median_mm": 1.0,
+      "max_mm": 2.3,
+      "n_wet": 7,
+      "severity": "MODERATE",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2022-12-15",
+      "storm_hour": 11,
+      "median_mm": 0.5,
+      "max_mm": 2.9,
+      "n_wet": 4,
+      "severity": "LIGHT",
+      "n_storm_hours": 5
+    },
+    {
+      "date": "2022-12-22",
+      "storm_hour": 13,
+      "median_mm": 0.6,
+      "max_mm": 1.3,
+      "n_wet": 5,
+      "severity": "LIGHT",
+      "n_storm_hours": 3
+    }
+  ],
+  "corridor_points": [
+    {
+      "name": "Carteret_NJ",
+      "lat": 40.58,
+      "lon": -74.23
+    },
+    {
+      "name": "Lehigh_Valley_PA",
+      "lat": 40.65,
+      "lon": -75.44
+    },
+    {
+      "name": "Harrisburg_PA",
+      "lat": 40.27,
+      "lon": -76.88
+    },
+    {
+      "name": "State_College_PA",
+      "lat": 40.79,
+      "lon": -77.86
+    },
+    {
+      "name": "Pittsburgh_PA",
+      "lat": 40.44,
+      "lon": -79.96
+    },
+    {
+      "name": "Youngstown_OH",
+      "lat": 41.1,
+      "lon": -80.65
+    },
+    {
+      "name": "Mansfield_OH",
+      "lat": 40.76,
+      "lon": -82.52
+    },
+    {
+      "name": "Fort_Wayne_IN",
+      "lat": 41.07,
+      "lon": -85.14
+    },
+    {
+      "name": "Aurora_IL",
+      "lat": 41.76,
+      "lon": -88.32
+    }
+  ],
+  "date_range": "2018-01-01 to 2022-12-31"
+}

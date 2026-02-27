@@ -1,0 +1,93 @@
+{
+  "part_a_window_optimization": {
+    "pm0": {
+      "window": 0,
+      "echo_days": 62,
+      "echo_pct": 0.04725609756097561,
+      "total_phantom": 1064,
+      "echo_phantom": 131,
+      "expected": 50.28048780487805,
+      "enrichment": 2.6053844288139705
+    },
+    "pm1": {
+      "window": 1,
+      "echo_days": 101,
+      "echo_pct": 0.07698170731707317,
+      "total_phantom": 1064,
+      "echo_phantom": 141,
+      "expected": 81.90853658536585,
+      "enrichment": 1.7214322936053004
+    },
+    "pm2": {
+      "window": 2,
+      "echo_days": 125,
+      "echo_pct": 0.09527439024390244,
+      "total_phantom": 1064,
+      "echo_phantom": 159,
+      "expected": 101.3719512195122,
+      "enrichment": 1.5684812030075188
+    },
+    "pm3": {
+      "window": 3,
+      "echo_days": 147,
+      "echo_pct": 0.11204268292682927,
+      "total_phantom": 1064,
+      "echo_phantom": 159,
+      "expected": 119.21341463414635,
+      "enrichment": 1.3337425195642165
+    },
+    "pm5": {
+      "window": 5,
+      "echo_days": 176,
+      "echo_pct": 0.13414634146341464,
+      "total_phantom": 1064,
+      "echo_phantom": 183,
+      "expected": 142.7317073170732,
+      "enrichment": 1.282125768967874
+    },
+    "pm7": {
+      "window": 7,
+      "echo_days": 214,
+      "echo_pct": 0.16310975609756098,
+      "total_phantom": 1064,
+      "echo_phantom": 243,
+      "expected": 173.5487804878049,
+      "enrichment": 1.4001826997400042
+    },
+    "pm10": {
+      "window": 10,
+      "echo_days": 261,
+      "echo_pct": 0.1989329268292683,
+      "total_phantom": 1064,
+      "echo_phantom": 272,
+      "expected": 211.66463414634148,
+      "enrichment": 1.2850517097341052
+    }
+  },
+  "part_b_post_split": {
+    "echo_rate": 0.5238095238095238,
+    "phantom_enrichment": 0.8783865002311605,
+    "deep_otm_ratio": 0.4238072029851334,
+    "pc_ratio_echo": 0.5225898248679552,
+    "pc_ratio_non_echo": 0.6305253051546578
+  },
+  "part_c_block_trades": {
+    "phantom_dates": {
+      "total_trades": 12544,
+      "block_trades": 1143,
+      "retail_trades": 0,
+      "total_size": 55705547,
+      "median_size": 0.0,
+      "max_size": 331434
+    },
+    "control_dates": {
+      "total_trades": 37632,
+      "block_trades": 1366,
+      "retail_trades": 0,
+      "total_size": 62674198,
+      "median_size": 0.0,
+      "max_size": 584118
+    },
+    "phantom_examples": []
+  }
+}

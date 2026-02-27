@@ -1,0 +1,22 @@
+{
+  "Robinhood": {
+    "url": "https://cdn.robinhood.com/assets/robinhood/legal/RHS%20SEC%20Rule%20606a%20and%20607%20Disclosure%20Report%20-%20Q2%202024.pdf",
+    "status": 403
+  },
+  "Interactive Brokers": {
+    "url": "https://www.interactivebrokers.com/en/index.php?f=563",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "size": 115937
+  },
+  "Schwab/TD": {
+    "url": "https://www.schwab.com/legal/order-routing",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "size": 260855
+  },
+  "Fidelity": {
+    "url": "https://www.fidelity.com/trading/execution-quality/606-order-routing-report",
+    "status": 403
+  }
+}

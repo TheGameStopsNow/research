@@ -1,0 +1,340 @@
+{
+  "title": "GME Short Interest Map \u2014 2021 Squeeze vs 2024 Event",
+  "finra_short_volume_2021": {
+    "GME": {
+      "2021-01-19": {
+        "short": 14785915,
+        "exempt": 541011,
+        "total": 44827328,
+        "ratio": 33.0,
+        "note": "Pre-squeeze"
+      },
+      "2021-01-20": {
+        "short": 6764533,
+        "exempt": 48173,
+        "total": 19581227,
+        "ratio": 34.5
+      },
+      "2021-01-21": {
+        "short": 11420490,
+        "exempt": 108322,
+        "total": 35202394,
+        "ratio": 32.4
+      },
+      "2021-01-22": {
+        "short": 33257918,
+        "exempt": 686860,
+        "total": 97123046,
+        "ratio": 34.2,
+        "note": "First spike"
+      },
+      "2021-01-25": {
+        "short": 27342770,
+        "exempt": 393941,
+        "total": 72224899,
+        "ratio": 37.9
+      },
+      "2021-01-26": {
+        "short": 27348512,
+        "exempt": 514375,
+        "total": 82653297,
+        "ratio": 33.1
+      },
+      "2021-01-27": {
+        "short": 16292827,
+        "exempt": 161900,
+        "total": 29923417,
+        "ratio": 54.4,
+        "note": "Peak day"
+      },
+      "2021-01-28": {
+        "short": 9606123,
+        "exempt": 455032,
+        "total": 18899860,
+        "ratio": 50.8,
+        "note": "Buy button removed"
+      },
+      "2021-01-29": {
+        "short": 8814229,
+        "exempt": 527920,
+        "total": 16327706,
+        "ratio": 54.0
+      },
+      "2021-02-01": {
+        "short": 6982444,
+        "exempt": 364890,
+        "total": 12820226,
+        "ratio": 54.5
+      },
+      "2021-02-02": {
+        "short": 16358136,
+        "exempt": 1073011,
+        "total": 29733410,
+        "ratio": 55.0
+      },
+      "2021-02-05": {
+        "short": 19063724,
+        "exempt": 1106467,
+        "total": 34566363,
+        "ratio": 55.2
+      },
+      "2021-02-24": {
+        "short": 11911548,
+        "exempt": 481499,
+        "total": 20382816,
+        "ratio": 58.4,
+        "note": "2nd spike"
+      },
+      "2021-02-25": {
+        "short": 33187254,
+        "exempt": 560135,
+        "total": 58477625,
+        "ratio": 56.8,
+        "note": "2nd spike"
+      },
+      "2021-03-10": {
+        "short": 14924764,
+        "exempt": 738344,
+        "total": 26074171,
+        "ratio": 57.2
+      }
+    },
+    "XRT": {
+      "2021-01-19": {
+        "short": 399034,
+        "exempt": 5184,
+        "total": 458354,
+        "ratio": 87.1,
+        "note": "Pre-squeeze"
+      },
+      "2021-01-20": {
+        "short": 413191,
+        "exempt": 1936,
+        "total": 448657,
+        "ratio": 92.1,
+        "note": "\ud83d\udea8 92% \u2014 peak"
+      },
+      "2021-01-21": {
+        "short": 444673,
+        "exempt": 2345,
+        "total": 492713,
+        "ratio": 90.2
+      },
+      "2021-01-22": {
+        "short": 375658,
+        "exempt": 8355,
+        "total": 622469,
+        "ratio": 60.3
+      },
+      "2021-01-25": {
+        "short": 1357174,
+        "exempt": 7610,
+        "total": 1945277,
+        "ratio": 69.8
+      },
+      "2021-01-26": {
+        "short": 1601710,
+        "exempt": 3159,
+        "total": 2262299,
+        "ratio": 70.8
+      },
+      "2021-01-27": {
+        "short": 4971336,
+        "exempt": 46250,
+        "total": 8178168,
+        "ratio": 60.8,
+        "note": "Volume 18x normal"
+      },
+      "2021-01-28": {
+        "short": 5712948,
+        "exempt": 200729,
+        "total": 8452511,
+        "ratio": 67.6,
+        "note": "Volume 18x normal"
+      },
+      "2021-01-29": {
+        "short": 1633953,
+        "exempt": 135351,
+        "total": 2785827,
+        "ratio": 58.7
+      },
+      "2021-02-01": {
+        "short": 1654636,
+        "exempt": 34581,
+        "total": 2203166,
+        "ratio": 75.1
+      },
+      "2021-02-24": {
+        "short": 488198,
+        "exempt": 1059,
+        "total": 779731,
+        "ratio": 62.6
+      },
+      "2021-02-25": {
+        "short": 1307795,
+        "exempt": 2829,
+        "total": 1670020,
+        "ratio": 78.3
+      },
+      "2021-03-10": {
+        "short": 2621806,
+        "exempt": 54090,
+        "total": 3386249,
+        "ratio": 77.4
+      }
+    }
+  },
+  "shares_outstanding_2021": {
+    "XRT": {
+      "2021-01-04": 10400000,
+      "2021-01-15": 11000000,
+      "2021-01-19": 10300000,
+      "2021-01-22": 9650000,
+      "2021-01-25": 9700000,
+      "2021-01-27": 9800000,
+      "2021-01-28": 9300000,
+      "2021-01-29": 8150000,
+      "2021-02-01": 2600000,
+      "2021-02-05": 5750000,
+      "2021-02-10": 8100000,
+      "2021-02-24": 8700000,
+      "2021-02-26": 10050000,
+      "2021-03-01": 9650000,
+      "2021-04-01": 6600000
+    },
+    "GME": {
+      "2021-01-04": 69750000,
+      "2021-01-28": 69750000,
+      "2021-02-01": 69750000,
+      "2021-04-01": 69940000,
+      "2021-06-01": 70770000,
+      "2021-06-15": 71820000
+    }
+  },
+  "13f_positions": {
+    "Citadel": {
+      "Q3_2020": {
+        "shares": 111805,
+        "calls": 2016500,
+        "puts": 2570100,
+        "cp_ratio": 1.275
+      },
+      "Q4_2020": {
+        "shares": 217132,
+        "calls": 1714100,
+        "puts": 2224500,
+        "cp_ratio": 1.298
+      },
+      "Q1_2021": {
+        "shares": 0,
+        "calls": 2278000,
+        "puts": 0,
+        "cp_ratio": 0,
+        "note": "Puts VANISHED entirely \u2014 only calls remain"
+      }
+    },
+    "Susquehanna": {
+      "Q3_2020": {
+        "shares": 4444128,
+        "calls": 697700,
+        "puts": 2829500,
+        "cp_ratio": 4.055
+      },
+      "Q4_2020": {
+        "shares": 2487366,
+        "calls": 1842400,
+        "puts": 4882600,
+        "cp_ratio": 2.65
+      },
+      "Q1_2021": {
+        "shares": 146720,
+        "calls": 3454400,
+        "puts": 6151100,
+        "cp_ratio": 1.781,
+        "note": "Puts INCREASED from 4.88M\u21926.15M even after squeeze"
+      }
+    },
+    "Jane_Street": {
+      "Q3_2020": {
+        "shares": 194930,
+        "calls": 1014400,
+        "puts": 1006900,
+        "cp_ratio": 0.993
+      },
+      "Q4_2020": {
+        "shares": 207876,
+        "calls": 1584100,
+        "puts": 1070000,
+        "cp_ratio": 0.675
+      },
+      "Q1_2021": {
+        "shares": 509922,
+        "calls": 3486000,
+        "puts": 3555700,
+        "cp_ratio": 1.02,
+        "note": "Near-parity. Puts+calls both ~3.5M = massive neutral position"
+      }
+    },
+    "Melvin_Capital": {
+      "Q1_2020": {
+        "puts": 400000,
+        "note": "Known short \u2014 400K put contracts"
+      },
+      "Q3_2020": {
+        "calls": 380000,
+        "note": "Flipped to calls (still maintaining short via swaps?)"
+      },
+      "Q4_2020": {
+        "calls": 683243,
+        "note": "Last filing before squeeze forced closure"
+      },
+      "Q1_2021": {
+        "calls": 0,
+        "puts": 0,
+        "note": "No GME position (liquidated after $6.8B loss)"
+      }
+    }
+  },
+  "comparison_2021_vs_2024": {
+    "gme_float": {
+      "2021": "69.75M (tiny)",
+      "2024": "306.19M (4.4\u00d7 larger due to ATM offerings)"
+    },
+    "xrt_so_destruction": {
+      "2021": "10.4M \u2192 2.6M = 7.8M destroyed (75% destruction)",
+      "2024": "8.05M \u2192 4.9M = 3.15M destroyed (39% destruction)",
+      "note": "2021 was 2\u00d7 more extreme in absolute AND relative terms"
+    },
+    "xrt_short_volume_peak": {
+      "2021": "92.1% (Jan 20, pre-squeeze)",
+      "2024": "87.2% (May 17, event week)",
+      "note": "Both extreme, but 2021 hit 92% before anyone was watching"
+    },
+    "gme_short_volume_shift": {
+      "2021": "33% pre-squeeze \u2192 56% post-squeeze (PERMANENTLY ELEVATED)",
+      "2024": "47.6% \u2192 58.4% (elevated but similar range)",
+      "note": "In 2021, the ratio shift was structural \u2014 it NEVER went back to 33%"
+    },
+    "citadel_put_position": {
+      "2021": "2.57M puts (Q3 2020) \u2192 2.22M (Q4 2020) \u2192 0 (Q1 2021) = VANISHED",
+      "2024": "6.82M puts (Q2 2024) = 1,143% increase",
+      "note": "Citadel hid puts in 2021 (moved off-book?), openly added in 2024"
+    },
+    "susquehanna_puts": {
+      "2021": "2.83M \u2192 4.88M \u2192 6.15M (INCREASED through squeeze)",
+      "2024": "4.49M puts (C/P = 0.934 = near parity)",
+      "note": "SIG consistently holds massive put positions \u2014 structural, not event-driven"
+    },
+    "melvin_capital": {
+      "2021": "Forced closure after $6.8B loss. No more 13F.",
+      "2024": "Entity dissolved. Position absorbed by others (notably Citadel, who bailed them out)"
+    }
+  },
+  "retrieved": "2026-02-18",
+  "sources": {
+    "finra_short_vol": "https://cdn.finra.org/equity/regsho/daily/",
+    "polygon_so": "https://api.polygon.io/v3/reference/tickers/",
+    "sec_13f": "SEC EDGAR 13F-HR filings",
+    "sec_ftd": "https://www.sec.gov/files/data/fails-deliver-data/"
+  }
+}

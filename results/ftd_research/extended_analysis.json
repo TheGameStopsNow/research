@@ -1,0 +1,110 @@
+{
+  "part_a_opex_echo": {
+    "quad_witching": {
+      "n": 19,
+      "mean_5d": -0.048902432406674294,
+      "mean_10d": -0.09179351238538783,
+      "pct_positive": 0.15789473684210525
+    },
+    "monthly_opex": {
+      "n": 27,
+      "mean_5d": 0.7174940651701746,
+      "mean_10d": 0.9198094499161746,
+      "pct_positive": 0.7407407407407407
+    },
+    "neither": {
+      "n": 84,
+      "mean_5d": 0.2682279664540232,
+      "mean_10d": 0.08770262897197216,
+      "pct_positive": 0.4457831325301205
+    }
+  },
+  "part_b_regime": {
+    "Pre-sneeze (Dec 2020)": {
+      "spikes": 24,
+      "e1_hit_rate": 0.7083333333333334,
+      "e1_spike_rate": 0.3333333333333333,
+      "avg_ftd": 887802.375
+    },
+    "Sneeze (Jan-Mar 2021)": {
+      "spikes": 3,
+      "e1_hit_rate": 1.0,
+      "e1_spike_rate": 0.0,
+      "avg_ftd": 1701806.6666666667
+    },
+    "Post-sneeze 2021": {
+      "spikes": 1,
+      "e1_hit_rate": 1.0,
+      "e1_spike_rate": 0.0,
+      "avg_ftd": 1316894.0
+    },
+    "2022 pre-split": {
+      "spikes": 5,
+      "e1_hit_rate": 1.0,
+      "e1_spike_rate": 0.6,
+      "avg_ftd": 634885.4
+    },
+    "2022 post-split": {
+      "spikes": 3,
+      "e1_hit_rate": 1.0,
+      "e1_spike_rate": 0.0,
+      "avg_ftd": 943686.0
+    },
+    "2023": {
+      "spikes": 2,
+      "e1_hit_rate": 0.5,
+      "e1_spike_rate": 0.0,
+      "avg_ftd": 572669.0
+    },
+    "2024 (DFV return)": {
+      "spikes": 2,
+      "e1_hit_rate": 0.5,
+      "e1_spike_rate": 0.0,
+      "avg_ftd": 548547.5
+    },
+    "2025": {
+      "spikes": 4,
+      "e1_hit_rate": 1.0,
+      "e1_spike_rate": 0.0,
+      "avg_ftd": 1279446.25
+    }
+  },
+  "part_c_control": {
+    "gme_hit_rate": 0.7954545454545454,
+    "amc_hit_rate": 0.5641025641025641,
+    "fisher_p": 0.02088849574589907,
+    "odds_ratio": 3.005050505050505
+  },
+  "part_d_velocity": {
+    "Q1 (falling)": {
+      "mean_velocity": -623267.2281368822,
+      "mean_5d_ret": -0.005101595272178584,
+      "mean_10d_ret": 0.036603313009429414,
+      "n": 263
+    },
+    "Q2": {
+      "mean_velocity": -104847.80152671755,
+      "mean_5d_ret": -0.01069217845729469,
+      "mean_10d_ret": 0.0008707073326085606,
+      "n": 262
+    },
+    "Q3": {
+      "mean_velocity": -5793.832061068702,
+      "mean_5d_ret": 0.0018278290873612875,
+      "mean_10d_ret": 0.012182735567435586,
+      "n": 262
+    },
+    "Q4": {
+      "mean_velocity": 86725.81297709924,
+      "mean_5d_ret": 0.03717725329572746,
+      "mean_10d_ret": 0.08070752387120655,
+      "n": 262
+    },
+    "Q5 (surging)": {
+      "mean_velocity": 633021.0763358779,
+      "mean_5d_ret": 0.12291522044136483,
+      "mean_10d_ret": 0.15716241211809723,
+      "n": 262
+    }
+  }
+}

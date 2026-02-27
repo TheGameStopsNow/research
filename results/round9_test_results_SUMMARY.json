@@ -1,0 +1,23 @@
+{
+  "original_file": "../review_package_02_archive/round9_test_results.json",
+  "original_size_bytes": 95355,
+  "note": "Full data archived. This summary contains key findings only.",
+  "description": "Round 9 forensic battery \u2014 burst analysis with contingent flag evasion",
+  "key_findings": [
+    "Three-phase operation in pre-market burst",
+    "100% contingent flag suppression on off-NBBO TRF blocks",
+    "$12 lit-dark price dislocation",
+    "Code 12 ceiling at $35.00 (actual $34.01, 2.9% error)"
+  ],
+  "data_keys": [
+    "meta",
+    "delta_ld",
+    "contingent_evasion",
+    "cvs_burst",
+    "summary",
+    "T1_zscored_cgd",
+    "T2_vanna_bimodality",
+    "T3_tape_fracture",
+    "T4_code12_lead"
+  ]
+}

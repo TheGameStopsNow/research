@@ -1,0 +1,313 @@
+{
+  "T1_lead_lag": {
+    "events_scanned": 38045,
+    "ratios": {
+      "KOSS": {
+        "50ms": {
+          "before": 576846,
+          "after": 564153,
+          "ratio": 0.978
+        },
+        "100ms": {
+          "before": 1171445,
+          "after": 1323649,
+          "ratio": 1.13
+        },
+        "250ms": {
+          "before": 2884541,
+          "after": 3101384,
+          "ratio": 1.075
+        },
+        "500ms": {
+          "before": 6057007,
+          "after": 6048489,
+          "ratio": 0.999
+        },
+        "1000ms": {
+          "before": 12320024,
+          "after": 11971561,
+          "ratio": 0.972
+        },
+        "5000ms": {
+          "before": 62270094,
+          "after": 59997019,
+          "ratio": 0.963
+        },
+        "30000ms": {
+          "before": 377356139,
+          "after": 368797343,
+          "ratio": 0.977
+        },
+        "60000ms": {
+          "before": 761627895,
+          "after": 747041134,
+          "ratio": 0.981
+        }
+      },
+      "CHWY": {
+        "50ms": {
+          "before": 231907,
+          "after": 232617,
+          "ratio": 1.003
+        },
+        "100ms": {
+          "before": 459283,
+          "after": 446338,
+          "ratio": 0.972
+        },
+        "250ms": {
+          "before": 1303616,
+          "after": 1067599,
+          "ratio": 0.819
+        },
+        "500ms": {
+          "before": 2211738,
+          "after": 2087018,
+          "ratio": 0.944
+        },
+        "1000ms": {
+          "before": 4761329,
+          "after": 4458238,
+          "ratio": 0.936
+        },
+        "5000ms": {
+          "before": 24875181,
+          "after": 25226702,
+          "ratio": 1.014
+        },
+        "30000ms": {
+          "before": 146542125,
+          "after": 152331652,
+          "ratio": 1.04
+        },
+        "60000ms": {
+          "before": 300895618,
+          "after": 302074954,
+          "ratio": 1.004
+        }
+      },
+      "DJT": {
+        "50ms": {
+          "before": 115737,
+          "after": 173048,
+          "ratio": 1.495
+        },
+        "100ms": {
+          "before": 227992,
+          "after": 350212,
+          "ratio": 1.536
+        },
+        "250ms": {
+          "before": 662844,
+          "after": 753561,
+          "ratio": 1.137
+        },
+        "500ms": {
+          "before": 1365413,
+          "after": 1555593,
+          "ratio": 1.139
+        },
+        "1000ms": {
+          "before": 3004640,
+          "after": 2880018,
+          "ratio": 0.959
+        },
+        "5000ms": {
+          "before": 14740454,
+          "after": 15073495,
+          "ratio": 1.023
+        },
+        "30000ms": {
+          "before": 88806773,
+          "after": 91581792,
+          "ratio": 1.031
+        },
+        "60000ms": {
+          "before": 177616151,
+          "after": 182202957,
+          "ratio": 1.026
+        }
+      },
+      "AAPL": {
+        "50ms": {
+          "before": 1251842,
+          "after": 1553865,
+          "ratio": 1.241
+        },
+        "100ms": {
+          "before": 2936729,
+          "after": 3198341,
+          "ratio": 1.089
+        },
+        "250ms": {
+          "before": 8219856,
+          "after": 9095855,
+          "ratio": 1.107
+        },
+        "500ms": {
+          "before": 21016376,
+          "after": 18039565,
+          "ratio": 0.858
+        },
+        "1000ms": {
+          "before": 36956230,
+          "after": 33885436,
+          "ratio": 0.917
+        },
+        "5000ms": {
+          "before": 180278295,
+          "after": 160601394,
+          "ratio": 0.891
+        },
+        "30000ms": {
+          "before": 997156900,
+          "after": 1022843923,
+          "ratio": 1.026
+        },
+        "60000ms": {
+          "before": 2023688597,
+          "after": 2044877892,
+          "ratio": 1.01
+        }
+      }
+    }
+  },
+  "T2_basket_fracture": {
+    "GME": {
+      "max_spread_pct": 39.81,
+      "max_spread_dollars": 8.42,
+      "mean_spread_pct": 2.73,
+      "dark_max_price": 33.0,
+      "pm_trades": 393499,
+      "dark_trades": 137049,
+      "lit_trades": 256450
+    },
+    "KOSS": {
+      "max_spread_pct": 9.37,
+      "max_spread_dollars": 0.4,
+      "mean_spread_pct": 1.09,
+      "dark_max_price": 4.94,
+      "pm_trades": 1276,
+      "dark_trades": 493,
+      "lit_trades": 783
+    },
+    "CHWY": {
+      "max_spread_pct": 0.32,
+      "max_spread_dollars": 0.05,
+      "mean_spread_pct": 0.06,
+      "dark_max_price": 17.06,
+      "pm_trades": 8501,
+      "dark_trades": 3289,
+      "lit_trades": 5212
+    },
+    "DJT": {
+      "max_spread_pct": 1.3,
+      "max_spread_dollars": 0.67,
+      "mean_spread_pct": 0.14,
+      "dark_max_price": 52.6,
+      "pm_trades": 5651,
+      "dark_trades": 2623,
+      "lit_trades": 3028
+    },
+    "SPY": {
+      "max_spread_pct": 0.03,
+      "max_spread_dollars": 0.14,
+      "mean_spread_pct": 0.0,
+      "dark_max_price": 529.33,
+      "pm_trades": 46761,
+      "dark_trades": 14918,
+      "lit_trades": 31843
+    }
+  },
+  "T3_code12_basket": {
+    "volumes": {
+      "GME": [
+        239848,
+        424369,
+        187744,
+        5801736,
+        8982894,
+        4662466,
+        3367928,
+        5096272,
+        2839967,
+        1108363
+      ],
+      "KOSS": [
+        5960,
+        7054,
+        4527,
+        500196,
+        1324381,
+        187810,
+        22715,
+        22997,
+        21996,
+        6052
+      ],
+      "CHWY": [
+        163614,
+        184419,
+        428336,
+        555144,
+        336509,
+        369937,
+        719078,
+        419351,
+        52009,
+        186328
+      ],
+      "DJT": [
+        57689,
+        61496,
+        95202,
+        139056,
+        146359,
+        76676,
+        58157,
+        27675,
+        52206,
+        29020
+      ],
+      "AAPL": [
+        2694113,
+        3018142,
+        3135011,
+        6363364,
+        6704506,
+        4965527,
+        5569453,
+        3518914,
+        4612293,
+        2507528
+      ],
+      "SPY": [
+        3489896,
+        2496886,
+        7736874,
+        1161444,
+        7081906,
+        4445705,
+        5491812,
+        7550462,
+        2862562,
+        2872890
+      ]
+    },
+    "correlations": {
+      "KOSS": 0.822,
+      "CHWY": 0.362,
+      "DJT": 0.578,
+      "AAPL": 0.85,
+      "SPY": 0.244
+    },
+    "totals": {
+      "GME": 32711587,
+      "KOSS": 2103688,
+      "CHWY": 3414725,
+      "DJT": 743536,
+      "AAPL": 43088851,
+      "SPY": 45190437
+    }
+  }
+}

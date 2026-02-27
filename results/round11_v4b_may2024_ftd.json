@@ -1,0 +1,710 @@
+{
+  "may_2024_ftds": {
+    "GME": [
+      {
+        "settlement_date": "20240501",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 8167,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 11.09
+      },
+      {
+        "settlement_date": "20240502",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 6793,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 10.91
+      },
+      {
+        "settlement_date": "20240503",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 941,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 12.76
+      },
+      {
+        "settlement_date": "20240506",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 186627,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 16.47
+      },
+      {
+        "settlement_date": "20240507",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 433054,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 16.31
+      },
+      {
+        "settlement_date": "20240508",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 525493,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 16.31
+      },
+      {
+        "settlement_date": "20240509",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 366850,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 15.92
+      },
+      {
+        "settlement_date": "20240510",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 223129,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 18.01
+      },
+      {
+        "settlement_date": "20240513",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 152482,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 17.46
+      },
+      {
+        "settlement_date": "20240514",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 344501,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 30.45
+      },
+      {
+        "settlement_date": "20240515",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 571602,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 48.75
+      },
+      {
+        "settlement_date": "20240516",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 22407,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 39.55
+      },
+      {
+        "settlement_date": "20240517",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 82732,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 27.67
+      },
+      {
+        "settlement_date": "20240520",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 1143,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 22.21
+      },
+      {
+        "settlement_date": "20240521",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 51196,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 23.14
+      },
+      {
+        "settlement_date": "20240522",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 160,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 22.12
+      },
+      {
+        "settlement_date": "20240523",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 55,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 21.12
+      },
+      {
+        "settlement_date": "20240528",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 211603,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 19.0
+      },
+      {
+        "settlement_date": "20240529",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 7425,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 23.78
+      },
+      {
+        "settlement_date": "20240531",
+        "symbol": "GME",
+        "cusip": "36467W109",
+        "quantity_fails": 9629,
+        "description": "GAMESTOP CORP (HLDG CO) CL A",
+        "price": 22.61
+      }
+    ],
+    "KOSS": [
+      {
+        "settlement_date": "20240506",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 4219,
+        "description": "KOSS CORP",
+        "price": 3.1
+      },
+      {
+        "settlement_date": "20240507",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 104,
+        "description": "KOSS CORP",
+        "price": 3.38
+      },
+      {
+        "settlement_date": "20240509",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 629,
+        "description": "KOSS CORP",
+        "price": 3.32
+      },
+      {
+        "settlement_date": "20240510",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 284,
+        "description": "KOSS CORP",
+        "price": 3.57
+      },
+      {
+        "settlement_date": "20240513",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 304,
+        "description": "KOSS CORP",
+        "price": 3.16
+      },
+      {
+        "settlement_date": "20240515",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 220302,
+        "description": "KOSS CORP",
+        "price": 6.15
+      },
+      {
+        "settlement_date": "20240516",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 63227,
+        "description": "KOSS CORP",
+        "price": 4.97
+      },
+      {
+        "settlement_date": "20240517",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 18457,
+        "description": "KOSS CORP",
+        "price": 4.73
+      },
+      {
+        "settlement_date": "20240520",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 8513,
+        "description": "KOSS CORP",
+        "price": 4.79
+      },
+      {
+        "settlement_date": "20240521",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 16989,
+        "description": "KOSS CORP",
+        "price": 5.29
+      },
+      {
+        "settlement_date": "20240522",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 4272,
+        "description": "KOSS CORP",
+        "price": 5.25
+      },
+      {
+        "settlement_date": "20240523",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 7602,
+        "description": "KOSS CORP",
+        "price": 5.26
+      },
+      {
+        "settlement_date": "20240529",
+        "symbol": "KOSS",
+        "cusip": "500692108",
+        "quantity_fails": 6830,
+        "description": "KOSS CORP",
+        "price": 5.0
+      }
+    ],
+    "XRT": [
+      {
+        "settlement_date": "20240501",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 97601,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 71.79
+      },
+      {
+        "settlement_date": "20240502",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 14294,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 71.28
+      },
+      {
+        "settlement_date": "20240503",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 2425,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 72.49
+      },
+      {
+        "settlement_date": "20240506",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 84,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 73.42
+      },
+      {
+        "settlement_date": "20240507",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 778,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 74.28
+      },
+      {
+        "settlement_date": "20240509",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 281,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 73.46
+      },
+      {
+        "settlement_date": "20240510",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 104229,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 74.76
+      },
+      {
+        "settlement_date": "20240513",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 233438,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 74.38
+      },
+      {
+        "settlement_date": "20240514",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 193920,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 76.3
+      },
+      {
+        "settlement_date": "20240515",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 1502,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 78.47
+      },
+      {
+        "settlement_date": "20240516",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 96868,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 77.48
+      },
+      {
+        "settlement_date": "20240517",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 8337,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 76.53
+      },
+      {
+        "settlement_date": "20240521",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 3915,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 75.62
+      },
+      {
+        "settlement_date": "20240523",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 682,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 74.39
+      },
+      {
+        "settlement_date": "20240524",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 75187,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 73.79
+      },
+      {
+        "settlement_date": "20240528",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 56128,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 74.95
+      },
+      {
+        "settlement_date": "20240529",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 586698,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 75.1
+      },
+      {
+        "settlement_date": "20240530",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 3255,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 74.91
+      },
+      {
+        "settlement_date": "20240531",
+        "symbol": "XRT",
+        "cusip": "78464A714",
+        "quantity_fails": 67,
+        "description": "SPDR SERIES TR SPDR S&P RETAIL",
+        "price": 75.82
+      }
+    ],
+    "AMC": [
+      {
+        "settlement_date": "20240501",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 610867,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 2.93
+      },
+      {
+        "settlement_date": "20240502",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 498099,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 2.97
+      },
+      {
+        "settlement_date": "20240503",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 426709,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 3.13
+      },
+      {
+        "settlement_date": "20240506",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 357229,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 3.3
+      },
+      {
+        "settlement_date": "20240507",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 6726965,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 3.29
+      },
+      {
+        "settlement_date": "20240508",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 155501,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 3.19
+      },
+      {
+        "settlement_date": "20240509",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 1967728,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 3.19
+      },
+      {
+        "settlement_date": "20240510",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 294273,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 3.05
+      },
+      {
+        "settlement_date": "20240513",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 553661,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 2.91
+      },
+      {
+        "settlement_date": "20240514",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 865512,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 5.19
+      },
+      {
+        "settlement_date": "20240515",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 917,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 6.85
+      },
+      {
+        "settlement_date": "20240516",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 1925587,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 5.48
+      },
+      {
+        "settlement_date": "20240517",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 1092764,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 4.64
+      },
+      {
+        "settlement_date": "20240520",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 107880,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 4.4
+      },
+      {
+        "settlement_date": "20240521",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 272656,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 4.83
+      },
+      {
+        "settlement_date": "20240522",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 49043,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 4.65
+      },
+      {
+        "settlement_date": "20240523",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 255565,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 5.06
+      },
+      {
+        "settlement_date": "20240524",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 63996,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 4.55
+      },
+      {
+        "settlement_date": "20240528",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 40009,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 4.84
+      },
+      {
+        "settlement_date": "20240529",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 84730,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 4.88
+      },
+      {
+        "settlement_date": "20240530",
+        "symbol": "AMC",
+        "cusip": "00165C302",
+        "quantity_fails": 385903,
+        "description": "AMC ENTMT HLDGS INC CL A NEW",
+        "price": 4.5
+      }
+    ],
+    "CHWY": [
+      {
+        "settlement_date": "20240503",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 3088,
+        "description": "CHEWY INC CL A",
+        "price": 15.94
+      },
+      {
+        "settlement_date": "20240506",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 1530,
+        "description": "CHEWY INC CL A",
+        "price": 15.91
+      },
+      {
+        "settlement_date": "20240508",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 2147,
+        "description": "CHEWY INC CL A",
+        "price": 15.49
+      },
+      {
+        "settlement_date": "20240509",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 55856,
+        "description": "CHEWY INC CL A",
+        "price": 15.44
+      },
+      {
+        "settlement_date": "20240514",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 7670,
+        "description": "CHEWY INC CL A",
+        "price": 16.1
+      },
+      {
+        "settlement_date": "20240515",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 2686,
+        "description": "CHEWY INC CL A",
+        "price": 16.83
+      },
+      {
+        "settlement_date": "20240516",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 878,
+        "description": "CHEWY INC CL A",
+        "price": 16.32
+      },
+      {
+        "settlement_date": "20240517",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 484678,
+        "description": "CHEWY INC CL A",
+        "price": 16.97
+      },
+      {
+        "settlement_date": "20240521",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 21,
+        "description": "CHEWY INC CL A",
+        "price": 16.28
+      },
+      {
+        "settlement_date": "20240524",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 13,
+        "description": "CHEWY INC CL A",
+        "price": 16.26
+      },
+      {
+        "settlement_date": "20240528",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 24897,
+        "description": "CHEWY INC CL A",
+        "price": 16.57
+      },
+      {
+        "settlement_date": "20240529",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 350,
+        "description": "CHEWY INC CL A",
+        "price": 16.91
+      },
+      {
+        "settlement_date": "20240530",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 342302,
+        "description": "CHEWY INC CL A",
+        "price": 21.5
+      },
+      {
+        "settlement_date": "20240531",
+        "symbol": "CHWY",
+        "cusip": "16679L109",
+        "quantity_fails": 78674,
+        "description": "CHEWY INC CL A",
+        "price": 21.54
+      }
+    ]
+  }
+}

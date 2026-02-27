@@ -1,0 +1,106 @@
+{
+  "analysis": "V11_HTB_Correction",
+  "parameters": {
+    "spot": 30.45,
+    "actual_ceiling": 34.01,
+    "original_median": 35.0,
+    "original_error_pct": 2.9,
+    "T_years": 0.010958904109589041,
+    "risk_free": 0.0525
+  },
+  "htb_analysis": {
+    "gap": 0.990000000000002,
+    "implied_borrow_rate_to_explain_gap": 2.9667487684729124,
+    "at_fintel_6.24pct": 0.020822794520547944,
+    "at_ortex_35pct": 0.11679452054794519,
+    "pct_explained_by_fintel": 2.1033125778331216,
+    "pct_explained_by_ortex": 11.797426317974239
+  },
+  "sensitivity": [
+    {
+      "borrow_rate": 0.02,
+      "expected_htb_discount": 0.0066739726027397256,
+      "gap": 0.990000000000002,
+      "residual": 0.9833260273972623,
+      "residual_pct": 2.8912849967576078
+    },
+    {
+      "borrow_rate": 0.05,
+      "expected_htb_discount": 0.016684931506849316,
+      "gap": 0.990000000000002,
+      "residual": 0.9733150684931526,
+      "residual_pct": 2.861849657433557
+    },
+    {
+      "borrow_rate": 0.0624,
+      "expected_htb_discount": 0.020822794520547944,
+      "gap": 0.990000000000002,
+      "residual": 0.9691772054794541,
+      "residual_pct": 2.8496830505129496
+    },
+    {
+      "borrow_rate": 0.1,
+      "expected_htb_discount": 0.03336986301369863,
+      "gap": 0.990000000000002,
+      "residual": 0.9566301369863034,
+      "residual_pct": 2.8127907585601393
+    },
+    {
+      "borrow_rate": 0.15,
+      "expected_htb_discount": 0.050054794520547945,
+      "gap": 0.990000000000002,
+      "residual": 0.939945205479454,
+      "residual_pct": 2.763731859686722
+    },
+    {
+      "borrow_rate": 0.2,
+      "expected_htb_discount": 0.06673972602739726,
+      "gap": 0.990000000000002,
+      "residual": 0.9232602739726047,
+      "residual_pct": 2.7146729608133042
+    },
+    {
+      "borrow_rate": 0.25,
+      "expected_htb_discount": 0.08342465753424658,
+      "gap": 0.990000000000002,
+      "residual": 0.9065753424657554,
+      "residual_pct": 2.6656140619398867
+    },
+    {
+      "borrow_rate": 0.3,
+      "expected_htb_discount": 0.10010958904109589,
+      "gap": 0.990000000000002,
+      "residual": 0.8898904109589061,
+      "residual_pct": 2.6165551630664687
+    },
+    {
+      "borrow_rate": 0.35,
+      "expected_htb_discount": 0.11679452054794519,
+      "gap": 0.990000000000002,
+      "residual": 0.8732054794520568,
+      "residual_pct": 2.5674962641930517
+    },
+    {
+      "borrow_rate": 0.4,
+      "expected_htb_discount": 0.13347945205479453,
+      "gap": 0.990000000000002,
+      "residual": 0.8565205479452075,
+      "residual_pct": 2.518437365319634
+    },
+    {
+      "borrow_rate": 0.5,
+      "expected_htb_discount": 0.16684931506849315,
+      "gap": 0.990000000000002,
+      "residual": 0.8231506849315089,
+      "residual_pct": 2.420319567572799
+    },
+    {
+      "borrow_rate": 0.6,
+      "expected_htb_discount": 0.20021917808219178,
+      "gap": 0.990000000000002,
+      "residual": 0.7897808219178102,
+      "residual_pct": 2.3222017698259636
+    }
+  ],
+  "verdict": "HTB borrow yield does NOT explain the gap. Dark pool prediction signal survives."
+}

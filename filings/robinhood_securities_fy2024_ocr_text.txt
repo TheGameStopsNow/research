@@ -1,0 +1,911 @@
+
+--- PAGE 1 ---
+OMB APPROVAL
+
+OMB Number: 3235-0123
+Expires: Nov. 30, 2026
+
+Estimated average burden
+hours per response: 12
+
+ANNUAL REPORTS
+FORM X-17A-5 8-69916
+PART Ill
+
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+
+FACING PAGE
+Information Required Pursuant to Rules 17a-5, 17a-12, and 18a-7 under the Securities Exchange Act of 1934
+
+FILING FOR THE PERIOD BEGINNING 01 /01 12024 AND ENDING 1 2/31 12024
+
+MM/DD/YY MM/DD/YY
+
+A. REGISTRANT IDENTIFICATION
+name or rirm: RObinhood Securities, LLC
+
+TYPE OF REGISTRANT (check all applicable boxes):
+
+f=) Broker-dealer C1 Security-based swap dealer CO Major security-based swap participant
+0 Check here if respondent is also an OTC derivatives dealer
+
+ADDRESS OF PRINCIPAL PLACE OF BUSINESS: (Do not use a P.O. box no.)
+
+500 Colonial Center Parkway, Suite 100
+
+{No. and Street)
+
+Lake Mary FL 32746
+
+(City) (State) (Zip Code)
+
+PERSON TO CONTACT WITH REGARD TO THIS FILING
+
+Daniel Kelati 650-61 3-0850 daniel.kelati@robinhood.com
+(Name) ~~—~—~S™SCSS«S Area Code Telephone Number) ~~ (EmailAddress)—SCS=~CS~S
+
+B. ACCOUNTANT IDENTIFICATION
+
+INDEPENDENT PUBLIC ACCOUNTANT whose reports are contained in this filing*
+
+Ernst and Young LLP
+
+(Name — if individual, state last, first, and middle name)
+
+725 S Figueroa Street Los Angeles CA 90017
+
+(Address) (City) (State} {Zip Code)
+10/20/2003 42
+(Date of Registration with PCAOB)(if applicable {PCAOB Registration Number, if applicable)
+
+FOR OFFICIAL USE ONLY
+
+* Claims for exemption from the requirement that the annual reports be covered by the reports of an independent public
+accountant must be supported by a statement of facts and circumstances relied on as the basis of the exemption. See 17
+CFR 240.17a-5(e){1)(ii), if applicable.
+
+Persons who are to respond to the collection of information contained in this form are not required to respond unless the form
+
+displays a currently valid OMB control number.
+
+--- PAGE 2 ---
+I,
+
+OATH OR AFFIRMATION
+
+Daniel Kelati swear (or affirm) that, to the best of my knowledge and belief, the
+
+Se }
+fore report pertaining to the firm of Robinhood Securities, LLC as of
+
+el
+2024 _, is true and correct. 1 further swear (or affirm) that neither the company nor any
+
+partner, officer, director, or equivalent person, as the case may be, has any proprietary interest in any account classified solely
+
+as
+
+that of a customer.
+
+CS
+Signature:
+
+Title:
+CFO and Principal Financial Officer
+
+ERIN AUBREY WARD
+Commission #HH 619681
+My Commission Expires
+January 12, 2029
+
+This filing** contains (check all applicable boxes):
+
+O OOO OOOO00O0O0 Om
+
+OO O BO QO OWOOOO
+
+(a) Statement of financial condition.
+
+(b) Notes to consolidated statement of financial condition.
+
+{c) Statement of income (loss) or, if there is other comprehensive income in the period(s) presented, a statement of
+comprehensive income (as defined in § 210.1-02 of Regulation S-x).
+
+(d} Statement of cash flows.
+
+(e) Statement of changes in stockholders’ or partners’ or sole proprietor’s equity.
+
+(f) Statement of changes in liabilities subordinated to claims of creditors.
+
+(g) Notes to consolidated financial statements.
+
+(h) Computation of net capital under 17 CFR 240.15c3-1 or 17 CFR 240.18a-1, as applicable.
+
+{i} Computation of tangible net worth under 17 CFR 240.18a-2.
+
+{j) Computation for determination of customer reserve requirements pursuant to Exhibit A to 17 CFR 240.15c3-3.
+
+(k) Computation for determination of security-based swap reserve requirements pursuant to Exhibit B to 17 CFR 240.15c3-3 or
+Exhibit A to 17 CFR 240.18a-4, as applicable.
+
+(I) Computation for Determination of PAB Requirements under Exhibit A to § 240.15¢3-3.
+
+(m) Information relating to possession or control requirements for customers under 17 CFR 240.15c3-3.
+
+(n) Information relating to possession or control requirements for security-based swap customers under 17 CFR
+240.15c3-3(p)(2) or 17 CFR 240.18a-4, as applicable.
+
+{o) Reconciliations, including appropriate explanations, of the FOCUS Report with computation of net capital or tangible net
+worth under 17 CFR 240,15c3-1, 17 CFR 240.18a-1, or 17 CFR 240. 18a-2, as applicable, and the reserve requirements under 17
+
+CFR 240.15c3-3 or 17 CFR 240.18a-4, as applicable, if material differences exist, or a statement that no material differences
+exist.
+
+(p) Summary of financial data for subsidiaries not consolidated in the statement of financial condition.
+
+(gq) Oath or affirmation in accordance with 17 CFR 240.17a-5, 17 CFR 240.17a-12, or 17 CFR 240.18a-7, as applicable.
+
+(r) Compliance report in accordance with 17 CFR 240.17a-5 or 17 CFR 240.18a-7, as applicable.
+
+(s) Exemption report in accordance with 17 CFR 240.17a-5 or 17 CFR 240.18a-7, as applicable.
+
+(t) Independent public accountant’s report based on an examination of the statement of financial condition.
+
+{u) Independent public accountant’s report based on an examination of the financial report or financial statements under 17
+CFR 240.17a-5, 17 CFR 240,18a-7, or 17 CFR 240.17a-12, as applicable.
+
+(v) Independent public accountant’s report based on an examination of certain statements in the compliance report under 17
+CFR 240.17a-5 or 17 CFR 240.18a-7, as applicable,
+
+(w) Independent public accountant’s report based on a review of the exemption report under 17 CFR 240.17a-5 or 17
+
+CFR 240.18a-7, as applicable.
+
+(x) Supplemental reports on applying agreed-upon procedures, in accordance with 17 CFR 240.15¢3-1e or 17 CFR 240.17a-12,
+as applicable.
+
+(y} Report describing any material inadequacies found to exist or found to have existed since the date of the previous audit, or
+a statement that no material inadequacies exist, under 17 CFR 240.17a-12(k).
+
+(z) Other:
+
+**To request confidential treatment of certain portions of this filing, see 17 CFR 240.17a-5(e}{(3) or 17 CFR 240.18a-7(d}{2), as
+
+applicable.
+
+--- PAGE 3 ---
+ROBINHOOD SECURITIES, LLC
+TABLE OF CONTENTS
+
+Page No.
+
+Statement of Financial Condition
+
+
+--- PAGE 4 ---
+Ernst & Young LLP Tel: +1 213 977 3200
+
+725 S Figueroa Street Fax: +1 213 977 3729
+Los Angeles, CA 90017 ey.com
+
+Shape the future
+with confidence
+
+Report of Independent Registered Public Accounting Firm
+To the Member and the Board of Managers of Robinhood Securities, LLC
+Opinion on the Financial Statement
+
+We have audited the accompanying statement of financial condition of Robinhood Securities, LLC (the Company) as
+of December 31, 2024, and the related notes (the “financial statement’). In our opinion, the financial statement
+presents fairly, in all material respects, the financial position of the Company at December 31, 2024, in conformity
+with U.S. generally accepted accounting principles.
+
+Basis for Opinion
+
+This financial statement is the responsibility of the Company’s management. Our responsibility is to express an opinion
+on the Company's financial statement based on our audit. We are a public accounting firm registered with the Public
+Company Accounting Oversight Board (United States) (PCAOB) and are required to be independent with respect to
+the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the
+Securities and Exchange Commission and the PCAOB.
+
+We conducted our audit in accordance with the standards of the PCAOB. Those standards require that we plan and
+perform the audit to obtain reasonable assurance about whether the financial statement is free of material
+misstatement, whether due to error or fraud. Our audit included performing procedures to assess the risks of material
+misstatement of the financial statement, whether due to error or fraud, and performing procedures that respond to
+those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures
+in the financial statement. Our audit also included evaluating the accounting principles used and significant estimates
+made by management, as well as evaluating the overall financial statement presentation. We believe that our audit
+
+provides a reasonable basis for our opinion.
+Srnet ¥ Tor
+
+We have served as the Company's auditor since 2017.
+
+February 19, 2025
+
+--- PAGE 5 ---
+ROBINHOOD SECURITIES, LLC
+STATEMENT OF FINANCIAL CONDITION
+
+December 31,
+
+(in millions) 2024
+Assets
+Cash $ 1,184
+Cash, cash equivalents, and securities segregated under federal and other regulations 4,595
+Receivables from users, net 8,037
+Receivables from brokers, dealers, and clearing organizations 168
+Securities borrowed 3,236
+Deposits with clearing organizations 488
+User-held fractional shares 2,530
+Due from affiliates 33
+Other assets 85
+Total assets $ 20,356
+Liabilities and member's equity
+Liabilities:
+Payables to users $ 7,279
+Securities loaned 7,463
+Due to affiliates 171
+Due to Parent 11
+Payables to brokers, dealers, and clearing organizations 29
+Fractional share repurchase obligation 2,530
+Accrued expenses and other liabilities 83
+Total liabilities 17,566
+
+Commitments and contingencies (Note 11)
+Member's equity:
+Total member's equity 2,790
+Total liabilities and member's equity $ 20,356
+
+The accompanying notes are an integral part of the financial statement.
+
+5
+
+--- PAGE 6 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+NOTE 1: ORGANIZATION AND NATURE OF BUSINESS
+
+Robinhood Securities, LLC (the “Company,” “we,” “our,” “us,” or “RHS”) is a wholly owned subsidiary of Robinhood Markets, Inc.
+(the “Parent” or “RHM”, and together with its subsidiaries, “Robinhood”). We are registered with the U.S. Securities and Exchange
+Commission (“SEC”) as a clearing broker-dealer in securities under the Securities Exchange Act of 1934, as amended (the “Exchange Act”).
+We are a member of the Financial Industry Regulatory Authority (“FINRA”), and the Securities Investor Protection Corporation.
+
+We clear trades for retail user accounts introduced on a fully disclosed basis by our affiliates, Robinhood Financial LLC (“RHF”) and
+Robinhood U.K. Ltd (“RHUK”). We have a fractional shares program which allows users to purchase and sell fractions of a share in certain
+equities, enabling users to place real-time fractional share orders in dollar amounts or share amounts, with purchases rounded to the nearest
+penny and the ability to purchase as small as 1/1,000,000 of a share. We operate a cash sweep program which allows users’ uninvested cash
+balances to earn interest with partner banks insured by the U.S. Federal Deposit Insurance Corporation (“FDIC”). The cash sweep program is
+operated together with RHF in the United States and with RHUK in the United Kingdom.
+
+Throughout these financial statements, the term “users” is defined as customers under Exchange Act Rule 15c3-3.
+NOTE 2: SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+Basis of Presentation
+
+The accompanying financial statement has been prepared in accordance with generally accepted accounting principles in the United
+States (“GAAP”).
+
+Use of Estimates
+
+The preparation of financial statements in accordance with GAAP requires management to make estimates and assumptions that affect
+the reported amounts in the financial statements and accompanying notes. We base our estimates on historical experience and other
+assumptions we believe to be reasonable under the circumstances. Assumptions and estimates used in preparing our financial statements
+include, but are not limited to, those related to the determination of allowances for credit losses and contingent liabilities. Actual results could
+differ from these estimates and could have a material adverse effect on our operating results.
+
+Segment Information
+
+Operating segments are defined as components of an enterprise for which separate financial information is evaluated regularly by the
+chief operating decision maker (“CODM”) in deciding how to allocate resources and assess performance. Our CODM is the Chief Brokerage
+Officer of RHM. We operate and report financial information in one operating segment. This is because our CODM utilizes net income to
+evaluate the Company performance and decide whether to allocate resources to existing operations or to expand into new areas. The measure of
+segment assets is not regularly presented to the CODM. All of our revenues and assets are attributed to or located in the United States.
+
+Concentrations of Credit Risk
+
+We are engaged in various trading and brokerage activities in which the counterparties primarily include broker-dealers, banks, and
+other financial institutions. In the event our counterparties do not fulfill their obligations, we may be exposed to risk. The risk of default
+depends on the creditworthiness of the counterparty. Default of a counterparty in equities and options trades, which are facilitated through
+clearinghouses, would generally be spread among the clearinghouse’s members rather than falling entirely on us. It is our policy to review, as
+necessary, the credit standing of each counterparty.
+
+Cash
+
+Cash includes interest and non-interest bearing deposits with banks that are not segregated and deposited for regulatory purposes. We
+maintain cash in bank accounts at financial institutions that exceed federally insured limits. We are subject to credit risk to the extent any
+financial institution with which we conduct business is unable to fulfill contractual obligations on our behalf. As we have not experienced any
+losses in such accounts and we believe that we have placed our cash on deposit with financial institutions which are financially stable, we do
+not have an expectation of credit losses for these arrangements.
+
+--- PAGE 7 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+Cash, Cash Equivalents, and Securities Segregated Under Federal and Other Regulations
+
+We are required to segregate cash, cash equivalents, and securities for the exclusive benefit of customers, as defined by SEC Rule
+15c3-3, and PAB in accordance with the provisions of Rule 15c3-3 under the Exchange Act. We continually review the credit quality of our
+counterparties and have not experienced a default. As a result, we do not have an expectation of credit losses for these arrangements.
+
+Fair Value of Financial Instruments
+
+We apply fair value accounting for all financial assets and liabilities and non-financial assets and liabilities that are recognized or
+disclosed at fair value in the financial statement on a recurring basis. Fair value is defined as the price that would be received to sell an asset or
+paid to transfer a liability in an orderly transaction between market participants at the measurement date. In determining fair value, we may use
+various valuation approaches, including market, income and/or cost approaches. The fair value hierarchy requires us to maximize the use of
+observable inputs and minimize the use of unobservable inputs when measuring fair value. Fair value is a market-based measure considered
+from the perspective of a market participant. Accordingly, even when market assumptions are not readily available, our own assumptions
+reflect those that market participants would use in pricing the asset or liability at the measurement date. The fair value measurement accounting
+guidance describes the following three levels used to classify fair value measurements:
+
+Level | Inputs: unadjusted quoted prices in active markets for identical assets or liabilities that are accessible by us
+
+Level 2 Inputs: quoted prices for similar assets and liabilities in an active market, quoted prices in markets that are not active or for
+which all significant inputs are observable, either directly or indirectly
+
+Level 3 Inputs: unobservable inputs that are significant to the fair value of the assets or liabilities
+
+A financial instrument’s level within the fair value hierarchy is based on the lowest level of any input that is significant to the fair
+value measurement. The carrying amounts of certain financial instruments approximate their fair value due to the short-term nature, which
+include cash, cash equivalents, and securities segregated under federal and other regulations, receivables from brokers, dealers, and clearing
+organizations, receivables from users, net, securities borrowed, due from affiliates, deposits with clearing organizations, other assets, accrued
+expenses and other liabilities, payables to users, payables to brokers, dealers, and clearing organizations, due to affiliates, due to Parent, and
+securities loaned.
+
+Receivables from and Payables to Users
+
+Receivables from users, net is primarily made up of margin receivables. These transactions are recorded on settlement date basis.
+Margin receivables are adequately collateralized by users’ securities balances and are reported at their outstanding principal balance, net of an
+allowance for credit losses. We monitor margin levels and require users to deposit additional collateral, or reduce margin positions, to meet
+minimum collateral requirements and to avoid automatic liquidation of their positions.
+
+--- PAGE 8 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+We apply the practical expedient based on collateral maintenance provisions in estimating an allowance for credit losses for
+receivables from users. We have no expectation of credit losses for receivables from users that are fully secured, where the fair value of the
+collateral securing the balance is equal to or in excess of the receivable amount. This is based on our assessment of the nature of the collateral,
+potential future changes in collateral values, and historical credit loss information relating to fully secured receivables. In cases where the fair
+value of the collateral is less than the outstanding receivable balance from a user, we recognize an allowance for credit losses in the amount of
+the difference, or unsecured balance, immediately. We write-off unsecured balances when the balance becomes outstanding for over 180 days
+or when we otherwise deem the balance to be uncollectible.
+
+We are indemnified by RHF for losses incurred in connection with unsecured users’ receivables. Unsecured user receivables that are
+not collected from RHF are treated as a non-allowable asset in our net capital computation. If any of the unsecured user receivables become
+secured or collected, we will pay RHF back the amount collected.
+
+Payables to users represent free credit balances from users’ uninvested deposits and/or funds attributed to users as a result of settled
+trades and other security related transactions.
+
+Receivables From and Payables to Brokers, Dealers, and Clearing Organizations
+
+Receivables from brokers, dealers, and clearing organizations primarily include receivables from market makers for routing user
+orders for execution, receivables for securities not delivered by us to the counterparties by the settlement date (“securities failed to deliver’),
+and interest receivables on securities borrowed and securities loaned.
+
+Payables to brokers, dealers, and clearing organizations primarily include interest payables on securities borrowed and securities
+loaned and payables for securities not received by us from a counterparty by the settlement date (“securities failed to receive’’).
+
+These receivables and payables are short-term and normally settle within 30 days. Aged receivables from brokers, dealers, and
+clearing organizations are treated as non-allowable assets in our net capital computation. We continually review the credit quality of our
+counterparties and have not experienced a default. As a result, we do not have an expectation of credit losses for these arrangements.
+
+Deposits With Clearing Organizations
+
+We are required to maintain collateral deposits with clearing organizations such as Depository Trust & Clearing Corporation and
+Options Clearing Corporation which allow us to use their security transactions services for trade comparison, clearance and settlement. The
+clearing organizations establish financial requirements, including deposit requirements, to reduce their risk. The required level of deposits may
+fluctuate significantly from time to time based upon the nature, size of users’ trading activity, and market volatility. As we have not
+experienced historic defaults, we do not have an expectation of credit losses for these arrangements.
+
+Due from/o Affiliates
+
+Due from affiliates primarily relates to receivables from Say pursuant to the revenue sharing agreement. Due to affiliates primarily
+relates to payables to RHF for introducing broker fees and to Robinhood Gold LLC (“RHG”’) pursuant to an expense sharing agreement.
+Pursuant to an intercompany service agreement with RHG, a wholly-owned subsidiary of the Parent, RHS collects Robinhood Gold
+subscription fees on behalf of RHG from Robinhood Gold subscribers. RHS transfers the collected fees to RHG on a monthly basis. Unsettled
+customer fund transfers also result in due from/to affiliates balance between us.
+
+Fractional Share Program
+
+We operate our fractional share program for the benefit of our users and maintain an inventory of securities held exclusively for the
+fractional share program. This proprietary inventory is recorded within other assets on our statement of financial condition.
+
+When a user purchases a fractional share, we record the cash received for the user-held fractional share as pledged collateral and an
+offsetting liability to repurchase the shares, recorded on our statement of financial condition, as we concluded that we did not meet the criteria
+for derecognition under the accounting guidance. We measure our inventory of securities, user-held fractional shares and our repurchase
+obligation at fair value at each reporting period via the election of the fair value option.
+
+--- PAGE 9 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+Other Assets
+
+Other assets primarily include corporate cash held at a third party to support our cash withdrawals feature, cash sweep interest
+receivables, fractional share proprietary inventory, prepaid expenses, and various other receivables. We classify prepayments made under
+contracts as prepaid expenses and expense them over the contract terms. These prepaid expenses primarily include items such as prepayments
+on insurance. As of December 31, 2024, prepaid expenses included in other assets were $3 million.
+
+Securities Borrowing and Lending
+
+We operate a securities lending program under which shares that users have pledged to us to collateralize their margin borrowing are
+lent by us to third parties and a Fully-Paid Securities Lending program under which we borrow fully-paid shares from participating users and
+lend them to third parties (““Fully-Paid Securities Lending”). We also occasionally borrow securities from third parties for operational purposes,
+and we occasionally lend to third parties securities that we hold for our own account (such as our holdings to support fractional share
+operations) or on behalf of our affiliated introducing broker-dealer.
+
+When we lend securities to third parties, the borrower provides cash as collateral. We earn interest revenue on cash collateral
+deposited by borrowers, and we can also earn additional revenue for lending certain securities based on demand for those securities. For our
+Fully-Paid Securities Lending, we pay portions of such revenues to RHF pursuant to the clearing agreement and those payments are recorded as
+fees charged by affiliated introducing broker-dealer.
+
+When we borrow securities from users participating in the Fully-Paid Securities Lending program or from third parties, we provide
+cash as collateral and we record a receivable representing our right to the return of that collateral. The amount of that receivable is presented in
+“securities borrowed” on our statement of financial condition. In the case of our Fully-Paid Securities Lending program, the cash collateral is
+held by a third-party bank in a deposit account pledged to the user, which we administer as the user’s agent. Users are not entitled to interest on
+
+such account, and any interest earned is for our benefit.
+
+Our authorization from users to lend shares that collateralize their margin borrowing is found in our margin account agreement, our
+borrowing of fully-paid shares from users is conducted under the terms of our Fully-Paid Securities Lending program to which users consent
+when they enroll in that program, and substantially all of our securities lending and borrowing transactions with third parties are conducted
+under terms based on an industry-standard master securities loan agreement (““MSLA”), which has an open contractual term and may be
+terminated upon notice by either party. We have also entered into fixed-term securities lending agreements with two financial institution
+counterparties (the “Fixed-Term Securities Lending Agreements”). One of these agreements has a contractual term of 30 days per lending
+transaction with a daily minimum commitment of $25 million and the other has a contractual term of 21 days per lending transaction with a
+daily minimum commitment of $35 million. Under these two agreements we lend to the counterparties (for a fixed term) securities that
+collateralize users’ margin borrowing, and we obtain cash collateral from the counterparties that we use to provide liquidity support for our
+margin lending to users. We manage risks associated with our securities lending activities by requiring credit approvals for counterparties, by
+monitoring the market value of securities loaned and collateral values for securities borrowed on a daily basis, by requiring additional cash as
+collateral for securities loaned or return of collateral for securities borrowed when necessary, and by participating in a risk-sharing program
+offered through the Options Clearing Corporation.
+
+Each of the MSLAs and Fixed-Term Securities Lending Agreements establishes a master netting arrangement between the lender and
+the borrower. A master netting arrangement is an agreement between two counterparties that creates a right of set-off for amounts due to and
+from that same counterparty that is enforceable in the event of a default or bankruptcy. In connection with our securities borrowing and lending
+activities, however, our policy is to recognize all amounts that are subject to master netting arrangements on a gross basis in our statement of
+financial condition even though some of those amounts may be eligible for offset (i.e., to be presented on a net basis) under GAAP. We apply
+the practical expedient based on collateral maintenance provisions in estimating an allowance for credit losses for securities borrowed
+receivables. Refer to Note 8 - Securities Borrowing and Lending, for more information and the gross presentation in tabular format.
+
+--- PAGE 10 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+Cash Sweep
+
+Our users may elect to participate in cash sweep, which allows them to earn interest on their uninvested brokerage cash. These
+balances are automatically swept to our partner banks, and they are not reflected on our statement of financial condition.
+
+Loss Contingencies
+
+We are subject to claims and lawsuits in the ordinary course of business, including arbitration, class actions, and other litigation, some
+of which include claims for substantial or unspecified damages. We are also the subject of inquiries, investigations, and proceedings by
+regulatory and other governmental agencies. We review our lawsuits, regulatory inquiries and other legal proceedings on an ongoing basis and
+provide disclosures and record loss contingencies in accordance with the loss contingencies accounting guidance. We establish an accrual for
+losses at management’s best estimate when we assess that it is probable that a loss has been incurred and the amount of the loss can be
+reasonably estimated. If the reasonable estimate is a range and no amount within that range is considered a better estimate than any other
+amount, an accrual is recorded based on the bottom amount of the range. Accrual for loss contingencies are recorded in accrued expenses and
+other liabilities on the statement of financial condition. We monitor these matters for developments that would affect the likelihood of a loss
+and the accrued amount, if any, and adjust the amount as appropriate.
+
+Income Taxes
+
+We are a single member limited liability company, which is treated as a disregarded entity for income tax purposes. All tax effects of
+our income or loss are included in the tax returns of the Parent. Therefore, no provision or liability for income taxes is included in the financial
+statement. No formal tax-sharing arrangement exists between us and the Parent and we have no obligation to fund any tax liability of the Parent
+with our earnings.
+
+NOTE 3: RECENT ACCOUNTING PRONOUNCEMENTS
+Recently Adopted Accounting Pronouncements
+
+In November 2023, the FASB issued Accounting Standards Update 2023-07, “Segment Reporting (Topic 280): Improvements to
+Reportable Segment Disclosures.” The amendments in guidance improve reportable segment disclosure requirements, primarily through
+enhanced disclosures about significant segment expenses. This guidance is effective for fiscal years beginning after December 15, 2023, and
+interim periods within fiscal years beginning after December 15, 2024. We adopted this guidance for our fiscal year ending December 31, 2024
+and interim periods thereafter. The adoption of this guidance did not have a material impact on our financial statements and related disclosures.
+
+Recently Issued Accounting Pronouncements Not Yet Adopted
+
+In October 2023, the FASB issued Accounting Standards Update 2023-06, “Disclosure Improvements: Codification Amendments in
+Response to the SEC’s Disclosure Update and Simplification Initiative.” The amendments will impact various disclosure areas, including the
+statement of cash flows, accounting changes and error corrections, earnings per share, debt, equity, derivatives, and transfers of financial assets.
+The amendments in this guidance will be effective on the date the related disclosures are removed from Regulation S-X or Regulation S-K by
+the SEC, and will no longer be effective if the SEC has not removed the applicable disclosure requirement by June 30, 2027. Early adoption is
+prohibited. We are currently evaluating the impacts of the amendments on our financial statements.
+
+NOTE 4: CASH, CASH EQUIVALENTS AND SECURITIES SEGREGATED UNDER FEDERAL AND OTHER REGULATIONS
+
+Cash, cash equivalents, and securities segregated under federal and other regulations consisted of the following:
+
+December 31,
+
+(in millions) 2024
+
+Customers $ 4,566
+PAB 29
+Total $ 4,595
+
+10
+
+--- PAGE 11 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+NOTE 5: RECEIVABLES FROM AND PAYABLES TO BROKERS, DEALERS, AND CLEARING ORGANIZATIONS
+The components of receivables from, and payables to, brokers, dealers, and clearing organizations are as follows:
+
+December 31,
+(in millions) 2024
+Receivables from brokers, dealers, and clearing organizations:
+
+Executing broker receivables $ 114
+Securities failed to deliver 30
+Securities lending interest receivable 23
+Other brokers, dealers, and clearing organizations receivables 1
+Total receivables from brokers, dealers, and clearing organizations $ 168
+
+Payables to brokers, dealers, and clearing organization:
+Security loan interest payable $ 22
+Securities failed to receive 3
+Other brokers, dealers, and clearing organizations payables
+
+Total payables to brokers, dealers, and clearing organizations $ 29
+
+NOTE 6: ALLOWANCE FOR CREDIT LOSSES
+
+The following table summarizes the allowance for credit losses, which substantially all relate to unsecured balances of receivables
+from users due to “Fraudulent Deposit Transactions” and losses on margin lending. Fraudulent Deposit Transactions occur when users initiate
+deposits into their accounts, make trades on our platform using a short-term extension of credit from us, and then repatriate or reverse the
+deposits, resulting in a loss to us of the credited amount.
+
+December 31,
+
+(in millions) 2024
+Beginning balance $ 21
+Provision for credit losses“? 19
+Write-offs (19)
+Recoveries 1
+Ending balance $ 22
+
+(1) We are indemnified by RHF for losses incurred in connection with unsecured users’ receivables. See Note 2 - Summary of Significant Accounting Policies, for more
+information. During the year ended December 31, 2024, RHF indemnified us $19 million for unsecured losses.
+
+11
+
+--- PAGE 12 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+NOTE 7: FAIR VALUE MEASUREMENT
+
+Financial assets and liabilities measured at fair value on a recurring basis as of the date indicated below were presented on our
+statement of financial condition as follows:
+
+December 31, 2024
+(in millions) Level 1 Total
+Assets
+Cash, cash equivalents, and securities segregated under federal and other regulations:
+U.S. Treasury securities $ 1,193 $ 1,193
+Other assets:
+
+Equity securities - securities owned 14 14
+Money market funds - escrow account 2 2
+User-held fractional shares 2,530 2,530
+Total financial assets $ 3,739 §$ 3,739
+Liabilities
+Fractional share repurchase obligations $ 2,530 $ 2,530
+Total financial liabilities $ 2,530 $ 2,530
+
+During the year ended December 31, 2024, we did not have any transfers in or out of Level 3 assets.
+
+NOTE 8: SECURITIES BORROWING AND LENDING
+
+Our securities lending transactions are subject to enforceable master netting arrangements with other broker-dealers; however, we do
+not net securities borrowing and lending transactions. Therefore, activity related to securities borrowing and lending activities are presented
+gross in our statement of financial condition.
+
+When we borrow securities from users participating in the Fully-Paid Securities Lending program or from third parties, we provide
+cash collateral to our users and third parties, which is recorded on our statement of financial condition as “securities borrowed”, an asset,
+representing our rights to the return of that collateral. When we lend securities to third parties, we receive cash as collateral, which is recorded
+on our statement of financial condition as “securities loaned”, a liability, representing our obligation to return the collateral.
+
+12
+
+--- PAGE 13 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+The following tables set forth certain balances related to our securities borrowing and lending activities:
+
+December 31,
+
+(in millions) 2024
+Securities
+Assets borrowed
+Gross amount of cash collateral provided to users for securities borrowing transactions $ 3,236
+Gross amount offset on the statement of financial condition —
+Amounts of assets presented on the statement of financial condition 3,236
+Gross amount not offset on the statement of financial condition:
+Cash collateral provided to users and third parties for securities borrowing transactions 3,236
+Fair value of securities borrowed from users and third parties (3,118)
+Net amount S$ 1
+Securities
+Liabilities loaned
+Gross amount of cash collateral received from counterparties for securities lending transactions $ 7,463
+Gross amount offset on the statement of financial condition —
+Amounts of liabilities presented on the statement of financial condition 7,463
+Gross amount not offset on the statement of financial condition:
+Cash collateral received from counterparties for securities lending transactions 7,463
+Fair value of securities pledged to counterparties (6,887)
+Net amount $ 576
+
+We obtain securities on terms that permit us to pledge and/or transfer securities to others. As of December 31, 2024, we were
+permitted to re-pledge securities with a fair value of $11.04 billion under margin account agreements with users, and securities with a fair value
+of an immaterial balance that we borrowed under MSLAs with third parties. Under the Fully-Paid Securities Lending program, as of December
+31, 2024, we were permitted to borrow securities with a fair value of $38.70 billion including securities with a fair value of $3.12 billion that
+we had borrowed from users.
+
+As of December 31, 2024, we had re-pledged securities with a fair value of $6.89 billion, in each case under MSLAs and Fixed-Term
+Securities Lending Agreements with third parties. In addition, as of December 31, 2024, we had re-pledged $1.60 billion of the permitted
+amounts under the margin account agreements with clearing organizations to meet deposit requirements.
+
+NOTE 9: FINANCING ACTIVITIES AND OFF-BALANCE SHEET RISK
+Revolving Credit Facilities
+
+As of December 31, 2024, we had seven revolving and unsecured lines of credit with the Parent for a total of $1.05 billion of which
+$300.0 million was committed and $750.0 million was uncommitted. There were no outstanding borrowings against these lines of credit as of
+December 31, 2024. Interest on these lines of credit is based on the effective federal rate as determined by Internal Revenue Service. These
+lines of credit have no maturity date and remain in effect until terminated by either party. There are no covenants to the lines of credit with the
+Parent.
+
+On March 22, 2024, we entered into the Third Amended and Restated Credit Agreement (the “March 2024 Credit Agreement”) among
+us, as borrower, the lenders party thereto, and JPMorgan Chase Bank, N.A., as administrative agent, amending and restating the $2.175 billion
+364-day senior secured revolving credit facility entered into in March 2023.
+
+The March 2024 Credit Agreement provides for a 364-day senior secured revolving credit facility with a total commitment of
+$2.25 billion. Under circumstances described in the March 2024 Credit Agreement, the aggregate commitments may be increased by up to
+$1.125 billion, for a total commitment of $3.375 billion. Borrowings under the credit facility must be specified to be Tranche A, Tranche B,
+Tranche C or a combination thereof. Tranche A loans are secured by users’ securities purchased on margin and are used primarily to finance
+margin loans. Tranche B loans are secured by the right to the return from National Securities Clearing Corporation (“NSCC”’) of NSCC margin
+
+13
+
+--- PAGE 14 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+deposits and cash and property in a designated collateral account and used for the purpose of satisfying NSCC deposit requirements. Tranche C
+loans are secured by the right to the return of eligible funds from any reserve account of the borrower and cash and property in a designated
+collateral account and used for the purpose of satisfying reserve requirements under Rule 15c3-3 of the Exchange Act.
+
+Borrowings under the RHS March 2024 Credit Agreement will bear interest at a rate per annum equal to the greatest of (i) Daily
+Simple SOFR plus 0.10% (as defined in the March 2024 Credit Agreement), (ii) the Federal Funds Effective Rate (as defined in the March
+2024 Credit Agreement) and (iii) the Overnight Bank Funding Rate (as defined in the March 2024 Credit Agreement), in each case, as of the
+day the loan is initiated, plus an applicable margin rate. The applicable margin rate is 1.25% for Tranche A loans and 2.50% for Tranche B and
+Tranche C loans. Undrawn commitments will accrue commitment fees at a rate per annum equal to 0.50%.
+
+The March 2024 Credit Agreement requires us to maintain a minimum consolidated tangible net worth and a minimum excess net
+capital, and subjects RHS to a specified limit on minimum net capital to aggregate debit items. In addition, the March 2024 Credit Agreement
+contains certain customary affirmative and negative covenants, including limitations with respect to debt, liens, fundamental changes, asset
+sales, restricted payments, investments and transactions with affiliates, subject to certain exceptions. Amounts due under the March 2024 Credit
+Agreement may be accelerated upon an “event of default,” as defined in the March 2024 Credit Agreement, such as failure to pay amounts
+owed thereunder when due, breach of a covenant, material inaccuracy of a representation, or occurrence of bankruptcy or insolvency, subject in
+some cases to cure periods.
+
+As of December 31, 2024, there were no borrowings outstanding and we were in compliance with all covenants, as applicable, under
+our revolving credit facilities.
+
+Off-Balance Sheet Risk
+
+In the normal course of business, we engage in activities involving settlement and financing of securities transactions. User securities
+transactions are recorded on a settlement date basis. Effective May 2024, settlement date for equities has been shortened from two business
+days after the trade date to one business day after the trade date, while the settlement date for options remains unchanged at one business day
+after the trade date.oneThese activities may expose us to off-balance sheet risk in the event that the other party to the transaction is unable to
+fulfill its contractual obligations. In such events, we may be required to purchase financial instruments at prevailing market prices in order to
+fulfill our obligations.
+
+NOTE 10: RELATED PARTY TRANSACTIONS
+
+The amount of revenue earned from affiliates may not be reflective of revenues that could have been earned on similar levels of
+activity with unaffiliated third parties. The amount of expenses allocated to us may not be reflective of expenses that would have been incurred
+by us if we used third party service providers.
+
+We have an expense sharing agreement with the Parent and pursuant to the agreement, we reimburse the Parent for payroll,
+technology, information services, occupancy, share-based compensation, and other expenses. The Parent also pays certain direct expenses on
+our behalf and cash settles monthly with allocated expenses. As of December 31, 2024, the balance due to the Parent was $11 million.
+
+As of December 31, 2024, due to affiliates of $171 million on the statement of financial condition primarily related to a $155 million
+due to RHF, a $15 million to RHG. Pursuant to the clearing agreement with RHF, we clear and facilitate transactions for users introduced by
+RHF on a fully disclosed basis.
+
+In addition, for the year ended December 31, 2024, due from affiliates of $33 million primarily related to a $26 million unsettled
+customer fund transfers from an affiliate and $7 million pursuant to the revenue sharing agreement with Say.
+
+NOTE 11: COMMITMENTS & CONTINGENCIES
+
+We are subject to contingencies arising in the ordinary course of our business, including contingencies related to legal, regulatory,
+non-income tax and other matters. We record an accrual for loss contingencies at management’s best estimate when we determine that it is
+probable that a loss has been incurred and the amount of the loss can be reasonably estimated. If the reasonable estimate is a range and no
+amount within that range is considered a better estimate than any other amount, an accrual is recorded based on the bottom amount of the range.
+If a loss is not probable, or a probable loss cannot be reasonably estimated, no accrual is recorded. Amounts accrued for contingencies in the
+aggregate were $53 million as of December 31, 2024.In our opinion, an adequate accrual had been made as of December 31, 2024 to provide
+for the probable losses of which we are aware and for which we can reasonably estimate an amount.
+
+14
+
+--- PAGE 15 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+Legal and Regulatory Matters
+
+The securities industry is highly regulated and many aspects of our business involve substantial risk of liability. In past years, there
+has been an increase in litigation and regulatory investigations involving the brokerage industry. Litigation has included and may in the future
+include class action suits that generally seek substantial and, in some cases, punitive damages. Federal and state regulators, exchanges, or other
+self-regulatory organizations investigate issues related to regulatory compliance that may result in enforcement action. We are also subject to
+periodic regulatory audits and inspections that have in the past and could in the future lead to enforcement investigations or actions.
+
+We have been named as a defendant in lawsuits and from time to time we have been threatened with, or named as a defendant in
+arbitrations and administrative proceedings. The outcomes of these matters are inherently uncertain and some may result in adverse judgments
+or awards, including penalties, injunctions, or other relief, and we may also determine to settle a matter because of the uncertainty and risks of
+litigation.
+
+With respect to matters discussed below, we believe, based on current knowledge, that any losses (in excess of amounts accrued, if
+applicable) as of December 31, 2024 that are reasonably possible and can be reasonably estimated will not, in the aggregate, have a material
+adverse effect on our business, financial position, operating results, or cash flows. However, for many of the matters disclosed below,
+particularly those in early stages, we cannot reasonably estimate the reasonably possible loss (or range of loss), if any. In addition, the ultimate
+outcome of legal proceedings involves judgments and inherent uncertainties and cannot be predicted with certainty. Any judgment entered
+against us, or any adverse settlement, could materially and adversely impact our business, financial condition, operating results, and cash flows.
+We might also incur substantial legal fees, which are expensed as incurred, in defending against legal and regulatory claims.
+
+Described below are certain pending matters in which there is at least a reasonable possibility that a material loss could be incurred.
+We intend to continue to defend these matters vigorously.
+
+Best Execution, Payment for Order Flow (“PFOF”), and Sources of Revenue Civil Litigation
+
+Beginning in December 2020, multiple putative securities fraud class action lawsuits were filed against RHM, RHF, and RHS. Five
+cases were consolidated in the United States District Court for the Northern District of California. An amended consolidated complaint was
+filed in May 2021, alleging violations of Section 10(b) of the Exchange Act and various state law causes of action based on claims that we
+violated the duty of best execution and misled putative class members by publishing misleading statements and omissions in customer
+communications relating to the execution of trades and revenue sources (including PFOF). Plaintiffs seek unspecified monetary damages,
+restitution, disgorgement, and other relief. In February 2022, the court granted Robinhood’s motion to dismiss the amended consolidated
+complaint without prejudice. In March 2022, plaintiffs filed a second consolidated amended complaint, alleging only violations of Section
+10(b) of the Exchange Act, which Robinhood moved to dismiss. In October 2022, the court granted Robinhood’s motion in part and denied it in
+part. In November 2022, Robinhood filed a motion for judgment on the pleadings, which the court denied in January 2023. In March 2024,
+Plaintiffs filed a motion for class certification, which Robinhood opposed. In October 2024, the court denied class certification without
+prejudice. Plaintiffs filed a renewed motion for class certification in January 2025, which Robinhood is opposing.
+
+State Regulatory Matters
+
+The New York Attorney General is conducting an investigation into brokerage execution quality and collaring the prices of certain
+trade orders. The MSD is examining the disruptions experienced by BOATS during the Robinhood 24-Hour Market overnight trading session
+on August 4-5, 2024. We are cooperating with these investigations.
+
+SEC Settlement
+
+On January 13, 2025, as part of the January 2025 SEC Settlement, RHF and RHS resolved the SEC’s investigations concerning
+Regulation SHO, Electronic Blue Sheets requests, account takeovers, anti-money laundering compliance and cybersecurity issues, including the
+data security incident we experienced in November 2021 when an unauthorized third-party socially engineered a customer support employee by
+phone and obtained access to certain customer support systems (the “November 2021 Data Security Incident”), and various brokerage
+recordkeeping issues, including off-channel communications RHS paid penalties totaling $33.5 million for these violations, were censured, and
+agreed to certain undertakings. The settlement related to (1) RHS’s failures to comply with various provisions of Regulation SHO in connection
+with its stock lending and fractional trading programs from May 2019 until March 2020 and December 2019 until December 2023,
+respectively; (ii) RHS’s failures to submit complete and accurate electronic blue sheet data in response to SEC staff Electronic Blue Sheet
+requests from at least October 2018 through April 2024; (iii) RHS’s untimely filing of suspicious activity reports from January 2020 through
+March 2022; (iv) RHS’s failure to implement adequate policies and procedures designed to detect, prevent, and mitigate identity theft in
+connection with customer accounts from April 2019 through June 2022 in violation of Regulation S-ID; (v) RHS’s failure to adequately
+address known risks posed by a vulnerability related to remote access to our systems from at least June 28, 2021 through November 3, 2021 in
+
+15
+
+--- PAGE 16 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+violation of Regulation S-P; and (vi) RHS’s failures to maintain and preserve (a) off-channel brokerage communications sent or received by
+employees from at least 2019 through 2022, (b) core operational databases in a manner required by regulation or for the required length of time
+between December 2020 and December 2023, and (c) certain customer communications between 2020 and March 2021 due to our third-party
+archiving vendor’s ingestion limits being exceeded.
+
+Brokerage Enforcement Matters
+
+FINRA Enforcement and Examination staff are conducting investigations related to, among other things, RHS’s reporting of fractional
+share trades, as applicable, to a Trade Reporting Facility, the Over-the-Counter Reporting Facility, the Order Audit Trail System, and the
+Consolidated Audit Trail; RHS’s reporting of accounts holding significant options positions to the Large Option Position Report system;
+processing of certain requests for transfers of assets from Robinhood through ACATS; responses to Electronic Blue Sheets requests from
+FINRA; the delays in notification from third parties and process failures within our brokerage systems and operations in connection with the
+handling of a 1-for-25 reverse stock split transaction of Cosmo Health, Inc, in December 2022; RHS’s compliance with FINRA registration
+requirements for member personnel; RHS's compliance with best execution obligations; RHS’s compliance with FINRA Rules 6190, 5260 and
+6121; matters related to RHS’s supervision of technology; short interest reporting; and the disruptions experienced by BOATS during the
+Robinhood 24 Hour Market overnight trading session on August 4-5, 2024; account takeovers (i.e., circumstances under which an unauthorized
+actor successfully logs into a customer account), anti-money laundering compliance and cybersecurity issues; and the Early 2021 Trading
+Restrictions (as defined below) and employee trading issues as described more fully below. We are in advance discussions with FINRA to
+resolve the majority of these matters. There can be no assurances that these discussions will lead to resolution of the investigations and
+examinations.
+
+In December 2024 and January 2025, FINRA advised us in writing that it had closed the previously disclosed examinations and
+investigations into compliance with Regulation SHO and recordkeeping, including off-channel communications.
+
+The FDIC is investigating issues related to compliance with the Electronic Funds Transfer Act (“EFTA”). On January 13, 2025, the
+SEC advised us in writing that it had closed the previously disclosed investigation into the broker-dealers’ compliance with the EFTA.
+
+Early 2021 Trading Restrictions Matters
+
+Beginning on January 28, 2021, due to increased deposit requirements imposed on RHS by the NSCC in response to unprecedented
+market volatility, particularly in certain securities, RHS temporarily restricted or limited its customers’ purchase of certain securities, including
+GameStop Corp. and AMC Entertainment Holdings, Inc., on our U.S. trading platform (the “Early 2021 Trading Restrictions’).
+
+A number of individual and putative class actions related to the Early 2021 Trading Restrictions were filed against RHM, RHF, and
+RHS, among others, in various federal and state courts. In April 2021, the Judicial Panel on Multidistrict Litigation entered an order
+centralizing the federal cases identified in a motion to transfer and coordinate or consolidate the actions filed in connection with the Early 2021
+Trading Restrictions in the United States District Court for the Southern District of Florida. The court subsequently divided plaintiffs’ claims
+against Robinhood into three tranches: federal antitrust claims, federal securities law claims, and state law claims.
+
+In January 2022, the court dismissed the state law claims with prejudice. In August 2023, the United States Court of Appeals for the
+Eleventh Circuit affirmed the district court’s order.
+
+In May 2022, the court dismissed the federal antitrust claims with prejudice. In June 2024, the United States Court of Appeals for the
+Eleventh Circuit affirmed the district court’s order.
+
+In November 2021, plaintiffs for the federal securities tranche filed a complaint alleging violations of Sections 9(a) and 10(b) of the
+Exchange Act. The complaint seeks unspecified monetary damages, costs and expenses, and other relief. In January 2022, we moved to dismiss
+the federal securities law complaint. In August 2022, the court granted in part and denied in part Robinhood’s motion to dismiss. In November
+2023, the court denied Plaintiffs’ motion for class certification without prejudice. In April 2024, the court denied Plaintiffs’ motion for leave to
+file a renewed motion for class certification. On May 28, 2024, Robinhood notified the court that it had reached a settlement in principle with
+the Plaintiffs in their individual capacities. Robinhood subsequently notified the court that one of these Plaintiffs was unwilling to sign the
+settlement agreement and requested additional time to negotiate with that individual. On August 14, 2024, the court dismissed the lead and
+named Plaintiffs’ claims. Robinhood has reached settlements with a number of remaining individual plaintiffs, continues to negotiate with
+others, and has filed a motion to compel arbitration of the majority of the remaining claims.
+
+RHM, RHF, RHS, and our CEO Vladimir Tenev, among others, have received requests for information, and in some cases, subpoenas
+and requests for testimony, related to investigations and examinations of the Early 2021 Trading Restrictions from the United States Attorney's
+Office for the Northern District of California ("USAO"), U.S. Department of Justice, Antitrust Division, the SEC’s Division of Enforcement,
+
+16
+
+--- PAGE 17 ---
+ROBINHOOD SECURITIES, LLC
+NOTES TO THE STATEMENT OF FINANCIAL CONDITION
+
+FINRA, the New York Attorney General’s Office, other state attorneys general offices, and a number of state securities regulators. Also, a
+related search warrant was executed by the USAO to obtain Mr. Tenev's cell phone. There have been several inquiries based on specific
+customer complaints. We have received requests from the SEC Division of Enforcement and FINRA related to employee trading in certain
+securities that were subject to the Early 2021 Trading Restrictions, including GameStop Corp. and AMC Entertainment Holdings, Inc., during
+the week of January 25, 2021. These matters include requests related to whether any employee trading in these securities may have occurred
+after the decision to impose the Early 2021 Trading Restrictions and before the public announcement of the Early 2021 Trading Restrictions on
+January 28, 2021. We are cooperating with these investigations. FINRA Enforcement has also requested information about policies,
+procedures, and supervision related to employee trading generally.On January 10, 2025, SEC Enforcement advised us in writing that it had
+closed its investigation into the Early 2021 Trading Restrictions and any contemporaneous employee trading issues.
+
+Cash Sweep Litigation
+
+In October 2024, RHM, RHF, and RHS were sued in a putative class action captioned Dey v. Robinhood Markets, Inc. et. al., in the
+U.S. District Court for the Northern District of California. Plaintiff asserts breach of fiduciary duty, gross negligence, negligent
+misrepresentation and omissions, breach of implied covenant of good faith and dealing, and violation of California’s unfair competition law
+based on allegations that defendants failed to pay a reasonable rate of interest to non-Robinhood Gold brokerage account holders on cash
+balances swept to program bank deposit programs. The complaint seeks, among other things, certification of the class, unspecified monetary,
+punitive, treble, and statutory damages, restitution, disgorgement, attorneys’ fees and costs, injunctive relief, and declaratory relief. In January
+2025, Robinhood filed a motion to dismiss.
+
+NOTE 12: NET CAPITAL
+
+As a registered broker-dealer, we are subject to the SEC’s uniform net capital rule (Exchange Act Rule 15c3-1). Advances to affiliates,
+dividend payments and other equity withdrawals are subject to certain notification and other provisions of the net capital rule of the SEC and
+other regulatory bodies. We have elected to use the alternative method permitted by the rule, which requires the maintenance of minimum net
+capital equal to the greater of $0.25 million or 2% of the Rule 15c3-3 aggregate debit balances arising from customer transactions, as defined
+whichever is greater. Our net capital balance changes day to day, but on December 31, 2024, our net capital was $2.54 billion which was
+$2.36 billion in excess of the minimum required net capital of $178 million.
+
+NOTE 13: SUBSEQUENT EVENTS
+We have evaluated events subsequent to the date of the statement of financial condition for items requiring recording or disclosure in
+
+the financial statements. The evaluation was performed through February 19, 2025, the date the financial statements were available to be
+issued. No event took place that requires recording or disclosure in our financial statements.
+
+17

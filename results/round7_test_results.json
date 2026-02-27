@@ -1,0 +1,387 @@
+{
+  "T4_vanna_lag": {
+    "GME": {
+      "dates_scanned": 40,
+      "events": 2,
+      "median_lag_min": 3.5,
+      "mean_lag_min": 3.5,
+      "lag_distribution": {
+        "3": 1,
+        "4": 1
+      },
+      "pct_in_7_9_window": 0.0
+    },
+    "TSLA": {
+      "dates_scanned": 40,
+      "events": 0,
+      "status": "NO_EVENTS"
+    },
+    "SPY": {
+      "dates_scanned": 39,
+      "events": 0,
+      "status": "NO_EVENTS"
+    },
+    "verdict": "TSLA: 0 events (GME: 2) | SPY: 0 events (GME: 2)"
+  },
+  "T5_cgd_panel": {
+    "tickers_analyzed": 40,
+    "breached_tickers": [
+      "AAPL",
+      "ABNB",
+      "AMC",
+      "AMD",
+      "BAC",
+      "BB",
+      "BBBY",
+      "BYND",
+      "CHWY",
+      "CRWD",
+      "DASH",
+      "DJT",
+      "DKNG",
+      "DUOL",
+      "GME",
+      "GOOG",
+      "LCID",
+      "LYFT",
+      "META",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "PLTR",
+      "RBLX",
+      "RIVN",
+      "SIRI",
+      "SOFI",
+      "TSLA",
+      "U",
+      "UBER",
+      "W",
+      "XYZ",
+      "ZM"
+    ],
+    "not_breached_tickers": [
+      "AFRM",
+      "ARM",
+      "HOOD",
+      "IEP",
+      "NET",
+      "RDDT",
+      "SNAP"
+    ],
+    "false_positive_rate_pct": 82.5,
+    "per_ticker": {
+      "AAPL": {
+        "dates_available": 438,
+        "e_stored": 262403,
+        "peak_r": 811.4805,
+        "breach_date": "20240503",
+        "breached": true
+      },
+      "ABNB": {
+        "dates_available": 56,
+        "e_stored": 1073820,
+        "peak_r": 1.9274,
+        "breach_date": "20210128",
+        "breached": true
+      },
+      "AFRM": {
+        "dates_available": 56,
+        "e_stored": 44906,
+        "peak_r": 0.8522,
+        "breach_date": null,
+        "breached": false
+      },
+      "AMC": {
+        "dates_available": 97,
+        "e_stored": 1397782,
+        "peak_r": 6.1854,
+        "breach_date": "20240508",
+        "breached": true
+      },
+      "AMD": {
+        "dates_available": 190,
+        "e_stored": 3100990,
+        "peak_r": 26.1534,
+        "breach_date": "20250514",
+        "breached": true
+      },
+      "ARM": {
+        "dates_available": 58,
+        "e_stored": 2228476,
+        "peak_r": 0.342,
+        "breach_date": null,
+        "breached": false
+      },
+      "BAC": {
+        "dates_available": 190,
+        "e_stored": 2310097,
+        "peak_r": 4.7704,
+        "breach_date": "20250627",
+        "breached": true
+      },
+      "BB": {
+        "dates_available": 62,
+        "e_stored": 110884,
+        "peak_r": 2.1276,
+        "breach_date": "20251219",
+        "breached": true
+      },
+      "BBBY": {
+        "dates_available": 945,
+        "e_stored": 291676,
+        "peak_r": 140.8418,
+        "breach_date": "20200116",
+        "breached": true
+      },
+      "BYND": {
+        "dates_available": 245,
+        "e_stored": 271609,
+        "peak_r": 70.3623,
+        "breach_date": "20190529",
+        "breached": true
+      },
+      "CHWY": {
+        "dates_available": 516,
+        "e_stored": 35678,
+        "peak_r": 143.701,
+        "breach_date": "20190718",
+        "breached": true
+      },
+      "CRWD": {
+        "dates_available": 53,
+        "e_stored": 22134,
+        "peak_r": 5.9518,
+        "breach_date": "20190718",
+        "breached": true
+      },
+      "DASH": {
+        "dates_available": 56,
+        "e_stored": 188511,
+        "peak_r": 4.3503,
+        "breach_date": "20210105",
+        "breached": true
+      },
+      "DJT": {
+        "dates_available": 122,
+        "e_stored": 2456618,
+        "peak_r": 2.2526,
+        "breach_date": "20240501",
+        "breached": true
+      },
+      "DKNG": {
+        "dates_available": 60,
+        "e_stored": 910602,
+        "peak_r": 2.6891,
+        "breach_date": "20200603",
+        "breached": true
+      },
+      "DUOL": {
+        "dates_available": 56,
+        "e_stored": 1151,
+        "peak_r": 4.5126,
+        "breach_date": "20210914",
+        "breached": true
+      },
+      "GME": {
+        "dates_available": 2038,
+        "e_stored": 231114,
+        "peak_r": 464.5303,
+        "breach_date": "20180402",
+        "breached": true
+      },
+      "GOOG": {
+        "dates_available": 21,
+        "e_stored": 1450526,
+        "peak_r": 2.086,
+        "breach_date": "20260116",
+        "breached": true
+      },
+      "HOOD": {
+        "dates_available": 56,
+        "e_stored": 6097188,
+        "peak_r": 0.5396,
+        "breach_date": null,
+        "breached": false
+      },
+      "IEP": {
+        "dates_available": 62,
+        "e_stored": 13324,
+        "peak_r": 0.9017,
+        "breach_date": null,
+        "breached": false
+      },
+      "LCID": {
+        "dates_available": 60,
+        "e_stored": 1855346,
+        "peak_r": 3.4935,
+        "breach_date": "20210902",
+        "breached": true
+      },
+      "LYFT": {
+        "dates_available": 117,
+        "e_stored": 1192010,
+        "peak_r": 2.2212,
+        "breach_date": "20190513",
+        "breached": true
+      },
+      "META": {
+        "dates_available": 43,
+        "e_stored": 3352554,
+        "peak_r": 3.725,
+        "breach_date": "20251217",
+        "breached": true
+      },
+      "MSFT": {
+        "dates_available": 195,
+        "e_stored": 8124,
+        "peak_r": 4104.866,
+        "breach_date": "20240515",
+        "breached": true
+      },
+      "NET": {
+        "dates_available": 53,
+        "e_stored": 30528,
+        "peak_r": 0.1207,
+        "breach_date": null,
+        "breached": false
+      },
+      "NFLX": {
+        "dates_available": 21,
+        "e_stored": 5892194,
+        "peak_r": 1.0829,
+        "breach_date": "20260128",
+        "breached": true
+      },
+      "NVDA": {
+        "dates_available": 256,
+        "e_stored": 3603222,
+        "peak_r": 113.6041,
+        "breach_date": "20250203",
+        "breached": true
+      },
+      "PLTR": {
+        "dates_available": 100,
+        "e_stored": 1265515,
+        "peak_r": 20.6912,
+        "breach_date": "20201117",
+        "breached": true
+      },
+      "RBLX": {
+        "dates_available": 56,
+        "e_stored": 400148,
+        "peak_r": 5.0808,
+        "breach_date": "20210413",
+        "breached": true
+      },
+      "RDDT": {
+        "dates_available": 58,
+        "e_stored": 2245742,
+        "peak_r": 0.3654,
+        "breach_date": null,
+        "breached": false
+      },
+      "RIVN": {
+        "dates_available": 56,
+        "e_stored": 1845430,
+        "peak_r": 2.3488,
+        "breach_date": "20211209",
+        "breached": true
+      },
+      "SIRI": {
+        "dates_available": 62,
+        "e_stored": 42299,
+        "peak_r": 7.9574,
+        "breach_date": "20251124",
+        "breached": true
+      },
+      "SNAP": {
+        "dates_available": 54,
+        "e_stored": 3160270,
+        "peak_r": 0.4517,
+        "breach_date": null,
+        "breached": false
+      },
+      "SOFI": {
+        "dates_available": 60,
+        "e_stored": 1647165,
+        "peak_r": 2.3208,
+        "breach_date": "20210712",
+        "breached": true
+      },
+      "TSLA": {
+        "dates_available": 438,
+        "e_stored": 739894,
+        "peak_r": 445.7565,
+        "breach_date": "20240503",
+        "breached": true
+      },
+      "U": {
+        "dates_available": 464,
+        "e_stored": 213804,
+        "peak_r": 33.9839,
+        "breach_date": "20240509",
+        "breached": true
+      },
+      "UBER": {
+        "dates_available": 55,
+        "e_stored": 697890,
+        "peak_r": 1.6535,
+        "breach_date": "20190624",
+        "breached": true
+      },
+      "W": {
+        "dates_available": 60,
+        "e_stored": 11775,
+        "peak_r": 2.8252,
+        "breach_date": "20170214",
+        "breached": true
+      },
+      "XYZ": {
+        "dates_available": 128,
+        "e_stored": 358953,
+        "peak_r": 8.1724,
+        "breach_date": "20250813",
+        "breached": true
+      },
+      "ZM": {
+        "dates_available": 55,
+        "e_stored": 76011,
+        "peak_r": 2.5736,
+        "breach_date": "20190624",
+        "breached": true
+      }
+    },
+    "verdict": "CGD False Positive Rate: 82.5% (33/40 tickers breach R\u22651.0). Breached: AAPL, ABNB, AMC, AMD, BAC, BB, BBBY, BYND, CHWY, CRWD, DASH, DJT, DKNG, DUOL, GME, GOOG, LCID, LYFT, META, MSFT, NFLX, NVDA, PLTR, RBLX, RIVN, SIRI, SOFI, TSLA, U, UBER, W, XYZ, ZM."
+  },
+  "T1_price_impact": {
+    "SPY": {
+      "cascades_sampled": 500,
+      "cpi_median_bps": -0.7984,
+      "cpi_mean_bps": -0.9741,
+      "cpi_p95_bps": -0.1995,
+      "dem_median": 0.0288,
+      "dem_mean": 0.0429,
+      "dem_p95": 0.1214
+    },
+    "TSLA": {
+      "cascades_sampled": 500,
+      "cpi_median_bps": -1.9138,
+      "cpi_mean_bps": -2.4419,
+      "cpi_p95_bps": -0.2738,
+      "dem_median": 0.0045,
+      "dem_mean": 0.0077,
+      "dem_p95": 0.0288
+    },
+    "GME": {
+      "cascades_sampled": 500,
+      "cpi_median_bps": -5.4945,
+      "cpi_mean_bps": -4.8859,
+      "cpi_p95_bps": -0.1648,
+      "dem_median": 0.2308,
+      "dem_mean": 0.3616,
+      "dem_p95": 1.4643
+    },
+    "verdict": "GME/_SPY CPI ratio: 6.88\u00d7 | GME/_TSLA CPI ratio: 2.87\u00d7"
+  }
+}

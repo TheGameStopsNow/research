@@ -1,0 +1,3029 @@
+{
+  "Citadel_FY2024": {
+    "pages": 19,
+    "text_length": 4668,
+    "key_findings": [
+      {
+        "line": "TotheMemberofCitadel Securities LLC",
+        "context": [
+          "T: (312) 298 2000, www.pwc.com/us",
+          "Report ofIndependentRegistered Public AccountingFirm",
+          "TotheMemberofCitadel Securities LLC",
+          "Opinion on theFinancial Statement\u2013 Statement of Financial Condition",
+          "We have audited the accompanyingstatement offinancialcondition ofCitadel Securities LLC(the"
+        ]
+      }
+    ],
+    "billion_dollar_amounts": []
+  },
+  "Citadel_FY2023": {
+    "pages": 19,
+    "text_length": 67308,
+    "key_findings": [
+      {
+        "line": "Note 4. Fair Value Disclosures     ...................................................................................................................................... 6",
+        "context": [
+          "Note 2. Significant Accounting Policies  ........................................................................................................................ 2",
+          "Note 3. Collateralized Transactions       ............................................................................................................................. 4",
+          "Note 4. Fair Value Disclosures     ...................................................................................................................................... 6",
+          "Note 5. Transactions with Related Parties      .................................................................................................................. 7",
+          "Note 6. Receivable from and Payable to Brokers, Dealers, Clearing Organizations, and Custodian s    ............. 8"
+        ]
+      },
+      {
+        "line": "Note 6. Receivable from and Payable to Brokers, Dealers, Clearing Organizations, and Custodian s    ............. 8",
+        "context": [
+          "Note 4. Fair Value Disclosures     ...................................................................................................................................... 6",
+          "Note 5. Transactions with Related Parties      .................................................................................................................. 7",
+          "Note 6. Receivable from and Payable to Brokers, Dealers, Clearing Organizations, and Custodian s    ............. 8",
+          "Note 7. Risk Management    ............................................................................................................................................. 8",
+          "Note 8. Commitments and Contingencies     ................................................................................................................... 10"
+        ]
+      },
+      {
+        "line": "Note 9. Derivative Financial Instruments     ..................................................................................................................... 10",
+        "context": [
+          "Note 7. Risk Management    ............................................................................................................................................. 8",
+          "Note 8. Commitments and Contingencies     ................................................................................................................... 10",
+          "Note 9. Derivative Financial Instruments     ..................................................................................................................... 10",
+          "Note 10. Contracts with Customers     ................................................................................................................................ 12",
+          "Note 11. Income Taxes    ..................................................................................................................................................... 12"
+        ]
+      },
+      {
+        "line": "To the Member of Citadel Securities LLC",
+        "context": [
+          "T: (312) 298 2000, www.pwc.com/us",
+          "Report of Independent Registered Public Accounting Firm",
+          "To the Member of Citadel Securities LLC",
+          "Opinion on the Financial Statement \u2013 Statement of Financial Condition",
+          "We have audited the accompanying statement of financial condition of Citadel Securities LLC  (the"
+        ]
+      },
+      {
+        "line": "Securities owned, at fair value  46,864",
+        "context": [
+          "Assets:",
+          "Cash and cash equivalents $ 648",
+          "Securities owned, at fair value  46,864",
+          "Receivable from brokers, dealers, clearing organizations, and custodians  1,740",
+          "Securities purchased under agreements to resell, at fair value  1,528"
+        ]
+      },
+      {
+        "line": "Receivable from brokers, dealers, clearing organizations, and custodians  1,740",
+        "context": [
+          "Cash and cash equivalents $ 648",
+          "Securities owned, at fair value  46,864",
+          "Receivable from brokers, dealers, clearing organizations, and custodians  1,740",
+          "Securities purchased under agreements to resell, at fair value  1,528",
+          "Securities borrowed  1,151"
+        ]
+      },
+      {
+        "line": "Securities purchased under agreements to resell, at fair value  1,528",
+        "context": [
+          "Securities owned, at fair value  46,864",
+          "Receivable from brokers, dealers, clearing organizations, and custodians  1,740",
+          "Securities purchased under agreements to resell, at fair value  1,528",
+          "Securities borrowed  1,151",
+          "Interest receivable  262"
+        ]
+      },
+      {
+        "line": "Total assets $ 52,344",
+        "context": [
+          "Interest receivable  262",
+          "Other assets  151",
+          "Total assets $ 52,344",
+          "LIABILITIES AND MEMBER\u2019S CAPITAL"
+        ]
+      },
+      {
+        "line": "LIABILITIES AND MEMBER\u2019S CAPITAL",
+        "context": [
+          "Total assets $ 52,344",
+          "LIABILITIES AND MEMBER\u2019S CAPITAL",
+          "Liabilities:"
+        ]
+      },
+      {
+        "line": "Securities sold, not yet purchased, at fair value $ 27,758",
+        "context": [
+          "Liabilities:",
+          "Securities sold, not yet purchased, at fair value $ 27,758",
+          "Payable to brokers, dealers, clearing organizations, and custodians  8,172",
+          "Securities sold under agreements to repurchase, at fair value  8,022"
+        ]
+      },
+      {
+        "line": "Payable to brokers, dealers, clearing organizations, and custodians  8,172",
+        "context": [
+          "Liabilities:",
+          "Securities sold, not yet purchased, at fair value $ 27,758",
+          "Payable to brokers, dealers, clearing organizations, and custodians  8,172",
+          "Securities sold under agreements to repurchase, at fair value  8,022",
+          "Securities loaned  3,019"
+        ]
+      },
+      {
+        "line": "Securities sold under agreements to repurchase, at fair value  8,022",
+        "context": [
+          "Securities sold, not yet purchased, at fair value $ 27,758",
+          "Payable to brokers, dealers, clearing organizations, and custodians  8,172",
+          "Securities sold under agreements to repurchase, at fair value  8,022",
+          "Securities loaned  3,019",
+          "Payable to affiliates  289"
+        ]
+      },
+      {
+        "line": "Payable to affiliates  289",
+        "context": [
+          "Securities sold under agreements to repurchase, at fair value  8,022",
+          "Securities loaned  3,019",
+          "Payable to affiliates  289",
+          "Interest payable  154",
+          "Other liabilities  237"
+        ]
+      },
+      {
+        "line": "Total liabilities  47,651",
+        "context": [
+          "Interest payable  154",
+          "Other liabilities  237",
+          "Total liabilities  47,651",
+          "Member\u2019s capital  4,693"
+        ]
+      },
+      {
+        "line": "Member\u2019s capital  4,693",
+        "context": [
+          "Total liabilities  47,651",
+          "Member\u2019s capital  4,693",
+          "Total liabilities and member\u2019s capital $ 52,344 CITADEL SECURITIES LLC",
+          "Statement of Financial Condition"
+        ]
+      },
+      {
+        "line": "Total liabilities and member\u2019s capital $ 52,344 CITADEL SECURITIES LLC",
+        "context": [
+          "Member\u2019s capital  4,693",
+          "Total liabilities and member\u2019s capital $ 52,344 CITADEL SECURITIES LLC",
+          "Statement of Financial Condition",
+          "(Expressed in U.S. dollars in millions)"
+        ]
+      },
+      {
+        "line": "Commission (\u201cSEC\u201d) as a broker and dealer, and is a member of the",
+        "context": [
+          "Citadel Securities LLC (the \u201cCompany\u201d), a Delaware limited liability",
+          "company, is registered with the U.S. Securities and Exchange",
+          "Commission (\u201cSEC\u201d) as a broker and dealer, and is a member of the",
+          "Financial Industry Regulatory Authority, Inc. (\u201cFINRA\u201d) and Securities",
+          "Investor Protection Corporation. CSHC US LLC (\u201cCSHC\u201d), an affiliate,"
+        ]
+      },
+      {
+        "line": "is the sole member of the Company.",
+        "context": [
+          "Financial Industry Regulatory Authority, Inc. (\u201cFINRA\u201d) and Securities",
+          "Investor Protection Corporation. CSHC US LLC (\u201cCSHC\u201d), an affiliate,",
+          "is the sole member of the Company.",
+          "Citadel Securities Group LP (\u201cCSG\u201d), an affiliate, is the manager of the",
+          "Company. The Company has entered into a portfolio management"
+        ]
+      },
+      {
+        "line": "financial instruments that were traded or arranged in Hong Kong or",
+        "context": [
+          "agreement with CSUS (Hong Kong) Limited (\u201cCS-HK\u201d), an affiliate,",
+          "whereby the Company appointed CS-HK to manage a portion of its",
+          "financial instruments that were traded or arranged in Hong Kong or",
+          "Asia. CSG and CS-HK are collectively referred to as the \u201cTrading",
+          "Managers\u201d. The Company\u2019s designated self-regulatory organization is"
+        ]
+      },
+      {
+        "line": "FINRA. The Company is a clearing member of the Depository Trust",
+        "context": [
+          "Asia. CSG and CS-HK are collectively referred to as the \u201cTrading",
+          "Managers\u201d. The Company\u2019s designated self-regulatory organization is",
+          "FINRA. The Company is a clearing member of the Depository Trust",
+          "Company, National Securities Clearing Corporation (\u201cNSCC\u201d), and",
+          "Fixed Income Clearing Corporation (\u201cFICC\u201d), (together, the Depository"
+        ]
+      },
+      {
+        "line": "of which relate to fair value measurements, that affect the reported",
+        "context": [
+          "The preparation of  the financial statement in accordance with GAAP",
+          "requires  CSG  to make estimates and assumptions, the most important",
+          "of which relate to fair value measurements, that affect the reported",
+          "amounts of assets and liabilities, and the disclosure of contingent",
+          "assets and liabilities at the date of the financial statement. Actual"
+        ]
+      },
+      {
+        "line": "Securities Owned and Securities Sold, Not Yet Purchased",
+        "context": [
+          "market funds . Cash and cash equivalents are held at global financial",
+          "institutions.",
+          "Securities Owned and Securities Sold, Not Yet Purchased",
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are"
+        ]
+      },
+      {
+        "line": "The Company\u2019s securities owned and securities sold, not yet",
+        "context": [
+          "institutions.",
+          "Securities Owned and Securities Sold, Not Yet Purchased",
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various"
+        ]
+      },
+      {
+        "line": "purchased are recorded at fair value. Securities transactions are",
+        "context": [
+          "Securities Owned and Securities Sold, Not Yet Purchased",
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,"
+        ]
+      },
+      {
+        "line": "recorded on a trade date basis. Securities owned are held at various",
+        "context": [
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,",
+          "2023 , gross securities owned of approximate ly $60.17 billion have"
+        ]
+      },
+      {
+        "line": "2023 , gross securities owned of approximate ly $60.17 billion have",
+        "context": [
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,",
+          "2023 , gross securities owned of approximate ly $60.17 billion have",
+          "been pledged as collateral to counterpartie s on contract terms which",
+          "permit the counterparties to sell or repledge these securities to others. Derivative Contracts"
+        ]
+      },
+      {
+        "line": "The fair value of a derivative financial instrument is recorded as a",
+        "context": [
+          "been pledged as collateral to counterpartie s on contract terms which",
+          "permit the counterparties to sell or repledge these securities to others. Derivative Contracts",
+          "The fair value of a derivative financial instrument is recorded as a",
+          "derivative asset or derivative liability. Derivative assets and derivative",
+          "liabilities also include receivables/payables for unsettled transactions"
+        ]
+      },
+      {
+        "line": "agreements. Options and warrants are included in securities owned or",
+        "context": [
+          "and cash collateral transferred to or from counterparties that are",
+          "determined to be subject to legally enforceable credit support",
+          "agreements. Options and warrants are included in securities owned or",
+          "securities sold, not yet purchased, as applicable, on the statement of",
+          "financial condition. Futures, swaps, and related collateral are included"
+        ]
+      },
+      {
+        "line": "securities sold, not yet purchased, as applicable, on the statement of",
+        "context": [
+          "determined to be subject to legally enforceable credit support",
+          "agreements. Options and warrants are included in securities owned or",
+          "securities sold, not yet purchased, as applicable, on the statement of",
+          "financial condition. Futures, swaps, and related collateral are included",
+          "in receivable from and payable to brokers dealers, clearing"
+        ]
+      },
+      {
+        "line": "in receivable from and payable to brokers dealers, clearing",
+        "context": [
+          "securities sold, not yet purchased, as applicable, on the statement of",
+          "financial condition. Futures, swaps, and related collateral are included",
+          "in receivable from and payable to brokers dealers, clearing",
+          "organizations, and custodians on the statement of financial condition.",
+          "Offsetting Financial Assets and Liabilities"
+        ]
+      }
+    ],
+    "billion_dollar_amounts": []
+  },
+  "Citadel_FY2021": {
+    "pages": 18,
+    "text_length": 66559,
+    "key_findings": [
+      {
+        "line": "Note 4. Fair Value Disclosures............................................................................................................................... 6",
+        "context": [
+          "Note 2. Summary of Significant Accounting Policies.............................................................................................. 2",
+          "Note 3. Collateralized Transactions........................................................................................................................ 4",
+          "Note 4. Fair Value Disclosures............................................................................................................................... 6",
+          "Note 5. Borrowings................................................................................................................................................. 7",
+          "Note 6. Transactions with Related Parties.............................................................................................................. 7"
+        ]
+      },
+      {
+        "line": "Note 7. Receivable from and Payable to Brokers, Dealers, Clearing Organizations, and Custodian..................... 7",
+        "context": [
+          "Note 5. Borrowings................................................................................................................................................. 7",
+          "Note 6. Transactions with Related Parties.............................................................................................................. 7",
+          "Note 7. Receivable from and Payable to Brokers, Dealers, Clearing Organizations, and Custodian..................... 7",
+          "Note 8. Risk Management...................................................................................................................................... 8",
+          "Note 9. Derivative Financial Instruments................................................................................................................ 9"
+        ]
+      },
+      {
+        "line": "Note 9. Derivative Financial Instruments................................................................................................................ 9",
+        "context": [
+          "Note 7. Receivable from and Payable to Brokers, Dealers, Clearing Organizations, and Custodian..................... 7",
+          "Note 8. Risk Management...................................................................................................................................... 8",
+          "Note 9. Derivative Financial Instruments................................................................................................................ 9",
+          "Note 10. Contracts with Customers.......................................................................................................................... 11",
+          "Note 11. Income Taxes............................................................................................................................................. 11"
+        ]
+      },
+      {
+        "line": "To the  Member of Citadel Securities LLC",
+        "context": [
+          "Report of Independent Registered Public Accounting Firm",
+          "To the  Member of Citadel Securities LLC"
+        ]
+      },
+      {
+        "line": "Securities owned, at fair value   73,059",
+        "context": [
+          "Assets:",
+          "Cash  $ 546",
+          "Securities owned, at fair value   73,059",
+          "Securities borrowed   1,833",
+          "Securities purchased under agreements to resell, at fair value   1,687"
+        ]
+      },
+      {
+        "line": "Securities purchased under agreements to resell, at fair value   1,687",
+        "context": [
+          "Securities owned, at fair value   73,059",
+          "Securities borrowed   1,833",
+          "Securities purchased under agreements to resell, at fair value   1,687",
+          "Receivable from clearing organizations   975",
+          "Receivable from brokers and dealers   843"
+        ]
+      },
+      {
+        "line": "Receivable from clearing organizations   975",
+        "context": [
+          "Securities borrowed   1,833",
+          "Securities purchased under agreements to resell, at fair value   1,687",
+          "Receivable from clearing organizations   975",
+          "Receivable from brokers and dealers   843",
+          "Other assets   180"
+        ]
+      },
+      {
+        "line": "Receivable from brokers and dealers   843",
+        "context": [
+          "Securities purchased under agreements to resell, at fair value   1,687",
+          "Receivable from clearing organizations   975",
+          "Receivable from brokers and dealers   843",
+          "Other assets   180",
+          "Total assets  $ 79,123"
+        ]
+      },
+      {
+        "line": "Total assets  $ 79,123",
+        "context": [
+          "Receivable from brokers and dealers   843",
+          "Other assets   180",
+          "Total assets  $ 79,123"
+        ]
+      },
+      {
+        "line": "LIABILITIES AND MEMBER\u2019S CAPITAL",
+        "context": [
+          "LIABILITIES AND MEMBER\u2019S CAPITAL",
+          "Liabilities:"
+        ]
+      },
+      {
+        "line": "Securities sold, not yet purchased, at fair value  $ 65,703",
+        "context": [
+          "Liabilities:",
+          "Securities sold, not yet purchased, at fair value  $ 65,703",
+          "Securities sold under agreements to repurchase, at fair value   4,527",
+          "Payable to brokers, dealers, clearing organization, and custodian   3,312"
+        ]
+      },
+      {
+        "line": "Securities sold under agreements to repurchase, at fair value   4,527",
+        "context": [
+          "Liabilities:",
+          "Securities sold, not yet purchased, at fair value  $ 65,703",
+          "Securities sold under agreements to repurchase, at fair value   4,527",
+          "Payable to brokers, dealers, clearing organization, and custodian   3,312",
+          "Securities loaned   906"
+        ]
+      },
+      {
+        "line": "Payable to brokers, dealers, clearing organization, and custodian   3,312",
+        "context": [
+          "Securities sold, not yet purchased, at fair value  $ 65,703",
+          "Securities sold under agreements to repurchase, at fair value   4,527",
+          "Payable to brokers, dealers, clearing organization, and custodian   3,312",
+          "Securities loaned   906",
+          "Other liabilities   261"
+        ]
+      },
+      {
+        "line": "Payable to affiliates   163",
+        "context": [
+          "Securities loaned   906",
+          "Other liabilities   261",
+          "Payable to affiliates   163",
+          "Loans and interest payable to affiliate   37",
+          "Total liabilities   74,909"
+        ]
+      },
+      {
+        "line": "Loans and interest payable to affiliate   37",
+        "context": [
+          "Other liabilities   261",
+          "Payable to affiliates   163",
+          "Loans and interest payable to affiliate   37",
+          "Total liabilities   74,909"
+        ]
+      },
+      {
+        "line": "Total liabilities   74,909",
+        "context": [
+          "Payable to affiliates   163",
+          "Loans and interest payable to affiliate   37",
+          "Total liabilities   74,909"
+        ]
+      },
+      {
+        "line": "Member\u2019s capital   4,214",
+        "context": [
+          "Member\u2019s capital   4,214",
+          "Total liabilities and member\u2019s capital  $ 79,123"
+        ]
+      },
+      {
+        "line": "Total liabilities and member\u2019s capital  $ 79,123",
+        "context": [
+          "Member\u2019s capital   4,214",
+          "Total liabilities and member\u2019s capital  $ 79,123"
+        ]
+      },
+      {
+        "line": "Commission (\u201cSEC\u201d) as a broker and dealer, and is a member of the",
+        "context": [
+          "Citadel Securities LLC (the \u201cCompany\u201d), a Delaware limited liability",
+          "company, is registered with the U.S. Securities and Exchange",
+          "Commission (\u201cSEC\u201d) as a broker and dealer, and is a member of the",
+          "Financial Industry Regulatory Authority, Inc. (\u201cFINRA\u201d) and Securities",
+          "Investor Protection Corporation. CSHC US LLC (\u201cCSHC\u201d), an affiliate,"
+        ]
+      },
+      {
+        "line": "is the sole member of the Company.",
+        "context": [
+          "Financial Industry Regulatory Authority, Inc. (\u201cFINRA\u201d) and Securities",
+          "Investor Protection Corporation. CSHC US LLC (\u201cCSHC\u201d), an affiliate,",
+          "is the sole member of the Company.",
+          "Citadel Securities Group LP (formerly known as CALC IV LP) (\u201cCSG\u201d),",
+          "an affiliate, is the manager of the Company. The Company has"
+        ]
+      },
+      {
+        "line": "CS-HK to manage a portion of its financial instruments that were",
+        "context": [
+          "entered into a portfolio management agreement with CSUS (Hong",
+          "Kong) Limited (\u201cCS-HK\u201d), an affiliate, whereby the Company appointed",
+          "CS-HK to manage a portion of its financial instruments that were",
+          "traded or arranged in Hong Kong or Asia. CSG and CS-HK are",
+          "collectively referred to as the \u201cTrading Managers\u201d. The Company\u2019s"
+        ]
+      },
+      {
+        "line": "clearing member of the Depository Trust Company, National Securities",
+        "context": [
+          "collectively referred to as the \u201cTrading Managers\u201d. The Company\u2019s",
+          "designated self-regulatory organization is FINRA. The Company is a",
+          "clearing member of the Depository Trust Company, National Securities",
+          "Clearing Corporation (\u201cNSCC\u201d), and Fixed Income Clearing",
+          "Corporation (\u201cFICC\u201d), (together, the Depository Trust & Clearing"
+        ]
+      },
+      {
+        "line": "Corporation, or \u201cDTCC\u201d) and is a member of the Options Clearing",
+        "context": [
+          "Clearing Corporation (\u201cNSCC\u201d), and Fixed Income Clearing",
+          "Corporation (\u201cFICC\u201d), (together, the Depository Trust & Clearing",
+          "Corporation, or \u201cDTCC\u201d) and is a member of the Options Clearing",
+          "Corporation.",
+          "The Company primarily engages in market making and liquidity"
+        ]
+      },
+      {
+        "line": "Securities Owned and Securities Sold, Not Yet Purchased",
+        "context": [
+          "liquid amounts on deposit. Cash is held at various global financial",
+          "institutions.",
+          "Securities Owned and Securities Sold, Not Yet Purchased",
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are"
+        ]
+      },
+      {
+        "line": "The Company\u2019s securities owned and securities sold, not yet",
+        "context": [
+          "institutions.",
+          "Securities Owned and Securities Sold, Not Yet Purchased",
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various"
+        ]
+      },
+      {
+        "line": "purchased are recorded at fair value. Securities transactions are",
+        "context": [
+          "Securities Owned and Securities Sold, Not Yet Purchased",
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,"
+        ]
+      },
+      {
+        "line": "recorded on a trade date basis. Securities owned are held at various",
+        "context": [
+          "The Company\u2019s securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,",
+          "2021, securities owned of approximately $71.33 billion, have been"
+        ]
+      },
+      {
+        "line": "2021, securities owned of approximately $71.33 billion, have been",
+        "context": [
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,",
+          "2021, securities owned of approximately $71.33 billion, have been",
+          "pledged as collateral to counterparties on contract terms which permit",
+          "the counterparties to sell or repledge these securities to others. Derivative Contracts"
+        ]
+      },
+      {
+        "line": "The fair value of a derivative financial instrument is recorded as a",
+        "context": [
+          "pledged as collateral to counterparties on contract terms which permit",
+          "the counterparties to sell or repledge these securities to others. Derivative Contracts",
+          "The fair value of a derivative financial instrument is recorded as a",
+          "derivative asset or derivative liability, respectively, prior to the",
+          "exchange of related cash flows at contractually specified intervals."
+        ]
+      },
+      {
+        "line": "warrants are included in securities owned or securities sold, not yet",
+        "context": [
+          "Derivative assets and derivative liabilities also include cash and cash",
+          "collateral transferred to or from such counterparties. Options and",
+          "warrants are included in securities owned or securities sold, not yet",
+          "purchased, as applicable, on the statement of financial condition.",
+          "Futures, swaps, and related collateral are included in receivable from"
+        ]
+      }
+    ],
+    "billion_dollar_amounts": []
+  },
+  "Citadel_FY2020": {
+    "pages": 18,
+    "text_length": 67826,
+    "key_findings": [
+      {
+        "line": "Note 9. Fair Value Disclosures ... ... .... . .... . .... .......... .... .......... ..... ... ...... .... . ......... .......... .... ... .... ... .... . . . .... . .. ............ ..... 6",
+        "context": [
+          "Note 7.",
+          "Note 8.",
+          "Note 9. Fair Value Disclosures ... ... .... . .... . .... .......... .... .......... ..... ... ...... .... . ......... .......... .... ... .... ... .... . . . .... . .. ............ ..... 6",
+          "Borrowings........................................ ......................... ................................................................................ 7",
+          "Transactions with Related Parties............................................................. ................................................. 7"
+        ]
+      },
+      {
+        "line": "Receivable from and Payable to Brokers, Dealers, Clearring Organizations, and Custodian..................... 7",
+        "context": [
+          "Borrowings........................................ ......................... ................................................................................ 7",
+          "Transactions with Related Parties............................................................. ................................................. 7",
+          "Receivable from and Payable to Brokers, Dealers, Clearring Organizations, and Custodian..................... 7",
+          "Risk Management .. . . .. .. .. .. . .. .. . .. .. . .. .. .. .. ...... .... ..... ..... ..... ... .. .. .. .... . .. .. .. ... .. ... .. .. . .. .. .. . .. .. .. . .. .. . .. .. .. . .. .. .. . ..... . . .. .. . 8",
+          "Derivative Financial Instruments ..... .. .. ... ... .... ........................ .. .. . .. .. .. ... .. .. . .. .. . .. .. .. .... . .. . .. .. . .. .. .. . .. .. .. . .. .. .. . ..... 10"
+        ]
+      },
+      {
+        "line": "Derivative Financial Instruments ..... .. .. ... ... .... ........................ .. .. . .. .. .. ... .. .. . .. .. . .. .. .. .... . .. . .. .. . .. .. .. . .. .. .. . .. .. .. . ..... 10",
+        "context": [
+          "Receivable from and Payable to Brokers, Dealers, Clearring Organizations, and Custodian..................... 7",
+          "Risk Management .. . . .. .. .. .. . .. .. . .. .. . .. .. .. .. ...... .... ..... ..... ..... ... .. .. .. .... . .. .. .. ... .. ... .. .. . .. .. .. . .. .. .. . .. .. . .. .. .. . .. .. .. . ..... . . .. .. . 8",
+          "Derivative Financial Instruments ..... .. .. ... ... .... ........................ .. .. . .. .. .. ... .. .. . .. .. . .. .. .. .... . .. . .. .. . .. .. .. . .. .. .. . .. .. .. . ..... 10",
+          "Note 10. Contracts with Customers .......................... ............................................................................................ .... 11",
+          "Note 11. Income Taxes ............................................................. .................................................................... ............ 11"
+        ]
+      },
+      {
+        "line": "To the Member and the Management of Citadel Securities LLC",
+        "context": [
+          "pwc",
+          "Report of Independent Registered Public Accormting Finn",
+          "To the Member and the Management of Citadel Securities LLC",
+          "Opinion on the Financial Statement -Statement of Financial Condition",
+          "We have audited the accompanying statement of financial condition of Citadel Securities LLC (the"
+        ]
+      },
+      {
+        "line": "Securities owned, at fair value 66,707",
+        "context": [
+          "Assets:",
+          "Cash $ 523",
+          "Securities owned, at fair value 66,707",
+          "Securities borrowed 1,628",
+          "Receivable from brokers and dealers 841"
+        ]
+      },
+      {
+        "line": "Receivable from brokers and dealers 841",
+        "context": [
+          "Securities owned, at fair value 66,707",
+          "Securities borrowed 1,628",
+          "Receivable from brokers and dealers 841",
+          "Receivable from clearing organizations and custodian 648",
+          "Securities purchased under agreements to resell 492"
+        ]
+      },
+      {
+        "line": "Receivable from clearing organizations and custodian 648",
+        "context": [
+          "Securities borrowed 1,628",
+          "Receivable from brokers and dealers 841",
+          "Receivable from clearing organizations and custodian 648",
+          "Securities purchased under agreements to resell 492",
+          "Other assets 165"
+        ]
+      },
+      {
+        "line": "Total assets $ 71.004",
+        "context": [
+          "Securities purchased under agreements to resell 492",
+          "Other assets 165",
+          "Total assets $ 71.004",
+          "LIABILITIES AND MEMBER 'S CAPITAL",
+          "Liabilities:"
+        ]
+      },
+      {
+        "line": "LIABILITIES AND MEMBER 'S CAPITAL",
+        "context": [
+          "Other assets 165",
+          "Total assets $ 71.004",
+          "LIABILITIES AND MEMBER 'S CAPITAL",
+          "Liabilities:",
+          "Securities sold, not yet purchased , at fair value $ 57,506"
+        ]
+      },
+      {
+        "line": "Securities sold, not yet purchased , at fair value $ 57,506",
+        "context": [
+          "LIABILITIES AND MEMBER 'S CAPITAL",
+          "Liabilities:",
+          "Securities sold, not yet purchased , at fair value $ 57,506",
+          "Securities sold under agreeme nts to repurchase 4,472",
+          "2,847 Payable to brokers, dealers, and clearing org\"-'a_n....;;iz\"\"'a\"\"\"ti-\"-on-'-s\"-------------------- ----\"-'-'--"
+        ]
+      },
+      {
+        "line": "Securities sold under agreeme nts to repurchase 4,472",
+        "context": [
+          "Liabilities:",
+          "Securities sold, not yet purchased , at fair value $ 57,506",
+          "Securities sold under agreeme nts to repurchase 4,472",
+          "2,847 Payable to brokers, dealers, and clearing org\"-'a_n....;;iz\"\"'a\"\"\"ti-\"-on-'-s\"-------------------- ----\"-'-'--",
+          "1,653 Loans and interest pa~,_a'--b\"\"'-le-'---\"to'--a.;_ff_i_lia'--t\"\"'-e __________________________ ..:...;....;_;,__"
+        ]
+      },
+      {
+        "line": "2,847 Payable to brokers, dealers, and clearing org\"-'a_n....;;iz\"\"'a\"\"\"ti-\"-on-'-s\"-------------------- ----\"-'-'--",
+        "context": [
+          "Securities sold, not yet purchased , at fair value $ 57,506",
+          "Securities sold under agreeme nts to repurchase 4,472",
+          "2,847 Payable to brokers, dealers, and clearing org\"-'a_n....;;iz\"\"'a\"\"\"ti-\"-on-'-s\"-------------------- ----\"-'-'--",
+          "1,653 Loans and interest pa~,_a'--b\"\"'-le-'---\"to'--a.;_ff_i_lia'--t\"\"'-e __________________________ ..:...;....;_;,__",
+          "Securities loaned 867"
+        ]
+      },
+      {
+        "line": "Payable to affiliates 168",
+        "context": [
+          "Securities loaned 867",
+          "Other liabilities 342",
+          "Payable to affiliates 168",
+          "Total liabilities 67,855",
+          "Member's capital 3,149"
+        ]
+      },
+      {
+        "line": "Total liabilities 67,855",
+        "context": [
+          "Other liabilities 342",
+          "Payable to affiliates 168",
+          "Total liabilities 67,855",
+          "Member's capital 3,149",
+          "Total liabilities and member's capital $ 71,004"
+        ]
+      },
+      {
+        "line": "Member's capital 3,149",
+        "context": [
+          "Payable to affiliates 168",
+          "Total liabilities 67,855",
+          "Member's capital 3,149",
+          "Total liabilities and member's capital $ 71,004",
+          "See notes to statement of financial condition."
+        ]
+      },
+      {
+        "line": "Total liabilities and member's capital $ 71,004",
+        "context": [
+          "Total liabilities 67,855",
+          "Member's capital 3,149",
+          "Total liabilities and member's capital $ 71,004",
+          "See notes to statement of financial condition.",
+          "CITADEL SECURITIES LLC"
+        ]
+      },
+      {
+        "line": "Commission (\"SEC\") as a broker and dealer, and is a member of the",
+        "context": [
+          "Citadel Securities LLC {the \"Company \"), a Delaware limited liability",
+          "company , is registered with the U.S. Securities and Exchange",
+          "Commission (\"SEC\") as a broker and dealer, and is a member of the",
+          "Financial Industry Regulatory Authority, Inc. (\"FINRA\") and Securities",
+          "Investor Protection Corporation. CSHC US LLC (\"CSHC\"), an affiliate,"
+        ]
+      },
+      {
+        "line": "is the sole member of the Company.",
+        "context": [
+          "Financial Industry Regulatory Authority, Inc. (\"FINRA\") and Securities",
+          "Investor Protection Corporation. CSHC US LLC (\"CSHC\"), an affiliate,",
+          "is the sole member of the Company.",
+          "CALC IV LP (\"CAL4\"), an affiliate, is the manager of the Company .",
+          "The Company has enterecl into a portfolio management agreement"
+        ]
+      },
+      {
+        "line": "Company is a clearing member of the Depository Trust Company ,",
+        "context": [
+          "and CS-HK are collective ly referred to as the \"Trading Managers \". The",
+          "Company 's designated selif-regulatory organization is FINRA. The",
+          "Company is a clearing member of the Depository Trust Company ,",
+          "National Securities Clearing Corporation (\"NSCC\"), and Fixed Income",
+          "Clearing Corporation (\"FICC\"), (together, the Depository Trust &"
+        ]
+      },
+      {
+        "line": "Clearing Corporation, or \"DTCC\") and is a member of the Options",
+        "context": [
+          "National Securities Clearing Corporation (\"NSCC\"), and Fixed Income",
+          "Clearing Corporation (\"FICC\"), (together, the Depository Trust &",
+          "Clearing Corporation, or \"DTCC\") and is a member of the Options",
+          "Clearing Corporation.",
+          "The Company primarily engages in market making and liquidity"
+        ]
+      },
+      {
+        "line": "Designated Market Maker for equity securities on the New York Stock",
+        "context": [
+          "and NTHFS is currently effective through June 30, 2021.",
+          "In November 2020, the Company acquired trading rights to act as",
+          "Designated Market Maker for equity securities on the New York Stock",
+          "Exchange (\"NYSE\") from IMC-Chicago, LLC. Upon closing of the",
+          "transaction , the Company recognized finite life intangible assets with a"
+        ]
+      },
+      {
+        "line": "approximated fair value at the time of purchase, and are included in",
+        "context": [
+          "transaction , the Company recognized finite life intangible assets with a",
+          "useful life of five years attributab le to the trading rights, which",
+          "approximated fair value at the time of purchase, and are included in",
+          "other assets on the statement of financial condition .",
+          "Summary of Significant Accounting Policies"
+        ]
+      },
+      {
+        "line": "institutions. Securities Owned and Securities Sold. Not Yet Purchased",
+        "context": [
+          "The Company defines cash on the statement of financial condition as",
+          "liquid amounts on deposit. Cash is held at various global financial",
+          "institutions. Securities Owned and Securities Sold. Not Yet Purchased",
+          "The Company 's securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are"
+        ]
+      },
+      {
+        "line": "The Company 's securities owned and securities sold, not yet",
+        "context": [
+          "liquid amounts on deposit. Cash is held at various global financial",
+          "institutions. Securities Owned and Securities Sold. Not Yet Purchased",
+          "The Company 's securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various"
+        ]
+      },
+      {
+        "line": "purchased are recorded at fair value. Securities transactions are",
+        "context": [
+          "institutions. Securities Owned and Securities Sold. Not Yet Purchased",
+          "The Company 's securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,"
+        ]
+      },
+      {
+        "line": "recorded on a trade date basis. Securities owned are held at various",
+        "context": [
+          "The Company 's securities owned and securities sold, not yet",
+          "purchased are recorded at fair value. Securities transactions are",
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,",
+          "2020, securities owned of approximately $63.86 billion, have been"
+        ]
+      },
+      {
+        "line": "2020, securities owned of approximately $63.86 billion, have been",
+        "context": [
+          "recorded on a trade date basis. Securities owned are held at various",
+          "global financial institutions and at the DTCC. As of December 31,",
+          "2020, securities owned of approximately $63.86 billion, have been",
+          "pledged as collateral to counterpart ies on contract terms which permit",
+          "the counterparties to sell or repledge these securities to others."
+        ]
+      },
+      {
+        "line": "Derivative financial instruments are referred to as off-balance sheet",
+        "context": [
+          "the counterparties to sell or repledge these securities to others.",
+          "Derivative Contracts",
+          "Derivative financial instruments are referred to as off-balance sheet",
+          "instruments because neither their notional amounts nor the underlying",
+          "reference instruments are reported as securities owned or securities"
+        ]
+      },
+      {
+        "line": "reference instruments are reported as securities owned or securities",
+        "context": [
+          "Derivative financial instruments are referred to as off-balance sheet",
+          "instruments because neither their notional amounts nor the underlying",
+          "reference instruments are reported as securities owned or securities",
+          "sold, not yet purchased on the statement of financial condition. Rather,",
+          "if derivative financial instruments are cash-settled at contractually"
+        ]
+      },
+      {
+        "line": "sold, not yet purchased on the statement of financial condition. Rather,",
+        "context": [
+          "instruments because neither their notional amounts nor the underlying",
+          "reference instruments are reported as securities owned or securities",
+          "sold, not yet purchased on the statement of financial condition. Rather,",
+          "if derivative financial instruments are cash-settled at contractually",
+          "specified intervals, the resulting gain or loss is recorded as a derivative"
+        ]
+      }
+    ],
+    "billion_dollar_amounts": []
+  },
+  "Virtu_FY2024": {
+    "pages": 26,
+    "text_length": 65422,
+    "key_findings": [
+      {
+        "line": "To the Member ofVirtu Americas LLC",
+        "context": [
+          "pwc",
+          "Report of Independent Registered Public Accounting Firm",
+          "To the Member ofVirtu Americas LLC",
+          "Opinion on the Financial Statements",
+          "We have audited the accompanying statement of financial condition ofVirtu Americas LLC (the"
+        ]
+      },
+      {
+        "line": "Trading assets, at fair value",
+        "context": [
+          "Cash and cash equivalents   $ 549,246",
+          "Cash segregated under federal and other regulations    41,236",
+          "Trading assets, at fair value",
+          "Financial instruments owned    4,664,091",
+          "Financial instruments owned and pledged    2,282,637"
+        ]
+      },
+      {
+        "line": "Financial instruments owned    4,664,091",
+        "context": [
+          "Cash segregated under federal and other regulations    41,236",
+          "Trading assets, at fair value",
+          "Financial instruments owned    4,664,091",
+          "Financial instruments owned and pledged    2,282,637",
+          "Securities borrowed    2,293,690"
+        ]
+      },
+      {
+        "line": "Financial instruments owned and pledged    2,282,637",
+        "context": [
+          "Trading assets, at fair value",
+          "Financial instruments owned    4,664,091",
+          "Financial instruments owned and pledged    2,282,637",
+          "Securities borrowed    2,293,690",
+          "Securities purchased under agreements to resell    983,941"
+        ]
+      },
+      {
+        "line": "Receivable from customers    74,202",
+        "context": [
+          "Securities purchased under agreements to resell    983,941",
+          "Receivables from brokers, dealers and clearing organizations    704,688",
+          "Receivable from customers    74,202",
+          "Goodwill and intangible assets    12,993",
+          "Operating lease right-of-use assets    4,342"
+        ]
+      },
+      {
+        "line": "Total assets   $ 11,655,902",
+        "context": [
+          "Operating lease right-of-use assets    4,342",
+          "Other assets    44,836",
+          "Total assets   $ 11,655,902",
+          "Liabilities and Member's Equity"
+        ]
+      },
+      {
+        "line": "Liabilities and Member's Equity",
+        "context": [
+          "Total assets   $ 11,655,902",
+          "Liabilities and Member's Equity",
+          "Liabilities",
+          "Trading liabilities, at fair value"
+        ]
+      },
+      {
+        "line": "Trading liabilities, at fair value",
+        "context": [
+          "Liabilities and Member's Equity",
+          "Liabilities",
+          "Trading liabilities, at fair value",
+          "Financial instruments sold, not yet purchased   $ 5,863,610",
+          "Securities loaned    2,437,319"
+        ]
+      },
+      {
+        "line": "Financial instruments sold, not yet purchased   $ 5,863,610",
+        "context": [
+          "Liabilities",
+          "Trading liabilities, at fair value",
+          "Financial instruments sold, not yet purchased   $ 5,863,610",
+          "Securities loaned    2,437,319",
+          "Securities sold under agreements to repurchase    1,271,788"
+        ]
+      },
+      {
+        "line": "Securities sold under agreements to repurchase    1,271,788",
+        "context": [
+          "Financial instruments sold, not yet purchased   $ 5,863,610",
+          "Securities loaned    2,437,319",
+          "Securities sold under agreements to repurchase    1,271,788",
+          "Payables to brokers, dealers and clearing organizations    636,691",
+          "Payable to affiliates    109,911"
+        ]
+      },
+      {
+        "line": "Payable to affiliates    109,911",
+        "context": [
+          "Securities sold under agreements to repurchase    1,271,788",
+          "Payables to brokers, dealers and clearing organizations    636,691",
+          "Payable to affiliates    109,911",
+          "Payable to customers    15,622",
+          "Operating lease liabilities    4,342"
+        ]
+      },
+      {
+        "line": "Payable to customers    15,622",
+        "context": [
+          "Payables to brokers, dealers and clearing organizations    636,691",
+          "Payable to affiliates    109,911",
+          "Payable to customers    15,622",
+          "Operating lease liabilities    4,342",
+          "Accounts payable, accrued expenses and other liabilities    79,257"
+        ]
+      },
+      {
+        "line": "Total liabilities    10,418,540",
+        "context": [
+          "Operating lease liabilities    4,342",
+          "Accounts payable, accrued expenses and other liabilities    79,257",
+          "Total liabilities    10,418,540",
+          "Subordinated borrowings    250,000"
+        ]
+      },
+      {
+        "line": "Member's equity    987,362",
+        "context": [
+          "Subordinated borrowings    250,000",
+          "Member's equity    987,362",
+          "Total liabilities and member's equity   $ 11,655,902"
+        ]
+      },
+      {
+        "line": "Total liabilities and member's equity   $ 11,655,902",
+        "context": [
+          "Member's equity    987,362",
+          "Total liabilities and member's equity   $ 11,655,902"
+        ]
+      },
+      {
+        "line": "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+        "context": [
+          "1. Organization and Description of the Business",
+          "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member is Virtu Strategic Holdings LLC. The Company\u2019s ultimate parent is Virtu",
+          "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Financial LLC (\"Virtu\") and operates and controls all"
+        ]
+      },
+      {
+        "line": "of Delaware. The Company\u2019s member is Virtu Strategic Holdings LLC. The Company\u2019s ultimate parent is Virtu",
+        "context": [
+          "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member is Virtu Strategic Holdings LLC. The Company\u2019s ultimate parent is Virtu",
+          "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Financial LLC (\"Virtu\") and operates and controls all",
+          "of the businesses and affairs of Virtu and, through Virtu and its subsidiaries, continues to conduct the business"
+        ]
+      },
+      {
+        "line": "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Financial LLC (\"Virtu\") and operates and controls all",
+        "context": [
+          "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member is Virtu Strategic Holdings LLC. The Company\u2019s ultimate parent is Virtu",
+          "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Financial LLC (\"Virtu\") and operates and controls all",
+          "of the businesses and affairs of Virtu and, through Virtu and its subsidiaries, continues to conduct the business",
+          "conducted by such subsidiaries."
+        ]
+      },
+      {
+        "line": "Company is a clearing member of principal stock exchanges in the United States, including the New York Stock",
+        "context": [
+          "The Company is a broker-dealer registered with the U.S. Securities Exchange Commission (\u201cSEC\u201d). The",
+          "Company is a clearing member of principal stock exchanges in the United States, including the New York Stock",
+          "Exchange (\u201cNYSE\u201d) and is a member of the Financial Industry Regulatory Authority (\u201cFINRA\u201d), the Depository",
+          "Trust & Clearing Corporation, the National Securities Clearing Corporation (\u201cNSCC\u201d), the Options Clearing"
+        ]
+      },
+      {
+        "line": "Exchange (\u201cNYSE\u201d) and is a member of the Financial Industry Regulatory Authority (\u201cFINRA\u201d), the Depository",
+        "context": [
+          "The Company is a broker-dealer registered with the U.S. Securities Exchange Commission (\u201cSEC\u201d). The",
+          "Company is a clearing member of principal stock exchanges in the United States, including the New York Stock",
+          "Exchange (\u201cNYSE\u201d) and is a member of the Financial Industry Regulatory Authority (\u201cFINRA\u201d), the Depository",
+          "Trust & Clearing Corporation, the National Securities Clearing Corporation (\u201cNSCC\u201d), the Options Clearing",
+          "Corporation (\"OCC\"), and the Municipal Securities Rulemaking Board (\"MSRB\"). The Company\u2019s designated"
+        ]
+      },
+      {
+        "line": "Company is an active participant on all major domestic equity exchanges. As a complement to electronic market",
+        "context": [
+          "engages in principal trading in market making direct-to-clients as well as in a supplemental capacity on",
+          "exchanges, electronic communications networks (\"ECNs\") and alternative trading systems (\"ATSs\"). The",
+          "Company is an active participant on all major domestic equity exchanges. As a complement to electronic market",
+          "making, the Company's cash trading business handles specialized orders and also transacts on the OTC Bulletin",
+          "Board marketplaces operated by OTC Markets Group Inc."
+        ]
+      },
+      {
+        "line": "management to make estimates and assumptions regarding measurements including the fair value of trading",
+        "context": [
+          "The Company's financial statement is prepared in conformity with U.S. GAAP, which require",
+          "management to make estimates and assumptions regarding measurements including the fair value of trading",
+          "assets and liabilities, goodwill and intangibles, compensation accruals, capitalized software, and other matters",
+          "that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the"
+        ]
+      },
+      {
+        "line": "approximates their fair value due to the short-term nature of these instruments.",
+        "context": [
+          "Cash and cash equivalents include money market accounts, which are payable on demand and short-",
+          "term investments with an original maturity of less than 90 days. The carrying amount of such cash equivalents",
+          "approximates their fair value due to the short-term nature of these instruments.",
+          "The Company maintains cash in bank deposit accounts that, at times, may exceed federally insured"
+        ]
+      },
+      {
+        "line": "is greater than 102% of the fair value of the underlying securities borrowed or loaned. The Company monitors",
+        "context": [
+          "to sell or repledge the securities received. Securities borrowed or loaned are recorded based on the amount of",
+          "cash collateral advanced or received. The initial cash collateral advanced or received generally approximates or",
+          "is greater than 102% of the fair value of the underlying securities borrowed or loaned. The Company monitors",
+          "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+          "Receivables and payables with the same counterparty are not offset in the Statement of Financial Condition."
+        ]
+      },
+      {
+        "line": "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+        "context": [
+          "cash collateral advanced or received. The initial cash collateral advanced or received generally approximates or",
+          "is greater than 102% of the fair value of the underlying securities borrowed or loaned. The Company monitors",
+          "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+          "Receivables and payables with the same counterparty are not offset in the Statement of Financial Condition."
+        ]
+      },
+      {
+        "line": "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+        "context": [
+          "Receivables and payables with the same counterparty are not offset in the Statement of Financial Condition.",
+          "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+          "In a repurchase agreement, securities sold under agreements to repurchase are treated as collateralized"
+        ]
+      },
+      {
+        "line": "In a repurchase agreement, securities sold under agreements to repurchase are treated as collateralized",
+        "context": [
+          "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+          "In a repurchase agreement, securities sold under agreements to repurchase are treated as collateralized",
+          "financing transactions and are recorded at contract value, plus accrued interest, which approximates fair value.",
+          "It is the Company\u2019s policy that its custodian take possession of the underlying collateral securities with a fair"
+        ]
+      },
+      {
+        "line": "financing transactions and are recorded at contract value, plus accrued interest, which approximates fair value.",
+        "context": [
+          "In a repurchase agreement, securities sold under agreements to repurchase are treated as collateralized",
+          "financing transactions and are recorded at contract value, plus accrued interest, which approximates fair value.",
+          "It is the Company\u2019s policy that its custodian take possession of the underlying collateral securities with a fair",
+          "value approximately equal to the principal amount of the repurchase transaction, including accrued interest. For"
+        ]
+      },
+      {
+        "line": "reverse repurchase agreements, the Company typically requires delivery of collateral with a fair value",
+        "context": [
+          "It is the Company\u2019s policy that its custodian take possession of the underlying collateral securities with a fair",
+          "value approximately equal to the principal amount of the repurchase transaction, including accrued interest. For",
+          "reverse repurchase agreements, the Company typically requires delivery of collateral with a fair value",
+          "approximately equal to the carrying value of the relevant assets in the Statement of Financial Condition. To",
+          "ensure that the fair value of the underlying collateral remains sufficient, the collateral is valued daily with"
+        ]
+      },
+      {
+        "line": "ensure that the fair value of the underlying collateral remains sufficient, the collateral is valued daily with",
+        "context": [
+          "reverse repurchase agreements, the Company typically requires delivery of collateral with a fair value",
+          "approximately equal to the carrying value of the relevant assets in the Statement of Financial Condition. To",
+          "ensure that the fair value of the underlying collateral remains sufficient, the collateral is valued daily with",
+          "additional collateral obtained or excess collateral returned, as permitted under contractual provisions."
+        ]
+      }
+    ],
+    "billion_dollar_amounts": []
+  },
+  "Virtu_FY2023": {
+    "pages": 26,
+    "text_length": 61303,
+    "key_findings": [
+      {
+        "line": "Trading assets, at fair value",
+        "context": [
+          "Cash and cash equivalents   $ 525,455",
+          "Cash segregated under federal and other regulations    34,775",
+          "Trading assets, at fair value",
+          "Financial instruments owned    5,762,533",
+          "Financial instruments owned and pledged    1,230,858"
+        ]
+      },
+      {
+        "line": "Financial instruments owned    5,762,533",
+        "context": [
+          "Cash segregated under federal and other regulations    34,775",
+          "Trading assets, at fair value",
+          "Financial instruments owned    5,762,533",
+          "Financial instruments owned and pledged    1,230,858",
+          "Securities borrowed    1,722,003"
+        ]
+      },
+      {
+        "line": "Financial instruments owned and pledged    1,230,858",
+        "context": [
+          "Trading assets, at fair value",
+          "Financial instruments owned    5,762,533",
+          "Financial instruments owned and pledged    1,230,858",
+          "Securities borrowed    1,722,003",
+          "Securities purchased under agreements to resell    1,512,114"
+        ]
+      },
+      {
+        "line": "Receivable from customers    29,246",
+        "context": [
+          "Securities purchased under agreements to resell    1,512,114",
+          "Receivables from brokers, dealers and clearing organizations    463,806",
+          "Receivable from customers    29,246",
+          "Goodwill and intangible assets    12,993",
+          "Operating lease right-of-use assets    7,324"
+        ]
+      },
+      {
+        "line": "Total assets   $ 11,352,248",
+        "context": [
+          "Operating lease right-of-use assets    7,324",
+          "Other assets    51,141",
+          "Total assets   $ 11,352,248",
+          "Liabilities and Member's Equity"
+        ]
+      },
+      {
+        "line": "Liabilities and Member's Equity",
+        "context": [
+          "Total assets   $ 11,352,248",
+          "Liabilities and Member's Equity",
+          "Liabilities",
+          "Trading liabilities, at fair value"
+        ]
+      },
+      {
+        "line": "Trading liabilities, at fair value",
+        "context": [
+          "Liabilities and Member's Equity",
+          "Liabilities",
+          "Trading liabilities, at fair value",
+          "Financial instruments sold, not yet purchased   $ 5,822,231",
+          "Securities loaned    1,332,936"
+        ]
+      },
+      {
+        "line": "Financial instruments sold, not yet purchased   $ 5,822,231",
+        "context": [
+          "Liabilities",
+          "Trading liabilities, at fair value",
+          "Financial instruments sold, not yet purchased   $ 5,822,231",
+          "Securities loaned    1,332,936",
+          "Securities sold under agreements to repurchase    1,795,994"
+        ]
+      },
+      {
+        "line": "Securities sold under agreements to repurchase    1,795,994",
+        "context": [
+          "Financial instruments sold, not yet purchased   $ 5,822,231",
+          "Securities loaned    1,332,936",
+          "Securities sold under agreements to repurchase    1,795,994",
+          "Payables to brokers, dealers and clearing organizations    1,065,980",
+          "Payable to affiliates    92,710"
+        ]
+      },
+      {
+        "line": "Payable to affiliates    92,710",
+        "context": [
+          "Securities sold under agreements to repurchase    1,795,994",
+          "Payables to brokers, dealers and clearing organizations    1,065,980",
+          "Payable to affiliates    92,710",
+          "Payable to customers    7,641",
+          "Operating lease liabilities    7,480"
+        ]
+      },
+      {
+        "line": "Payable to customers    7,641",
+        "context": [
+          "Payables to brokers, dealers and clearing organizations    1,065,980",
+          "Payable to affiliates    92,710",
+          "Payable to customers    7,641",
+          "Operating lease liabilities    7,480",
+          "Accounts payable, accrued expenses and other liabilities    81,145"
+        ]
+      },
+      {
+        "line": "Total liabilities    10,206,117",
+        "context": [
+          "Operating lease liabilities    7,480",
+          "Accounts payable, accrued expenses and other liabilities    81,145",
+          "Total liabilities    10,206,117",
+          "Subordinated borrowings    250,000"
+        ]
+      },
+      {
+        "line": "Member's equity    896,131",
+        "context": [
+          "Subordinated borrowings    250,000",
+          "Member's equity    896,131",
+          "Total liabilities and member's equity   $ 11,352,248"
+        ]
+      },
+      {
+        "line": "Total liabilities and member's equity   $ 11,352,248",
+        "context": [
+          "Member's equity    896,131",
+          "Total liabilities and member's equity   $ 11,352,248"
+        ]
+      },
+      {
+        "line": "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+        "context": [
+          "1. Organization and Description of the Business",
+          "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member is Virtu Strategic Holdings LLC. The Company\u2019s ultimate parent is Virtu",
+          "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Financial LLC (\"Virtu\") and operates and controls all"
+        ]
+      },
+      {
+        "line": "of Delaware. The Company\u2019s member is Virtu Strategic Holdings LLC. The Company\u2019s ultimate parent is Virtu",
+        "context": [
+          "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member is Virtu Strategic Holdings LLC. The Company\u2019s ultimate parent is Virtu",
+          "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Financial LLC (\"Virtu\") and operates and controls all",
+          "of the businesses and affairs of Virtu and, through Virtu and its subsidiaries, continues to conduct the business"
+        ]
+      },
+      {
+        "line": "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Financial LLC (\"Virtu\") and operates and controls all",
+        "context": [
+          "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member is Virtu Strategic Holdings LLC. The Company\u2019s ultimate parent is Virtu",
+          "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Financial LLC (\"Virtu\") and operates and controls all",
+          "of the businesses and affairs of Virtu and, through Virtu and its subsidiaries, continues to conduct the business",
+          "conducted by such subsidiaries."
+        ]
+      },
+      {
+        "line": "Company is a clearing member of principal stock exchanges in the United States, including the New York Stock",
+        "context": [
+          "The Company is a broker-dealer registered with the U.S. Securities Exchange Commission (\u201cSEC\u201d). The",
+          "Company is a clearing member of principal stock exchanges in the United States, including the New York Stock",
+          "Exchange (\u201cNYSE\u201d) and is a member of the Financial Industry Regulatory Authority (\u201cFINRA\u201d), the Depository",
+          "Trust & Clearing Corporation, the National Securities Clearing Corporation (\u201cNSCC\u201d), the Options Clearing"
+        ]
+      },
+      {
+        "line": "Exchange (\u201cNYSE\u201d) and is a member of the Financial Industry Regulatory Authority (\u201cFINRA\u201d), the Depository",
+        "context": [
+          "The Company is a broker-dealer registered with the U.S. Securities Exchange Commission (\u201cSEC\u201d). The",
+          "Company is a clearing member of principal stock exchanges in the United States, including the New York Stock",
+          "Exchange (\u201cNYSE\u201d) and is a member of the Financial Industry Regulatory Authority (\u201cFINRA\u201d), the Depository",
+          "Trust & Clearing Corporation, the National Securities Clearing Corporation (\u201cNSCC\u201d), the Options Clearing",
+          "Corporation, and the Municipal Securities Rulemaking Board (\"MSRB\"). The Company\u2019s designated examining"
+        ]
+      },
+      {
+        "line": "Company is an active participant on all major domestic equity exchanges. As a complement to electronic market",
+        "context": [
+          "engages in principal trading in market making direct-to-clients as well as in a supplemental capacity on",
+          "exchanges, electronic communications networks (\"ECNs\") and alternative trading systems (\"ATSs\"). The",
+          "Company is an active participant on all major domestic equity exchanges. As a complement to electronic market",
+          "making, the Company's cash trading business handles specialized orders and also transacts on the OTC Bulletin",
+          "Board marketplaces operated by OTC Markets Group Inc."
+        ]
+      },
+      {
+        "line": "management to make estimates and assumptions regarding measurements including the fair value of trading",
+        "context": [
+          "The Company's financial statement are prepared in conformity with U.S. GAAP, which require",
+          "management to make estimates and assumptions regarding measurements including the fair value of trading",
+          "assets and liabilities, goodwill and intangibles, compensation accruals, capitalized software, and other matters",
+          "that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the"
+        ]
+      },
+      {
+        "line": "approximates their fair value due to the short-term nature of these instruments.",
+        "context": [
+          "Cash and cash equivalents include money market accounts, which are payable on demand and short-",
+          "term investments with an original maturity of less than 90 days. The carrying amount of such cash equivalents",
+          "approximates their fair value due to the short-term nature of these instruments.",
+          "The Company maintains cash in bank deposit accounts that, at times, may exceed federally insured"
+        ]
+      },
+      {
+        "line": "is greater than 102% of the fair value of the underlying securities borrowed or loaned. The Company monitors",
+        "context": [
+          "to sell or repledge the securities received. Securities borrowed or loaned are recorded based on the amount of",
+          "cash collateral advanced or received. The initial cash collateral advanced or received generally approximates or",
+          "is greater than 102% of the fair value of the underlying securities borrowed or loaned. The Company monitors",
+          "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+          "Receivables and payables with the same counterparty are not offset in the Statement of Financial Condition."
+        ]
+      },
+      {
+        "line": "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+        "context": [
+          "cash collateral advanced or received. The initial cash collateral advanced or received generally approximates or",
+          "is greater than 102% of the fair value of the underlying securities borrowed or loaned. The Company monitors",
+          "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+          "Receivables and payables with the same counterparty are not offset in the Statement of Financial Condition."
+        ]
+      },
+      {
+        "line": "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+        "context": [
+          "5",
+          "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+          "In a repurchase agreement, securities sold under agreements to repurchase are treated as collateralized"
+        ]
+      },
+      {
+        "line": "In a repurchase agreement, securities sold under agreements to repurchase are treated as collateralized",
+        "context": [
+          "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+          "In a repurchase agreement, securities sold under agreements to repurchase are treated as collateralized",
+          "financing transactions and are recorded at contract value, plus accrued interest, which approximates fair value.",
+          "It is the Company\u2019s policy that its custodian take possession of the underlying collateral securities with a fair"
+        ]
+      },
+      {
+        "line": "financing transactions and are recorded at contract value, plus accrued interest, which approximates fair value.",
+        "context": [
+          "In a repurchase agreement, securities sold under agreements to repurchase are treated as collateralized",
+          "financing transactions and are recorded at contract value, plus accrued interest, which approximates fair value.",
+          "It is the Company\u2019s policy that its custodian take possession of the underlying collateral securities with a fair",
+          "value approximately equal to the principal amount of the repurchase transaction, including accrued interest. For"
+        ]
+      },
+      {
+        "line": "reverse repurchase agreements, the Company typically requires delivery of collateral with a fair value",
+        "context": [
+          "It is the Company\u2019s policy that its custodian take possession of the underlying collateral securities with a fair",
+          "value approximately equal to the principal amount of the repurchase transaction, including accrued interest. For",
+          "reverse repurchase agreements, the Company typically requires delivery of collateral with a fair value",
+          "approximately equal to the carrying value of the relevant assets in the Statement of Financial Condition. To",
+          "ensure that the fair value of the underlying collateral remains sufficient, the collateral is valued daily with"
+        ]
+      },
+      {
+        "line": "ensure that the fair value of the underlying collateral remains sufficient, the collateral is valued daily with",
+        "context": [
+          "reverse repurchase agreements, the Company typically requires delivery of collateral with a fair value",
+          "approximately equal to the carrying value of the relevant assets in the Statement of Financial Condition. To",
+          "ensure that the fair value of the underlying collateral remains sufficient, the collateral is valued daily with",
+          "additional collateral obtained or excess collateral returned, as permitted under contractual provisions."
+        ]
+      },
+      {
+        "line": "amounts due for unsettled trades, open equity in futures transactions, securities failed to deliver or failed to",
+        "context": [
+          "Receivables from and payables to broker-dealers and clearing organizations primarily represented",
+          "amounts due for unsettled trades, open equity in futures transactions, securities failed to deliver or failed to",
+          "receive, deposits with clearing organizations or exchanges and balances due from or due to prime brokers in",
+          "relation to the Company\u2019s trading. Amounts receivable from broker-dealers and clearing organizations may be"
+        ]
+      }
+    ],
+    "billion_dollar_amounts": []
+  },
+  "Virtu_FY2021": {
+    "pages": 25,
+    "text_length": 60345,
+    "key_findings": [
+      {
+        "line": "To the  Member of Virtu Americas LLC",
+        "context": [
+          "T: (646) 471 3000, F: ( 813) 286 6000 (Rightfax) , www.pwc.com/us",
+          "Report of Independent Registered Public Accounting Firm",
+          "To the  Member of Virtu Americas LLC",
+          "Opinion on the Financial Statement \u2013 Statement of Financial Condition",
+          "We have audited the accompanying  statement of financial condition of Virtu Americas LLC (the"
+        ]
+      },
+      {
+        "line": "Trading assets, at fair value",
+        "context": [
+          "Cash and cash equivalents   $ 661,459",
+          "Cash segregated under feder al and other regulations    48,798",
+          "Trading assets, at fair value",
+          "Financial instruments owned    2,916,385",
+          "Financial instruments owned and pledged    1,017,960"
+        ]
+      },
+      {
+        "line": "Financial instruments owned    2,916,385",
+        "context": [
+          "Cash segregated under feder al and other regulations    48,798",
+          "Trading assets, at fair value",
+          "Financial instruments owned    2,916,385",
+          "Financial instruments owned and pledged    1,017,960",
+          "Securities borrowed    1,348,462"
+        ]
+      },
+      {
+        "line": "Financial instruments owned and pledged    1,017,960",
+        "context": [
+          "Trading assets, at fair value",
+          "Financial instruments owned    2,916,385",
+          "Financial instruments owned and pledged    1,017,960",
+          "Securities borrowed    1,348,462",
+          "Securities purchased under agreements to resell    119,453"
+        ]
+      },
+      {
+        "line": "Receivable from customers    74,780",
+        "context": [
+          "Securities purchased under agreements to resell    119,453",
+          "Receivables from brokers, deal ers and clearing organizations    763,519",
+          "Receivable from customers    74,780",
+          "Goodwill and intangible assets, les s accumulated amortization o f $87,000    12,993",
+          "Operating lease right-of-use assets    13,738"
+        ]
+      },
+      {
+        "line": "Total assets    7,035,119",
+        "context": [
+          "Operating lease right-of-use assets    13,738",
+          "Other assets    57,572",
+          "Total assets    7,035,119",
+          "Liabilities and Member's Equity"
+        ]
+      },
+      {
+        "line": "Liabilities and Member's Equity",
+        "context": [
+          "Total assets    7,035,119",
+          "Liabilities and Member's Equity",
+          "Liabilities",
+          "Trading liabilities, at fair value"
+        ]
+      },
+      {
+        "line": "Trading liabilities, at fair value",
+        "context": [
+          "Liabilities and Member's Equity",
+          "Liabilities",
+          "Trading liabilities, at fair value",
+          "Financial instruments sold, not yet purchased    3,320,890",
+          "Securities loaned    1,142,048"
+        ]
+      },
+      {
+        "line": "Financial instruments sold, not yet purchased    3,320,890",
+        "context": [
+          "Liabilities",
+          "Trading liabilities, at fair value",
+          "Financial instruments sold, not yet purchased    3,320,890",
+          "Securities loaned    1,142,048",
+          "Securities sold under agreements to repurchase    514,325"
+        ]
+      },
+      {
+        "line": "Securities sold under agreements to repurchase    514,325",
+        "context": [
+          "Financial instruments sold, not yet purchased    3,320,890",
+          "Securities loaned    1,142,048",
+          "Securities sold under agreements to repurchase    514,325",
+          "Short term borrowings, net    56,454",
+          "Payables to brokers, dealers and clearing organizations    468,442"
+        ]
+      },
+      {
+        "line": "Payable to affiliates    158,019",
+        "context": [
+          "Short term borrowings, net    56,454",
+          "Payables to brokers, dealers and clearing organizations    468,442",
+          "Payable to affiliates    158,019",
+          "Payable to customers    32,117",
+          "Operating lease liabilities    13,847"
+        ]
+      },
+      {
+        "line": "Payable to customers    32,117",
+        "context": [
+          "Payables to brokers, dealers and clearing organizations    468,442",
+          "Payable to affiliates    158,019",
+          "Payable to customers    32,117",
+          "Operating lease liabilities    13,847",
+          "Accounts payable an d accrued expenses and other liabilities    84,638"
+        ]
+      },
+      {
+        "line": "Total liabilities    5,790,780",
+        "context": [
+          "Operating lease liabilities    13,847",
+          "Accounts payable an d accrued expenses and other liabilities    84,638",
+          "Total liabilities    5,790,780",
+          "Subordinated borrowings    250,000"
+        ]
+      },
+      {
+        "line": "Member's equity    994,339",
+        "context": [
+          "Subordinated borrowings    250,000",
+          "Member's equity    994,339",
+          "Total liabilities and member's e quity  $ 7,035,119"
+        ]
+      },
+      {
+        "line": "Total liabilities and member's e quity  $ 7,035,119",
+        "context": [
+          "Member's equity    994,339",
+          "Total liabilities and member's e quity  $ 7,035,119"
+        ]
+      },
+      {
+        "line": "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+        "context": [
+          "1. Organization and Description of the Business",
+          "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member  is Virtu Strategic Holdings L LC. The Company\u2019s ultimate parent is Virtu",
+          "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Fi nancial LLC (\"Virtu\"), and operates and controls"
+        ]
+      },
+      {
+        "line": "of Delaware. The Company\u2019s member  is Virtu Strategic Holdings L LC. The Company\u2019s ultimate parent is Virtu",
+        "context": [
+          "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member  is Virtu Strategic Holdings L LC. The Company\u2019s ultimate parent is Virtu",
+          "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Fi nancial LLC (\"Virtu\"), and operates and controls",
+          "all of the businesses and affairs of Virtu Financial LLC and, t hrough Virtu Financial LLC and its subsidiaries,"
+        ]
+      },
+      {
+        "line": "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Fi nancial LLC (\"Virtu\"), and operates and controls",
+        "context": [
+          "Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member  is Virtu Strategic Holdings L LC. The Company\u2019s ultimate parent is Virtu",
+          "Financial, Inc. (\u201cVFI\u201d). VFI is the managing member of Virtu Fi nancial LLC (\"Virtu\"), and operates and controls",
+          "all of the businesses and affairs of Virtu Financial LLC and, t hrough Virtu Financial LLC and its subsidiaries,",
+          "continues to conduct the business conducted by such subsidiarie s."
+        ]
+      },
+      {
+        "line": "Company is a clearing member of principal stock exchanges in th e United States, including the New York Stock",
+        "context": [
+          "continues to conduct the business conducted by such subsidiarie s.",
+          "The Company is a broker-dealer registered with the U.S. Securi ties Exchange Commission (\u201cSEC\u201d). The",
+          "Company is a clearing member of principal stock exchanges in th e United States, including the New York Stock",
+          "Exchange (\u201cNYSE\u201d) and is a membe r of the Financial Industry Reg ulatory Authority (\u201cFINRA\u201d), the Depository",
+          "Trust & Clearing Corporation, the National Securities Clearing Corporation (\u201cNSCC\u201d), the Options Clearing"
+        ]
+      },
+      {
+        "line": "Company is an active participant on all major domestic equity e xchanges. As a complement to electronic market",
+        "context": [
+          "engages in principal trading in market making direct-to-clients  as well as in a supplemental capacity on",
+          "exchanges, electronic communica tions networks (\"ECNs\") and alte rnative trading systems (\"ATSs\"). The",
+          "Company is an active participant on all major domestic equity e xchanges. As a complement to electronic market",
+          "making, the Company's cash trading business handles specialized  orders and also transacts on the OTC Bulletin",
+          "Board marketplaces operated by OTC Markets Group Inc."
+        ]
+      },
+      {
+        "line": "require management to make estimates and assumptions regarding measurements including the fair value of",
+        "context": [
+          "The Company's Statement of Financial Condition are prepared in  conformity with U.S. GAAP , which",
+          "require management to make estimates and assumptions regarding measurements including the fair value of",
+          "trading assets and liabilities, goodwill and intangibles, capit alized software, and other matters that affect the",
+          "reported amounts of assets and liabilities and disclosure of co ntingent assets and liabilities at the date of the"
+        ]
+      },
+      {
+        "line": "approximates their fair value due  to the short-term nature of t hese instruments.",
+        "context": [
+          "Cash and cash equivalents include money market accounts, which  are payable on demand and short-",
+          "term investments with an origin al maturity of less than 90 days . The carrying amount of such cash equivalents",
+          "approximates their fair value due  to the short-term nature of t hese instruments.",
+          "The Company maintains cash in bank deposit accounts that, at t imes, may exceed federally insured",
+          "limits.  The Company manages this risk by selecting financial i nstitutions deemed highly creditworthy."
+        ]
+      },
+      {
+        "line": "and other regulations approximate fair value.",
+        "context": [
+          "(\"Special Reserve Bank Account\")  and special reserve accounts f or the exclusive benefit of proprietary accounts",
+          "of broker dealers (\"PAB\") under SEC Rule 15c3-3. The amounts re cognized as Cash segregated under federal",
+          "and other regulations approximate fair value.",
+          "Virtu Americas LLC"
+        ]
+      },
+      {
+        "line": "is greater than 102% of the fair value of the underlying securi ties borrowed or loaned. The Company monitors",
+        "context": [
+          "to sell or repledge the securities received. Securities borrowe d or loaned are recorded based on the amount of",
+          "cash collateral advanced or received. The initial cash collater al advanced or received gen erally approximates or",
+          "is greater than 102% of the fair value of the underlying securi ties borrowed or loaned. The Company monitors",
+          "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+          "Receivables and payables with the same counterparty are not off set in the Statement of Financial Condition."
+        ]
+      },
+      {
+        "line": "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+        "context": [
+          "cash collateral advanced or received. The initial cash collater al advanced or received gen erally approximates or",
+          "is greater than 102% of the fair value of the underlying securi ties borrowed or loaned. The Company monitors",
+          "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+          "Receivables and payables with the same counterparty are not off set in the Statement of Financial Condition."
+        ]
+      },
+      {
+        "line": "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+        "context": [
+          "Receivables and payables with the same counterparty are not off set in the Statement of Financial Condition.",
+          "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+          "In a repurchase agreement, securities sold under agreements to  repurchase are treated as collateralized"
+        ]
+      },
+      {
+        "line": "In a repurchase agreement, securities sold under agreements to  repurchase are treated as collateralized",
+        "context": [
+          "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+          "In a repurchase agreement, securities sold under agreements to  repurchase are treated as collateralized",
+          "financing transactions and are re corded at contract value, plus  accrued interest, which a pproximates fair value.",
+          "It is the Company\u2019s policy that its custodian take possession o f the underlying collateral securities with a fair"
+        ]
+      },
+      {
+        "line": "financing transactions and are re corded at contract value, plus  accrued interest, which a pproximates fair value.",
+        "context": [
+          "In a repurchase agreement, securities sold under agreements to  repurchase are treated as collateralized",
+          "financing transactions and are re corded at contract value, plus  accrued interest, which a pproximates fair value.",
+          "It is the Company\u2019s policy that its custodian take possession o f the underlying collateral securities with a fair",
+          "value approximately equal to the principal amount of the repurc hase transaction, including accrued interest. For"
+        ]
+      },
+      {
+        "line": "reverse repurchase agreements, t he Company typically requires d elivery of collateral with a fair value",
+        "context": [
+          "It is the Company\u2019s policy that its custodian take possession o f the underlying collateral securities with a fair",
+          "value approximately equal to the principal amount of the repurc hase transaction, including accrued interest. For",
+          "reverse repurchase agreements, t he Company typically requires d elivery of collateral with a fair value",
+          "approximately equal to the carryi ng value of the relevant asset s in the Statement of Financial Condition. To",
+          "ensure that the fair value of the underlying collateral remains  sufficient, the collateral is valued daily with"
+        ]
+      },
+      {
+        "line": "ensure that the fair value of the underlying collateral remains  sufficient, the collateral is valued daily with",
+        "context": [
+          "reverse repurchase agreements, t he Company typically requires d elivery of collateral with a fair value",
+          "approximately equal to the carryi ng value of the relevant asset s in the Statement of Financial Condition. To",
+          "ensure that the fair value of the underlying collateral remains  sufficient, the collateral is valued daily with",
+          "additional collateral obtained or excess collateral returned, a s permitted under contractual provisions.",
+          "The Company does not net securities purchased under agreements  to resell transactions with securities"
+        ]
+      }
+    ],
+    "billion_dollar_amounts": []
+  },
+  "Virtu_FY2020": {
+    "pages": 27,
+    "text_length": 68269,
+    "key_findings": [
+      {
+        "line": "To the Member of Virtu Americas LLC",
+        "context": [
+          "Report of Independent Registered Public Accounting Firm",
+          "To the Member of Virtu Americas LLC",
+          "Opinion on the Financial Statement \u2013 Statement of Financial Condition"
+        ]
+      },
+      {
+        "line": "Trading assets, at fair value",
+        "context": [
+          "Cash and cash equivalents   $ 544,417",
+          "Cash segregated under feder al and other regulations   116,570",
+          "Trading assets, at fair value",
+          "Financial instruments owned   1,919,310",
+          "Financial instruments owned and pledged   746,539"
+        ]
+      },
+      {
+        "line": "Financial instruments owned   1,919,310",
+        "context": [
+          "Cash segregated under feder al and other regulations   116,570",
+          "Trading assets, at fair value",
+          "Financial instruments owned   1,919,310",
+          "Financial instruments owned and pledged   746,539",
+          "Securities borrowed   1,423,752"
+        ]
+      },
+      {
+        "line": "Financial instruments owned and pledged   746,539",
+        "context": [
+          "Trading assets, at fair value",
+          "Financial instruments owned   1,919,310",
+          "Financial instruments owned and pledged   746,539",
+          "Securities borrowed   1,423,752",
+          "Securities purchased under agreements to resell   22,866"
+        ]
+      },
+      {
+        "line": "Receivable from customers   144,912",
+        "context": [
+          "Securities purchased under agreements to resell   22,866",
+          "Receivables from brokers, deal ers and clearing organizations   1,136,266",
+          "Receivable from customers   144,912",
+          "Goodwill and intangible assets, les s accumulated amortization o f $87,000   12,993",
+          "Operating lease right-of-use assets   20,010"
+        ]
+      },
+      {
+        "line": "Total assets   6,153,325",
+        "context": [
+          "Operating lease right-of-use assets   20,010",
+          "Other assets   65,690",
+          "Total assets   6,153,325",
+          "Liabilities and Member's Equity"
+        ]
+      },
+      {
+        "line": "Liabilities and Member's Equity",
+        "context": [
+          "Total assets   6,153,325",
+          "Liabilities and Member's Equity",
+          "Liabilities",
+          "Trading liabilities, at fair value"
+        ]
+      },
+      {
+        "line": "Trading liabilities, at fair value",
+        "context": [
+          "Liabilities and Member's Equity",
+          "Liabilities",
+          "Trading liabilities, at fair value",
+          "Financial instruments sold, not yet purchased   2,680,335",
+          "Securities loaned   948,256"
+        ]
+      },
+      {
+        "line": "Financial instruments sold, not yet purchased   2,680,335",
+        "context": [
+          "Liabilities",
+          "Trading liabilities, at fair value",
+          "Financial instruments sold, not yet purchased   2,680,335",
+          "Securities loaned   948,256",
+          "Securities sold under agreements to repurchase   461,235"
+        ]
+      },
+      {
+        "line": "Securities sold under agreements to repurchase   461,235",
+        "context": [
+          "Financial instruments sold, not yet purchased   2,680,335",
+          "Securities loaned   948,256",
+          "Securities sold under agreements to repurchase   461,235",
+          "Short term borrowings, net   36,013",
+          "Payables to brokers, dealers and clearing organizations   447,662"
+        ]
+      },
+      {
+        "line": "Payable to affiliates   107,330",
+        "context": [
+          "Short term borrowings, net   36,013",
+          "Payables to brokers, dealers and clearing organizations   447,662",
+          "Payable to affiliates   107,330",
+          "Payable to customers   101,529",
+          "Operating lease liabilities   21,698"
+        ]
+      },
+      {
+        "line": "Payable to customers   101,529",
+        "context": [
+          "Payables to brokers, dealers and clearing organizations   447,662",
+          "Payable to affiliates   107,330",
+          "Payable to customers   101,529",
+          "Operating lease liabilities   21,698",
+          "Accounts payable and accrued expenses and other liabilities   91,017"
+        ]
+      },
+      {
+        "line": "Total liabilities   4,895,075",
+        "context": [
+          "Operating lease liabilities   21,698",
+          "Accounts payable and accrued expenses and other liabilities   91,017",
+          "Total liabilities   4,895,075",
+          "Subordinated borrowings   250,000"
+        ]
+      },
+      {
+        "line": "Member's equity   1,008,250",
+        "context": [
+          "Subordinated borrowings   250,000",
+          "Member's equity   1,008,250",
+          "Total liabilities and member's e quity  $ 6,153,325"
+        ]
+      },
+      {
+        "line": "Total liabilities and member's e quity  $ 6,153,325",
+        "context": [
+          "Member's equity   1,008,250",
+          "Total liabilities and member's e quity  $ 6,153,325"
+        ]
+      },
+      {
+        "line": "1. Organization and Description of the Business   Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+        "context": [
+          "3",
+          "1. Organization and Description of the Business   Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member  is Virtu Strategic Holdings L LC. The Company\u2019s ultimate parent is Virtu",
+          "Financial LLC (\u201cVirtu\u201d). Virtu Financial, Inc. (\u201cVFI\u201d) is the m anaging member of Virtu Financial LLC, and operates"
+        ]
+      },
+      {
+        "line": "of Delaware. The Company\u2019s member  is Virtu Strategic Holdings L LC. The Company\u2019s ultimate parent is Virtu",
+        "context": [
+          "1. Organization and Description of the Business   Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member  is Virtu Strategic Holdings L LC. The Company\u2019s ultimate parent is Virtu",
+          "Financial LLC (\u201cVirtu\u201d). Virtu Financial, Inc. (\u201cVFI\u201d) is the m anaging member of Virtu Financial LLC, and operates",
+          "and controls all of the businesses and affairs of Virtu Financi al LLC and, through Virtu Financial LLC and its"
+        ]
+      },
+      {
+        "line": "Financial LLC (\u201cVirtu\u201d). Virtu Financial, Inc. (\u201cVFI\u201d) is the m anaging member of Virtu Financial LLC, and operates",
+        "context": [
+          "1. Organization and Description of the Business   Virtu Americas LLC (the \u201cCompany\u201d) is a single member limited liability company organized in the state",
+          "of Delaware. The Company\u2019s member  is Virtu Strategic Holdings L LC. The Company\u2019s ultimate parent is Virtu",
+          "Financial LLC (\u201cVirtu\u201d). Virtu Financial, Inc. (\u201cVFI\u201d) is the m anaging member of Virtu Financial LLC, and operates",
+          "and controls all of the businesses and affairs of Virtu Financi al LLC and, through Virtu Financial LLC and its",
+          "subsidiaries, continues to condu ct the business c onducted by su ch subsidiaries."
+        ]
+      },
+      {
+        "line": "Company is a clearing member of principal stock exchanges in th e United States, including the New York Stock",
+        "context": [
+          "subsidiaries, continues to condu ct the business c onducted by su ch subsidiaries.",
+          "The Company is a broker-dealer registered with the U.S. Securi ties Exchange Commission (\u201cSEC\u201d). The",
+          "Company is a clearing member of principal stock exchanges in th e United States, including the New York Stock",
+          "Exchange (\u201cNYSE\u201d) and is a membe r of the Financial Industry Reg ulatory Authority (\u201cFINRA\u201d), the Depository",
+          "Trust & Clearing Corporation, the National Securities Clearing Corporation (\u201cNSCC\u201d), the Options Clearing"
+        ]
+      },
+      {
+        "line": "Company is an active participant on all major domestic equity e xchanges. As a complement to electronic market",
+        "context": [
+          "engages in principal trading in market making direct-to-clients  as well as in a supplemental capacity on",
+          "exchanges, electronic communica tions networks (\"ECNs\") and alte rnative trading systems (\"ATSs\"). The",
+          "Company is an active participant on all major domestic equity e xchanges. As a complement to electronic market",
+          "making, the Company's cash trading business handles specialized  orders and also transacts on the OTC Bulletin",
+          "Board marketplaces operated by OTC Markets Group Inc."
+        ]
+      },
+      {
+        "line": "require management to make estimates and assumptions regarding measurements including the fair value of",
+        "context": [
+          "Use of Estimates   The Company's Statement of Financial Condition are prepared in  conformity with U.S. GAAP , which",
+          "require management to make estimates and assumptions regarding measurements including the fair value of",
+          "trading assets and liabilities, goodwill and intangibles, capit alized software, and other matters that affect the",
+          "reported amounts of assets and liabilities and disclosure of co ntingent assets and liabilities at the date of the"
+        ]
+      },
+      {
+        "line": "approximates their fair value due  to the short-term nature of t hese instruments.",
+        "context": [
+          "Cash and Cash Equivalents   Cash and cash equivalents include money market accounts, which  are payable on demand and short-",
+          "term investments with an origin al maturity of less than 90 days . The carrying amount of such cash equivalents",
+          "approximates their fair value due  to the short-term nature of t hese instruments.",
+          "The Company maintains cash in bank deposit accounts that, at t imes, may exceed federally insured",
+          "limits.  The Company manages this risk by selecting financial i nstitutions deemed highly creditworthy."
+        ]
+      },
+      {
+        "line": "and other regulations approximate fair value.",
+        "context": [
+          "(\"Special Reserve Bank Account\")  and special reserve accounts f or the exclusive benefit of proprietary accounts",
+          "of broker dealers (\"PAB\") under SEC Rule 15c3-3. The amounts re cognized as Cash segregated under federal",
+          "and other regulations approximate fair value.",
+          "Virtu Americas LLC"
+        ]
+      },
+      {
+        "line": "or is greater than 102% of the fair value of the underlying sec urities borrowed or loaned. The Company monitors",
+        "context": [
+          "to sell or repledge the securities received. Securities borrowe d or loaned are recorded based on the amount of",
+          "cash collateral advanced or received.  The initial cash collate ral advanced or received generally approximates",
+          "or is greater than 102% of the fair value of the underlying sec urities borrowed or loaned. The Company monitors",
+          "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+          "Receivables and payables with the same counterparty are not off set in the Statement of Financial Condition."
+        ]
+      },
+      {
+        "line": "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+        "context": [
+          "cash collateral advanced or received.  The initial cash collate ral advanced or received generally approximates",
+          "or is greater than 102% of the fair value of the underlying sec urities borrowed or loaned. The Company monitors",
+          "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+          "Receivables and payables with the same counterparty are not off set in the Statement of Financial Condition.",
+          "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase"
+        ]
+      },
+      {
+        "line": "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+        "context": [
+          "the fair value of securities borrowed and loaned, and delivers or obtains additional collateral as appropriate.",
+          "Receivables and payables with the same counterparty are not off set in the Statement of Financial Condition.",
+          "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+          "In a repurchase agreement, securities sold under agreements to  repurchase are treated as collateralized",
+          "financing transactions and are re corded at contract value, plus  accrued interest, which a pproximates fair value."
+        ]
+      },
+      {
+        "line": "In a repurchase agreement, securities sold under agreements to  repurchase are treated as collateralized",
+        "context": [
+          "Receivables and payables with the same counterparty are not off set in the Statement of Financial Condition.",
+          "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+          "In a repurchase agreement, securities sold under agreements to  repurchase are treated as collateralized",
+          "financing transactions and are re corded at contract value, plus  accrued interest, which a pproximates fair value.",
+          "It is the Company\u2019s policy that its custodian take possession o f the underlying collateral securities with a fair"
+        ]
+      },
+      {
+        "line": "financing transactions and are re corded at contract value, plus  accrued interest, which a pproximates fair value.",
+        "context": [
+          "Securities Purchased Under Agreements to Resell and Securities Sold Under Agreements to Repurchase",
+          "In a repurchase agreement, securities sold under agreements to  repurchase are treated as collateralized",
+          "financing transactions and are re corded at contract value, plus  accrued interest, which a pproximates fair value.",
+          "It is the Company\u2019s policy that its custodian take possession o f the underlying collateral securities with a fair",
+          "value approximately equal to the principal amount of the repurc hase transaction, including accrued interest. For"
+        ]
+      },
+      {
+        "line": "reverse repurchase agreements, t he Company typically requires d elivery of collateral with a fair value",
+        "context": [
+          "It is the Company\u2019s policy that its custodian take possession o f the underlying collateral securities with a fair",
+          "value approximately equal to the principal amount of the repurc hase transaction, including accrued interest. For",
+          "reverse repurchase agreements, t he Company typically requires d elivery of collateral with a fair value",
+          "approximately equal to the carryi ng value of the relevant asset s in the Statement of Financial Condition. To",
+          "ensure that the fair value of the underlying collateral remains  sufficient, the collateral is valued daily with"
+        ]
+      },
+      {
+        "line": "ensure that the fair value of the underlying collateral remains  sufficient, the collateral is valued daily with",
+        "context": [
+          "reverse repurchase agreements, t he Company typically requires d elivery of collateral with a fair value",
+          "approximately equal to the carryi ng value of the relevant asset s in the Statement of Financial Condition. To",
+          "ensure that the fair value of the underlying collateral remains  sufficient, the collateral is valued daily with",
+          "additional collateral obtained or excess collateral returned, a s permitted under contractual provisions.",
+          "The Company does not net securities purchased under agreements  to resell transactions with securities"
+        ]
+      }
+    ],
+    "billion_dollar_amounts": []
+  },
+  "G1_FY2024": {
+    "pages": 10,
+    "text_length": 18218,
+    "key_findings": [
+      {
+        "line": "To the Member of G1 Execution Services, LLC",
+        "context": [
+          "To the Member of G1 Execution Services, LLC",
+          "Opinion on the Financial Statement \u2013 Statement of Financial Condition"
+        ]
+      }
+    ],
+    "billion_dollar_amounts": []
+  },
+  "G1_FY2021": {
+    "pages": 11,
+    "text_length": 26769,
+    "key_findings": [
+      {
+        "line": "D (e) Statement of changes in stockholders' or partners' or sole proprietor's equity.",
+        "context": [
+          "comprehensive income (as defined in\u00a7 210.1-02 of Regulation S-X).",
+          "D (d) Statement of cash flows.",
+          "D (e) Statement of changes in stockholders' or partners' or sole proprietor's equity.",
+          "D (f) Statement of changes in liabilities subordinated to claims of creditors.",
+          "D (g) Notes to consolidated financial statements."
+        ]
+      },
+      {
+        "line": "D (h) Computation of net capital under 17 CFR 240.1Sc3-1 or 17 CFR 240.18a-1, as applicable.",
+        "context": [
+          "D (f) Statement of changes in liabilities subordinated to claims of creditors.",
+          "D (g) Notes to consolidated financial statements.",
+          "D (h) Computation of net capital under 17 CFR 240.1Sc3-1 or 17 CFR 240.18a-1, as applicable.",
+          "\u25a1 (i) Computation of tangible net worth under 17 CFR 240.18a-2.",
+          "D (j) Computation for deteirmination of customer reserve requirements pursuant to Exhibit A to 17 CFR 240.1Sc3-3."
+        ]
+      },
+      {
+        "line": "D (o) Rec,onciliations, including appropriate ex[Planations, of the FOCUS Report with computation of net capital or tangible net",
+        "context": [
+          "D (n) Information relating to possession or control requirements for security-based swap customers under 17 CFR",
+          "240.1Sc3-3(p)(2) or 17 CFR 240.18a-4, as applicable.",
+          "D (o) Rec,onciliations, including appropriate ex[Planations, of the FOCUS Report with computation of net capital or tangible net",
+          "worth under 17 CFR 240.1Sc3-l, 17 CFR 240.18a-l, or 17 CFR 240.18a-2, as applicable, and the reserve requirements under 17",
+          "CFR 240.15c3-3 or 17 CFR 240.18a-4, as applicable, if material differences exist, or a statement that no material differences"
+        ]
+      },
+      {
+        "line": "To the Member of",
+        "context": [
+          "EISNERAMPER",
+          "REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM",
+          "To the Member of",
+          "G1 Execution Services, LLC",
+          "Opinion on the Financial Statement ElsnerAmper LLP"
+        ]
+      },
+      {
+        "line": "EisnerAmper LLP and Eisner Advisory Group LLC are independently owned firms that practice in an alternative practice structure in",
+        "context": [
+          "February 24, 2022",
+          "... --\"EisnerAmper\u2022 is the brand name under which EisnerAmper LLP and Eisner Advisory Group LLC provide professional services.",
+          "EisnerAmper LLP and Eisner Advisory Group LLC are independently owned firms that practice in an alternative practice structure in",
+          "accordance with the AICPA Code of Profes\u00b7sional Conduct and applicable law, regulations and professional standards. EisnerAmper",
+          "LLP is a licensed CPA firm that provides attest services, and Eisner Advisory Group llC and its subsidiary entities provide tax and"
+        ]
+      },
+      {
+        "line": "Receivable from clearing brokers",
+        "context": [
+          "Assets",
+          "Cash",
+          "Receivable from clearing brokers",
+          "Securities owned -at fair value",
+          "Accrued trading receivables"
+        ]
+      },
+      {
+        "line": "Securities owned -at fair value",
+        "context": [
+          "Cash",
+          "Receivable from clearing brokers",
+          "Securities owned -at fair value",
+          "Accrued trading receivables",
+          "Receivable from affiliate"
+        ]
+      },
+      {
+        "line": "Receivable from affiliate",
+        "context": [
+          "Securities owned -at fair value",
+          "Accrued trading receivables",
+          "Receivable from affiliate",
+          "Fixed assets (net of accumulaled depreciation of $11,006)",
+          "Goodwill"
+        ]
+      },
+      {
+        "line": "Total assets",
+        "context": [
+          "Intangible assets (net of accumulated amortization of $8,903)",
+          "Other assets",
+          "Total assets",
+          "Liabilities and member's equity",
+          "Securities sold, not yet purchased -at fair value"
+        ]
+      },
+      {
+        "line": "Liabilities and member's equity",
+        "context": [
+          "Other assets",
+          "Total assets",
+          "Liabilities and member's equity",
+          "Securities sold, not yet purchased -at fair value",
+          "Accrued trading payables"
+        ]
+      },
+      {
+        "line": "Securities sold, not yet purchased -at fair value",
+        "context": [
+          "Total assets",
+          "Liabilities and member's equity",
+          "Securities sold, not yet purchased -at fair value",
+          "Accrued trading payables",
+          "Payable to affiliates"
+        ]
+      },
+      {
+        "line": "Payable to affiliates",
+        "context": [
+          "Securities sold, not yet purchased -at fair value",
+          "Accrued trading payables",
+          "Payable to affiliates",
+          "Accrued compensation",
+          "Guaranteed payments to member"
+        ]
+      },
+      {
+        "line": "Guaranteed payments to member",
+        "context": [
+          "Payable to affiliates",
+          "Accrued compensation",
+          "Guaranteed payments to member",
+          "Accrued expenses and other liabilities",
+          "Total liabilities"
+        ]
+      },
+      {
+        "line": "Total liabilities",
+        "context": [
+          "Guaranteed payments to member",
+          "Accrued expenses and other liabilities",
+          "Total liabilities",
+          "Member's equity",
+          "Total liabilities and member's equ1ty"
+        ]
+      },
+      {
+        "line": "Member's equity",
+        "context": [
+          "Accrued expenses and other liabilities",
+          "Total liabilities",
+          "Member's equity",
+          "Total liabilities and member's equ1ty",
+          "See notes to statement of financial condition $"
+        ]
+      },
+      {
+        "line": "Total liabilities and member's equ1ty",
+        "context": [
+          "Total liabilities",
+          "Member's equity",
+          "Total liabilities and member's equ1ty",
+          "See notes to statement of financial condition $",
+          "$"
+        ]
+      },
+      {
+        "line": "equity securities. The Entity is 100% owned by G1X Holdings, LLC.",
+        "context": [
+          "Commission (the \"SEC\"). The Entity's designated examining regulatory authority is the Financial Industry",
+          "Regulatory Authority, Inc. The Entity generally acts as a market maker in listed and over-the-counter (OTC)",
+          "equity securities. The Entity is 100% owned by G1X Holdings, LLC.",
+          "NOTE B -SIGNIFIC ANT ACCOUNTING POLICIES",
+          "The Entity records purchases and sales of securities, and related revenues and expenses on a trade-date basis."
+        ]
+      },
+      {
+        "line": "Dividend income and dividends on securities sold, not yet purchased, are recorded on the ex-dividend date.",
+        "context": [
+          "The Entity records purchases and sales of securities, and related revenues and expenses on a trade-date basis.",
+          "Interest income and expense are recorded on the accrual basis.",
+          "Dividend income and dividends on securities sold, not yet purchased, are recorded on the ex-dividend date.",
+          "The Entity maintains cash in a deposit account which, at times, may exceed federally insured limits.",
+          "Depreciation of fixed assets is computed using either a straig,ht-line -.method or a double-declining balance method"
+        ]
+      },
+      {
+        "line": "Goodwill and intangibles represent the excess of the purcli'ase price over the fair value of net tangible assets",
+        "context": [
+          "Depreciation of fixed assets is computed using either a straig,ht-line -.method or a double-declining balance method",
+          "over the estimated useful life of the assets.",
+          "Goodwill and intangibles represent the excess of the purcli'ase price over the fair value of net tangible assets",
+          "acquired through the Entity's business combinapons. 1he \"En\\ify evaluates goodwill and intangible assets for",
+          "impairment on at least an annual basis or when events or changes in circumstances indicate the carrying value"
+        ]
+      },
+      {
+        "line": "may not be recoverable. Determining whether an asset's carrying value can be supported by its fair value is a",
+        "context": [
+          "acquired through the Entity's business combinapons. 1he \"En\\ify evaluates goodwill and intangible assets for",
+          "impairment on at least an annual basis or when events or changes in circumstances indicate the carrying value",
+          "may not be recoverable. Determining whether an asset's carrying value can be supported by its fair value is a",
+          "subjective process that involves management estjglates and judgments and use of various valuation",
+          "methodologies."
+        ]
+      },
+      {
+        "line": "period-end exchange rates. Purchases and sales of financial instruments that are denominated in foreign",
+        "context": [
+          "methodologies.",
+          "Assets and liabilities denomina ted in foreign currencies are translated into United States dollar amounts at the",
+          "period-end exchange rates. Purchases and sales of financial instruments that are denominated in foreign",
+          "currencies are translated into United States dollar amounts at the prevailing rates of exchange on the transaction",
+          "date."
+        ]
+      },
+      {
+        "line": "In accordance with Accounting Standards Codification (\"ASC\") Topic 326, Financial Instruments-Credit Losses",
+        "context": [
+          "currencies are translated into United States dollar amounts at the prevailing rates of exchange on the transaction",
+          "date.",
+          "In accordance with Accounting Standards Codification (\"ASC\") Topic 326, Financial Instruments-Credit Losses",
+          "(\" ASC 326\"}, the Entity assessed certain financial assets measured at amortized cost for credit losses using a",
+          "current expectecf\" credit loss (\"GECL\") methodology to estimate expected credit losses over the life of the financial"
+        ]
+      },
+      {
+        "line": "Receivable from clearing brokers; the Entity has concluded that there are currently no expected credit losses",
+        "context": [
+          "asset, as of the reporting date based on relevant information about past events, current conditions, and",
+          "reasonable and supportable forecasts.",
+          "Receivable from clearing brokers; the Entity has concluded that there are currently no expected credit losses",
+          "based on the nature and contractual life or expected life of the financial assets held at each of the Entity's clearing",
+          "brokers and clearing organizations. Certain trades and contracts are cleared through a centralized clearing"
+        ]
+      },
+      {
+        "line": "NOTE C -FAIR VALUE OF FINANCIAL INSTRUMENTS",
+        "context": [
+          "December 31, 2021",
+          "(dollars in thousands)",
+          "NOTE C -FAIR VALUE OF FINANCIAL INSTRUMENTS",
+          "The Entity measures its financial instruments in accordance with the Financial Accounting Standards Board",
+          "Accounting Standards Codification Section for Fair Value Measurements. This codification section clarifies the"
+        ]
+      },
+      {
+        "line": "The Entity measures its financial instruments in accordance with the Financial Accounting Standards Board",
+        "context": [
+          "(dollars in thousands)",
+          "NOTE C -FAIR VALUE OF FINANCIAL INSTRUMENTS",
+          "The Entity measures its financial instruments in accordance with the Financial Accounting Standards Board",
+          "Accounting Standards Codification Section for Fair Value Measurements. This codification section clarifies the",
+          "definition of fair value financial reporting, establishes a framework for measuring fair value and requires additional"
+        ]
+      },
+      {
+        "line": "Accounting Standards Codification Section for Fair Value Measurements. This codification section clarifies the",
+        "context": [
+          "NOTE C -FAIR VALUE OF FINANCIAL INSTRUMENTS",
+          "The Entity measures its financial instruments in accordance with the Financial Accounting Standards Board",
+          "Accounting Standards Codification Section for Fair Value Measurements. This codification section clarifies the",
+          "definition of fair value financial reporting, establishes a framework for measuring fair value and requires additional",
+          "disclosures about the use of fair value measurements. Fair Value Measurements establishes a fair value"
+        ]
+      },
+      {
+        "line": "definition of fair value financial reporting, establishes a framework for measuring fair value and requires additional",
+        "context": [
+          "The Entity measures its financial instruments in accordance with the Financial Accounting Standards Board",
+          "Accounting Standards Codification Section for Fair Value Measurements. This codification section clarifies the",
+          "definition of fair value financial reporting, establishes a framework for measuring fair value and requires additional",
+          "disclosures about the use of fair value measurements. Fair Value Measurements establishes a fair value",
+          "hierarchy and specifies that a valuation technique used to measure fair value shall maximize the use of"
+        ]
+      },
+      {
+        "line": "disclosures about the use of fair value measurements. Fair Value Measurements establishes a fair value",
+        "context": [
+          "Accounting Standards Codification Section for Fair Value Measurements. This codification section clarifies the",
+          "definition of fair value financial reporting, establishes a framework for measuring fair value and requires additional",
+          "disclosures about the use of fair value measurements. Fair Value Measurements establishes a fair value",
+          "hierarchy and specifies that a valuation technique used to measure fair value shall maximize the use of",
+          "observable inputs and minimize the use of unobservable inputs. The objective of a fair value measurement is to"
+        ]
+      },
+      {
+        "line": "hierarchy and specifies that a valuation technique used to measure fair value shall maximize the use of",
+        "context": [
+          "definition of fair value financial reporting, establishes a framework for measuring fair value and requires additional",
+          "disclosures about the use of fair value measurements. Fair Value Measurements establishes a fair value",
+          "hierarchy and specifies that a valuation technique used to measure fair value shall maximize the use of",
+          "observable inputs and minimize the use of unobservable inputs. The objective of a fair value measurement is to",
+          "determine the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction"
+        ]
+      },
+      {
+        "line": "observable inputs and minimize the use of unobservable inputs. The objective of a fair value measurement is to",
+        "context": [
+          "disclosures about the use of fair value measurements. Fair Value Measurements establishes a fair value",
+          "hierarchy and specifies that a valuation technique used to measure fair value shall maximize the use of",
+          "observable inputs and minimize the use of unobservable inputs. The objective of a fair value measurement is to",
+          "determine the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction",
+          "between market participants at the measurement date (an exit price). Accordingly, the f,a(r value hierarchy gives"
+        ]
+      }
+    ],
+    "billion_dollar_amounts": []
+  },
+  "JaneStreet_FY2024": {
+    "pages": 25,
+    "text_length": 49455,
+    "key_findings": [
+      {
+        "line": "TotheMember andSubsidiary Operating Committee ofJane Street Capital, LLC:",
+        "context": [
+          "ey.com",
+          "Report ofIndependent Registered Public Accounting Firm",
+          "TotheMember andSubsidiary Operating Committee ofJane Street Capital, LLC:",
+          "Opinion ontheFinancial Statement",
+          "Wehave audited theaccompanying consolidated statement offinancial condition ofJane Street Capital, LLC (the"
+        ]
+      },
+      {
+        "line": "Securities andother financial instruments owned, atfairvalue",
+        "context": [
+          "Assets",
+          "Cash",
+          "Securities andother financial instruments owned, atfairvalue",
+          "Securities andother financial instruments owned andpledged, atfairvalue",
+          "Duefrom brokers, clearing organizations, andother"
+        ]
+      },
+      {
+        "line": "Securities andother financial instruments owned andpledged, atfairvalue",
+        "context": [
+          "Cash",
+          "Securities andother financial instruments owned, atfairvalue",
+          "Securities andother financial instruments owned andpledged, atfairvalue",
+          "Duefrom brokers, clearing organizations, andother",
+          "Securities borrowed"
+        ]
+      },
+      {
+        "line": "Total assets$ 37,755",
+        "context": [
+          "Fixed assets, netofaccumulated depreciation andamortization",
+          "Accounts receivable andother assets",
+          "Total assets$ 37,755",
+          "36,804,354",
+          "545,504"
+        ]
+      },
+      {
+        "line": "Liabilities and member's equity",
+        "context": [
+          "32,786",
+          "$ 48,947,528",
+          "Liabilities and member's equity",
+          "Securities andother financial instruments sold, notyetpurchased, atfairvalue",
+          "Due tobrokers, clearing organizations, andother"
+        ]
+      },
+      {
+        "line": "Securities andother financial instruments sold, notyetpurchased, atfairvalue",
+        "context": [
+          "$ 48,947,528",
+          "Liabilities and member's equity",
+          "Securities andother financial instruments sold, notyetpurchased, atfairvalue",
+          "Due tobrokers, clearing organizations, andother",
+          "Securities sold under agreements torepurchase"
+        ]
+      },
+      {
+        "line": "Securities sold under agreements torepurchase",
+        "context": [
+          "Securities andother financial instruments sold, notyetpurchased, atfairvalue",
+          "Due tobrokers, clearing organizations, andother",
+          "Securities sold under agreements torepurchase",
+          "Securities loaned",
+          "Due toParent"
+        ]
+      },
+      {
+        "line": "Total liabilities$ 35,168,802",
+        "context": [
+          "Due toaffiliates",
+          "Accrued expenses andother liabilities",
+          "Total liabilities$ 35,168,802",
+          "153,564",
+          "4,600,000"
+        ]
+      },
+      {
+        "line": "Member's equity",
+        "context": [
+          "45,421",
+          "43,777,790",
+          "Member's equity",
+          "Total liabilities andmember's equity5,169,738",
+          "$ 48,947,528"
+        ]
+      },
+      {
+        "line": "Total liabilities andmember's equity5,169,738",
+        "context": [
+          "43,777,790",
+          "Member's equity",
+          "Total liabilities andmember's equity5,169,738",
+          "$ 48,947,528",
+          "Seeaccompanying notes."
+        ]
+      },
+      {
+        "line": "dealer under theSecurities Exchange Actof1934. JSC isawholly-owned subsidiary ofJane Street",
+        "context": [
+          "1.Nature ofOperations",
+          "Jane Street Capital, LLC (\"JSC\"), aDelaware limited liability company, isregistered asabroker\u00ac",
+          "dealer under theSecurities Exchange Actof1934. JSC isawholly-owned subsidiary ofJane Street",
+          "Group, LLC (the \"Parent\"). JSC isamember ofvarious exchanges and theFinancial Industry",
+          "Regulatory Authority, Inc(\"FINRA\"), who serves asitsDesignated Examining Authority. JSC trades"
+        ]
+      },
+      {
+        "line": "Group, LLC (the \"Parent\"). JSC isamember ofvarious exchanges and theFinancial Industry",
+        "context": [
+          "Jane Street Capital, LLC (\"JSC\"), aDelaware limited liability company, isregistered asabroker\u00ac",
+          "dealer under theSecurities Exchange Actof1934. JSC isawholly-owned subsidiary ofJane Street",
+          "Group, LLC (the \"Parent\"). JSC isamember ofvarious exchanges and theFinancial Industry",
+          "Regulatory Authority, Inc(\"FINRA\"), who serves asitsDesignated Examining Authority. JSC trades",
+          "foritsown account andisamarket-maker oncertain exchanges. Additionally, JSC isamember of"
+        ]
+      },
+      {
+        "line": "foritsown account andisamarket-maker oncertain exchanges. Additionally, JSC isamember of",
+        "context": [
+          "Group, LLC (the \"Parent\"). JSC isamember ofvarious exchanges and theFinancial Industry",
+          "Regulatory Authority, Inc(\"FINRA\"), who serves asitsDesignated Examining Authority. JSC trades",
+          "foritsown account andisamarket-maker oncertain exchanges. Additionally, JSC isamember of",
+          "theDepository Trust Company (\"DTC\") andtheNational Securities Clearing Corporation, andactsas",
+          "anauthorized participant inorder tocreate and/or redeem exchange traded funds. JSCC Limited"
+        ]
+      },
+      {
+        "line": "(\"JSCC\"), JSC's wholly-owned subsidiary, isanunregulated firm incorporated intheCayman",
+        "context": [
+          "theDepository Trust Company (\"DTC\") andtheNational Securities Clearing Corporation, andactsas",
+          "anauthorized participant inorder tocreate and/or redeem exchange traded funds. JSCC Limited",
+          "(\"JSCC\"), JSC's wholly-owned subsidiary, isanunregulated firm incorporated intheCayman",
+          "Islands.",
+          "2.Summary ofSignificant Accounting Policies"
+        ]
+      },
+      {
+        "line": "Securities andOther Financial Instruments Owned andSecurities andOther Financial",
+        "context": [
+          "Cash and cash equivalents may include cash andshort-term investments with amaturity ofthree",
+          "months orlessfrom thedate ofpurchase.",
+          "Securities andOther Financial Instruments Owned andSecurities andOther Financial",
+          "Instruments Sold, NotYetPurchased, atFair Value",
+          "Equity securities traded onanational securities exchange, orover thecounter (\"OTC\"), aregenerally"
+        ]
+      },
+      {
+        "line": "Instruments Sold, NotYetPurchased, atFair Value",
+        "context": [
+          "months orlessfrom thedate ofpurchase.",
+          "Securities andOther Financial Instruments Owned andSecurities andOther Financial",
+          "Instruments Sold, NotYetPurchased, atFair Value",
+          "Equity securities traded onanational securities exchange, orover thecounter (\"OTC\"), aregenerally",
+          "valued atthelastreported sales price fortheidentical instrument atthedate ofvaluation. Incertain"
+        ]
+      },
+      {
+        "line": "Equity securities traded onanational securities exchange, orover thecounter (\"OTC\"), aregenerally",
+        "context": [
+          "Securities andOther Financial Instruments Owned andSecurities andOther Financial",
+          "Instruments Sold, NotYetPurchased, atFair Value",
+          "Equity securities traded onanational securities exchange, orover thecounter (\"OTC\"), aregenerally",
+          "valued atthelastreported sales price fortheidentical instrument atthedate ofvaluation. Incertain",
+          "cases, where theCompany believes thelastreported sales price isnotthebestindication offairvalue,"
+        ]
+      },
+      {
+        "line": "presentation reduced Securities andother financial instruments owned, atfairvalue by5.33% and",
+        "context": [
+          "company when thecriteria aremet. During 2024, theCompany elected tonettheassets andliabilities",
+          "ofoptions held with thesame counterparty that meet theoffsetting criteria. This change in",
+          "presentation reduced Securities andother financial instruments owned, atfairvalue by5.33% and",
+          "reduced Securities andother financial instruments sold, notyetpurchased, atfairvalue by5.56%,",
+          "with corresponding reductions inTotal assets andTotal liabilities. Thechange hadnoimpact onthe"
+        ]
+      },
+      {
+        "line": "reduced Securities andother financial instruments sold, notyetpurchased, atfairvalue by5.56%,",
+        "context": [
+          "ofoptions held with thesame counterparty that meet theoffsetting criteria. This change in",
+          "presentation reduced Securities andother financial instruments owned, atfairvalue by5.33% and",
+          "reduced Securities andother financial instruments sold, notyetpurchased, atfairvalue by5.56%,",
+          "with corresponding reductions inTotal assets andTotal liabilities. Thechange hadnoimpact onthe",
+          "Company's equity. The Company believes netpresentation ispreferable asitmore accurately"
+        ]
+      },
+      {
+        "line": "with corresponding reductions inTotal assets andTotal liabilities. Thechange hadnoimpact onthe",
+        "context": [
+          "presentation reduced Securities andother financial instruments owned, atfairvalue by5.33% and",
+          "reduced Securities andother financial instruments sold, notyetpurchased, atfairvalue by5.56%,",
+          "with corresponding reductions inTotal assets andTotal liabilities. Thechange hadnoimpact onthe",
+          "Company's equity. The Company believes netpresentation ispreferable asitmore accurately",
+          "represents thebalance sheet exposure associated with these financial instruments."
+        ]
+      },
+      {
+        "line": "Company's equity. The Company believes netpresentation ispreferable asitmore accurately",
+        "context": [
+          "reduced Securities andother financial instruments sold, notyetpurchased, atfairvalue by5.56%,",
+          "with corresponding reductions inTotal assets andTotal liabilities. Thechange hadnoimpact onthe",
+          "Company's equity. The Company believes netpresentation ispreferable asitmore accurately",
+          "represents thebalance sheet exposure associated with these financial instruments.",
+          "Allother securities included inSecurities andother financial instruments owned, atfairvalue and"
+        ]
+      },
+      {
+        "line": "represents thebalance sheet exposure associated with these financial instruments.",
+        "context": [
+          "with corresponding reductions inTotal assets andTotal liabilities. Thechange hadnoimpact onthe",
+          "Company's equity. The Company believes netpresentation ispreferable asitmore accurately",
+          "represents thebalance sheet exposure associated with these financial instruments.",
+          "Allother securities included inSecurities andother financial instruments owned, atfairvalue and",
+          "Securities andother financial instruments sold, notyetpurchased, atfairvalue arenetbyCUSIP, by"
+        ]
+      },
+      {
+        "line": "Allother securities included inSecurities andother financial instruments owned, atfairvalue and",
+        "context": [
+          "Company's equity. The Company believes netpresentation ispreferable asitmore accurately",
+          "represents thebalance sheet exposure associated with these financial instruments.",
+          "Allother securities included inSecurities andother financial instruments owned, atfairvalue and",
+          "Securities andother financial instruments sold, notyetpurchased, atfairvalue arenetbyCUSIP, by",
+          "each clearing broker."
+        ]
+      },
+      {
+        "line": "Securities andother financial instruments sold, notyetpurchased, atfairvalue arenetbyCUSIP, by",
+        "context": [
+          "represents thebalance sheet exposure associated with these financial instruments.",
+          "Allother securities included inSecurities andother financial instruments owned, atfairvalue and",
+          "Securities andother financial instruments sold, notyetpurchased, atfairvalue arenetbyCUSIP, by",
+          "each clearing broker.",
+          "Incarrying outitsvaluation responsibilities, theCompany hasconsidered theavailability andquality"
+        ]
+      },
+      {
+        "line": "derecognized. Securities borrowed (\"securities borrowing transactions\"), Securities sold under",
+        "context": [
+          "transactions when thetransferor retains control ofthefinancial assets. Inacollateralized financing",
+          "transaction, financial assets remain ontheConsolidated Statement ofFinancial Condition andarenot",
+          "derecognized. Securities borrowed (\"securities borrowing transactions\"), Securities sold under",
+          "agreements torepurchase (\"repurchase agreements\"), and Securities loaned (\"securities lending",
+          "transactions\") aretreated ascollateralized financing arrangements."
+        ]
+      },
+      {
+        "line": "resulting realized andunrealized gains andlosses arereflected inMember's equity.",
+        "context": [
+          "Revenue Recognition",
+          "The Company records transactions andtherelated revenues andexpenses onatrade date basis. All",
+          "resulting realized andunrealized gains andlosses arereflected inMember's equity.",
+          "Interest income andinterest expense arerecorded onanaccrual basis. Dividend income onequities",
+          "owned anddividend expense onequities sold, notyetpurchased arerecorded ontheex-dividend date."
+        ]
+      },
+      {
+        "line": "owned anddividend expense onequities sold, notyetpurchased arerecorded ontheex-dividend date.",
+        "context": [
+          "resulting realized andunrealized gains andlosses arereflected inMember's equity.",
+          "Interest income andinterest expense arerecorded onanaccrual basis. Dividend income onequities",
+          "owned anddividend expense onequities sold, notyetpurchased arerecorded ontheex-dividend date.",
+          "Fixed Assets",
+          "Furniture, equipment, and software arecarried atcost netofaccumulated depreciation and"
+        ]
+      },
+      {
+        "line": "financial instruments, andrevenue andexpense items denominated inforeign currencies arerecorded",
+        "context": [
+          "Assets andliabilities denominated inforeign currencies areremeasured into U.S. dollar amounts at",
+          "theprevailing exchange rates onthereporting date. Both purchases and sales ofsecurities and",
+          "financial instruments, andrevenue andexpense items denominated inforeign currencies arerecorded",
+          "inU.S. dollar amounts using theexchange rateontherespective date ofsuch transactions.",
+          "Income Taxes"
+        ]
+      },
+      {
+        "line": "The Company isasingle member limited liability company andadisregarded entity forU.S. tax",
+        "context": [
+          "inU.S. dollar amounts using theexchange rateontherespective date ofsuch transactions.",
+          "Income Taxes",
+          "The Company isasingle member limited liability company andadisregarded entity forU.S. tax",
+          "purposes; therefore, noprovision has been made intheaccompanying consolidated financial",
+          "statement forU.S. federal, state, orcityincome taxes. Income taxes imposed byforeign jurisdictions"
+        ]
+      },
+      {
+        "line": "areincluded inMember's equity.",
+        "context": [
+          "purposes; therefore, noprovision has been made intheaccompanying consolidated financial",
+          "statement forU.S. federal, state, orcityincome taxes. Income taxes imposed byforeign jurisdictions",
+          "areincluded inMember's equity.",
+          "6",
+          "Jane Street Capital, LLC"
+        ]
+      }
+    ],
+    "billion_dollar_amounts": []
+  },
+  "JaneStreet_FY2021": {
+    "pages": 23,
+    "text_length": 42190,
+    "key_findings": [
+      {
+        "line": "TotheMember andOperating Committee of",
+        "context": [
+          "working world",
+          "Report ofIndependent Registered Public Accounting Firm",
+          "TotheMember andOperating Committee of",
+          "Jane Street Capital ,LLC",
+          "Opinion ontheFinancial Statement"
+        ]
+      },
+      {
+        "line": "Securities andother financial instruments owned ,atfairvalue :",
+        "context": [
+          "Assets",
+          "Cash",
+          "Securities andother financial instruments owned ,atfairvalue :",
+          "Equities",
+          "Options"
+        ]
+      },
+      {
+        "line": "Total assets933,781,745",
+        "context": [
+          "Fixed assets ,netofaccumulated depreciation andamortization",
+          "Other assets",
+          "Total assets933,781,745",
+          "6,281,284",
+          "10,709,067"
+        ]
+      },
+      {
+        "line": "Liabilities andmember 'sequity",
+        "context": [
+          "6,193,169",
+          "$36,336.116 .134",
+          "Liabilities andmember 'sequity",
+          "Liabilities :",
+          "Securities andother financial instruments sold,notyetpurchased ,atfairvalue :"
+        ]
+      },
+      {
+        "line": "Securities andother financial instruments sold,notyetpurchased ,atfairvalue :",
+        "context": [
+          "Liabilities andmember 'sequity",
+          "Liabilities :",
+          "Securities andother financial instruments sold,notyetpurchased ,atfairvalue :",
+          "Equities",
+          "Options"
+        ]
+      },
+      {
+        "line": "Securities soldunder agreements torepurchase",
+        "context": [
+          "26,966,782,202",
+          "Due tobrokers ,clearing organizations ,andother",
+          "Securities soldunder agreements torepurchase",
+          "Due toParent",
+          "Due toaffiliates"
+        ]
+      },
+      {
+        "line": "Total liabilities588,714,449",
+        "context": [
+          "Due toaffiliates",
+          "Accrued expenses andother liabilities",
+          "Total liabilities588,714,449",
+          "4,200,000,000",
+          "927,419,544"
+        ]
+      },
+      {
+        "line": "Member 'sequity",
+        "context": [
+          "32,722,917,497",
+          "Subordinated borrowing",
+          "Member 'sequity",
+          "Total liabilities andmember 'sequity275,000,000",
+          "3,338,198,637"
+        ]
+      },
+      {
+        "line": "Total liabilities andmember 'sequity275,000,000",
+        "context": [
+          "Subordinated borrowing",
+          "Member 'sequity",
+          "Total liabilities andmember 'sequity275,000,000",
+          "3,338,198,637",
+          "S36,336 ,116,134"
+        ]
+      },
+      {
+        "line": "dealer under theSecurities Exchange Actof1934.JSCisawholly -owned subsidiary ofJane Street",
+        "context": [
+          "1.Nature ofOperations",
+          "Jane Street Capital ,LLC (\"JSC\"),aDelaware limited liability company ,isregistered asabroker -",
+          "dealer under theSecurities Exchange Actof1934.JSCisawholly -owned subsidiary ofJane Street",
+          "Group ,LLC (the\"Parent \").JSC isamember ofvarious exchanges andtheFinancial Industry",
+          "Regulatory Authority ,Inc(\"FINRA \"),who serves asitsDesignated Examining Authority .JSC"
+        ]
+      },
+      {
+        "line": "Group ,LLC (the\"Parent \").JSC isamember ofvarious exchanges andtheFinancial Industry",
+        "context": [
+          "Jane Street Capital ,LLC (\"JSC\"),aDelaware limited liability company ,isregistered asabroker -",
+          "dealer under theSecurities Exchange Actof1934.JSCisawholly -owned subsidiary ofJane Street",
+          "Group ,LLC (the\"Parent \").JSC isamember ofvarious exchanges andtheFinancial Industry",
+          "Regulatory Authority ,Inc(\"FINRA \"),who serves asitsDesignated Examining Authority .JSC",
+          "trades foritsown account andisamarket -maker oncertain exchanges .Additionally ,JSC isa"
+        ]
+      },
+      {
+        "line": "member oftheDepository Trust Company andactsasanauthorized participant inorder tocreate",
+        "context": [
+          "Regulatory Authority ,Inc(\"FINRA \"),who serves asitsDesignated Examining Authority .JSC",
+          "trades foritsown account andisamarket -maker oncertain exchanges .Additionally ,JSC isa",
+          "member oftheDepository Trust Company andactsasanauthorized participant inorder tocreate",
+          "and/orredeem exchange traded funds .JSCC Limited (\"JSCC \"),JSC'swholly -owned subsidiary ,",
+          "isanunregulated firm incorporated intheCayman Islands ."
+        ]
+      },
+      {
+        "line": "and/orredeem exchange traded funds .JSCC Limited (\"JSCC \"),JSC'swholly -owned subsidiary ,",
+        "context": [
+          "trades foritsown account andisamarket -maker oncertain exchanges .Additionally ,JSC isa",
+          "member oftheDepository Trust Company andactsasanauthorized participant inorder tocreate",
+          "and/orredeem exchange traded funds .JSCC Limited (\"JSCC \"),JSC'swholly -owned subsidiary ,",
+          "isanunregulated firm incorporated intheCayman Islands .",
+          "2.Summary ofSignificant Accounting Policies"
+        ]
+      },
+      {
+        "line": "Securities and Other Financial Instruments Owned and Securities and Other Financial",
+        "context": [
+          "December 31,2021",
+          "2.Summary ofSignificant Accounting Policies (continued )",
+          "Securities and Other Financial Instruments Owned and Securities and Other Financial",
+          "Instruments Sold,NotYetPurchased ,atFair Value",
+          "Equity securities traded onanational securities exchange ,orover thecounter (\"OTC \"),are"
+        ]
+      },
+      {
+        "line": "Instruments Sold,NotYetPurchased ,atFair Value",
+        "context": [
+          "2.Summary ofSignificant Accounting Policies (continued )",
+          "Securities and Other Financial Instruments Owned and Securities and Other Financial",
+          "Instruments Sold,NotYetPurchased ,atFair Value",
+          "Equity securities traded onanational securities exchange ,orover thecounter (\"OTC \"),are",
+          "generally valued atthelastreported sales price fortheidentical instrument atthedate ofvaluation ."
+        ]
+      },
+      {
+        "line": "Equity securities traded onanational securities exchange ,orover thecounter (\"OTC \"),are",
+        "context": [
+          "Securities and Other Financial Instruments Owned and Securities and Other Financial",
+          "Instruments Sold,NotYetPurchased ,atFair Value",
+          "Equity securities traded onanational securities exchange ,orover thecounter (\"OTC \"),are",
+          "generally valued atthelastreported sales price fortheidentical instrument atthedate ofvaluation .",
+          "Incertain cases ,where theCompany believes thelastreported sales price isnotthebestindication"
+        ]
+      },
+      {
+        "line": "Securities andother financial instruments owned andSecurities andother financial instruments",
+        "context": [
+          "agencies .The fairvalue ofmortgage -backed securities isgenerally determined using quoted",
+          "market prices ,recent market transactions ,andspread data forsimilar instruments .",
+          "Securities andother financial instruments owned andSecurities andother financial instruments",
+          "sold,notyetpurchased ,intheConsolidated Statement ofFinancial Condition ,arenetbyCUSIP ,",
+          "byeach clearing broker ."
+        ]
+      },
+      {
+        "line": "reported sales price oftheunderlying financial instruments atthedate ofvaluation .",
+        "context": [
+          "Contracts fordifferences (\"CFDs \")areincluded inDue from brokers ,clearing organizations ,and",
+          "other intheConsolidated Statement ofFinancial Condition and arevalued based onthelast",
+          "reported sales price oftheunderlying financial instruments atthedate ofvaluation .",
+          "4",
+          "Jane Street Capital ,LLC"
+        ]
+      },
+      {
+        "line": "date basis.Allresulting realized andunrealized gains andlosses arereflected inMember \u2019sequity .",
+        "context": [
+          "Revenue Recognition",
+          "TheCompany records transactions insecurities andtherelated revenues andexpenses onatrade",
+          "date basis.Allresulting realized andunrealized gains andlosses arereflected inMember \u2019sequity .",
+          "Interest income andexpense arerecorded onanaccrual basis.Dividend income onequities owned",
+          "anddividend expense onequities sold,notyetpurchased arerecorded ontheex-dividend date."
+        ]
+      },
+      {
+        "line": "Interest income andexpense arerecorded onanaccrual basis.Dividend income onequities owned",
+        "context": [
+          "TheCompany records transactions insecurities andtherelated revenues andexpenses onatrade",
+          "date basis.Allresulting realized andunrealized gains andlosses arereflected inMember \u2019sequity .",
+          "Interest income andexpense arerecorded onanaccrual basis.Dividend income onequities owned",
+          "anddividend expense onequities sold,notyetpurchased arerecorded ontheex-dividend date.",
+          "Repurchase Agreements"
+        ]
+      },
+      {
+        "line": "they require securities sold bytheCompany toberepurchased atorbefore thematurity ofthe",
+        "context": [
+          "Repurchase Agreements",
+          "Tri-party repurchase agreements areaccounted forascollateralized financing transactions because",
+          "they require securities sold bytheCompany toberepurchased atorbefore thematurity ofthe",
+          "respective agreements ,atafixed price.Accordingly ,securities sold under tri-party repurchase",
+          "agreements arenotderecognized .Therelated securities areheld byathird-party custodian without"
+        ]
+      },
+      {
+        "line": "respective agreements ,atafixed price.Accordingly ,securities sold under tri-party repurchase",
+        "context": [
+          "Tri-party repurchase agreements areaccounted forascollateralized financing transactions because",
+          "they require securities sold bytheCompany toberepurchased atorbefore thematurity ofthe",
+          "respective agreements ,atafixed price.Accordingly ,securities sold under tri-party repurchase",
+          "agreements arenotderecognized .Therelated securities areheld byathird-party custodian without",
+          "control being surrendered ,andtherefore remain within their respective asset class inSecurities"
+        ]
+      },
+      {
+        "line": "andother financial instruments owned ,atfairvalue intheConsolidated Statement ofFinancial",
+        "context": [
+          "agreements arenotderecognized .Therelated securities areheld byathird-party custodian without",
+          "control being surrendered ,andtherefore remain within their respective asset class inSecurities",
+          "andother financial instruments owned ,atfairvalue intheConsolidated Statement ofFinancial",
+          "Condition .",
+          "Thetransaction value oftheagreements arerecognized asaliability atthecontracted repurchase"
+        ]
+      },
+      {
+        "line": "amounts within Securities sold under agreements torepurchase intheConsolidated Statement of",
+        "context": [
+          "Condition .",
+          "Thetransaction value oftheagreements arerecognized asaliability atthecontracted repurchase",
+          "amounts within Securities sold under agreements torepurchase intheConsolidated Statement of",
+          "Financial Condition .Interest paid onrepurchase agreements isaccrued over thelifeofthe",
+          "applicable agreement using theeffective interest method ."
+        ]
+      },
+      {
+        "line": "TheCompany isasingle member limited liability company andadisregarded entity forU.S.tax",
+        "context": [
+          "2.Summary ofSignificant Accounting Policies (continued )",
+          "Income Taxes",
+          "TheCompany isasingle member limited liability company andadisregarded entity forU.S.tax",
+          "purposes ;therefore ,noprovision hasbeen made intheaccompanying consolidated financial",
+          "statement forU.S.federal ,state,orcity income taxes .Income taxes imposed byforeign"
+        ]
+      },
+      {
+        "line": "jurisdictions areincluded inMember \u2019sequity .",
+        "context": [
+          "purposes ;therefore ,noprovision hasbeen made intheaccompanying consolidated financial",
+          "statement forU.S.federal ,state,orcity income taxes .Income taxes imposed byforeign",
+          "jurisdictions areincluded inMember \u2019sequity .",
+          "The Company issubject totheprovisions oftheASC 740-10,Accounting forUncertainty in",
+          "Income Taxes (\"ASC 740\").This standard establishes consistent thresholds asitrelates to"
+        ]
+      },
+      {
+        "line": "taxes.Any such changes could significantly affect theamounts reported inMember \u2019sequity .",
+        "context": [
+          "authorities .Significant judgment isrequired when evaluating tax positions and related",
+          "uncertainties .Future events such aschanges intaxlegislation could require aprovision forincome",
+          "taxes.Any such changes could significantly affect theamounts reported inMember \u2019sequity .",
+          "Fixed Assets",
+          "Furniture ,equipment ,and software arecarried atcost netofaccumulated depreciation and"
+        ]
+      },
+      {
+        "line": "3.Fair Value ofFinancial Instruments",
+        "context": [
+          "(13,649,490)",
+          "$.10,709,067",
+          "3.Fair Value ofFinancial Instruments",
+          "ASC 820,Fair Value Measurements andDisclosures (\"ASC 820\"),provides asingle definition of",
+          "fairvalue together with aframework formeasurement ,andrequires additional disclosure about"
+        ]
+      },
+      {
+        "line": "ASC 820,Fair Value Measurements andDisclosures (\"ASC 820\"),provides asingle definition of",
+        "context": [
+          "$.10,709,067",
+          "3.Fair Value ofFinancial Instruments",
+          "ASC 820,Fair Value Measurements andDisclosures (\"ASC 820\"),provides asingle definition of",
+          "fairvalue together with aframework formeasurement ,andrequires additional disclosure about",
+          "theuseoffairvalue techniques tomeasure assets andliabilities .ASC 820emphasizes thatfair"
+        ]
+      },
+      {
+        "line": "3.Fair Value ofFinancial Instruments (continued )",
+        "context": [
+          "Notes toConsolidated Statement ofFinancial Condition",
+          "December 31,2021",
+          "3.Fair Value ofFinancial Instruments (continued )",
+          "The Company continually refines itsprocess forestimating and measuring thefairvalue of",
+          "securities andother financial instruments inorder toachieve themost accurate estimate offair"
+        ]
+      }
+    ],
+    "billion_dollar_amounts": [
+      "23,272,005,908",
+      "6,927,333,358",
+      "4,492,309,117",
+      "35,365,767,437",
+      "14,045,239,105",
+      "6,840,794,865",
+      "5,775,515,670",
+      "26,966,782,202",
+      "4,200,000,000",
+      "32,722,917,497",
+      "3,338,198,637",
+      "21,969,417,088",
+      "1,302,588,820",
+      "23,272,005,908",
+      "6,927,333,358",
+      "6,927,333,358",
+      "4,492,309,117",
+      "4,492,309,117",
+      "26,631,514,998",
+      "8,734,252,439"
+    ]
+  }
+}

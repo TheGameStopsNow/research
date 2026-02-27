@@ -1,0 +1,98 @@
+{
+  "part_a_survival_funnel": {
+    "T+3": {
+      "offset": 3,
+      "exact_in": 43,
+      "exact_enrichment": 5.435897435897435,
+      "w2_in": 89,
+      "w2_enrichment": 6.648343904157858
+    },
+    "T+6": {
+      "offset": 6,
+      "exact_in": 56,
+      "exact_enrichment": 7.362480620155038,
+      "w2_in": 84,
+      "w2_enrichment": 6.002022244691608
+    },
+    "T+9": {
+      "offset": 9,
+      "exact_in": 49,
+      "exact_enrichment": 7.002359285473542,
+      "w2_in": 72,
+      "w2_enrichment": 5.916279069767441
+    },
+    "T+13": {
+      "offset": 13,
+      "exact_in": 46,
+      "exact_enrichment": 8.399655469422912,
+      "w2_in": 73,
+      "w2_enrichment": 7.498062015503876
+    },
+    "T+15": {
+      "offset": 15,
+      "exact_in": 55,
+      "exact_enrichment": 10.04306632213609,
+      "w2_in": 86,
+      "w2_enrichment": 7.43859649122807
+    },
+    "T+21": {
+      "offset": 21,
+      "exact_in": 17,
+      "exact_enrichment": 3.7250645994832046,
+      "w2_in": 82,
+      "w2_enrichment": 8.422480620155039
+    },
+    "T+27": {
+      "offset": 27,
+      "exact_in": 61,
+      "exact_enrichment": 12.531007751937985,
+      "w2_in": 67,
+      "w2_enrichment": 7.1037759439859975
+    },
+    "T+33": {
+      "offset": 33,
+      "exact_in": 44,
+      "exact_enrichment": 18.07751937984496,
+      "w2_in": 64,
+      "w2_enrichment": 16.181276088252833
+    },
+    "T+35": {
+      "offset": 35,
+      "exact_in": 64,
+      "exact_enrichment": 23.372954349698535,
+      "w2_in": 64,
+      "w2_enrichment": 16.181276088252833
+    },
+    "T+40": {
+      "offset": 40,
+      "exact_in": 49,
+      "exact_enrichment": 40.26356589147287,
+      "w2_in": 61,
+      "w2_enrichment": 22.27734711455642
+    }
+  },
+  "part_b_volume_ratio": {
+    "pre_split": {
+      "total_trades": 0,
+      "total_size": 0,
+      "dates_checked": 50,
+      "dates_with_deep": 0
+    },
+    "post_split": {
+      "total_trades": 0,
+      "total_size": 0,
+      "dates_checked": 50,
+      "dates_with_deep": 0
+    },
+    "pre_avg_contracts": 0.0,
+    "post_avg_contracts": 0.0,
+    "ratio": 0.0
+  },
+  "part_c_slope": {
+    "slope": 6.993433745726696,
+    "r_squared": 0.00029451074799264503,
+    "p_value": 0.6431989723292291,
+    "first_month_mean": 223191.90476190476
+  },
+  "part_d_alignment": []
+}

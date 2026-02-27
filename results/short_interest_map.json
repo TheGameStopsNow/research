@@ -1,0 +1,238 @@
+{
+  "title": "GME/XRT Short Interest Map \u2014 Q2 2024 Event",
+  "data_sources": {
+    "1_finra_daily_short_volume": {
+      "url": "https://cdn.finra.org/equity/regsho/daily/CNMSshvolYYYYMMDD.txt",
+      "description": "Daily short sale volume ratio from FINRA",
+      "format": "Date|Symbol|ShortVolume|ShortExemptVolume|TotalVolume|Market"
+    },
+    "2_sec_ftd": {
+      "url": "https://www.sec.gov/files/data/fails-deliver-data/cnsfailsYYYYMMx.zip",
+      "description": "Fails to deliver data from SEC (bi-monthly)",
+      "format": "Date|CUSIP|Symbol|Quantity|Description|Price",
+      "gme_cusip": "36467W109",
+      "xrt_cusip": "78464A714"
+    },
+    "3_polygon_ticker_details": {
+      "url": "https://api.polygon.io/v3/reference/tickers/{TICKER}?date=YYYY-MM-DD",
+      "description": "Shares outstanding from Polygon.io"
+    },
+    "4_sec_13f": {
+      "description": "Institutional positions from 13F-HR filings"
+    },
+    "5_sec_nport": {
+      "description": "XRT holdings from N-PORT filing"
+    }
+  },
+  "finra_short_volume": {
+    "GME": {
+      "2024-05-13": {
+        "short": 38642103,
+        "exempt": 1161062,
+        "total": 81239304,
+        "ratio": 47.6
+      },
+      "2024-05-14": {
+        "short": 32504942,
+        "exempt": 1029093,
+        "total": 65551276,
+        "ratio": 49.6
+      },
+      "2024-05-15": {
+        "short": 24643316,
+        "exempt": 1937323,
+        "total": 51674392,
+        "ratio": 47.7
+      },
+      "2024-05-16": {
+        "short": 21314015,
+        "exempt": 1808411,
+        "total": 36518613,
+        "ratio": 58.4
+      },
+      "2024-05-17": {
+        "short": 21556571,
+        "exempt": 1655911,
+        "total": 37927645,
+        "ratio": 56.8
+      },
+      "2024-05-20": {
+        "short": 12108123,
+        "exempt": 1064451,
+        "total": 26565696,
+        "ratio": 45.6
+      },
+      "2024-06-13": {
+        "short": 22692151,
+        "exempt": 1994294,
+        "total": 49091458,
+        "ratio": 46.2
+      },
+      "2024-06-14": {
+        "short": 19927547,
+        "exempt": 768287,
+        "total": 42503174,
+        "ratio": 46.9
+      }
+    },
+    "XRT": {
+      "2024-05-13": {
+        "short": 3482789,
+        "exempt": 13285,
+        "total": 4174208,
+        "ratio": 83.4
+      },
+      "2024-05-14": {
+        "short": 4542925,
+        "exempt": 8042,
+        "total": 7756300,
+        "ratio": 58.6
+      },
+      "2024-05-15": {
+        "short": 1308995,
+        "exempt": 65,
+        "total": 1894539,
+        "ratio": 69.1
+      },
+      "2024-05-16": {
+        "short": 1356265,
+        "exempt": 1530,
+        "total": 1633306,
+        "ratio": 83.0
+      },
+      "2024-05-17": {
+        "short": 1171516,
+        "exempt": 8421,
+        "total": 1343477,
+        "ratio": 87.2
+      },
+      "2024-05-20": {
+        "short": 786416,
+        "exempt": 931,
+        "total": 925434,
+        "ratio": 85.0
+      },
+      "2024-06-13": {
+        "short": 917269,
+        "exempt": 98,
+        "total": 1144710,
+        "ratio": 80.1
+      },
+      "2024-06-14": {
+        "short": 732948,
+        "exempt": 90,
+        "total": 966216,
+        "ratio": 75.9
+      }
+    }
+  },
+  "sec_ftd": {
+    "GME": {
+      "20240501": {
+        "fails": 8167,
+        "price": 11.09
+      },
+      "20240502": {
+        "fails": 6793,
+        "price": 10.91
+      },
+      "20240515": {
+        "fails": 571602,
+        "price": 48.75
+      },
+      "20240516": {
+        "fails": 22407,
+        "price": 39.55
+      }
+    },
+    "XRT": {
+      "20240501": {
+        "fails": 97601,
+        "price": 71.79
+      },
+      "20240502": {
+        "fails": 14294,
+        "price": 71.28
+      },
+      "20240515": {
+        "fails": 1502,
+        "price": 78.47
+      },
+      "20240516": {
+        "fails": 96868,
+        "price": 77.48
+      }
+    },
+    "note": "Partial extraction due to SEC rate limiting. Full data available at source URL."
+  },
+  "shares_outstanding": {
+    "XRT": {
+      "2024-04-01": 6750000,
+      "2024-04-15": 6400000,
+      "2024-05-01": 7800000,
+      "2024-05-10": 7000000,
+      "2024-05-13": 7050000,
+      "2024-05-14": 7700000,
+      "2024-05-15": 7700000,
+      "2024-05-17": 8050000,
+      "2024-05-20": 6900000,
+      "2024-05-24": 6250000,
+      "2024-05-31": 4900000,
+      "2024-06-14": 5900000,
+      "2024-06-28": 6400000,
+      "2024-07-15": 4700000,
+      "2024-08-01": 5150000
+    },
+    "GME": {
+      "2024-04-01": 305870000,
+      "2024-05-01": 305870000,
+      "2024-05-14": 306190000,
+      "2024-06-01": 306190000,
+      "2024-06-14": 351220000,
+      "2024-07-01": 351220000,
+      "2024-08-01": 351220000
+    }
+  },
+  "nport_xrt_gme_weight": {
+    "filing": "N-PORT-P acc 0001752724-24-196609 (filed 2024-08-28, period ending June 2024)",
+    "gme_holding_number": 261,
+    "gme_shares_held": 5121,
+    "gme_value_thousands": 2064,
+    "note": "GME Class A = holding #261 with 5,121 shares valued at ~$2.064M in XRT"
+  },
+  "q2_13f_synthetic_exposure": {
+    "citadel": {
+      "puts": 5733500,
+      "calls": 3511800,
+      "shares": 1909379,
+      "put_equiv_shares": 573350000
+    },
+    "susquehanna": {
+      "puts": 4487100,
+      "calls": 4805000,
+      "shares": 998256,
+      "put_equiv_shares": 448710000
+    },
+    "jane_street": {
+      "puts": 2188300,
+      "calls": 4641900,
+      "shares": 1867587,
+      "put_equiv_shares": 218830000
+    },
+    "total_puts": 12408900,
+    "total_put_equiv_shares": 1240890000,
+    "system_cp_ratio": 1.044,
+    "note": "System-level 12.4M put contracts = 1.24B synthetic short equivalent"
+  },
+  "analysis": {
+    "1_xrt_creation_destruction": "XRT SO surged 7M\u21928.05M (May 10-17) then collapsed to 4.9M by May 31. Net destruction of 3.15M shares = AP redemption cycle.",
+    "2_xrt_short_volume": "XRT short volume = 83-87% during event week (vs typical ~40%). Nearly ALL XRT trading was short selling.",
+    "3_gme_ftd_spike": "GME FTDs spiked 70\u00d7 from 8,167 (May 1) to 571,602 (May 15) \u2014 day AFTER XRT creation spike.",
+    "4_gme_atm_offering": "GME shares outstanding jumped 306M\u2192351M in June = ~45M ATM offering (dilution absorbed short demand).",
+    "5_synthetic_exposure": "System-level institutional puts = 12.4M contracts (1.24B synthetic short). GME float was ~306M shares.",
+    "6_short_volume_ratio": "GME short volume steady at 46-58% across event dates. Elevated but within range of typical high-SI stocks.",
+    "7_nport_weight": "GME = only 5,121 shares (holding #261) in XRT. XRT held as vehicle, not for GME exposure per se.",
+    "8_where_si_went": "SI likely migrated from: (a) traditional shorts \u2192 put/call conversions in 13F, (b) on-exchange \u2192 OTC swaps (EMIR data opaque), (c) XRT creation/destruction cycle as locate source."
+  },
+  "retrieved": "2026-02-18"
+}

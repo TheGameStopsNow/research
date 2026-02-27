@@ -1,0 +1,50 @@
+{
+  "Robinhood": {
+    "cik": "1783879",
+    "entity": "Robinhood Markets, Inc.",
+    "606_url": "https://robinhood.com/us/en/about/legal/",
+    "note": "Rule 606 reports are typically published on broker websites, not filed with SEC as separate forms"
+  },
+  "Charles Schwab": {
+    "cik": "316709",
+    "entity": "SCHWAB CHARLES CORP",
+    "606_url": "https://www.schwab.com/legal/order-routing",
+    "note": "Rule 606 reports are typically published on broker websites, not filed with SEC as separate forms"
+  },
+  "Fidelity": {
+    "cik": "72267",
+    "entity": "NOMURA SECURITIES INTERNATIONAL, INC.",
+    "606_url": "https://www.fidelity.com/trading/trading-profile-information/order-routing-statistics",
+    "note": "Rule 606 reports are typically published on broker websites, not filed with SEC as separate forms"
+  },
+  "TD Ameritrade": {
+    "cik": "816956",
+    "entity": "CONMED Corp",
+    "606_url": "https://www.tdameritrade.com/disclosure.html",
+    "note": "Rule 606 reports are typically published on broker websites, not filed with SEC as separate forms"
+  },
+  "Interactive Brokers": {
+    "cik": "1381197",
+    "entity": "Interactive Brokers Group, Inc.",
+    "606_url": "https://www.interactivebrokers.com/en/index.php?f=563",
+    "note": "Rule 606 reports are typically published on broker websites, not filed with SEC as separate forms"
+  },
+  "analysis": {
+    "description": "Rule 606a reports are published quarterly on broker websites, not filed as separate SEC forms",
+    "key_question": "Did Robinhood/Schwab/Fidelity route orders to Jump Execution, StoneX, or Cowen in May 2024?",
+    "target_firms": [
+      "Jump Execution",
+      "StoneX",
+      "Cowen",
+      "G1 Execution",
+      "Two Sigma Securities"
+    ],
+    "manual_urls": {
+      "Robinhood": "https://robinhood.com/us/en/about/legal/",
+      "Charles Schwab": "https://www.schwab.com/legal/order-routing",
+      "Fidelity": "https://www.fidelity.com/trading/trading-profile-information/order-routing-statistics",
+      "TD Ameritrade": "https://www.tdameritrade.com/disclosure.html",
+      "Interactive Brokers": "https://www.interactivebrokers.com/en/index.php?f=563"
+    }
+  }
+}

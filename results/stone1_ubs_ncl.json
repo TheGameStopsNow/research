@@ -1,0 +1,624 @@
+{
+  "stone": 1,
+  "name": "The Swiss Confession \u2014 UBS NCL",
+  "timestamp": "2026-02-18T01:31:09.595832",
+  "target_amounts": {
+    "notional_gme_only": "$1.93B (56.9M shares \u00d7 $34.01)",
+    "basis_capture": "$739M ($13/share \u00d7 56.9M shares)",
+    "description": "If UBS NCL shows RWA reductions in this range during Q2 2024, it confirms the swap unwind"
+  },
+  "hunt_keywords": [
+    "Non-Core and Legacy",
+    "NCL",
+    "Risk-Weighted Assets",
+    "RWA",
+    "Leverage Ratio Denominator",
+    "LRD",
+    "equity derivatives",
+    "equities financing",
+    "prime brokerage",
+    "Archegos",
+    "Credit Suisse legacy",
+    "wind-down",
+    "run-off",
+    "legacy portfolio",
+    "total return swap",
+    "equity swap"
+  ],
+  "data_sources": {},
+  "edgar_filings": [],
+  "edgar_searches": {
+    "non-core_and_legacy_equity": {
+      "total": 10,
+      "hits": [
+        {
+          "ciks": [
+            "0001610520",
+            "0001114446"
+          ],
+          "period_ending": "2024-10-30",
+          "file_num": [
+            "001-36764",
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS Group AG  (UBS)  (CIK 0001610520)",
+            "UBS AG  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-10-30",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021",
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001610520-24-000156",
+          "film_num": [
+            "241407299",
+            "241407300"
+          ],
+          "biz_locations": [
+            "Zurich, V8",
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8",
+            "V8"
+          ],
+          "items": []
+        },
+        {
+          "ciks": [
+            "0001610520",
+            "0001114446"
+          ],
+          "period_ending": "2024-06-30",
+          "file_num": [
+            "001-36764",
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS Group AG  (UBS)  (CIK 0001610520)",
+            "UBS AG  (AMNA, AMND, AMTR, AMUB, BDCX, BDCZ, CEFD, DJCB, ESUS, FEDL, HDLB, IFED, IWDL, IWFL, IWML, MLPB)  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-08-14",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021",
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001610520-24-000141",
+          "film_num": [
+            "241204120",
+            "241204121"
+          ],
+          "biz_locations": [
+            "Zurich, V8",
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8",
+            "V8"
+          ],
+          "items": []
+        },
+        {
+          "ciks": [
+            "0001114446"
+          ],
+          "period_ending": "2024-11-08",
+          "file_num": [
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS AG  (AMNA, AMND, AMTR, AMUB, BDCX, BDCZ, CEFD, DJCB, ESUS, FEDL, HDLB, IFED, IWDL, IWFL, IWML, MLPB)  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-11-08",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001114446-24-005518",
+          "film_num": [
+            "241437914"
+          ],
+          "biz_locations": [
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8"
+          ],
+          "items": []
+        },
+        {
+          "ciks": [
+            "0001114446"
+          ],
+          "period_ending": "2024-06-30",
+          "file_num": [
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS AG  (AMNA, AMND, AMTR, AMUB, BDCX, BDCZ, CEFD, DJCB, ESUS, FEDL, HDLB, IFED, IWDL, IWFL, IWML, MLPB)  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-08-23",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001114446-24-004271",
+          "film_num": [
+            "241233549"
+          ],
+          "biz_locations": [
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8"
+          ],
+          "items": []
+        },
+        {
+          "ciks": [
+            "0001610520",
+            "0001114446"
+          ],
+          "period_ending": "2024-06-30",
+          "file_num": [
+            "001-36764",
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS Group AG  (UBS)  (CIK 0001610520)",
+            "UBS AG  (AMNA, AMND, AMTR, AMUB, BDCX, BDCZ, CEFD, DJCB, ESUS, FEDL, HDLB, IFED, IWDL, IWFL, IWML, MLPB)  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-08-23",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021",
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001114446-24-004274",
+          "film_num": [
+            "241233573",
+            "241233574"
+          ],
+          "biz_locations": [
+            "Zurich, V8",
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8",
+            "V8"
+          ],
+          "items": []
+        }
+      ]
+    },
+    "risk-weighted_equity_derivatives_UBS": {
+      "total": 6,
+      "hits": [
+        {
+          "ciks": [
+            "0001114446"
+          ],
+          "period_ending": "2024-11-08",
+          "file_num": [
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS AG  (AMNA, AMND, AMTR, AMUB, BDCX, BDCZ, CEFD, DJCB, ESUS, FEDL, HDLB, IFED, IWDL, IWFL, IWML, MLPB)  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-11-08",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001114446-24-005518",
+          "film_num": [
+            "241437914"
+          ],
+          "biz_locations": [
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8"
+          ],
+          "items": []
+        },
+        {
+          "ciks": [
+            "0001610520",
+            "0001114446"
+          ],
+          "period_ending": "2024-10-30",
+          "file_num": [
+            "001-36764",
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS Group AG  (UBS)  (CIK 0001610520)",
+            "UBS AG  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-10-30",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021",
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001610520-24-000156",
+          "film_num": [
+            "241407299",
+            "241407300"
+          ],
+          "biz_locations": [
+            "Zurich, V8",
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8",
+            "V8"
+          ],
+          "items": []
+        },
+        {
+          "ciks": [
+            "0001114446"
+          ],
+          "period_ending": "2024-06-30",
+          "file_num": [
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS AG  (AMNA, AMND, AMTR, AMUB, BDCX, BDCZ, CEFD, DJCB, ESUS, FEDL, HDLB, IFED, IWDL, IWFL, IWML, MLPB)  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-08-23",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001114446-24-004271",
+          "film_num": [
+            "241233549"
+          ],
+          "biz_locations": [
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8"
+          ],
+          "items": []
+        },
+        {
+          "ciks": [
+            "0001610520",
+            "0001114446"
+          ],
+          "period_ending": "2024-06-30",
+          "file_num": [
+            "001-36764",
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS Group AG  (UBS)  (CIK 0001610520)",
+            "UBS AG  (AMNA, AMND, AMTR, AMUB, BDCX, BDCZ, CEFD, DJCB, ESUS, FEDL, HDLB, IFED, IWDL, IWFL, IWML, MLPB)  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-08-14",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021",
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001610520-24-000141",
+          "film_num": [
+            "241204120",
+            "241204121"
+          ],
+          "biz_locations": [
+            "Zurich, V8",
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8",
+            "V8"
+          ],
+          "items": []
+        },
+        {
+          "ciks": [
+            "0001610520",
+            "0001114446"
+          ],
+          "period_ending": "2024-10-30",
+          "file_num": [
+            "001-36764",
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS Group AG  (UBS)  (CIK 0001610520)",
+            "UBS AG  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-11-01",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021",
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001610520-24-000166",
+          "film_num": [
+            "241417048",
+            "241417049"
+          ],
+          "biz_locations": [
+            "Zurich, V8",
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8",
+            "V8"
+          ],
+          "items": []
+        }
+      ]
+    },
+    "NCL_wind-down_UBS_2024": {
+      "total": 3,
+      "hits": [
+        {
+          "ciks": [
+            "0001610520",
+            "0001114446"
+          ],
+          "period_ending": "2024-08-14",
+          "file_num": [
+            "001-36764",
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS Group AG  (UBS)  (CIK 0001610520)",
+            "UBS AG  (AMNA, AMND, AMTR, AMUB, BDCX, BDCZ, CEFD, DJCB, ESUS, FEDL, HDLB, IFED, IWDL, IWFL, IWML, MLPB)  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-08-15",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021",
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001610520-24-000147",
+          "film_num": [
+            "241210959",
+            "241210960"
+          ],
+          "biz_locations": [
+            "Zurich, V8",
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8",
+            "V8"
+          ],
+          "items": []
+        },
+        {
+          "ciks": [
+            "0001610520",
+            "0001114446"
+          ],
+          "period_ending": "2024-10-30",
+          "file_num": [
+            "001-36764",
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS Group AG  (UBS)  (CIK 0001610520)",
+            "UBS AG  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-11-01",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021",
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001610520-24-000166",
+          "film_num": [
+            "241417048",
+            "241417049"
+          ],
+          "biz_locations": [
+            "Zurich, V8",
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8",
+            "V8"
+          ],
+          "items": []
+        },
+        {
+          "ciks": [
+            "0001610520",
+            "0001114446"
+          ],
+          "period_ending": "2024-09-30",
+          "file_num": [
+            "001-36764",
+            "001-15060"
+          ],
+          "display_names": [
+            "UBS Group AG  (UBS)  (CIK 0001610520)",
+            "UBS AG  (CIK 0001114446)"
+          ],
+          "xsl": null,
+          "sequence": 1,
+          "root_forms": [
+            "6-K"
+          ],
+          "file_date": "2024-11-01",
+          "biz_states": [
+            "V8"
+          ],
+          "sics": [
+            "6021",
+            "6021"
+          ],
+          "form": "6-K",
+          "adsh": "0001610520-24-000165",
+          "film_num": [
+            "241416979",
+            "241416980"
+          ],
+          "biz_locations": [
+            "Zurich, V8",
+            "Zurich, V8"
+          ],
+          "file_type": "6-K",
+          "file_description": null,
+          "inc_states": [
+            "V8",
+            "V8"
+          ],
+          "items": []
+        }
+      ]
+    }
+  },
+  "ubs_ir_page": {
+    "status": "HTTP 403"
+  },
+  "manual_research_needed": {
+    "description": "Download and read the UBS Q2 2024 Earnings Supplement PDF",
+    "primary_url": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting/2q24.html",
+    "what_to_find": [
+      "NCL division: Total RWA and quarter-over-quarter change",
+      "NCL division: Revenue or loss attributed to equity derivatives wind-down",
+      "NCL division: 'Equities Financing' or 'Prime Brokerage' line items",
+      "Pillar 3 report: LRD changes in 'Equity Derivatives' bucket",
+      "Any mention of 'Archegos' or 'legacy positions' being unwound",
+      "Compare NCL RWA to Q1 2024 \u2014 look for $1-2B discrete reduction"
+    ],
+    "alternative_sources": [
+      "Bloomberg Terminal: UBS Group AG \u2192 Earnings \u2192 Q2 2024 \u2192 NCL segment",
+      "UBS Annual Report 2024 (published March 2025): full NCL breakdown",
+      "Pillar 3 Risk Report Q2 2024: RWA by asset class"
+    ]
+  }
+}

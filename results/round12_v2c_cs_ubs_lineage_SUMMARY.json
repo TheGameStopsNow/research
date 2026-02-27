@@ -1,0 +1,22 @@
+{
+  "original_file": "../review_package_02_archive/round12_v2c_cs_ubs_lineage.json",
+  "original_size_bytes": 162610,
+  "note": "Full data archived. This summary contains key findings only.",
+  "description": "Credit Suisse \u2192 UBS ATS dark pool lineage and XRT flow migration",
+  "key_findings": [
+    "CS CrossFinder + UBS ATS = 50-62% of XRT dark pool flow",
+    "Post-merger UBS absorbed all CS flow",
+    "UBS operated dual-channel: ATS (#1 venue) + OTC internalizer (#8)",
+    "CS was Archegos primary prime broker"
+  ],
+  "data_keys": [
+    "2021-01-25",
+    "2021-01-18",
+    "2021-02-01",
+    "2021-03-22",
+    "2021-03-29",
+    "2023-05-15",
+    "2023-09-11",
+    "2024-05-13"
+  ]
+}

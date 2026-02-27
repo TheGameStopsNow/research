@@ -1,0 +1,522 @@
+{
+  "GME": {
+    "3": {
+      "offset": 3,
+      "hits": 58,
+      "tests": 142,
+      "hit_rate": 0.4085,
+      "enrichment": 11.02,
+      "base_rate": 0.0371
+    },
+    "6": {
+      "offset": 6,
+      "hits": 45,
+      "tests": 146,
+      "hit_rate": 0.3082,
+      "enrichment": 8.31,
+      "base_rate": 0.0371
+    },
+    "9": {
+      "offset": 9,
+      "hits": 39,
+      "tests": 147,
+      "hit_rate": 0.2653,
+      "enrichment": 7.15,
+      "base_rate": 0.0371
+    },
+    "13": {
+      "offset": 13,
+      "hits": 28,
+      "tests": 138,
+      "hit_rate": 0.2029,
+      "enrichment": 5.47,
+      "base_rate": 0.0371
+    },
+    "15": {
+      "offset": 15,
+      "hits": 24,
+      "tests": 143,
+      "hit_rate": 0.1678,
+      "enrichment": 4.53,
+      "base_rate": 0.0371
+    },
+    "18": {
+      "offset": 18,
+      "hits": 15,
+      "tests": 141,
+      "hit_rate": 0.1064,
+      "enrichment": 2.87,
+      "base_rate": 0.0371
+    },
+    "21": {
+      "offset": 21,
+      "hits": 18,
+      "tests": 142,
+      "hit_rate": 0.1268,
+      "enrichment": 3.42,
+      "base_rate": 0.0371
+    },
+    "24": {
+      "offset": 24,
+      "hits": 20,
+      "tests": 141,
+      "hit_rate": 0.1418,
+      "enrichment": 3.83,
+      "base_rate": 0.0371
+    },
+    "25": {
+      "offset": 25,
+      "hits": 21,
+      "tests": 140,
+      "hit_rate": 0.15,
+      "enrichment": 4.05,
+      "base_rate": 0.0371
+    },
+    "27": {
+      "offset": 27,
+      "hits": 18,
+      "tests": 142,
+      "hit_rate": 0.1268,
+      "enrichment": 3.42,
+      "base_rate": 0.0371
+    },
+    "30": {
+      "offset": 30,
+      "hits": 20,
+      "tests": 144,
+      "hit_rate": 0.1389,
+      "enrichment": 3.75,
+      "base_rate": 0.0371
+    },
+    "33": {
+      "offset": 33,
+      "hits": 19,
+      "tests": 141,
+      "hit_rate": 0.1348,
+      "enrichment": 3.63,
+      "base_rate": 0.0371
+    },
+    "35": {
+      "offset": 35,
+      "hits": 20,
+      "tests": 144,
+      "hit_rate": 0.1389,
+      "enrichment": 3.75,
+      "base_rate": 0.0371
+    },
+    "38": {
+      "offset": 38,
+      "hits": 18,
+      "tests": 133,
+      "hit_rate": 0.1353,
+      "enrichment": 3.65,
+      "base_rate": 0.0371
+    },
+    "40": {
+      "offset": 40,
+      "hits": 15,
+      "tests": 136,
+      "hit_rate": 0.1103,
+      "enrichment": 2.97,
+      "base_rate": 0.0371
+    },
+    "45": {
+      "offset": 45,
+      "hits": 8,
+      "tests": 139,
+      "hit_rate": 0.0576,
+      "enrichment": 1.55,
+      "base_rate": 0.0371
+    }
+  },
+  "AAPL": {
+    "3": {
+      "offset": 3,
+      "hits": 0,
+      "tests": 33,
+      "hit_rate": 0.0,
+      "enrichment": 0.0,
+      "base_rate": 0.0155
+    },
+    "6": {
+      "offset": 6,
+      "hits": 2,
+      "tests": 34,
+      "hit_rate": 0.0588,
+      "enrichment": 3.81,
+      "base_rate": 0.0155
+    },
+    "9": {
+      "offset": 9,
+      "hits": 3,
+      "tests": 35,
+      "hit_rate": 0.0857,
+      "enrichment": 5.55,
+      "base_rate": 0.0155
+    },
+    "13": {
+      "offset": 13,
+      "hits": 0,
+      "tests": 31,
+      "hit_rate": 0.0,
+      "enrichment": 0.0,
+      "base_rate": 0.0155
+    },
+    "15": {
+      "offset": 15,
+      "hits": 3,
+      "tests": 33,
+      "hit_rate": 0.0909,
+      "enrichment": 5.88,
+      "base_rate": 0.0155
+    },
+    "18": {
+      "offset": 18,
+      "hits": 0,
+      "tests": 33,
+      "hit_rate": 0.0,
+      "enrichment": 0.0,
+      "base_rate": 0.0155
+    },
+    "21": {
+      "offset": 21,
+      "hits": 0,
+      "tests": 34,
+      "hit_rate": 0.0,
+      "enrichment": 0.0,
+      "base_rate": 0.0155
+    },
+    "24": {
+      "offset": 24,
+      "hits": 1,
+      "tests": 35,
+      "hit_rate": 0.0286,
+      "enrichment": 1.85,
+      "base_rate": 0.0155
+    },
+    "25": {
+      "offset": 25,
+      "hits": 2,
+      "tests": 33,
+      "hit_rate": 0.0606,
+      "enrichment": 3.92,
+      "base_rate": 0.0155
+    },
+    "27": {
+      "offset": 27,
+      "hits": 1,
+      "tests": 32,
+      "hit_rate": 0.0312,
+      "enrichment": 2.02,
+      "base_rate": 0.0155
+    },
+    "30": {
+      "offset": 30,
+      "hits": 1,
+      "tests": 37,
+      "hit_rate": 0.027,
+      "enrichment": 1.75,
+      "base_rate": 0.0155
+    },
+    "33": {
+      "offset": 33,
+      "hits": 1,
+      "tests": 34,
+      "hit_rate": 0.0294,
+      "enrichment": 1.9,
+      "base_rate": 0.0155
+    },
+    "35": {
+      "offset": 35,
+      "hits": 0,
+      "tests": 38,
+      "hit_rate": 0.0,
+      "enrichment": 0.0,
+      "base_rate": 0.0155
+    },
+    "38": {
+      "offset": 38,
+      "hits": 0,
+      "tests": 33,
+      "hit_rate": 0.0,
+      "enrichment": 0.0,
+      "base_rate": 0.0155
+    },
+    "40": {
+      "offset": 40,
+      "hits": 3,
+      "tests": 33,
+      "hit_rate": 0.0909,
+      "enrichment": 5.88,
+      "base_rate": 0.0155
+    },
+    "45": {
+      "offset": 45,
+      "hits": 3,
+      "tests": 35,
+      "hit_rate": 0.0857,
+      "enrichment": 5.55,
+      "base_rate": 0.0155
+    }
+  },
+  "MSFT": {
+    "3": {
+      "offset": 3,
+      "hits": 4,
+      "tests": 57,
+      "hit_rate": 0.0702,
+      "enrichment": 2.36,
+      "base_rate": 0.0297
+    },
+    "6": {
+      "offset": 6,
+      "hits": 1,
+      "tests": 65,
+      "hit_rate": 0.0154,
+      "enrichment": 0.52,
+      "base_rate": 0.0297
+    },
+    "9": {
+      "offset": 9,
+      "hits": 2,
+      "tests": 63,
+      "hit_rate": 0.0317,
+      "enrichment": 1.07,
+      "base_rate": 0.0297
+    },
+    "13": {
+      "offset": 13,
+      "hits": 2,
+      "tests": 59,
+      "hit_rate": 0.0339,
+      "enrichment": 1.14,
+      "base_rate": 0.0297
+    },
+    "15": {
+      "offset": 15,
+      "hits": 1,
+      "tests": 64,
+      "hit_rate": 0.0156,
+      "enrichment": 0.53,
+      "base_rate": 0.0297
+    },
+    "18": {
+      "offset": 18,
+      "hits": 2,
+      "tests": 53,
+      "hit_rate": 0.0377,
+      "enrichment": 1.27,
+      "base_rate": 0.0297
+    },
+    "21": {
+      "offset": 21,
+      "hits": 2,
+      "tests": 56,
+      "hit_rate": 0.0357,
+      "enrichment": 1.2,
+      "base_rate": 0.0297
+    },
+    "24": {
+      "offset": 24,
+      "hits": 1,
+      "tests": 56,
+      "hit_rate": 0.0179,
+      "enrichment": 0.6,
+      "base_rate": 0.0297
+    },
+    "25": {
+      "offset": 25,
+      "hits": 2,
+      "tests": 61,
+      "hit_rate": 0.0328,
+      "enrichment": 1.1,
+      "base_rate": 0.0297
+    },
+    "27": {
+      "offset": 27,
+      "hits": 4,
+      "tests": 59,
+      "hit_rate": 0.0678,
+      "enrichment": 2.28,
+      "base_rate": 0.0297
+    },
+    "30": {
+      "offset": 30,
+      "hits": 1,
+      "tests": 56,
+      "hit_rate": 0.0179,
+      "enrichment": 0.6,
+      "base_rate": 0.0297
+    },
+    "33": {
+      "offset": 33,
+      "hits": 2,
+      "tests": 59,
+      "hit_rate": 0.0339,
+      "enrichment": 1.14,
+      "base_rate": 0.0297
+    },
+    "35": {
+      "offset": 35,
+      "hits": 1,
+      "tests": 62,
+      "hit_rate": 0.0161,
+      "enrichment": 0.54,
+      "base_rate": 0.0297
+    },
+    "38": {
+      "offset": 38,
+      "hits": 1,
+      "tests": 61,
+      "hit_rate": 0.0164,
+      "enrichment": 0.55,
+      "base_rate": 0.0297
+    },
+    "40": {
+      "offset": 40,
+      "hits": 2,
+      "tests": 63,
+      "hit_rate": 0.0317,
+      "enrichment": 1.07,
+      "base_rate": 0.0297
+    },
+    "45": {
+      "offset": 45,
+      "hits": 4,
+      "tests": 63,
+      "hit_rate": 0.0635,
+      "enrichment": 2.14,
+      "base_rate": 0.0297
+    }
+  },
+  "TSLA": {
+    "3": {
+      "offset": 3,
+      "hits": 29,
+      "tests": 110,
+      "hit_rate": 0.2636,
+      "enrichment": 6.38,
+      "base_rate": 0.0413
+    },
+    "6": {
+      "offset": 6,
+      "hits": 16,
+      "tests": 101,
+      "hit_rate": 0.1584,
+      "enrichment": 3.83,
+      "base_rate": 0.0413
+    },
+    "9": {
+      "offset": 9,
+      "hits": 14,
+      "tests": 107,
+      "hit_rate": 0.1308,
+      "enrichment": 3.17,
+      "base_rate": 0.0413
+    },
+    "13": {
+      "offset": 13,
+      "hits": 12,
+      "tests": 108,
+      "hit_rate": 0.1111,
+      "enrichment": 2.69,
+      "base_rate": 0.0413
+    },
+    "15": {
+      "offset": 15,
+      "hits": 9,
+      "tests": 103,
+      "hit_rate": 0.0874,
+      "enrichment": 2.12,
+      "base_rate": 0.0413
+    },
+    "18": {
+      "offset": 18,
+      "hits": 8,
+      "tests": 103,
+      "hit_rate": 0.0777,
+      "enrichment": 1.88,
+      "base_rate": 0.0413
+    },
+    "21": {
+      "offset": 21,
+      "hits": 12,
+      "tests": 105,
+      "hit_rate": 0.1143,
+      "enrichment": 2.77,
+      "base_rate": 0.0413
+    },
+    "24": {
+      "offset": 24,
+      "hits": 9,
+      "tests": 106,
+      "hit_rate": 0.0849,
+      "enrichment": 2.06,
+      "base_rate": 0.0413
+    },
+    "25": {
+      "offset": 25,
+      "hits": 8,
+      "tests": 104,
+      "hit_rate": 0.0769,
+      "enrichment": 1.86,
+      "base_rate": 0.0413
+    },
+    "27": {
+      "offset": 27,
+      "hits": 13,
+      "tests": 105,
+      "hit_rate": 0.1238,
+      "enrichment": 3.0,
+      "base_rate": 0.0413
+    },
+    "30": {
+      "offset": 30,
+      "hits": 11,
+      "tests": 105,
+      "hit_rate": 0.1048,
+      "enrichment": 2.54,
+      "base_rate": 0.0413
+    },
+    "33": {
+      "offset": 33,
+      "hits": 4,
+      "tests": 106,
+      "hit_rate": 0.0377,
+      "enrichment": 0.91,
+      "base_rate": 0.0413
+    },
+    "35": {
+      "offset": 35,
+      "hits": 3,
+      "tests": 106,
+      "hit_rate": 0.0283,
+      "enrichment": 0.69,
+      "base_rate": 0.0413
+    },
+    "38": {
+      "offset": 38,
+      "hits": 3,
+      "tests": 104,
+      "hit_rate": 0.0288,
+      "enrichment": 0.7,
+      "base_rate": 0.0413
+    },
+    "40": {
+      "offset": 40,
+      "hits": 4,
+      "tests": 99,
+      "hit_rate": 0.0404,
+      "enrichment": 0.98,
+      "base_rate": 0.0413
+    },
+    "45": {
+      "offset": 45,
+      "hits": 5,
+      "tests": 100,
+      "hit_rate": 0.05,
+      "enrichment": 1.21,
+      "base_rate": 0.0413
+    }
+  }
+}

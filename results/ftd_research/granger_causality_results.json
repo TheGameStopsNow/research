@@ -1,0 +1,86 @@
+{
+  "stationarity": {
+    "GME": {
+      "level_adf": -9.482878844550887,
+      "level_p": 3.830811365392842e-16,
+      "level_stationary": "True",
+      "diff_adf": -11.890198573037798,
+      "diff_p": 5.893266320297854e-22,
+      "diff_stationary": "True"
+    },
+    "AMC": {
+      "level_adf": -3.9086385950419205,
+      "level_p": 0.001972183649171109,
+      "level_stationary": "True",
+      "diff_adf": -9.825965629569435,
+      "diff_p": 5.186980507159697e-17,
+      "diff_stationary": "True"
+    },
+    "KOSS": {
+      "level_adf": -3.5673842976744115,
+      "level_p": 0.006416071901669102,
+      "level_stationary": "True",
+      "diff_adf": -10.640144880826751,
+      "diff_p": 4.954101879973855e-19,
+      "diff_stationary": "True"
+    },
+    "XRT": {
+      "level_adf": -2.546834110116714,
+      "level_p": 0.10449080773052655,
+      "level_stationary": "False",
+      "diff_adf": -5.820703841983956,
+      "diff_p": 4.1895945978052263e-07,
+      "diff_stationary": "True"
+    },
+    "Treasury": {
+      "level_adf": -1.4977237744138485,
+      "level_p": 0.5346370531354339,
+      "level_stationary": "False",
+      "diff_adf": -8.281477210903684,
+      "diff_p": 4.50742354940517e-13,
+      "diff_stationary": "True"
+    }
+  },
+  "granger": {
+    "Treasury_causes_GME": {
+      "best_lag": 1,
+      "best_p": 0.23663112863802427,
+      "significant": "False"
+    },
+    "GME_causes_Treasury": {
+      "best_lag": 3,
+      "best_p": 0.0015789023656227771,
+      "significant": "True"
+    },
+    "Treasury_causes_AMC": {
+      "best_lag": 1,
+      "best_p": 0.700697493875383,
+      "significant": "False"
+    },
+    "AMC_causes_Treasury": {
+      "best_lag": 1,
+      "best_p": 0.5065140689718396,
+      "significant": "False"
+    },
+    "Treasury_causes_KOSS": {
+      "best_lag": 2,
+      "best_p": 0.5918175527802833,
+      "significant": "False"
+    },
+    "KOSS_causes_Treasury": {
+      "best_lag": 1,
+      "best_p": 0.8354926647932971,
+      "significant": "False"
+    },
+    "Treasury_causes_XRT": {
+      "best_lag": 5,
+      "best_p": 0.5192832166720069,
+      "significant": "False"
+    },
+    "XRT_causes_Treasury": {
+      "best_lag": 6,
+      "best_p": 0.06052371537471095,
+      "significant": "False"
+    }
+  }
+}

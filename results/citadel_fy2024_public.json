@@ -1,0 +1,31 @@
+{
+  "_metadata": {
+    "title": "Citadel Securities LLC \u2014 FY2024 Public Financial Data",
+    "extraction_date": "2026-02-18",
+    "sources": [
+      "Bloomberg reporting (Jan 2025)",
+      "HedgeWeek / InvestmentNews",
+      "Citadel Securities X-17A-5 FY2024 (scanned PDF \u2014 extracted via local OCR)"
+    ],
+    "note": "FY2024 X-17A-5 is a scanned PDF. Balance sheet figures successfully extracted via local PyMuPDF/tesseract OCR and added to citadel_multiyear_final.json."
+  },
+  "income_statement": {
+    "total_trading_revenue_billions": 9.7,
+    "revenue_yoy_growth_pct": 55,
+    "net_income_billions": 4.2,
+    "net_income_yoy_growth_pct": 110,
+    "ebitda_billions": 5.2,
+    "ebitda_yoy_growth_pct": 87
+  },
+  "balance_sheet": {
+    "total_assets_billions": 80.4,
+    "members_capital_billions": 11.7,
+    "net_trading_capital_billions": 16.0,
+    "securities_owned_billions": 54.3
+  },
+  "details": {
+    "principal_address": "200 South Biscayne Blvd, Suite 3300, Miami, FL 33131",
+    "auditor": "PricewaterhouseCoopers LLP",
+    "sole_member": "Citadel Global Fixed Income Master Fund Ltd. (GFIL)"
+  }
+}

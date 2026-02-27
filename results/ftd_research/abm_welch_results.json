@@ -1,0 +1,10 @@
+{
+  "test": "Welch_method_decontamination",
+  "n_days": 5000,
+  "nperseg": 1250,
+  "macrocycle_welch_ratio": 42.33594078920113,
+  "t105_welch_ratio": 18.107396734867635,
+  "macrocycle_survived": true,
+  "t105_survived": true,
+  "verdict": "CONFIRMED_REAL"
+}

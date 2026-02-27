@@ -1,0 +1,11 @@
+{
+  "sources": {
+    "dtcc_sec_sbsr": "pddata.dtcc.com/gtr/sec/",
+    "dtcc_emir": "pddata.dtcc.com/gtr/emir/",
+    "lseg": "regulatoryreporting.lseg.com",
+    "kdpw": "kdpw.pl/en/TR/Pages/Aggregated-Data.aspx"
+  },
+  "limitation": "Public data is aggregated/anonymized. No single-underlier queries possible via EMIR.",
+  "best_source_for_gme": "SEC SBSR via DTCC SDR (since Feb 2022). UPI codes for GME swaps first assigned April 2024.",
+  "key_finding": "European EMIR data would only show aggregate equity swap volume, not GME-specific. The US SBSR is the relevant regime for security-based equity swaps on US underliers."
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:p="http://www.sec.gov/edgar/seventeenafiler" xmlns:p1="http://www.sec.gov/edgar/common"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="/css/SDR_print.css"><style type="text/css">
+					.fakeTextBox {
+						border-top: 2px solid #999;
+						border-right: 1px solid #ccc;
+						border-bottom: 1px solid #ccc;
+						border-left: 2px solid #999;
+						padding: 2px;
+						_width: 800px;
+						height: auto;
+						min-width: 200px;
+						min-height: 50px;
+						word-wrap: break-word;
+						font-size: 0.9em;
+						color: blue;
+					}
+				</style></head><body lang="en-US" text="#000000" bgcolor="#ffffff">
+  <div class="contentwrapper"><table role="presentation" id="header"><tr><td class="title">Form X-17A-5 Filer Information</td><td rowspan="2" class="center">
+						UNITED STATES
+						<br>
+						SECURITIES AND EXCHANGE COMMISSION
+						<br>
+						Washington, D.C. 20549
+						<br><br>
+						ANNUAL AUDITED REPORT
+						<br>
+						Form X-17A-5
+						<br>
+						Part III
+						<br><br>
+						FACING PAGE
+						<br><div style="font-size:.9em;">
+							Information Required of Brokers and Dealers Pursuant to Section 17 of the
+							<br>
+							Securities Exchange Act of 1934 and Rule 17a-5 Thereunder
+						</div></td><td class="title">OMB APPROVAL</td></tr><tr><td class="side" style="text-align: center;vertical-align:middle"><p>
+							FORM X-17A-5</p></td><td width="25%" class="side"><p style="vertical-align:middle;">OMB Number:  3235-0123, 3235-0749</p><hr><p style="vertical-align:middle;">Estimated average burden hours per response: 12.00</p></td></tr></table></div><div id="info"><div class="contentwrapper"><div class="content"><h1>X-17A-5: Filer Information</h1><table role="presentation" class="filerInformation"><tr><td class="label">Filer CIK</td><td><div class="fakeBox">0001146184</div></td></tr><tr><td class="label">Filer CCC</td><td><div class="fakeBox">XXXXXXXX</div></td></tr><tr><td class="label">
+								Is this a LIVE or TEST Filing?
+							</td><td><img src="/Images/radio-checked.jpg" alt="Radio button checked"> LIVE
+												<img src="/Images/radio-unchecked.jpg" alt="Radio button not checked"> TEST
+											</td></tr><tr><td class="label">Would you like a Return Copy?</td><td><img src="/Images/box-checked.jpg" alt="Checkbox checked"></td></tr><tr><td class="label">
+									Is this an electronic copy of an official filing submitted in paper format?
+								</td><td><img src="/Images/box-unchecked.jpg" alt="Checkbox not checked"></td></tr><tr><td class="label">Confirming Broker Dealer Copy File Number</td><td><div class="fakeBox"></div></td></tr><tr><td class="label">Confirming Security-Based Swap Entity Copy File Number</td><td><div class="fakeBox"></div></td></tr><tr><td><h4><em>Submission Contact Information</em></h4></td></tr><tr><td class="label">Name</td><td><div class="fakeBox"></div></td></tr><tr><td class="label">Phone</td><td><div class="fakeBox"></div></td></tr><tr><td class="label">E-Mail Address</td><td><div class="fakeBox"></div></td></tr><tr><td class="label">Notify via Filing Website only?</td><td><img src="/Images/box-unchecked.jpg" alt="Checkbox not checked"></td></tr></table></div></div></div>
+  <div class="content"><h1>X-17A-5: Submission Information</h1><div class="form1"><table role="presentation" class="filingInformation" id="submissionInformation"><tr><td class="label">Report for the Period Beginning</td><td><div class="fakeBox">01-01-2022</div></td></tr><tr><td class="label">and Ending</td><td><div class="fakeBox">12-31-2022</div></td></tr><tr><td class="label">Type of Registrant</td><td><img src="/Images/box-checked.jpg" alt="Checkbox checked">Broker-dealer
+				</td><td><img src="/Images/box-unchecked.jpg" alt="Checkbox not checked">Security-based swap dealer
+				</td><td><img src="/Images/box-unchecked.jpg" alt="Checkbox not checked">Major security-based swap participant
+				</td></tr><tr><td class="label"></td><td colspan="2"><img src="/Images/box-unchecked.jpg" alt="Checkbox not checked">OTC derivatives dealer
+					</td></tr></table><table role="presentation" class="filingInformation" id="materialWeakness"><tr><td><h4><em>Material Weakness</em></h4></td></tr><tr><td class="label">
+					Does this submission include an accountant's report covering the
+					compliance report that indentifies one or more material weaknesses?
+				</td><td><img src="/Images/radio-unchecked.jpg" alt="Radio button not checked"> Yes  
+					<img src="/Images/radio-checked.jpg" alt="Radio button checked"> No		
+				</td></tr></table></div><h1>X-17A-5: A. Registrant Identification</h1><div class="form1"><table role="presentation" class="filingInformation" id="registrantIdentification"><tr><td class="label">
+					Name of Firm
+				</td><td><div class="fakeBox3">CITADEL SECURITIES LLC</div></td></tr></table><h4><em>Address of Principal Place of Business (Do not use P.O. Box No.)</em></h4><table role="presentation"><tr><td class="label"> Address 1</td><td><div class="fakeBox">200 SOUTH BISCAYNE BLVD</div></td></tr><tr><td class="label">Address 2</td><td><div class="fakeBox">33RD FLOOR</div></td></tr><tr><td class="label">City</td><td><div class="fakeBox">MIAMI</div></td></tr><tr><td class="label">State/Country</td><td><div class="fakeBox">
+				FLORIDA
+			</div></td></tr><tr><td class="label">Mailing Zip/ Portal Code</td><td><div class="fakeBox">33131</div></td></tr></table><h4><em>Name and Telephone Number of Person to Contact in Regard to this Report</em></h4><table role="presentation"><tr><td class="label">Name</td><td><div class="fakeBox">Robert Martini</div></td></tr><tr><td class="label">Telephone Number</td><td><div class="fakeBox">212-271-8736</div></td></tr></table></div><h1>X-17A-5: B. Accountant Identification</h1><div class="form1"><h3><em>Independent Public Accountant</em></h3><table role="presentation" class="filingInformation" id="accountantIdentification"><tr><td class="label">
+					Name - <i>if individual, state last, first, and middle name</i></td><td><div class="fakeBox">PricewaterhouseCoopers LLP</div></td></tr><tr><td class="label"> Address 1</td><td><div class="fakeBox">1 North Wacker Drive</div></td></tr><tr><td class="label"> City</td><td><div class="fakeBox">Chicago</div></td></tr><tr><td class="label"> State/Country</td><td><div class="fakeBox">
+				ILLINOIS
+			</div></td></tr><tr><td class="label"> Mailing Zip/ Postal Code</td><td><div class="fakeBox">60606</div></td></tr><tr><td class="label">Check One</td><td><img src="/Images/radio-checked.jpg" alt="Radio button checked">
+					 Certified Public Accountant<br><img src="/Images/radio-unchecked.jpg" alt="Radio button not checked">
+					 Certified Public Accountant not resident in United States or any of its possessions				
+				</td></tr></table></div><h1>X-17A-5: Signature</h1><div class="form1"><h3><em>Oath or Affirmation</em></h3>
+		I<b>, <em>Michael Henry,</em></b>
+		swear (or affirm) that, to the best of my knowledge and belief, the financial report pertaining to the firm of
+		<b><em>CITADEL SECURITIES LLC,</em></b>
+		as of
+		<b><em>12-31-2022,</em></b>
+		is true and correct. I further swear (or affirm) that neither the company nor any partner, proprietor, principal officer or director has any proprietary interest in any account classified solely as that of a customer, except as follows:
+		<table role="presentation" class="signature" id="oathOrAffirmation"><tr><td class="label">Signature</td><td><div class="fakeBox3">Michael Henry</div></td></tr><tr><td class="label">Title</td><td><div class="fakeBox3">Chief Accounting Officer</div></td></tr></table><h3><em>Notary Public</em></h3><table role="presentation" class="signature" id="notaryPublic"><tr><td class="label">
+					Checking this box acknowledges that this oath
+					or affirmation has been notarized.
+				</td><td><img src="/Images/box-checked.jpg" alt="Checkbox checked"></td></tr></table></div></div>
+</body></html>

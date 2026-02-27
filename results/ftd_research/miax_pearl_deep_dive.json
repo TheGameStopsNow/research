@@ -1,0 +1,82 @@
+{
+  "timeline": {
+    "pre_launch_pearl_pct": 0.0,
+    "post_launch_pearl_pct": 0.06269953702723698,
+    "delta": 0.06269953702723698,
+    "pearl_launch_date": "2020-09-25",
+    "n_pre": 2,
+    "n_post": 176
+  },
+  "cross_ticker": {
+    "GME": {
+      "dates_sampled": 50,
+      "total_puts": 34893,
+      "pearl_pct": 0.17092253460579485,
+      "cboe_pct": 0.07715014472816897,
+      "top_exchanges": {
+        "MIAX Pearl": 0.17092253460579485,
+        "Ex_46": 0.16974751382798842,
+        "MIAX": 0.14358180723927436
+      }
+    },
+    "AMC": {
+      "dates_sampled": 33,
+      "total_puts": 125583,
+      "pearl_pct": 0.048597341996926335,
+      "cboe_pct": 0.04770550154081365,
+      "top_exchanges": {
+        "MIAX": 0.13408662000429994,
+        "ISE": 0.12345620028188528,
+        "Ex_65": 0.07361665193537342
+      }
+    },
+    "BBBY": {
+      "dates_sampled": 50,
+      "total_puts": 26,
+      "pearl_pct": 0.038461538461538464,
+      "cboe_pct": 0.11538461538461539,
+      "top_exchanges": {
+        "PHLX": 0.19230769230769232,
+        "ISE": 0.15384615384615385,
+        "BEST BBO": 0.15384615384615385
+      }
+    },
+    "BB": {
+      "dates_sampled": 21,
+      "total_puts": 4676,
+      "pearl_pct": 0.01561163387510693,
+      "cboe_pct": 0.006629597946963216,
+      "top_exchanges": {
+        "Ex_22": 0.33426005132591957,
+        "ISE": 0.10479041916167664,
+        "Nasdaq BX": 0.08875106928999145
+      }
+    },
+    "BYND": {
+      "dates_sampled": 34,
+      "total_puts": 173143,
+      "pearl_pct": 0.026712024164996562,
+      "cboe_pct": 0.019983481861813646,
+      "top_exchanges": {
+        "MIAX": 0.1024471101921533,
+        "BEST BBO": 0.09369134183882687,
+        "C2": 0.0889958011585799
+      }
+    }
+  },
+  "fingerprint": {
+    "pearl_settlement": {
+      "n": 1962,
+      "median": 2.0,
+      "mean": 8.983690112130478,
+      "one_lot_pct": 0.463302752293578,
+      "lte_5_pct": 0.7782874617737003
+    },
+    "other_settlement": {
+      "n": 4788,
+      "median": 2.0,
+      "mean": 8.8796992481203,
+      "one_lot_pct": 0.42815371762740184
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "citadel_securities_x17a5_FY2020.pdf": {
+    "file": "citadel_securities_x17a5_FY2020.pdf",
+    "fails_found": [
+      {
+        "page": 18,
+        "term": "net capital requirement",
+        "context": "Bilateral OTC\nThe Company is a registered broker and dealer subject to Rule 15c3-1\nEguity contracts 96 55 of the SEC, which specifies uniform minimum net capital requirements\nForeign exchange contracts 23 33 for its registrants. The Company has elected to use the alternative\nTotal Bilateral OTC 119 ",
+        "amounts": [
+          "2020,",
+          "329,209",
+          "345,561"
+        ]
+      },
+      {
+        "page": 18,
+        "term": "net capital requirement",
+        "context": "ts derivative corporations in which it is a member, which may exceed the minimum\nfinancial instruments. At December 31, 2020, BAML serves as clearing net capital requirements of the SEC.\nand prime broker for 96.69% of the Company's net derivative assets.\nSee Note 8 for a discussion of credit risk an",
+        "amounts": [
+          "2020,",
+          "96.69",
+          "2020,"
+        ]
+      }
+    ],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "citadel_securities_x17a5_FY2021.pdf": {
+    "file": "citadel_securities_x17a5_FY2021.pdf",
+    "fails_found": [
+      {
+        "page": 18,
+        "term": "net capital requirement",
+        "context": "registered broker and dealer subject to Rule 15c3-1\nTotal gross derivative contracts $ 458,252 $ 470,510\nof the SEC, which specifies uniform minimum net capital requirements\nfor its registrants. The Company has elected to use the alternative\nThe Company has concentration risk with respect to its der",
+        "amounts": [
+          "458,252",
+          "470,510",
+          "2021,",
+          "2021,",
+          "95.65"
+        ]
+      },
+      {
+        "page": 18,
+        "term": "net capital requirement",
+        "context": "xchanges and clearing\ncorporations in which it is a member, which may exceed the minimum\nThe Company attempts to manage the risks associated with its\nnet capital requirements of the SEC.\nderivative financial instruments along with its speculative investing\nactivities in cash instruments as part of i",
+        "amounts": [
+          "2021,"
+        ]
+      }
+    ],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "citadel_securities_x17a5_FY2023.pdf": {
+    "file": "citadel_securities_x17a5_FY2023.pdf",
+    "fails_found": [
+      {
+        "page": 13,
+        "term": "unsettled transact",
+        "context": "ing in levels (27,402) (5,970) (33,372)\nSubtotal 97 1,650 1,747\nCross-level counterparty netting (1,765)\nCash collateral and receivables/payables for unsettled transactions 1,015\nTotal derivative assets 997\nTotal $ 49,926\n6",
+        "amounts": [
+          "(27,402)",
+          "(5,970)",
+          "(33,372)",
+          "1,650",
+          "1,747",
+          "(1,765)"
+        ]
+      },
+      {
+        "page": 14,
+        "term": "unsettled transact",
+        "context": "ting in levels (27,402) (5,970) (33,372)\nSubtotal 3,553 \u2014 3,553\nCross-level counterparty netting (1,765)\nCash collateral and receivables/payables for unsettled transactions \u2014\nTotal derivative liabilities 1,788\nTotal $ 35,780\nIn the tables above:\n\u2022 Trading assets, trading liabilities, options and war",
+        "amounts": [
+          "(27,402)",
+          "(5,970)",
+          "(33,372)",
+          "3,553",
+          "3,553",
+          "(1,765)"
+        ]
+      },
+      {
+        "page": 18,
+        "term": "unsettled transact",
+        "context": "ement of financial condition.\nCounterparty netting (35,137) (35,137)\nFutures and forwards are contracts that commit counterparties to Receivables for unsettled transactions 2 \u2014\npurchase or sell financial instruments, commodities, or currencies for Total Exchange-traded (34,196) (35,137)\nan agreed-up",
+        "amounts": [
+          "(35,137)",
+          "(35,137)",
+          "(34,196)",
+          "(35,137)"
+        ]
+      },
+      {
+        "page": 18,
+        "term": "unsettled transact",
+        "context": "arty receives the appreciation (or pays the Cash collateral 72 \u2014\ndepreciation) and the dividends and interest, on either a levered or Receivables for unsettled transactions 2 \u2014\nunlevered basis, on an underlying reference asset, attribute or index in\nTotal OTC-bilateral 74 \u2014\nreturn for paying interes",
+        "amounts": [
+          "1,788"
+        ]
+      },
+      {
+        "page": 19,
+        "term": "net capital requirement",
+        "context": "rements\nForeign exchange contracts 128 175\nTotal Exchange-traded 653,961 682,352 The Company is a registered broker and dealer subject to the\nminimum net capital requirements of the SEC Uniform Net Capital\nRule (\u201c15c3-1\u201d). The Company has elected to use the alternative\nOTC-bilateral method as permit",
+        "amounts": [
+          "653,961",
+          "682,352",
+          "2023,"
+        ]
+      }
+    ],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "citadel_securities_x17a5_FY2024.pdf": {
+    "file": "citadel_securities_x17a5_FY2024.pdf",
+    "fails_found": [],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "g1_execution_x17a5_FY2020.pdf": {
+    "file": "g1_execution_x17a5_FY2020.pdf",
+    "fails_found": [
+      {
+        "page": 11,
+        "term": "net capital requirement",
+        "context": "s' respective tax returns.\nThe Entity's prior owner is responsible for any tax liabilities related to the period prior to February 1 0. 2014.\nNOTE K -NET CAPITAL REQUIREMENT\nAs a registered broker-dealer, the Entity is subject to the SEC's Uniform Net Capital Rule 15c3-1. The Entity\ncomputes its net",
+        "amounts": [
+          "2014",
+          "$1,000,",
+          "2020,",
+          "$367,930,"
+        ]
+      },
+      {
+        "page": 11,
+        "term": "aggregate indebtedness",
+        "context": "The Entity\ncomputes its net capital under the basic method permitted by the rule, which requires the maintenance of\nminimum net capital of 6-2/3% of aggregate indebtedness, as defined, or $1,000, whichever is greater. As of\nDecember 31, 2020, the Entity had net capital of $367,930, which exceeded it",
+        "amounts": [
+          "$1,000,",
+          "2020,",
+          "$367,930,",
+          "$3,006",
+          "$364,924",
+          "$70,000"
+        ]
+      }
+    ],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "g1_execution_x17a5_FY2021.pdf": {
+    "file": "g1_execution_x17a5_FY2021.pdf",
+    "fails_found": [
+      {
+        "page": 2,
+        "term": "computation of net capital",
+        "context": "etor's equity.\nD (f) Statement of changes in liabilities subordinated to claims of creditors.\nD (g) Notes to consolidated financial statements.\nD (h) Computation of net capital under 17 CFR 240.1Sc3-1 or 17 CFR 240.18a-1, as applicable.\n\u25a1\n(i) Computation of tangible net worth under 17 CFR 240.18a-2.",
+        "amounts": [
+          "240.1",
+          "240.18",
+          "240.18",
+          "240.1",
+          "240.15",
+          "240.18"
+        ]
+      },
+      {
+        "page": 2,
+        "term": "computation of net capital",
+        "context": "der 17 CFR\n240.1Sc3-3(p)(2) or 17 CFR 240.18a-4, as applicable.\nD (o) Rec,onciliations, including appropriate ex[Planations, of the FOCUS Report with computation of net capital or tangible net\nworth under 17 CFR 240.1Sc3-l, 17 CFR 240.18a-l, or 17 CFR 240.18a-2, as applicable, and the reserve requir",
+        "amounts": [
+          "240.1",
+          "240.18",
+          "240.1",
+          "240.18",
+          "240.18",
+          "240.15"
+        ]
+      },
+      {
+        "page": 11,
+        "term": "aggregate indebtedness",
+        "context": "The Entity\ncomputes its net capita :under the basic method permitted by the rule, which requires the maintenance of\nminimum net capital of 6-2/3% of aggregate indebtedness, as defined, or $1,000, whichever is greater. As of\nDecember 31, 2021, the Entity had net capital of $257,015, which exceeded it",
+        "amounts": [
+          "$1,000,",
+          "2021,",
+          "$257,015,",
+          "$1,764",
+          "$255,251",
+          "$170,000"
+        ]
+      }
+    ],
+    "net_capital_data": [
+      {
+        "page": 2,
+        "line": "D (h) Computation of net capital under 17 CFR 240.1Sc3-1 or 17 CFR 240.18a-1, as applicable.",
+        "amounts": [
+          "240.18"
+        ]
+      }
+    ],
+    "deductions": []
+  },
+  "g1_execution_x17a5_FY2023.pdf": {
+    "file": "g1_execution_x17a5_FY2023.pdf",
+    "fails_found": [
+      {
+        "page": 2,
+        "term": "computation of net capital",
+        "context": "etor's equity.\n\u25a1\n(fl Statement of changes in liabilities subordinated to claims of creditors.\nD (g) Notes to consolidated financial statements.\nD (h) Computation of net capital under 17 CFR 240.1Sc3-1 or 17 CFR 240.18a-1, as applicable.\nD (i) Computation of tangible net worth under 17 CFR 240.18a-2.",
+        "amounts": [
+          "240.1",
+          "240.18",
+          "240.18",
+          "240.1",
+          "240.1",
+          "240.18"
+        ]
+      },
+      {
+        "page": 2,
+        "term": "computation of net capital",
+        "context": "under 17 CFR\n240.15c3-3(p)(2) or 17 CFR 240.lSa-4, as applicable.\nD (o) Reconciliations, including appropriate explanations, of the FOCUS Report with computation of net capital or tangible net\nworth under 17 CFR 240.1Sc3-1, 17 CFR 240.lSa-1, or 17 CFR 240.18a-2, as applicable, and the reserve requir",
+        "amounts": [
+          "240.15",
+          "240.1",
+          "240.18",
+          "240.1",
+          "240.18"
+        ]
+      },
+      {
+        "page": 12,
+        "term": "net capital requirement",
+        "context": "ated with an open tax examination.\nAt December 31, 2023, management has determined that there are no material uncertain income tax positions.\nNOTE K -NET CAPITAL REQUIREMENT\nAs a registered broker-dealer, the Entity is subject to the SEC's Uniform Net Capital Rule 15c3-1. The Entity\ncomputes its net",
+        "amounts": [
+          "2023,",
+          "$1,000,",
+          "2023,",
+          "$89,931,"
+        ]
+      },
+      {
+        "page": 12,
+        "term": "aggregate indebtedness",
+        "context": "The Entity\ncomputes its net capital under the basic method permitted by the rule, which requires the maintenance of\nminimum net capital of 6-2/3% of aggregate indebtedness, as defined, or $1,000, whichever is greater. As of\nDecember 31, 2023, the Entity had net capital of $89,931, which exceeded its",
+        "amounts": [
+          "$1,000,",
+          "2023,",
+          "$89,931,",
+          "$1,656",
+          "$88,275"
+        ]
+      }
+    ],
+    "net_capital_data": [
+      {
+        "page": 2,
+        "line": "D (h) Computation of net capital under 17 CFR 240.1Sc3-1 or 17 CFR 240.18a-1, as applicable.",
+        "amounts": [
+          "240.18"
+        ]
+      }
+    ],
+    "deductions": []
+  },
+  "g1_execution_x17a5_FY2024.pdf": {
+    "file": "g1_execution_x17a5_FY2024.pdf",
+    "fails_found": [],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "jane_street_capital_x17a5_FY2020.pdf": {
+    "file": "jane_street_capital_x17a5_FY2020.pdf",
+    "fails_found": [],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "jane_street_capital_x17a5_FY2021.pdf": {
+    "file": "jane_street_capital_x17a5_FY2021.pdf",
+    "fails_found": [],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "jane_street_capital_x17a5_FY2023.pdf": {
+    "file": "jane_street_capital_x17a5_FY2023.pdf",
+    "fails_found": [],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "jane_street_capital_x17a5_FY2024.pdf": {
+    "file": "jane_street_capital_x17a5_FY2024.pdf",
+    "fails_found": [],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "nscc_pqd_nscc_q1_2024.pdf": {
+    "file": "nscc_pqd_nscc_q1_2024.pdf",
+    "fails_found": [],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "nscc_pqd_nscc_q2_2024.pdf": {
+    "file": "nscc_pqd_nscc_q2_2024.pdf",
+    "fails_found": [],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "nscc_pqd_nscc_q4_2023.pdf": {
+    "file": "nscc_pqd_nscc_q4_2023.pdf",
+    "fails_found": [],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "nscc_pqd_q2_2024_real.pdf": {
+    "file": "nscc_pqd_q2_2024_real.pdf",
+    "fails_found": [],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "virtu_americas_x17a5_FY2020.pdf": {
+    "file": "virtu_americas_x17a5_FY2020.pdf",
+    "fails_found": [
+      {
+        "page": 26,
+        "term": "net capital requirement",
+        "context": "Virtu Americas LLC\nNotes to Statement of Financial Condition\nDecember 31, 2020\n14. Net Capital Requirement\nThe Company is subject to the SEC Uniform Net Capital Rule (\"SEC Rule 15c3-1\"), which requires the\nmaintenance of minimum net capital. The Company has elected to use the alternative method, per",
+        "amounts": [
+          "2020"
+        ]
+      },
+      {
+        "page": 26,
+        "term": "excess net capital",
+        "context": "o its parent, affiliates or employees, or otherwise\nentering into transactions, which, if executed, would result in a reduction of 10% or more of its excess net capital\n(net capital less minimum requirement). The SEC and FINRA have the ability to prohibit or restrict such\ntransactions if the result ",
+        "amounts": [
+          "2020,",
+          "$614.0",
+          "$611.1"
+        ]
+      },
+      {
+        "page": 27,
+        "term": "net capital requirement",
+        "context": "tal under the SEC\u2019s uniform net capital rule. To the\nextent that such borrowings are required for the Company\u2019s continued compliance with the minimum net capital\nrequirements, they may not be repaid.\nThe Company made $710 million of cash distributions to Virtu for the year ended December 31, 2020.\nT",
+        "amounts": [
+          "2020",
+          "2020",
+          "2020"
+        ]
+      }
+    ],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "virtu_americas_x17a5_FY2021.pdf": {
+    "file": "virtu_americas_x17a5_FY2021.pdf",
+    "fails_found": [
+      {
+        "page": 24,
+        "term": "net capital requirement",
+        "context": "2023 6,141\n2024 2,559\n2025 \u2014\n2026 \u2014\n2027 and thereafter \u2014\nTotal lease payments 14,841\nLess imputed interest (994)\nTotal lease liability $ 13,847\n14. Net Capital Requirement\nThe Company is subject to the SEC Uniform Net Capital Rule (\"SEC Rule 15c3-1\"), which requires the\nmaintenance of minimum net c",
+        "amounts": [
+          "2023",
+          "6,141",
+          "2024",
+          "2,559",
+          "2025",
+          "2026"
+        ]
+      },
+      {
+        "page": 24,
+        "term": "excess net capital",
+        "context": "o its parent, affiliates or employees, or otherwise\nentering into transactions, which, if executed, would result in a reduction of 10% or more of its excess net capital\n(net capital less minimum requirement). The SEC and FINRA have the ability to prohibit or restrict such\ntransactions if the result ",
+        "amounts": [
+          "2021,",
+          "$536.6",
+          "$535.5"
+        ]
+      },
+      {
+        "page": 25,
+        "term": "net capital requirement",
+        "context": "tal under the SEC\u2019s uniform net capital rule. To the\nextent that such borrowings are required for the Company\u2019s continued compliance with the minimum net capital\nrequirements, they may not be repaid.\nThe Company made $805 million of cash distributions to Virtu for the year ended December 31, 2021.\nT",
+        "amounts": [
+          "2021",
+          "2021",
+          "2022,"
+        ]
+      }
+    ],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "virtu_americas_x17a5_FY2023.pdf": {
+    "file": "virtu_americas_x17a5_FY2023.pdf",
+    "fails_found": [
+      {
+        "page": 25,
+        "term": "net capital requirement",
+        "context": "2025 1,800\n2026 1,800\n2027 65\n2028 54\n2029 and thereafter \u2014\nTotal lease payments 8,196\nLess imputed interest (716)\nTotal lease liability $ 7,480\n14. Net Capital Requirement\nThe Company is subject to the SEC Uniform Net Capital Rule (\"SEC Rule 15c3-1\"), which requires the\nmaintenance of minimum net c",
+        "amounts": [
+          "2025",
+          "1,800",
+          "2026",
+          "1,800",
+          "2027",
+          "2028"
+        ]
+      },
+      {
+        "page": 25,
+        "term": "excess net capital",
+        "context": "o its parent, affiliates or employees, or otherwise\nentering into transactions, which, if executed, would result in a reduction of 10% or more of its excess net capital\n(net capital less minimum requirement). The SEC and FINRA have the ability to prohibit or restrict such\ntransactions if the result ",
+        "amounts": [
+          "2023,",
+          "$412.6",
+          "$411.6"
+        ]
+      },
+      {
+        "page": 26,
+        "term": "net capital requirement",
+        "context": "tal under the SEC\u2019s uniform net capital rule. To the\nextent that such borrowings are required for the Company\u2019s continued compliance with the minimum net capital\nrequirements, they may not be repaid.\nThe Company made $260 million of cash distributions to Virtu for the year ended December 31, 2023.\nT",
+        "amounts": [
+          "2023",
+          "2023",
+          "2024,"
+        ]
+      }
+    ],
+    "net_capital_data": [],
+    "deductions": []
+  },
+  "virtu_americas_x17a5_FY2024.pdf": {
+    "file": "virtu_americas_x17a5_FY2024.pdf",
+    "fails_found": [
+      {
+        "page": 25,
+        "term": "net capital requirement",
+        "context": "8\n2026 2,188\n2027 332\n2028 49\n2029 \u2014\n2030 and thereafter \u2014\nTotal lease payments $ 4,757\nLess imputed interest (415)\nTotal lease liability $ 4,342\n14. Net Capital Requirement\nThe Company is subject to the SEC Uniform Net Capital Rule (\"SEC Rule 15c3-1\"), which requires the\nmaintenance of minimum net ",
+        "amounts": [
+          "2026",
+          "2,188",
+          "2027",
+          "2028",
+          "2029",
+          "2030"
+        ]
+      },
+      {
+        "page": 25,
+        "term": "excess net capital",
+        "context": "o its parent, affiliates or employees, or otherwise\nentering into transactions, which, if executed, would result in a reduction of 10% or more of its excess net capital\n(net capital less minimum requirement). The SEC and FINRA have the ability to prohibit or restrict such\ntransactions if the result ",
+        "amounts": [
+          "2024,",
+          "$455.7",
+          "$454.1"
+        ]
+      },
+      {
+        "page": 26,
+        "term": "net capital requirement",
+        "context": "tal under the SEC\u2019s uniform net capital rule. To the\nextent that such borrowings are required for the Company\u2019s continued compliance with the minimum net capital\nrequirements, they may not be repaid.\nThe Company has a $15 million deposit at a third party bank relating to a guarantee reimbursement ag",
+        "amounts": [
+          "$343.5",
+          "2024"
+        ]
+      }
+    ],
+    "net_capital_data": [],
+    "deductions": []
+  }
+}

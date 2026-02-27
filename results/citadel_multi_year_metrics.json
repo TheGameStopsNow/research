@@ -1,0 +1,109 @@
+{
+  "CDRG_FY2020": {
+    "total_assets": "71.004",
+    "total_liabilities": "71,004",
+    "members_capital": "57,506",
+    "securities_owned": "71.004",
+    "securities_sold_nyp": "57,506",
+    "excess_net_capital": "329,209",
+    "securities_borrowed": "71.004",
+    "securities_loaned": "71,004",
+    "derivative_assets": "66,414",
+    "derivative_liabilities": "57,472",
+    "repo_resell": "71.004",
+    "repo_repurchase": "71,004"
+  },
+  "CDRG_FY2021": {
+    "total_assets": "79,123",
+    "total_liabilities": "79,123",
+    "securities_owned": "79,123",
+    "securities_sold_nyp": "65,703",
+    "excess_net_capital": "1",
+    "unsettled_repos": "1.04",
+    "securities_borrowed": "79,123",
+    "securities_loaned": "79,123",
+    "derivative_assets": "72,738",
+    "derivative_liabilities": "65,110",
+    "repo_resell": "79,123",
+    "repo_repurchase": "79,123"
+  },
+  "CDRG_FY2022": {
+    "total_assets": "63,115",
+    "total_liabilities": "63,115",
+    "securities_owned": "63,115",
+    "securities_sold_nyp": "45,764",
+    "excess_net_capital": "1",
+    "unsettled_repos": "6.94",
+    "securities_borrowed": "63,115",
+    "securities_loaned": "63,115",
+    "derivative_assets": "59,229",
+    "derivative_liabilities": "48,500",
+    "repo_resell": "63,115",
+    "repo_repurchase": "63,115"
+  },
+  "CDRG_FY2023": {
+    "total_assets": "52,344",
+    "total_liabilities": "52,344",
+    "securities_owned": "52,344",
+    "securities_sold_nyp": "27,758",
+    "excess_net_capital": "1",
+    "unsettled_repos": "9.30",
+    "securities_borrowed": "52,344",
+    "securities_loaned": "52,344",
+    "derivative_assets": "49,926",
+    "derivative_liabilities": "35,780",
+    "repo_resell": "52,344",
+    "repo_repurchase": "52,344"
+  },
+  "CSIN_FY2024": {
+    "total_assets": "380",
+    "total_liabilities": "380",
+    "net_capital": "125",
+    "excess_net_capital": "250",
+    "repo_repurchase": "380"
+  },
+  "CSSD_FY2024": {
+    "total_assets": "3,388",
+    "total_liabilities": "3,388",
+    "securities_owned": "19,527",
+    "pledged_collateral": "19,527",
+    "net_capital": "303",
+    "excess_net_capital": "100",
+    "derivative_assets": "3,038",
+    "derivative_liabilities": "2,906",
+    "repo_resell": "3,388"
+  },
+  "PALA_FY2021": {
+    "total_assets": "16,355,377",
+    "total_liabilities": "16,096,810",
+    "ftd": "7,011,",
+    "ftr": "24,082",
+    "net_capital": "243,900",
+    "excess_net_capital": "1,500",
+    "unsettled_repos": "29,687,802",
+    "repo_resell": "16,355,377",
+    "repo_repurchase": "15,857,930",
+    "clearing_fund": "223,609"
+  },
+  "PALA_FY2022": {
+    "total_assets": "29,694,738",
+    "total_liabilities": "29,694,738",
+    "ftr": "149,083",
+    "net_capital": "431,362",
+    "excess_net_capital": "1,500",
+    "unsettled_repos": "14,125,019",
+    "repo_resell": "29,694,738",
+    "repo_repurchase": "28,487,653",
+    "clearing_fund": "504,657"
+  },
+  "PALA_FY2023": {
+    "total_assets": "93,426",
+    "total_liabilities": "93,426",
+    "net_capital": "1.67",
+    "excess_net_capital": "1.5",
+    "unsettled_repos": "56.86",
+    "repo_resell": "93,426",
+    "repo_repurchase": "89,734",
+    "clearing_fund": "1,153"
+  }
+}

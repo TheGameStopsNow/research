@@ -1,0 +1,488 @@
+{
+  "ftd_stats": {
+    "mean": 90768.98935226264,
+    "std": 209686.6251727966,
+    "threshold_2sigma": 510142.23969785584,
+    "threshold_3sigma": 719828.8648706523,
+    "initial_spikes": 44
+  },
+  "echo_hit_rates": {
+    "T+33": {
+      "elevated_rate": 0.8409090909090909,
+      "spike_rate": 0.25,
+      "total_tested": 44
+    },
+    "T+66": {
+      "elevated_rate": 0.45454545454545453,
+      "spike_rate": 0.06818181818181818,
+      "total_tested": 44
+    },
+    "T+99": {
+      "elevated_rate": 0.32558139534883723,
+      "spike_rate": 0.0,
+      "total_tested": 43
+    },
+    "T+132": {
+      "elevated_rate": 0.40476190476190477,
+      "spike_rate": 0.11904761904761904,
+      "total_tested": 42
+    }
+  },
+  "top_cascades": [
+    {
+      "origin_date": "2020-12-02",
+      "origin_ftd": 1061397,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2020-12-02",
+          "ftd": 1061397,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2021-01-19",
+          "expected_date": "2021-01-18",
+          "ftd": 1498576,
+          "is_elevated": true,
+          "is_spike": true
+        },
+        {
+          "generation": 2,
+          "date": "2021-03-01",
+          "expected_date": "2021-03-05",
+          "ftd": 82708,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2021-04-16",
+          "expected_date": "2021-04-15",
+          "ftd": 67097,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2021-06-03",
+          "expected_date": "2021-06-02",
+          "ftd": 17858,
+          "is_elevated": false,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.25
+    },
+    {
+      "origin_date": "2020-12-03",
+      "origin_ftd": 1787191,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2020-12-03",
+          "ftd": 1787191,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2021-01-19",
+          "expected_date": "2021-01-19",
+          "ftd": 1498576,
+          "is_elevated": true,
+          "is_spike": true
+        },
+        {
+          "generation": 2,
+          "date": "2021-03-01",
+          "expected_date": "2021-03-05",
+          "ftd": 82708,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2021-04-16",
+          "expected_date": "2021-04-15",
+          "ftd": 67097,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2021-06-03",
+          "expected_date": "2021-06-02",
+          "ftd": 17858,
+          "is_elevated": false,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.25
+    },
+    {
+      "origin_date": "2020-12-04",
+      "origin_ftd": 999475,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2020-12-04",
+          "ftd": 999475,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2021-01-19",
+          "expected_date": "2021-01-20",
+          "ftd": 1498576,
+          "is_elevated": true,
+          "is_spike": true
+        },
+        {
+          "generation": 2,
+          "date": "2021-03-01",
+          "expected_date": "2021-03-05",
+          "ftd": 82708,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2021-04-16",
+          "expected_date": "2021-04-15",
+          "ftd": 67097,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2021-06-03",
+          "expected_date": "2021-06-02",
+          "ftd": 17858,
+          "is_elevated": false,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.25
+    },
+    {
+      "origin_date": "2020-12-07",
+      "origin_ftd": 1002379,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2020-12-07",
+          "ftd": 1002379,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2021-01-19",
+          "expected_date": "2021-01-21",
+          "ftd": 1498576,
+          "is_elevated": true,
+          "is_spike": true
+        },
+        {
+          "generation": 2,
+          "date": "2021-03-01",
+          "expected_date": "2021-03-05",
+          "ftd": 82708,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2021-04-16",
+          "expected_date": "2021-04-15",
+          "ftd": 67097,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2021-06-03",
+          "expected_date": "2021-06-02",
+          "ftd": 17858,
+          "is_elevated": false,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.25
+    },
+    {
+      "origin_date": "2020-12-08",
+      "origin_ftd": 872292,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2020-12-08",
+          "ftd": 872292,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2021-01-26",
+          "expected_date": "2021-01-22",
+          "ftd": 2099572,
+          "is_elevated": true,
+          "is_spike": true
+        },
+        {
+          "generation": 2,
+          "date": "2021-03-12",
+          "expected_date": "2021-03-12",
+          "ftd": 155658,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2021-04-28",
+          "expected_date": "2021-04-28",
+          "ftd": 50238,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2021-06-18",
+          "expected_date": "2021-06-14",
+          "ftd": 462852,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.75
+    },
+    {
+      "origin_date": "2020-12-09",
+      "origin_ftd": 721361,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2020-12-09",
+          "ftd": 721361,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2021-01-26",
+          "expected_date": "2021-01-25",
+          "ftd": 2099572,
+          "is_elevated": true,
+          "is_spike": true
+        },
+        {
+          "generation": 2,
+          "date": "2021-03-12",
+          "expected_date": "2021-03-12",
+          "ftd": 155658,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2021-04-28",
+          "expected_date": "2021-04-28",
+          "ftd": 50238,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2021-06-18",
+          "expected_date": "2021-06-14",
+          "ftd": 462852,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.75
+    },
+    {
+      "origin_date": "2020-12-10",
+      "origin_ftd": 605975,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2020-12-10",
+          "ftd": 605975,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2021-01-26",
+          "expected_date": "2021-01-26",
+          "ftd": 2099572,
+          "is_elevated": true,
+          "is_spike": true
+        },
+        {
+          "generation": 2,
+          "date": "2021-03-12",
+          "expected_date": "2021-03-12",
+          "ftd": 155658,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2021-04-28",
+          "expected_date": "2021-04-28",
+          "ftd": 50238,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2021-06-18",
+          "expected_date": "2021-06-14",
+          "ftd": 462852,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.75
+    },
+    {
+      "origin_date": "2020-12-11",
+      "origin_ftd": 880063,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2020-12-11",
+          "ftd": 880063,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2021-01-26",
+          "expected_date": "2021-01-27",
+          "ftd": 2099572,
+          "is_elevated": true,
+          "is_spike": true
+        },
+        {
+          "generation": 2,
+          "date": "2021-03-12",
+          "expected_date": "2021-03-12",
+          "ftd": 155658,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2021-04-28",
+          "expected_date": "2021-04-28",
+          "ftd": 50238,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2021-06-18",
+          "expected_date": "2021-06-14",
+          "ftd": 462852,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.75
+    },
+    {
+      "origin_date": "2020-12-18",
+      "origin_ftd": 872523,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2020-12-18",
+          "ftd": 872523,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2021-02-02",
+          "expected_date": "2021-02-03",
+          "ftd": 159298,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2021-03-16",
+          "expected_date": "2021-03-19",
+          "ftd": 140554,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2021-04-28",
+          "expected_date": "2021-04-30",
+          "ftd": 50238,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2021-06-18",
+          "expected_date": "2021-06-14",
+          "ftd": 462852,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.75
+    },
+    {
+      "origin_date": "2020-12-21",
+      "origin_ftd": 619404,
+      "chain": [
+        {
+          "generation": 0,
+          "date": "2020-12-21",
+          "ftd": 619404,
+          "is_elevated": true
+        },
+        {
+          "generation": 1,
+          "date": "2021-02-02",
+          "expected_date": "2021-02-04",
+          "ftd": 159298,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 2,
+          "date": "2021-03-16",
+          "expected_date": "2021-03-19",
+          "ftd": 140554,
+          "is_elevated": true,
+          "is_spike": false
+        },
+        {
+          "generation": 3,
+          "date": "2021-04-28",
+          "expected_date": "2021-04-30",
+          "ftd": 50238,
+          "is_elevated": false,
+          "is_spike": false
+        },
+        {
+          "generation": 4,
+          "date": "2021-06-18",
+          "expected_date": "2021-06-14",
+          "ftd": 462852,
+          "is_elevated": true,
+          "is_spike": false
+        }
+      ],
+      "echo_hit_rate": 0.75
+    }
+  ],
+  "echo_returns": {
+    "mean_3d": 0.38791464629924877,
+    "mean_5d": 0.2964981667527484,
+    "n": 40
+  }
+}

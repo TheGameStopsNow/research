@@ -1,0 +1,227 @@
+{
+  "burst_detection": {
+    "Pearl Settlement": {
+      "n_intervals": 1724,
+      "median_sec": 25.9735,
+      "burst_pct": 0.10556844547563805,
+      "rapid_pct": 0.20823665893271462,
+      "slow_pct": 0.28248259860788866
+    },
+    "Other Settlement": {
+      "n_intervals": 4326,
+      "median_sec": 10.466999999999999,
+      "burst_pct": 0.205039297272307,
+      "rapid_pct": 0.3592233009708738,
+      "slow_pct": 0.09385113268608414
+    },
+    "Pearl Control": {
+      "n_intervals": 2216,
+      "median_sec": 8.628,
+      "burst_pct": 0.14981949458483754,
+      "rapid_pct": 0.3822202166064982,
+      "slow_pct": 0.16787003610108303
+    }
+  },
+  "condition_codes": {
+    "pearl_settlement": {
+      "Trade Thru Exempt": {
+        "code": 18,
+        "count": 1582,
+        "pct": 0.8063200815494393
+      },
+      "Code_95": {
+        "code": 95,
+        "count": 380,
+        "pct": 0.19367991845056065
+      }
+    },
+    "other_settlement": {
+      "Trade Thru Exempt": {
+        "code": 18,
+        "count": 2910,
+        "pct": 0.6077694235588973
+      },
+      "Code_95": {
+        "code": 95,
+        "count": 1133,
+        "pct": 0.23663324979114453
+      },
+      "Electronic": {
+        "code": 125,
+        "count": 444,
+        "pct": 0.09273182957393483
+      },
+      "Code_130": {
+        "code": 130,
+        "count": 138,
+        "pct": 0.02882205513784461
+      },
+      "Code_134": {
+        "code": 134,
+        "count": 96,
+        "pct": 0.020050125313283207
+      },
+      "Code_131": {
+        "code": 131,
+        "count": 58,
+        "pct": 0.01211361737677527
+      },
+      "Code_133": {
+        "code": 133,
+        "count": 4,
+        "pct": 0.000835421888053467
+      },
+      "Code_21": {
+        "code": 21,
+        "count": 3,
+        "pct": 0.0006265664160401002
+      },
+      "Code_129": {
+        "code": 129,
+        "count": 2,
+        "pct": 0.0004177109440267335
+      }
+    },
+    "pearl_control": {
+      "Trade Thru Exempt": {
+        "code": 18,
+        "count": 1951,
+        "pct": 0.7976287816843827
+      },
+      "Code_95": {
+        "code": 95,
+        "count": 495,
+        "pct": 0.20237121831561733
+      }
+    }
+  },
+  "strike_persistence": {
+    "5.0": {
+      "n_dates": 5,
+      "pct_dates": 1.0,
+      "total_trades": 482,
+      "total_volume": 3440
+    },
+    "8.0": {
+      "n_dates": 4,
+      "pct_dates": 0.8,
+      "total_trades": 40,
+      "total_volume": 153
+    },
+    "1.5": {
+      "n_dates": 4,
+      "pct_dates": 0.8,
+      "total_trades": 26,
+      "total_volume": 313
+    },
+    "2.0": {
+      "n_dates": 4,
+      "pct_dates": 0.8,
+      "total_trades": 23,
+      "total_volume": 268
+    },
+    "3.0": {
+      "n_dates": 4,
+      "pct_dates": 0.8,
+      "total_trades": 82,
+      "total_volume": 368
+    },
+    "4.0": {
+      "n_dates": 4,
+      "pct_dates": 0.8,
+      "total_trades": 74,
+      "total_volume": 727
+    },
+    "6.0": {
+      "n_dates": 4,
+      "pct_dates": 0.8,
+      "total_trades": 97,
+      "total_volume": 691
+    },
+    "1.0": {
+      "n_dates": 4,
+      "pct_dates": 0.8,
+      "total_trades": 63,
+      "total_volume": 929
+    },
+    "9.0": {
+      "n_dates": 4,
+      "pct_dates": 0.8,
+      "total_trades": 42,
+      "total_volume": 132
+    },
+    "10.0": {
+      "n_dates": 4,
+      "pct_dates": 0.8,
+      "total_trades": 507,
+      "total_volume": 2991
+    },
+    "11.0": {
+      "n_dates": 3,
+      "pct_dates": 0.6,
+      "total_trades": 26,
+      "total_volume": 95
+    },
+    "16.0": {
+      "n_dates": 3,
+      "pct_dates": 0.6,
+      "total_trades": 22,
+      "total_volume": 30
+    },
+    "15.0": {
+      "n_dates": 3,
+      "pct_dates": 0.6,
+      "total_trades": 214,
+      "total_volume": 518
+    },
+    "14.0": {
+      "n_dates": 3,
+      "pct_dates": 0.6,
+      "total_trades": 69,
+      "total_volume": 5793
+    },
+    "13.0": {
+      "n_dates": 3,
+      "pct_dates": 0.6,
+      "total_trades": 16,
+      "total_volume": 22
+    },
+    "12.0": {
+      "n_dates": 3,
+      "pct_dates": 0.6,
+      "total_trades": 53,
+      "total_volume": 207
+    },
+    "7.0": {
+      "n_dates": 3,
+      "pct_dates": 0.6,
+      "total_trades": 24,
+      "total_volume": 42
+    },
+    "5.5": {
+      "n_dates": 3,
+      "pct_dates": 0.6,
+      "total_trades": 13,
+      "total_volume": 66
+    },
+    "4.5": {
+      "n_dates": 3,
+      "pct_dates": 0.6,
+      "total_trades": 11,
+      "total_volume": 28
+    },
+    "18.0": {
+      "n_dates": 2,
+      "pct_dates": 0.4,
+      "total_trades": 18,
+      "total_volume": 26
+    }
+  },
+  "price_analysis": {
+    "pearl_at_0.01": 0.12640163098878696,
+    "pearl_at_0.05": 0.4704383282364934,
+    "pearl_median_price": 0.06,
+    "other_at_0.01": 0.17105263157894737,
+    "other_at_0.05": 0.5831244778613199
+  }
+}

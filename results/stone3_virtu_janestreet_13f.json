@@ -1,0 +1,73 @@
+{
+  "Virtu Financial LLC": {
+    "Q2": [],
+    "Q1": [
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "SH",
+        "quantity": 18008,
+        "value_usd": 316000
+      }
+    ]
+  },
+  "Jane Street Group LLC": {
+    "Q2": [
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "SH",
+        "quantity": 1866787,
+        "value_usd": 46090971000
+      },
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "SH",
+        "quantity": 800,
+        "value_usd": 19752000
+      },
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "Call",
+        "quantity": 4641900,
+        "value_usd": 114608511000
+      },
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "Put",
+        "quantity": 2188300,
+        "value_usd": 54029127000
+      }
+    ],
+    "Q1": [
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "SH",
+        "quantity": 279079,
+        "value_usd": 4892255000
+      },
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "SH",
+        "quantity": 354746,
+        "value_usd": 6218697000
+      },
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "SH",
+        "quantity": 340007,
+        "value_usd": 5960323000
+      },
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "Call",
+        "quantity": 1467200,
+        "value_usd": 25720016000
+      },
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "Put",
+        "quantity": 379100,
+        "value_usd": 6645623000
+      }
+    ]
+  }
+}

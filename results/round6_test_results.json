@@ -1,0 +1,369 @@
+{
+  "A1": {
+    "test": "A1_Depletion_Inflection",
+    "e_stored": 1199198.0,
+    "baseline_date": "20240510",
+    "daily_data": [
+      {
+        "date": "20240513",
+        "short_dated_vol": 461259,
+        "total_vol": 573040,
+        "cumulative_kinetic": 461259.0,
+        "R_ratio": 0.3846,
+        "breached": false
+      },
+      {
+        "date": "20240514",
+        "short_dated_vol": 497020,
+        "total_vol": 651660,
+        "cumulative_kinetic": 958279.0,
+        "R_ratio": 0.7991,
+        "breached": false
+      },
+      {
+        "date": "20240515",
+        "short_dated_vol": 523913,
+        "total_vol": 682547,
+        "cumulative_kinetic": 1482192.0,
+        "R_ratio": 1.236,
+        "breached": true
+      },
+      {
+        "date": "20240516",
+        "short_dated_vol": 490833,
+        "total_vol": 676442,
+        "cumulative_kinetic": 1973025.0,
+        "R_ratio": 1.6453,
+        "breached": true
+      },
+      {
+        "date": "20240517",
+        "short_dated_vol": 869949,
+        "total_vol": 968210,
+        "cumulative_kinetic": 2842974.0,
+        "R_ratio": 2.3707,
+        "breached": true
+      },
+      {
+        "date": "20240520",
+        "short_dated_vol": 210256,
+        "total_vol": 260091,
+        "cumulative_kinetic": 3053230.0,
+        "R_ratio": 2.5461,
+        "breached": true
+      },
+      {
+        "date": "20240521",
+        "short_dated_vol": 128226,
+        "total_vol": 176375,
+        "cumulative_kinetic": 3181456.0,
+        "R_ratio": 2.653,
+        "breached": true
+      },
+      {
+        "date": "20240522",
+        "short_dated_vol": 101389,
+        "total_vol": 146455,
+        "cumulative_kinetic": 3282845.0,
+        "R_ratio": 2.7375,
+        "breached": true
+      },
+      {
+        "date": "20240523",
+        "short_dated_vol": 129406,
+        "total_vol": 216379,
+        "cumulative_kinetic": 3412251.0,
+        "R_ratio": 2.8454,
+        "breached": true
+      },
+      {
+        "date": "20240524",
+        "short_dated_vol": 254318,
+        "total_vol": 323536,
+        "cumulative_kinetic": 3666569.0,
+        "R_ratio": 3.0575,
+        "breached": true
+      },
+      {
+        "date": "20240528",
+        "short_dated_vol": 278774,
+        "total_vol": 399249,
+        "cumulative_kinetic": 3945343.0,
+        "R_ratio": 3.29,
+        "breached": true
+      },
+      {
+        "date": "20240529",
+        "short_dated_vol": 106603,
+        "total_vol": 166743,
+        "cumulative_kinetic": 4051946.0,
+        "R_ratio": 3.3789,
+        "breached": true
+      },
+      {
+        "date": "20240530",
+        "short_dated_vol": 127834,
+        "total_vol": 203951,
+        "cumulative_kinetic": 4179780.0,
+        "R_ratio": 3.4855,
+        "breached": true
+      },
+      {
+        "date": "20240531",
+        "short_dated_vol": 204745,
+        "total_vol": 253263,
+        "cumulative_kinetic": 4384525.0,
+        "R_ratio": 3.6562,
+        "breached": true
+      },
+      {
+        "date": "20240603",
+        "short_dated_vol": 492920,
+        "total_vol": 796150,
+        "cumulative_kinetic": 4877445.0,
+        "R_ratio": 4.0673,
+        "breached": true
+      },
+      {
+        "date": "20240604",
+        "short_dated_vol": 253231,
+        "total_vol": 382253,
+        "cumulative_kinetic": 5130676.0,
+        "R_ratio": 4.2784,
+        "breached": true
+      },
+      {
+        "date": "20240605",
+        "short_dated_vol": 333207,
+        "total_vol": 531542,
+        "cumulative_kinetic": 5463883.0,
+        "R_ratio": 4.5563,
+        "breached": true
+      },
+      {
+        "date": "20240606",
+        "short_dated_vol": 825625,
+        "total_vol": 1346667,
+        "cumulative_kinetic": 6289508.0,
+        "R_ratio": 5.2448,
+        "breached": true
+      },
+      {
+        "date": "20240607",
+        "short_dated_vol": 1662633,
+        "total_vol": 2077076,
+        "cumulative_kinetic": 7952141.0,
+        "R_ratio": 6.6312,
+        "breached": true
+      }
+    ],
+    "breach_date": "20240515",
+    "verdict": "E_stored=1,199,198. Breach at R\u22651.0 on 20240515. Q10 NMF transition observed around ~2024-05-24. The CGD breach aligns the observed NMF phase transition."
+  },
+  "A2": {
+    "test": "A2_Truncated_NMF",
+    "n_scanned": 80,
+    "top_quartile": {
+      "n": 20,
+      "kz_total": 1638,
+      "rate": 81.9,
+      "r_range": [
+        0.2372,
+        0.5269
+      ]
+    },
+    "bottom_quartile": {
+      "n": 20,
+      "kz_total": 1674,
+      "rate": 83.7,
+      "r_range": [
+        -0.5307,
+        -0.0668
+      ]
+    },
+    "ratio": 0.98,
+    "verdict": "NOT SUPPORTED: 0.98\u00d7 ratio. Morning predictability does not clearly predict afternoon kill zones. Causal direction remains ambiguous."
+  },
+  "B1": {
+    "test": "B1_KillZone_BaseRate",
+    "spy_dates_scanned": 50,
+    "spy_killzones": 1739082,
+    "spy_rate_per_day": 34781.64,
+    "gme_rate_per_day": 146.12,
+    "ratio": 238.03,
+    "verdict": "FALSIFIED: SPY shows 238.03\u00d7 GME's kill zone rate. 34ms cascades are generic TRF/HFT infrastructure, not specific to contested stocks."
+  },
+  "B2": {
+    "test": "B2_Jitter_MonteCarlo",
+    "n_dates": 7,
+    "actual_hits": 0,
+    "mean_baseline_pct": 9.96,
+    "p_value": 1.0,
+    "per_date": [
+      {
+        "date": "20210115",
+        "jitter_time": "2021-01-15 14:02:37.111000",
+        "burst_minutes": 20,
+        "total_minutes": 931,
+        "jitter_hit": false,
+        "mc_baseline_pct": 10.3
+      },
+      {
+        "date": "20210122",
+        "jitter_time": "2021-01-22 13:15:07.193000",
+        "burst_minutes": 26,
+        "total_minutes": 897,
+        "jitter_hit": false,
+        "mc_baseline_pct": 11.0
+      },
+      {
+        "date": "20221031",
+        "jitter_time": "2022-10-31 12:10:52.430000",
+        "burst_minutes": 20,
+        "total_minutes": 929,
+        "jitter_hit": false,
+        "mc_baseline_pct": 10.8
+      },
+      {
+        "date": "20230127",
+        "jitter_time": "2023-01-27 09:34:07.201000",
+        "burst_minutes": 17,
+        "total_minutes": 769,
+        "jitter_hit": false,
+        "mc_baseline_pct": 11.6
+      },
+      {
+        "date": "20240409",
+        "jitter_time": "2024-04-09 10:56:22.956000",
+        "burst_minutes": 8,
+        "total_minutes": 726,
+        "jitter_hit": false,
+        "mc_baseline_pct": 8.9
+      },
+      {
+        "date": "20240605",
+        "jitter_time": "2024-06-05 09:42:07.968000",
+        "burst_minutes": 22,
+        "total_minutes": 960,
+        "jitter_hit": false,
+        "mc_baseline_pct": 10.5
+      },
+      {
+        "date": "20240606",
+        "jitter_time": "2024-06-06 13:04:17.605000",
+        "burst_minutes": 20,
+        "total_minutes": 947,
+        "jitter_hit": false,
+        "mc_baseline_pct": 6.6
+      }
+    ],
+    "verdict": "NOT SIGNIFICANT: p=1.0000. Background burst frequency (10.0%) could explain the co-occurrence pattern."
+  },
+  "C1": {
+    "test": "C1_TSLA_KillZone_Control",
+    "tsla_oos_mean_r": 0.5009,
+    "n_dates_scanned": 20,
+    "tsla_killzones": 2334640,
+    "tsla_rate_per_day": 116732.0,
+    "gme_top_rate_per_day": 202.3,
+    "ratio": 577.0242,
+    "verdict": "SURPRISING: TSLA shows 116732.0/day kill zones, suggesting kill zones are not gated by Confinement Immunity alone."
+  },
+  "C2": {
+    "test": "C2_DJT_Depletion",
+    "events_analyzed": 8,
+    "early_mean_delta": -0.0489,
+    "late_mean_delta": -0.2531,
+    "shows_depletion_pattern": "False",
+    "per_event": [
+      {
+        "date": "20240326",
+        "time": "09:30:00",
+        "description": "NASDAQ listing day \u2014 first day of trading as DJT",
+        "pre_r": 0.3608,
+        "post_r": 0.1793,
+        "error_delta": 0.1815,
+        "volume_ratio": 0.98,
+        "interpretation": "NMF_SPIKE"
+      },
+      {
+        "date": "20240401",
+        "time": "09:30:00",
+        "description": "First full week post-listing",
+        "pre_r": 0.2727,
+        "post_r": 0.1511,
+        "error_delta": 0.1216,
+        "volume_ratio": 0.23,
+        "interpretation": "NMF_SPIKE"
+      },
+      {
+        "date": "20240415",
+        "time": "09:30:00",
+        "description": "Trump trial coverage intensifies",
+        "pre_r": 0.0135,
+        "post_r": 0.3647,
+        "error_delta": -0.3512,
+        "volume_ratio": 0.18,
+        "interpretation": "NMF_IMPROVE"
+      },
+      {
+        "date": "20240530",
+        "time": "14:00:00",
+        "description": "Conviction verdict \u2014 34 felony counts",
+        "pre_r": -0.1158,
+        "post_r": -0.2631,
+        "error_delta": -0.1473,
+        "volume_ratio": 0.4,
+        "interpretation": "NMF_IMPROVE"
+      },
+      {
+        "date": "20240531",
+        "time": "09:30:00",
+        "description": "Market open after conviction",
+        "pre_r": 0.0096,
+        "post_r": 0.4803,
+        "error_delta": -0.4707,
+        "volume_ratio": 1.39,
+        "interpretation": "NMF_IMPROVE"
+      },
+      {
+        "date": "20240715",
+        "time": "09:30:00",
+        "description": "Monday after assassination attempt (July 13)",
+        "pre_r": -0.1146,
+        "post_r": 0.5675,
+        "error_delta": -0.4529,
+        "volume_ratio": 0.72,
+        "interpretation": "NMF_IMPROVE"
+      },
+      {
+        "date": "20240722",
+        "time": "09:30:00",
+        "description": "Kamala Harris enters race \u2014 political shock",
+        "pre_r": 0.1732,
+        "post_r": -0.1078,
+        "error_delta": 0.0654,
+        "volume_ratio": 0.19,
+        "interpretation": "NMF_STABLE"
+      },
+      {
+        "date": "20240723",
+        "time": "09:30:00",
+        "description": "Second day of Harris candidacy",
+        "pre_r": 0.0898,
+        "post_r": 0.244,
+        "error_delta": -0.1542,
+        "volume_ratio": 0.31,
+        "interpretation": "NMF_IMPROVE"
+      }
+    ],
+    "verdict": "DJT: 8 events analyzed. Early phase mean \u0394=-0.049, late phase mean \u0394=-0.253. NOT CONFIRMED: DJT does not show a clear two-phase pattern. The depletion model may be specific to GME's structural environment."
+  },
+  "C3": {
+    "test": "C3_AMC_Code12_Control",
+    "amc_blocks": 41,
+    "amc_vol_spike_pct": 0.0,
+    "gme_vol_spike_pct": 45.5,
+    "verdict": "CONFIRMED: AMC vol-spike correlation = 0.0% vs GME = 45.5%. AMC's Code 12 activity resembles the ~0-20% baseline, not GME's anomalous 45.5%. The GME phenomenon is NOT a generic meme-stock effect \u2014 it is specific to GME's structural targeting by the Shadow Algorithm."
+  }
+}

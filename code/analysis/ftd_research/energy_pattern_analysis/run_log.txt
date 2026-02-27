@@ -1,0 +1,82 @@
+======================================================================
+GME Full-Range Energy Pattern Analysis (2018–2026)
+======================================================================
+
+Step 1: Loading raw ThetaData trades...
+Found 2038 date folders
+  [1/2038] 20180102 — 1 valid days, 0 errors
+  [200/2038] 20181016 — 200 valid days, 0 errors
+  [400/2038] 20190805 — 400 valid days, 0 errors
+  [600/2038] 20200520 — 600 valid days, 0 errors
+  [800/2038] 20210308 — 800 valid days, 0 errors
+  [1000/2038] 20211220 — 1000 valid days, 0 errors
+  [1200/2038] 20221006 — 1200 valid days, 0 errors
+  [1400/2038] 20230726 — 1400 valid days, 0 errors
+  [1600/2038] 20240510 — 1600 valid days, 0 errors
+  [1800/2038] 20250228 — 1800 valid days, 0 errors
+  [2000/2038] 20251216 — 2000 valid days, 0 errors
+  [2038/2038] 20260211 — 2038 valid days, 0 errors
+
+Loaded 2038 trading days: 2018-01-02 00:00:00 → 2026-02-11 00:00:00
+  Saved daily budget to ~/Documents/GitHub/research/temp/energy_pattern_analysis/output_full_range/daily_energy_budget.csv
+
+Step 2: Computing energy budget...
+  Peak stored energy: 2,717,129
+  Mean stored energy: 370,590
+
+Step 3: Detecting bursts...
+  Detected 13 burst(s):
+    Burst 1: 2020-10-05 (energy=434,473) → 2020-11-06 (76.5% discharge, 32d)
+    Burst 2: 2021-01-28 (energy=2,717,129) → 2021-02-22 (41.5% discharge, 25d)
+    Burst 3: 2021-06-09 (energy=1,220,651) → 2021-08-09 (83.1% discharge, 61d)
+    Burst 4: 2021-09-08 (energy=587,456) → 2021-10-18 (51.0% discharge, 40d)
+    Burst 5: 2022-06-08 (energy=952,920) → 2022-06-27 (30.8% discharge, 19d)
+    Burst 6: 2023-06-06 (energy=586,082) → 2023-08-08 (80.7% discharge, 63d)
+    Burst 7: 2023-10-09 (energy=595,061) → 2023-11-06 (84.1% discharge, 28d)
+    Burst 8: 2023-12-11 (energy=480,141) → 2024-02-05 (82.6% discharge, 56d)
+    Burst 9: 2024-05-28 (energy=2,035,279) → 2024-08-06 (99.2% discharge, 70d)
+    Burst 10: 2024-12-10 (energy=497,765) → 2025-02-05 (97.1% discharge, 57d)
+    Burst 11: 2025-06-25 (energy=2,054,620) → 2025-08-06 (83.1% discharge, 42d)
+    Burst 12: 2025-09-22 (energy=845,849) → 2025-11-07 (50.5% discharge, 46d)
+    Burst 13: 2025-12-08 (energy=1,214,873) → 2026-01-07 (24.6% discharge, 30d)
+
+Step 4: Pre-event buildup analysis...
+
+  --- Pre-Jan 2021 (2020-08-03 → 2021-01-28) ---
+  Total energy slope: +13,362/day
+  Total peak: 5,402,504
+  Long tenor (91d+): 36% → 10% (Δ-25%)
+  Per-tenor slopes (% of mean/day):
+          0DTE: slope=+3.37%/day  mean=260  max=19,084
+          1-7d: slope=+3.20%/day  mean=56,484  max=1,027,332
+         8-30d: slope=+3.15%/day  mean=153,002  max=2,525,252
+        31-90d: slope=+3.00%/day  mean=188,916  max=2,485,620
+       91-180d: slope=+0.00%/day  mean=0  max=0
+      181-365d: slope=+0.00%/day  mean=0  max=0
+         365d+: slope=+1.00%/day  mean=104,560  max=1,145,000
+
+  --- Pre-Jun 2024 (2023-12-11 → 2024-06-07) ---
+  Total energy slope: +12,790/day
+  Total peak: 5,636,559
+  Long tenor (91d+): 23% → 56% (Δ+33%)
+  Per-tenor slopes (% of mean/day):
+          0DTE: slope=+3.64%/day  mean=477  max=29,423
+          1-7d: slope=+2.84%/day  mean=61,657  max=851,980
+         8-30d: slope=+2.59%/day  mean=149,003  max=2,208,579
+        31-90d: slope=-1.45%/day  mean=39,762  max=280,260
+       91-180d: slope=+0.00%/day  mean=0  max=0
+      181-365d: slope=+0.00%/day  mean=0  max=0
+         365d+: slope=+3.24%/day  mean=238,875  max=2,675,500
+
+Step 5: Generating charts...
+  Saved: ~/Documents/GitHub/research/temp/energy_pattern_analysis/output_full_range/full_energy_budget.png
+  Saved: ~/Documents/GitHub/research/temp/energy_pattern_analysis/output_full_range/full_energy_heatmap.png
+  Saved: ~/Documents/GitHub/research/temp/energy_pattern_analysis/output_full_range/full_storage_release.png
+  Saved: ~/Documents/GitHub/research/temp/energy_pattern_analysis/output_full_range/long_tenor_timeseries.png
+  Saved: ~/Documents/GitHub/research/temp/energy_pattern_analysis/output_full_range/pre_event_comparison.png
+
+  Report: ~/Documents/GitHub/research/temp/energy_pattern_analysis/output_full_range/full_range_report.md
+
+======================================================================
+Done! All output saved to: ~/Documents/GitHub/research/temp/energy_pattern_analysis/output_full_range
+======================================================================

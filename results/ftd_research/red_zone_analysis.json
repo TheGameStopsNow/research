@@ -1,0 +1,402 @@
+{
+  "price_during_ramp": [
+    {
+      "spike_date": "2020-12-02",
+      "ftd_qty": 1061397,
+      "price_at_spike": 4.14,
+      "price_at_T33": 9.84,
+      "price_at_T40": 86.88,
+      "red_zone_return_pct": 782.9,
+      "spike_to_T40_pct": 1995.96
+    },
+    {
+      "spike_date": "2020-12-03",
+      "ftd_qty": 1787191,
+      "price_at_spike": 4.03,
+      "price_at_T33": 9.84,
+      "price_at_T40": 48.4,
+      "red_zone_return_pct": 391.87,
+      "spike_to_T40_pct": 1100.99
+    },
+    {
+      "spike_date": "2020-12-04",
+      "ftd_qty": 999475,
+      "price_at_spike": 4.22,
+      "price_at_T33": 9.78,
+      "price_at_T40": 81.25,
+      "red_zone_return_pct": 730.78,
+      "spike_to_T40_pct": 1823.08
+    },
+    {
+      "spike_date": "2020-12-07",
+      "ftd_qty": 1002379,
+      "price_at_spike": 4.09,
+      "price_at_T33": 10.76,
+      "price_at_T40": 56.25,
+      "red_zone_return_pct": 422.89,
+      "spike_to_T40_pct": 1276.15
+    },
+    {
+      "spike_date": "2020-12-08",
+      "ftd_qty": 872292,
+      "price_at_spike": 4.24,
+      "price_at_T33": 16.25,
+      "price_at_T40": 22.5,
+      "red_zone_return_pct": 38.44,
+      "spike_to_T40_pct": 431.29
+    },
+    {
+      "spike_date": "2020-12-09",
+      "ftd_qty": 721361,
+      "price_at_spike": 3.41,
+      "price_at_T33": 19.2,
+      "price_at_T40": 23.1,
+      "red_zone_return_pct": 20.34,
+      "spike_to_T40_pct": 576.5
+    },
+    {
+      "spike_date": "2020-12-10",
+      "ftd_qty": 605975,
+      "price_at_spike": 3.53,
+      "price_at_T33": 36.99,
+      "price_at_T40": 13.38,
+      "red_zone_return_pct": -63.85,
+      "spike_to_T40_pct": 278.9
+    },
+    {
+      "spike_date": "2020-12-11",
+      "ftd_qty": 880063,
+      "price_at_spike": 3.33,
+      "price_at_T33": 86.88,
+      "price_at_T40": 15.94,
+      "red_zone_return_pct": -81.65,
+      "spike_to_T40_pct": 379.11
+    },
+    {
+      "spike_date": "2020-12-18",
+      "ftd_qty": 872523,
+      "price_at_spike": 3.91,
+      "price_at_T33": 23.1,
+      "price_at_T40": 13.1,
+      "red_zone_return_pct": -43.3,
+      "spike_to_T40_pct": 235.25
+    },
+    {
+      "spike_date": "2020-12-21",
+      "ftd_qty": 619404,
+      "price_at_spike": 3.88,
+      "price_at_T33": 13.38,
+      "price_at_T40": 12.38,
+      "red_zone_return_pct": -7.46,
+      "spike_to_T40_pct": 218.8
+    },
+    {
+      "spike_date": "2020-12-22",
+      "ftd_qty": 744478,
+      "price_at_spike": 4.86,
+      "price_at_T33": 15.94,
+      "price_at_T40": 12.38,
+      "red_zone_return_pct": -22.36,
+      "spike_to_T40_pct": 154.42
+    },
+    {
+      "spike_date": "2020-12-23",
+      "ftd_qty": 700507,
+      "price_at_spike": 5.14,
+      "price_at_T33": 15.0,
+      "price_at_T40": 11.48,
+      "red_zone_return_pct": -23.43,
+      "spike_to_T40_pct": 123.33
+    },
+    {
+      "spike_date": "2020-12-24",
+      "ftd_qty": 839699,
+      "price_at_spike": 5.04,
+      "price_at_T33": 12.58,
+      "price_at_T40": 10.17,
+      "red_zone_return_pct": -19.12,
+      "spike_to_T40_pct": 101.94
+    },
+    {
+      "spike_date": "2020-12-30",
+      "ftd_qty": 648513,
+      "price_at_spike": 4.82,
+      "price_at_T33": 12.38,
+      "price_at_T40": 22.93,
+      "red_zone_return_pct": 85.24,
+      "spike_to_T40_pct": 376.17
+    },
+    {
+      "spike_date": "2021-01-06",
+      "ftd_qty": 772112,
+      "price_at_spike": 4.59,
+      "price_at_T33": 11.5,
+      "price_at_T40": 31.05,
+      "red_zone_return_pct": 169.96,
+      "spike_to_T40_pct": 576.36
+    },
+    {
+      "spike_date": "2021-01-07",
+      "ftd_qty": 799328,
+      "price_at_spike": 4.52,
+      "price_at_T33": 11.24,
+      "price_at_T40": 33.09,
+      "red_zone_return_pct": 194.31,
+      "spike_to_T40_pct": 632.02
+    },
+    {
+      "spike_date": "2021-01-08",
+      "ftd_qty": 555658,
+      "price_at_spike": 4.42,
+      "price_at_T33": 22.93,
+      "price_at_T40": 34.44,
+      "red_zone_return_pct": 50.19,
+      "spike_to_T40_pct": 678.63
+    },
+    {
+      "spike_date": "2021-01-11",
+      "ftd_qty": 703110,
+      "price_at_spike": 4.99,
+      "price_at_T33": 27.18,
+      "price_at_T40": 48.62,
+      "red_zone_return_pct": 78.88,
+      "spike_to_T40_pct": 875.43
+    },
+    {
+      "spike_date": "2021-01-13",
+      "ftd_qty": 662524,
+      "price_at_spike": 7.85,
+      "price_at_T33": 30.1,
+      "price_at_T40": 66.25,
+      "red_zone_return_pct": 120.1,
+      "spike_to_T40_pct": 743.95
+    },
+    {
+      "spike_date": "2021-01-14",
+      "ftd_qty": 621483,
+      "price_at_spike": 9.98,
+      "price_at_T33": 29.55,
+      "price_at_T40": 65.0,
+      "red_zone_return_pct": 120.0,
+      "spike_to_T40_pct": 551.47
+    },
+    {
+      "spike_date": "2021-01-15",
+      "ftd_qty": 892653,
+      "price_at_spike": 8.88,
+      "price_at_T33": 31.05,
+      "price_at_T40": 66.12,
+      "red_zone_return_pct": 113.0,
+      "spike_to_T40_pct": 645.07
+    },
+    {
+      "spike_date": "2021-01-19",
+      "ftd_qty": 1498576,
+      "price_at_spike": 9.84,
+      "price_at_T33": 34.44,
+      "price_at_T40": 52.04,
+      "red_zone_return_pct": 51.13,
+      "spike_to_T40_pct": 428.89
+    },
+    {
+      "spike_date": "2021-01-20",
+      "ftd_qty": 1007562,
+      "price_at_spike": 9.78,
+      "price_at_T33": 48.62,
+      "price_at_T40": 52.45,
+      "red_zone_return_pct": 7.87,
+      "spike_to_T40_pct": 436.32
+    },
+    {
+      "spike_date": "2021-01-21",
+      "ftd_qty": 1438994,
+      "price_at_spike": 10.76,
+      "price_at_T33": 61.72,
+      "price_at_T40": 50.44,
+      "red_zone_return_pct": -18.29,
+      "spike_to_T40_pct": 368.86
+    },
+    {
+      "spike_date": "2021-01-26",
+      "ftd_qty": 2099572,
+      "price_at_spike": 36.99,
+      "price_at_T33": 66.12,
+      "price_at_T40": 45.44,
+      "red_zone_return_pct": -31.29,
+      "spike_to_T40_pct": 22.82
+    },
+    {
+      "spike_date": "2021-01-27",
+      "ftd_qty": 1972862,
+      "price_at_spike": 86.88,
+      "price_at_T33": 55.03,
+      "price_at_T40": 30.08,
+      "red_zone_return_pct": -45.33,
+      "spike_to_T40_pct": -65.37
+    },
+    {
+      "spike_date": "2021-01-28",
+      "ftd_qty": 1032986,
+      "price_at_spike": 48.4,
+      "price_at_T33": 52.04,
+      "price_at_T40": 45.94,
+      "red_zone_return_pct": -11.73,
+      "spike_to_T40_pct": -5.09
+    },
+    {
+      "spike_date": "2021-08-05",
+      "ftd_qty": 1316894,
+      "price_at_spike": 38.36,
+      "price_at_T33": 47.49,
+      "price_at_T40": 43.87,
+      "red_zone_return_pct": -7.62,
+      "spike_to_T40_pct": 14.36
+    },
+    {
+      "spike_date": "2022-05-27",
+      "ftd_qty": 523209,
+      "price_at_spike": 34.3,
+      "price_at_T33": 35.32,
+      "price_at_T40": 35.78,
+      "red_zone_return_pct": 1.3,
+      "spike_to_T40_pct": 4.31
+    },
+    {
+      "spike_date": "2022-05-31",
+      "ftd_qty": 744847,
+      "price_at_spike": 31.18,
+      "price_at_T33": 35.41,
+      "price_at_T40": 32.43,
+      "red_zone_return_pct": -8.42,
+      "spike_to_T40_pct": 3.99
+    },
+    {
+      "spike_date": "2022-06-09",
+      "ftd_qty": 589494,
+      "price_at_spike": 32.24,
+      "price_at_T33": 32.43,
+      "price_at_T40": 38.36,
+      "red_zone_return_pct": 18.29,
+      "spike_to_T40_pct": 18.96
+    },
+    {
+      "spike_date": "2022-06-10",
+      "ftd_qty": 643323,
+      "price_at_spike": 32.27,
+      "price_at_T33": 33.78,
+      "price_at_T40": 40.02,
+      "red_zone_return_pct": 18.47,
+      "spike_to_T40_pct": 24.01
+    },
+    {
+      "spike_date": "2022-06-13",
+      "ftd_qty": 673554,
+      "price_at_spike": 29.56,
+      "price_at_T33": 33.84,
+      "price_at_T40": 43.45,
+      "red_zone_return_pct": 28.4,
+      "spike_to_T40_pct": 46.98
+    },
+    {
+      "spike_date": "2022-07-26",
+      "ftd_qty": 1637150,
+      "price_at_spike": 32.43,
+      "price_at_T33": 28.92,
+      "price_at_T40": 27.54,
+      "red_zone_return_pct": -4.77,
+      "spike_to_T40_pct": -15.08
+    },
+    {
+      "spike_date": "2022-12-20",
+      "ftd_qty": 597420,
+      "price_at_spike": 20.26,
+      "price_at_T33": 22.25,
+      "price_at_T40": 19.87,
+      "red_zone_return_pct": -10.7,
+      "spike_to_T40_pct": -1.92
+    },
+    {
+      "spike_date": "2022-12-22",
+      "ftd_qty": 596488,
+      "price_at_spike": 19.81,
+      "price_at_T33": 21.22,
+      "price_at_T40": 21.6,
+      "red_zone_return_pct": 1.79,
+      "spike_to_T40_pct": 9.04
+    },
+    {
+      "spike_date": "2023-03-24",
+      "ftd_qty": 624571,
+      "price_at_spike": 23.98,
+      "price_at_T33": 20.76,
+      "price_at_T40": 22.06,
+      "red_zone_return_pct": 6.26,
+      "spike_to_T40_pct": -8.01
+    },
+    {
+      "spike_date": "2023-09-19",
+      "ftd_qty": 520767,
+      "price_at_spike": 17.52,
+      "price_at_T33": 13.87,
+      "price_at_T40": 12.9,
+      "red_zone_return_pct": -6.99,
+      "spike_to_T40_pct": -26.37
+    },
+    {
+      "spike_date": "2024-05-08",
+      "ftd_qty": 525493,
+      "price_at_spike": 15.92,
+      "price_at_T33": 23.65,
+      "price_at_T40": 24.37,
+      "red_zone_return_pct": 3.04,
+      "spike_to_T40_pct": 53.08
+    },
+    {
+      "spike_date": "2024-05-15",
+      "ftd_qty": 571602,
+      "price_at_spike": 39.55,
+      "price_at_T33": 23.33,
+      "price_at_T40": 24.97,
+      "red_zone_return_pct": 7.03,
+      "spike_to_T40_pct": -36.86
+    },
+    {
+      "spike_date": "2025-06-13",
+      "ftd_qty": 1531842,
+      "price_at_spike": 22.14,
+      "price_at_T33": 22.45,
+      "price_at_T40": 22.27,
+      "red_zone_return_pct": -0.8,
+      "spike_to_T40_pct": 0.59
+    },
+    {
+      "spike_date": "2025-09-11",
+      "ftd_qty": 601069,
+      "price_at_spike": 24.85,
+      "price_at_T33": 23.3,
+      "price_at_T40": 21.35,
+      "red_zone_return_pct": -8.37,
+      "spike_to_T40_pct": -14.08
+    },
+    {
+      "spike_date": "2025-10-10",
+      "ftd_qty": 916384,
+      "price_at_spike": 23.3,
+      "price_at_T33": 21.63,
+      "price_at_T40": 23.0,
+      "red_zone_return_pct": 6.33,
+      "spike_to_T40_pct": -1.29
+    },
+    {
+      "spike_date": "2025-12-04",
+      "ftd_qty": 2068490,
+      "price_at_spike": 22.95,
+      "price_at_T33": 21.1,
+      "price_at_T40": 22.81,
+      "red_zone_return_pct": 8.1,
+      "spike_to_T40_pct": -0.61
+    }
+  ],
+  "red_zone_mean_return": 69.57795454545455,
+  "red_zone_positive_pct": 59.09090909090909
+}

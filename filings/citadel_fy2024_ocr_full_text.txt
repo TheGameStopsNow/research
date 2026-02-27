@@ -1,0 +1,1617 @@
+
+======================================================================
+  PAGE 1
+======================================================================
+Ee CITADEL | Securities
+Citadel Securities LLC
+
+2024 Financial Statement
+
+======================================================================
+  PAGE 2
+======================================================================
+
+
+======================================================================
+  PAGE 3
+======================================================================
+=== (C]TADEL | Securities
+
+Citadel Securities LLC
+
+(A Delaware Limited Liability Company)
+(SEC File Number 8-53574)
+
+Statement of Financial Condition as of December 31, 2024, and Report
+of Independent Registered Public Accounting Firm
+
+Filed pursuant to rule 17a-5(e)(3) under the Securities Exchange Act of 1934 as a Public Document.
+
+======================================================================
+  PAGE 4
+======================================================================
+UNITED STATES
+
+ber: -
+SECURITIES AND EXCHANGE COMMISSION Pwpites: Nov. 30, 2026
+
+Washington, D.C. 20549 Estimated average burden
+hours per response: 12
+
+ANNUAL REPORTS
+FORM X-17A-5 8-53574
+
+PART III
+FACING PAGE
+Information Required Pursuant to Rules 17a-5, 17a-12, and 18a-7 under the Securities Exchange Act of 1934
+FILING FOR THE PERIOD BEGINNING 01/01/24 AND ENDING 1 2/31 [24
+MM/DD/YY MM/DD/YY
+
+A. REGISTRANT IDENTIFICATION
+
+name or firm: citadel Securities LLC
+
+TYPE OF REGISTRANT (check all applicable boxes):
+
+[=] Broker-dealer LJ Security-based swap dealer LJ Major security-based swap participant
+Check here if respondent is also an OTC derivatives dealer
+
+ADDRESS OF PRINCIPAL PLACE OF BUSINESS: (Do not use a P.O. box no.)
+
+200 South Biscayne Boulevard, Suite 3300
+
+(No. and Street)
+
+Miami Florida 33131
+
+(City) (State) (Zip Code)
+
+PERSON TO CONTACT WITH REGARD TO THIS FILING
+
+(Name) (Area Code — Telephone Number) (Email Address)
+
+B. ACCOUNTANT IDENTIFICATION
+
+INDEPENDENT PUBLIC ACCOUNTANT whose reports are contained in this filing*
+PricewaterhouseCoopers LLP
+
+(Name - if individual, state last, first, and middle name)
+
+1 North Wacker Drive Chicago Illinois 60606
+
+(Address) (City) (State) (Zip Code)
+10/20/2003 238
+(Date of Registration with PCAOB)(if applicable) (PCAOB Registration Number, if applicable)
+
+FOR OFFICIAL USE ONLY
+
+* Claims for exemption from the requirement that the annual reports be covered by the reports of an independent public
+accountant must be supported by a statement of facts and circumstances relied on as the basis of the exemption. See 17
+CFR 240.17a-5(e)(1)(ii), if applicable.
+
+Persons who are to respond to the collection of information contained in this form are not required to respond unless the form
+
+displays a currently valid OMB control number.
+
+======================================================================
+  PAGE 5
+======================================================================
+OATH OR AFFIRMATION
+
+|, Michael Henry , swear (or affirm) that, to the best of my knowledge and belief, the
+financial report pertaining to the firm of Citadel Securities LLC (the "Company’) , as of
+December 31 2024 is true and correct. | further swear (or affirm) that neither the company nor any
+
+partner, officer, director, or equivalent person, as the case may be, has any proprietary interest in any account classified solely
+as that of a customer.
+
+SARAH CATHERINE COOK Signature:
+Notary Public - State of New York
+NO. 01C00014775
+
+Qualified in Kings County
+
+Aah Cole. fe 4 dq Hy Commission Expires Oct 23, 2027
+
+Notary Public
+
+Title:
+Chief Accounting Officer
+
+This filing** contains (check all applicable boxes):
+
+@ (a) Statement of financial condition.
+
+m (b) Notes to consolidated statement of financial condition.
+
+CL] (c) Statement of income (loss) or, if there is other comprehensive income in the period(s) presented, a statement of
+comprehensive income (as defined in § 210.1-02 of Regulation S-X).
+
+( (d) Statement of cash flows.
+
+L] (e) Statement of changes in stockholders’ or partners’ or sole proprietor’s equity.
+
+LC) (f) Statement of changes in liabilities subordinated to claims of creditors.
+
+CL] (g) Notes to consolidated financial statements.
+
+(] (h) Computation of net capital under 17 CFR 240.15c3-1 or 17 CFR 240.18a-1, as applicable.
+
+C) (i) Computation of tangible net worth under 17 CFR 240.18a-2.
+
+CO] (j) Computation for determination of customer reserve requirements pursuant to Exhibit A to 17 CFR 240.15c3-3.
+
+C1 (k) Computation for determination of security-based swap reserve requirements pursuant to Exhibit B to 17 CFR 240.15c3-3 or
+Exhibit A to 17 CFR 240.18a-4, as applicable.
+
+L1 #(l) Computation for Determination of PAB Requirements under Exhibit A to § 240.15c3-3.
+
+C] (m) Information relating to possession or control requirements for customers under 17 CFR 240.15c3-3.
+
+LC] (n) Information relating to possession or control requirements for security-based swap customers under 17 CFR
+240.15c3-3(p)(2) or 17 CFR 240.18a-4, as applicable.
+
+[1 (0) Reconciliations, including appropriate explanations, of the FOCUS Report with computation of net capital or tangible net
+worth under 17 CFR 240.15c3-1, 17 CFR 240.18a-1, or 17 CFR 240.18a-2, as applicable, and the reserve requirements under 17
+CFR 240.15c3-3 or 17 CFR 240.18a-4, as applicable, if material differences exist, or a statement that no material differences
+exist.
+
+[1 (p) Summary of financial data for subsidiaries not consolidated in the statement of financial condition.
+
+f (q) Oath or affirmation in accordance with 17 CFR 240.17a-5, 17 CFR 240.17a-12, or 17 CFR 240.18a-7, as applicable.
+
+LJ (r) Compliance report in accordance with 17 CFR 240.17a-5 or 17 CFR 240.18a-7, as applicable.
+
+CL] (s) Exemption report in accordance with 17 CFR 240.17a-5 or 17 CFR 240.18a-7, as applicable.
+
+im (t) Independent public accountant’s report based on an examination of the statement of financial condition.
+
+C (u) Independent public accountant’s report based on an examination of the financial report or financial statements under 17
+CFR 240.17a-5, 17 CFR 240.18a-7, or 17 CFR 240.17a-12, as applicable.
+
+(C1 (v) Independent public accountant’s report based on an examination of certain statements in the compliance report under 17
+CFR 240.17a-5 or 17 CFR 240.18a-7, as applicable.
+
+C1 (w) Independent public accountant’s report based on a review of the exemption report under 17 CFR 240.17a-5 or 17
+CFR 240,18a-7, as applicable.
+
+L] (x) Supplemental reports on applying agreed-upon procedures, in accordance with 17 CFR 240.15c3-1e or 17 CFR 240.17a-12,
+as applicable.
+
+C] (y) Report describing any material inadequacies found to exist or found to have existed since the date of the previous audit, or
+a statement that no material inadequacies exist, under 17 CFR 240.17a-12(k).
+
+1 (z) Other:
+
+**To request confidential treatment of certain portions of this filing, see 17 CFR 240.17a-5(e)(3) or 17 CFR 240.18a-7(d)(2), as
+applicable.
+
+======================================================================
+  PAGE 6
+======================================================================
+CITADEL SECURITIES LLC
+
+Table of Contents
+
+Report of Independent Registered Public Accounting Firm
+Statement of Financial Condition
+
+Notes to Statement of Financial Condition
+Note 1. Organization
+
+Note 2. Significant Accounting Policies
+Note 3. Collateralized Transactions
+
+Note 4. Fair Value Disclosures
+
+Note 5. Transactions with Related Parties
+Note 6. Risk Management
+
+Note 7. Commitments and Contingencies
+Note 8. Derivative Financial Instruments
+Note 9. Contracts with Customers
+
+Note 10. Income Taxes
+
+Note 11. Regulatory Requirements
+
+Note 12. Subsequent Events
+
+Page
+
+N © BR MB NBO NDB —
+
+10
+11
+12
+12
+12
+
+======================================================================
+  PAGE 7
+======================================================================
+kk
+
+pwe
+
+Report of Independent Registered Public Accounting Firm
+To the Member of Citadel Securities LLC
+Opinion on the Financial Statement — Statement of Financial Condition
+
+We have audited the accompanying statement of financial condition of Citadel Securities LLC (the
+“Company”) as of December 31, 2024, including the related notes (collectively referred to as the “financial
+statement”). In our opinion, the financial statement presents fairly, in all material respects, the financial
+position of the Company as of December 31, 2024 in conformity with accounting principles generally
+accepted in the United States of America.
+
+Basis for Opinion
+
+The financial statement is the responsibility of the Company’s management. Our responsibility is to
+express an opinion on the Company's financial statement based on our audit. We are a public accounting
+firm registered with the Public Company Accounting Oversight Board (United States) (PCAOB) and are
+required to be independent with respect to the Company in accordance with the U.S. federal securities
+laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+
+We conducted our audit of this financial statement in accordance with the standards of the PCAOB. Those
+standards require that we plan and perform the audit to obtain reasonable assurance about whether the
+financial statement is free of material misstatement, whether due to error or fraud.
+
+Our audit included performing procedures to assess the risks of material misstatement of the financial
+statement, whether due to error or fraud, and performing procedures that respond to those risks. Such
+procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the
+financial statement. Our audit also included evaluating the accounting principles used and significant
+estimates made by management, as well as evaluating the overall presentation of the financial statement.
+We believe that our audit provides a reasonable basis for our opinion.
+
+Cpierrete bina! s COP
+
+February 27, 2025
+
+We have served as the Company's auditor since 2005.
+
+| PricewaterhouseCoopers LLP, One North Wacker, Chicago, IL 60606
+T: (312) 298 2000, www.pwe.com/us
+
+======================================================================
+  PAGE 8
+======================================================================
+CITADEL SECURITIES LLC
+
+Statement of Financial Condition
+
+(Expressed in U.S. dollars in millions)
+
+ASSETS
+
+As of December 31, 2024
+Assets:
+Cash and cash equivalents $ 730
+Trading assets, at fair value 53,866
+Securities borrowed 1,828
+Receivable from brokers, dealers, clearing organizations, and custodians 1,370
+Interest receivable 382
+Securities purchased under agreements to resell, at fair value 195
+Other assets 237
+Total assets $ 58,608
+LIABILITIES AND MEMBER’S CAPITAL
+Liabilities:
+Trading liabilities, at fair value $ 28,413
+Securities sold under agreements to repurchase, at fair value 16,345
+Payable to brokers, dealers, clearing organizations, and custodians 3,464
+Securities loaned 3,007
+Payable to affiliates 523
+Interest payable 303
+Other liabilities 337
+Total liabilities 52,392
+Member’s capital 6,216
+Total liabilities and member’s capital $ 58,608
+
+See notes to financial statement
+
+======================================================================
+  PAGE 9
+======================================================================
+CITADEL SECURITIES LLC
+
+Notes to Statement of Financial Condition
+
+NOTE 1
+
+Organization
+
+Citadel Securities LLC (the “Company”), a Delaware limited liability
+company, is registered with the U.S. Securities and Exchange
+Commission (“SEC”) as a broker and dealer, and is a member of the
+Financial Industry Regulatory Authority, Inc. (“FINRA”) and Securities
+Investor Protection Corporation. CSHC US LLC (“CSHC’), an affiliate,
+is the sole member of the Company.
+
+Citadel Securities Group LP (“CSG”), an affiliate, is the manager of the
+Company. The Company has entered into a portfolio management
+agreement with CSUS (Hong Kong) Limited (“CS-HK”), an affiliate,
+whereby the Company appointed CS-HK to manage a portion of its
+financial instruments that were traded or arranged in Hong Kong or
+Asia. CSG and CS-HK are collectively referred to as the “Trading
+Managers”. The Company’s designated self-regulatory organization is
+FINRA. The Company is a clearing member of the Depository Trust
+Company, National Securities Clearing Corporation (“NSCC”), and
+Fixed Income Clearing Corporation (“FICC”), (together, the Depository
+Trust & Clearing Corporation, or “DTCC”). The Company is a clearing
+member of the Options Clearing Corporation (“OCC”) and certain
+subsidiaries of CME Group Inc. Additionally the Company is a
+participant in the OCC stock loan program.
+
+The Company primarily engages in market making and _ liquidity
+provision in U.S. options, equities, government securities, and foreign
+exchange products.
+
+Citadel Enterprise Americas LLC, Citadel Enterprise Americas
+Services LLC, Citadel Securities Americas Services LLC, and certain
+of their affiliates (collectively, the “Citadel Parties”), provide
+administrative and investment-related services to the Company.
+
+Northern Trust Hedge Fund Services LLC (“NTHFS’) is responsible for
+providing certain administrative services to the Company. The services
+contract between the Company and NTHFS is currently effective
+through June 30, 2026.
+
+NOTE 2
+
+Significant Accounting Policies
+
+The accompanying financial statement has been prepared in
+accordance with accounting principles generally accepted in the
+United States of America (“GAAP”).
+
+Use of Estimates
+
+The preparation of the financial statement in accordance with GAAP
+requires CSG to make estimates and assumptions, the most important
+of which relate to fair value measurements, that affect the reported
+amounts of assets and liabilities, and the disclosure of contingent
+assets and liabilities at the date of the financial statement. Actual
+results could differ significantly from those estimates.
+
+Cash and Cash Equivalents
+
+The Company defines cash and cash equivalents on the statement of
+financial condition as cash and funds held in liquid investments with
+original maturities of 90 days or less as well as investments in money
+market funds. Cash and cash equivalents are held at global financial
+institutions.
+
+Trading Assets and Trading Liabilities
+
+The Company’s trading assets and trading liabilities include securities
+and derivatives contracts, which are recorded at fair value.
+Transactions related to trading assets and trading liabilities are
+recorded on a trade date basis. Trading assets are held at various
+global financial institutions, the DTCC, and the OCC. As of
+December 31, 2024, substantially all non-derivative gross trading
+assets have been pledged as collateral to counterparties on contract
+
+terms which may permit the counterparties to sell or repledge these
+assets to others.
+
+Receivable _from_and Payable to Brokers, Dealers, Clearing
+Organizations, and Custodians
+
+The receivable from and payable to brokers, dealers, clearing
+organizations, and custodians may include cash balances (including
+cash margin), to the extent not offset against derivative financial
+instruments, and balances associated with unsettled trades and
+securities failed to deliver or receive. The Company has the ability to
+clear proprietary transactions through its self directed channels as well
+as through clearing brokers. For those cleared through clearing
+brokers, the applicable regulatory and/or contractual collateral
+requirements on open short positions and securities purchased on
+margin may require that cash and/or securities be maintained in the
+Company’s accounts to satisfy such requirements.
+
+Offsetting Financial Assets and Liabilities
+
+The Company has elected to offset financial assets and financial
+liabilities by counterparty when it has determined that there exists a
+legally enforceable right to offset the recognized amounts and when
+certain other criteria are met in accordance with applicable accounting
+guidance on offsetting. As a result, the net exposure to each
+counterparty is reported as either an asset or liability on the statement
+of financial condition, where applicable.
+
+Foreign Currency Translation
+
+The functional currency of the Company is the U.S. dollar. The
+Company may hold assets and liabilities denominated in foreign
+currencies. The fair value of assets and liabilities is remeasured into
+U.S. dollars using spot currency rates on the date of valuation.
+
+Segment Reporting
+
+Operating segments represent components of a company that engage
+in business activities and for which discrete financial information is
+available and regularly reviewed by the chief operating decision maker
+(‘CODM”’) in assessing performance and allocating resources. The
+CODM has been identified as the Chief Operating Officer functions for
+the Citadel Parties. The CODM reviews excess net capital as a key
+financial metric to guide operational decisions for the Company,
+including capital adequacy. The Company’s business activities as
+described in Note 1 constitute a single operating segment and financial
+information is reviewed for the Company as a whole. Excess net
+capital (see Note 11) is measured in accordance with SEC Rule
+15c3-1.
+
+Transfers of Financial Assets
+
+Transfers of financial assets are accounted for as sales when the
+Company has relinquished control over the transferred assets. For
+transfers of financial assets that are not accounted for as sales, in
+which the transferor retains control of the financial assets, the financial
+assets remain on the statement of financial condition and the transfer
+is accounted for as a collateralized financing. Securities borrowed,
+securities loaned, securities purchased under agreements to resell
+(‘resale agreements”), and securities sold under agreements to
+repurchase (“repurchase agreements”) are treated as collateralized
+financings (see Note 3).
+
+Resale agreements and repurchase agreements held as of the
+reporting date are recorded on the statement of financial condition at
+their fair value pursuant to the fair value option, plus accrued interest.
+The Company has elected to report resale and repurchase
+agreements on a net basis when it has determined that there exists a
+legally enforceable right to offset the recognized amounts and when
+certain other criteria are met in accordance with applicable accounting
+guidance on offsetting.
+
+Securities borrowing and lending transactions require cash or other
+financial instruments as collateral to be deposited or taken in.
+Securities borrowed are recorded at the amount of cash collateral
+advanced plus accrued interest. Securities loaned are recorded at the
+amount of cash collateral received plus accrued interest.
+
+======================================================================
+  PAGE 10
+======================================================================
+CITADEL SECURITIES LLC
+
+Notes to Statement of Financial Condition
+
+Valuation of Financial Instruments
+
+The fair value of a Financial Instrument (as defined below) is the price
+that would be received to sell an asset or paid to transfer a liability in
+an orderly transaction between market participants at the
+measurement date. The fair value is determined by CSG and
+represents CSG’s best estimate of fair value. In all instances, any
+Financial Instrument may either be valued by CSG or CSG may
+determine (but is under no obligation to do so) to engage a third party
+it believes to be qualified to value any Financial Instrument. The
+Company measures and reports trading assets; trading liabilities;
+money market funds; resale agreements; and repurchase agreements
+(collectively, “Financial Instruments”), at fair value.
+
+Fair value is generally based on or derived from (i) closing prices of an
+exchange market, (ii) prices or inputs (e.g., mean of the bid and offer
+price) disseminated by third parties, including membership
+organizations, pricing vendors, and market participants (e.g., brokers
+and counterparties) or (iii) valuation models using such prices or inputs
+(e.g., models for certain derivative financial instruments). In the
+absence of market prices or inputs that are observable, other valuation
+techniques are applied. Financial Instruments are generally valued as
+of the market close (as determined by CSG). CSG may determine to
+use a different value than would be assigned pursuant to the foregoing
+if CSG determines that doing so would better reflect fair value (e.g.,
+CSG may determine that market quotations do not represent fair value
+if trading is halted before market close or a significant event occurs
+subsequent to market close). These valuation techniques involve
+some level of estimation and judgment by CSG, the degree of which is
+dependent on, among other factors, the price observability and
+complexity of the Financial Instrument, and the liquidity of the market.
+The fair value determined may not necessarily reflect the amount
+which might ultimately be realized in an arm’s length sale or liquidation
+of Financial Instruments and such differences may be material.
+
+CSG manages portfolios which may have positions in Financial
+Instruments that trade in different markets with different closing times
+(e.g., an index futures contract hedged with constituent securities from
+the index). Any discrepancy in value resulting from asynchronous
+closing times may result in the recognition of a gain or loss in one
+period which may be offset by a corresponding loss or gain, in whole
+or in part, in the subsequent period.
+
+The accounting guidance for fair value measurements and disclosures
+establishes a fair value hierarchy that prioritizes the inputs to valuation
+techniques used to measure fair value. The hierarchy gives the highest
+priority to unadjusted quoted prices in active markets for identical
+assets or liabilities (Level 1 measurements) and the lowest priority to
+unobservable inputs (Level 3 measurements). A Financial Instrument’s
+level within the fair value hierarchy is based on the lowest level of any
+input, individually or in the aggregate, that is significant to the fair value
+measurement. CSG’s assessment of the significance of a particular
+input to the fair value measurement in its entirety requires judgment
+and considers factors specific to the Financial Instrument. The three
+levels of the fair value hierarchy are described below:
+
+Basis of Fair Value Measurement
+
+Level 1 Unadjusted quoted prices in active markets that are
+accessible at the measurement date for identical,
+
+unrestricted assets or liabilities;
+
+Level 2 Quoted prices in markets that are not considered to
+be active or financial instruments for which all
+significant inputs are observable, either directly or
+
+indirectly; and
+
+Level 3 Prices or valuations that require inputs that are both
+significant to the fair value measurement and
+
+unobservable.
+
+The following describes the valuation techniques applied to the
+Company’s Financial Instruments to measure fair value, including an
+indication of the level within the fair value hierarchy in which each
+Financial Instrument is generally classified. Where appropriate, the
+description includes details of the valuation models and the significant
+inputs to those models.
+
+Equity Securities
+
+Exchange-traded equity securities
+
+Exchange-traded equity securities are valued using exchange-quoted
+market prices and are categorized within Level 1 of the fair value
+hierarchy.
+
+Non-exchange-traded equity securities
+
+The Company’s non-exchange-traded equity securities typically
+represent securities that are traded in over-the-counter (“OTC”)
+markets. These non-exchange-traded equity securities are generally
+valued using market price quotations and are classified within Level 1
+or Level 2 of the fair value hierarchy.
+
+U.S. Government Securities
+
+U.S. government securities are valued using quoted market prices and
+are generally categorized within Level 1 of the fair value hierarchy.
+However, government inflation-protected securities are categorized
+within Level 2 of the fair value hierarchy.
+
+Corporate Debt Securities
+
+Corporate debt securities include corporate bonds and convertible
+bonds. The fair value of corporate debt securities is determined using
+recently executed market transactions observable via membership
+organizations and prices disseminated by third parties. Corporate debt
+securities are categorized within Level 2 of the fair value hierarchy.
+
+Derivative Assets and Derivative Liabilities
+
+Exchange-traded derivative financial instruments
+
+Exchange-traded derivative financial instruments include options,
+warrants and futures contracts. These derivative financial instruments
+are valued using prices disseminated by the relevant exchange
+market, such as the closing price, settlement price, last available sales
+price, or the mean of the bid and offer price (a mid-market price).
+Exchange-traded derivative financial instruments are generally
+classified within Level 1 of the fair value hierarchy. The value of certain
+exchange-listed derivatives with nonstandard terms such as flexible
+exchange options is derived using prices or inputs disseminated by
+third parties or market participants and are generally classified within
+Level 2 of the fair value hierarchy.
+
+Money Market Funds
+
+The Company holds money market funds which are redeemable daily.
+Money market funds are valued based on the reported net asset value
+and are classified within Level 1 of the fair value hierarchy.
+
+Resale Agreements and Repurchase Agreements
+
+Resale agreements and repurchase agreements are valued by
+discounting the expected future cash flows using inputs including
+interest rates and funding spreads, which are determined based on the
+specific characteristics of the agreements. Resale agreements and
+repurchase agreements are classified within Level 2 of the fair value
+hierarchy.
+
+Fair Value Option
+
+The fair value option provides the Company the option to measure
+certain financial assets and financial liabilities at fair value with
+changes in fair value recognized in earnings in each period. The
+primary reason for electing the fair value option is to reflect current
+market conditions related to resale agreements and repurchase
+agreements in earnings on a timely basis. The Trading Managers have
+elected to apply the fair value option to the Company’s resale
+agreements and repurchase agreements.
+
+======================================================================
+  PAGE 11
+======================================================================
+CITADEL SECURITIES LLC
+
+Notes to Statement of Financial Condition
+
+Other Financial Instruments
+
+CSG estimates that the aggregate carrying value of financial
+instruments measured at amortized cost (including receivables and
+payables) recognized on the statement of financial condition,
+approximates fair value, as such financial instruments are short-term in
+nature, bear interest at current market rates or are subject to frequent
+repricing.
+
+These financial assets and_ liabilities include cash and cash
+equivalents, securities borrowed, receivable from brokers, dealers,
+clearing organizations, and custodians, interest receivable, other
+assets, payable to brokers, dealers, clearing organizations, and
+custodians, securities loaned, payable to affiliates, interest payable,
+and other liabilities. Had these assets and liabilities been included in
+the fair value hierarchy, all would have been classified within Level 2
+except for cash and cash equivalents which would have been
+classified within Level 1.
+
+Financial assets measured at amortized cost are presented at the net
+amount expected to be collected. Expected credit losses are
+measured based on historical experience, current conditions,
+collateralization, and forecasts that impact the collectability of the
+amount. As of December 31, 2024, based on the historical analysis
+and forward-looking information, no allowances for credit losses have
+been recorded as the Company expects credit losses arising from
+such financial assets to be immaterial.
+
+NOTE 3
+
+Collateralized Transactions
+
+The Company enters into resale agreements, repurchase agreements,
+securities borrowed, and securities loaned transactions to, among
+other things, acquire securities to cover short positions, settle other
+securities obligations, and to collateralize certain of the Company’s
+activities. The Company attempts to manage credit exposure arising
+from such transactions by either entering into master netting
+agreements and credit support agreements with counterparties, and/or
+entering into transactions that are cleared through central
+clearinghouses. In the event of a counterparty default (such as
+bankruptcy or a counterparty’s failure to pay or perform), these
+agreements may provide the Company the right to terminate such
+agreements, net the Company’s rights and obligations under such
+agreements, buy-in undelivered securities and liquidate and offset
+collateral against any net obligation remaining from the counterparty.
+The credit risk of centrally cleared transactions is also reduced by the
+rules or regulatory requirements applicable to the clearinghouses.
+Additionally, the Company seeks to manage credit exposure by,
+among other factors, monitoring exposures to and_ reviewing
+creditworthiness of its counterparties. During the year ended
+December 31, 2024, the Company had collateralized transactions with
+affiliates (Note 5) and non-affiliates.
+
+Securities borrowing and lending transactions, which typically include
+equity securities and/or U.S. government securities, are collateralized
+as a percentage of the fair value of the securities borrowed or loaned
+by pledging or receiving cash or securities. Typically, the Company has
+rights of rehypothecation with respect to the underlying securities
+received under securities borrowed transactions. Also, the Company
+generally has rights of rehypothecation with respect to the securities
+collateral received from counterparties under securities lending
+transactions. The counterparty generally has rights of rehypothecation
+with respect to securities collateral pledged by the Company for
+securities borrowing transactions, as well as the securities loaned from
+the Company to such counterparty. As of December 31, 2024,
+substantially all securities received under securities borrowing
+transactions have been delivered or repledged.
+
+Resale agreements and repurchase agreements are collateralized
+primarily by receiving or pledging equity securities or U.S. government
+securities. Typically, the Company has rights of rehypothecation with
+respect to the securities collateral received under resale agreements.
+Also, the counterparty generally has rights of rehypothecation with
+respect to the securities collateral received from the Company under
+repurchase agreements. As of December 31, 2024, substantially all
+securities collateral received under resale agreements has been
+delivered or repledged.
+
+The Company is a netting member of the Government Securities
+Division of FICC, an industry clearing house for resale and repurchase
+transactions. FICC interposes itself between the Company and serves
+as the legal counterparty to each side of the transaction for clearing
+and settlement purposes.
+
+The Company monitors the fair value of underlying securities in
+comparison to the related receivable or payable and as necessary,
+transfers or requests additional collateral as provided under the
+applicable agreement to ensure transactions are adequately
+collateralized. The following table presents information about securities
+borrowed and securities loaned.
+
+AS OF DECEMBER 31, 2024
+Securities Securities
+
+($ in millions) Borrowed Loaned
+
+Fair value of securities borrowed/loaned $ 1,727 $ 2,983
+Cash collateral pledged/received 1,821 2,997
+Financing interest receivable/payable 7 10
+
+In the table above, financing interest receivable and payable are
+included in securities borrowed and securities loaned, respectively, on
+the statement of financial condition. The fair value of securities
+borrowed/loaned includes accrued coupon interest.
+
+The following table presents information about resale agreements and
+repurchase agreements.
+
+AS OF DECEMBER 31, 2024
+
+($ in millions)
+
+Fair value of securities collateral received
+
+for resale agreements $ 33,970
+Fair value of securities collateral pledged
+
+for repurchase agreements 50,210
+
+In the table above, the fair value of securities collateral received and
+pledged includes accrued coupon interest.
+
+======================================================================
+  PAGE 12
+======================================================================
+CITADEL SECURITIES LLC
+
+Notes to Statement of Financial Condition
+
+Offsetting of Certain Collateralized Transactions
+
+The following tables present information about the offsetting of these
+instruments. Refer to Note 8 for information relating to offsetting of
+derivatives.
+
+ASSETS AS OF DECEMBER 31, 2024
+
+Resale Securities
+
+($ in millions) Agreements Borrowed
+Included in the statement of financial condition
+Gross amounts $ 34,016 $ 1,828
+Amounts offset (33,821) _—
+Net amounts 195 1,828
+Amounts not offset
+Counterparty netting (1) (777)
+Financial instruments, at fair value (194) (986)
+Total $ — $ 65
+LIABILITIES AS OF DECEMBER 31, 2024
+
+Repurchase Securities
+($ in millions) Agreements Loaned
+Included in the statement of financial condition
+Gross amounts $ 50,166 $ 3,007
+Amounts offset (33,821) _
+Net amounts 16,345 3,007
+Amounts not offset
+Counterparty netting (1) (777)
+Financial instruments, at fair value (16,343) (2,229)
+Total $ 1 $ 1
+
+In the tables above:
+
+. Gross amounts include all instruments, irrespective of whether
+there is a legally enforceable master netting agreement or credit
+support agreement in place. These amounts also include
+financing interest receivables and payables related to these
+transactions.
+
+. Amounts offset, counterparty netting, and financial instruments, at
+fair value, relate to legally enforceable master netting agreements
+or credit support agreements.
+
+. Amounts are reported in the statement of financial condition, net
+of cash collateral, when the Company has determined that there
+exists a legally enforceable master netting agreement and/or
+credit support agreement and when certain other criteria are met
+in accordance with applicable accounting guidance on offsetting.
+
+. Financial instruments not offset in the statement of financial
+condition include the fair value and accrued coupon interest of
+securities borrowed, securities loaned, securities purchased or
+sold under the agreements to resell or repurchase, respectively,
+and additional collateral, where applicable. The fair value of
+securities borrowed or loaned in the table only includes securities
+for which cash collateral was pledged or received, respectively.
+
+. Securities sold or otherwise pledged as collateral for repurchase
+agreements, or pledged as collateral for securities borrowed,
+include trading assets, at fair value, recorded on the statement of
+financial condition.
+
+Collateralized Transactions—Maturities and Collateral Pledged
+The following table presents the gross carrying value of repurchase
+agreements and securities loaned by remaining contractual maturity as
+of December 31, 2024.
+
+Repurchase Securities
+
+($ in millions) Agreements Loaned
+
+Overnight and open $ 48,440 $ 2,207
+2-30 days 490 —_—
+31-90 days 1,218 790
+Total 50,148 2,997
+Financing interest payable 18 10
+Gross amounts $ 50,166 $ 3,007
+
+The following table presents the gross carrying value of repurchase
+agreements and securities loaned transactions by class of collateral
+pledged as of December 31, 2024.
+
+Repurchase Securities
+($ in millions) Agreements Loaned
+U.S. government securities $ 48,830 $ 1,876
+Equity securities 1,318 1,121
+Total 50,148 2,997
+Financing interest payable 18 10
+Gross amounts $ 50,166 $ 3,007
+
+======================================================================
+  PAGE 13
+======================================================================
+CITADEL SECURITIES LLC
+
+Notes to Statement of Financial Condition
+
+NOTE 4
+
+Fair Value Disclosures
+
+The following fair value hierarchy tables present information about the Company’s assets and liabilities measured at fair value on a recurring basis
+based upon the lowest level of significant input to the valuations (see Note 2 for the Company’s policies regarding the hierarchy).
+
+ASSETS AT FAIR VALUE AS OF DECEMBER 31, 2024
+
+($ in millions) Level 1 Level 2 Total
+Trading assets
+U.S. government securities $ 29,533 $ 2,112 $ 31,645
+Equity securities 18,715 5 18,720
+Corporate debt securities _— 2,661 2,661
+Other trading assets 1 4 5
+Derivative assets (see table below) 835
+Total trading assets 53,866
+Other assets at fair value
+Securities purchased under agreements to resell _— 195 195
+Money market funds 713 _— 713
+Total other assets at fair value 713 195 908
+Total trading and other assets at fair value $ 54,774
+Derivative assets
+Equity contracts $ 60,163 15,188 $ 75,351
+Interest rate contracts 344 —_ 344
+Commodity contracts 308 1 309
+Foreign exchange contracts 1 _— 1
+Gross derivative assets 60,816 15,189 76,005
+Counterparty netting in levels (55,438) (15,188) (70,626)
+Subtotal 5,378 1 5,379
+Cross-level counterparty netting (4,261)
+Cash collateral (283)
+Total derivative assets $ 835
+
+======================================================================
+  PAGE 14
+======================================================================
+CITADEL SECURITIES LLC
+
+Notes to Statement of Financial Condition
+
+LIABILITIES AT FAIR VALUE AS OF DECEMBER 31, 2024
+
+($ in millions)
+
+Trading liabilities
+
+Equity securities
+
+U.S. government securities
+
+Corporate debt securities
+
+Other trading liabilities
+
+Derivative liabilities (see table below)
+
+Total trading liabilities
+
+Other liabilities at fair value
+
+Securities sold under agreements to repurchase
+Total other liabilities at fair value
+
+Total trading and other liabilities at fair value
+
+Derivative liabilities
+
+Equity contracts
+
+Commodity contracts
+
+Interest rate contracts
+
+Foreign exchange contracts
+
+Gross derivative liabilities
+Counterparty netting in levels
+Subtotal
+Cross-level counterparty netting
+Cash collateral
+
+Total derivative liabilities
+
+In the tables above:
+
+Level 1 Level 2 Total
+$ 13,227 $ 2 $ 13,229
+10,093 1,681 11,774
+_— 3,285 3,285
+1 2 3
+122
+28,413
+_— 16,345 16,345
+_— 16,345 16,345
+$ 44,758
+$ 55,114 $ 19,477 $ 74,591
+309 _— 309
+110 — 110
+1 — 1
+55,534 19,477 75,011
+(55,438) (15,188) (70,626)
+96 4,289 4,385
+(4,261)
+(2)
+$ 122
+
+. Cross-level counterparty netting includes counterparty netting for positions with the same counterparty that cross over the levels of the fair
+value hierarchy. Counterparty netting in levels includes counterparty netting among derivative financial instruments classified within the same
+
+level.
+. Cash collateral includes initial margin.
+
+. For further information on derivative financial instruments and hedging activities, see Note 8.
+. Securities purchased under agreements to resell and securities sold under agreements to repurchase, which include financing interest
+receivables and payables, include the effect of netting and agree to the statement of financial condition.
+
+There were no Level 3 assets or liabilities measured at fair value on a recurring basis as of December 31, 2024.
+
+NOTE 5
+
+Transactions with Related Parties
+
+Expenses
+Pursuant to an administrative services agreement, the Company pays
+
+the Citadel Parties on a cost and/or cost-plus basis, as applicable, for
+direct and reimbursable administrative, general and operating
+expenses, including compensation and benefits, paid by these entities,
+on behalf of the Company. As of December 31, 2024, the Company
+had a combined payable to certain of the Citadel Parties of $41 million
+and a combined receivable from certain of the Citadel Parties of $57
+million, which are included in payable to affiliates and other assets,
+respectively, on the statement of financial condition.
+
+As of December 31, 2024, the Company has paid compensation to the
+Citadel Parties of $41 million, which has not yet been expensed due to
+service vesting requirements. Such amount is included in other assets
+on the statement of financial condition.
+
+Additionally, the Company has also entered into agreements with other
+international affiliates, where such affiliates provide the Company with
+services that could include certain relationship management,
+marketing or risk monitoring, as well as technical support within the
+affiliates’ respective jurisdictions. The Company incurs expenses from
+such affiliates providing these services. As of December 31, 2024, the
+Company had a combined payable to such affiliates of $4 million,
+which is included in payable to affiliates on the statement of financial
+condition.
+
+======================================================================
+  PAGE 15
+======================================================================
+CITADEL SECURITIES LLC
+
+Notes to Statement of Financial Condition
+
+Executing and Settlement Activities
+
+During 2024, Citadel Securities Institutional LLC (“CSIN”) provided
+execution services to the Company under a transfer pricing agreement
+on a cost-plus basis. Also during 2024, the Company recorded
+commission revenue from CSIN for acting as a counterparty for trades
+with third parties. As of December 31, 2024, the Company had a
+receivable for such services of $16 million, which is included in other
+assets on the statement of financial condition.
+
+The Company also entered into agency service agreements with other
+affiliated brokers and dealers for execution services and allocates
+revenue to or receives revenue from such affiliates for these
+transactions. Additionally, the Company earned and incurred charges
+related to failed delivery of securities with affiliated brokers and
+dealers. As of December 31, 2024, the Company had a receivable
+from such affiliates related to securities failed to deliver of $20 million,
+which is included in receivable from brokers, dealers, clearing
+organizations, and custodians on the statement of financial condition.
+
+Loan Agreement
+
+The table below discloses the significant terms and _ financial
+information associated with the Company's borrowing agreement with
+Citadel Securities Global Holdings LLC ("CSLP").
+
+AS OF DECEMBER 31, 2024
+Borrowing Agreement ($ in millions)
+
+Total Outstanding
+Facility Principal and Maturity
+Lender Limit Interest Rate Accrued Interest Date
+December
+CSLP $ 1,000 SOFR+ 1.25% $ 473 31, 2025
+
+In the table above:
+
+* The senior unsecured loan facility with CSLP is uncommitted and
+payable on demand. All loan advances are subject to CSLP’s
+approval.
+
+. The outstanding principal amounts and accrued interest are
+included in payable to affiliates on the consolidated statement of
+financial condition.
+
+Collateralized Transactions
+
+During the year, the Company had collateralized transactions with
+certain affiliated brokers, dealers and proprietary trading entities, with
+balances as of December 31, 2024, as presented in the following
+tables.
+
+($ in millions) Securities Loaned
+
+Fair value of securities loaned $ 1,878
+
+Cash collateral received 1,875
+Resale Repurchase
+
+($ in millions) Agreements Agreements
+
+Gross contract value $ 19,587 $ 22,051
+
+Amounts offset in the statement of
+
+financial condition (19,543) (19,543)
+
+Net amounts 44 2,508
+
+Fair value of securities collateral
+
+received/pledged 19,571 22,036
+
+In the tables above, the fair value of securities loaned, and securities
+collateral received and pledged, includes accrued coupon interest.
+
+The Company participates in a variety of operating and administrative
+transactions with related parties and affiliates. Because of these
+relationships, it is possible that the terms of these transactions are not
+the same as those that would result from transactions among
+unrelated parties and such differences could be material.
+
+NOTE 6
+
+Risk Management
+
+The Company is subject to various risks, including, but not limited to,
+market risk, credit risk, liquidity risk, and operational risk. The Trading
+Managers seek to monitor and manage these risks on an ongoing
+basis. While the Trading Managers often hedge certain portfolio risks,
+the Trading Managers are not required to do so and will not, in
+general, attempt to hedge all market or other risks in the portfolio, and
+they will hedge certain risks only partially, if at all.
+
+Market Risk
+
+Market risk is the potential for changes in the value of Financial
+Instruments. Categories of market risk include, but are not limited to,
+exposures to equity prices, interest rates, commodity prices, credit
+prices, and currency prices. Market risk is directly impacted by the
+volatility and liquidity of the markets in which the financial instruments
+are traded. The Trading Managers seek to manage market risk in
+various ways, including through diversifying exposures, guidelines on
+position sizes and hedging in related securities or derivative financial
+instruments. The ability to manage market risk may be constrained by
+changes in liquidity conditions and fast changes in the relative prices,
+volatilities, and correlations between Financial Instruments and their
+corresponding hedges.
+
+The Company sells various financial instruments which it does not yet
+own or which are consummated by the delivery of borrowed financial
+instruments (“short sales”). The Company is exposed to market risk for
+short sales. A short sale involves the risk of a potentially unlimited
+increase in the market price of the particular investment sold short,
+which could result in an inability to cover the short position and
+unlimited loss. There can be no assurance that securities necessary to
+cover a short position will be available for purchase. To attempt to
+manage this market risk, the Company may hold Financial Instruments
+which can be used to hedge or settle these obligations and monitors
+its market exposure daily, adjusting Financial Instruments as deemed
+necessary. Additionally, regulatory rules could result in a reduced
+inventory of securities available for borrowing and_ increased
+transaction costs related to short selling.
+
+The Company may have exposure to non-U.S. currencies directly or
+indirectly through its financial instruments, and as such is subject to
+the risk that those currencies will decline in value relative to the U.S.
+dollar, or, in the case of hedging positions, that the U.S. dollar will
+decline in value relative to the currency being hedged. Currency rates
+may fluctuate significantly over short periods of time for several
+reasons, including changes in interest rates, intervention (or the failure
+to intervene) by government entities, central banks, supranational
+entities, or by the imposition of currency controls or other geopolitical
+developments.
+
+======================================================================
+  PAGE 16
+======================================================================
+CITADEL SECURITIES LLC
+
+Notes to Statement of Financial Condition
+
+Credit Risk
+
+Credit risk is the risk of loss due to the failure of a counterparty to
+perform according to the terms of a contract. Since the Company does
+not clear all of its own securities transactions, it has established
+accounts with other financial institutions for this purpose. This can, and
+often does, result in a concentration of credit risk with one or more of
+these institutions. A substantial portion of the Company’s clearing and
+financing activities are with BofA Securities, Inc. (“BOAS’), an indirect,
+wholly-owned subsidiary of Bank of America Corporation. These
+positions are recorded at fair value under trading assets, at fair value,
+on the statement of financial condition. This results in a concentration
+of operational and credit risks with BOAS. Such risk, however, is
+partially mitigated by the obligation of certain of these financial
+institutions to maintain minimum net capital and to segregate
+customers’ funds and financial instruments from the financial
+institution’s own holdings. The Company actively reviews and attempts
+to manage exposures to various financial institutions to mitigate these
+risks.
+
+The Company is exposed to credit risk in its role as a trading
+counterparty to dealers, and broker and dealer clients, as a holder of
+securities and as a member of exchanges and clearing organizations.
+The Company’s client activities involve the execution of various
+transactions. Client activities are transacted on a delivery versus
+payment or cash basis. The Company’s credit exposure to broker and
+dealer clients is mitigated by the use of industry-standard settlement
+protocols such as Qualified Special Representatives ("QSR") or
+Corresponding Clearing Agreements ("CC Flip") where the Company
+locks in client trades at the DTCC’s NSCC facility allowing the
+Company to face the clearinghouse directly. The Company also uses
+the industry standard of delivery versus payment through depositories
+and clearing banks for non QSR and CC Flip clients.
+
+The credit risk of exchange-traded derivatives, such as exchange-
+traded futures and exchange-traded options, is reduced by the rules or
+regulatory requirements, such as daily margining, applicable to the
+individual exchanges, clearinghouses and clearing members through
+which these instruments are traded and cleared.
+
+The Company seeks to reduce its exposure to credit risk associated
+with counterparty nonperformance under OTC transactions between
+two counterparties (“OTC-bilateral”) by entering into master netting
+agreements and credit support agreements with counterparties. These
+master netting agreements and credit support agreements provide the
+Company with the right to demand collateral based on the Company's
+mark-to-market exposure to the counterparty, as well as the right, in
+the event of counterparty default, to liquidate collateral and offset
+receivables and payables covered under the same master netting
+agreement. To mitigate potential losses associated with OTC-bilateral
+credit risk, the Company generally enters into OTC-bilateral
+transactions only with major financial institutions. Additionally, the
+Company seeks to mitigate credit risk by, among other factors,
+monitoring exposures to and reviewing creditworthiness of its
+counterparties and rebalancing trading and financing sources as
+deemed appropriate. As applicable, with the mandate under Uncleared
+Margin Rules, both the Company and its counterparties may be
+required to pledge some or all initial margin at a third-party custodian
+that cannot be rehypothecated by the counterparty or the Company,
+with the ability to substitute collateral at their discretion. Furthermore,
+the Company may seek additional margin segregation opportunities
+beyond the required regulatory minimum.
+
+Cash and security account balances, typically exceed government
+sponsored insurance coverage and may subject the Company to a
+concentration of credit risk. Where possible, the Trading Managers
+seek to mitigate the credit risk that exists with these account balances
+by, among other things, maintaining these account balances pursuant
+to segregated custodial arrangements, or by reducing the amount of
+cash the Company has on deposit with banks and other globally
+recognized financial institutions.
+
+Liquidity Risk
+CSG typically maintains a pool of excess liquidity at the Company for
+various planned and contingent needs including, among others, mark-
+to-market losses on investments and increases in initial and variation
+margin requirements by prime brokers, derivative counterparties, and
+clearinghouses.
+
+The Company generally invests on a leveraged basis through various
+arrangements, including repurchase agreements, and through the
+degree of leverage typically embedded in the derivative financial
+instruments in which it invests. The use of leverage can significantly
+magnify both gains and losses, increasing the possibility of the
+Company incurring a substantial loss. Leverage through margin
+borrowings generally requires collateral to be posted with prime
+brokers, custodians, and counterparties. Market value movements
+could result in a prime broker, custodian, or counterparty, under their
+respective agreements with the Company, having the right to reduce
+the value of such collateral or to require the posting of additional
+collateral, potentially resulting in the issuance of a margin call. This
+could also result in the Company having to sell assets at a time when
+the Company would not otherwise choose to do so. The Company
+seeks to mitigate this risk by utilizing a diversified group of leverage
+providers and a variety of financing arrangements as well as
+negotiating trading and financing agreements that include objective
+valuation methodologies and dispute rights for valuation differences
+between the Company and its prime brokers, custodians and
+counterparties.
+
+Operational Risk
+Operational risk is defined as the risk of financial loss or reputational
+
+damage resulting from inadequate or failed internal processes, people,
+systems, or from external events. CSG seeks to identify, measure,
+monitor, and manage material operational risks by continuing to
+develop and implement enhanced methodologies in the processes that
+support the Company’s key activities.
+
+Other Risks
+
+Due to its investments, the Company may be subject to additional risks
+resulting from future political or economic conditions in the country or
+region of the investment and the possible imposition of adverse
+governmental laws or currency exchange restrictions affecting such
+country or region, which could cause the securities and their markets
+to be less liquid and prices more volatile.
+
+The Company is subject to risks associated with unforeseen or
+catastrophic events, including, but not limited to, geopolitical events,
+terrorist attacks, natural disasters, cyberattacks, and the emergence of
+a pandemic, which could create economic, financial, and business
+disruptions. In addition, there are inherent risks to the artificial
+intelligence technologies that are used, whereby the outputs produced
+could contain errors, which may be difficult to detect. All these risks
+could lead to operational difficulties that could impair the Trading
+Managers’ ability to manage the Company's activities. The Trading
+Managers seek to manage such risks through continuity and resiliency
+planning.
+
+In the future, litigation could arise, or legal, tax, and regulatory
+changes could occur, which could have a material adverse effect on
+the Company.
+
+======================================================================
+  PAGE 17
+======================================================================
+CITADEL SECURITIES LLC
+
+Notes to Statement of Financial Condition
+
+NOTE 7
+
+Commitments and Contingencies
+
+Commitments
+
+The Company enters into forward starting repurchase and resale
+agreements that settle at a future date. At December 31, 2024, the
+Company had commitments relating to its unsettled forward starting
+repurchase agreements of $14.16 billion and unsettled forward starting
+resale agreements of $3.57 billion, which each had settlement dates
+through January 2, 2025.
+
+Contingencies
+In the normal course of business, the Company may enter into
+
+contracts that contain provisions related to certain indemnifications.
+The Company’s maximum exposure under these arrangements is
+unknown, as any such exposure involves possible future claims that
+may be, but have not yet been, made against the Company, based on
+events which have not yet occurred. However, based on experience,
+CSG believes the risk of material loss from these arrangements to be
+remote.
+
+The Company provides guarantees to securities clearinghouses.
+Under the standard securities clearinghouse membership agreement,
+members are required to guarantee the performance of other
+members. Under these agreements, if a member becomes unable to
+satisfy its obligations to the clearinghouse, other members would be
+required to meet the resulting shortfalls. The Company’s potential
+obligation under these arrangements could exceed the cash and
+securities it has posted as collateral. However, CSG believes the
+potential for the Company to be required to make payments under
+these arrangements is remote. Accordingly, no contingent liability is
+carried on the statement of financial condition for these arrangements.
+
+The Company may be involved, in the normal course of business, in
+legal, regulatory and arbitration proceedings and/or inquiries
+concerning matters arising in connection with the conduct of its
+operations. The Company believes resolution of any such matters
+would not have a material adverse effect on the financial condition of
+the Company, although the resolution could be material to the
+Company’s operating results for a particular period or periods. Given
+the inherent difficulty of predicting the outcome of the Company’s
+litigation and regulatory matters, particularly in cases or proceedings in
+which substantial or indeterminate damages or fines are sought, the
+Company cannot estimate losses or ranges of losses for cases or
+proceedings where there is only a reasonable possibility that a loss
+may be incurred.
+
+NOTE 8
+
+Derivative Financial Instruments
+
+Derivatives are instruments that derive their value from underlying
+asset prices, indices, reference rates, and other inputs, or a
+combination of these factors and generally represent commitments to
+exchange cash flows, or to purchase or sell other financial instruments
+at specified future dates. Derivatives generally reference notional
+amounts which are utilized solely as a basis for determining cash flows
+to be exchanged. Notional amounts provide a measure of the
+Company's activity in such derivative financial instruments and are not
+necessarily indicative of economic exposure or potential risk.
+Derivatives may be traded on an exchange (“Exchange-traded”) or
+they may be privately negotiated contracts, which are usually referred
+to as “OTC derivatives”. OTC derivatives can be cleared and settled
+through central clearing counterparties, while others, such as OTC-
+bilateral contracts, will maintain the direct contractual relationship
+between executing counterparties.
+
+The Company may enter into derivative financial instruments in the
+normal course of its market making business, to manage various
+underlying exposures for risk management purposes, or for proprietary
+risk taking. Examples of the use of derivative financial instruments for
+risk management purposes include, but are not limited to: interest rate
+derivatives to manage potential exposures to interest rate fluctuations,
+equity derivatives to manage potential price fluctuations related to
+individual equities, equity options, equity baskets and indices, and
+currency derivatives to manage potential foreign currency exchange
+rate risks on financial instruments and/or other assets and liabilities.
+The Company’s derivative financial instrument risks should not be
+viewed in isolation, but rather the Trading Managers believe they
+should be considered on an aggregate basis along with the
+Company’s other market making activities.
+
+Generally, the Company’s credit exposure to a derivative financial
+instrument counterparty under a master netting agreement is limited to
+the net derivative assets resulting from the fair value of all derivative
+financial instruments plus any collateral transferred to/from such
+counterparty by/to the Company pursuant to related credit support
+agreements. Typically, the Company and the counterparty have rights
+of rehypothecation with respect to collateral pledged or received under
+such derivative master netting and related credit support agreements,
+unless segregated at a third-party custodian.
+
+Options are contracts in which the option purchaser has the right, but
+not the obligation, to purchase from or sell to the option writer financial
+instruments within a defined time period for a specified price. Options
+written by the Company create off-balance sheet risk, as the
+Company’s contingent obligation to satisfy the purchase or sale of
+securities underlying such options may exceed the amount recognized
+on the statement of financial condition.
+
+Futures and forwards are contracts that commit counterparties to
+purchase or sell financial instruments, commodities, or currencies for
+an agreed-upon price on an agreed future date. These instruments
+can involve market risk and/or credit risk.
+
+Total return derivative financial instruments are contractual
+agreements whereby one party receives the appreciation (or pays the
+depreciation) and the dividends and interest, on either a levered or
+unlevered basis, on an underlying reference asset, attribute or index in
+return for paying interest. These instruments can involve market risk
+and/or credit risk.
+
+The following table presents the fair value of the Company’s derivative
+contracts by underlying risk exposure, as well as information about the
+offsetting of derivative financial instruments and related collateral
+amounts (see information related to offsetting of certain collateralized
+transactions in Note 3). Gross derivative contracts in the table below
+exclude the effect of netting. The net derivative contracts agree to the
+total derivative assets and derivative liabilities included in the fair value
+hierarchy tables in Note 4.
+
+10
+
+======================================================================
+  PAGE 18
+======================================================================
+CITADEL SECURITIES LLC
+
+Notes to Statement of Financial Condition
+
+FAIR VALUE AS OF DECEMBER 31, 2024
+
+Derivative Derivative
+($ in millions) Assets Liabilities
+Gross derivative contracts
+Exchange-traded $ 75,349 $ 74,590
+
+OTC-bilateral 2 1
+
+Total equity contracts 75,351 74,591
+Exchange-traded 344 110
+Total interest rate contracts 344 110
+Exchange-traded 309 309
+Total commodity contracts 309 309
+Exchange-traded 1 1
+Total foreign exchange contracts 1 1
+Total Exchange-traded 76,003 75,010
+Total OTC-bilateral 2 1
+Total gross derivative contracts 76,005 75,011
+Amounts offset in the statement of financial condition
+Exchange-traded (74,886) (74,886)
+
+OTC-bilateral (1) (1)
+
+Total counterparty netting (74,887) (74,887)
+Exchange-traded (283) (2)
+OTC-bilateral — —
+Total cash collateral (283) (2)
+Net derivative contracts
+
+Total Exchange-traded 834 122
+Total OTC-bilateral 1 —
+Total net derivative contracts 835 122
+Amounts not offset
+
+Securities collateral — —
+Total $ 835 $ 122
+
+In the table above:
+
+. Total gross derivative contracts include all derivative financial
+instruments, irrespective of whether there is a legally enforceable
+master netting agreement or credit support agreement in place.
+
+. Amounts offset and amounts not offset relate to legally
+enforceable master netting agreements and credit support
+agreements.
+
+. Amounts are reported in the statement of financial condition, net
+of cash collateral, when the Company has determined that there
+exists a legally enforceable master netting agreement and/or
+legally enforceable credit support agreement and when certain
+other criteria are met in accordance with applicable accounting
+guidance on offsetting.
+
+. Securities collateral not offset in the statement of financial
+condition represents the fair value of securities, including accrued
+coupon, pledged to/received from the counterparties related to
+derivative financial instruments.
+
+The following table presents the notional of the Company's derivative
+contracts by underlying risk exposure for the year ended
+December 31, 2024. The notional amount provides an indication of the
+volume of the Company’s derivative activity.
+
+NOTIONAL
+($ in millions)
+Gross derivative contracts
+
+Exchange-traded $ 1,971,657
+OTC-bilateral 231
+Total equity contracts 1,971,888
+Exchange-traded 154,976
+Total interest rate contracts 154,976
+Exchange-traded 359
+Total foreign exchange contracts 359
+Exchange-traded 32,441
+Total commodity contracts 32,441
+Total Exchange-traded 2,159,433
+Total OTC-bilateral 231
+Total gross derivative contracts $ 2,159,664
+
+The Company has concentration risk with respect to its derivative
+financial instruments. At December 31, 2024, BOAS serves as the
+clearing and prime broker for substantially all of the Company’s net
+derivative assets. See Note 6 for a discussion of credit risk and risk
+management.
+
+NOTE 9
+
+Contracts with Customers
+
+As of December 31, 2024, the Company’s customer transactions
+primarily consists of:
+
+Commissions
+
+The Company receives commission payments monthly from CSIN for
+trade execution services provided (see Note 5). Commissions are
+recorded on a trade date basis as securities transactions occur.
+
+Transaction Fees
+
+The Company, in its capacity as a market maker, executes trades on
+behalf of its broker and dealer clients and is reimbursed by the clients
+for transaction fees incurred. The transaction fees are calculated
+based on the volume and type of trades executed by the Company
+and are billed monthly. Transaction fees are recognized on a trade
+date basis as securities transactions occur.
+
+Trade Quoting Rebates
+
+The Company earns rebates for quoting prices on certain securities on
+the New York Stock Exchange. The Company recognizes such rebates
+over time in the period when the trade quoting service is provided and
+payments are received quarterly.
+
+As of December 31, 2024, and 2023, the Company’s receivable from
+contracts with customers was $40 million and $18 million, respectively,
+and is included in other assets on the statement of financial condition.
+The Company did not have unsatisfied or partially satisfied
+performance obligations related to its trade execution or trade quoting
+service.
+
+11
+
+======================================================================
+  PAGE 19
+======================================================================
+CITADEL SECURITIES LLC
+
+Notes to Statement of Financial Condition
+
+NOTE 10
+
+Income Taxes
+
+The Company is disregarded for U.S. federal income tax purposes and
+is generally not subject to U.S. federal or state income tax directly;
+rather, these are borne by CSHC, CSHC’s members, or the partners of
+CSHC’s members, where applicable.
+
+In accordance with GAAP, CSG has reviewed the Company’s tax
+positions for all open tax years. As of December 31, 2024, CSG
+determined that the Company was not required to establish a liability
+for uncertain tax positions.
+
+NOTE 11
+
+Regulatory Requirements
+
+The Company is a registered broker and dealer subject to the
+minimum net capital requirements of the SEC Uniform Net Capital
+Rule (“15c3-1”). The Company has elected to use the alternative
+method as permitted by Rule 15c3-1. At December 31, 2024, net
+capital was $3.42 billion in excess of the Company's required minimum
+net capital of $1 million. In addition, the Company is subject to
+minimum capital requirements of exchanges and clearing corporations
+in which it is a member, which may exceed the minimum net capital
+requirements of the SEC.
+
+The Company does not claim an exemption from the provisions of
+Rule 15c3-3 of the SEC. For the year ended December 31, 2024, the
+Company did not directly or indirectly receive, hold, or otherwise owe
+funds or securities for or to customers; did not carry accounts for or to
+customers; did not carry PAB accounts (as defined in Rule 15c3-3);
+and its business activities are limited to proprietary trading.
+
+NOTE 12
+
+Subsequent Events
+
+The Company has performed an evaluation of subsequent events
+through February 27, 2025, which is the date the financial statement
+was available to be issued. The Company is not aware of any
+subsequent events that require disclosure in the financial statement.
+
+12

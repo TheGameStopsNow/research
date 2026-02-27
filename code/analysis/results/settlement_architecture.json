@@ -1,0 +1,119 @@
+{
+  "part_a_survival_funnel": {
+    "T+3": {
+      "offset": 3,
+      "exact_in": 79,
+      "exact_enrichment": 1.6235588972431079,
+      "w2_in": 134,
+      "w2_enrichment": 1.3769423558897245
+    },
+    "T+6": {
+      "offset": 6,
+      "exact_in": 63,
+      "exact_enrichment": 1.3628808864265929,
+      "w2_in": 115,
+      "w2_enrichment": 1.2017331464253855
+    },
+    "T+9": {
+      "offset": 9,
+      "exact_in": 53,
+      "exact_enrichment": 1.0892230576441102,
+      "w2_in": 117,
+      "w2_enrichment": 1.1923196420804076
+    },
+    "T+13": {
+      "offset": 13,
+      "exact_in": 95,
+      "exact_enrichment": 1.9523809523809526,
+      "w2_in": 128,
+      "w2_enrichment": 1.2937261185751263
+    },
+    "T+15": {
+      "offset": 15,
+      "exact_in": 96,
+      "exact_enrichment": 2.006371861858035,
+      "w2_in": 136,
+      "w2_enrichment": 1.352413291292748
+    },
+    "T+18": {
+      "offset": 18,
+      "exact_in": 69,
+      "exact_enrichment": 1.4180451127819549,
+      "w2_in": 131,
+      "w2_enrichment": 1.3574271813988754
+    },
+    "T+21": {
+      "offset": 21,
+      "exact_in": 31,
+      "exact_enrichment": 0.6266485886848268,
+      "w2_in": 123,
+      "w2_enrichment": 1.2639097744360903
+    },
+    "T+24": {
+      "offset": 24,
+      "exact_in": 65,
+      "exact_enrichment": 1.2722281895214225,
+      "w2_in": 118,
+      "w2_enrichment": 1.1829573934837092
+    },
+    "T+27": {
+      "offset": 27,
+      "exact_in": 76,
+      "exact_enrichment": 1.5362997658079625,
+      "w2_in": 138,
+      "w2_enrichment": 1.3398851459357055
+    },
+    "T+30": {
+      "offset": 30,
+      "exact_in": 52,
+      "exact_enrichment": 1.017782551617138,
+      "w2_in": 135,
+      "w2_enrichment": 1.2805089647194912
+    },
+    "T+33": {
+      "offset": 33,
+      "exact_in": 131,
+      "exact_enrichment": 2.6053844288139705,
+      "w2_in": 159,
+      "w2_enrichment": 1.5684812030075188
+    },
+    "T+35": {
+      "offset": 35,
+      "exact_in": 115,
+      "exact_enrichment": 2.2156954887218046,
+      "w2_in": 176,
+      "w2_enrichment": 1.7361804511278194
+    },
+    "T+40": {
+      "offset": 40,
+      "exact_in": 115,
+      "exact_enrichment": 2.250865258384055,
+      "w2_in": 201,
+      "w2_enrichment": 1.9363251879699248
+    }
+  },
+  "part_b_volume_ratio": {
+    "pre_split": {
+      "total_trades": 0,
+      "total_size": 0,
+      "dates_checked": 10,
+      "dates_with_deep": 0
+    },
+    "post_split": {
+      "total_trades": 0,
+      "total_size": 0,
+      "dates_checked": 50,
+      "dates_with_deep": 0
+    },
+    "pre_avg_contracts": 0.0,
+    "post_avg_contracts": 0.0,
+    "ratio": 0.0
+  },
+  "part_c_slope": {
+    "slope": 6.993433745726696,
+    "r_squared": 0.00029451074799264503,
+    "p_value": 0.6431989723292291,
+    "first_month_mean": 223191.90476190476
+  },
+  "part_d_alignment": []
+}

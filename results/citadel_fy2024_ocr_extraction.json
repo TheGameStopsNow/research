@@ -1,0 +1,296 @@
+{
+  "_metadata": {
+    "title": "Citadel Securities LLC FY2024 \u2014 OCR Extraction",
+    "source": "CDRG_FY2024.pdf (scanned)",
+    "method": "Tesseract OCR at 300 DPI",
+    "date": "2026-02-18",
+    "total_pages": 19
+  },
+  "pages": [
+    {
+      "page": 5,
+      "matched_keywords": [
+        "net capital"
+      ],
+      "relevant_lines": [
+        "(] (h) Computation of net capital under 17 CFR 240.15c3-1 or 17 CFR 240.18a-1, as applicable.",
+        "[1 (0) Reconciliations, including appropriate explanations, of the FOCUS Report with computation of net capital or tangible net"
+      ]
+    },
+    {
+      "page": 6,
+      "matched_keywords": [
+        "collateral"
+      ],
+      "relevant_lines": [
+        "Note 3. Collateralized Transactions"
+      ]
+    },
+    {
+      "page": 8,
+      "matched_keywords": [
+        "total assets",
+        "total liabilities",
+        "securities sold",
+        "securities loaned",
+        "securities borrowed",
+        "receivable",
+        "payable"
+      ],
+      "relevant_lines": [
+        "Securities borrowed 1,828",
+        "Receivable from brokers, dealers, clearing organizations, and custodians 1,370",
+        "Interest receivable 382",
+        "Total assets $ 58,608",
+        "Securities sold under agreements to repurchase, at fair value 16,345",
+        "Payable to brokers, dealers, clearing organizations, and custodians 3,464",
+        "Securities loaned 3,007",
+        "Payable to affiliates 523",
+        "Interest payable 303",
+        "Total liabilities 52,392",
+        "Total liabilities and member\u2019s capital $ 58,608"
+      ]
+    },
+    {
+      "page": 9,
+      "matched_keywords": [
+        "failed to deliver",
+        "net capital",
+        "excess net capital",
+        "pledged",
+        "collateral",
+        "unsettled",
+        "securities sold",
+        "securities loaned",
+        "securities borrowed",
+        "receivable",
+        "payable"
+      ],
+      "relevant_lines": [
+        "assets have been pledged as collateral to counterparties on contract",
+        "Receivable _from_and Payable to Brokers, Dealers, Clearing",
+        "The receivable from and payable to brokers, dealers, clearing",
+        "instruments, and balances associated with unsettled trades and",
+        "securities failed to deliver or receive. The Company has the ability to",
+        "brokers, the applicable regulatory and/or contractual collateral",
+        "the Citadel Parties. The CODM reviews excess net capital as a key",
+        "is accounted for as a collateralized financing. Securities borrowed,",
+        "securities loaned, securities purchased under agreements to resell",
+        "(\u2018resale agreements\u201d), and securities sold under agreements to",
+        "repurchase (\u201crepurchase agreements\u201d) are treated as collateralized",
+        "financial instruments as collateral to be deposited or taken in.",
+        "Securities borrowed are recorded at the amount of cash collateral",
+        "advanced plus accrued interest. Securities loaned are recorded at the",
+        "amount of cash collateral received plus accrued interest."
+      ]
+    },
+    {
+      "page": 11,
+      "matched_keywords": [
+        "pledged",
+        "collateral",
+        "securities loaned",
+        "securities borrowed",
+        "receivable",
+        "payable"
+      ],
+      "relevant_lines": [
+        "instruments measured at amortized cost (including receivables and",
+        "payables) recognized on the statement of financial condition,",
+        "equivalents, securities borrowed, receivable from brokers, dealers,",
+        "clearing organizations, and custodians, interest receivable, other",
+        "assets, payable to brokers, dealers, clearing organizations, and",
+        "custodians, securities loaned, payable to affiliates, interest payable,",
+        "collateralization, and forecasts that impact the collectability of the",
+        "Collateralized Transactions",
+        "securities borrowed, and securities loaned transactions to, among",
+        "securities obligations, and to collateralize certain of the Company\u2019s",
+        "collateral against any net obligation remaining from the counterparty.",
+        "December 31, 2024, the Company had collateralized transactions with",
+        "equity securities and/or U.S. government securities, are collateralized",
+        "as a percentage of the fair value of the securities borrowed or loaned",
+        "received under securities borrowed transactions. Also, the Company",
+        "collateral received from counterparties under securities lending",
+        "with respect to securities collateral pledged by the Company for",
+        "securities borrowing transactions, as well as the securities loaned from",
+        "transactions have been delivered or repledged.",
+        "Resale agreements and repurchase agreements are collateralized",
+        "respect to the securities collateral received under resale agreements.",
+        "respect to the securities collateral received from the Company under",
+        "securities collateral received under resale agreements has been",
+        "delivered or repledged.",
+        "comparison to the related receivable or payable and as necessary,",
+        "transfers or requests additional collateral as provided under the",
+        "collateralized. The following table presents information about securities",
+        "borrowed and securities loaned.",
+        "Fair value of securities borrowed/loaned $ 1,727 $ 2,983",
+        "Cash collateral pledged/received 1,821 2,997",
+        "Financing interest receivable/payable 7 10",
+        "In the table above, financing interest receivable and payable are",
+        "included in securities borrowed and securities loaned, respectively, on",
+        "Fair value of securities collateral received",
+        "Fair value of securities collateral pledged",
+        "In the table above, the fair value of securities collateral received and",
+        "pledged includes accrued coupon interest."
+      ]
+    },
+    {
+      "page": 12,
+      "matched_keywords": [
+        "pledged",
+        "collateral",
+        "securities sold",
+        "securities loaned",
+        "securities borrowed",
+        "receivable",
+        "payable"
+      ],
+      "relevant_lines": [
+        "Offsetting of Certain Collateralized Transactions",
+        "financing interest receivables and payables related to these",
+        "of cash collateral, when the Company has determined that there",
+        "securities borrowed, securities loaned, securities purchased or",
+        "and additional collateral, where applicable. The fair value of",
+        "securities borrowed or loaned in the table only includes securities",
+        "for which cash collateral was pledged or received, respectively.",
+        ". Securities sold or otherwise pledged as collateral for repurchase",
+        "agreements, or pledged as collateral for securities borrowed,",
+        "Collateralized Transactions\u2014Maturities and Collateral Pledged",
+        "agreements and securities loaned by remaining contractual maturity as",
+        "Financing interest payable 18 10",
+        "agreements and securities loaned transactions by class of collateral",
+        "pledged as of December 31, 2024.",
+        "Financing interest payable 18 10"
+      ]
+    },
+    {
+      "page": 13,
+      "matched_keywords": [
+        "collateral"
+      ],
+      "relevant_lines": [
+        "Cash collateral (283)"
+      ]
+    },
+    {
+      "page": 14,
+      "matched_keywords": [
+        "collateral",
+        "securities sold",
+        "receivable",
+        "payable"
+      ],
+      "relevant_lines": [
+        "Securities sold under agreements to repurchase",
+        "Cash collateral",
+        ". Cash collateral includes initial margin.",
+        ". Securities purchased under agreements to resell and securities sold under agreements to repurchase, which include financing interest",
+        "receivables and payables, include the effect of netting and agree to the statement of financial condition.",
+        "had a combined payable to certain of the Citadel Parties of $41 million",
+        "and a combined receivable from certain of the Citadel Parties of $57",
+        "million, which are included in payable to affiliates and other assets,",
+        "Citadel Parties of $41 million, which has not yet been expensed due to",
+        "Company had a combined payable to such affiliates of $4 million,",
+        "which is included in payable to affiliates on the statement of financial"
+      ]
+    },
+    {
+      "page": 15,
+      "matched_keywords": [
+        "failed to deliver",
+        "charges",
+        "pledged",
+        "collateral",
+        "securities loaned",
+        "receivable",
+        "payable"
+      ],
+      "relevant_lines": [
+        "receivable for such services of $16 million, which is included in other",
+        "transactions. Additionally, the Company earned and incurred charges",
+        "dealers. As of December 31, 2024, the Company had a receivable",
+        "from such affiliates related to securities failed to deliver of $20 million,",
+        "which is included in receivable from brokers, dealers, clearing",
+        "payable on demand. All loan advances are subject to CSLP\u2019s",
+        "included in payable to affiliates on the consolidated statement of",
+        "Collateralized Transactions",
+        "During the year, the Company had collateralized transactions with",
+        "($ in millions) Securities Loaned",
+        "Fair value of securities loaned $ 1,878",
+        "Cash collateral received 1,875",
+        "Fair value of securities collateral",
+        "received/pledged 19,571 22,036",
+        "In the tables above, the fair value of securities loaned, and securities",
+        "collateral received and pledged, includes accrued coupon interest."
+      ]
+    },
+    {
+      "page": 16,
+      "matched_keywords": [
+        "net capital",
+        "collateral",
+        "receivable",
+        "payable"
+      ],
+      "relevant_lines": [
+        "institutions to maintain minimum net capital and to segregate",
+        "Company with the right to demand collateral based on the Company's",
+        "the event of counterparty default, to liquidate collateral and offset",
+        "receivables and payables covered under the same master netting",
+        "with the ability to substitute collateral at their discretion. Furthermore,",
+        "borrowings generally requires collateral to be posted with prime",
+        "the value of such collateral or to require the posting of additional",
+        "collateral, potentially resulting in the issuance of a margin call. This"
+      ]
+    },
+    {
+      "page": 17,
+      "matched_keywords": [
+        "pledged",
+        "collateral",
+        "unsettled",
+        "forward starting"
+      ],
+      "relevant_lines": [
+        "The Company enters into forward starting repurchase and resale",
+        "Company had commitments relating to its unsettled forward starting",
+        "repurchase agreements of $14.16 billion and unsettled forward starting",
+        "resale agreements of $3.57 billion, which each had settlement dates",
+        "securities it has posted as collateral. However, CSG believes the",
+        "financial instruments plus any collateral transferred to/from such",
+        "of rehypothecation with respect to collateral pledged or received under",
+        "offsetting of derivative financial instruments and related collateral",
+        "amounts (see information related to offsetting of certain collateralized"
+      ]
+    },
+    {
+      "page": 18,
+      "matched_keywords": [
+        "pledged",
+        "collateral",
+        "receivable"
+      ],
+      "relevant_lines": [
+        "Total cash collateral (283) (2)",
+        "Securities collateral \u2014 \u2014",
+        "of cash collateral, when the Company has determined that there",
+        ". Securities collateral not offset in the statement of financial",
+        "coupon, pledged to/received from the counterparties related to",
+        "As of December 31, 2024, and 2023, the Company\u2019s receivable from",
+        "contracts with customers was $40 million and $18 million, respectively,"
+      ]
+    },
+    {
+      "page": 19,
+      "matched_keywords": [
+        "net capital"
+      ],
+      "relevant_lines": [
+        "minimum net capital requirements of the SEC Uniform Net Capital",
+        "capital was $3.42 billion in excess of the Company's required minimum",
+        "net capital of $1 million. In addition, the Company is subject to",
+        "in which it is a member, which may exceed the minimum net capital"
+      ]
+    }
+  ]
+}

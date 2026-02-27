@@ -1,0 +1,41 @@
+{
+  "entity": "Susquehanna International Group",
+  "cik": "1446194",
+  "q1_positions": [
+    {
+      "issuer": "GAMESTOP CORP NEW",
+      "type": "SH",
+      "quantity": 605150,
+      "value_usd": 7576478000
+    },
+    {
+      "issuer": "GAMESTOP CORP NEW",
+      "type": "Put",
+      "quantity": 2135000,
+      "value_usd": 26730200000
+    },
+    {
+      "issuer": "GAMESTOP CORP NEW",
+      "type": "Call",
+      "quantity": 2633600,
+      "value_usd": 32972672000
+    }
+  ],
+  "q2_positions": [
+    {
+      "type": "SH",
+      "quantity": 998256,
+      "value_usd": 24646941000
+    },
+    {
+      "type": "Put",
+      "quantity": 4487100,
+      "value_usd": 110786499000
+    },
+    {
+      "type": "Call",
+      "quantity": 4805000,
+      "value_usd": 118635450000
+    }
+  ]
+}

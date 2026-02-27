@@ -1,0 +1,479 @@
+{
+  "test1_phantom_predicts_ftd": {
+    "n_phantoms": 80,
+    "ftd_spike_threshold": 67369.25,
+    "spike_probability": 0.250118091639112,
+    "significant_forward_offsets": {
+      "1": {
+        "hits": 53,
+        "enrichment": 2.65,
+        "mechanism": ""
+      },
+      "3": {
+        "hits": 45,
+        "enrichment": 2.25,
+        "mechanism": "CNS netting"
+      },
+      "5": {
+        "hits": 44,
+        "enrichment": 2.2,
+        "mechanism": ""
+      },
+      "19": {
+        "hits": 46,
+        "enrichment": 2.3,
+        "mechanism": ""
+      },
+      "21": {
+        "hits": 59,
+        "enrichment": 2.95,
+        "mechanism": ""
+      },
+      "22": {
+        "hits": 48,
+        "enrichment": 2.4,
+        "mechanism": ""
+      },
+      "31": {
+        "hits": 43,
+        "enrichment": 2.15,
+        "mechanism": ""
+      },
+      "33": {
+        "hits": 45,
+        "enrichment": 2.25,
+        "mechanism": "T+33 echo window"
+      },
+      "38": {
+        "hits": 46,
+        "enrichment": 2.3,
+        "mechanism": ""
+      },
+      "42": {
+        "hits": 46,
+        "enrichment": 2.3,
+        "mechanism": ""
+      }
+    }
+  },
+  "test2_strike_encodes_ftd": {
+    "n_signals": 1908,
+    "n_correlations": 3816,
+    "sample_correlations": [
+      {
+        "signal_date": "2013-01-02",
+        "strike": 14.0,
+        "delta_oi": 1964,
+        "offset": 33,
+        "ftd_date": "2013-02-18",
+        "ftd_quantity": 15868
+      },
+      {
+        "signal_date": "2013-01-02",
+        "strike": 14.0,
+        "delta_oi": 1964,
+        "offset": 35,
+        "ftd_date": "2013-02-20",
+        "ftd_quantity": 73068
+      },
+      {
+        "signal_date": "2013-01-02",
+        "strike": 15.0,
+        "delta_oi": 2787,
+        "offset": 33,
+        "ftd_date": "2013-02-18",
+        "ftd_quantity": 15868
+      },
+      {
+        "signal_date": "2013-01-02",
+        "strike": 15.0,
+        "delta_oi": 2787,
+        "offset": 35,
+        "ftd_date": "2013-02-20",
+        "ftd_quantity": 73068
+      },
+      {
+        "signal_date": "2013-11-26",
+        "strike": 15.0,
+        "delta_oi": 2675,
+        "offset": 33,
+        "ftd_date": "2014-01-10",
+        "ftd_quantity": 7342
+      },
+      {
+        "signal_date": "2013-11-26",
+        "strike": 15.0,
+        "delta_oi": 2675,
+        "offset": 35,
+        "ftd_date": "2014-01-14",
+        "ftd_quantity": 601852
+      },
+      {
+        "signal_date": "2014-11-26",
+        "strike": 13.0,
+        "delta_oi": 1136,
+        "offset": 33,
+        "ftd_date": "2015-01-12",
+        "ftd_quantity": 720326
+      },
+      {
+        "signal_date": "2014-11-26",
+        "strike": 13.0,
+        "delta_oi": 1136,
+        "offset": 35,
+        "ftd_date": "2015-01-14",
+        "ftd_quantity": 720326
+      },
+      {
+        "signal_date": "2014-11-26",
+        "strike": 15.0,
+        "delta_oi": 470,
+        "offset": 33,
+        "ftd_date": "2015-01-12",
+        "ftd_quantity": 720326
+      },
+      {
+        "signal_date": "2014-11-26",
+        "strike": 15.0,
+        "delta_oi": 470,
+        "offset": 35,
+        "ftd_date": "2015-01-14",
+        "ftd_quantity": 720326
+      },
+      {
+        "signal_date": "2017-11-29",
+        "strike": 11.0,
+        "delta_oi": 295,
+        "offset": 33,
+        "ftd_date": "2018-01-15",
+        "ftd_quantity": 278010
+      },
+      {
+        "signal_date": "2017-11-29",
+        "strike": 11.0,
+        "delta_oi": 295,
+        "offset": 35,
+        "ftd_date": "2018-01-17",
+        "ftd_quantity": 278010
+      },
+      {
+        "signal_date": "2017-12-12",
+        "strike": 10.0,
+        "delta_oi": 351,
+        "offset": 33,
+        "ftd_date": "2018-01-26",
+        "ftd_quantity": 1095
+      },
+      {
+        "signal_date": "2017-12-12",
+        "strike": 10.0,
+        "delta_oi": 351,
+        "offset": 35,
+        "ftd_date": "2018-01-30",
+        "ftd_quantity": 8789
+      },
+      {
+        "signal_date": "2018-11-26",
+        "strike": 6.0,
+        "delta_oi": 1123,
+        "offset": 33,
+        "ftd_date": "2019-01-10",
+        "ftd_quantity": 58131
+      },
+      {
+        "signal_date": "2018-11-26",
+        "strike": 6.0,
+        "delta_oi": 1123,
+        "offset": 35,
+        "ftd_date": "2019-01-14",
+        "ftd_quantity": 159
+      },
+      {
+        "signal_date": "2018-11-26",
+        "strike": 7.0,
+        "delta_oi": 568,
+        "offset": 33,
+        "ftd_date": "2019-01-10",
+        "ftd_quantity": 58131
+      },
+      {
+        "signal_date": "2018-11-26",
+        "strike": 7.0,
+        "delta_oi": 568,
+        "offset": 35,
+        "ftd_date": "2019-01-14",
+        "ftd_quantity": 159
+      },
+      {
+        "signal_date": "2019-06-06",
+        "strike": 3.0,
+        "delta_oi": 544,
+        "offset": 33,
+        "ftd_date": "2019-07-23",
+        "ftd_quantity": 317108
+      },
+      {
+        "signal_date": "2019-06-06",
+        "strike": 3.0,
+        "delta_oi": 544,
+        "offset": 35,
+        "ftd_date": "2019-07-25",
+        "ftd_quantity": 6265
+      },
+      {
+        "signal_date": "2019-08-01",
+        "strike": 3.0,
+        "delta_oi": 985,
+        "offset": 33,
+        "ftd_date": "2019-09-17",
+        "ftd_quantity": 242553
+      },
+      {
+        "signal_date": "2019-08-01",
+        "strike": 3.0,
+        "delta_oi": 985,
+        "offset": 35,
+        "ftd_date": "2019-09-19",
+        "ftd_quantity": 39687
+      },
+      {
+        "signal_date": "2019-08-05",
+        "strike": 2.0,
+        "delta_oi": 220,
+        "offset": 33,
+        "ftd_date": "2019-09-19",
+        "ftd_quantity": 39687
+      },
+      {
+        "signal_date": "2019-08-05",
+        "strike": 2.0,
+        "delta_oi": 220,
+        "offset": 35,
+        "ftd_date": "2019-09-23",
+        "ftd_quantity": 749737
+      },
+      {
+        "signal_date": "2019-08-06",
+        "strike": 3.0,
+        "delta_oi": 521,
+        "offset": 33,
+        "ftd_date": "2019-09-20",
+        "ftd_quantity": 39687
+      },
+      {
+        "signal_date": "2019-08-06",
+        "strike": 3.0,
+        "delta_oi": 521,
+        "offset": 35,
+        "ftd_date": "2019-09-24",
+        "ftd_quantity": 749737
+      },
+      {
+        "signal_date": "2019-08-13",
+        "strike": 3.0,
+        "delta_oi": 634,
+        "offset": 33,
+        "ftd_date": "2019-09-27",
+        "ftd_quantity": 563923
+      },
+      {
+        "signal_date": "2019-08-13",
+        "strike": 3.0,
+        "delta_oi": 634,
+        "offset": 35,
+        "ftd_date": "2019-10-01",
+        "ftd_quantity": 458082
+      },
+      {
+        "signal_date": "2019-08-14",
+        "strike": 3.0,
+        "delta_oi": 525,
+        "offset": 33,
+        "ftd_date": "2019-09-30",
+        "ftd_quantity": 458082
+      },
+      {
+        "signal_date": "2019-08-14",
+        "strike": 3.0,
+        "delta_oi": 525,
+        "offset": 35,
+        "ftd_date": "2019-10-02",
+        "ftd_quantity": 458082
+      }
+    ]
+  },
+  "test3_settlement_alignment": {
+    "n_oi_events": 167,
+    "waterfall_avg_hits": 72.7,
+    "non_waterfall_avg": 73.0,
+    "ratio": 0.9958904109589042,
+    "offsets_with_excess": {
+      "3": {
+        "hits": 77,
+        "ratio": 2.3,
+        "mechanism": "CNS netting"
+      },
+      "6": {
+        "hits": 68,
+        "ratio": 2.04,
+        "mechanism": "Post-BFMM spillover"
+      },
+      "13": {
+        "hits": 69,
+        "ratio": 2.07,
+        "mechanism": "Reg SHO threshold list"
+      },
+      "14": {
+        "hits": 68,
+        "ratio": 2.04,
+        "mechanism": "Phantom OI peak #1"
+      },
+      "15": {
+        "hits": 66,
+        "ratio": 1.98,
+        "mechanism": "Phantom OI peak #2"
+      },
+      "26": {
+        "hits": 70,
+        "ratio": 2.1,
+        "mechanism": "Secondary cascade"
+      },
+      "33": {
+        "hits": 79,
+        "ratio": 2.36,
+        "mechanism": "T+33 echo window"
+      },
+      "35": {
+        "hits": 80,
+        "ratio": 2.39,
+        "mechanism": "Reg SHO forced buy-in deadline"
+      },
+      "36": {
+        "hits": 73,
+        "ratio": 2.19,
+        "mechanism": "Post-T+35 spillover"
+      },
+      "40": {
+        "hits": 77,
+        "ratio": 2.3,
+        "mechanism": "Terminal peak (NSCC VaR + 15c3-1)"
+      }
+    }
+  },
+  "test4_expiration_encoding": {
+    "n_signals": 3112,
+    "exp_ftd_hit_rate": 0.8570051413881749,
+    "random_rate": 0.7613723660393753,
+    "enrichment": 1.125605787147591,
+    "dte_distribution": {
+      "0": 1994,
+      "30": 395,
+      "90": 91,
+      "60": 172,
+      "180": 35,
+      "270": 29,
+      "660": 9,
+      "450": 2,
+      "360": 24,
+      "630": 1,
+      "150": 79,
+      "330": 34,
+      "240": 26,
+      "-30": 40,
+      "120": 73,
+      "210": 44,
+      "480": 9,
+      "300": 5,
+      "810": 8,
+      "780": 2,
+      "720": 14,
+      "420": 8,
+      "390": 5,
+      "690": 1,
+      "600": 2,
+      "570": 10
+    }
+  },
+  "test5_oi_profile_similarity": {
+    "1": {
+      "mean_similarity": 0.995,
+      "n_pairs": 783,
+      "is_waterfall": false
+    },
+    "2": {
+      "mean_similarity": 0.9903,
+      "n_pairs": 775,
+      "is_waterfall": false
+    },
+    "3": {
+      "mean_similarity": 0.9856,
+      "n_pairs": 767,
+      "is_waterfall": true
+    },
+    "5": {
+      "mean_similarity": 0.9752,
+      "n_pairs": 747,
+      "is_waterfall": false
+    },
+    "6": {
+      "mean_similarity": 0.9699,
+      "n_pairs": 734,
+      "is_waterfall": true
+    },
+    "7": {
+      "mean_similarity": 0.9644,
+      "n_pairs": 721,
+      "is_waterfall": false
+    },
+    "10": {
+      "mean_similarity": 0.9466,
+      "n_pairs": 682,
+      "is_waterfall": false
+    },
+    "13": {
+      "mean_similarity": 0.9265,
+      "n_pairs": 646,
+      "is_waterfall": true
+    },
+    "14": {
+      "mean_similarity": 0.9195,
+      "n_pairs": 635,
+      "is_waterfall": true
+    },
+    "15": {
+      "mean_similarity": 0.9125,
+      "n_pairs": 625,
+      "is_waterfall": true
+    },
+    "20": {
+      "mean_similarity": 0.8788,
+      "n_pairs": 571,
+      "is_waterfall": false
+    },
+    "26": {
+      "mean_similarity": 0.8453,
+      "n_pairs": 495,
+      "is_waterfall": true
+    },
+    "33": {
+      "mean_similarity": 0.8123,
+      "n_pairs": 428,
+      "is_waterfall": true
+    },
+    "35": {
+      "mean_similarity": 0.8032,
+      "n_pairs": 411,
+      "is_waterfall": true
+    },
+    "36": {
+      "mean_similarity": 0.799,
+      "n_pairs": 403,
+      "is_waterfall": true
+    },
+    "40": {
+      "mean_similarity": 0.7817,
+      "n_pairs": 374,
+      "is_waterfall": true
+    }
+  }
+}

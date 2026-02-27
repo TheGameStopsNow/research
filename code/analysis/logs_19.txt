@@ -1,0 +1,189 @@
+======================================================================
+TEST 19: Per-Spike Tracing & Polygon TRF Cross-Reference
+======================================================================
+
+  Loading OI snapshots...
+  Deep OTM put OI: median=20,322, mean=134,515, elevated threshold (2x median)=40,645
+
+============================================================
+PART A: Per-Spike Tracing Through the Survival Funnel
+============================================================
+
+  Eligible spikes (≥7/10 OI coverage): 73 of 88
+    2020-10-13 ( 3,210,148 FTDs) — OI coverage: 10/10
+    2020-09-22 ( 2,655,764 FTDs) — OI coverage: 10/10
+    2020-04-17 ( 2,105,715 FTDs) — OI coverage: 10/10
+    2021-01-26 ( 2,099,572 FTDs) — OI coverage: 10/10
+    2025-12-04 ( 2,068,490 FTDs) — OI coverage: 7/10
+    2021-01-27 ( 1,972,862 FTDs) — OI coverage: 10/10
+    2020-04-21 ( 1,932,850 FTDs) — OI coverage: 10/10
+    2020-12-03 ( 1,787,191 FTDs) — OI coverage: 10/10
+    2020-02-28 ( 1,689,064 FTDs) — OI coverage: 10/10
+    2022-07-26 ( 1,637,150 FTDs) — OI coverage: 10/10
+
+  📍 Spike: 2020-10-13 (3,210,148) (OI coverage: 10/10)
+    T+3   -> 2020-10-16: elevated=0,     16,357 OI
+    T+6   -> 2020-10-21: elevated=0,     16,437 OI
+    T+9   -> 2020-10-26: elevated=0,     11,918 OI
+    T+13  -> 2020-10-30: elevated=0,      6,159 OI
+    T+15  -> 2020-11-03: elevated=0,      6,267 OI
+    T+21  -> 2020-11-11: elevated=0,      6,341 OI
+    T+27  -> 2020-11-19: elevated=0,      6,356 OI
+    T+33  -> 2020-11-27: elevated=0,     12,053 OI
+    T+35  -> 2020-12-01: elevated=0,     12,021 OI
+    T+40  -> 2020-12-08: elevated=0,     12,047 OI
+
+  📍 Spike: 2020-09-22 (2,655,764) (OI coverage: 10/10)
+    T+3   -> 2020-09-25: elevated=0,      8,885 OI
+    T+6   -> 2020-09-30: elevated=0,      8,963 OI
+    T+9   -> 2020-10-05: elevated=0,      8,965 OI
+    T+13  -> 2020-10-09: elevated=0,     16,129 OI
+    T+15  -> 2020-10-13: elevated=0,     16,357 OI
+    T+21  -> 2020-10-21: elevated=0,     16,437 OI
+    T+27  -> 2020-10-29: elevated=0,      6,159 OI
+    T+33  -> 2020-11-06: elevated=0,      6,274 OI
+    T+35  -> 2020-11-10: elevated=0,      6,335 OI
+    T+40  -> 2020-11-17: elevated=0,      6,356 OI
+
+  📍 Spike: 2020-04-17 (2,105,715) (OI coverage: 10/10)
+    T+3   -> 2020-04-22: elevated=0,          0 OI
+    T+6   -> 2020-04-27: elevated=0,          0 OI
+    T+9   -> 2020-04-30: elevated=0,          0 OI
+    T+13  -> 2020-05-06: elevated=0,          0 OI
+    T+15  -> 2020-05-08: elevated=0,          0 OI
+    T+21  -> 2020-05-18: elevated=0,          0 OI
+    T+27  -> 2020-05-26: elevated=0,          0 OI
+    T+33  -> 2020-06-03: elevated=0,          0 OI
+    T+35  -> 2020-06-05: elevated=0,          0 OI
+    T+40  -> 2020-06-12: elevated=0,          0 OI
+
+  📍 Spike: 2021-01-26 (2,099,572) (OI coverage: 10/10)
+    T+3   -> 2021-01-29: elevated=1,  1,099,360 OI ⭐
+    T+6   -> 2021-02-03: elevated=1,    888,839 OI ⭐
+    T+9   -> 2021-02-08: elevated=1,    665,912 OI ⭐
+    T+13  -> 2021-02-12: elevated=1,    665,912 OI ⭐
+    T+15  -> 2021-02-16: elevated=1,  1,322,976 OI ⭐
+    T+21  -> 2021-02-24: elevated=1,    700,744 OI ⭐
+    T+27  -> 2021-03-04: elevated=1,    825,581 OI ⭐
+    T+33  -> 2021-03-12: elevated=1,    980,524 OI ⭐
+    T+35  -> 2021-03-16: elevated=1,    995,628 OI ⭐
+    T+40  -> 2021-03-23: elevated=1,    810,611 OI ⭐
+
+  📍 Spike: 2025-12-04 (2,068,490) (OI coverage: 7/10)
+    T+3   -> 2025-12-09: elevated=0,        145 OI
+    T+6   -> 2025-12-12: elevated=0,        145 OI
+    T+9   -> 2025-12-17: elevated=0,        145 OI
+    T+13  -> 2025-12-23: elevated=0,        145 OI
+    T+15  -> 2025-12-25: elevated=0,        145 OI
+    T+21  -> 2026-01-02: elevated=0,        145 OI
+    T+27  -> 2026-01-12: elevated=0,        147 OI
+    T+33  -> 2026-01-20: elevated=0,          0 OI
+    T+35  -> 2026-01-22: elevated=0,          0 OI
+    T+40  -> 2026-01-29: elevated=0,          0 OI
+
+  SUMMARY: Spike survival across nodes
+    Offset  Spikes w/ Elevated OI      %
+  -----------------------------------
+  T+3     1/                5   20%
+  T+6     1/                5   20%
+  T+9     1/                5   20%
+  T+13    1/                5   20%
+  T+15    1/                5   20%
+  T+21    1/                5   20%
+  T+27    1/                5   20%
+  T+33    1/                5   20%
+  T+35    1/                5   20%
+  T+40    1/                5   20%
+
+============================================================
+PART B: Polygon TRF Equity Cross-Reference on Phantom Dates
+============================================================
+
+  📊 Checking 2020-11-27 (T+33 echo)...
+    Total equity trades: 50,000
+    TRF (dark pool) trades: 20,786 (41.6%)
+    Large TRF blocks (≥1K shares): 1,581
+    Total TRF block volume: 3,579,286 shares
+    Largest single TRF print: 80,600 shares
+    Median TRF: 100, Mean TRF: 221
+    TRF block condition codes: {41: 28, 12: 23, 53: 21, 52: 21, 10: 2, 2: 1}
+    Size distribution: odd-lots=42%, round=32%, blocks≥10K=40
+
+  📊 Checking 2020-11-06 (T+33 echo)...
+    Total equity trades: 26,504
+    TRF (dark pool) trades: 10,053 (37.9%)
+    Large TRF blocks (≥1K shares): 653
+    Total TRF block volume: 1,784,606 shares
+    Largest single TRF print: 53,542 shares
+    Median TRF: 100, Mean TRF: 229
+    TRF block condition codes: {12: 8, 41: 7, 10: 4, 2: 4, 14: 3}
+    Size distribution: odd-lots=37%, round=40%, blocks≥10K=26
+
+  📊 Checking 2020-06-03 (T+33 echo)...
+    Total equity trades: 13,916
+    TRF (dark pool) trades: 4,731 (34.0%)
+    Large TRF blocks (≥1K shares): 356
+    Total TRF block volume: 1,096,236 shares
+    Largest single TRF print: 28,878 shares
+    Median TRF: 100, Mean TRF: 232
+    TRF block condition codes: {41: 12, 10: 11, 2: 11, 12: 7, 20: 1, 13: 1}
+    Size distribution: odd-lots=39%, round=37%, blocks≥10K=25
+
+============================================================
+PART C: Polygon Options Trades — Deep OTM Puts on Phantom Dates
+============================================================
+
+  📊 Checking options on 2020-11-27...
+    GME price: $4.02, deep OTM threshold: <$1.21
+    Deep OTM put contracts on 2020-11-27: 100
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"c5582cc15a8366e900aef7c65ec33d7a","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"e00ace17f890a8bb326fed347a547aa6","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"f9a00540181302679a8cc2ab0fcdebf6","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"1107b807feeeae77b662f5c27336d6b1","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"36fb368ac74bde404da2c801fb848431","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"e948e4fb3ce1fc12ee3e4de97d54278b","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"3efa3d00bc4142c4c86d45c782f030d2","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"6538d3ac6dcdfc5f9d3febb122d1a86e","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"366e1c3604bc6357c755ff5f843b0835","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"58ba6339f4dbf485c9284a8ead59a70b","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+
+    TOTAL deep OTM on 2020-11-27:
+      Trades: 0
+      Volume: 0 contracts
+      Blocks (≥100): 0
+      ISOs (code 18): 0
+
+  📊 Checking options on 2020-11-06...
+    GME price: $2.96, deep OTM threshold: <$0.89
+    Deep OTM put contracts on 2020-11-06: 66
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"1f782348d857a31f9cb47ce4e2ca6421","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"5789b3bf5fc52889ff89262041285b41","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"b7113d6c70997f2bd2e48084736f5a51","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"3d6986d8fb7d12f57f06f5b619e10be3","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"f3834c91cc4f76d0492fc623cbab1b55","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"eb613319b0762f87f67895c73e52f347","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"cff8754ba70824026bef55cc705a9c4b","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"5c64e65dd409deb550f95988c58964eb","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"c4dc4cf96f9d26f38d427ca1aec7429f","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+    API error 403: {"status":"NOT_AUTHORIZED","request_id":"3186162d40da37b40d8378eec4faf655","message":"You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"}
+
+    TOTAL deep OTM on 2020-11-06:
+      Trades: 0
+      Volume: 0 contracts
+      Blocks (≥100): 0
+      ISOs (code 18): 0
+
+  📊 Checking options on 2020-06-03...
+    GME price: $1.11, deep OTM threshold: <$0.33
+    Deep OTM put contracts on 2020-06-03: 0
+
+    TOTAL deep OTM on 2020-06-03:
+      Trades: 0
+      Volume: 0 contracts
+      Blocks (≥100): 0
+      ISOs (code 18): 0
+
+  📊 Saved figure: ~/Documents/GitHub/research/code/analysis/figures/chart_per_spike_tracing.png
+  💾 Saved results: ~/Documents/GitHub/research/code/analysis/results/per_spike_tracing.json
+
+✅ Test 19 complete.

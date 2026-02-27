@@ -1,0 +1,33 @@
+{
+  "robinhood_links": [
+    "https://cdn.robinhood.com/assets/robinhood/legal/RHF SEC Rule 606 and 607 Disclosure.pdf",
+    "https://cdn.robinhood.com/assets/robinhood/legal/RHS SEC Rule 606 and 607 Disclosure.pdf"
+  ],
+  "ib_report_links": [
+    "https://ndcdyn.interactivebrokers.com/Universal/servlet/Registration_v2.formSampleView?formdb=4023",
+    "/ibkr606Reports/IBKR_606a_2025_Q1.pdf",
+    "/ibkr606Reports/IBKR_606a_2025_Q1.xml",
+    "/ibkr606Reports/IBKR_606a_2025_Q2.pdf",
+    "/ibkr606Reports/IBKR_606a_2025_Q2.xml",
+    "/ibkr606Reports/IBKR_606a_2025_Q3.pdf",
+    "/ibkr606Reports/IBKR_606a_2025_Q3.xml",
+    "/ibkr606Reports/IBKR_606a_2025_Q4.pdf",
+    "/ibkr606Reports/IBKR_606a_2025_Q4.xml",
+    "/ibkr606Reports/IBKR_606a_2024_Q1.pdf"
+  ],
+  "Robinhood Securities": {
+    "cik": "0001824170",
+    "entity": "Reeves Kathryne Gambrell",
+    "routing_filings": []
+  },
+  "National Financial Services (Fidelity)": {
+    "cik": "0000035527",
+    "entity": "FIFTH THIRD BANCORP",
+    "routing_filings": []
+  },
+  "Charles Schwab & Co": {
+    "cik": "0000316709",
+    "entity": "SCHWAB CHARLES CORP",
+    "routing_filings": []
+  }
+}

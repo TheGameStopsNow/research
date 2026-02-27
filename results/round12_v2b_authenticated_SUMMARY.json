@@ -1,0 +1,17 @@
+{
+  "original_file": "../review_package_02_archive/round12_v2b_authenticated.json",
+  "original_size_bytes": 140633,
+  "note": "Full data archived. This summary contains key findings only.",
+  "description": "FINRA authenticated OAuth2 Non-ATS internalizer data \u2014 firm-level attribution",
+  "key_findings": [
+    "24 named firms attributed for 263M GME shares May 2024",
+    "Top 4: Virtu (81M, 30.9%), Citadel (56M, 21.3%), G1/SIG (44M, 16.8%), Jane Street (39M, 14.7%)",
+    "Top 4 = 83.7% of all Non-ATS GME flow",
+    "13 firms appeared from zero baseline only during event week",
+    "UBS: dual-channel (ATS #1 + OTC #8, combined 12.5M shares)"
+  ],
+  "data_keys": [
+    "2024-05-13",
+    "2024-04-22"
+  ]
+}

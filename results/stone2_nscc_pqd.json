@@ -1,0 +1,60 @@
+{
+  "stone": 2,
+  "name": "NSCC Clearinghouse Bleed",
+  "timestamp": "2026-02-18T01:31:07.809297",
+  "target_disclosures": {
+    "6.1": "Peak Initial Margin Call",
+    "6.3": "Margin Calls Exceeding Prior Quarter",
+    "6.5": "Number of Margin Breaches",
+    "6.5.2": "Largest Breach Amount",
+    "7.1": "Estimated Largest Aggregate Stress Shortfall",
+    "7.2": "Number of Days Shortfall Exceeds Resources",
+    "4.1": "Peak Aggregate Initial Margin",
+    "4.4": "Total Clearing Fund Size"
+  },
+  "hypothesis": "Peak margin call or stress shortfall in Q2 2024 lands on May 14-16",
+  "data_sources": {
+    "landing_page": {
+      "url": "https://www.dtcc.com/legal/policy-and-compliance/cpmi-iosco-public-quantitative-disclosures",
+      "pdf_links_found": []
+    },
+    "NSCC_Q2_2024_PDF": {
+      "url": "https://www.dtcc.com/-/media/Files/Downloads/legal/policy-and-compliance/NSCC-Quantitative-Disclosures-Q2-2024.pdf",
+      "status": "downloaded",
+      "path": "[BUNDLE_PATH]/code/../results/nscc_pqd_nscc_q2_2024.pdf",
+      "size_kb": 334
+    },
+    "NSCC_Q1_2024_PDF": {
+      "url": "https://www.dtcc.com/-/media/Files/Downloads/legal/policy-and-compliance/NSCC-Quantitative-Disclosures-Q1-2024.pdf",
+      "status": "downloaded",
+      "path": "[BUNDLE_PATH]/code/../results/nscc_pqd_nscc_q1_2024.pdf",
+      "size_kb": 334
+    },
+    "NSCC_Q4_2023_PDF": {
+      "url": "https://www.dtcc.com/-/media/Files/Downloads/legal/policy-and-compliance/NSCC-Quantitative-Disclosures-Q4-2023.pdf",
+      "status": "downloaded",
+      "path": "[BUNDLE_PATH]/code/../results/nscc_pqd_nscc_q4_2023.pdf",
+      "size_kb": 334
+    },
+    "xlsx_attempt": {
+      "status": "not_found"
+    }
+  },
+  "findings": {},
+  "manual_research_needed": {
+    "description": "If automated download failed, manually navigate to the DTCC PQD page",
+    "url": "https://www.dtcc.com/legal/policy-and-compliance/cpmi-iosco-public-quantitative-disclosures",
+    "look_for": [
+      "NSCC Quantitative Disclosures Q2 2024",
+      "Disclosure 6.1: Peak Initial Margin Call \u2014 check if date is May 14-16",
+      "Disclosure 6.5: Margin Breaches \u2014 count and amounts",
+      "Disclosure 7.1: Largest Stress Shortfall \u2014 check if date is May 14-16"
+    ],
+    "comparison_quarters": [
+      "Q1 2024",
+      "Q4 2023",
+      "Q3 2023"
+    ],
+    "what_proves_hypothesis": "If the PEAK margin call of the ENTIRE quarter lands on May 14-16, it mathematically proves the UBS/internalizer swap unwind created systemic clearing stress at the national clearinghouse level."
+  }
+}

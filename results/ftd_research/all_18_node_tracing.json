@@ -1,0 +1,586 @@
+{
+  "enrichment_all_18": {
+    "T+0": {
+      "exact_in": 48,
+      "total_phantoms": 129,
+      "enrichment": 5.2589147286821705
+    },
+    "T+3": {
+      "exact_in": 43,
+      "total_phantoms": 129,
+      "enrichment": 5.435897435897435
+    },
+    "T+6": {
+      "exact_in": 56,
+      "total_phantoms": 129,
+      "enrichment": 7.362480620155038
+    },
+    "T+7": {
+      "exact_in": 36,
+      "total_phantoms": 129,
+      "enrichment": 4.930232558139535
+    },
+    "T+8": {
+      "exact_in": 61,
+      "total_phantoms": 129,
+      "enrichment": 9.113460183227625
+    },
+    "T+10": {
+      "exact_in": 57,
+      "total_phantoms": 129,
+      "enrichment": 8.515856236786469
+    },
+    "T+13": {
+      "exact_in": 46,
+      "total_phantoms": 129,
+      "enrichment": 8.399655469422912
+    },
+    "T+15": {
+      "exact_in": 55,
+      "total_phantoms": 129,
+      "enrichment": 10.04306632213609
+    },
+    "T+18": {
+      "exact_in": 9,
+      "total_phantoms": 129,
+      "enrichment": 1.972093023255814
+    },
+    "T+21": {
+      "exact_in": 17,
+      "total_phantoms": 129,
+      "enrichment": 3.7250645994832046
+    },
+    "T+24": {
+      "exact_in": 51,
+      "total_phantoms": 129,
+      "enrichment": 9.86046511627907
+    },
+    "T+27": {
+      "exact_in": 61,
+      "total_phantoms": 129,
+      "enrichment": 12.531007751937985
+    },
+    "T+30": {
+      "exact_in": 25,
+      "total_phantoms": 129,
+      "enrichment": 8.217054263565892
+    },
+    "T+33": {
+      "exact_in": 44,
+      "total_phantoms": 129,
+      "enrichment": 18.07751937984496
+    },
+    "T+35": {
+      "exact_in": 64,
+      "total_phantoms": 129,
+      "enrichment": 23.372954349698535
+    },
+    "T+38": {
+      "exact_in": 60,
+      "total_phantoms": 129,
+      "enrichment": 32.86821705426357
+    },
+    "T+40": {
+      "exact_in": 49,
+      "total_phantoms": 129,
+      "enrichment": 40.26356589147287
+    },
+    "T+45": {
+      "exact_in": 0,
+      "total_phantoms": 129,
+      "enrichment": 0.0
+    }
+  },
+  "spike_traces_all_18": {
+    "2021-01-26": {
+      "quantity": 2099572,
+      "nodes_hit": 2,
+      "total_nodes": 18,
+      "coverage": "2/18",
+      "trace": {
+        "T+0": {
+          "hit": true,
+          "phantom_count": 10,
+          "phantom_oi": 141584
+        },
+        "T+3": {
+          "hit": true,
+          "phantom_count": 18,
+          "phantom_oi": 251796
+        },
+        "T+6": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+7": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+8": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+10": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+13": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+15": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+18": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+21": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+24": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+27": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+30": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+33": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+35": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+38": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+40": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+45": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        }
+      }
+    },
+    "2025-12-04": {
+      "quantity": 2068490,
+      "nodes_hit": 0,
+      "total_nodes": 18,
+      "coverage": "0/18",
+      "trace": {
+        "T+0": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+3": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+6": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+7": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+8": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+10": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+13": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+15": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+18": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+21": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+24": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+27": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+30": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+33": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+35": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+38": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+40": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+45": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        }
+      }
+    },
+    "2021-01-27": {
+      "quantity": 1972862,
+      "nodes_hit": 1,
+      "total_nodes": 18,
+      "coverage": "1/18",
+      "trace": {
+        "T+0": {
+          "hit": true,
+          "phantom_count": 28,
+          "phantom_oi": 302022
+        },
+        "T+3": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+6": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+7": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+8": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+10": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+13": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+15": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+18": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+21": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+24": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+27": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+30": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+33": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+35": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+38": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+40": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+45": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        }
+      }
+    },
+    "2020-12-03": {
+      "quantity": 1787191,
+      "nodes_hit": 5,
+      "total_nodes": 18,
+      "coverage": "5/18",
+      "trace": {
+        "T+0": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+3": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+6": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+7": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+8": {
+          "hit": true,
+          "phantom_count": 1,
+          "phantom_oi": 5730
+        },
+        "T+10": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+13": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+15": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+18": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+21": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+24": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+27": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+30": {
+          "hit": true,
+          "phantom_count": 1,
+          "phantom_oi": 4145
+        },
+        "T+33": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+35": {
+          "hit": true,
+          "phantom_count": 1,
+          "phantom_oi": 11635
+        },
+        "T+38": {
+          "hit": true,
+          "phantom_count": 10,
+          "phantom_oi": 141584
+        },
+        "T+40": {
+          "hit": true,
+          "phantom_count": 2,
+          "phantom_oi": 297732
+        },
+        "T+45": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        }
+      }
+    },
+    "2022-07-26": {
+      "quantity": 1637150,
+      "nodes_hit": 0,
+      "total_nodes": 18,
+      "coverage": "0/18",
+      "trace": {
+        "T+0": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+3": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+6": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+7": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+8": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+10": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+13": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+15": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+18": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+21": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+24": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+27": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+30": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+33": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+35": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+38": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+40": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        },
+        "T+45": {
+          "hit": false,
+          "phantom_count": 0,
+          "phantom_oi": 0
+        }
+      }
+    }
+  }
+}

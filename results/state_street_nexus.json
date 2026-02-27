@@ -1,0 +1,35 @@
+{
+  "_metadata": {
+    "title": "State Street Bank \u2014 Triple Nexus Role",
+    "extraction_date": "2026-02-18",
+    "sources": [
+      "N-CSR filings (XRT lending agent)",
+      "OCC PQD (collateral custodian)",
+      "SSNYP trust prospectus (SEC EDGAR)"
+    ]
+  },
+  "role_1_xrt_lending_agent": {
+    "entity": "State Street Bank and Trust Company",
+    "function": "Securities Lending Agent for SPDR S&P Retail ETF (XRT)",
+    "source": "N-CSR, CIK 0000093751 (SSGA Funds Management)",
+    "significance": "State Street lends XRT shares to broker-dealers for short selling and FTD resolution"
+  },
+  "role_2_occ_custodian": {
+    "entity": "State Street Bank and Trust Company",
+    "function": "Primary custodian for OCC pledged collateral ($60.1B specific deposits)",
+    "source": "OCC PQD disclosures",
+    "significance": "Holds the collateral pledged by clearing members to satisfy OCC margin requirements"
+  },
+  "role_3_ssnyp_collateral": {
+    "entity": "State Street (SSNYP trust)",
+    "function": "Securities sold, not yet purchased (SSNYP) \u2014 $35.17B pledged to OCC",
+    "source": "SSNYP trust prospectus / Phase 14 extraction",
+    "match_to_trs": {
+      "oracle_reconstructed_trs_value": "$35.2B",
+      "ssnyp_audited_value": "$35.17B",
+      "margin_of_error_pct": 0.08,
+      "significance": "Tape-reconstructed swap value matches audited balance sheet within 0.08%"
+    }
+  },
+  "nexus_significance": "State Street sits at the intersection of three critical functions: lending the shares (XRT), holding the collateral (OCC), and booking the liability (SSNYP). They have full visibility into the $35B loop."
+}

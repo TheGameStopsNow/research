@@ -1,0 +1,97 @@
+{
+  "merger_peak": {
+    "date": "2005-10-13",
+    "ftds": 1256296,
+    "spikes_above_2s": 13
+  },
+  "echo_cascade": {
+    "T+33": {
+      "offset": 33,
+      "generation": 1,
+      "total": 13,
+      "hits": 0,
+      "elevated": 6,
+      "hit_rate": 0.0,
+      "elevated_rate": 0.46153846153846156
+    },
+    "T+66": {
+      "offset": 66,
+      "generation": 2,
+      "total": 13,
+      "hits": 0,
+      "elevated": 9,
+      "hit_rate": 0.0,
+      "elevated_rate": 0.6923076923076923
+    },
+    "T+99": {
+      "offset": 99,
+      "generation": 3,
+      "total": 13,
+      "hits": 0,
+      "elevated": 7,
+      "hit_rate": 0.0,
+      "elevated_rate": 0.5384615384615384
+    },
+    "T+132": {
+      "offset": 132,
+      "generation": 4,
+      "total": 13,
+      "hits": 0,
+      "elevated": 5,
+      "hit_rate": 0.0,
+      "elevated_rate": 0.38461538461538464
+    },
+    "T+165": {
+      "offset": 165,
+      "generation": 5,
+      "total": 13,
+      "hits": 0,
+      "elevated": 4,
+      "hit_rate": 0.0,
+      "elevated_rate": 0.3076923076923077
+    },
+    "T+198": {
+      "offset": 198,
+      "generation": 6,
+      "total": 13,
+      "hits": 0,
+      "elevated": 7,
+      "hit_rate": 0.0,
+      "elevated_rate": 0.5384615384615384
+    }
+  },
+  "era_comparison": {
+    "2005 Merger": {
+      "spikes": 13,
+      "hits": 0,
+      "elevated": 6,
+      "hit_rate": 0.0,
+      "elevated_rate": 0.46153846153846156
+    },
+    "2008 Crisis": {
+      "spikes": 0,
+      "hits": 0,
+      "elevated": 0,
+      "hit_rate": 0,
+      "elevated_rate": 0
+    },
+    "2021 Squeeze": {
+      "spikes": 14,
+      "hits": 0,
+      "elevated": 10,
+      "hit_rate": 0.0,
+      "elevated_rate": 0.7142857142857143
+    },
+    "2021-2025 Full": {
+      "spikes": 34,
+      "hits": 3,
+      "elevated": 23,
+      "hit_rate": 0.08823529411764706,
+      "elevated_rate": 0.7647058823529411
+    }
+  },
+  "random_baseline": {
+    "hit_rate": 0.1721545067611343,
+    "elevated_rate": 0.7171441931248732
+  }
+}

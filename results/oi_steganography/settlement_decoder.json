@@ -1,0 +1,2665 @@
+{
+  "waterfall_dictionary": {
+    "T+0": {
+      "name": "Trade Date",
+      "signal": "New OI spike at any strike",
+      "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2).",
+      "what_to_watch": "Size and location of OI change. Deep OTM puts \u2192 likely locate generation."
+    },
+    "T+2": {
+      "name": "Settlement Date",
+      "signal": "OI that was opened 2 business days ago should settle",
+      "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease.",
+      "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+    },
+    "T+3": {
+      "name": "CNS Netting",
+      "signal": "Phantom OI spike (enrichment: 5.4\u00d7)",
+      "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure.",
+      "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+    },
+    "T+6": {
+      "name": "Post-BFMM Spillover",
+      "signal": "Phantom OI enrichment: 7.4\u00d7",
+      "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels.",
+      "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+    },
+    "T+13": {
+      "name": "Reg SHO Threshold List",
+      "signal": "OI regime change detectable",
+      "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten.",
+      "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+    },
+    "T+14/15": {
+      "name": "Phantom OI Peak Zone",
+      "signal": "Peak phantom enrichment (4.47-4.54\u00d7)",
+      "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures.",
+      "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+    },
+    "T+26/28": {
+      "name": "Secondary Cascade",
+      "signal": "Enrichment: 4.67\u00d7 at T+26",
+      "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating.",
+      "what_to_watch": "New OI appearing at strikes that were quiet. The waterfall is spreading."
+    },
+    "T+33": {
+      "name": "The Echo Window",
+      "signal": "Enrichment: 3.31\u00d7 (confirmed at 84% hit rate)",
+      "meaning": "The original FTD is echoing through ex-clearing. This is the T+35 deadline minus T+2 settlement = T+33 from trade date.",
+      "what_to_watch": "OI spike that mirrors the original T+0 spike in relative magnitude."
+    },
+    "T+35": {
+      "name": "Reg SHO Forced Buy-In",
+      "signal": "Enrichment: 4.73\u00d7",
+      "meaning": "Mandatory close-out deadline. If still failing, broker must buy shares on open market. This is the pressure point.",
+      "what_to_watch": "Price action. If shares are hard to borrow, this creates a mini-squeeze."
+    },
+    "T+36": {
+      "name": "Post-Forced-Buy Spillover",
+      "signal": "Peak enrichment: 5.06\u00d7",
+      "meaning": "The HIGHEST enrichment in the entire waterfall. Forced buy-ins create new synthetic positions to comply, generating even more phantom OI.",
+      "what_to_watch": "This is the LOUDEST signal. If you see massive deep OTM put OI here, the waterfall is in full cascade."
+    },
+    "T+40": {
+      "name": "Terminal Peak",
+      "signal": "Enrichment: 3.98\u00d7",
+      "meaning": "Convergent pressure from NSCC Value-at-Risk calculations AND Rule 15c3-1 net capital haircuts. The failure is becoming capital-destructive.",
+      "what_to_watch": "OI should start declining. If it doesn't, the institution is absorbing margin damage."
+    },
+    "T+45": {
+      "name": "Terminal Boundary",
+      "signal": "Enrichment collapses to 0.0\u00d7",
+      "meaning": "No surviving failures past this point. Either resolved via buy-in, transferred via ex-clearing, or absorbed as capital loss.",
+      "what_to_watch": "Everything should be quiet. If OI persists, it's a new cycle restarting."
+    }
+  },
+  "stress_statistics": {
+    "mean": 9.941981955471995,
+    "std": 10.702362711315407,
+    "max": 114.35547430801003,
+    "max_date": "2022-10-27"
+  },
+  "n_events": 77,
+  "n_clusters": 38,
+  "waterfall_map": [
+    {
+      "event_date": "2013-01-02",
+      "stress": 20.874932754271207,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Secondary Cascade (from 2012-11-23, 652,838 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 15,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2012-12-12",
+          "ftd_quantity": 50366,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 26,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2012-11-27",
+          "ftd_quantity": 509420,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        },
+        {
+          "offset": 28,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2012-11-23",
+          "ftd_quantity": 652838,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        },
+        {
+          "offset": 33,
+          "node_name": "The Echo Window",
+          "origin_date": "2012-11-16",
+          "ftd_quantity": 342060,
+          "meaning": "The original FTD is echoing through ex-clearing. This is the T+35 deadline minus T+2 settlement = T+33 from trade date."
+        },
+        {
+          "offset": 35,
+          "node_name": "Reg SHO Forced Buy-In",
+          "origin_date": "2012-11-14",
+          "ftd_quantity": 342060,
+          "meaning": "Mandatory close-out deadline. If still failing, broker must buy shares on open market. This is the pressure point."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2013-01-04",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2013-01-07",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2013-01-10",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2013-01-21",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2013-01-22",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2013-01-07",
+      "stress": 15.315018376046456,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "The Echo Window (from 2012-11-21, 652,838 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2012-12-19",
+          "ftd_quantity": 50889,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        },
+        {
+          "offset": 14,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2012-12-18",
+          "ftd_quantity": 47966,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 15,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2012-12-17",
+          "ftd_quantity": 47966,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 26,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2012-11-30",
+          "ftd_quantity": 467870,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        },
+        {
+          "offset": 28,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2012-11-28",
+          "ftd_quantity": 509420,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2013-01-09",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2013-01-10",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2013-01-15",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2013-01-24",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2013-01-25",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2013-01-10",
+      "stress": 14.720848823172961,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Reg SHO Forced Buy-In (from 2012-11-22, 652,838 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 14,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2012-12-21",
+          "ftd_quantity": 50889,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 15,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2012-12-20",
+          "ftd_quantity": 50889,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 26,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2012-12-05",
+          "ftd_quantity": 253042,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        },
+        {
+          "offset": 33,
+          "node_name": "The Echo Window",
+          "origin_date": "2012-11-26",
+          "ftd_quantity": 509420,
+          "meaning": "The original FTD is echoing through ex-clearing. This is the T+35 deadline minus T+2 settlement = T+33 from trade date."
+        },
+        {
+          "offset": 35,
+          "node_name": "Reg SHO Forced Buy-In",
+          "origin_date": "2012-11-22",
+          "ftd_quantity": 652838,
+          "meaning": "Mandatory close-out deadline. If still failing, broker must buy shares on open market. This is the pressure point."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2013-01-14",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2013-01-15",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2013-01-18",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2013-01-29",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2013-01-30",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2013-01-23",
+      "stress": 28.637702625449776,
+      "dominant_direction": "PUT_DRAIN",
+      "diagnosis": "Terminal Boundary (from 2012-11-21, 652,838 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2013-01-23",
+          "ftd_quantity": 52742,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2013-01-21",
+          "ftd_quantity": 52742,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 26,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2012-12-18",
+          "ftd_quantity": 47966,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        },
+        {
+          "offset": 33,
+          "node_name": "The Echo Window",
+          "origin_date": "2012-12-07",
+          "ftd_quantity": 253042,
+          "meaning": "The original FTD is echoing through ex-clearing. This is the T+35 deadline minus T+2 settlement = T+33 from trade date."
+        },
+        {
+          "offset": 35,
+          "node_name": "Reg SHO Forced Buy-In",
+          "origin_date": "2012-12-05",
+          "ftd_quantity": 253042,
+          "meaning": "Mandatory close-out deadline. If still failing, broker must buy shares on open market. This is the pressure point."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2013-01-25",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2013-01-28",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2013-01-31",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2013-02-11",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2013-02-12",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2013-01-28",
+      "stress": 27.540986956139484,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Terminal Boundary (from 2012-11-26, 509,420 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2013-01-24",
+          "ftd_quantity": 52742,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2013-01-23",
+          "ftd_quantity": 52742,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 26,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2012-12-21",
+          "ftd_quantity": 50889,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        },
+        {
+          "offset": 28,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2012-12-19",
+          "ftd_quantity": 50889,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        },
+        {
+          "offset": 33,
+          "node_name": "The Echo Window",
+          "origin_date": "2012-12-12",
+          "ftd_quantity": 50366,
+          "meaning": "The original FTD is echoing through ex-clearing. This is the T+35 deadline minus T+2 settlement = T+33 from trade date."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2013-01-30",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2013-01-31",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2013-02-05",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2013-02-14",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2013-02-15",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2013-01-31",
+      "stress": 23.115111845653107,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Terminal Boundary (from 2012-11-29, 509,420 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2013-01-23",
+          "ftd_quantity": 52742,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 33,
+          "node_name": "The Echo Window",
+          "origin_date": "2012-12-17",
+          "ftd_quantity": 47966,
+          "meaning": "The original FTD is echoing through ex-clearing. This is the T+35 deadline minus T+2 settlement = T+33 from trade date."
+        },
+        {
+          "offset": 36,
+          "node_name": "Post-Forced-Buy Spillover",
+          "origin_date": "2012-12-12",
+          "ftd_quantity": 50366,
+          "meaning": "The HIGHEST enrichment in the entire waterfall. Forced buy-ins create new synthetic positions to comply, generating even more phantom OI."
+        },
+        {
+          "offset": 40,
+          "node_name": "Terminal Peak",
+          "origin_date": "2012-12-06",
+          "ftd_quantity": 253042,
+          "meaning": "Convergent pressure from NSCC Value-at-Risk calculations AND Rule 15c3-1 net capital haircuts. The failure is becoming capital-destructive."
+        },
+        {
+          "offset": 45,
+          "node_name": "Terminal Boundary",
+          "origin_date": "2012-11-29",
+          "ftd_quantity": 509420,
+          "meaning": "No surviving failures past this point. Either resolved via buy-in, transferred via ex-clearing, or absorbed as capital loss."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2013-02-04",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2013-02-05",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2013-02-08",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2013-02-19",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2013-02-20",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2013-05-29",
+      "stress": 30.2391412333977,
+      "dominant_direction": "PUT_DRAIN",
+      "diagnosis": "CNS Netting (from 2013-05-24, 245,746 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2013-05-24",
+          "ftd_quantity": 245746,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2013-05-21",
+          "ftd_quantity": 245746,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 14,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2013-05-09",
+          "ftd_quantity": 49033,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 15,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2013-05-08",
+          "ftd_quantity": 49033,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 26,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2013-04-23",
+          "ftd_quantity": 74009,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2013-05-31",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2013-06-03",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2013-06-06",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2013-06-17",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2013-06-18",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2018-11-16",
+      "stress": 4.47213595499958,
+      "dominant_direction": "PUT_DRAIN",
+      "diagnosis": "Secondary Cascade (from 2018-10-11, 191,657 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2018-10-30",
+          "ftd_quantity": 48991,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        },
+        {
+          "offset": 14,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2018-10-29",
+          "ftd_quantity": 48991,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 26,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2018-10-11",
+          "ftd_quantity": 191657,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        },
+        {
+          "offset": 28,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2018-10-09",
+          "ftd_quantity": 191657,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        },
+        {
+          "offset": 33,
+          "node_name": "The Echo Window",
+          "origin_date": "2018-10-02",
+          "ftd_quantity": 53074,
+          "meaning": "The original FTD is echoing through ex-clearing. This is the T+35 deadline minus T+2 settlement = T+33 from trade date."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2018-11-20",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2018-11-21",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2018-11-26",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2018-12-05",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2018-12-06",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2018-11-26",
+      "stress": 8.893727172991486,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Settlement Date (from 2018-11-22, 216,578 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2018-11-26",
+          "ftd_quantity": 105131,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2018-11-22",
+          "ftd_quantity": 216578,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2018-11-21",
+          "ftd_quantity": 216578,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 26,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2018-10-19",
+          "ftd_quantity": 56377,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        },
+        {
+          "offset": 28,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2018-10-17",
+          "ftd_quantity": 56377,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2018-11-28",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2018-11-29",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2018-12-04",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2018-12-13",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2018-12-14",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2018-11-27",
+      "stress": 6.477805449980771,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Settlement Date (from 2018-11-23, 216,578 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2018-11-27",
+          "ftd_quantity": 105131,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2018-11-23",
+          "ftd_quantity": 216578,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2018-11-22",
+          "ftd_quantity": 216578,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2018-11-19",
+          "ftd_quantity": 52999,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 28,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2018-10-18",
+          "ftd_quantity": 56377,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2018-11-29",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2018-11-30",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2018-12-05",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2018-12-14",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2018-12-17",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2018-11-28",
+      "stress": 5.437866923773779,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "CNS Netting (from 2018-11-23, 216,578 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2018-11-28",
+          "ftd_quantity": 105131,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2018-11-26",
+          "ftd_quantity": 105131,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2018-11-23",
+          "ftd_quantity": 216578,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2018-11-20",
+          "ftd_quantity": 52999,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 28,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2018-10-19",
+          "ftd_quantity": 56377,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2018-11-30",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2018-12-03",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2018-12-06",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2018-12-17",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2018-12-18",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2018-12-24",
+      "stress": 6.440511449520044,
+      "dominant_direction": "PUT_DRAIN",
+      "diagnosis": "Trade Date (from 2018-12-24, 58,675 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2018-12-24",
+          "ftd_quantity": 58675,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 40,
+          "node_name": "Terminal Peak",
+          "origin_date": "2018-10-29",
+          "ftd_quantity": 48991,
+          "meaning": "Convergent pressure from NSCC Value-at-Risk calculations AND Rule 15c3-1 net capital haircuts. The failure is becoming capital-destructive."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2018-12-26",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2018-12-27",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-01-01",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-01-10",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-01-11",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-05-21",
+      "stress": 4.47213595499958,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Trade Date (from 2019-05-21, 423,494 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-05-21",
+          "ftd_quantity": 423494,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-05-17",
+          "ftd_quantity": 220217,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-05-16",
+          "ftd_quantity": 220217,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-05-13",
+          "ftd_quantity": 220217,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 28,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2019-04-11",
+          "ftd_quantity": 54541,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-05-23",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-05-24",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-05-29",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-06-07",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-06-10",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-06-06",
+      "stress": 10.60255021263458,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Reg SHO Threshold List (from 2019-05-20, 423,494 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-06-06",
+          "ftd_quantity": 100000,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-05-29",
+          "ftd_quantity": 198595,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-05-20",
+          "ftd_quantity": 423494,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        },
+        {
+          "offset": 14,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2019-05-17",
+          "ftd_quantity": 220217,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 15,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2019-05-16",
+          "ftd_quantity": 220217,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-06-10",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-06-11",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-06-14",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-06-25",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-06-26",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-06-07",
+      "stress": 12.585029070551094,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Reg SHO Threshold List (from 2019-05-21, 423,494 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-06-07",
+          "ftd_quantity": 100000,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-06-05",
+          "ftd_quantity": 100000,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-05-30",
+          "ftd_quantity": 198595,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-05-21",
+          "ftd_quantity": 423494,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        },
+        {
+          "offset": 14,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2019-05-20",
+          "ftd_quantity": 423494,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-06-11",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-06-12",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-06-17",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-06-26",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-06-27",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-06-10",
+      "stress": 10.293610003277456,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Reg SHO Threshold List (from 2019-05-22, 423,494 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-06-10",
+          "ftd_quantity": 116927,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-06-06",
+          "ftd_quantity": 100000,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-06-05",
+          "ftd_quantity": 100000,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-05-31",
+          "ftd_quantity": 198595,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-05-22",
+          "ftd_quantity": 423494,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-06-12",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-06-13",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-06-18",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-06-27",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-06-28",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-06-11",
+      "stress": 9.17038907628907,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Reg SHO Threshold List (from 2019-05-23, 423,494 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-06-11",
+          "ftd_quantity": 116927,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-06-07",
+          "ftd_quantity": 100000,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-06-06",
+          "ftd_quantity": 100000,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-05-23",
+          "ftd_quantity": 423494,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        },
+        {
+          "offset": 14,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2019-05-22",
+          "ftd_quantity": 423494,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-06-13",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-06-14",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-06-19",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-06-28",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-07-01",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-06-12",
+      "stress": 8.498349143360237,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Phantom OI Peak Zone (from 2019-05-23, 423,494 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-06-12",
+          "ftd_quantity": 149692,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-06-10",
+          "ftd_quantity": 116927,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-06-07",
+          "ftd_quantity": 100000,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 14,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2019-05-23",
+          "ftd_quantity": 423494,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 15,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2019-05-22",
+          "ftd_quantity": 423494,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-06-14",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-06-17",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-06-20",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-07-01",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-07-02",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-06-13",
+      "stress": 8.067077306318378,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Phantom OI Peak Zone (from 2019-05-23, 423,494 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-06-13",
+          "ftd_quantity": 149692,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-06-11",
+          "ftd_quantity": 116927,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-06-10",
+          "ftd_quantity": 116927,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-06-05",
+          "ftd_quantity": 100000,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-05-27",
+          "ftd_quantity": 186663,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-06-17",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-06-18",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-06-21",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-07-02",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-07-03",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-06-18",
+      "stress": 12.164896766342332,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Trade Date (from 2019-06-18, 451,239 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-06-18",
+          "ftd_quantity": 451239,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-06-14",
+          "ftd_quantity": 149692,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-06-13",
+          "ftd_quantity": 149692,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-06-10",
+          "ftd_quantity": 116927,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-05-30",
+          "ftd_quantity": 198595,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-06-20",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-06-21",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-06-26",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-07-05",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-07-08",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-08-06",
+      "stress": 13.207020590817383,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Reg SHO Threshold List (from 2019-07-18, 1,428,781 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-08-02",
+          "ftd_quantity": 83872,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-08-01",
+          "ftd_quantity": 397061,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-07-29",
+          "ftd_quantity": 397061,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-07-18",
+          "ftd_quantity": 1428781,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        },
+        {
+          "offset": 14,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2019-07-17",
+          "ftd_quantity": 1428781,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-08-08",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-08-09",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-08-14",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-08-23",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-08-26",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-08-09",
+      "stress": 13.3527172190648,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Phantom OI Peak Zone (from 2019-07-19, 1,428,781 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-08-01",
+          "ftd_quantity": 397061,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-07-23",
+          "ftd_quantity": 317108,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        },
+        {
+          "offset": 14,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2019-07-22",
+          "ftd_quantity": 317108,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 15,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2019-07-19",
+          "ftd_quantity": 1428781,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 26,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2019-07-04",
+          "ftd_quantity": 141605,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-08-13",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-08-14",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-08-19",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-08-28",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-08-29",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-08-26",
+      "stress": 14.31757850519898,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Secondary Cascade (from 2019-07-19, 1,428,781 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-08-26",
+          "ftd_quantity": 381195,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-08-22",
+          "ftd_quantity": 89899,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-08-21",
+          "ftd_quantity": 89899,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-08-16",
+          "ftd_quantity": 207619,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 26,
+          "node_name": "Secondary Cascade",
+          "origin_date": "2019-07-19",
+          "ftd_quantity": 1428781,
+          "meaning": "The first generation of rolled failures is generating its own failures. Failure is self-replicating."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-08-28",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-08-29",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-09-03",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-09-12",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-09-13",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-11-25",
+      "stress": 13.413212339209869,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Secondary Cascade (from 2019-10-18, 1,616,440 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-11-25",
+          "ftd_quantity": 419697,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-11-21",
+          "ftd_quantity": 839804,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-11-20",
+          "ftd_quantity": 839804,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-11-15",
+          "ftd_quantity": 96514,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-11-06",
+          "ftd_quantity": 379722,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-11-27",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-11-28",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-12-03",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-12-12",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-12-13",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-11-26",
+      "stress": 9.74438612397827,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Secondary Cascade (from 2019-10-17, 1,616,440 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-11-26",
+          "ftd_quantity": 419697,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-11-22",
+          "ftd_quantity": 606479,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-11-21",
+          "ftd_quantity": 839804,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-11-18",
+          "ftd_quantity": 839804,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-11-07",
+          "ftd_quantity": 379722,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2019-11-28",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2019-11-29",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2019-12-04",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2019-12-13",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2019-12-16",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-12-30",
+      "stress": 17.271909894710653,
+      "dominant_direction": "PUT_DRAIN",
+      "diagnosis": "Trade Date (from 2019-12-30, 1,238,910 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-12-30",
+          "ftd_quantity": 1238910,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-12-26",
+          "ftd_quantity": 452960,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-12-25",
+          "ftd_quantity": 452960,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-12-20",
+          "ftd_quantity": 133995,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-12-11",
+          "ftd_quantity": 238740,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2020-01-01",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2020-01-02",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2020-01-07",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2020-01-16",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2020-01-17",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2019-12-31",
+      "stress": 13.119113566073441,
+      "dominant_direction": "PUT_DRAIN",
+      "diagnosis": "Trade Date (from 2019-12-31, 1,238,910 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2019-12-31",
+          "ftd_quantity": 1238910,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2019-12-27",
+          "ftd_quantity": 452960,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2019-12-26",
+          "ftd_quantity": 452960,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2019-12-23",
+          "ftd_quantity": 208067,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2019-12-12",
+          "ftd_quantity": 238740,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2020-01-02",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2020-01-03",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2020-01-08",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2020-01-17",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2020-01-20",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2020-02-04",
+      "stress": 13.300303207605806,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Secondary Cascade (from 2019-12-30, 1,238,910 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2020-02-04",
+          "ftd_quantity": 469856,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2020-01-30",
+          "ftd_quantity": 84562,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2020-01-27",
+          "ftd_quantity": 84562,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 14,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2020-01-15",
+          "ftd_quantity": 77088,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        },
+        {
+          "offset": 15,
+          "node_name": "Phantom OI Peak Zone",
+          "origin_date": "2020-01-14",
+          "ftd_quantity": 77088,
+          "meaning": "Maximum synthetic locate manufacturing. The system is working hardest to roll failures."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2020-02-06",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2020-02-07",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2020-02-12",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2020-02-21",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2020-02-24",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2020-03-05",
+      "stress": 14.055163292080257,
+      "dominant_direction": "PUT_DRAIN",
+      "diagnosis": "Post-BFMM Spillover (from 2020-02-26, 1,689,064 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2020-03-05",
+          "ftd_quantity": 601189,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2020-03-03",
+          "ftd_quantity": 601189,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2020-03-02",
+          "ftd_quantity": 601189,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2020-02-26",
+          "ftd_quantity": 1689064,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2020-02-17",
+          "ftd_quantity": 81566,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2020-03-09",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2020-03-10",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2020-03-13",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2020-03-24",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2020-03-25",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    },
+    {
+      "event_date": "2020-04-01",
+      "stress": 85.30249707561035,
+      "dominant_direction": "PUT_SURGE",
+      "diagnosis": "Post-BFMM Spillover (from 2020-03-24, 1,498,144 FTDs)",
+      "backward_matches": [
+        {
+          "offset": 0,
+          "node_name": "Trade Date",
+          "origin_date": "2020-04-01",
+          "ftd_quantity": 324973,
+          "meaning": "New position opened \u2014 clock starts. FTD exposure begins on settlement date (T+2)."
+        },
+        {
+          "offset": 2,
+          "node_name": "Settlement Date",
+          "origin_date": "2020-03-30",
+          "ftd_quantity": 324973,
+          "meaning": "If delivery fails here, FTD is born. Watch for OI that doesn't decrease."
+        },
+        {
+          "offset": 3,
+          "node_name": "CNS Netting",
+          "origin_date": "2020-03-27",
+          "ftd_quantity": 398580,
+          "meaning": "The Continuous Net Settlement engine is processing. New synthetic locates being manufactured to cover the T+2 failure."
+        },
+        {
+          "offset": 6,
+          "node_name": "Post-BFMM Spillover",
+          "origin_date": "2020-03-24",
+          "ftd_quantity": 1498144,
+          "meaning": "The Bona Fide Market Maker T+5 close-out deadline has passed. Failures that survived are spilling into ex-clearing channels."
+        },
+        {
+          "offset": 13,
+          "node_name": "Reg SHO Threshold List",
+          "origin_date": "2020-03-13",
+          "ftd_quantity": 561593,
+          "meaning": "If 10,000+ shares fail for 13 consecutive settlement days, the security hits the threshold list. Locate requirements tighten."
+        }
+      ],
+      "forward_predictions": [
+        {
+          "offset_from_event": 2,
+          "predicted_date": "2020-04-03",
+          "node_name": "Settlement Date",
+          "what_to_watch": "Positions that opened T-2 that remain static = potential FTD."
+        },
+        {
+          "offset_from_event": 3,
+          "predicted_date": "2020-04-06",
+          "node_name": "CNS Netting",
+          "what_to_watch": "Deep OTM put OI appearing at $0.50-$5 strikes. This is the locate factory."
+        },
+        {
+          "offset_from_event": 6,
+          "predicted_date": "2020-04-09",
+          "node_name": "Post-BFMM Spillover",
+          "what_to_watch": "OI that appeared at T+3 persisting or spreading to adjacent strikes."
+        },
+        {
+          "offset_from_event": 13,
+          "predicted_date": "2020-04-20",
+          "node_name": "Reg SHO Threshold List",
+          "what_to_watch": "Shift from calls to puts at near-money strikes = hedging activity."
+        },
+        {
+          "offset_from_event": 14,
+          "predicted_date": "2020-04-21",
+          "node_name": "Phantom OI Peak Zone",
+          "what_to_watch": "This is the loudest the machine gets. Big OI spikes at deep OTM puts."
+        }
+      ]
+    }
+  ],
+  "phrasebook_summary": {
+    "BROAD_DEEP_OTM_SURGE": 209,
+    "BROAD_DRAIN": 15,
+    "STRIKE_MIGRATION": 47
+  },
+  "phrases_sample": [
+    {
+      "date": "2013-01-02",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 5 strikes elevated simultaneously, 332 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 5
+    },
+    {
+      "date": "2013-01-23",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 8 strikes elevated simultaneously, 351 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 8
+    },
+    {
+      "date": "2013-01-23",
+      "pattern": "BROAD_DRAIN",
+      "translation": "Settlement resolution: 4 strikes draining simultaneously. Failures being closed out \u2014 either via buy-in or capital absorption. Watch for price pressure.",
+      "severity": "MODERATE",
+      "n_strikes": 4
+    },
+    {
+      "date": "2013-01-23",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $5, $8, $12 to $10, $15, $14. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "HIGH"
+    },
+    {
+      "date": "2013-01-28",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 9 strikes elevated simultaneously, 356 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 9
+    },
+    {
+      "date": "2013-01-28",
+      "pattern": "BROAD_DRAIN",
+      "translation": "Settlement resolution: 4 strikes draining simultaneously. Failures being closed out \u2014 either via buy-in or capital absorption. Watch for price pressure.",
+      "severity": "MODERATE",
+      "n_strikes": 4
+    },
+    {
+      "date": "2013-01-28",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $5, $8, $12 to $10, $15, $14. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "HIGH"
+    },
+    {
+      "date": "2013-01-31",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 6 strikes elevated simultaneously, 105 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 6
+    },
+    {
+      "date": "2013-01-31",
+      "pattern": "BROAD_DRAIN",
+      "translation": "Settlement resolution: 4 strikes draining simultaneously. Failures being closed out \u2014 either via buy-in or capital absorption. Watch for price pressure.",
+      "severity": "MODERATE",
+      "n_strikes": 4
+    },
+    {
+      "date": "2013-01-31",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $5, $8, $12 to $10, $9. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "HIGH"
+    },
+    {
+      "date": "2013-02-05",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 5 strikes elevated simultaneously, 5 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 5
+    },
+    {
+      "date": "2013-02-05",
+      "pattern": "BROAD_DRAIN",
+      "translation": "Settlement resolution: 4 strikes draining simultaneously. Failures being closed out \u2014 either via buy-in or capital absorption. Watch for price pressure.",
+      "severity": "MODERATE",
+      "n_strikes": 4
+    },
+    {
+      "date": "2013-02-05",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $5, $8, $12 to $9. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "MODERATE"
+    },
+    {
+      "date": "2013-05-29",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 7 strikes elevated simultaneously, 31 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 7
+    },
+    {
+      "date": "2013-05-29",
+      "pattern": "BROAD_DRAIN",
+      "translation": "Settlement resolution: 6 strikes draining simultaneously. Failures being closed out \u2014 either via buy-in or capital absorption. Watch for price pressure.",
+      "severity": "MODERATE",
+      "n_strikes": 6
+    },
+    {
+      "date": "2013-05-29",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $10, $12, $11 to $14. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "MODERATE"
+    },
+    {
+      "date": "2013-06-03",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 7 strikes elevated simultaneously, 31 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 7
+    },
+    {
+      "date": "2013-06-03",
+      "pattern": "BROAD_DRAIN",
+      "translation": "Settlement resolution: 6 strikes draining simultaneously. Failures being closed out \u2014 either via buy-in or capital absorption. Watch for price pressure.",
+      "severity": "MODERATE",
+      "n_strikes": 6
+    },
+    {
+      "date": "2013-06-03",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $10, $12, $11 to $14. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "MODERATE"
+    },
+    {
+      "date": "2013-11-26",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 6 strikes elevated simultaneously, 3,143 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 6
+    },
+    {
+      "date": "2013-11-26",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $14 to $5, $10, $15. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "HIGH"
+    },
+    {
+      "date": "2020-04-01",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 19 strikes elevated simultaneously, 9,914 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 19
+    },
+    {
+      "date": "2020-04-02",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 17 strikes elevated simultaneously, 23,284 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 17
+    },
+    {
+      "date": "2020-04-03",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 10 strikes elevated simultaneously, 13,140 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 10
+    },
+    {
+      "date": "2020-04-06",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 10 strikes elevated simultaneously, 31,859 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 10
+    },
+    {
+      "date": "2020-04-07",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 4 strikes elevated simultaneously, 15,206 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "MODERATE",
+      "n_strikes": 4
+    },
+    {
+      "date": "2020-04-08",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 6 strikes elevated simultaneously, 15,854 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 6
+    },
+    {
+      "date": "2020-04-09",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 8 strikes elevated simultaneously, 8,747 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 8
+    },
+    {
+      "date": "2020-04-13",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 5 strikes elevated simultaneously, 7,606 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 5
+    },
+    {
+      "date": "2020-04-14",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 6 strikes elevated simultaneously, 27,559 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 6
+    },
+    {
+      "date": "2020-04-15",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 4 strikes elevated simultaneously, 11,441 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "MODERATE",
+      "n_strikes": 4
+    },
+    {
+      "date": "2020-04-17",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 4 strikes elevated simultaneously, 5,192 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "MODERATE",
+      "n_strikes": 4
+    },
+    {
+      "date": "2020-05-05",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 3 strikes elevated simultaneously, 20,361 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "MODERATE",
+      "n_strikes": 3
+    },
+    {
+      "date": "2020-05-12",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 3 strikes elevated simultaneously, 1,262 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "MODERATE",
+      "n_strikes": 3
+    },
+    {
+      "date": "2020-05-13",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 4 strikes elevated simultaneously, 2,301 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "MODERATE",
+      "n_strikes": 4
+    },
+    {
+      "date": "2020-05-15",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 7 strikes elevated simultaneously, 44,361 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 7
+    },
+    {
+      "date": "2020-06-08",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 7 strikes elevated simultaneously, 34,918 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 7
+    },
+    {
+      "date": "2020-06-08",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $10 to $10, $8, $6. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "HIGH"
+    },
+    {
+      "date": "2020-06-10",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 6 strikes elevated simultaneously, 13,262 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 6
+    },
+    {
+      "date": "2020-06-10",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $10 to $8, $15, $3. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "HIGH"
+    },
+    {
+      "date": "2020-06-11",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 6 strikes elevated simultaneously, 1,432 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 6
+    },
+    {
+      "date": "2020-06-11",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $10 to $8, $15, $9. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "HIGH"
+    },
+    {
+      "date": "2020-06-12",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 8 strikes elevated simultaneously, 19,175 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 8
+    },
+    {
+      "date": "2020-06-12",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $10 to $5, $15, $1. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "HIGH"
+    },
+    {
+      "date": "2020-06-15",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 4 strikes elevated simultaneously, 37,416 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "MODERATE",
+      "n_strikes": 4
+    },
+    {
+      "date": "2020-06-15",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $10 to $10, $15, $2. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "HIGH"
+    },
+    {
+      "date": "2020-07-01",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 7 strikes elevated simultaneously, 28,153 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 7
+    },
+    {
+      "date": "2020-07-14",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 5 strikes elevated simultaneously, 17,602 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 5
+    },
+    {
+      "date": "2020-07-28",
+      "pattern": "BROAD_DEEP_OTM_SURGE",
+      "translation": "Settlement pipeline flooding: 5 strikes elevated simultaneously, 49,257 excess contracts. A large FTD batch entered the system ~T-3 to T-6 days ago.",
+      "severity": "HIGH",
+      "n_strikes": 5
+    },
+    {
+      "date": "2020-07-28",
+      "pattern": "STRIKE_MIGRATION",
+      "translation": "Obligation rolling: OI migrating from $8 to $10, $0, $4. Failures being transferred between expirations or strikes to reset settlement clocks.",
+      "severity": "HIGH"
+    }
+  ],
+  "current_state": {
+    "date": "2026-02-23",
+    "stress": 0.19010120302313965,
+    "trend": "DECREASING",
+    "n_active_signals": 0
+  }
+}

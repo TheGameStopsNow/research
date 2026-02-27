@@ -1,0 +1,170 @@
+{
+  "_title": "Phase 16 Deep Forensic Investigation \u2014 Master Cross-Reference",
+  "_date": "2026-02-18",
+  "_threads": 4,
+  "thread_1_robinhood_606": {
+    "source": "SEC EDGAR + S3 (Rule 606 XML)",
+    "entity": "Robinhood Securities, LLC",
+    "period": "FY2024 (all 4 quarters)",
+    "citadel_annual_pfof_usd": 352532886.15,
+    "citadel_annual_share_pct": 36.3,
+    "total_annual_pfof_usd": 969912812.85,
+    "citadel_options_annual_pfof_usd": 282510484.81,
+    "citadel_options_avg_share_pct": 36.1,
+    "quarterly_trend": {
+      "Q1": {
+        "grand_total_pfof": 188734621.64000002,
+        "citadel_total_pfof": 73134416.99000001,
+        "citadel_share_pct": 38.74986812408988,
+        "citadel_options_pfof": 58305712.91,
+        "citadel_equity_pfof": 14828704.080000002
+      },
+      "Q2": {
+        "grand_total_pfof": 228533952.77,
+        "citadel_total_pfof": 83275984.33,
+        "citadel_share_pct": 36.439217595737375,
+        "citadel_options_pfof": 68982609.1,
+        "citadel_equity_pfof": 14293375.23
+      },
+      "Q3": {
+        "grand_total_pfof": 253396132.92,
+        "citadel_total_pfof": 86607062.14999999,
+        "citadel_share_pct": 34.17852559626189,
+        "citadel_options_pfof": 71162410.46000001,
+        "citadel_equity_pfof": 15444651.69
+      },
+      "Q4": {
+        "grand_total_pfof": 299248105.52,
+        "citadel_total_pfof": 109515422.67999999,
+        "citadel_share_pct": 36.59686416049194,
+        "citadel_options_pfof": 84059752.34,
+        "citadel_equity_pfof": 25455670.339999996
+      }
+    },
+    "pfof_structure": "RHS receives PFOF, passes 80% to RHF. Fixed % of NBBO spread (12.35% reg hrs, 9% extended)",
+    "all_venues": [
+      "CITADEL SECURITIES LLC",
+      "Wolverine Execution Services",
+      "Dash/IMC Financial Markets",
+      "Morgan Stanley & Co.",
+      "Global Execution Brokers (Susquehanna)",
+      "Jane Street Capital",
+      "Virtu Americas",
+      "Two Sigma Securities",
+      "G1 Execution Services"
+    ],
+    "significance": "Citadel receives 37% of options PFOF and ~21-28% of equity routing from Robinhood. This makes Citadel the dominant counterparty to every Robinhood retail order."
+  },
+  "thread_2_robinhood_x17a5": {
+    "source": "SEC EDGAR X-17A-5 (CIK 0001699855)",
+    "entity": "Robinhood Securities, LLC",
+    "filed": "2025-02-19",
+    "period_ending": "2024-12-31",
+    "auditor": "Ernst & Young LLP (PCAOB #42, since 2003)",
+    "hq": "500 Colonial Center Parkway, Suite 100, Lake Mary, FL 32746",
+    "cfo": "Daniel Kelati",
+    "net_capital_usd_billions": 2.54,
+    "excess_net_capital_usd_billions": 2.36,
+    "min_required_usd_millions": 178,
+    "reg_sho_penalty_usd_millions": 33.5,
+    "reg_sho_violations": [
+      "Stock lending program failures (May 2019 - March 2020)",
+      "Fractional trading failures (December 2019 - December 2023)",
+      "Incomplete Electronic Blue Sheets (October 2018 - April 2024)",
+      "Untimely SAR filings (January 2020 - March 2022)",
+      "Inadequate identity theft procedures (April 2019 - June 2022)"
+    ],
+    "jan_2021_investigation": "SEC Enforcement closed investigation into Early 2021 Trading Restrictions and employee trading on January 10, 2025",
+    "significance": "Robinhood's own X-17A-5 reveals $33.5M in Reg SHO penalties for systematic failures spanning 2018-2024. The SEC closing the Jan 2021 investigation does NOT cover the May 2024 events."
+  },
+  "thread_3_sec_ftd": {
+    "source": "SEC Fails-to-Deliver (CNS) Data",
+    "symbol": "GME",
+    "cusip": "36467W109",
+    "period": "April-July 2024",
+    "data_points": 67,
+    "total_fail_shares": 5495703,
+    "total_notional_usd": 126933956.72999997,
+    "peak": {
+      "date": "2024-05-15",
+      "shares": 571602,
+      "price": 48.75,
+      "notional_usd": 27865597.5,
+      "context": "T+2 settlement of May 13 (day Roaring Kitty returned to X)"
+    },
+    "pre_event_spike": {
+      "dates": "2024-05-06 to 2024-05-08",
+      "explanation": "FTDs surged from 941 (May 3) to 525,493 (May 8) \u2014 7 days BEFORE RK's public return",
+      "may_6": 186627,
+      "may_7": 433054,
+      "may_8": 525493,
+      "baseline_may_3": 941,
+      "multiplication_factor": 558
+    },
+    "pre_may17_avg_daily": 117657.57575757576,
+    "post_may17_avg_daily": 47441.26470588235,
+    "change_pct": -59.7,
+    "comparison_stocks": {
+      "AMC": {
+        "total_fail_shares": 28475865,
+        "peak_date": "2024-05-07",
+        "peak_shares": 6726965
+      },
+      "KOSS": {
+        "total_fail_shares": 1527386,
+        "peak_date": "2024-07-09",
+        "peak_shares": 266518
+      }
+    },
+    "significance": "FTDs exploded 7 days BEFORE Roaring Kitty's public return. The May 6-8 spike (186K\u2192525K shares) at $16-18/share suggests institutional positioning or foreknowledge of the coming event. AMC shows a parallel spike peaking May 7 (6.7M shares), confirming systematic rather than idiosyncratic failure."
+  },
+  "thread_4_citadel_edgar": {
+    "source": "SEC EDGAR X-17A-5 (CIK 0001146184)",
+    "entity": "CITADEL SECURITIES LLC",
+    "fy2024_filed": "2025-02-28",
+    "balance_sheet": {
+      "as_of": "2024-12-31",
+      "total_assets_millions": 58608,
+      "total_liabilities_millions": 52392,
+      "members_capital_millions": 6216,
+      "yoy_capital_change_pct": -46.8,
+      "yoy_assets_change_pct": -27.1
+    },
+    "critical_items": {
+      "derivative_notional_millions": 2159664,
+      "equity_derivative_notional_millions": 1971888,
+      "leverage_ratio_derivatives_to_assets": 36.8,
+      "intercompany_repos_millions": 22051,
+      "intercompany_repos_share_of_total_pct": 44,
+      "intercompany_ftd_receivable_millions": 20,
+      "unsettled_forward_repos_billions": 14.16,
+      "clearing_prime_broker": "BofA Securities, Inc.",
+      "loan_from_parent_millions": 473,
+      "net_capital_excess_billions": 3.42
+    },
+    "auditor": "PricewaterhouseCoopers LLP (PCAOB #238, since 2005)",
+    "hq": "200 South Biscayne Boulevard, Suite 3300, Miami, FL 33131",
+    "significance": "Member's capital dropped $5.48B in one year. Derivative notional exceeds 33\u00d7 total assets. 44% of all repo is intercompany. $14.16B in unsettled forward repos bridge the year-end balance sheet date."
+  },
+  "cross_reference_connections": [
+    "Citadel receives 37% of Robinhood's OPTIONS order flow \u2014 $282.5M in PFOF for 2024",
+    "Citadel's FY2024 X-17A-5 shows $20M in intercompany FTD receivables",
+    "SEC FTD data shows GME fails exploded 7 days BEFORE public catalyst (May 6-8)",
+    "Robinhood was penalized $33.5M for Reg SHO and Blue Sheet failures spanning 2018-2024",
+    "Both entities relocated to Florida (Citadel: Miami 2022, Robinhood: Lake Mary)",
+    "Both entities file FOCUS reports as broker-dealers under Rule 15c3-1 alternative method",
+    "Pre-event FTD timing (May 6-8) correlates with institutional pre-positioning, not retail activity"
+  ],
+  "files_generated": [
+    "robinhood_606_2024_quarterly_comparison.json",
+    "robinhood_606_q2_2024_analysis.json",
+    "robinhood_securities_fy2024_ocr_text.txt",
+    "robinhood_securities_fy2024_ocr_extraction.json",
+    "robinhood_fy24rhsshort.pdf",
+    "sec_ftd_gme_may_june_2024.json",
+    "citadel_x17a5_fy2024_full.txt",
+    "CDRG_BS_ONLY_FS_2024_edgar.pdf",
+    "CDRG_BS_ONLY_FS_2023_edgar.pdf",
+    "terminal_strike_action_results.json"
+  ]
+}

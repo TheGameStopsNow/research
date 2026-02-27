@@ -1,0 +1,19 @@
+{
+  "source": "https://www.sec.gov/Archives/edgar/data/1610520/000161052024000141/ubs-20240630.htm",
+  "filing_date": "2024-08-14",
+  "report_period": "2024-06-30",
+  "total_text_lines": 62084,
+  "keyword_hit_counts": {
+    "Non-Core and Legacy": 32,
+    "NCL": 307,
+    "non-core": 67,
+    "risk-weighted asset": 20,
+    "RWA": 70,
+    "equity derivative": 5,
+    "Archegos": 4,
+    "Credit Suisse": 208,
+    "notional": 11,
+    "swap": 7
+  },
+  "note": "Full filing is a structured XBRL document \u2014 NCL data may be in specific R*.htm subsections"
+}

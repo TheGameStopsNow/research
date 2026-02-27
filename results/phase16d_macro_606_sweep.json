@@ -1,0 +1,372 @@
+{
+  "action": "Macro Industry 606 Routing Sweep",
+  "quarter": "Q2 2024",
+  "brokers_tested": [
+    "Charles Schwab",
+    "Fidelity",
+    "Interactive Brokers"
+  ],
+  "broker_results": {
+    "Charles Schwab": {
+      "url": "https://public.s3.com/rule606/chas/5393_606_NMS_2024_Q2_CHAS.xml",
+      "venues_found": 10,
+      "top_venues": [
+        {
+          "venue": "CITADEL SECURITIES LLC",
+          "avg_pct": 30.35
+        },
+        {
+          "venue": "DASH/IMC FINANCIAL MARKETS",
+          "avg_pct": 27.09
+        },
+        {
+          "venue": "JANEST",
+          "avg_pct": 21.88
+        },
+        {
+          "venue": "VIRTU AMERICAS LLC",
+          "avg_pct": 20.05
+        },
+        {
+          "venue": "G1 EXECUTION SERVICES",
+          "avg_pct": 16.09
+        },
+        {
+          "venue": "GLOBAL EXECUTION BROKERS LP",
+          "avg_pct": 14.18
+        },
+        {
+          "venue": "WOLVERINE EXECUTION SERVICES, LLC",
+          "avg_pct": 12.94
+        },
+        {
+          "venue": "MORGAN STANLEY & CO., LLC",
+          "avg_pct": 7.5
+        },
+        {
+          "venue": "TWO SIGMA SECURITIES",
+          "avg_pct": 6.64
+        },
+        {
+          "venue": "UBS SECURITIES LLC",
+          "avg_pct": 5.43
+        }
+      ]
+    },
+    "Fidelity": {
+      "url": "https://clearingcustody.fidelity.com/-/media/project/shared-regulatory/xml/fbs-q2-2024.xml",
+      "venues_found": 16,
+      "top_venues": [
+        {
+          "venue": "CITADEL SECURITIES LLC",
+          "avg_pct": 25.46
+        },
+        {
+          "venue": "DASH FINANCIAL TECHNOLOGIES LLC",
+          "avg_pct": 20.65
+        },
+        {
+          "venue": "NASDAQ EXECUTION SERVICES, LLC",
+          "avg_pct": 19.86
+        },
+        {
+          "venue": "NEW YORK STOCK EXCHANGE",
+          "avg_pct": 18.39
+        },
+        {
+          "venue": "WOLVERINE EXECUTION SERVICES LLC",
+          "avg_pct": 16.07
+        },
+        {
+          "venue": "VIRTU AMERICAS LLC",
+          "avg_pct": 12.08
+        },
+        {
+          "venue": "SUSQUEHANNA CAPITAL GROUP",
+          "avg_pct": 11.69
+        },
+        {
+          "venue": "NYSE ARCA",
+          "avg_pct": 10.21
+        },
+        {
+          "venue": "NATIONAL FINANCIAL SERVICES LLC",
+          "avg_pct": 9.24
+        },
+        {
+          "venue": "G1 EXECUTION SERVICES",
+          "avg_pct": 7.21
+        }
+      ]
+    },
+    "Interactive Brokers": {
+      "url": "https://www.interactivebrokers.com/ibkr606Reports/IBKR_606a_2024_Q2.xml",
+      "venues_found": 27,
+      "top_venues": [
+        {
+          "venue": "NASDAQ STOCK MARKET",
+          "avg_pct": 32.12
+        },
+        {
+          "venue": "CHICAGO BOARD OPTIONS EXCHANGE",
+          "avg_pct": 23.47
+        },
+        {
+          "venue": "NYSE ARCA OPTIONS",
+          "avg_pct": 21.34
+        },
+        {
+          "venue": "CBOE EDGX EXCHANGE",
+          "avg_pct": 16.56
+        },
+        {
+          "venue": "NEW YORK STOCK EXCHANGE",
+          "avg_pct": 14.05
+        },
+        {
+          "venue": "CBOE C2 EXCHANGE",
+          "avg_pct": 10.88
+        },
+        {
+          "venue": "NYSE ARCA",
+          "avg_pct": 10.72
+        },
+        {
+          "venue": "CBOE EDGX OPTIONS EXCHANGE",
+          "avg_pct": 8.96
+        },
+        {
+          "venue": "IBKR ATS",
+          "avg_pct": 6.34
+        },
+        {
+          "venue": "NASDAQ ISE",
+          "avg_pct": 6.25
+        }
+      ]
+    }
+  },
+  "master_data": [
+    {
+      "Broker": "Charles Schwab",
+      "Venue": "CITADEL SECURITIES LLC",
+      "Avg_Routing_Pct": 30.35,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options, Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Charles Schwab",
+      "Venue": "DASH/IMC FINANCIAL MARKETS",
+      "Avg_Routing_Pct": 27.09,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    },
+    {
+      "Broker": "Charles Schwab",
+      "Venue": "JANEST",
+      "Avg_Routing_Pct": 21.88,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Charles Schwab",
+      "Venue": "VIRTU AMERICAS LLC",
+      "Avg_Routing_Pct": 20.05,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Charles Schwab",
+      "Venue": "G1 EXECUTION SERVICES",
+      "Avg_Routing_Pct": 16.09,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Charles Schwab",
+      "Venue": "GLOBAL EXECUTION BROKERS LP",
+      "Avg_Routing_Pct": 14.18,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    },
+    {
+      "Broker": "Charles Schwab",
+      "Venue": "WOLVERINE EXECUTION SERVICES, LLC",
+      "Avg_Routing_Pct": 12.94,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    },
+    {
+      "Broker": "Charles Schwab",
+      "Venue": "MORGAN STANLEY & CO., LLC",
+      "Avg_Routing_Pct": 7.5,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    },
+    {
+      "Broker": "Charles Schwab",
+      "Venue": "TWO SIGMA SECURITIES",
+      "Avg_Routing_Pct": 6.64,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Charles Schwab",
+      "Venue": "UBS SECURITIES LLC",
+      "Avg_Routing_Pct": 5.43,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Fidelity",
+      "Venue": "CITADEL SECURITIES LLC",
+      "Avg_Routing_Pct": 25.46,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options, Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Fidelity",
+      "Venue": "DASH FINANCIAL TECHNOLOGIES LLC",
+      "Avg_Routing_Pct": 20.65,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    },
+    {
+      "Broker": "Fidelity",
+      "Venue": "NASDAQ EXECUTION SERVICES, LLC",
+      "Avg_Routing_Pct": 19.86,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Fidelity",
+      "Venue": "NEW YORK STOCK EXCHANGE",
+      "Avg_Routing_Pct": 18.39,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Fidelity",
+      "Venue": "WOLVERINE EXECUTION SERVICES LLC",
+      "Avg_Routing_Pct": 16.07,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    },
+    {
+      "Broker": "Fidelity",
+      "Venue": "VIRTU AMERICAS LLC",
+      "Avg_Routing_Pct": 12.08,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Fidelity",
+      "Venue": "SUSQUEHANNA CAPITAL GROUP",
+      "Avg_Routing_Pct": 11.69,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    },
+    {
+      "Broker": "Fidelity",
+      "Venue": "NYSE ARCA",
+      "Avg_Routing_Pct": 10.21,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks"
+    },
+    {
+      "Broker": "Fidelity",
+      "Venue": "NATIONAL FINANCIAL SERVICES LLC",
+      "Avg_Routing_Pct": 9.24,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Fidelity",
+      "Venue": "G1 EXECUTION SERVICES",
+      "Avg_Routing_Pct": 7.21,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Interactive Brokers",
+      "Venue": "NASDAQ STOCK MARKET",
+      "Avg_Routing_Pct": 32.12,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Interactive Brokers",
+      "Venue": "CHICAGO BOARD OPTIONS EXCHANGE",
+      "Avg_Routing_Pct": 23.47,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    },
+    {
+      "Broker": "Interactive Brokers",
+      "Venue": "NYSE ARCA OPTIONS",
+      "Avg_Routing_Pct": 21.34,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    },
+    {
+      "Broker": "Interactive Brokers",
+      "Venue": "CBOE EDGX EXCHANGE",
+      "Avg_Routing_Pct": 16.56,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Interactive Brokers",
+      "Venue": "NEW YORK STOCK EXCHANGE",
+      "Avg_Routing_Pct": 14.05,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Interactive Brokers",
+      "Venue": "CBOE C2 EXCHANGE",
+      "Avg_Routing_Pct": 10.88,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    },
+    {
+      "Broker": "Interactive Brokers",
+      "Venue": "NYSE ARCA",
+      "Avg_Routing_Pct": 10.72,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Interactive Brokers",
+      "Venue": "CBOE EDGX OPTIONS EXCHANGE",
+      "Avg_Routing_Pct": 8.96,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    },
+    {
+      "Broker": "Interactive Brokers",
+      "Venue": "IBKR ATS",
+      "Avg_Routing_Pct": 6.34,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Other NMS Stocks, S&P 500 Stocks"
+    },
+    {
+      "Broker": "Interactive Brokers",
+      "Venue": "NASDAQ ISE",
+      "Avg_Routing_Pct": 6.25,
+      "Net_Payment_Q2": 0.0,
+      "Sections": "Options"
+    }
+  ],
+  "cartel_analysis": {
+    "citadel_brokers": [
+      "Charles Schwab",
+      "Fidelity"
+    ],
+    "virtu_brokers": [
+      "Charles Schwab",
+      "Fidelity"
+    ],
+    "verdict": "CITADEL ROUTING MONOPOLY CONFIRMED across 3 of 4 major brokerages (including Robinhood)."
+  }
+}

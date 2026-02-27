@@ -1,0 +1,198 @@
+{
+  "test": "OSINT_Test_7_871m_Splividend",
+  "dates": {
+    "record_date": "2022-07-18",
+    "ex_date": "2022-07-22",
+    "analysis_window": "2022-06-01 to 2022-07-22",
+    "control_window": "2022-04-01 to 2022-05-31"
+  },
+  "volume_analysis": {
+    "control_avg_volume": 3657511.56097561,
+    "pre_splividend_avg_volume": 3463180.388888889,
+    "volume_ratio": 0.9468679267729,
+    "spike_days_2sigma": 2,
+    "spike_details": [
+      {
+        "date": "2022-07-07",
+        "volume": 7578391,
+        "zscore": 2.17
+      },
+      {
+        "date": "2022-07-22",
+        "volume": 10060249,
+        "zscore": 3.47
+      }
+    ]
+  },
+  "options_analysis": {
+    "total_contracts": 2388,
+    "calls": 1194,
+    "puts": 1194,
+    "flex_european": 0,
+    "top_expirations": [
+      [
+        "2022-07-22",
+        238
+      ],
+      [
+        "2022-07-29",
+        228
+      ],
+      [
+        "2023-01-20",
+        218
+      ],
+      [
+        "2022-08-05",
+        190
+      ],
+      [
+        "2022-08-26",
+        178
+      ],
+      [
+        "2022-08-12",
+        178
+      ],
+      [
+        "2022-08-19",
+        142
+      ],
+      [
+        "2024-01-19",
+        134
+      ],
+      [
+        "2022-10-21",
+        102
+      ],
+      [
+        "2023-05-19",
+        96
+      ]
+    ]
+  },
+  "price_action": {
+    "pre_record_avg_volume": 3569784.888888889,
+    "pre_record_price_low": 113.37,
+    "pre_record_price_high": 151.95
+  },
+  "871m_assessment": {
+    "transition_relief": "IRS Notice 2022-37 (Aug 2022) \u2014 only delta-one swaps subject to withholding through 2024",
+    "delta_threshold": "1.0 (NOT 0.80 \u2014 transition relief applies)",
+    "implication": "Pure TRS with delta=1.0 on GME would owe 30% on the splividend equivalent",
+    "restructuring_window": "Jun 1 - Jul 18, 2022 (30 trading days before record date)"
+  },
+  "critical_window_daily": [
+    {
+      "date": "2022-07-01",
+      "close": 123.42,
+      "volume": 1654279,
+      "vwap": 122.2122,
+      "note": ""
+    },
+    {
+      "date": "2022-07-05",
+      "close": 120.23,
+      "volume": 1511440,
+      "vwap": 120.512,
+      "note": ""
+    },
+    {
+      "date": "2022-07-06",
+      "close": 117.43,
+      "volume": 2497249,
+      "vwap": 119.3603,
+      "note": "Split announced"
+    },
+    {
+      "date": "2022-07-07",
+      "close": 135.12,
+      "volume": 7578391,
+      "vwap": 129.1401,
+      "note": ""
+    },
+    {
+      "date": "2022-07-08",
+      "close": 128.54,
+      "volume": 3299861,
+      "vwap": 127.9464,
+      "note": ""
+    },
+    {
+      "date": "2022-07-11",
+      "close": 130.09,
+      "volume": 1889586,
+      "vwap": 128.9813,
+      "note": ""
+    },
+    {
+      "date": "2022-07-12",
+      "close": 137.12,
+      "volume": 4224920,
+      "vwap": 136.8389,
+      "note": ""
+    },
+    {
+      "date": "2022-07-13",
+      "close": 141.28,
+      "volume": 3425947,
+      "vwap": 140.8985,
+      "note": ""
+    },
+    {
+      "date": "2022-07-14",
+      "close": 136.2,
+      "volume": 5242552,
+      "vwap": 144.298,
+      "note": ""
+    },
+    {
+      "date": "2022-07-15",
+      "close": 141.64,
+      "volume": 2458118,
+      "vwap": 138.4142,
+      "note": ""
+    },
+    {
+      "date": "2022-07-18",
+      "close": 146.64,
+      "volume": 2788783,
+      "vwap": 146.7171,
+      "note": "RECORD DATE"
+    },
+    {
+      "date": "2022-07-19",
+      "close": 151.7,
+      "volume": 3206955,
+      "vwap": 151.7417,
+      "note": ""
+    },
+    {
+      "date": "2022-07-20",
+      "close": 158.75,
+      "volume": 2850073,
+      "vwap": 158.0629,
+      "note": ""
+    },
+    {
+      "date": "2022-07-21",
+      "close": 153.47,
+      "volume": 2319449,
+      "vwap": 153.4777,
+      "note": "Distribution"
+    },
+    {
+      "date": "2022-07-22",
+      "close": 35.78,
+      "volume": 10060249,
+      "vwap": 36.5424,
+      "note": "EX-DATE (split)"
+    }
+  ],
+  "verdict": {
+    "signal": "NEGATIVE",
+    "verdict": "NORMAL \u2014 No significant volume anomaly detected",
+    "volume_ratio": 0.9468679267729
+  }
+}

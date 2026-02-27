@@ -1,0 +1,56 @@
+
+.env
+__pycache__/
+*.py[cod]
+.DS_Store
+*.zip
+*.zip.enc
+*.log
+.vscode/
+.idea/
+venv/
+.venv/
+env/
+reports/raw_logs/
+notebooks/.ipynb_checkpoints/
+references/regulatory_dissemination_plan.md
+references/SEC_TCR_NARRATIVE.md
+code/data/
+
+# Season 2 research (not part of Options & Consequences)
+data/season2/
+code/season2/
+results/season2/
+research_notes_crypto.md
+/temp
+
+/code/analysis/data
+code/analysis/download_control_trades.py
+/data/polygon
+
+# PII protection tools — NEVER track these
+code/tools/scrub_pii.py
+.env.example
+
+# Vendor price/market data — do not distribute
+data/ftd/gme_daily_price.csv
+data/ftd/gme_options_oi_daily.csv
+data/systemic_exhaust/eurusd_spot_*.csv
+data/systemic_exhaust/usdjpy_*.csv
+
+# Platform-specific exports — generated locally, never pushed
+**/final_reddit_*.md
+**/final_twitter_*.md
+**/figures/table_*_*.png
+
+# Unpublished DD series — local drafts, not yet ready for publication
+posts/05_the_shadow_ledger/
+posts/06_the_trojan_horse/
+
+# Unpublished papers — leaked previously, purged from public repo
+papers/07_shadow_ledger_offshore_crypto.md
+papers/08_compliance_as_a_service.md
+
+# DD Sync Chrome extension — local tool, not part of published research
+code/tools/dd-sync-extension/
+/code/tools

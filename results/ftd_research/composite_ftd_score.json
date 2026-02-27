@@ -1,0 +1,37 @@
+{
+  "data_availability": {
+    "GME": {
+      "records": 1127,
+      "start": "2020-12-01",
+      "end": "2026-01-30"
+    },
+    "GMEU": {
+      "records": 143,
+      "start": "2025-04-25",
+      "end": "2026-01-28"
+    },
+    "IGME": {
+      "records": 65,
+      "start": "2025-06-11",
+      "end": "2026-01-16"
+    },
+    "GMEY": {
+      "records": 66,
+      "start": "2025-09-10",
+      "end": "2026-01-30"
+    }
+  },
+  "composite_stats": {
+    "mean_10d": 868360.333209785,
+    "std_10d": 1452654.4062341105,
+    "threshold_2sigma": 3773669.145678006,
+    "composite_spikes": 66,
+    "gme_only_spikes": 63,
+    "composite_only_spikes": 11
+  },
+  "forward_returns": {
+    "composite_spike_10d_mean": 0.682379573174761,
+    "non_spike_10d_mean": 0.03178919478606188,
+    "differential": 0.650590378388699
+  }
+}

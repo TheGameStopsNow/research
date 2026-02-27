@@ -1,0 +1,214 @@
+{
+  "part_a_window_optimization": {
+    "pm0": {
+      "window": 0,
+      "echo_days": 8,
+      "echo_pct": 0.018867924528301886,
+      "total_phantom": 129,
+      "echo_phantom": 44,
+      "expected": 2.4339622641509435,
+      "enrichment": 18.07751937984496
+    },
+    "pm1": {
+      "window": 1,
+      "echo_days": 10,
+      "echo_pct": 0.02358490566037736,
+      "total_phantom": 129,
+      "echo_phantom": 46,
+      "expected": 3.0424528301886795,
+      "enrichment": 15.119379844961239
+    },
+    "pm2": {
+      "window": 2,
+      "echo_days": 13,
+      "echo_pct": 0.030660377358490566,
+      "total_phantom": 129,
+      "echo_phantom": 64,
+      "expected": 3.955188679245283,
+      "enrichment": 16.181276088252833
+    },
+    "pm3": {
+      "window": 3,
+      "echo_days": 18,
+      "echo_pct": 0.04245283018867924,
+      "total_phantom": 129,
+      "echo_phantom": 64,
+      "expected": 5.476415094339623,
+      "enrichment": 11.686477174849268
+    },
+    "pm5": {
+      "window": 5,
+      "echo_days": 25,
+      "echo_pct": 0.0589622641509434,
+      "total_phantom": 129,
+      "echo_phantom": 67,
+      "expected": 7.606132075471698,
+      "enrichment": 8.808682170542635
+    },
+    "pm7": {
+      "window": 7,
+      "echo_days": 33,
+      "echo_pct": 0.07783018867924528,
+      "total_phantom": 129,
+      "echo_phantom": 68,
+      "expected": 10.040094339622641,
+      "enrichment": 6.772844726333099
+    },
+    "pm10": {
+      "window": 10,
+      "echo_days": 41,
+      "echo_pct": 0.09669811320754718,
+      "total_phantom": 129,
+      "echo_phantom": 68,
+      "expected": 12.474056603773585,
+      "enrichment": 5.4513140480242015
+    }
+  },
+  "part_b_post_split": {
+    "echo_rate": 0.5238095238095238,
+    "phantom_enrichment": 1.958169934640523,
+    "deep_otm_ratio": 0.7936530559021098,
+    "pc_ratio_echo": 0.48007880989994095,
+    "pc_ratio_non_echo": 0.4666553719388565
+  },
+  "part_c_block_trades": {
+    "phantom_dates": {
+      "block_trades": 1740,
+      "retail_trades": 210291,
+      "total_size": "1357662",
+      "total_trades": 240880,
+      "median_size": 1.0,
+      "max_size": "2351"
+    },
+    "control_dates": {
+      "block_trades": 0,
+      "retail_trades": 0,
+      "total_size": 0,
+      "total_trades": 0,
+      "median_size": 0,
+      "max_size": 0
+    },
+    "phantom_examples": [
+      {
+        "date": "2024-05-09",
+        "strike": 10.0,
+        "size": 315,
+        "price": 0.05,
+        "exchange": 43,
+        "condition": 130
+      },
+      {
+        "date": "2024-05-09",
+        "strike": 14.0,
+        "size": 234,
+        "price": 0.1,
+        "exchange": 46,
+        "condition": 18
+      },
+      {
+        "date": "2024-05-09",
+        "strike": 14.5,
+        "size": 207,
+        "price": 0.75,
+        "exchange": 9,
+        "condition": 18
+      },
+      {
+        "date": "2024-05-09",
+        "strike": 13.5,
+        "size": 203,
+        "price": 0.03,
+        "exchange": 22,
+        "condition": 95
+      },
+      {
+        "date": "2024-05-09",
+        "strike": 15.0,
+        "size": 200,
+        "price": 0.29,
+        "exchange": 46,
+        "condition": 18
+      },
+      {
+        "date": "2024-05-13",
+        "strike": 21.0,
+        "size": 602,
+        "price": 2.36,
+        "exchange": 9,
+        "condition": 18
+      },
+      {
+        "date": "2024-05-13",
+        "strike": 10.0,
+        "size": 512,
+        "price": 0.28,
+        "exchange": 46,
+        "condition": 18
+      },
+      {
+        "date": "2024-05-13",
+        "strike": 12.5,
+        "size": 500,
+        "price": 0.03,
+        "exchange": 7,
+        "condition": 18
+      },
+      {
+        "date": "2024-05-13",
+        "strike": 11.0,
+        "size": 498,
+        "price": 0.04,
+        "exchange": 43,
+        "condition": 125
+      },
+      {
+        "date": "2024-05-13",
+        "strike": 21.0,
+        "size": 498,
+        "price": 1.24,
+        "exchange": 7,
+        "condition": 18
+      },
+      {
+        "date": "2024-05-14",
+        "strike": 10.5,
+        "size": 997,
+        "price": 0.04,
+        "exchange": 7,
+        "condition": 18
+      },
+      {
+        "date": "2024-05-14",
+        "strike": 10.0,
+        "size": 545,
+        "price": 0.08,
+        "exchange": 7,
+        "condition": 95
+      },
+      {
+        "date": "2024-05-14",
+        "strike": 11.0,
+        "size": 500,
+        "price": 0.01,
+        "exchange": 69,
+        "condition": 18
+      },
+      {
+        "date": "2024-05-14",
+        "strike": 18.0,
+        "size": 500,
+        "price": 0.15,
+        "exchange": 46,
+        "condition": 18
+      },
+      {
+        "date": "2024-05-14",
+        "strike": 20.0,
+        "size": 500,
+        "price": 0.25,
+        "exchange": 65,
+        "condition": 95
+      }
+    ]
+  }
+}

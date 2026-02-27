@@ -1,0 +1,706 @@
+{
+  "stress_returns": {
+    "5": {
+      "q1_mean": 0.534,
+      "q5_mean": 10.466,
+      "spread": 9.932,
+      "t_stat": 2.159,
+      "p_val": 0.0322,
+      "n_q1": 149,
+      "n_q5": 154
+    },
+    "10": {
+      "q1_mean": 0.976,
+      "q5_mean": 25.589,
+      "spread": 24.614,
+      "t_stat": 3.148,
+      "p_val": 0.002,
+      "n_q1": 149,
+      "n_q5": 154
+    },
+    "15": {
+      "q1_mean": 1.109,
+      "q5_mean": 33.623,
+      "spread": 32.514,
+      "t_stat": 3.145,
+      "p_val": 0.002,
+      "n_q1": 149,
+      "n_q5": 154
+    },
+    "20": {
+      "q1_mean": 1.512,
+      "q5_mean": 42.376,
+      "spread": 40.864,
+      "t_stat": 2.923,
+      "p_val": 0.004,
+      "n_q1": 147,
+      "n_q5": 154
+    },
+    "25": {
+      "q1_mean": 1.674,
+      "q5_mean": 63.684,
+      "spread": 62.011,
+      "t_stat": 3.282,
+      "p_val": 0.0013,
+      "n_q1": 143,
+      "n_q5": 154
+    },
+    "30": {
+      "q1_mean": 0.733,
+      "q5_mean": 74.704,
+      "spread": 73.971,
+      "t_stat": 3.301,
+      "p_val": 0.0012,
+      "n_q1": 143,
+      "n_q5": 154
+    },
+    "35": {
+      "q1_mean": 2.41,
+      "q5_mean": 82.884,
+      "spread": 80.474,
+      "t_stat": 3.696,
+      "p_val": 0.0003,
+      "n_q1": 141,
+      "n_q5": 154
+    },
+    "40": {
+      "q1_mean": 2.986,
+      "q5_mean": 96.018,
+      "spread": 93.032,
+      "t_stat": 3.765,
+      "p_val": 0.0002,
+      "n_q1": 136,
+      "n_q5": 154
+    },
+    "45": {
+      "q1_mean": 4.716,
+      "q5_mean": 92.122,
+      "spread": 87.407,
+      "t_stat": 3.722,
+      "p_val": 0.0003,
+      "n_q1": 132,
+      "n_q5": 154
+    }
+  },
+  "ftd_t35_impact": {
+    "impact_by_offset": {
+      "3": {
+        "mean_return": 33.906,
+        "baseline": 1.711,
+        "excess": 32.195,
+        "n": 121
+      },
+      "6": {
+        "mean_return": 41.383,
+        "baseline": 3.871,
+        "excess": 37.512,
+        "n": 121
+      },
+      "13": {
+        "mean_return": 82.764,
+        "baseline": 9.842,
+        "excess": 72.923,
+        "n": 121
+      },
+      "15": {
+        "mean_return": 80.258,
+        "baseline": 11.011,
+        "excess": 69.247,
+        "n": 121
+      },
+      "26": {
+        "mean_return": 118.695,
+        "baseline": 14.895,
+        "excess": 103.8,
+        "n": 121
+      },
+      "33": {
+        "mean_return": 153.55,
+        "baseline": 18.32,
+        "excess": 135.23,
+        "n": 120
+      },
+      "35": {
+        "mean_return": 165.224,
+        "baseline": 19.048,
+        "excess": 146.176,
+        "n": 120
+      },
+      "36": {
+        "mean_return": 170.639,
+        "baseline": 19.414,
+        "excess": 151.225,
+        "n": 120
+      },
+      "40": {
+        "mean_return": 178.442,
+        "baseline": 19.34,
+        "excess": 159.102,
+        "n": 120
+      },
+      "45": {
+        "mean_return": 163.149,
+        "baseline": 19.847,
+        "excess": 143.302,
+        "n": 120
+      }
+    },
+    "details": [
+      {
+        "ftd_date": "2020-12-02",
+        "ftd_qty": 1061397,
+        "t35_date": "2021-01-20",
+        "return_pct": 311.46
+      },
+      {
+        "ftd_date": "2020-12-03",
+        "ftd_qty": 1787191,
+        "t35_date": "2021-01-21",
+        "return_pct": 311.46
+      },
+      {
+        "ftd_date": "2020-12-04",
+        "ftd_qty": 999475,
+        "t35_date": "2021-01-22",
+        "return_pct": 386.01
+      },
+      {
+        "ftd_date": "2020-12-07",
+        "ftd_qty": 1002379,
+        "t35_date": "2021-01-25",
+        "return_pct": 1045.56
+      },
+      {
+        "ftd_date": "2020-12-08",
+        "ftd_qty": 872292,
+        "t35_date": "2021-01-26",
+        "return_pct": 1887.77
+      },
+      {
+        "ftd_date": "2020-12-09",
+        "ftd_qty": 721361,
+        "t35_date": "2021-01-27",
+        "return_pct": 1887.77
+      },
+      {
+        "ftd_date": "2020-12-10",
+        "ftd_qty": 605975,
+        "t35_date": "2021-01-28",
+        "return_pct": 1887.77
+      },
+      {
+        "ftd_date": "2020-12-11",
+        "ftd_qty": 880063,
+        "t35_date": "2021-01-29",
+        "return_pct": 1228.22
+      },
+      {
+        "ftd_date": "2020-12-14",
+        "ftd_qty": 284296,
+        "t35_date": "2021-02-01",
+        "return_pct": 301.95
+      },
+      {
+        "ftd_date": "2020-12-17",
+        "ftd_qty": 500162,
+        "t35_date": "2021-02-04",
+        "return_pct": 401.34
+      },
+      {
+        "ftd_date": "2020-12-18",
+        "ftd_qty": 872523,
+        "t35_date": "2021-02-05",
+        "return_pct": 333.21
+      },
+      {
+        "ftd_date": "2020-12-21",
+        "ftd_qty": 619404,
+        "t35_date": "2021-02-08",
+        "return_pct": 226.94
+      },
+      {
+        "ftd_date": "2020-12-22",
+        "ftd_qty": 744478,
+        "t35_date": "2021-02-09",
+        "return_pct": 237.41
+      },
+      {
+        "ftd_date": "2020-12-23",
+        "ftd_qty": 700507,
+        "t35_date": "2021-02-10",
+        "return_pct": 237.41
+      },
+      {
+        "ftd_date": "2020-12-24",
+        "ftd_qty": 839699,
+        "t35_date": "2021-02-11",
+        "return_pct": 237.41
+      },
+      {
+        "ftd_date": "2020-12-28",
+        "ftd_qty": 351316,
+        "t35_date": "2021-02-15",
+        "return_pct": 93.85
+      },
+      {
+        "ftd_date": "2020-12-29",
+        "ftd_qty": 283294,
+        "t35_date": "2021-02-16",
+        "return_pct": 93.38
+      },
+      {
+        "ftd_date": "2020-12-30",
+        "ftd_qty": 648513,
+        "t35_date": "2021-02-17",
+        "return_pct": 93.38
+      },
+      {
+        "ftd_date": "2020-12-31",
+        "ftd_qty": 228358,
+        "t35_date": "2021-02-18",
+        "return_pct": 93.38
+      },
+      {
+        "ftd_date": "2021-01-05",
+        "ftd_qty": 490723,
+        "t35_date": "2021-02-23",
+        "return_pct": 489.8
+      },
+      {
+        "ftd_date": "2021-01-06",
+        "ftd_qty": 772112,
+        "t35_date": "2021-02-24",
+        "return_pct": 489.8
+      },
+      {
+        "ftd_date": "2021-01-07",
+        "ftd_qty": 799328,
+        "t35_date": "2021-02-25",
+        "return_pct": 489.8
+      },
+      {
+        "ftd_date": "2021-01-08",
+        "ftd_qty": 555658,
+        "t35_date": "2021-02-26",
+        "return_pct": 593.15
+      },
+      {
+        "ftd_date": "2021-01-11",
+        "ftd_qty": 703110,
+        "t35_date": "2021-03-01",
+        "return_pct": 648.16
+      },
+      {
+        "ftd_date": "2021-01-12",
+        "ftd_qty": 287730,
+        "t35_date": "2021-03-02",
+        "return_pct": 590.77
+      },
+      {
+        "ftd_date": "2021-01-13",
+        "ftd_qty": 662524,
+        "t35_date": "2021-03-03",
+        "return_pct": 590.77
+      },
+      {
+        "ftd_date": "2021-01-14",
+        "ftd_qty": 621483,
+        "t35_date": "2021-03-04",
+        "return_pct": 590.77
+      },
+      {
+        "ftd_date": "2021-01-15",
+        "ftd_qty": 892653,
+        "t35_date": "2021-03-05",
+        "return_pct": 874.94
+      },
+      {
+        "ftd_date": "2021-01-19",
+        "ftd_qty": 1498576,
+        "t35_date": "2021-03-09",
+        "return_pct": 572.0
+      },
+      {
+        "ftd_date": "2021-01-20",
+        "ftd_qty": 1007562,
+        "t35_date": "2021-03-10",
+        "return_pct": 572.0
+      },
+      {
+        "ftd_date": "2021-01-21",
+        "ftd_qty": 1438994,
+        "t35_date": "2021-03-11",
+        "return_pct": 572.0
+      },
+      {
+        "ftd_date": "2021-01-22",
+        "ftd_qty": 273600,
+        "t35_date": "2021-03-12",
+        "return_pct": 459.3
+      },
+      {
+        "ftd_date": "2021-01-25",
+        "ftd_qty": 275113,
+        "t35_date": "2021-03-15",
+        "return_pct": 210.34
+      },
+      {
+        "ftd_date": "2021-01-26",
+        "ftd_qty": 2099572,
+        "t35_date": "2021-03-16",
+        "return_pct": 160.8
+      },
+      {
+        "ftd_date": "2021-01-27",
+        "ftd_qty": 1972862,
+        "t35_date": "2021-03-17",
+        "return_pct": 160.8
+      },
+      {
+        "ftd_date": "2021-01-28",
+        "ftd_qty": 1032986,
+        "t35_date": "2021-03-18",
+        "return_pct": 160.8
+      },
+      {
+        "ftd_date": "2021-02-26",
+        "ftd_qty": 298018,
+        "t35_date": "2021-04-16",
+        "return_pct": 265.51
+      },
+      {
+        "ftd_date": "2021-06-18",
+        "ftd_qty": 462852,
+        "t35_date": "2021-08-06",
+        "return_pct": -27.58
+      },
+      {
+        "ftd_date": "2021-06-29",
+        "ftd_qty": 346542,
+        "t35_date": "2021-08-17",
+        "return_pct": -25.3
+      },
+      {
+        "ftd_date": "2021-07-01",
+        "ftd_qty": 313200,
+        "t35_date": "2021-08-19",
+        "return_pct": -25.3
+      },
+      {
+        "ftd_date": "2021-07-30",
+        "ftd_qty": 229665,
+        "t35_date": "2021-09-17",
+        "return_pct": 7.65
+      },
+      {
+        "ftd_date": "2021-08-05",
+        "ftd_qty": 1316894,
+        "t35_date": "2021-09-23",
+        "return_pct": 17.45
+      },
+      {
+        "ftd_date": "2021-08-06",
+        "ftd_qty": 315331,
+        "t35_date": "2021-09-24",
+        "return_pct": 24.05
+      },
+      {
+        "ftd_date": "2021-09-21",
+        "ftd_qty": 347171,
+        "t35_date": "2021-11-09",
+        "return_pct": 5.15
+      },
+      {
+        "ftd_date": "2022-02-23",
+        "ftd_qty": 227302,
+        "t35_date": "2022-04-13",
+        "return_pct": 27.71
+      },
+      {
+        "ftd_date": "2022-05-16",
+        "ftd_qty": 374889,
+        "t35_date": "2022-07-04",
+        "return_pct": 37.33
+      },
+      {
+        "ftd_date": "2022-05-27",
+        "ftd_qty": 523209,
+        "t35_date": "2022-07-15",
+        "return_pct": 64.49
+      },
+      {
+        "ftd_date": "2022-05-31",
+        "ftd_qty": 744847,
+        "t35_date": "2022-07-19",
+        "return_pct": 14.73
+      },
+      {
+        "ftd_date": "2022-06-03",
+        "ftd_qty": 306267,
+        "t35_date": "2022-07-22",
+        "return_pct": 8.96
+      },
+      {
+        "ftd_date": "2022-06-06",
+        "ftd_qty": 502173,
+        "t35_date": "2022-07-25",
+        "return_pct": 1.24
+      }
+    ]
+  },
+  "regime_analysis": {
+    "Pre-DFV (2020 Q1-Q3)": {
+      "n_days": 189,
+      "mean_stress": 14.9,
+      "max_stress": 85.3,
+      "mean_deep_oi": 19001.0,
+      "n_events": 11
+    },
+    "DFV Thesis Build (2020 Q4)": {
+      "n_days": 64,
+      "mean_stress": 19.94,
+      "max_stress": 39.79,
+      "mean_deep_oi": 31408.0,
+      "n_events": 2
+    },
+    "Jan 2021 Squeeze": {
+      "n_days": 22,
+      "mean_stress": 26.92,
+      "max_stress": 48.64,
+      "mean_deep_oi": 58364.0,
+      "n_events": 2
+    },
+    "Post-Squeeze (2021 Q2-Q4)": {
+      "n_days": 39,
+      "mean_stress": 14.33,
+      "max_stress": 38.52,
+      "mean_deep_oi": 100311.0,
+      "n_events": 2
+    },
+    "Pre-Split (2022 H1)": {
+      "n_days": 20,
+      "mean_stress": 5.43,
+      "max_stress": 24.09,
+      "mean_deep_oi": 26900.0,
+      "n_events": 0
+    },
+    "Post-Split (2022 H2)": {
+      "n_days": 26,
+      "mean_stress": 24.91,
+      "max_stress": 114.36,
+      "mean_deep_oi": 146600.0,
+      "n_events": 1
+    },
+    "Quiet Era (2023)": {
+      "n_days": 118,
+      "mean_stress": 18.37,
+      "max_stress": 84.29,
+      "mean_deep_oi": 19265.0,
+      "n_events": 4
+    },
+    "RK Return (2024 H1)": {
+      "n_days": 124,
+      "mean_stress": 19.29,
+      "max_stress": 56.14,
+      "mean_deep_oi": 18977.0,
+      "n_events": 7
+    },
+    "Post-RK (2024 H2)": {
+      "n_days": 128,
+      "mean_stress": 5.81,
+      "max_stress": 15.79,
+      "mean_deep_oi": 11073.0,
+      "n_events": 5
+    },
+    "Current (2025)": {
+      "n_days": 242,
+      "mean_stress": 4.63,
+      "max_stress": 26.74,
+      "mean_deep_oi": 2049.0,
+      "n_events": 12
+    }
+  },
+  "waterfall_residuals": {
+    "correlation": 0.2565,
+    "r_squared": 0.0658,
+    "mean_residual": -0.0,
+    "unexplained_events": [
+      {
+        "date": "2022-10-27",
+        "actual_stress": 114.36,
+        "predicted_stress": 10.1,
+        "residual": 104.26,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2023-09-01",
+        "actual_stress": 84.29,
+        "predicted_stress": 10.04,
+        "residual": 74.26,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2020-04-01",
+        "actual_stress": 85.3,
+        "predicted_stress": 15.11,
+        "residual": 70.2,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2022-10-28",
+        "actual_stress": 74.96,
+        "predicted_stress": 11.34,
+        "residual": 63.62,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2023-09-05",
+        "actual_stress": 62.73,
+        "predicted_stress": 9.0,
+        "residual": 53.73,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2022-11-01",
+        "actual_stress": 61.01,
+        "predicted_stress": 11.33,
+        "residual": 49.67,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2022-10-31",
+        "actual_stress": 55.6,
+        "predicted_stress": 7.2,
+        "residual": 48.4,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2024-05-17",
+        "actual_stress": 56.14,
+        "predicted_stress": 11.11,
+        "residual": 45.03,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2020-04-02",
+        "actual_stress": 58.14,
+        "predicted_stress": 13.42,
+        "residual": 44.73,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2022-11-02",
+        "actual_stress": 53.97,
+        "predicted_stress": 11.86,
+        "residual": 42.11,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2023-09-06",
+        "actual_stress": 49.8,
+        "predicted_stress": 8.45,
+        "residual": 41.35,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2023-01-25",
+        "actual_stress": 51.85,
+        "predicted_stress": 12.85,
+        "residual": 39.01,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2022-11-03",
+        "actual_stress": 50.24,
+        "predicted_stress": 11.38,
+        "residual": 38.86,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2022-12-05",
+        "actual_stress": 48.34,
+        "predicted_stress": 10.39,
+        "residual": 37.96,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2023-09-07",
+        "actual_stress": 41.49,
+        "predicted_stress": 8.96,
+        "residual": 32.53,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2022-12-12",
+        "actual_stress": 43.31,
+        "predicted_stress": 10.94,
+        "residual": 32.37,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2021-01-27",
+        "actual_stress": 48.64,
+        "predicted_stress": 16.65,
+        "residual": 32.0,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2021-01-28",
+        "actual_stress": 47.65,
+        "predicted_stress": 16.46,
+        "residual": 31.19,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2022-12-19",
+        "actual_stress": 40.69,
+        "predicted_stress": 10.1,
+        "residual": 30.58,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      },
+      {
+        "date": "2021-01-29",
+        "actual_stress": 46.41,
+        "predicted_stress": 16.54,
+        "residual": 29.87,
+        "interpretation": "\u26a0\ufe0f Stress 2x higher than FTDs predict"
+      }
+    ]
+  },
+  "stress_autocorrelation": {
+    "1": 0.8066,
+    "3": 0.6367,
+    "5": 0.531,
+    "6": 0.4756,
+    "10": 0.4158,
+    "13": 0.4048,
+    "15": 0.4048,
+    "20": 0.3423,
+    "26": 0.3242,
+    "33": 0.3638,
+    "35": 0.3868,
+    "40": 0.3627
+  },
+  "pressure_gauge": {
+    "5": {
+      "q1_mean": 13.192,
+      "q5_mean": 5.696,
+      "spread": -7.496
+    },
+    "10": {
+      "q1_mean": 19.494,
+      "q5_mean": 23.309,
+      "spread": 3.814
+    },
+    "20": {
+      "q1_mean": 37.165,
+      "q5_mean": 23.221,
+      "spread": -13.944
+    },
+    "35": {
+      "q1_mean": 49.718,
+      "q5_mean": 31.762,
+      "spread": -17.956
+    }
+  }
+}

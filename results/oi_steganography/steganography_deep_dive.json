@@ -1,0 +1,1490 @@
+{
+  "jan25_dissection": {
+    "20210104": {
+      "n_strikes": 69,
+      "put_dominant": 39,
+      "call_dominant": 30,
+      "pct_put_dominant": 56.5,
+      "total_put_oi": 435654,
+      "total_call_oi": 411832,
+      "pc_ratio": 1.058
+    },
+    "20210105": {
+      "n_strikes": 67,
+      "put_dominant": 37,
+      "call_dominant": 30,
+      "pct_put_dominant": 55.2,
+      "total_put_oi": 420890,
+      "total_call_oi": 375393,
+      "pc_ratio": 1.121
+    },
+    "20210106": {
+      "n_strikes": 67,
+      "put_dominant": 35,
+      "call_dominant": 32,
+      "pct_put_dominant": 52.2,
+      "total_put_oi": 425531,
+      "total_call_oi": 384656,
+      "pc_ratio": 1.106
+    },
+    "20210107": {
+      "n_strikes": 67,
+      "put_dominant": 35,
+      "call_dominant": 32,
+      "pct_put_dominant": 52.2,
+      "total_put_oi": 430981,
+      "total_call_oi": 393381,
+      "pc_ratio": 1.096
+    },
+    "20210108": {
+      "n_strikes": 67,
+      "put_dominant": 36,
+      "call_dominant": 31,
+      "pct_put_dominant": 53.7,
+      "total_put_oi": 436825,
+      "total_call_oi": 403385,
+      "pc_ratio": 1.083
+    },
+    "20210111": {
+      "n_strikes": 67,
+      "put_dominant": 35,
+      "call_dominant": 32,
+      "pct_put_dominant": 52.2,
+      "total_put_oi": 442337,
+      "total_call_oi": 416295,
+      "pc_ratio": 1.063
+    },
+    "20210112": {
+      "n_strikes": 66,
+      "put_dominant": 36,
+      "call_dominant": 30,
+      "pct_put_dominant": 54.5,
+      "total_put_oi": 431045,
+      "total_call_oi": 391743,
+      "pc_ratio": 1.1
+    },
+    "20210113": {
+      "n_strikes": 66,
+      "put_dominant": 37,
+      "call_dominant": 29,
+      "pct_put_dominant": 56.1,
+      "total_put_oi": 435096,
+      "total_call_oi": 397118,
+      "pc_ratio": 1.096
+    },
+    "20210114": {
+      "n_strikes": 68,
+      "put_dominant": 43,
+      "call_dominant": 25,
+      "pct_put_dominant": 63.2,
+      "total_put_oi": 537422,
+      "total_call_oi": 401921,
+      "pc_ratio": 1.337
+    },
+    "20210115": {
+      "n_strikes": 77,
+      "put_dominant": 55,
+      "call_dominant": 22,
+      "pct_put_dominant": 71.4,
+      "total_put_oi": 621174,
+      "total_call_oi": 440181,
+      "pc_ratio": 1.411
+    },
+    "20210119": {
+      "n_strikes": 86,
+      "put_dominant": 59,
+      "call_dominant": 27,
+      "pct_put_dominant": 68.6,
+      "total_put_oi": 653760,
+      "total_call_oi": 345647,
+      "pc_ratio": 1.891
+    },
+    "20210120": {
+      "n_strikes": 86,
+      "put_dominant": 60,
+      "call_dominant": 26,
+      "pct_put_dominant": 69.8,
+      "total_put_oi": 370658,
+      "total_call_oi": 318134,
+      "pc_ratio": 1.165
+    },
+    "20210121": {
+      "n_strikes": 86,
+      "put_dominant": 62,
+      "call_dominant": 24,
+      "pct_put_dominant": 72.1,
+      "total_put_oi": 404633,
+      "total_call_oi": 348991,
+      "pc_ratio": 1.159
+    },
+    "20210122": {
+      "n_strikes": 96,
+      "put_dominant": 69,
+      "call_dominant": 27,
+      "pct_put_dominant": 71.9,
+      "total_put_oi": 450840,
+      "total_call_oi": 396063,
+      "pc_ratio": 1.138
+    },
+    "20210125": {
+      "n_strikes": 101,
+      "put_dominant": 92,
+      "call_dominant": 9,
+      "pct_put_dominant": 91.1,
+      "total_put_oi": 725945,
+      "total_call_oi": 320542,
+      "pc_ratio": 2.265
+    },
+    "20210126": {
+      "n_strikes": 132,
+      "put_dominant": 99,
+      "call_dominant": 33,
+      "pct_put_dominant": 75.0,
+      "total_put_oi": 858355,
+      "total_call_oi": 385500,
+      "pc_ratio": 2.227
+    },
+    "20210127": {
+      "n_strikes": 145,
+      "put_dominant": 112,
+      "call_dominant": 33,
+      "pct_put_dominant": 77.2,
+      "total_put_oi": 1129235,
+      "total_call_oi": 420580,
+      "pc_ratio": 2.685
+    },
+    "20210128": {
+      "n_strikes": 182,
+      "put_dominant": 139,
+      "call_dominant": 43,
+      "pct_put_dominant": 76.4,
+      "total_put_oi": 1584680,
+      "total_call_oi": 345086,
+      "pc_ratio": 4.592
+    },
+    "20210129": {
+      "n_strikes": 209,
+      "put_dominant": 140,
+      "call_dominant": 69,
+      "pct_put_dominant": 67.0,
+      "total_put_oi": 1709916,
+      "total_call_oi": 337244,
+      "pc_ratio": 5.07
+    }
+  },
+  "meme_numbers": {
+    "total_hits": 4167,
+    "by_number": {
+      "33": 1393,
+      "420": 89,
+      "69": 549,
+      "42": 933,
+      "666": 68,
+      "222": 248,
+      "111": 377,
+      "1234": 21,
+      "741": 68,
+      "777": 75,
+      "444": 100,
+      "555": 63,
+      "5678": 1,
+      "999": 28,
+      "4200": 4,
+      "4206": 8,
+      "333": 110,
+      "1337": 8,
+      "888": 20,
+      "6969": 1,
+      "7410": 2,
+      "6666": 1
+    },
+    "findings_sample": [
+      {
+        "date": "20200401",
+        "strike": 12.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200401",
+        "strike": 3.0,
+        "right": "CALL",
+        "oi": 420
+      },
+      {
+        "date": "20200402",
+        "strike": 12.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200402",
+        "strike": 1.0,
+        "right": "PUT",
+        "oi": 69
+      },
+      {
+        "date": "20200402",
+        "strike": 2.5,
+        "right": "CALL",
+        "oi": 42
+      },
+      {
+        "date": "20200402",
+        "strike": 3.0,
+        "right": "CALL",
+        "oi": 42
+      },
+      {
+        "date": "20200402",
+        "strike": 6.0,
+        "right": "PUT",
+        "oi": 42
+      },
+      {
+        "date": "20200402",
+        "strike": 8.0,
+        "right": "CALL",
+        "oi": 42
+      },
+      {
+        "date": "20200403",
+        "strike": 8.0,
+        "right": "CALL",
+        "oi": 42
+      },
+      {
+        "date": "20200403",
+        "strike": 4.0,
+        "right": "PUT",
+        "oi": 666
+      },
+      {
+        "date": "20200403",
+        "strike": 12.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200403",
+        "strike": 2.5,
+        "right": "CALL",
+        "oi": 42
+      },
+      {
+        "date": "20200406",
+        "strike": 2.0,
+        "right": "PUT",
+        "oi": 222
+      },
+      {
+        "date": "20200406",
+        "strike": 1.0,
+        "right": "PUT",
+        "oi": 222
+      },
+      {
+        "date": "20200406",
+        "strike": 12.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200406",
+        "strike": 5.0,
+        "right": "PUT",
+        "oi": 69
+      },
+      {
+        "date": "20200407",
+        "strike": 12.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200407",
+        "strike": 4.0,
+        "right": "PUT",
+        "oi": 222
+      },
+      {
+        "date": "20200408",
+        "strike": 12.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200408",
+        "strike": 5.5,
+        "right": "PUT",
+        "oi": 69
+      },
+      {
+        "date": "20200408",
+        "strike": 3.5,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200409",
+        "strike": 5.5,
+        "right": "PUT",
+        "oi": 69
+      },
+      {
+        "date": "20200409",
+        "strike": 3.5,
+        "right": "CALL",
+        "oi": 33
+      },
+      {
+        "date": "20200409",
+        "strike": 12.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200413",
+        "strike": 3.0,
+        "right": "CALL",
+        "oi": 666
+      },
+      {
+        "date": "20200413",
+        "strike": 2.5,
+        "right": "PUT",
+        "oi": 69
+      },
+      {
+        "date": "20200413",
+        "strike": 12.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200413",
+        "strike": 3.5,
+        "right": "PUT",
+        "oi": 111
+      },
+      {
+        "date": "20200414",
+        "strike": 2.0,
+        "right": "PUT",
+        "oi": 666
+      },
+      {
+        "date": "20200414",
+        "strike": 5.0,
+        "right": "CALL",
+        "oi": 69
+      },
+      {
+        "date": "20200414",
+        "strike": 12.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200414",
+        "strike": 2.5,
+        "right": "PUT",
+        "oi": 1234
+      },
+      {
+        "date": "20200415",
+        "strike": 7.0,
+        "right": "CALL",
+        "oi": 741
+      },
+      {
+        "date": "20200415",
+        "strike": 5.0,
+        "right": "PUT",
+        "oi": 69
+      },
+      {
+        "date": "20200415",
+        "strike": 6.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200415",
+        "strike": 2.5,
+        "right": "PUT",
+        "oi": 69
+      },
+      {
+        "date": "20200415",
+        "strike": 22.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200415",
+        "strike": 30.0,
+        "right": "CALL",
+        "oi": 741
+      },
+      {
+        "date": "20200415",
+        "strike": 12.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200415",
+        "strike": 3.0,
+        "right": "PUT",
+        "oi": 69
+      },
+      {
+        "date": "20200416",
+        "strike": 5.5,
+        "right": "CALL",
+        "oi": 222
+      },
+      {
+        "date": "20200416",
+        "strike": 6.5,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200416",
+        "strike": 7.0,
+        "right": "CALL",
+        "oi": 741
+      },
+      {
+        "date": "20200416",
+        "strike": 22.0,
+        "right": "PUT",
+        "oi": 33
+      },
+      {
+        "date": "20200416",
+        "strike": 6.5,
+        "right": "CALL",
+        "oi": 69
+      },
+      {
+        "date": "20200416",
+        "strike": 3.5,
+        "right": "CALL",
+        "oi": 111
+      },
+      {
+        "date": "20200416",
+        "strike": 3.5,
+        "right": "CALL",
+        "oi": 111
+      },
+      {
+        "date": "20200416",
+        "strike": 4.0,
+        "right": "PUT",
+        "oi": 777
+      },
+      {
+        "date": "20200417",
+        "strike": 6.5,
+        "right": "CALL",
+        "oi": 69
+      },
+      {
+        "date": "20200417",
+        "strike": 3.5,
+        "right": "CALL",
+        "oi": 111
+      }
+    ]
+  },
+  "phantom_deep_dive": {
+    "total_phantoms": 99,
+    "dow_distribution": {
+      "Wednesday": 8,
+      "Thursday": 66,
+      "Friday": 20,
+      "Monday": 2,
+      "Tuesday": 3
+    },
+    "monthly_distribution": {
+      "202101": 68,
+      "202405": 16,
+      "202211": 4,
+      "202411": 3,
+      "202210": 2,
+      "202309": 1,
+      "202407": 1,
+      "202408": 1,
+      "202409": 1,
+      "202412": 1,
+      "202501": 1
+    },
+    "cluster_days": {
+      "20210127": 4,
+      "20210128": 47,
+      "20210129": 17,
+      "20221102": 4,
+      "20240516": 15
+    },
+    "top_phantom_strikes": {
+      "8.0": 3,
+      "230.0": 2,
+      "205.0": 2,
+      "215.0": 2,
+      "235.0": 2,
+      "240.0": 2,
+      "245.0": 2,
+      "250.0": 2,
+      "255.0": 2,
+      "260.0": 2,
+      "265.0": 2,
+      "270.0": 2,
+      "275.0": 2,
+      "280.0": 2,
+      "285.0": 2,
+      "290.0": 2,
+      "295.0": 2,
+      "300.0": 2,
+      "310.0": 2,
+      "320.0": 2
+    },
+    "phantoms": [
+      {
+        "appear": "20210127",
+        "disappear": "20221027",
+        "duration": 3,
+        "strike": 210.0,
+        "right": "CALL",
+        "oi": 264
+      },
+      {
+        "appear": "20210127",
+        "disappear": "20221027",
+        "duration": 3,
+        "strike": 220.0,
+        "right": "CALL",
+        "oi": 771
+      },
+      {
+        "appear": "20210127",
+        "disappear": "20221027",
+        "duration": 3,
+        "strike": 230.0,
+        "right": "CALL",
+        "oi": 4060
+      },
+      {
+        "appear": "20210127",
+        "disappear": "20221027",
+        "duration": 3,
+        "strike": 230.0,
+        "right": "PUT",
+        "oi": 86
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 205.0,
+        "right": "CALL",
+        "oi": 205
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 205.0,
+        "right": "PUT",
+        "oi": 1181
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 215.0,
+        "right": "CALL",
+        "oi": 67
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 215.0,
+        "right": "PUT",
+        "oi": 115
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 235.0,
+        "right": "CALL",
+        "oi": 61
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 235.0,
+        "right": "PUT",
+        "oi": 102
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 240.0,
+        "right": "CALL",
+        "oi": 325
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 240.0,
+        "right": "PUT",
+        "oi": 289
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 245.0,
+        "right": "CALL",
+        "oi": 209
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 245.0,
+        "right": "PUT",
+        "oi": 142
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 250.0,
+        "right": "CALL",
+        "oi": 844
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 250.0,
+        "right": "PUT",
+        "oi": 1724
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 255.0,
+        "right": "CALL",
+        "oi": 155
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 255.0,
+        "right": "PUT",
+        "oi": 186
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 260.0,
+        "right": "CALL",
+        "oi": 232
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 260.0,
+        "right": "PUT",
+        "oi": 583
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 265.0,
+        "right": "CALL",
+        "oi": 180
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 265.0,
+        "right": "PUT",
+        "oi": 247
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 270.0,
+        "right": "CALL",
+        "oi": 321
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 270.0,
+        "right": "PUT",
+        "oi": 964
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 275.0,
+        "right": "CALL",
+        "oi": 304
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 275.0,
+        "right": "PUT",
+        "oi": 853
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 280.0,
+        "right": "CALL",
+        "oi": 382
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 280.0,
+        "right": "PUT",
+        "oi": 808
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 285.0,
+        "right": "CALL",
+        "oi": 275
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 285.0,
+        "right": "PUT",
+        "oi": 475
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 290.0,
+        "right": "CALL",
+        "oi": 512
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 290.0,
+        "right": "PUT",
+        "oi": 1285
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 295.0,
+        "right": "CALL",
+        "oi": 410
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 295.0,
+        "right": "PUT",
+        "oi": 331
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 300.0,
+        "right": "CALL",
+        "oi": 4327
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 300.0,
+        "right": "PUT",
+        "oi": 6168
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 310.0,
+        "right": "CALL",
+        "oi": 1965
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 310.0,
+        "right": "PUT",
+        "oi": 2040
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 320.0,
+        "right": "CALL",
+        "oi": 19375
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 320.0,
+        "right": "PUT",
+        "oi": 4524
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 330.0,
+        "right": "CALL",
+        "oi": 253
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 350.0,
+        "right": "CALL",
+        "oi": 219
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 370.0,
+        "right": "CALL",
+        "oi": 1053
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 380.0,
+        "right": "PUT",
+        "oi": 167
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 400.0,
+        "right": "CALL",
+        "oi": 809
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 400.0,
+        "right": "PUT",
+        "oi": 76
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 430.0,
+        "right": "CALL",
+        "oi": 993
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 450.0,
+        "right": "CALL",
+        "oi": 558
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 450.0,
+        "right": "PUT",
+        "oi": 179
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 460.0,
+        "right": "CALL",
+        "oi": 86
+      },
+      {
+        "appear": "20210128",
+        "disappear": "20221027",
+        "duration": 2,
+        "strike": 500.0,
+        "right": "CALL",
+        "oi": 1894
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 365.0,
+        "right": "CALL",
+        "oi": 111
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 460.0,
+        "right": "PUT",
+        "oi": 62
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 470.0,
+        "right": "CALL",
+        "oi": 273
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 470.0,
+        "right": "PUT",
+        "oi": 70
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 480.0,
+        "right": "PUT",
+        "oi": 54
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 510.0,
+        "right": "CALL",
+        "oi": 220
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 520.0,
+        "right": "CALL",
+        "oi": 234
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 530.0,
+        "right": "CALL",
+        "oi": 317
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 540.0,
+        "right": "CALL",
+        "oi": 273
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 540.0,
+        "right": "PUT",
+        "oi": 64
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 550.0,
+        "right": "CALL",
+        "oi": 1031
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 550.0,
+        "right": "PUT",
+        "oi": 84
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 560.0,
+        "right": "CALL",
+        "oi": 613
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 560.0,
+        "right": "PUT",
+        "oi": 182
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 570.0,
+        "right": "CALL",
+        "oi": 7897
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 570.0,
+        "right": "PUT",
+        "oi": 365
+      },
+      {
+        "appear": "20210129",
+        "disappear": "20221027",
+        "duration": 1,
+        "strike": 650.0,
+        "right": "CALL",
+        "oi": 98
+      },
+      {
+        "appear": "20221027",
+        "disappear": "20221101",
+        "duration": 3,
+        "strike": 33.5,
+        "right": "CALL",
+        "oi": 207
+      },
+      {
+        "appear": "20221027",
+        "disappear": "20221101",
+        "duration": 3,
+        "strike": 34.5,
+        "right": "CALL",
+        "oi": 338
+      },
+      {
+        "appear": "20221102",
+        "disappear": "20230125",
+        "duration": 2,
+        "strike": 39.5,
+        "right": "CALL",
+        "oi": 233
+      },
+      {
+        "appear": "20221102",
+        "disappear": "20230125",
+        "duration": 2,
+        "strike": 41.5,
+        "right": "CALL",
+        "oi": 70
+      },
+      {
+        "appear": "20221102",
+        "disappear": "20230125",
+        "duration": 2,
+        "strike": 52.0,
+        "right": "CALL",
+        "oi": 75
+      },
+      {
+        "appear": "20221102",
+        "disappear": "20230125",
+        "duration": 2,
+        "strike": 53.0,
+        "right": "CALL",
+        "oi": 112
+      },
+      {
+        "appear": "20230907",
+        "disappear": "20230908",
+        "duration": 1,
+        "strike": 8.5,
+        "right": "CALL",
+        "oi": 120
+      },
+      {
+        "appear": "20240510",
+        "disappear": "20240514",
+        "duration": 2,
+        "strike": 27.5,
+        "right": "CALL",
+        "oi": 77
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 59.5,
+        "right": "CALL",
+        "oi": 73
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 60.5,
+        "right": "CALL",
+        "oi": 101
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 61.5,
+        "right": "CALL",
+        "oi": 71
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 62.5,
+        "right": "CALL",
+        "oi": 67
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 69.5,
+        "right": "CALL",
+        "oi": 213
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 76.0,
+        "right": "CALL",
+        "oi": 378
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 80.5,
+        "right": "CALL",
+        "oi": 335
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 81.0,
+        "right": "CALL",
+        "oi": 51
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 81.5,
+        "right": "CALL",
+        "oi": 105
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 82.0,
+        "right": "CALL",
+        "oi": 68
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 83.5,
+        "right": "CALL",
+        "oi": 52
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 86.0,
+        "right": "CALL",
+        "oi": 275
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 87.5,
+        "right": "CALL",
+        "oi": 57
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 99.0,
+        "right": "CALL",
+        "oi": 82
+      },
+      {
+        "appear": "20240516",
+        "disappear": "20240521",
+        "duration": 3,
+        "strike": 99.5,
+        "right": "CALL",
+        "oi": 62
+      },
+      {
+        "appear": "20240715",
+        "disappear": "20240718",
+        "duration": 3,
+        "strike": 8.0,
+        "right": "PUT",
+        "oi": 3964
+      },
+      {
+        "appear": "20240830",
+        "disappear": "20240903",
+        "duration": 1,
+        "strike": 7.0,
+        "right": "PUT",
+        "oi": 2756
+      },
+      {
+        "appear": "20240906",
+        "disappear": "20240911",
+        "duration": 3,
+        "strike": 7.0,
+        "right": "PUT",
+        "oi": 2764
+      },
+      {
+        "appear": "20241111",
+        "disappear": "20241113",
+        "duration": 2,
+        "strike": 8.0,
+        "right": "PUT",
+        "oi": 2501
+      },
+      {
+        "appear": "20241114",
+        "disappear": "20241115",
+        "duration": 1,
+        "strike": 8.0,
+        "right": "PUT",
+        "oi": 2674
+      },
+      {
+        "appear": "20241126",
+        "disappear": "20241129",
+        "duration": 2,
+        "strike": 9.0,
+        "right": "PUT",
+        "oi": 6592
+      },
+      {
+        "appear": "20241217",
+        "disappear": "20241218",
+        "duration": 1,
+        "strike": 9.0,
+        "right": "PUT",
+        "oi": 6666
+      },
+      {
+        "appear": "20250107",
+        "disappear": "20250108",
+        "duration": 1,
+        "strike": 10.0,
+        "right": "PUT",
+        "oi": 29734
+      }
+    ]
+  },
+  "permutation_control": {
+    "real_mean_entropy": 0.8862346525171262,
+    "shuffled_mean_entropy": 0.979702753441136,
+    "z_score": -3.432127840519101,
+    "regime_entropies": {
+      "Pre-squeeze (2020)": 0.9529915425648492,
+      "Squeeze (Jan 2021)": 0.8938072004135775,
+      "Post-split (2023)": 0.788864966473351,
+      "RK Return (May-Jun 2024)": 0.8617170580351006
+    }
+  },
+  "bitstream_transitions": {
+    "total_transitions": 218,
+    "mean_flip_rate": 0.03742839098032117,
+    "mean_flips_per_day": 2.7339449541284404,
+    "top_transition_days": [
+      {
+        "date": "20221027",
+        "n_flips": 48,
+        "flip_rate": 0.4948453608247423
+      },
+      {
+        "date": "20210125",
+        "n_flips": 21,
+        "flip_rate": 0.21875
+      },
+      {
+        "date": "20230125",
+        "n_flips": 20,
+        "flip_rate": 0.1652892561983471
+      },
+      {
+        "date": "20240516",
+        "n_flips": 17,
+        "flip_rate": 0.1574074074074074
+      },
+      {
+        "date": "20240515",
+        "n_flips": 16,
+        "flip_rate": 0.21052631578947367
+      },
+      {
+        "date": "20210127",
+        "n_flips": 15,
+        "flip_rate": 0.11363636363636363
+      },
+      {
+        "date": "20210126",
+        "n_flips": 14,
+        "flip_rate": 0.13861386138613863
+      },
+      {
+        "date": "20210115",
+        "n_flips": 12,
+        "flip_rate": 0.17647058823529413
+      },
+      {
+        "date": "20240514",
+        "n_flips": 12,
+        "flip_rate": 0.19047619047619047
+      },
+      {
+        "date": "20240520",
+        "n_flips": 11,
+        "flip_rate": 0.05913978494623656
+      },
+      {
+        "date": "20210128",
+        "n_flips": 10,
+        "flip_rate": 0.06896551724137931
+      },
+      {
+        "date": "20230901",
+        "n_flips": 9,
+        "flip_rate": 0.075
+      },
+      {
+        "date": "20201224",
+        "n_flips": 8,
+        "flip_rate": 0.14035087719298245
+      },
+      {
+        "date": "20240521",
+        "n_flips": 8,
+        "flip_rate": 0.06451612903225806
+      },
+      {
+        "date": "20240611",
+        "n_flips": 8,
+        "flip_rate": 0.06349206349206349
+      },
+      {
+        "date": "20201223",
+        "n_flips": 7,
+        "flip_rate": 0.12280701754385964
+      },
+      {
+        "date": "20240607",
+        "n_flips": 7,
+        "flip_rate": 0.05785123966942149
+      },
+      {
+        "date": "20210114",
+        "n_flips": 6,
+        "flip_rate": 0.09090909090909091
+      },
+      {
+        "date": "20210119",
+        "n_flips": 6,
+        "flip_rate": 0.07792207792207792
+      },
+      {
+        "date": "20210129",
+        "n_flips": 6,
+        "flip_rate": 0.03296703296703297
+      }
+    ],
+    "most_flipping_strikes": {
+      "13.0": 31,
+      "13.5": 17,
+      "14.5": 17,
+      "19.0": 16,
+      "16.0": 15,
+      "27.5": 13,
+      "14.0": 13,
+      "17.5": 13,
+      "11.5": 13,
+      "11.0": 11,
+      "16.5": 11,
+      "26.5": 10,
+      "28.5": 10,
+      "18.0": 10,
+      "9.5": 10,
+      "20.5": 9,
+      "21.5": 9,
+      "12.0": 9,
+      "17.0": 9,
+      "4.5": 9
+    }
+  }
+}

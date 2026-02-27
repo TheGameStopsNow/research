@@ -1,0 +1,48 @@
+{
+  "Citadel_Q2_2024": {
+    "label": "Citadel Q2 (post-event)",
+    "positions": [
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "Call",
+        "quantity": 3511800,
+        "value_usd": 86706342000
+      },
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "Put",
+        "quantity": 5733500,
+        "value_usd": 141560115000
+      },
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "SH",
+        "quantity": 1909379,
+        "value_usd": 47142568000
+      }
+    ]
+  },
+  "Citadel_Q1_2024": {
+    "label": "Citadel Q1 (pre-event)",
+    "positions": [
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "Call",
+        "quantity": 708100,
+        "value_usd": 8865412000
+      },
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "Put",
+        "quantity": 461200,
+        "value_usd": 5774224000
+      },
+      {
+        "issuer": "GAMESTOP CORP NEW",
+        "type": "SH",
+        "quantity": 78439,
+        "value_usd": 982056000
+      }
+    ]
+  }
+}

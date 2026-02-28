@@ -1,6 +1,6 @@
 # Cross-Domain Corroboration: Physical Infrastructure, Settlement Mechanics, and Macro Funding of Options-Driven Equity Displacement
 
-**Paper IV of VIII: Infrastructure & Macro**
+**Paper IV of IX: Infrastructure & Macro**
 
 *Anon*
 *Independent Researcher*
@@ -706,9 +706,9 @@ The remaining evidentiary gap — definitively attributing the adversarial activ
 14. Roll, R. (1984). "A Simple Implicit Measure of the Effective Bid-Ask Spread in an Efficient Market." *Journal of Finance*, 39(4), 1127–1139.
 15. Open-Meteo (2026). Historical Weather API. archive-api.open-meteo.com.
 16. ITU-R P.838 (2005). "Specific attenuation model for rain for use in prediction methods."
-17. Anon (2026a). "The Long Gamma Default." *Paper I of IV: Theory.* Independent Research.
-18. Anon (2026b). "The Shadow Algorithm." *Paper II of IV: Evidence & Forensics.* Independent Research.
-19. Anon (2026c). "Exploitable Infrastructure." *Paper III of IV: Policy & Attribution.* Independent Research.
+17. Anon (2026a). "The Long Gamma Default." *Paper I of IX: Theory.* Independent Research.
+18. Anon (2026b). "The Shadow Algorithm." *Paper II of IX: Evidence & Forensics.* Independent Research.
+19. Anon (2026c). "Exploitable Infrastructure." *Paper III of IX: Policy & Attribution.* Independent Research.
 
 ---
 

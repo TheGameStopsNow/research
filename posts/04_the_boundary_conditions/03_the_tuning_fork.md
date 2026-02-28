@@ -2,7 +2,7 @@
 
 <!-- NAV_HEADER:START -->
 ## Part 3 of 3
-Skip to [Part 1](01_the_overflow.md) or [Part 2](02_the_export.md)
+Skip to [Part 1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) or [Part 2](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/)
 Builds on: [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_picture.md) ([Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/), [Part 2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/), [Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/), [Part 4](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/))
 <!-- NAV_HEADER:END -->
 
@@ -264,11 +264,11 @@ A coprime deadline structure would:
 
 | | Boundary Conditions |
 |:-:|:---|
-| [1](01_the_overflow.md) | The Overflow: KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
-| [2](02_the_export.md) | The Export: 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
-| 👉 | **Part 3: The Tuning Fork**: The macrocycle emerges from regulation alone; four numbers fix it |
+| [1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | The Overflow — KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
+| [2](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) | The Export — 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
+| 👉 | **Part 3: The Tuning Fork** — The macrocycle emerges from regulation alone; four numbers fix it |
 
-⬅️ [Part 2: The Export](02_the_export.md)
+⬅️ [Part 2: The Export](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/)
 
 ---
 

@@ -4,7 +4,7 @@
 ## Part 4 of 4
 Skip to [Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/), [Part 2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/), or [Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/)
 Builds on: [Options & Consequences](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1) ([Part 1](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1), [Part 2](https://www.reddit.com/r/Superstonk/comments/1raqvja/options_consequences_the_paper_trail_2), [Part 3](https://www.reddit.com/r/Superstonk/comments/1rb695i/options_consequences_the_systemic_exhaust_3), [Part 4](https://www.reddit.com/r/Superstonk/comments/1rb6rje/options_consequences_the_macro_machine_4))
-Continued in: [Boundary Conditions](../04_the_boundary_conditions/00_the_complete_picture.md) (Parts 1-3)
+Continued in: [Boundary Conditions](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) (Parts 1-3)
 <!-- NAV_HEADER:END -->
 ## Part 4 of 4 ([Part 1](01_where_ftds_go_to_die.md) · [Part 2](02_the_resonance.md) · [Part 3](03_the_cavity.md))
 Continued in: [Boundary Conditions](../04_the_boundary_conditions/01_the_overflow.md) (Parts 1-3)
@@ -15,7 +15,7 @@ Continued in: [Boundary Conditions](../04_the_boundary_conditions/01_the_overflo
 
 > **📄 SEC Report:** [Staff Report on Equity and Options Market Structure Conditions in Early 2021](https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf) (October 18, 2021, 45 pages)
 >
-> **📄 Full academic paper:** [The Failure Accommodation Waterfall (Paper V of VII)](https://github.com/TheGameStopsNow/research/blob/main/papers/05_failure_accommodation_waterfall.md)
+> **📄 Full academic paper:** [The Failure Accommodation Waterfall (Paper V of IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/05_failure_accommodation_waterfall.md)
 
 ---
 
@@ -308,8 +308,8 @@ All scripts, data, and pre-computed results: [github.com/TheGameStopsNow/researc
 |:-------|:-----:|:---------------|
 | [The Strike Price Symphony](https://www.reddit.com/user/TheGameStopsNow/comments/1r5hog7/strike_price_symphony_1) | 3 | Options microstructure forensics |
 | [Options & Consequences](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1) | 4 | Institutional flow, balance sheets, macro funding |
-| **→ [The Failure Waterfall](00_the_complete_picture.md)** | **4** | **Settlement lifecycle: the 15-node cascade** |
-| [Boundary Conditions](../04_the_boundary_conditions/00_the_complete_picture.md) | 3 | Cross-boundary overflow, sovereign contamination, coprime fix |
+| **→ [The Failure Waterfall](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/)** | **4** | **Settlement lifecycle: the 15-node cascade** |
+| [Boundary Conditions](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | 3 | Cross-boundary overflow, sovereign contamination, coprime fix |
 
 </details>
 

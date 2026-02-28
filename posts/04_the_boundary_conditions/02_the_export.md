@@ -3,7 +3,7 @@
 <!-- NAV_HEADER:START -->
 ## Part 2 of 3
 Skip to [Part 1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) or [Part 3](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/)
-Builds on: [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_picture.md) ([Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/), [Part 2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/), [Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/), [Part 4](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/))
+Builds on: [The Failure Waterfall](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/) ([Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/), [Part 2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/), [Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/), [Part 4](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/))
 <!-- NAV_HEADER:END -->
 
 **TA;DR:** It's 5,714x cheaper to fail a delivery in Europe than in the US. When US stress events hit, European equity fails spike. Meanwhile, BBBY's CUSIP was cancelled in 2023, and it's still generating FTDs 824 days later.
@@ -226,6 +226,7 @@ In [Part 3](03_the_tuning_fork.md), I build an agent-based model from scratch wi
 | [1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | The Overflow — KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
 | 👉 | **Part 2: The Export** — 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
 | [3](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/) | The Tuning Fork — The macrocycle emerges from regulation alone; four numbers fix it |
+| [📋](https://www.reddit.com/r/Superstonk/comments/1rgsom0/boundary_conditions_summary_post/) | Summary Post — Plain-language interpretation of the series |
 
 ⬅️ [Part 1: The Overflow](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) · [Part 3: The Tuning Fork](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/) ➡️
 
@@ -237,8 +238,8 @@ In [Part 3](03_the_tuning_fork.md), I build an agent-based model from scratch wi
 |:-------|:-----:|:---------------|
 | [The Strike Price Symphony](https://www.reddit.com/user/TheGameStopsNow/comments/1r5hog7/strike_price_symphony_1) | 3 | Options microstructure forensics |
 | [Options & Consequences](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1) | 4 | Institutional flow, balance sheets, macro funding |
-| [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_picture.md) | 4 | Settlement lifecycle: the 15-node cascade |
-| **→ [Boundary Conditions](00_the_complete_picture.md)** | **3** | **Cross-boundary overflow, sovereign contamination, coprime fix** |
+| [The Failure Waterfall](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/) | 4 | Settlement lifecycle: the 15-node cascade |
+| **→ [Boundary Conditions](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/)** | **3** | **Cross-boundary overflow, sovereign contamination, coprime fix** |
 
 </details>
 

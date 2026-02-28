@@ -2,7 +2,7 @@
 
 <!-- NAV_HEADER:START -->
 ## Part 2 of 3
-Skip to [Part 1](01_the_overflow.md) or [Part 3](03_the_tuning_fork.md)
+Skip to [Part 1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) or [Part 3](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/)
 Builds on: [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_picture.md) ([Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/), [Part 2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/), [Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/), [Part 4](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/))
 <!-- NAV_HEADER:END -->
 
@@ -185,20 +185,13 @@ Combining the cross-border and zombie findings with [Part 1's overflow channels]
 
 The settlement system's boundaries are not just security-level walls that can be breached laterally ([Part 1, KOSS overflow](01_the_overflow.md)) or vertically ([Part 1, Treasury contamination](01_the_overflow.md)). They extend to the jurisdictional boundary between U.S. and EU settlement infrastructure, and to the ontological boundary between existing and non-existing securities. In both cases, the obligations persist.
 
-### Reading the Signals
+### Where This Could Break
 
-**What's good to see:**
-- BBBY FTDs drop to zero and remain there for 90+ consecutive days, indicating genuine obligation clearance
-- EU equity/ETF fail rates continue declining toward government bond levels (2%), closing the 2× gap
-- ESMA or a national CSD publishes CUSIP-level settlement data that enables direct testing of the cross-border hypothesis
+Two pieces of evidence would weaken or falsify the cross-border export hypothesis. First, if CUSIP-level EU settlement data — available under [ESMA Article 9](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0909) but not yet published at instrument level — shows zero U.S.-underlying securities in the European fail pool during the T+1 and DFV spike windows, the hypothesis loses its foundation. Second, if EU government bond fail rates spike during a future U.S. equity stress event, the asset-class selectivity that distinguishes cross-border export from ordinary domestic turmoil disappears.
 
-**What's bad to see:**
-- EU government bond fail rates spike during a future U.S. equity stress event, weakening the asset-class selectivity that distinguishes cross-border export from domestic turmoil
-- CUSIP-level EU data shows no U.S.-underlying instruments in the European fail pool, falsifying the cross-border export hypothesis (this test requires [ESMA Article 9](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0909) data)
-- BBBY FTD changes begin showing sub-100-share administrative noise, suggesting the block-sized pattern was coincidental
+On the zombie channel: if BBBY FTDs drop to zero and stay there for 90+ consecutive days, or if the remaining changes shrink to sub-100-share administrative noise, the case for ongoing block-sized obligation cycling becomes coincidence rather than structure.
 
-**What would change my mind:**
-If any of those scenarios materialize, I would update or retract the corresponding section. The strongest single falsifier would be CUSIP-level EU settlement data showing zero U.S.-underlying instruments in the fail pool during the T+1 and DFV spike windows.
+The thesis strengthens if the EU equity/ETF fail gap continues closing toward government bond levels, and if a national CSD publishes data granular enough to test the mechanism directly. Until then, the 5,714:1 cost asymmetry and the 824-day zombie cycle are the best available evidence — strong enough to warrant scrutiny, not strong enough to be certain.
 
 In [Part 3](03_the_tuning_fork.md), I build an agent-based model from scratch with nothing but the SEC's own regulatory deadlines, and ask the simplest question: *does the macrocycle emerge on its own?* It does. And the math shows exactly how to break it.
 
@@ -230,11 +223,11 @@ In [Part 3](03_the_tuning_fork.md), I build an agent-based model from scratch wi
 
 | | Boundary Conditions |
 |:-:|:---|
-| [1](01_the_overflow.md) | The Overflow (KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails) |
-| 👉 | **Part 2: The Export** (5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later) |
-| [3](03_the_tuning_fork.md) | The Tuning Fork (The macrocycle emerges from regulation alone; four numbers fix it) |
+| [1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | The Overflow — KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
+| 👉 | **Part 2: The Export** — 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
+| [3](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/) | The Tuning Fork — The macrocycle emerges from regulation alone; four numbers fix it |
 
-⬅️ [Part 1: The Overflow](01_the_overflow.md) · [Part 3: The Tuning Fork](03_the_tuning_fork.md) ➡️
+⬅️ [Part 1: The Overflow](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) · [Part 3: The Tuning Fork](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/) ➡️
 
 ---
 

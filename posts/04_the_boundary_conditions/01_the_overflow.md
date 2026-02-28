@@ -2,7 +2,7 @@
 
 <!-- NAV_HEADER:START -->
 ## Part 1 of 3
-Skip to [Part 2](02_the_export.md) or [Part 3](03_the_tuning_fork.md)
+Skip to [Part 2](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) or [Part 3](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/)
 Builds on: [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_picture.md) ([Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/), [Part 2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/), [Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/), [Part 4](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/))
 <!-- NAV_HEADER:END -->
 
@@ -262,23 +262,13 @@ Synthesizing Sections 2 through 7, here is the complete contagion architecture:
 
 The waterfall from Part 1 described what happens *inside* the settlement system for a single security. This post shows what happens at the walls: the energy overflows into adjacent securities, into the ETF complex, and into the sovereign debt market. The December 2025 double hit confirms that these channels operate simultaneously during macrocycle convergence windows.
 
-### Reading the Signals
+### Where This Could Break
 
-**What's good to see:**
+The Granger result is the backbone. I tested 7 equities; only GME was significant. But 7 is a small panel. A broader test — 50+ equities — would either sharpen the discrimination or dissolve it. If multiple equities begin showing significant Granger causality over Treasury fails, the signal becomes a generic macro-interest rate phenomenon rather than a GME-specific margin mechanism, and the VaR/SLD channel loses its explanatory power.
 
-- Continued unique predictive power of GME VaR/SLD cycles over Treasury fails in subsequent observation windows.
-- Persistent settlement amplification in non-option basket constituents (like KOSS) while the T+1 regime remains in effect.
+The KOSS amplification needs time to prove itself. The spectral shift from the first 430 business days of post-T+1 data is extraordinary (z = 1,050.9), but it could be a transient spike rather than a regime change. Twelve more months of data would settle this. If the T+33 amplification dissipates, the migration thesis weakens to a one-time anomaly.
 
-**What's bad to see:**
-
-- Broader control group equities beginning to show significant Granger causality over Treasury fails, which would imply the signal is a generic market or macro-interest rate phenomenon rather than a GME-specific margin mechanism.
-- Dissipation of the T+124 ACF derivative-period dominance in GME.
-
-**What would change my mind:**
-
-1. **If multiple equities Granger-cause Treasury fails**: The GME-specific signal becomes generic market noise. I tested 7 equities; only GME was significant. A broader panel (50+ equities) would strengthen or weaken this discrimination.
-2. **If KOSS amplification disappears with 12 more months of post-T+1 data**: The spectral shift might be a transient spike rather than a regime change.
-3. **If CUSIP-level Treasury FTD data shows the failing securities are unrelated to equity-collateral chains**: The VaR/SLD margin spiral mechanism would be falsified.
+The strongest single falsifier would be CUSIP-level Treasury FTD data showing that the failing securities are unrelated to equity-collateral chains. If the Treasuries failing during GME stress windows are random maturities with no connection to clearing member margin portfolios, the VaR/SLD margin spiral mechanism is wrong. That data sits inside DTCC/FICC and is not publicly available — but it exists.
 
 In [Part 2](02_the_export.md), I follow the settlement pressure when it crosses national borders: the 5,714:1 cost asymmetry between U.S. and European settlement penalties, and the cancelled stock that still actively fails 824 days after its CUSIP was terminated.
 
@@ -310,11 +300,11 @@ In [Part 2](02_the_export.md), I follow the settlement pressure when it crosses 
 
 | | Boundary Conditions |
 |:-:|:---|
-| 👉 | **Part 1: The Overflow** (KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails) |
-| [2](02_the_export.md) | The Export (5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later) |
-| [3](03_the_tuning_fork.md) | The Tuning Fork (The macrocycle emerges from regulation alone; four numbers fix it) |
+| 👉 | **Part 1: The Overflow** — KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
+| [2](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) | The Export — 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
+| [3](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/) | The Tuning Fork — The macrocycle emerges from regulation alone; four numbers fix it |
 
-[Part 2: The Export](02_the_export.md) ➡️
+[Part 2: The Export](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) ➡️
 
 ---
 

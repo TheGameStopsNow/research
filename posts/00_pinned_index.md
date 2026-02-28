@@ -65,8 +65,6 @@ Follows the settlement energy when it crosses boundaries the waterfall was never
 
 ---
 
----
-
 ## About This Research
 
 - 📂 All code, data, and results: [github.com/TheGameStopsNow/research](https://github.com/TheGameStopsNow/research)

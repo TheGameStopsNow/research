@@ -65,19 +65,6 @@ Follows the settlement energy when it crosses boundaries the waterfall was never
 
 ---
 
-## Series 7: The Ask
-
-The capstone. What I would actually tell a regulator — five ranked actions backed by all nine papers, with a downloadable evidence package designed for congressional staff, SEC examiners, and enforcement analysts.
-
-| # | Post | Reddit | 𝕏 |
-|:-:|------|:------:|:-:|
-| 1 | **The Ask** |  |  |
-
-📄 **Papers:** All nine
-📦 **Regulatory Evidence Package:** [github.com/TheGameStopsNow/research/tree/main/regulatory_package](https://github.com/TheGameStopsNow/research/tree/main/regulatory_package)
-
----
-
 ## About This Research
 
 - 📂 All code, data, and results: [github.com/TheGameStopsNow/research](https://github.com/TheGameStopsNow/research)

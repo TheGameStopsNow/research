@@ -10,7 +10,7 @@ Builds on: [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_p
 
 **TL;DR:** [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_picture.md) (Parts 1 through 4) mapped the waterfall, the resonance, and the cavity inside a single security. This post follows the settlement energy when it leaves GME. Using 215 weeks of NY Federal Reserve primary dealer fail data and pre/post spectral analysis of the T+1 transition, I found three things: (1) when T+1 compressed GME's settlement frequencies by 92%, the same frequencies *amplified by +1,051%* in KOSS, a meme stock with a 7.4-million-share float and no options chain; this amplification survives float-normalization at 1,050.9 standard deviations above control tickers; (2) a formal Granger causality test across 7 equities shows that *only GME* predicts U.S. Treasury settlement fails at a 1-week lag ($F = 19.20$, $p < 0.0001$), with the F-statistic 8.1 times stronger than any other equity tested; and (3) the December 2025 macrocycle window produced a simultaneous GME FTD spike ($z = +4.2\sigma$) and Treasury fail spike ($z = +4.0\sigma$), separated by exactly one week. The waterfall does not stop at the boundary of one security. It floods into adjacent tickers, and it contaminates sovereign debt settlement.
 
-> **Full academic paper:** [Boundary Conditions (Paper IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md)
+> **Full academic paper:** [Boundary Conditions (Paper IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1)
 
 > **⚠️ Methodology Note:** This analysis presents empirical data alongside
 > interpretive frameworks. Where the data *shows* something (spectral power
@@ -21,7 +21,7 @@ Builds on: [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_p
 > between "the data shows X" and "I interpret X as evidence of Y." All
 > scripts and data are published for independent verification.
 
-![Ticker Key — symbols used throughout this series](figures/ticker_legend.png)
+![Ticker Key: symbols used throughout this series](figures/ticker_legend_01_the_overflow.png)
 
 ---
 
@@ -119,9 +119,9 @@ The normalization has no effect on the spectral *change ratio*. The pre/post cha
 
 Against control tickers (AAPL, MSFT, TSLA), the KOSS spectral change produces a $z$-score of **1,050.9 standard deviations**. For context, a $z$-score of 5 is conventionally regarded as extraordinary in the physical sciences. 1,050.9 is not noise.
 
-![KOSS amplification spotlight: T+33 rises +3,039%, T+35 rises +2,268%, and T+105 rises +21,213% — while GME collapses -96% at each frequency. The settlement energy migrated.](figures/chart_koss_spotlight.png)
+![KOSS amplification spotlight: T+33 rises +3,039%, T+35 rises +2,268%, and T+105 rises +21,213%, while GME collapses -96% at each frequency. The settlement energy migrated.](figures/chart_koss_spotlight.png)
 
-*Scripts: See [Paper IX, Section 2](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md), Tables 1 and 2. Falsification test: [Paper IX, Section 9.4, Test (b)](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md).*
+*Scripts: See [Paper IX, Section 2](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1), Tables 1 and 2. Falsification test: [Paper IX, Section 9.4, Test (b)](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1).*
 
 ### What This Means
 
@@ -186,16 +186,16 @@ The question: does adding lagged GME FTDs to a model of Treasury fails improve t
 
 AMC, KOSS, TSLA, AAPL, MSFT: all non-significant. If the Granger relationship were driven by shared macro factors (SOFR stress, quarter-end portfolio rebalancing, Federal Reserve RRP shifts), these factors would affect multiple equities, not just one. The uniqueness of the GME signal rules out shared confounders as the sole driver.
 
-*Results: [`granger_causality_results.json`](https://github.com/TheGameStopsNow/research/blob/main/results/ftd_research/granger_causality_results.json). Falsification test: [Paper IX, Section 9.4, Test (a)](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md).*
+*Results: [`granger_causality_results.json`](https://github.com/TheGameStopsNow/research/blob/main/results/ftd_research/granger_causality_results.json). Falsification test: [Paper IX, Section 9.4, Test (a)](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1).*
 
 ### The Proposed Mechanism
 
-How does one stock's unresolved settlement obligations degrade sovereign debt settlement? The proposed channel:
+How does one stock's unresolved settlement obligations degrade sovereign debt settlement? It doesn't mechanically cause the Treasury fails directly; rather, GME acts as the ultimate "canary in the coal mine" for systemic VaR accumulation. The proposed channel:
 
-1. GME FTD spike creates a VaR (Value at Risk) and SLD (Supplemental Liquidity Deposit, an additional margin charge [NSCC](https://www.dtcc.com/~/media/Files/Downloads/legal/rules/nscc_rules.pdf) imposes on concentrated positions) margin call on the clearing member.
+1. A massive GME FTD spike triggers a VaR (Value at Risk) and SLD (Supplemental Liquidity Deposit, an additional margin charge [NSCC](https://www.dtcc.com/~/media/Files/Downloads/legal/rules/nscc_rules.pdf) imposes on concentrated positions) margin call on the clearing member.
 2. The clearing member posts additional collateral, which must be high-quality liquid assets (predominantly U.S. Treasuries).
-3. If the margin call exceeds available cash, the clearing member must sell or repo Treasuries from its proprietary inventory to raise cash.
-4. This fire-sale creates delivery failures in the Treasury market at the FICC (Fixed Income Clearing Corporation, the subsidiary of DTCC that clears government securities).
+3. If the margin call exceeds available cash, the clearing member is forced into a fire-sale or repo of Treasuries from its proprietary inventory to raise cash.
+4. This abrupt, forced liquidity hunt creates delivery failures in the Treasury market at the FICC (Fixed Income Clearing Corporation, the subsidiary of DTCC that clears government securities).
 5. The Treasury fails appear in the NY Fed PDFTD-USTET series one week later.
 
 Steps 1 through 3 are standard mechanics documented in [NSCC Rule 4](https://www.dtcc.com/~/media/Files/Downloads/legal/rules/nscc_rules.pdf) (margin requirements) and [15c3-1](https://www.ecfr.gov/current/title-17/chapter-II/part-240/subject-group-ECFR856033ddd8a8a42/section-240.15c3-1) (net capital requirements). Step 4 is the contagion channel: the equity crisis doesn't just affect equity settlement; it pulls pristine collateral out of the repo market, degrading Treasury settlement at the sovereign level.
@@ -262,7 +262,19 @@ Synthesizing Sections 2 through 7, here is the complete contagion architecture:
 
 The waterfall from Part 1 described what happens *inside* the settlement system for a single security. This post shows what happens at the walls: the energy overflows into adjacent securities, into the ETF complex, and into the sovereign debt market. The December 2025 double hit confirms that these channels operate simultaneously during macrocycle convergence windows.
 
-### What Would Falsify These Findings
+### Reading the Signals
+
+**What's good to see:**
+
+- Continued unique predictive power of GME VaR/SLD cycles over Treasury fails in subsequent observation windows.
+- Persistent settlement amplification in non-option basket constituents (like KOSS) while the T+1 regime remains in effect.
+
+**What's bad to see:**
+
+- Broader control group equities beginning to show significant Granger causality over Treasury fails, which would imply the signal is a generic market or macro-interest rate phenomenon rather than a GME-specific margin mechanism.
+- Dissipation of the T+124 ACF derivative-period dominance in GME.
+
+**What would change my mind:**
 
 1. **If multiple equities Granger-cause Treasury fails**: The GME-specific signal becomes generic market noise. I tested 7 equities; only GME was significant. A broader panel (50+ equities) would strengthen or weaken this discrimination.
 2. **If KOSS amplification disappears with 12 more months of post-T+1 data**: The spectral shift might be a transient spike rather than a regime change.
@@ -281,7 +293,7 @@ In [Part 2](02_the_export.md), I follow the settlement pressure when it crosses 
 | ETF substitution test | [`etf_substitution_test.py`](https://github.com/TheGameStopsNow/research/blob/main/code/analysis/ftd_research/etf_substitution_test.py) |
 | FTD data (GME, KOSS, AMC, XRT) | [`data/ftd/`](https://github.com/TheGameStopsNow/research/tree/main/data/ftd) |
 | Treasury FTD data (NY Fed) | [`data/treasury/nyfrb_pdftd.csv`](https://github.com/TheGameStopsNow/research/blob/main/data/treasury/nyfrb_pdftd.csv) |
-| Full paper (Paper IX) | [`09_boundary_conditions.md`](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md) |
+| Full paper (Paper IX) | [`09_boundary_conditions.md`](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1) |
 
 ---
 
@@ -298,9 +310,9 @@ In [Part 2](02_the_export.md), I follow the settlement pressure when it crosses 
 
 | | Boundary Conditions |
 |:-:|:---|
-| 👉 | **Part 1: The Overflow** — KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
-| [2](02_the_export.md) | The Export — 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
-| [3](03_the_tuning_fork.md) | The Tuning Fork — The macrocycle emerges from regulation alone; four numbers fix it |
+| 👉 | **Part 1: The Overflow** (KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails) |
+| [2](02_the_export.md) | The Export (5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later) |
+| [3](03_the_tuning_fork.md) | The Tuning Fork (The macrocycle emerges from regulation alone; four numbers fix it) |
 
 [Part 2: The Export](02_the_export.md) ➡️
 

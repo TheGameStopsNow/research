@@ -5,6 +5,11 @@
 - **[02_forensic_trade_analysis.md](papers/02_forensic_trade_analysis.md)**: Forensic validation of the theory using trade-by-trade data from May/June 2024.
 - **[03_policy_regulatory_implications.md](papers/03_policy_regulatory_implications.md)**: Policy analysis and recommendations for regulatory reform (CAT implementation, FTD thresholds).
 - **[04_infrastructure_macro.md](papers/04_infrastructure_macro.md)**: Cross-domain corroboration — FCC microwave infrastructure, 5-year cross-date weather verification panel (p=0.009), exchange-split DiD (p=0.021), DTCC RECAPS settlement mechanics, Yen carry trade funding, SEC FOIA regulatory vacuum, and the 17-sigma Empirical Shift Test proving algorithmic basket execution.
+- **[05_failure_accommodation_waterfall.md](papers/05_failure_accommodation_waterfall.md)**: The 15-node regulatory cascade from T+0 to T+45, FTD lifecycle mapping, and the settlement waterfall.
+- **[06_resonance_and_cavity.md](papers/06_resonance_and_cavity.md)**: Quality Factor Q ≈ 21, the 630-business-day macrocycle, standing wave analysis, and energy storage capacity.
+- **[07_shadow_ledger_offshore_crypto.md](papers/07_shadow_ledger_offshore_crypto.md)**: Offshore synthetic supply, derivative risk transfer, and collateral reflexivity.
+- **[08_compliance_as_a_service.md](papers/08_compliance_as_a_service.md)**: Asynchronous complex orders, regulatory arbitrage, and compliance infrastructure.
+- **[09_boundary_conditions.md](papers/09_boundary_conditions.md)**: T+1 spectral migration, Granger causality, ETF substitution, CSDR arbitrage, zombie obligations, and agent-based macrocycle model.
 
 ## Reddit Posts (`posts/`)
 - **[part1_following_the_money.md](posts/part1_following_the_money.md)**: Trade data analysis — 263M shares, $12.13 tape fracture, odd-lot rule evasion.

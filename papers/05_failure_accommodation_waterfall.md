@@ -1,6 +1,6 @@
 # The Failure Accommodation Waterfall: Mapping the Lifecycle of Institutional Delivery Failures Through the Continuous Net Settlement Engine
 
-### Paper V of VIII: Settlement Forensics
+### Paper V of IX: Settlement Forensics
 
 *Anon*
 *Independent Researcher*
@@ -437,13 +437,13 @@ The one-sentence thesis:
 
 8. DTCC. "National Securities Clearing Corporation Rules & Procedures." Rule 11: Suspension of Rules and Procedures. [dtcc.com](https://www.dtcc.com/legal/rules-and-procedures)
 
-9. Anon (2026a). "The Long Gamma Default." *Paper I of VIII: Theory & ACF*. Independent Research.
+9. Anon (2026a). "The Long Gamma Default." *Paper I of IX: Theory & ACF*. Independent Research.
 
-10. Anon (2026b). "The Shadow Algorithm." *Paper II of VIII: Evidence & Forensics*. Independent Research.
+10. Anon (2026b). "The Shadow Algorithm." *Paper II of IX: Evidence & Forensics*. Independent Research.
 
-11. Anon (2026c). "Exploitable Infrastructure." *Paper III of VIII: Policy & Attribution*. Independent Research.
+11. Anon (2026c). "Exploitable Infrastructure." *Paper III of IX: Policy & Attribution*. Independent Research.
 
-12. Anon (2026d). "Structural Fragility." *Paper IV of VIII: Infrastructure & Macro*. Independent Research.
+12. Anon (2026d). "Structural Fragility." *Paper IV of IX: Infrastructure & Macro*. Independent Research.
 
 ---
 

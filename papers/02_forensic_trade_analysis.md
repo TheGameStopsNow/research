@@ -1,6 +1,6 @@
 # The Shadow Algorithm: Adversarial Microstructure Forensics in Options-Driven Equity Markets
 
-**Paper II of VIII: Evidence & Forensics**
+**Paper II of IX: Evidence & Forensics**
 
 *Anon*
 *Independent Researcher*
@@ -531,7 +531,7 @@ Paper III of this series presents the regulatory and policy framework: specific 
 
 ## References
 
-1. Anon (2026a). "The Long Gamma Default: Autocorrelation Spectrum Theory and the Physics of Options-Driven Equity Markets." *Paper I of VIII: Theory & ACF*. Independent Research.
+1. Anon (2026a). "The Long Gamma Default: Autocorrelation Spectrum Theory and the Physics of Options-Driven Equity Markets." *Paper I of IX: Theory & ACF*. Independent Research.
 
 2. Black, F. & Scholes, M. (1973). "The Pricing of Options and Corporate Liabilities." *Journal of Political Economy*, 81(3), 637–654.
 

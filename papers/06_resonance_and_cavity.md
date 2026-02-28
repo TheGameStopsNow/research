@@ -1,6 +1,6 @@
 # The Resonance Cavity: Standing Waves, Spectral Fingerprints, and Cross-Asset Settlement Coherence
 
-### Paper VI of VIII: Settlement Dynamics
+### Paper VI of IX: Settlement Dynamics
 
 *Anon*
 *Independent Researcher*
@@ -374,7 +374,7 @@ The most striking finding is the simplest: a stock that was cancelled in August 
 
 ## Credits
 
-This analysis draws on months of independent FTD forensic work as part of a broader settlement mechanics investigation. The T+33 echo cascade originates from **Richard Newton's** T+33 re-FTD hypothesis, which **beckettcat** brought to my attention along with independent contributions (🧲 creation signal, GMEU composite, Threshold List risk analysis). **TheUltimator5** contributed settlement cycle mechanics.
+This analysis draws on months of independent FTD forensic work as part of a broader settlement mechanics investigation. The T+33 settlement echo originated from **Gherk** and the options trading community as a derivative of the T+35 Reg SHO close-out deadline. **Richard Newton** independently developed the multi-kick echo model—the hypothesis that FTDs don't just settle at T+33 but re-FTD, creating a repeating cascade (T+33 → T+66 → T+99 → ...). **beckettcat** brought these ideas to my attention along with independent contributions (🧲 creation signal, GMEU composite, Threshold List risk analysis). **TheUltimator5** contributed settlement cycle mechanics.
 
 ---
 
@@ -393,7 +393,7 @@ This analysis draws on months of independent FTD forensic work as part of a broa
 
 ## References
 
-1. Anon (2026). "The Failure Accommodation Waterfall." *Paper V of VIII: Settlement Forensics*. Independent Research.
+1. Anon (2026). "The Failure Accommodation Waterfall." *Paper V of IX: Settlement Forensics*. Independent Research.
 2. Welch, P. D. (1967). "The use of fast Fourier transform for the estimation of power spectra." *IEEE Transactions on Audio and Electroacoustics*, AU-15(2), 70-73.
 3. Securities and Exchange Commission. Regulation SHO, Rule 204(a)(2), [17 CFR Section 242.204][14].
 4. SEC Failures-to-Deliver Data. [sec.gov/data-research/sec-markets-data/fails-deliver-data][15].

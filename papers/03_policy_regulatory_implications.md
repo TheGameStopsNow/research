@@ -1,6 +1,6 @@
 # Exploitable Infrastructure: Regulatory Implications of the Long Gamma Default and Adversarial Microstructure Forensics
 
-### Paper III of VIII: Policy & Attribution
+### Paper III of IX: Policy & Attribution
 
 *Anon*
 *Independent Researcher*
@@ -329,11 +329,11 @@ The tools presented across this trilogy — the ACF spectrum, the Gamma Reynolds
 
 ## References
 
-1. Anon (2026a). "The Long Gamma Default: Autocorrelation Spectrum Theory and the Physics of Options-Driven Equity Markets." *Paper I of VIII: Theory & ACF*. Independent Research.
+1. Anon (2026a). "The Long Gamma Default: Autocorrelation Spectrum Theory and the Physics of Options-Driven Equity Markets." *Paper I of IX: Theory & ACF*. Independent Research.
 
-2. Anon (2026b). "The Shadow Algorithm: Adversarial Microstructure Forensics in Options-Driven Equity Markets." *Paper II of VIII: Evidence & Forensics*. Independent Research.
+2. Anon (2026b). "The Shadow Algorithm: Adversarial Microstructure Forensics in Options-Driven Equity Markets." *Paper II of IX: Evidence & Forensics*. Independent Research.
 
-3. Anon (2026e). "The Failure Accommodation Waterfall: Mapping the Lifecycle of Institutional Delivery Failures Through the Continuous Net Settlement Engine." *Paper V of VIII: Settlement Forensics*. Independent Research.
+3. Anon (2026e). "The Failure Accommodation Waterfall: Mapping the Lifecycle of Institutional Delivery Failures Through the Continuous Net Settlement Engine." *Paper V of IX: Settlement Forensics*. Independent Research.
 
 4. U.S. Securities and Exchange Commission. "SEC Rule 10b-5: Employment of Manipulative and Deceptive Devices." 17 CFR § 240.10b-5.
 

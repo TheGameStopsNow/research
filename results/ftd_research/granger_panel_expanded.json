@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "tested": 15916,
+    "sig05": 2546,
+    "expected_fp": 796,
+    "bonferroni": 3.141492837396331e-06,
+    "bonf_sig": 228,
+    "gme_rank": 12283
+  },
+  "significant": {
+    "IBDD": {
+      "lag": 1,
+      "F": 120.4235,
+      "p": 1.1102230246251565e-16,
+      "significant": 

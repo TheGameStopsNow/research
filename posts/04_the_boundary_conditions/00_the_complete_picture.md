@@ -1,8 +1,8 @@
 # Boundary Conditions: The Complete Picture
 
-**TL;DR:** The [Failure Waterfall](../03_the_failure_waterfall/01_where_ftds_go_to_die.md) series mapped a 15-node regulatory cascade inside a single stock's settlement plumbing. This series asks what happens when that plumbing springs a leak. Answer: the settlement energy floods into adjacent tickers, contaminates sovereign debt, crosses national borders, and persists on securities that no longer exist. Then I built a simulation from nothing but the SEC's own rules and watched the macrocycle emerge by itself. The fix is four numbers.
+A lot of people have asked me to simplify my research and offer my interpretation of it — something that explains my take without requiring a statistics degree to follow. So that's what this is. This post is my speculative interpretation of what the data shows, written in plain language and staying away from the heavier jargon. If you want the actual evidence, I encourage you to dig into the DD posts linked throughout. And if you *really* want more, the full papers with all the math, code, and reproducible scripts are on [GitHub](https://github.com/TheGameStopsNow/research).
 
-> **⚠️ Methodology Note:** This is a summary and interpretive synthesis. Where I state something as a data finding, the reproducible scripts and data are linked in the individual posts and the [public repository](https://github.com/TheGameStopsNow/research). Where I offer interpretation (clearly marked as "my take"), that is my inference from the patterns. All code is published. All data is sourced. If I'm wrong, show me where with data.
+**TL;DR:** I found out that when GME's settlement system gets squeezed, the pressure doesn't just disappear. It floods into other stocks, breaks government bond settlement, crosses national borders, and keeps cycling on a stock that *doesn't exist anymore*. Then I built a computer simulation using nothing but the SEC's own rules, and the system's heartbeat appeared on its own. The fix? Change four numbers. That's it.
 
 > **Position disclosure:** I hold a long position in GME. I am not a financial advisor, attorney, or affiliated with any entity named in this post.
 
@@ -12,146 +12,138 @@
 
 ---
 
-## What This Series Found
+## Okay, So What Am I Looking At?
 
-The Failure Waterfall mapped the *internal* dynamics of GME's settlement lifecycle. It was alarming. But I kept assuming the settlement energy stayed inside GME's plumbing.
+My [last series](../03_the_failure_waterfall/01_where_ftds_go_to_die.md) was about what happens *inside* GME's settlement plumbing. I mapped a 15-node regulatory cascade that FTDs bounce through over 45 business days. It was alarming, but I made one comforting assumption: the pressure stays inside GME's pipes.
 
-It doesn't. It leaks everywhere. And "everywhere" includes places that should terrify you.
+It does not.
 
----
-
-## Layer 1: The Overflow ([Part 1](01_the_overflow.md))
-
-This is where I started to get nervous.
-
-The settlement energy doesn't stay inside one stock. It floods outward through three channels, and I'm going to walk through each one because they're all independently alarming.
-
-**Channel 1: Ticker migration.** When T+1 compressed GME's settlement frequencies by 92%, the same frequencies amplified by **+1,051%** in KOSS — a tiny headphone company with no options chain and no institutional coverage. I checked whether this could be a small-float denominator effect. It can't. The normalization constant cancels. Against control tickers, the KOSS amplification registers at **1,050 standard deviations**. For reference, a 5-sigma event is supposed to happen once every 3.5 million observations. This is 1,050 sigma. This is not noise. This is someone screaming.
-
-**Channel 2: Sovereign contamination.** I ran a Granger causality test — basically asking "does knowing GME's past FTDs improve your prediction of Treasury settlement fails?" — across 7 equities using NY Federal Reserve data. Only GME is significant (F = 19.20, p < 0.0001). The relationship holds at every tested lag from 1 through 6 weeks. AMC, KOSS, TSLA, AAPL, MSFT: all non-significant. The proposed mechanism: GME FTD spikes trigger VaR margin calls, clearing members sell Treasuries to raise cash, and the sovereign debt market develops delivery failures one week later.
-
-Let me put that in perspective. GME's total market cap is about $10 billion. The Treasury market moves $700 billion per day. And the video game store uniquely predicts when the government's IOUs won't settle on time. That's not supposed to happen.
-
-**Channel 3: ETF substitution.** The XRT ETF creation/redemption mechanism allows Authorized Participants to create XRT shares, extract GME from the basket, and deliver those shares to satisfy FTD close-out deadlines. The SEC explicitly blessed this in a 2017 no-action letter to Latour Trading. The December 2020 GME spikes produced XRT FTD surges at +5.5 sigma on January 27, 2021 — the day before the buy-button removal.
-
-### My take
-
-In December 2025, the week after the GME spike hit +4.2 sigma, Treasury fails hit $290.5 billion at +4.0 sigma. The separation? Exactly one week. The Granger-optimal lag.
-
-A single mid-cap stock is degrading sovereign debt settlement because it's connected to the Treasury market through the clearing infrastructure. The tail is wagging the dog. That's... not great.
+The pressure leaks out of GME and into places it has no business being. This series is about where it goes, how I know, and — surprisingly — how to fix it with math that fits on the back of a napkin.
 
 ---
 
-## Layer 2: The Export ([Part 2](02_the_export.md))
+## Part 1: The Overflow — [Full Post](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/)
 
-The settlement boundary extends beyond U.S. borders. Because of course it does.
+### The short version
 
-Here's a fun math problem. A 35-day settlement fail costs approximately $1,750 in Europe under CSDR cash penalties. The same fail in the U.S. results in a Reg SHO lockout costing approximately $10 million per day.
+Imagine you squeeze a water balloon. The water doesn't vanish. It squirts out wherever the rubber is thinnest.
 
-That's a **5,714:1 cost asymmetry**.
+In May 2024, the SEC shortened stock settlement from two days to one day. The naive expectation: less time to settle = fewer problems. What actually happened: the settlement pressure inside GME collapsed by 92%. Sounds great, right?
 
-If you're a rational actor with an unresolvable U.S. delivery obligation and a European affiliate, the math is hard to argue with. You'd be *irrational* not to move the obligation offshore.
+Except the *same pressure* showed up in KOSS — a tiny headphone company nobody covers — amplified by over **1,000%**. Same frequencies. Same patterns. Just a different ticker symbol. The pressure didn't disappear. It squirted out the thinnest part of the rubber.
 
-The selectivity test confirms it: when U.S. stress events occurred (the T+1 transition, the DFV return), European equity and ETF fail rates spiked. European government bond fail rates did not. If these spikes were caused by domestic European turmoil, sovereign bonds would be the first to show stress. The fact that only equities and ETFs reacted, and only during U.S. events, points in one direction.
+Why KOSS? Because KOSS has no options chain. No analyst coverage. No regulatory eyeballs. If you were looking for the path of least resistance to park unresolved obligations, you would literally design KOSS. Whether this is deliberate or emergent, I can't tell from the data. The data just says it happened, and it happened at a statistical significance of 1,050 standard deviations. For context, physicists get excited about 5 sigma. This is not subtle.
 
-And then, again, there's BBBY. The stock was delisted on September 29, 2023. The CUSIP was cancelled. The company doesn't exist anymore. There is nothing to trade. Nothing to deliver. Nothing to borrow.
+### But wait, it gets worse
 
-SEC data shows 31 unique, actively fluctuating FTD values reported continuously through late 2025. That's 824 days after cancellation. 43% are block-sized changes exceeding 10,000 shares. Alternating injection and extraction. These are not database artifacts. Someone is actively managing delivery obligations on a security that no longer exists.
+I also found that GME's settlement failures *predict* U.S. Treasury bond settlement failures one week in advance. Let me say that again. A $10 billion video game retailer predicts when the U.S. government's $700 billion-per-day bond market will have delivery problems. It's the only stock out of seven I tested that does this.
 
-### My take
+The proposed mechanism isn't magic. When GME FTDs spike, clearing members get hit with margin calls. They need to post high-quality collateral — Treasuries — fast. That fire sale creates delivery failures in the bond market one week later. The plumbing connects them.
 
-The BBBY finding bothers me more than anything else in this series. Not because it's the largest by dollar value — it isn't. It bothers me because it reveals something fundamental about the plumbing.
+In December 2025, GME FTDs spiked to +4.2 sigma. One week later, Treasury fails spiked to +4.0 sigma — $290.5 billion in a single week. The lag matched perfectly.
 
-**The system has no garbage collection.** When a security ceases to exist, the obligation doesn't get cancelled. It doesn't get written off. It doesn't get flagged for resolution. It just sits there, actively cycling between counterparties, forever, because nobody wrote the code to handle this edge case. This is 50-year-old infrastructure that was never designed for a world where obligations could outlive the securities they reference.
-
-As a software engineer, this is the kind of bug that keeps me up at night. Not because it's complicated. Because it's obvious. And nobody fixed it.
+The tail is wagging the dog. [The full data and statistical tests are in Part 1.](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/)
 
 ---
 
-## Layer 3: The Tuning Fork ([Part 3](03_the_tuning_fork.md))
+## Part 2: The Export — [Full Post](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/)
 
-Okay. This is my favorite part. Stay with me.
+### The short version
 
-If the macrocycle is real, and it's caused by the regulatory structure rather than by any specific market participant, then I should be able to build a simulation from nothing but the SEC's own rules and watch the cycle emerge on its own. No market data. No FTD history. No cycle length specified anywhere. Just the rules.
+Here's a fun game. You have an unresolvable delivery obligation in the United States. Penalty: roughly $10 million per day (Reg SHO lockout). You also have an office in Europe. Penalty for the same failure in Europe: roughly $1,750 total for 35 days (CSDR cash penalties).
 
-So I did. Three software agents. Four coded regulatory deadlines (T+6, T+13, T+35, 10-day RECAPS cycle). Hit "run."
+That's a **5,714:1 cost difference**.
 
-The 630-day macrocycle appeared as the dominant spectral peak at **42.3x mean power**. It survived Welch PSD decontamination, which is specifically designed to eliminate the most common FFT windowing artifact. And the math explaining why is almost embarrassingly clean:
+If you're rational and you have a European affiliate, you don't need a conspiracy. You need a calculator.
 
-> LCM(6, 13, 35, 10) = 2,730 business days; 4th harmonic = 682.5 bd (~2.7 years)
+I tested whether European settlement failures spike during *U.S.* stress events (and not European ones). They do. And they do it selectively — only equities and ETFs spike; European government bonds don't. If Europe were just having its own bad week, sovereign bonds would spike first. The selectivity is the fingerprint.
 
-That's it. The macrocycle exists because the regulatory deadlines share common factors. 6 and 10 are both divisible by 2. 35 and 10 are both divisible by 5. Those shared factors keep the LCM small enough that its harmonics land on market-observable timescales. Every 2,730 business days, all four regulatory clocks reset to zero simultaneously. The system has a heartbeat, and it's set by arithmetic.
+### The ghost stock
 
-Now here's the punchline.
+And then there's Bed Bath & Beyond. BBBY was delisted in September 2023. The company is gone. The stock doesn't exist. There is nothing to trade, nothing to deliver, nothing to borrow.
 
-Under T+1, the deadlines shift to (5, 12, 34, 10). The LCM drops to 1,020. The 4th harmonic: **255 business days. Exactly one trading year.** The SEC shortened settlement to reduce risk. The math says they compressed the macrocycle from 2.5 years to 1 year. Settlement stress that previously accumulated over 2.5 years will now compound annually.
+SEC data shows 31 unique FTD values, actively fluctuating, continuously reported through late 2025. That's **824 days** after the stock was cancelled. 43% of the changes are in blocks larger than 10,000 shares — institutional-sized. Alternating injections and extractions. This is not a database glitch.
 
-And the fix? Choose deadlines that share no common factors. Replace (5, 12, 34, 10) with **(7, 11, 37, 13)**. The LCM jumps to 37,037 business days. The 4th harmonic: 9,259 business days. About 37 years. No standing wave can form at any frequency that matters.
+Someone is actively managing delivery obligations on a security that no longer exists. The system has no garbage collection. When a stock gets cancelled, nobody wrote the code to cancel the obligations. They just... keep going. Forever.
 
-### My take
-
-This is the part that gives me hope. The system's oscillation is not a conspiracy. It's not a cabal of evil short sellers coordinating in a smoke-filled room. It's *math*. The SEC's close-out deadlines share common factors, and those common factors produce harmonics at market-observable frequencies. Any system with these deadlines will oscillate, regardless of who participates.
-
-And if it's math, the fix is also math. Four numbers. That's all. Change the BFMM close-out from T+5 to T+7. Change the Threshold trigger from T+12 to T+11. Change the hard deadline from T+34 to T+37. Change the RECAPS cycle from 10 to 13 business days. Preserve all existing regulatory intent. Change nothing about market structure. Just make the gears stop meshing.
-
-Four numbers. I know it sounds too simple. But the Martian atmosphere is 96% CO₂, and the fix for that was a box of lithium hydroxide and some duct tape. Sometimes the answer *is* simple. The hard part is knowing which four numbers to change.
+As a software engineer, this is the kind of bug that makes me want to flip the table. Not because it's complicated. Because it's *obvious*. And nobody fixed it. [Full analysis in Part 2.](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/)
 
 ---
 
-## The Combined Falsification Battery
+## Part 3: The Tuning Fork — [Full Post](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/)
 
-I want to talk about how I tried to prove myself wrong, because I think that matters.
+### The short version
 
-Across Parts 1 through 3, I ran five adversarial tests, each designed to kill the thesis. Each null hypothesis was given a generous prior probability:
+This is the part that made me sit back in my chair and say something I can't print here.
 
-| Test | Null Hypothesis | Method | Result |
-|:----:|:----------------|--------|:------:|
-| (a) | Granger causality is macro noise | 7-equity panel | Only GME significant (F=19.20) |
-| (b) | KOSS is small-float noise | Float normalization | z = 1,050.9 against controls |
-| (c) | BBBY is database artifacts | Block-size analysis | 0% admin noise, 43% block-sized |
-| (d) | ABM macrocycle is FFT artifact | Welch PSD | Power *increases* to 42.3x |
-| (e) | EU spikes are domestic turmoil | Asset class selectivity | Only eq/ETF spiked; bonds didn't |
+If the macrocycle is real, and it's caused by the rules rather than by any specific bad actor, then I should be able to build a simulation using *only* the SEC's regulatory deadlines — no market data, no FTD history, no cycle length specified anywhere — and the cycle should emerge on its own. Like dropping a tuning fork and hearing the note without anyone playing it.
 
-Combined probability that all five nulls simultaneously explain the data: **< 0.03%**.
+So I built three software agents. Gave them four regulatory deadlines. Hit "run."
 
-None of them worked. And believe me, I wanted at least one of them to work, because "you made a math error" is a much simpler conclusion than "the settlement system is a resonant cavity contaminating sovereign debt."
+The 630-day macrocycle appeared at 42 times the background noise. Unprompted. Uncalibrated. Just the rules.
+
+### Why it happens
+
+The math is almost embarrassingly simple. The four key regulatory deadlines are T+6, T+13, T+35, and a 10-day review cycle. They share common factors — 6 and 10 are both divisible by 2, 35 and 10 share a factor of 5. Because of that, the Least Common Multiple (think of it as the first time all four clocks strike midnight simultaneously) is 2,730 business days.
+
+That's the system's heartbeat. It's not a conspiracy. It's arithmetic.
+
+### The T+1 punchline
+
+Under the new T+1 rules, those deadlines shift to 5, 12, 34, and 10. The system's heartbeat compresses from roughly 2.5 years to **exactly one trading year**. The SEC shortened settlement to reduce risk. The math says they made the cycle faster. Settlement stress that used to spread over 2.5 years now compounds annually.
+
+This is like fixing a car that overheats every 100 miles by making it overheat every 40 miles instead.
+
+### The fix
+
+Choose deadlines that share no common factors: **7, 11, 37, and 13**. The heartbeat stretches to 37 years. No standing wave can form at any frequency that matters. Same regulatory intent. Same number of deadlines. Just different numbers. [The full model and math are in Part 3.](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/)
+
+---
+
+## How I Tried to Prove Myself Wrong
+
+I ran five tests specifically designed to kill my own thesis. Here's what I threw at it:
+
+1. **"The Treasury thing is just general market noise."** → Tested 7 equities. Only GME was significant. The other 6? Crickets.
+2. **"KOSS is just small-float weirdness."** → Float-normalized it. Still 1,050 sigma above controls. Not weirdness.
+3. **"BBBY is a database glitch."** → Zero administrative noise. 43% block-sized. Actively managed.
+4. **"The simulation cycle is an artifact of the math."** → Applied a decontamination algorithm that's specifically designed to kill artifacts. The signal got *stronger*.
+5. **"The European spikes are their own problem."** → Only equities spiked. Government bonds didn't. It's not domestic.
+
+Combined odds that all five of these alternative explanations are simultaneously correct: less than 0.03%.
+
+I genuinely wanted at least one to work. "You made a math error" is a much more comfortable conclusion than "the settlement system is a leaky resonant cavity that contaminates sovereign debt." But here we are.
 
 ---
 
 ## What Would Change My Mind
 
-Science doesn't work if you don't say what would prove you wrong. So here's my list:
+1. If **April-May 2026** passes with zero anomalous activity, the next convergence prediction fails.
+2. If **other stocks** start predicting Treasury fails, the GME signal is just generic market noise.
+3. If the **annual compression** doesn't appear in a few years of T+1 data, the model is wrong.
+4. If **BBBY FTDs** hit zero and stay there for 90 days, the zombie is actually dead.
 
-1. **If April-May 2026 passes with zero anomalous activity.** The Spring 2026 convergence prediction fails. Major problem.
-2. **If multiple equities Granger-cause Treasury fails.** The GME-specific channel dissolves into generic macro noise. Less interesting. Also less alarming.
-3. **If the annual compression doesn't appear in 2-3 years of T+1 data.** The LCM model is wrong. Back to the drawing board.
-4. **If BBBY FTDs drop to zero for 90+ consecutive days.** The zombie obligations are being genuinely unwound. The zombie is actually dead.
-
-As of this writing, none of these have occurred. I'll be the first to tell you if they do.
+I'll be the first to tell you if any of these happen.
 
 ---
 
-## The Series at a Glance
+## The Series
 
-| Part | Title | One-Sentence Summary |
-|:----:|:------|:---------------------|
-| [1](01_the_overflow.md) | **The Overflow** | Settlement energy migrates to adjacent tickers and contaminates sovereign debt |
-| [2](02_the_export.md) | **The Export** | Obligations cross national borders and persist on securities that no longer exist |
-| [3](03_the_tuning_fork.md) | **The Tuning Fork** | An agent-based model proves the macrocycle emerges from regulation alone; coprime deadlines eliminate it |
+| Part | Title | One Sentence |
+|:----:|:------|:-------------|
+| [1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | **The Overflow** | Settlement pressure migrates to other stocks and predicts Treasury fails |
+| [2](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) | **The Export** | Obligations cross borders and persist on cancelled securities |
+| [3](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/) | **The Tuning Fork** | The macrocycle is arithmetic; four numbers kill it |
 
 ⬅️ **Previously:** [The Failure Waterfall](../03_the_failure_waterfall/01_where_ftds_go_to_die.md) (Parts 1–4)
 
 ---
 
-## Credits
-
-This research was built on hypotheses from the community: **Richard Newton** originated the T+33 echo concept, **beckettcat** brought it to my attention and independently identified the Threshold List as a regulatory constraint, and **TheUltimator5** contributed settlement cycle mechanics. Their work gave me the testable hypotheses. The boundary condition tests, agent-based model, cross-border analysis, and coprime fix are my contribution.
-
-The full test battery, scripts, and pre-computed results are in the [public repository](https://github.com/TheGameStopsNow/research).
+All code, data, and results: [github.com/TheGameStopsNow/research](https://github.com/TheGameStopsNow/research)
 
 ---
 
-*Not financial advice. Forensic research using public data. I'm not a financial advisor, attorney, or affiliated with any entity named in this post, including the SEC or ESMA. The author holds a long position in GME.*
+*Not financial advice. Forensic research using public data. I'm not a financial advisor, attorney, or affiliated with any entity named in this post. The author holds a long position in GME.*
 
-*"The Martian atmosphere is 96% CO₂. So, basically, if you want to breathe, you're going to have to science the shit out of it."*
-*— Andy Weir, paraphrased*
+*"I'm going to have to science the shit out of this."*
+*— Mark Watney*

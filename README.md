@@ -6,7 +6,7 @@ This project reverse-engineers the execution mechanics, physical infrastructure,
 
 ## 📄 The Research Papers
 
-The formal findings are divided into a seven-paper series:
+The formal findings are divided into a nine-paper series:
 
 1. **[Paper I: Theory & ACF](papers/01_theory_options_hedging_microstructure.md)**
    *The Long Gamma Default, the Gamma Reynolds Number, and empirical measurement of options-driven equity dampening across a 37-ticker panel.*
@@ -20,7 +20,11 @@ The formal findings are divided into a seven-paper series:
    *The 15-node regulatory cascade from T+0 to T+45, FTD lifecycle mapping across 2,038 days, and the settlement waterfall that recycles delivery obligations.*
 6. **[Paper VI: The Resonance Cavity](papers/06_resonance_and_cavity.md)**
    *Quality Factor Q ≈ 21, the 630-business-day macrocycle, standing wave analysis, and the system's energy storage capacity across years.*
-7. **[Paper VII: Boundary Conditions](papers/09_boundary_conditions.md)**
+7. **[Paper VII: The Shadow Ledger](papers/07_shadow_ledger_offshore_crypto.md)**
+   *Offshore synthetic supply, derivative risk transfer, and collateral reflexivity in the GameStop ecosystem.*
+8. **[Paper VIII: Compliance-as-a-Service](papers/08_compliance_as_a_service.md)**
+   *Asynchronous complex orders, regulatory arbitrage in U.S. equity settlement, and the compliance infrastructure enabling systematic delivery failure.*
+9. **[Paper IX: Boundary Conditions](papers/09_boundary_conditions.md)**
    *T+1 spectral migration (KOSS +3,039%), equity-to-Treasury Granger causality (F=19.20), ETF substitution, CSDR cost arbitrage, BBBY zombie obligations, and the agent-based macrocycle model.*
 
 ## 📝 The Reddit Series

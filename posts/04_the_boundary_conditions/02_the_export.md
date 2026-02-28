@@ -6,11 +6,11 @@ Skip to [Part 1](01_the_overflow.md) or [Part 3](03_the_tuning_fork.md)
 Builds on: [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_picture.md) ([Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/), [Part 2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/), [Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/), [Part 4](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/))
 <!-- NAV_HEADER:END -->
 
-**TA;DR:** It's 5,714x cheaper to fail a delivery in Europe than in the US. When US stress events hit, European equity fails spike. Meanwhile, BBBY's CUSIP was cancelled in 2023 — and it's still generating FTDs 824 days later.
+**TA;DR:** It's 5,714x cheaper to fail a delivery in Europe than in the US. When US stress events hit, European equity fails spike. Meanwhile, BBBY's CUSIP was cancelled in 2023, and it's still generating FTDs 824 days later.
 
-**TL;DR:** [Part 1](01_the_overflow.md) traced the settlement overflow across tickers (KOSS) and into sovereign debt (Treasuries). This post follows it across two more boundaries that should have been impassable. First, a 5,714:1 cost asymmetry between U.S. and European settlement penalties creates a rational incentive to export delivery failures offshore: a 35-day fail costs approximately $1,750 in Europe versus approximately $10 million per day under Reg SHO lockout. When U.S. stress events occurred (the T+1 transition, the DFV return), European equity and ETF fail rates spiked, but European government bond fail rates did not, a selectivity pattern inconsistent with domestic European turmoil. Second, Bed Bath & Beyond's CUSIP was cancelled in September 2023. As of December 2025, 824 days later, 31 unique non-zero FTD values have been reported to the SEC. Zero of the day-to-day changes are administrative noise (under 100 shares). 43% are block-sized changes exceeding 10,000 shares, alternating between injection and extraction. The obligations are not database artifacts. The pattern is consistent with active management of obligations on a security that no longer exists.
+**TL;DR:** [Part 1](01_the_overflow.md) traced the settlement overflow across tickers (KOSS) and into sovereign debt (Treasuries). This post follows it across two more boundaries that should have been impassable. First, a 5,714:1 cost asymmetry between U.S. and European settlement penalties creates a rational incentive to export delivery failures offshore: a 35-day fail costs approximately $1,750 in Europe versus approximately $10 million per day under Reg SHO lockout. When U.S. stress events occurred (the T+1 transition, the DFV return), European equity and ETF fail rates spiked, but European government bond fail rates did not, a selectivity pattern consistent with cross-border export rather than domestic European turmoil. Second, Bed Bath & Beyond's CUSIP was cancelled in September 2023. As of December 2025, 824 days later, 31 unique non-zero FTD values have been reported to the SEC. Zero of the day-to-day changes are administrative noise (under 100 shares). 43% are block-sized changes exceeding 10,000 shares, alternating between injection and extraction. The pattern is consistent with active management of obligations on a security that no longer exists.
 
-> **Full academic paper:** [Boundary Conditions (Paper IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md)
+> **Full academic paper:** [Boundary Conditions (Paper IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1)
 
 > **⚠️ Methodology Note:** This analysis presents empirical data alongside
 > interpretive frameworks. Where the data *shows* something (CSDR penalty
@@ -22,7 +22,7 @@ Builds on: [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_p
 > interpret X as evidence of Y." All scripts and data are published for
 > independent verification.
 
-![Ticker Key — symbols used throughout this series](figures/ticker_legend.png)
+![Ticker Key: symbols used throughout this series](figures/ticker_legend_02_the_export.png)
 
 ---
 
@@ -60,7 +60,7 @@ Here is the math:
 
 Under the model's assumptions, for a market maker with a $10 billion equity book, the Reg SHO lockout opportunity cost is approximately $10 million per day (inability to hedge, make markets, or manage inventory in that security). These figures are order-of-magnitude estimates, not direct measurements; actual costs depend on the firm's specific book composition and hedging requirements. The equivalent CSDR cash penalty for the same 35-day failure is $1,750 ([CSDR Article 7](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0909), [ESMA RTS on Settlement Discipline](https://www.esma.europa.eu/press-news/esma-news/esma-warns-about-high-levels-etf-settlement-fails)).
 
-A rational actor facing an unresolvable U.S. delivery obligation has a strong incentive to route it through a European affiliate where the penalty is 5,714 times cheaper. The question is whether the data supports this.
+A rational actor facing an unresolvable U.S. delivery obligation has a strong economic incentive to route it through a European affiliate where the penalty is 5,714 times cheaper. The question is whether the data is consistent with this hypothesis.
 
 ![The 5,714:1 cost asymmetry between U.S. and European settlement penalties. A 35-day fail costs $1,750 in Europe vs ~$10M/day under Reg SHO lockout.](figures/chart_penalty_comparison.png)
 
@@ -68,7 +68,7 @@ A rational actor facing an unresolvable U.S. delivery obligation has a strong in
 
 ## 2. EU Settlement Fail Rates: The Asset Class Test
 
-Using aggregate data from [ESMA Statistical Reports](https://www.esma.europa.eu/press-news/esma-news/esma-warns-about-high-levels-etf-settlement-fails) and [T2S settlement statistics](https://www.ecb.europa.eu/paym/target/t2s/profuse/html/index.en.html), I reconstructed the EU settlement fail rate trajectory from January 2022 through December 2024.
+Using aggregate data from [ESMA Statistical Reports](https://www.esma.europa.eu/press-news/esma-news/esma-warns-about-high-levels-etf-settlement-fails) and [T2S settlement statistics](https://www.ecb.europa.eu/paym/target/t2s/profuse/html/index.en.html) (T2S is the European Central Bank's unified settlement platform), I reconstructed the EU settlement fail rate trajectory from January 2022 through December 2024.
 
 | Asset Class | Pre-Penalties (Jan 2022) | Post-Penalties (Dec 2022) | Latest (Dec 2024) | Total Change |
 |-------------|:------------------------:|:-------------------------:|:------------------:|:------------:|
@@ -99,7 +99,7 @@ The critical discrimination is not levels but *spikes*. If U.S. settlement stres
 | **T+1 Transition** | **May 2024** | **+0.5 pp** | **No change** |
 | **DFV Return** | **Jun 2024** | **+0.3 pp** | **No change** |
 
-*Source: ESMA monthly T2S settlement statistics and ESMA H1/H2 2024 TRV Statistical Annex.*
+*Source: ESMA monthly T2S (TARGET2-Securities) settlement statistics and ESMA H1/H2 2024 TRV Statistical Annex.*
 
 Both the T+1 transition (+0.5 pp) and the DFV return event (+0.3 pp) produced measurable increases in EU equity and ETF fail rates.
 
@@ -161,7 +161,7 @@ Zero administrative noise. 43% block-sized changes exceeding 10,000 shares. The 
 -12,130 shares
 ```
 
-This injection/extraction pattern is inconsistent with DTCC system-wide database reconciliation, which would produce small, regular sub-100-share adjustments. A mechanism consistent with this data is ex-clearing bilateral novation: two parties cycling the obligation back and forth through the [DTCC Obligation Warehouse](https://www.dtcc.com/~/media/Files/Downloads/legal/rules/nscc_rules.pdf) (described in [NSCC Rule 11, Section 7](https://www.dtcc.com/~/media/Files/Downloads/legal/rules/nscc_rules.pdf)), where it can sit indefinitely because there is no mechanism to resolve it. The causal mechanism is inferred from the block-size distribution and alternating sign pattern; direct proof would require MPID-level clearing records. The stock no longer exists. The delivery obligation does.
+This injection/extraction pattern is inconsistent with DTCC system-wide database reconciliation, which would typically produce small, regular sub-100-share adjustments. A mechanism consistent with this data is ex-clearing bilateral novation: two parties cycling the obligation back and forth through the [DTCC Obligation Warehouse](https://www.dtcc.com/~/media/Files/Downloads/legal/rules/nscc_rules.pdf) (described in [NSCC Rule 11, Section 7](https://www.dtcc.com/~/media/Files/Downloads/legal/rules/nscc_rules.pdf)), where it can sit indefinitely because there is no mechanism to resolve it. The causal mechanism is inferred from the block-size distribution and alternating sign pattern; direct proof would require regulatory-level clearing records. The stock no longer exists. The delivery obligation appears to persist.
 
 ![BBBY: 824 days of FTDs on a cancelled CUSIP. Top panel shows the SEC-reported outstanding FTD balance (not a cumulative sum of daily new fails; each data point is the aggregate unsettled shares on that settlement date). The balance trends upward because there is no mechanism to deliver shares of a stock that no longer exists. Bottom panel shows day-to-day changes, with 43% exceeding the 10,000-share block-size threshold.](figures/chart_bbby_zombie.png)
 
@@ -213,7 +213,7 @@ In [Part 3](03_the_tuning_fork.md), I build an agent-based model from scratch wi
 | BBBY FTD data | [`data/ftd/BBBY_ftd.csv`](https://github.com/TheGameStopsNow/research/blob/main/data/ftd/BBBY_ftd.csv) |
 | EU settlement data (ESMA) | [ESMA Statistical Reports](https://www.esma.europa.eu/press-news/esma-news/esma-warns-about-high-levels-etf-settlement-fails) |
 | CSDR regulation text | [EUR-Lex 909/2014](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0909) |
-| Full paper (Paper IX) | [`09_boundary_conditions.md`](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md) |
+| Full paper (Paper IX) | [`09_boundary_conditions.md`](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1) |
 
 ---
 
@@ -230,9 +230,9 @@ In [Part 3](03_the_tuning_fork.md), I build an agent-based model from scratch wi
 
 | | Boundary Conditions |
 |:-:|:---|
-| [1](01_the_overflow.md) | The Overflow — KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
-| 👉 | **Part 2: The Export** — 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
-| [3](03_the_tuning_fork.md) | The Tuning Fork — The macrocycle emerges from regulation alone; four numbers fix it |
+| [1](01_the_overflow.md) | The Overflow (KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails) |
+| 👉 | **Part 2: The Export** (5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later) |
+| [3](03_the_tuning_fork.md) | The Tuning Fork (The macrocycle emerges from regulation alone; four numbers fix it) |
 
 ⬅️ [Part 1: The Overflow](01_the_overflow.md) · [Part 3: The Tuning Fork](03_the_tuning_fork.md) ➡️
 

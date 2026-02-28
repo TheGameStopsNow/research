@@ -10,7 +10,7 @@ Builds on: [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_p
 
 **TL;DR:** If the settlement system resonates at a specific frequency, and that frequency is set by regulation, then it should be possible to build a simulation from nothing but the SEC's own rules and watch it produce the macrocycle on its own. I did. A minimal agent-based model with 3 agents and 4 coded regulatory deadlines (T+6 BFMM close-out, T+13 Threshold List, T+35 hard deadline, 10-day RECAPS cycle) spontaneously produces the 630-day macrocycle at 42.3x mean spectral power under Welch PSD analysis. The period was never hard-coded anywhere in the model. It emerged from the mathematical interaction of the deadlines. The reason: LCM(6, 13, 35, 10) = 2,730 business days. The 4th harmonic lands at 682.5 business days, within 8% of the empirical 630-day peak from [Failure Waterfall Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/). Under T+1, the deadlines shift to (5, 12, 34, 10), giving LCM = 1,020 business days. The 4th harmonic is now 255 business days: exactly one trading year. The settlement stress that previously accumulated over 2.5 years will now compound annually. A coprime deadline structure (7, 11, 37, 13) pushes the LCM to 37,037 business days, roughly 147 years. No low-order harmonic falls within observable timescales. The resonance cavity can be eliminated not by making settlement faster, but by making the regulatory deadlines *mathematically incompatible* with each other. Across all five adversarial tests in this series, the combined probability that the null hypotheses explain the data is less than 0.03%.
 
-> **Full academic paper:** [Boundary Conditions (Paper IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md)
+> **Full academic paper:** [Boundary Conditions (Paper IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1)
 
 > **⚠️ Methodology Note:** This analysis presents a computational model
 > alongside interpretive frameworks. Where the model *produces* something
@@ -22,7 +22,7 @@ Builds on: [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_p
 > "I interpret X as evidence of Y." All scripts and data are published for
 > independent verification.
 
-![Ticker Key — symbols used throughout this series](figures/ticker_legend.png)
+![Ticker Key: symbols used throughout this series](figures/ticker_legend_03_the_tuning_fork.png)
 
 ---
 
@@ -104,7 +104,7 @@ An adversarial review flagged a potential confound: the 625-day peak in a 2,500-
 
 The macrocycle *increases* from 35.4x to 42.3x under Welch decontamination. The raw FFT was actually *suppressing* the true macrocycle power via spectral leakage. The Welch method, which is specifically designed to remove windowing artifacts, makes the signal stronger, not weaker.
 
-![Welch vs raw FFT comparison. The macrocycle peak increases from 35.4× to 42.3× under Welch PSD decontamination — the opposite of what a windowing artifact would produce.](figures/chart_welch_comparison.png)
+![Welch vs raw FFT comparison. The macrocycle peak increases from 35.4× to 42.3× under Welch PSD decontamination, the opposite of what a windowing artifact would produce.](figures/chart_welch_comparison.png)
 
 I also re-ran the ABM at $N$ = 2,500, 3,400, and 4,100 days. A pure windowing artifact would shift to $N/4$ in each case (625, 850, 1,025 respectively). The observed peak drift was 183 business days across the range, versus the 400 business days expected for a pure artifact.
 
@@ -123,6 +123,8 @@ Four regulatory deadlines govern the model: **6, 13, 35, and 10** business days.
 Dividing by 4 gives the dominant harmonic:
 
 > 2,730 / 4 = **682.5 business days**
+
+*(Why the 4th harmonic? Within a 10-year observation window, lower-order harmonics like the 1st or 2nd (2,730 and 1,365 days) are too long to complete enough full oscillations to build constructive interference. The 4th harmonic is the lowest-frequency mode short enough to complete multiple cycles, where it is mathematically amplified by the system's high Q-factor and the powerful T+35 reinjection pulse repeatedly pumping energy back into the cavity.)*
 
 This is within 8% of the empirical 630-day peak that emerged from 22 years of real FTD data in [Failure Waterfall Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/).
 
@@ -143,7 +145,7 @@ The SEC shortened settlement from T+2 to T+1 on May 28, 2024 ([SEC Release 34-96
 
 Result: a 63% compression, from 2,730 to 1,020 business days.
 
-![Harmonic compression across three deadline regimes. T+2 produces a 682-bd macrocycle. T+1 compresses it to 255 bd (exactly 1 year). Coprime deadlines push it to 9,259 bd (~37 years) — effectively eliminating the resonance cavity.](figures/chart_harmonic_compression.png)
+![Harmonic compression across three deadline regimes. T+2 produces a 682-bd macrocycle. T+1 compresses it to 255 bd (exactly 1 year). Coprime deadlines push it to 9,259 bd (~37 years), effectively eliminating the resonance cavity.](figures/chart_harmonic_compression.png)
 
 Its 4th harmonic, the dominant mode that manifests as the macrocycle, shifted from approximately 682 business days to exactly **255 business days**. That is one trading year.
 
@@ -195,7 +197,7 @@ Treating these as independent tests (each null hypothesis addresses a different 
 
 For context: the standard threshold in particle physics for claiming a discovery is $5\sigma$, corresponding to a p-value of 0.00003%. The combined falsification battery exceeds this threshold.
 
-*Scripts and results: see individual test references in [Paper IX, Section 9.4](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md). Falsification test results consolidated in [`falsification_test_results.md`](https://github.com/TheGameStopsNow/research/blob/main/temp/phase_ix_extensions/07_agent_based_model/falsification_test_results.md).*
+*Scripts and results: see individual test references in [Paper IX, Section 9.4](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1). Falsification test results consolidated in [`falsification_test_results.md`](https://github.com/TheGameStopsNow/research/blob/main/results/ftd_research/falsification_test_results.md).*
 
 ---
 
@@ -243,9 +245,9 @@ A coprime deadline structure would:
 |----------|------|
 | ABM simulation | [`abm_macrocycle.py`](https://github.com/TheGameStopsNow/research/blob/main/code/analysis/ftd_research/abm_macrocycle.py) |
 | Welch PSD validation | [`abm_welch_validation.py`](https://github.com/TheGameStopsNow/research/blob/main/code/analysis/ftd_research/abm_welch_validation.py) |
-| Falsification results | [`falsification_test_results.md`](https://github.com/TheGameStopsNow/research/blob/main/temp/phase_ix_extensions/07_agent_based_model/falsification_test_results.md) |
+| Falsification results | [`falsification_test_results.md`](https://github.com/TheGameStopsNow/research/blob/main/results/ftd_research/falsification_test_results.md) |
 | FTD data (all tickers) | [`data/ftd/`](https://github.com/TheGameStopsNow/research/tree/main/data/ftd) |
-| Full paper (Paper IX) | [`09_boundary_conditions.md`](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md) |
+| Full paper (Paper IX) | [`09_boundary_conditions.md`](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1) |
 
 ---
 
@@ -262,9 +264,9 @@ A coprime deadline structure would:
 
 | | Boundary Conditions |
 |:-:|:---|
-| [1](01_the_overflow.md) | The Overflow — KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
-| [2](02_the_export.md) | The Export — 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
-| 👉 | **Part 3: The Tuning Fork** — The macrocycle emerges from regulation alone; four numbers fix it |
+| [1](01_the_overflow.md) | The Overflow: KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
+| [2](02_the_export.md) | The Export: 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
+| 👉 | **Part 3: The Tuning Fork**: The macrocycle emerges from regulation alone; four numbers fix it |
 
 ⬅️ [Part 2: The Export](02_the_export.md)
 

@@ -13,7 +13,7 @@ Continued in: [Boundary Conditions](../04_the_boundary_conditions/01_the_overflo
 
 **TL;DR:** In [Part 2](02_the_resonance.md), I found the standing wave: a Q≈21 under-damped resonator with a ~2.5-year macrocycle. This post finds what's *inside* the wave. Using full periodogram spectral analysis across 8 securities and cross-asset coherence testing, I show that (1) a dominant spectral peak at approximately **630 business days (~2.5 years)** appears at **13.3× median noise** in GME's FTD spectrum, (2) 🔊, a stock with no options chain, shares this exact spectral signature — strong evidence of portfolio-level settlement via a Total Return Swap, (3) 🛁, a **delisted** stock, continues to produce **actively fluctuating FTDs** through late 2025 — 644 records, 31 unique post-delisting values — direct evidence of an ex-clearing shadow ledger on a cancelled CUSIP, and (4) control tickers (🍎, 🪟, 📊) show no settlement spectral signature, confirming the signal is specific to the basket. We're not watching noise. We're watching a bounded resonant cavity.
 
-> **📄 Full academic paper:** [The Resonance Cavity (Paper VI of VII)](https://github.com/TheGameStopsNow/research/blob/main/papers/06_resonance_and_cavity.md)
+> **📄 Full academic paper:** [The Resonance Cavity (Paper VI of IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/06_resonance_and_cavity.md)
 
 ---
 
@@ -302,8 +302,8 @@ The settlement system is formally a **bounded resonant cavity** where delivery f
 |:-------|:-----:|:---------------|
 | [The Strike Price Symphony](https://www.reddit.com/user/TheGameStopsNow/comments/1r5hog7/strike_price_symphony_1) | 3 | Options microstructure forensics |
 | [Options & Consequences](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1) | 4 | Institutional flow, balance sheets, macro funding |
-| **→ [The Failure Waterfall](00_the_complete_picture.md)** | **4** | **Settlement lifecycle: the 15-node cascade** |
-| [Boundary Conditions](../04_the_boundary_conditions/00_the_complete_picture.md) | 3 | Cross-boundary overflow, sovereign contamination, coprime fix |
+| **→ [The Failure Waterfall](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/)** | **4** | **Settlement lifecycle: the 15-node cascade** |
+| [Boundary Conditions](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | 3 | Cross-boundary overflow, sovereign contamination, coprime fix |
 
 </details>
 

@@ -13,7 +13,7 @@ Continued in: [Boundary Conditions](../04_the_boundary_conditions/01_the_overflo
 
 **TL;DR:** In [Part 1](01_where_ftds_go_to_die.md), I mapped the 45-day lifecycle of a single FTD: 15 regulatory checkpoints from birth to death. But FTDs don't arrive one at a time. When multiple waterfalls overlap, the echoes stack. Using FTD-to-FTD resonance analysis across 4,234 records spanning 22 years, I discovered the settlement system retains **approximately 86% of its echo signal amplitude** per T+35 cycle (Q≈21, dramatically under-damped). The ~14% that leaks out each cycle is all we see on the SEC FTD tape. The system is not a linear pipeline; it behaves as a **standing wave** with a ~2.5-year macrocycle, and a convergence of multi-year terminal maturities arriving in Spring 2026.
 
-> **📄 Full academic paper:** [The Resonance Cavity (Paper VI of VII)](https://github.com/TheGameStopsNow/research/blob/main/papers/06_resonance_and_cavity.md)
+> **📄 Full academic paper:** [The Resonance Cavity (Paper VI of IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/06_resonance_and_cavity.md)
 
 ---
 
@@ -518,8 +518,8 @@ This research extends Part 1's community foundation. Additional analytical frame
 |:-------|:-----:|:---------------|
 | [The Strike Price Symphony](https://www.reddit.com/user/TheGameStopsNow/comments/1r5hog7/strike_price_symphony_1) | 3 | Options microstructure forensics |
 | [Options & Consequences](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1) | 4 | Institutional flow, balance sheets, macro funding |
-| **→ [The Failure Waterfall](00_the_complete_picture.md)** | **4** | **Settlement lifecycle: the 15-node cascade** |
-| [Boundary Conditions](../04_the_boundary_conditions/00_the_complete_picture.md) | 3 | Cross-boundary overflow, sovereign contamination, coprime fix |
+| **→ [The Failure Waterfall](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/)** | **4** | **Settlement lifecycle: the 15-node cascade** |
+| [Boundary Conditions](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | 3 | Cross-boundary overflow, sovereign contamination, coprime fix |
 
 </details>
 

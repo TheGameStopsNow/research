@@ -1,4 +1,4 @@
-# The Failure Accommodation Waterfall: The Complete Picture
+# The Failure Accommodation Waterfall: Summary Post
 
 **TA;DR:** Your shares aren't late — they're surfing a 45-day regulatory loophole that functions as a hidden short-selling machine, and the echoes never fully die. Four posts, 22 years of data, nine tickers, one standing wave.
 

@@ -3,7 +3,7 @@
 <!-- NAV_HEADER:START -->
 ## Part 3 of 3
 Skip to [Part 1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) or [Part 2](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/)
-Builds on: [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_picture.md) ([Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/), [Part 2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/), [Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/), [Part 4](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/))
+Builds on: [The Failure Waterfall](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/) ([Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/), [Part 2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/), [Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/), [Part 4](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/))
 <!-- NAV_HEADER:END -->
 
 **TA;DR:** I built a simulation from nothing but SEC deadlines, no price data, no market info. It spontaneously produced the 630-day macrocycle. The math shows exactly how to break it: make the deadlines coprime. Four numbers fix the entire system.
@@ -267,6 +267,7 @@ A coprime deadline structure would:
 | [1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | The Overflow — KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
 | [2](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) | The Export — 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
 | 👉 | **Part 3: The Tuning Fork** — The macrocycle emerges from regulation alone; four numbers fix it |
+| [📋](https://www.reddit.com/r/Superstonk/comments/1rgsom0/boundary_conditions_summary_post/) | Summary Post — Plain-language interpretation of the series |
 
 ⬅️ [Part 2: The Export](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/)
 
@@ -278,8 +279,8 @@ A coprime deadline structure would:
 |:-------|:-----:|:---------------|
 | [The Strike Price Symphony](https://www.reddit.com/user/TheGameStopsNow/comments/1r5hog7/strike_price_symphony_1) | 3 | Options microstructure forensics |
 | [Options & Consequences](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1) | 4 | Institutional flow, balance sheets, macro funding |
-| [The Failure Waterfall](../03_the_failure_waterfall/00_the_complete_picture.md) | 4 | Settlement lifecycle: the 15-node cascade |
-| **→ [Boundary Conditions](00_the_complete_picture.md)** | **3** | **Cross-boundary overflow, sovereign contamination, coprime fix** |
+| [The Failure Waterfall](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/) | 4 | Settlement lifecycle: the 15-node cascade |
+| **→ [Boundary Conditions](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/)** | **3** | **Cross-boundary overflow, sovereign contamination, coprime fix** |
 
 </details>
 

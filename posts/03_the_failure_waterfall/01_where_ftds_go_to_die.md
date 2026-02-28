@@ -11,7 +11,7 @@ Builds on: [Options & Consequences](https://www.reddit.com/r/Superstonk/comments
 
 This research draws on months of independent FTD forensic work — 19 tests, 58 sub-tests, 9 tickers, 6,163 FTD records — that I've been building since mid-2025 as part of a broader investigation into settlement mechanics ([full project](https://github.com/TheGameStopsNow/research)). The T+33 echo cascade at the heart of this analysis originates from **Richard Newton's** T+33 re-FTD hypothesis, which **beckettcat** brought to my attention along with his own independent contributions (🧺 creation signals, GMEU composite scoring, Reg SHO Threshold List risk analysis). **TheUltimator5's** work on settlement cycle mechanics provided additional foundational insight. Their recent thread crystallized several ideas I'd been circling and gave me the framework to formalize findings that were already emerging from the data. The credit for the core T+33 concept belongs to Richard Newton; the 19-test battery, cross-asset validation, and resonance analysis are my contribution to building on it.
 
-> **📄 Full academic paper:** [The Failure Accommodation Waterfall (Paper V of VII)](https://github.com/TheGameStopsNow/research/blob/main/papers/05_failure_accommodation_waterfall.md)
+> **📄 Full academic paper:** [The Failure Accommodation Waterfall (Paper V of IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/05_failure_accommodation_waterfall.md)
 
 > **⚠️ Methodology Note:** This analysis presents empirical data alongside interpretive frameworks. Where the data *shows* something (enrichment ratios, temporal correlations, spectral peaks), the evidence is reproducible and sourced below. Where the analysis *interprets* what the data means (e.g., attributing phantom OI to settlement accommodation), the interpretation is the author's inference from the statistical patterns. Readers should distinguish between "the data shows X" and "I interpret X as evidence of Y." All scripts and data are published for independent verification.
 
@@ -168,7 +168,7 @@ Extending the enrichment analysis from T+33 to the full T+3 through T+60 range r
 *Script: [`17_settlement_architecture.py`](https://github.com/TheGameStopsNow/research/blob/main/code/analysis/ftd_research/17_settlement_architecture.py) · Results: [`settlement_architecture.json`](https://github.com/TheGameStopsNow/research/blob/main/results/ftd_research/settlement_architecture.json)*
 
 ![Figure 4: The Failure Accommodation Waterfall](figures/chart_waterfall.png)
-*Figure 4: The complete waterfall. Each FTD surfs through 18 regulatory checkpoints. Two valleys (T+18, T+30) reflect partial resolution. The continuous acceleration through T+40 reflects exponentially rising accommodation costs.*
+*Figure 4: The complete waterfall. Each FTD surfs through 15 regulatory checkpoints over 45 business days. Two valleys (T+18, T+30) reflect partial resolution. The continuous acceleration through T+40 reflects exponentially rising accommodation costs.*
 
 ![Figure 5: Terminal boundary](figures/chart_terminal_boundary.png)
 *Figure 5: The terminal boundary. At T+45, convergent regulatory pressures (escalating 15c3-1 capital charges + NSCC VaR margin + potential buy-in authority) make maintaining fails uneconomic. The question is what happens during the 45-day window before this point.*
@@ -341,8 +341,8 @@ The full test battery, scripts, and pre-computed results are in the [public repo
 |:-------|:-----:|:---------------|
 | [The Strike Price Symphony](https://www.reddit.com/user/TheGameStopsNow/comments/1r5hog7/strike_price_symphony_1) | 3 | Options microstructure forensics |
 | [Options & Consequences](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1) | 4 | Institutional flow, balance sheets, macro funding |
-| **→ [The Failure Waterfall](00_the_complete_picture.md)** | **4** | **Settlement lifecycle: the 15-node cascade** |
-| [Boundary Conditions](../04_the_boundary_conditions/00_the_complete_picture.md) | 3 | Cross-boundary overflow, sovereign contamination, coprime fix |
+| **→ [The Failure Waterfall](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/)** | **4** | **Settlement lifecycle: the 15-node cascade** |
+| [Boundary Conditions](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | 3 | Cross-boundary overflow, sovereign contamination, coprime fix |
 
 </details>
 

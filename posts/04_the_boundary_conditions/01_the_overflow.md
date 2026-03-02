@@ -272,7 +272,7 @@ The KOSS amplification needs time to prove itself. The spectral shift from the f
 
 The strongest single falsifier would be CUSIP-level Treasury FTD data showing that the failing securities are unrelated to equity-collateral chains. If the Treasuries failing during GME stress windows are random maturities with no connection to clearing member margin portfolios, the VaR/SLD margin spiral mechanism is wrong. That data sits inside DTCC/FICC and is not publicly available — but it exists.
 
-In [Part 2](02_the_export.md), I follow the settlement pressure when it crosses national borders: the 5,714:1 cost asymmetry between U.S. and European settlement penalties, and the cancelled stock that still actively fails 824 days after its CUSIP was terminated.
+In [Part 2](02_the_export.md), I follow the settlement pressure when it crosses national borders: the 5,714:1 cost asymmetry between U.S. and European settlement penalties, and the cross-border selectivity test. *(Note: The BBBY zombie FTD claim originally referenced here was retracted — see Correction #22.)*
 
 ---
 
@@ -303,7 +303,7 @@ In [Part 2](02_the_export.md), I follow the settlement pressure when it crosses 
 | | Boundary Conditions |
 |:-:|:---|
 | 👉 | **Part 1: The Overflow** — KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
-| [2](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) | The Export — 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
+| [2](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) | The Export — 5,714:1 penalty asymmetry; 5,714:1 penalty asymmetry; cross-border selectivity test |
 | [3](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/) | The Tuning Fork — The macrocycle emerges from regulation alone; four numbers fix it |
 | [📋](https://www.reddit.com/r/Superstonk/comments/1rgsom0/boundary_conditions_summary_post/) | Summary Post — Plain-language interpretation of the series |
 

@@ -85,17 +85,13 @@ This macrocycle appears in the basket members: GME, AMC, KOSS, BBBY. It does not
 
 KOSS is the smoking gun. It has no listed options chain. Zero. Without options, KOSS physically cannot generate the T+33 settlement loop that drives GME's echo cascade. And yet it shares the exact same spectral fingerprint. The simplest explanation: KOSS sits inside a Total Return Swap basket anchored by GME. When the prime broker rolls the swap, all basket constituents experience the same settlement cadence. One heartbeat, many bodies.
 
-And then there's BBBY.
-
 The stock was delisted and the CUSIP was cancelled in September 2023. There is nothing to trade. Nothing to deliver. Nothing to borrow. The company doesn't exist anymore.
 
-SEC data shows 31 unique, actively fluctuating FTD values reported continuously through late 2025. That's 824 days after cancellation. Zero of the day-to-day changes are administrative noise. 43% are block-sized changes exceeding 10,000 shares, alternating between injection and extraction. These are not database artifacts. Someone is actively managing delivery obligations on a security that no longer exists.
+> **⚠️ Correction (Mar 2, 2026):** The BBBY zombie FTD claim originally in this paragraph was retracted. The post-September 2025 data belonged to Beyond, Inc. (Overstock), which reclaimed the BBBY ticker under a different CUSIP. See [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md).
 
 ### My take
 
 This is the hardest thing to explain to people who haven't followed the series, so let me just say it plainly.
-
-There is a shadow ledger of delivery obligations sitting in DTCC's Obligation Warehouse, and it extends beyond the borders of reality itself. BBBY shares don't exist. The obligation to deliver them does. And it is being actively cycled between counterparties, because there is no mechanism to resolve a delivery failure on a cancelled security, and nobody has the authority or incentive to forgive it.
 
 The stock died. The debt didn't.
 
@@ -126,7 +122,7 @@ So. The waterfall maps how a single stock's settlement machinery works. Pretty a
 In the [Boundary Conditions](../04_the_boundary_conditions/01_the_overflow.md) series, I follow the pressure when it starts leaking out of the plumbing:
 
 - **[The Overflow](../04_the_boundary_conditions/01_the_overflow.md):** The settlement energy migrates to adjacent tickers (KOSS amplifies +1,051%), contaminates sovereign debt (GME uniquely Granger-causes Treasury fails), and exploits ETF creation baskets. A $10 billion stock is degrading the $700 billion/day Treasury market. That's... not great.
-- **[The Export](../04_the_boundary_conditions/02_the_export.md):** It costs $1,750 to fail in Europe for 35 days. It costs $10 million per day to fail in the U.S. That's a 5,714:1 cost asymmetry. Guess which direction the obligations flow. Also, BBBY's cancelled CUSIP is still generating active FTDs 824 days after the company ceased to exist. The system has no garbage collection.
+- **[The Export](../04_the_boundary_conditions/02_the_export.md):** It costs $1,750 to fail in Europe for 35 days. It costs $10 million per day to fail in the U.S. That's a 5,714:1 cost asymmetry. Guess which direction the obligations flow. *(Note: The BBBY zombie FTD claim originally in this section was retracted — see [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md).)*
 - **[The Tuning Fork](../04_the_boundary_conditions/03_the_tuning_fork.md):** I built a simulation with nothing but the SEC's own rules. The 630-day macrocycle emerged on its own. It's not a conspiracy. It's arithmetic. And the fix is four numbers.
 
 ---
@@ -137,7 +133,6 @@ Science doesn't work if you don't say what would prove you wrong. So here's my l
 
 1. **If a control ticker (AAPL, MSFT) develops the same 15-node waterfall pattern.** That would mean the effect is generic market microstructure, not GME-specific. I'd have to start over.
 2. **If Q drops below 5 in a future measurement using only post-2024 data.** The standing wave is naturally decaying, and I was measuring a transient, not a steady state.
-3. **If BBBY FTDs drop to zero for 90+ consecutive days.** The obligations are being genuinely unwound. The zombie is actually dead.
 
 As of this writing, none of these have occurred. I'll be the first to tell you if they do.
 

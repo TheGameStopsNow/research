@@ -135,7 +135,7 @@ Active FTD fluctuations on a cancelled CUSIP are *strongly suggestive of* obliga
 
 The spectral characteristics support this: 🛁 shows extreme nonlinearity (κ = 9.28) consistent with a sealed system where all damping has been removed. When shares cease to exist, the netting capacity drops to zero, and every micro-adjustment becomes visible on the FTD tape.
 
-*Data: [`data/ftd/BBBY_ftd.csv`](https://github.com/TheGameStopsNow/research/blob/main/data/ftd/BBBY_ftd.csv) (644 records, Jan 2020–Dec 2025, downloaded from [SEC EDGAR FTD Data](https://www.sec.gov/data-research/sec-markets-data/fails-deliver-data))*
+*Data: [`data/ftd/BBBY_ftd.csv`](https://github.com/TheGameStopsNow/research/blob/main/data/ftd/BBBY_ftd.csv) (567 records, Dec 2020–Oct 2023 — *corrected to CUSIP 075896100 only; see [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md)*, downloaded from [SEC EDGAR FTD Data](https://www.sec.gov/data-research/sec-markets-data/fails-deliver-data))*
 
 ---
 
@@ -289,7 +289,7 @@ The settlement system is formally a **bounded resonant cavity** where delivery f
 |:-:|:---|
 | [1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/) | Where Your FTDs Go To Die — The first empirical lifecycle map of delivery failures: 15 nodes, 45 days |
 | [2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/) | The Resonance — The settlement system retains 86% echo amplitude per cycle (Q≈21) |
-| 👉 | **Part 3: The Cavity** — A 630-day macrocycle at 13.3x noise; BBBY still fails 824 days after cancellation |
+| 👉 | **Part 3: The Cavity** — A 630-day macrocycle at 13.3x noise; 630-day macrocycle at 13.3× noise across 8 securities |
 | [4](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/) | What the SEC Report Got Wrong — Seven SEC claims tested against five years of post-hoc settlement data |
 
 ⬅️ [Part 2: The Resonance](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/) · [Part 4: What the SEC Report Got Wrong](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/) ➡️

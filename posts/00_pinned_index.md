@@ -57,7 +57,7 @@ Follows the settlement energy when it crosses boundaries the waterfall was never
 | # | Post | Reddit | 𝕏 |
 |:-:|------|:------:|:-:|
 | 1 | **The Overflow** — KOSS amplification (+1,051%), Treasury Granger causality, ETF substitution | [link](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | [link](https://x.com/TheGameStopsNow/status/2027590498148388975) |
-| 2 | **The Export** — 5,714:1 CSDR/Reg SHO cost asymmetry, BBBY zombie obligations | [link](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) | [link](https://x.com/TheGameStopsNow/status/2027590541735530541) |
+| 2 | **The Export** — 5,714:1 CSDR/Reg SHO cost asymmetry, cross-border selectivity test | [link](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) | [link](https://x.com/TheGameStopsNow/status/2027590541735530541) |
 | 3 | **The Tuning Fork** — Agent-based model, LCM emergence, coprime fix | [link](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/) | [link](https://x.com/TheGameStopsNow/status/2027590582906855458) |
 | 📋 | **Summary Post** — Plain-language interpretation of the series | [link](https://www.reddit.com/r/Superstonk/comments/1rgsom0/boundary_conditions_summary_post/) |  |
 

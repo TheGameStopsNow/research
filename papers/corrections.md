@@ -165,3 +165,18 @@ Added [15] H.R. Stoll. "The Relationship Between Put and Call Option Prices." *J
 - **Falsification #5 (line 366):** Griffin testimony item replaced with three-role structural conflict falsification test
 - **Series Summary (lines 376-377):** Updated both rows to reflect renamed terms and new section titles
 
+---
+
+## BBBY Ticker Collision Correction (Mar 2, 2026)
+
+### Correction #22 — BBBY "Zombie FTD" Claim Retracted
+
+| | Original Claim | Corrected |
+|---|---|---|
+| **Claim** | BBBY's CUSIP (075896100) was cancelled in Sept 2023, yet SEC data shows 31 unique FTD values, 824 days post-cancellation, through Dec 2025 — evidence of "zombie" obligations on a non-existent security | **Retracted.** The post-Sept 2025 FTD data belongs to Beyond, Inc. (formerly Overstock.com), which reclaimed the BBBY ticker on NYSE on Aug 29, 2025 under a completely different CUSIP (690370101). |
+| **Root cause** | `BBBY_ftd.csv` was built filtering SEC FTD data by **ticker symbol** ("BBBY"), not by CUSIP. The SEC changed the original ticker to "BBBYQ" after delisting in May 2023. When Beyond Inc. reclaimed "BBBY" in Aug 2025, the CSV conflated two entirely different entities. |
+| **Actual data** | CUSIP 075896100 (original BBBYQ): 567 records, Dec 2020 – Oct 2, 2023. Only **1 day** of genuine post-cancellation FTDs (Oct 2, 2023 — 3,486,132 shares). FTDs then cease entirely. No "824-day zombie." |
+| **Scope** | Affects Paper VI §8.3, Paper IX §5, Boundary Conditions Part 2 §4, Failure Waterfall summary post, regulatory package statistics. All references to "824 days," "31 unique post-cancellation values," and "zombie CUSIP" have been corrected or removed. |
+| **What survives** | The BBBY natural experiment (Paper VIII §5 — algo kill switch at options delisting), the DTC position report analysis (Paper IV §2), and all pre-bankruptcy BBBY analyses are unaffected. These reference pre-May 2023 data on the correct CUSIP. |
+| **CSV fix** | `BBBY_ftd.csv` rebuilt to contain only CUSIP 075896100 data (567 records). Separate `BBBYQ_075896100_ftd.csv` and `BYON_690370101_ftd.csv` created for provenance. |
+

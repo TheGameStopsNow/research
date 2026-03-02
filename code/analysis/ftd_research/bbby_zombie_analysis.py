@@ -1,18 +1,26 @@
 """
-BBBY Zombie FTD Analysis
-=========================
+BBBY Zombie FTD Analysis (CORRECTED)
+======================================
 Examines whether post-cancellation BBBY FTDs represent active
 bilateral novation (block-sized movements) or passive database
 ghosting (admin rounding noise).
 
+CORRECTION (Mar 2, 2026): The original analysis conflated two
+different CUSIPs because the CSV was filtered by ticker symbol
+("BBBY"), not by CUSIP. Beyond Inc. (formerly Overstock.com)
+reclaimed the BBBY ticker on NYSE on Aug 29, 2025 under CUSIP
+690370101. The original Bed Bath & Beyond CUSIP was 075896100.
+The "824 days of zombie FTDs" claim was a ticker collision artifact.
+
+The corrected BBBY_ftd.csv now contains only CUSIP 075896100 data
+(567 records, Dec 2020 - Oct 2, 2023). There is only 1 genuine
+post-cancellation FTD record (Oct 2, 2023).
+
 Inputs:
-  - data/ftd/BBBY_ftd.csv
+  - data/ftd/BBBY_ftd.csv (corrected, CUSIP 075896100 only)
 
 Output:
   - results/ftd_research/bbby_zombie_results.json
-
-Key finding: 43% block-sized (>=10K) deltas, 0% admin noise (<100).
-824+ days after CUSIP cancellation, actively managed obligations persist.
 """
 
 import pandas as pd
@@ -35,48 +43,42 @@ def main():
     df['ftd'] = pd.to_numeric(df['quantity'], errors='coerce')
     df = df.dropna(subset=['date', 'ftd']).drop_duplicates('date').sort_values('date')
 
-    print(f"BBBY FTD data: {len(df)} records, {df['date'].min().date()} to {df['date'].max().date()}")
+    print(f"BBBY FTD data (CUSIP 075896100 only): {len(df)} records, "
+          f"{df['date'].min().date()} to {df['date'].max().date()}")
 
     post = df[df['date'] > CANCELLATION_DATE].copy()
     print(f"Post-cancellation: {len(post)} observations")
 
-    if len(post) < 2:
-        print("Insufficient post-cancellation data")
-        return
-
-    vals = post['ftd'].values
-    deltas = [int(vals[i+1] - vals[i]) for i in range(len(vals) - 1)]
-
-    blocks = sum(1 for d in deltas if abs(d) >= 10000)
-    admin = sum(1 for d in deltas if abs(d) < 100)
-    mid = len(deltas) - blocks - admin
-    total = len(deltas) or 1
-
-    print(f"\nBlock-sized (>=10K): {blocks}/{total} ({blocks/total*100:.0f}%)")
-    print(f"Admin noise (<100):  {admin}/{total} ({admin/total*100:.0f}%)")
-    print(f"Mid-range:           {mid}/{total} ({mid/total*100:.0f}%)")
-
-    if blocks > total * 0.3 and admin == 0:
-        verdict = "ACTIVE_NOVATION"
-        print("\nActive ex-clearing bilateral novation indicated")
-    elif admin > total * 0.5:
-        verdict = "DATABASE_GHOSTING"
-        print("\nAdmin rounding dominates - database ghosting")
-    else:
-        verdict = "MIXED"
-        print("\nMixed signal")
-
     results = {
         'test': 'BBBY_zombie_FTD_block_analysis',
+        'correction_note': (
+            'CORRECTED Mar 2, 2026: Original analysis conflated two CUSIPs. '
+            'Beyond Inc. (Overstock) reclaimed BBBY ticker Aug 29, 2025 under '
+            'CUSIP 690370101. Original BBBYQ CUSIP 075896100 has only 1 post-'
+            'cancellation record (Oct 2, 2023). The "824 days of zombie FTDs" '
+            'claim was a ticker collision artifact.'
+        ),
         'cancellation_date': CANCELLATION_DATE,
+        'total_records': len(df),
         'post_cancellation_records': len(post),
-        'unique_values': len(post['ftd'].unique()),
-        'block_sized': blocks,
-        'admin_noise': admin,
-        'mid_range': mid,
-        'total_deltas': total,
-        'verdict': verdict,
+        'verdict': 'TICKER_COLLISION_ARTIFACT',
     }
+
+    if len(post) >= 1:
+        print(f"\nPost-cancellation records:")
+        for _, row in post.iterrows():
+            print(f"  {row['date'].date()} | qty={int(row['ftd']):,}")
+        results['post_cancellation_dates'] = [
+            str(row['date'].date()) for _, row in post.iterrows()
+        ]
+        results['post_cancellation_ftds'] = [
+            int(row['ftd']) for _, row in post.iterrows()
+        ]
+
+    print(f"\nVerdict: TICKER_COLLISION_ARTIFACT")
+    print("The '824 days of zombie FTDs' claim was based on conflating")
+    print("the original BBBYQ (CUSIP 075896100) with Beyond Inc.'s")
+    print("relisted BBBY (CUSIP 690370101).")
 
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT_FILE, 'w') as f:

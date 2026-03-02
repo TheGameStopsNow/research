@@ -26,9 +26,7 @@ This is not a "meme stock" problem. It is a settlement infrastructure problem th
 
 4. **Regulatory compression migrates stress rather than eliminating it.** The May 2024 T+2→T+1 transition collapsed settlement spectral power in GME by 96% but amplified it by 3,039% in KOSS, a less-monitored basket member.
 
-5. **A cancelled stock still actively fails 824 days after its CUSIP was erased.** BBBY — delisted, bankrupt, non-existent — shows 31 unique FTD values actively cycling through December 2025. The settlement system has no mechanism to resolve obligations on cancelled securities.
-
-6. **Current fine structures make non-compliance economically rational.** A $1 million fine for 42.2 billion inaccurate CAT events produces a cost of $0.0000236 per violation — orders of magnitude below the economic benefit of the opacity they create.
+5. **Current fine structures make non-compliance economically rational.** A $1 million fine for 42.2 billion inaccurate CAT events produces a cost of $0.0000236 per violation — orders of magnitude below the economic benefit of the opacity they create.
 
 ### Five Recommended Actions
 

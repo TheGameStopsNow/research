@@ -47,7 +47,7 @@ git log --oneline results/ | head -20
 | `notebooks/06_resonance_cavity.ipynb` | Paper VI: Q-factor, macrocycle spectral peaks | Spectral power density plots, Q-factor calculation |
 | `notebooks/07_offshore_crypto.ipynb` | Paper VII: FTX locate analysis, derivative spike | Balance sheet comparison, FTD spike timing |
 | `notebooks/08_compliance_routing.ipynb` | Paper VIII: DMA fingerprint, FTD coupling | 31-ticker deployment table, regression coefficients |
-| `notebooks/09_boundary_conditions.ipynb` | Paper IX: Granger causality, KOSS migration, BBBY zombie | F-statistics, spectral migration, zombie FTD timeline |
+| `notebooks/09_boundary_conditions.ipynb` | Paper IX: Granger causality, KOSS migration | F-statistics, spectral migration |
 | `notebooks/09b_abm_simulation.ipynb` | Paper IX: Agent-based model emergence | Macrocycle emergence at 44.5× without specification |
 | `notebooks/09c_csdr_arbitrage.ipynb` | Paper IX: Cross-border cost asymmetry | CSDR penalty math, EU fail rate correlation |
 
@@ -119,16 +119,6 @@ This is a public regulatory record:
 - **Date:** October 2024
 - **Entity:** Citadel Securities LLC
 - No notebook needed — verify against the public FINRA record directly
-
-### Claim: "BBBY FTDs persist 824 days after CUSIP cancellation"
-
-```bash
-# Open the boundary conditions notebook
-jupyter notebook notebooks/09_boundary_conditions.ipynb
-# Navigate to Section 5.2: "Zombie Obligations"
-# The FTD timeline shows 31 unique values through December 2025
-# Result file: results/bbby_zombie_ftds.json
-```
 
 ---
 

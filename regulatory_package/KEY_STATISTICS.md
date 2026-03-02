@@ -47,7 +47,6 @@ The 20 most important numbers from the research series. Each entry includes the 
 | # | Statistic | Value | What It Means | Source | Paper § |
 |:-:|-----------|:-----:|---------------|--------|:------:|
 | 19 | Citadel Securities CAT fine | **$1M for 42.2B errors** | $0.0000236 per violation—fines are not a deterrent at any margin | FINRA AWC | III §4.2 |
-| 20 | BBBY zombie FTD duration | **824 days** | Delivery obligations on a cancelled security persist indefinitely with no resolution mechanism | SEC FTD | IX §5.2 |
 
 ---
 

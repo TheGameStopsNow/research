@@ -54,3 +54,8 @@ papers/08_compliance_as_a_service.md
 # DD Sync Chrome extension — local tool, not part of published research
 code/tools/dd-sync-extension/
 /code/tools
+/data/thetadata
+
+# Unpublished series (not public yet)
+posts/08_the_counter_signal/
+posts/09_the_terminal_boundary/

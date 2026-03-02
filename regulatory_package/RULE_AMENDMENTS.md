@@ -102,23 +102,6 @@ Seven targeted amendments to existing SEC, FINRA, and NSCC rules, each addressin
 
 ---
 
-## Amendment 7: Cancelled CUSIP Obligation Resolution
-
-**Target Rule:** NSCC Rule 11 (Settlement) / DTCC Procedure — New Requirement
-
-**Current Problem:** When a stock is delisted and its CUSIP cancelled, the system has no mechanism to resolve outstanding delivery obligations. BBBY shows 31 unique FTD values actively cycling 824 days after cancellation — the obligations persist indefinitely with no resolution path. This creates a permanent "zombie" in the Obligation Warehouse.
-
-**Proposed Change:**
-- Require DTCC/NSCC to **automatically novate and extinguish all delivery obligations** within 90 business days of CUSIP cancellation
-- Mandate that any counterparty holding an open obligation on a cancelled CUSIP either:
-  - (a) Settle in cash at last closing price, or
-  - (b) Submit a formal exemption request to the SEC explaining why the obligation cannot be resolved
-- Publish quarterly reports of all outstanding obligations on cancelled CUSIPs
-
-**Evidence:** Paper IX §5.2
-
----
-
 ## Summary Table
 
 | # | Target | Current Gap | Fix | Authority |
@@ -129,7 +112,6 @@ Seven targeted amendments to existing SEC, FINRA, and NSCC rules, each addressin
 | 4 | CAT NMS Plan §6.6 | T+3 repair window enables opacity | Eliminate for HFT; escalating penalties | FINRA/SEC |
 | 5 | Reg SHO Rule 204 | Conversions reset close-out clock | Require actual delivery attestation | SEC |
 | 6 | Reg SHO Rule 204 | No cross-border fail visibility | Mandatory transfer reporting | SEC/Congress |
-| 7 | NSCC Rule 11 | No cancelled-CUSIP resolution | 90-day auto-novation | DTCC/SEC |
 
 ---
 

@@ -2,13 +2,13 @@
 
 A lot of people have asked me to simplify my research and offer my interpretation of it — something that explains my take without requiring a statistics degree to follow. So that's what this is. This post is my speculative interpretation of what the data shows, written in plain language and staying away from the heavier jargon. If you want the actual evidence, I encourage you to dig into the DD posts linked throughout. And if you *really* want more, the full papers with all the math, code, and reproducible scripts are on [GitHub](https://github.com/TheGameStopsNow/research).
 
-**TL;DR:** I found out that when GME's settlement system gets squeezed, the pressure doesn't just disappear. It floods into other stocks, breaks government bond settlement, crosses national borders, and keeps cycling on a stock that *doesn't exist anymore*. Then I built a computer simulation using nothing but the SEC's own rules, and the system's heartbeat appeared on its own. The fix? Change four numbers. That's it.
+**TL;DR:** I found out that when GME's settlement system gets squeezed, the pressure doesn't just disappear. It floods into other stocks, breaks government bond settlement, crosses national borders, and crosses national borders. Then I built a computer simulation using nothing but the SEC's own rules, and the system's heartbeat appeared on its own. The fix? Change four numbers. That's it.
 
 > **Position disclosure:** I hold a long position in GME. I am not a financial advisor, attorney, or affiliated with any entity named in this post.
 
 ---
 
-![Settlement failure contagion — four channels radiating outward from GME: lateral to KOSS, vertical to U.S. Treasuries, cross-border to European CSDs, and zombie persistence on BBBY's cancelled CUSIP.](figures/chart_contagion_flow.png)
+![Settlement failure contagion — four channels radiating outward from GME: lateral to KOSS, vertical to U.S. Treasuries, cross-border to European CSDs, and cross-border settlement export to European CSDs.](figures/chart_contagion_flow.png)
 
 ---
 
@@ -60,15 +60,7 @@ If you're rational and you have a European affiliate, you don't need a conspirac
 
 I tested whether European settlement failures spike during *U.S.* stress events (and not European ones). They do. And they do it selectively — only equities and ETFs spike; European government bonds don't. If Europe were just having its own bad week, sovereign bonds would spike first. The selectivity is the fingerprint.
 
-### The ghost stock
-
-And then there's Bed Bath & Beyond. BBBY was delisted in September 2023. The company is gone. The stock doesn't exist. There is nothing to trade, nothing to deliver, nothing to borrow.
-
-SEC data shows 31 unique FTD values, actively fluctuating, continuously reported through late 2025. That's **824 days** after the stock was cancelled. 43% of the changes are in blocks larger than 10,000 shares — institutional-sized. Alternating injections and extractions. This is not a database glitch.
-
-Someone is actively managing delivery obligations on a security that no longer exists. The system has no garbage collection. When a stock gets cancelled, nobody wrote the code to cancel the obligations. They just... keep going. Forever.
-
-As a software engineer, this is the kind of bug that makes me want to flip the table. Not because it's complicated. Because it's *obvious*. And nobody fixed it. [Full analysis in Part 2.](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/)
+> **⚠️ Correction (Mar 2, 2026):** This section originally described BBBY generating zombie FTDs "824 days" after its CUSIP was cancelled. This was incorrect — caused by a ticker symbol collision when Beyond, Inc. (Overstock) reclaimed the BBBY ticker in August 2025 under a different CUSIP. The original BBBYQ CUSIP's FTDs ceased within days of cancellation. See [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md). [Full analysis in Part 2.](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/)
 
 ---
 
@@ -108,11 +100,11 @@ I ran five tests specifically designed to kill my own thesis. Here's what I thre
 
 1. **"The Treasury thing is just general market noise."** → First tested 7 stocks. Only GME predicted Treasury fails (F = 19.20, p < 0.0001). Then a reader said 7 wasn't enough, so I tested **15,916**. Turns out 16% of all stocks predict Treasury fails — way more than the 5% you'd expect by random chance. It's not just GME. It's the whole system leaking into sovereign debt.
 2. **"KOSS is just small-float weirdness."** → Float-normalized it. Still 1,050 sigma above controls. Not weirdness.
-3. **"BBBY is a database glitch."** → Zero administrative noise. 43% block-sized. Actively managed.
+3. ~~**"BBBY is a database glitch."**~~ → **Retracted.** This was a ticker collision artifact. See [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md).
 4. **"The simulation cycle is an artifact of the math."** → Applied a decontamination algorithm that's specifically designed to kill artifacts. The signal got *stronger*.
 5. **"The European spikes are their own problem."** → Only equities spiked. Government bonds didn't. It's not domestic.
 
-Combined odds that all five of these alternative explanations are simultaneously correct: less than 0.03%.
+Combined odds that the remaining four alternative explanations are simultaneously correct remain negligible.
 
 I genuinely wanted at least one to work. "You made a math error" is a much more comfortable conclusion than "the settlement system is a leaky resonant cavity that contaminates sovereign debt." But here we are.
 
@@ -123,9 +115,12 @@ I genuinely wanted at least one to work. "You made a math error" is a much more 
 1. If **April-May 2026** passes with zero anomalous activity, the next convergence prediction fails.
 2. If **other stocks** start predicting Treasury fails, the GME signal is just generic market noise.
 3. If the **annual compression** doesn't appear in a few years of T+1 data, the model is wrong.
-4. If **BBBY FTDs** hit zero and stay there for 90 days, the zombie is actually dead.
+4. ~~If **BBBY FTDs** hit zero and stay there for 90 days, the zombie is actually dead.~~ **Retracted** — see Correction #22.
 
 I'll be the first to tell you if any of these happen.
+
+> [!NOTE]
+> **Timing footnote:** On **April 3, 2025** — two days into what this research identifies as the beginning of the Spring 2026 macrocycle convergence window (where 6-year terminal swap maturities, LEAPS roll cycles, and the T+525 harmonic align) — Ryan Cohen posted: *"Now we know why Buffett is sitting on 300 billion."* Three days later: *"BREAKING: Jim Cramer saves the stock market by predicting Black Monday 2025."* If RC is aware of the settlement mechanics documented in this series, "Buffett sitting on 300 billion" isn't commentary on Berkshire's earnings. It's commentary on what *Buffett sees coming* that would justify hoarding cash of that magnitude — and the timing against the macrocycle convergence window is either coincidental or telling.
 
 ---
 

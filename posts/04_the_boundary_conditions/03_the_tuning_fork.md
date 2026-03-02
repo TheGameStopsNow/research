@@ -187,7 +187,7 @@ Across Parts 1 through 3, each major finding was subjected to a dedicated advers
 |-----------------|:-----:|-------------|--------|:-------:|
 | Granger causality is shared macro noise (SOFR, RRP) | 25% | Multi-ticker control: 7 equities tested against Treasury FTDs | Only GME significant (F=19.20, 8.1x next) | <5% |
 | KOSS amplification is small-float denominator noise | 15% | Float-normalize FTDs, recompute spectral change ratio | Normalization constant cancels; z=1,050.9 against controls | <3% |
-| BBBY zombie FTDs are database reconciliation artifacts | 10% | Block-size analysis of sequential FTD deltas | 0% admin noise (<100 shares), 43% block-sized (10K+ shares) | ~3% |
+| ~~BBBY zombie FTDs are database reconciliation artifacts~~ | ~~10%~~ | **RETRACTED** — ticker collision; see Correction #22 | N/A | Retracted |
 | ABM macrocycle is FFT windowing artifact ($N/4$) | 20% | Welch PSD decontamination | Power *increases* from 35.4x to 42.3x under Welch | <5% |
 | EU fail spikes are domestic European contagion | 20% | Asset class selectivity during U.S. events | Only equities/ETFs spiked; government bonds did not | ~8% |
 
@@ -265,7 +265,7 @@ A coprime deadline structure would:
 | | Boundary Conditions |
 |:-:|:---|
 | [1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | The Overflow — KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
-| [2](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) | The Export — 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
+| [2](https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/) | The Export — 5,714:1 penalty asymmetry; 5,714:1 penalty asymmetry; cross-border selectivity test |
 | 👉 | **Part 3: The Tuning Fork** — The macrocycle emerges from regulation alone; four numbers fix it |
 | [📋](https://www.reddit.com/r/Superstonk/comments/1rgsom0/boundary_conditions_summary_post/) | Summary Post — Plain-language interpretation of the series |
 

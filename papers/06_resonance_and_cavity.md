@@ -10,7 +10,7 @@
 
 ## Abstract
 
-Paper V mapped the 15-node Failure Accommodation Waterfall through which individual delivery failures propagate over 45 business days. This companion paper examines what happens when multiple waterfalls overlap. Using FTD-to-FTD resonance analysis across 4,234 records spanning 22 years (2004-2026), cross-asset spectral decomposition via full periodogram, and cross-ticker spectral coherence testing, I demonstrate that the settlement system behaves as an under-damped resonator with Quality Factor Q ≈ 20.6 (95% CI: 16-28), retaining approximately 86% of echo signal amplitude per T+35 cycle. The true fundamental frequency is T+25 business days (35 calendar days), anchored to the SEC Rule 204(a)(2) close-out deadline. Three independent analytical frameworks converge: (1) **Resonance Analysis** reveals an under-damped settlement system with a dominant \~2.5-year macroeconomic cycle; (2) **Spectral Fingerprinting** discovers a dominant spectral peak at approximately 630 business days (13.3× power spectral density above median noise), with strong settlement harmonics at T+33 (9.9×) and T+105 (6.8×); (3) **Cross-Asset Validation** demonstrates portfolio-level settlement coherence: KOSS (a stock with no options chain) shares the settlement spectral signature despite lacking the options mechanism to generate it independently, and BBBY (delisted August 2023) continues to produce actively fluctuating FTDs through late 2025—644 records with 31 unique post-delisting values—consistent with ex-clearing obligation management on a cancelled CUSIP.
+Paper V mapped the 15-node Failure Accommodation Waterfall through which individual delivery failures propagate over 45 business days. This companion paper examines what happens when multiple waterfalls overlap. Using FTD-to-FTD resonance analysis across 4,234 records spanning 22 years (2004-2026), cross-asset spectral decomposition via full periodogram, and cross-ticker spectral coherence testing, I demonstrate that the settlement system behaves as an under-damped resonator with Quality Factor Q ≈ 20.6 (95% CI: 16-28), retaining approximately 86% of echo signal amplitude per T+35 cycle. The true fundamental frequency is T+25 business days (35 calendar days), anchored to the SEC Rule 204(a)(2) close-out deadline. Three independent analytical frameworks converge: (1) **Resonance Analysis** reveals an under-damped settlement system with a dominant \~2.5-year macroeconomic cycle; (2) **Spectral Fingerprinting** discovers a dominant spectral peak at approximately 630 business days (13.3× power spectral density above median noise), with strong settlement harmonics at T+33 (9.9×) and T+105 (6.8×); (3) **Cross-Asset Validation** demonstrates portfolio-level settlement coherence: KOSS (a stock with no options chain) shares the settlement spectral signature despite lacking the options mechanism to generate it independently, and BBBY (delisted August 2023) FTD data included in the cross-asset spectral analysis. *(Note: the BBBY shadow ledger interpretation in §8.3 was retracted due to a ticker collision — see Correction #22.)*
 
 > **Key Terminology**: This paper introduces several novel analytical concepts:
 > - **Quality Factor (Q)**: a dimensionless parameter measuring how many oscillation cycles a resonator sustains before its stored energy decays to 1/e of the original; Q \>\> 1 indicates a dramatically under-damped system
@@ -269,15 +269,17 @@ This is strong quantitative evidence of portfolio-level settlement via a Total R
 
 A potential objection: KOSS's spectral signature could be an artifact of correlated retail volume spikes on the same calendar dates as GME (January 2021, May 2024). A discriminating test: isolate the spectral analysis to periods *between* the synchronized macro-shocks. If the KOSS settlement signal persists in the inter-crisis periods, the TRS basket thesis is confirmed independently of the shared retail-shock calendar.
 
-### 8.3 The BBBY Shadow Ledger
+### ~~8.3 The BBBY Shadow Ledger~~ **(CORRECTED)**
 
-BBBY (Bed Bath & Beyond) was delisted in August 2023 and its CUSIP cancelled. SEC EDGAR data shows BBBY FTDs being reported **continuously through late 2025**: 644 separate FTD records across the full observation period, with **31 unique post-delisting values** ranging from 30 to 29,857 shares.
+> **⚠️ Correction (Mar 2, 2026):** This section's analysis was based on a ticker-symbol collision. Beyond, Inc. (Overstock) reclaimed the BBBY ticker on NYSE on August 29, 2025 under CUSIP 690370101, while the original Bed Bath & Beyond CUSIP was 075896100. The post-September 2025 FTD data belongs to a different entity. The original CUSIP has only 1 day of genuine post-cancellation FTDs (October 2, 2023). The "BBBY Shadow Ledger" interpretation — 31 unique post-delisting values indicating ex-clearing obligation management — was a data artifact. See [Correction #22 in corrections.md](corrections.md). The cross-asset spectral validation in Sections 8.1 and 8.2 is unaffected.
+
+~~BBBY (Bed Bath & Beyond) was delisted in August 2023 and its CUSIP cancelled. SEC EDGAR data shows BBBY FTDs being reported **continuously through late 2025**: 644 separate FTD records across the full observation period, with **31 unique post-delisting values** ranging from 30 to 29,857 shares.~~ *(Retracted — see correction above.)*
 
 **Critical evidence: the post-delisting FTD values are NOT a frozen cumulative balance.** First-difference analysis shows 30 out of 30 consecutive day-to-day changes are non-zero (standard deviation: 12,586). This is not a database artifact; the obligations are actively fluctuating with high variance on a cancelled CUSIP.
 
-The implication is significant: when a CUSIP is cancelled, it is removed from the DTCC's Continuous Net Settlement (CNS) system. The standard settlement pipe is closed. Active FTD fluctuations on a cancelled CUSIP imply these obligations are being managed *ex-clearing*—through the Obligation Warehouse (OW) or bilateral OTC settlements. The BBBY post-delisting FTD data is direct evidence of an ex-clearing shadow ledger.
+~~The implication is significant: when a CUSIP is cancelled, it is removed from the DTCC's Continuous Net Settlement (CNS) system. The standard settlement pipe is closed. Active FTD fluctuations on a cancelled CUSIP imply these obligations are being managed *ex-clearing*. The BBBY post-delisting FTD data is direct evidence of an ex-clearing shadow ledger.~~ *(Retracted.)*
 
-*Data: [`data/ftd/BBBY_ftd.csv`][5] (644 records, Jan 2020-Dec 2025, downloaded from [SEC EDGAR FTD Data][6])*
+*Data: [`data/ftd/BBBY_ftd.csv`][5] (567 records, Dec 2020-Oct 2023, corrected to CUSIP 075896100 only — see Correction #22, downloaded from [SEC EDGAR FTD Data][6])*
 
 ---
 
@@ -338,7 +340,7 @@ Each finding is independently falsifiable:
 
 3. **KOSS phantom limb (Section 8.2).** If KOSS's spectral signature is coincidental (driven by correlated retail volume on shared calendar dates), the signature should disappear when the analysis is restricted to inter-crisis periods. A testable prediction.
 
-4. **BBBY shadow ledger (Section 8.3).** If BBBY's obligations were settled at delisting, post-delisting FTD records should not exist, or should show a frozen constant balance. SEC EDGAR shows 31 unique post-delisting values with high-variance fluctuations, consistent with active ex-clearing management.
+4. ~~**BBBY shadow ledger (Section 8.3).**~~ **RETRACTED.** The post-Sept 2025 FTD data was from Beyond, Inc. (Overstock), which reclaimed the BBBY ticker under a different CUSIP. See Correction #22.
 
 ---
 

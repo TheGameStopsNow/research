@@ -6,9 +6,9 @@ Skip to [Part 1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_c
 Builds on: [The Failure Waterfall](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/) ([Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/), [Part 2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/), [Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/), [Part 4](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/))
 <!-- NAV_HEADER:END -->
 
-**TA;DR:** It's 5,714x cheaper to fail a delivery in Europe than in the US. When US stress events hit, European equity fails spike. Meanwhile, BBBY's CUSIP was cancelled in 2023, and it's still generating FTDs 824 days later.
+**TA;DR:** It's 5,714x cheaper to fail a delivery in Europe than in the US. When US stress events hit, European equity fails spike. Meanwhile, ~~BBBY's CUSIP was cancelled in 2023, and it's still generating FTDs 824 days later.~~ *(Retracted: ticker collision; see [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md).)*
 
-**TL;DR:** [Part 1](01_the_overflow.md) traced the settlement overflow across tickers (KOSS) and into sovereign debt (Treasuries). This post follows it across two more boundaries that should have been impassable. First, a 5,714:1 cost asymmetry between U.S. and European settlement penalties creates a rational incentive to export delivery failures offshore: a 35-day fail costs approximately $1,750 in Europe versus approximately $10 million per day under Reg SHO lockout. When U.S. stress events occurred (the T+1 transition, the DFV return), European equity and ETF fail rates spiked, but European government bond fail rates did not, a selectivity pattern consistent with cross-border export rather than domestic European turmoil. Second, Bed Bath & Beyond's CUSIP was cancelled in September 2023. As of December 2025, 824 days later, 31 unique non-zero FTD values have been reported to the SEC. Zero of the day-to-day changes are administrative noise (under 100 shares). 43% are block-sized changes exceeding 10,000 shares, alternating between injection and extraction. The pattern is consistent with active management of obligations on a security that no longer exists.
+**TL;DR:** [Part 1](01_the_overflow.md) traced the settlement overflow across tickers (KOSS) and into sovereign debt (Treasuries). This post follows it across two more boundaries that should have been impassable. First, a 5,714:1 cost asymmetry between U.S. and European settlement penalties creates a rational incentive to export delivery failures offshore: a 35-day fail costs approximately $1,750 in Europe versus approximately $10 million per day under Reg SHO lockout. When U.S. stress events occurred (the T+1 transition, the DFV return), European equity and ETF fail rates spiked, but European government bond fail rates did not, a selectivity pattern consistent with cross-border export rather than domestic European turmoil. *(The original BBBY zombie FTD analysis in this section has been retracted. The post-September 2025 FTD data was from Beyond, Inc. (Overstock), which reclaimed the BBBY ticker under a different CUSIP. See [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md).)*
 
 > **Full academic paper:** [Boundary Conditions (Paper IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1)
 
@@ -107,69 +107,17 @@ Government bond fail rates did not spike at either event.
 
 ![Asset class selectivity test. During 4 U.S. stress events, EU equity/ETF fails spiked twice. Government bond fails showed no change at any event; inconsistent with domestic European turmoil.](figures/chart_selectivity_heatmap.png)
 
-If the spikes were caused by domestic EU turmoil (a Eurozone liquidity crisis, ECB policy change, or TARGET2 system disruption), government bonds would be the *first* asset class to show stress. Sovereign debt markets are the foundation of European settlement infrastructure. The fact that only equities and ETFs spiked, and only during U.S.-specific stress events, is consistent with the cross-border arbitrage hypothesis and inconsistent with domestic EU contagion.
+If the spikes were caused by domestic EU turmoil (a Eurozone liquidity crisis, ECB policy change, or TARGET2 system disruption), government bonds would be the *first* asset class to show stress. Sovereign debt markets are the foundation of European settlement infrastructure. The observation that only equities and ETFs spiked, and only during U.S.-specific stress events, is consistent with the cross-border arbitrage hypothesis and inconsistent with domestic EU contagion.
 
 **Limitation**: The ESMA data is monthly and aggregated across all EU member states. It cannot distinguish U.S.-underlying equity positions processed through European CSDs from purely domestic EU equities. CUSIP-level settlement data (which would identify whether the failing instruments are U.S.-origin) requires regulator access to [ESMA Article 9 settlement internalization reports](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0909). This data is not publicly available. The pattern is strongly suggestive but cannot be proven definitively with monthly aggregate data.
 
 ---
 
-## 4. The Cancelled Stock That Still Fails
+## ~~4. The Cancelled Stock That Still Fails~~ **(CORRECTED)**
 
-Everything above involves securities that exist. Bed Bath & Beyond does not.
+> **⚠️ Correction (Mar 2, 2026):** This section originally claimed that BBBY's CUSIP (075896100) was generating FTDs "824 days after cancellation" through December 2025. **This was incorrect.** The data file (`BBBY_ftd.csv`) was built filtering SEC FTD data by **ticker symbol** ("BBBY"), not by CUSIP. When the original Bed Bath & Beyond was delisted in May 2023, the SEC changed its ticker to "BBBYQ." In August 2025, Beyond, Inc. (formerly Overstock.com) reclaimed the "BBBY" ticker on NYSE under a completely different CUSIP (690370101). The post-September 2025 FTDs in the original CSV belong to this new, actively-traded company — not to the bankrupt original. The CSV has been rebuilt to contain only CUSIP 075896100 data (567 records, Dec 2020 – Oct 2, 2023). The original CUSIP has only **1 day** of genuine post-cancellation FTDs (October 2, 2023). The "zombie stock" narrative, the "824 days" claim, and the block-size analysis have been retracted. Full details in [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md). I got this one wrong, and I appreciate the readers who caught it.
 
-BBBY completed [Chapter 11 bankruptcy](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000886158&type=8-K&dateb=&owner=include&count=40) around September 29, 2023. The stock was delisted. The CUSIP (075896100) was cancelled. There is nothing to trade, nothing to deliver, nothing to borrow. Under normal settlement mechanics, a cancelled CUSIP should produce zero subsequent FTDs because the security no longer exists and no market for delivery is available.
-
-The SEC's public FTD data says otherwise.
-
-### 824 Days of Post-Cancellation FTDs
-
-| Metric | Value |
-|--------|:-----:|
-| Days since CUSIP cancellation (as of Dec 31, 2025) | **824** |
-| Post-cancellation FTD observations | **31** |
-| Total post-cancellation FTDs | **244,599 shares** |
-| Unique FTD values | **31** |
-| Latest FTD date | **December 31, 2025** |
-
-*Data: [`data/ftd/BBBY_ftd.csv`](https://github.com/TheGameStopsNow/research/blob/main/data/ftd/BBBY_ftd.csv) (644 records, Jan 2020 through Dec 2025, downloaded from [SEC EDGAR FTD Data](https://www.sec.gov/data-research/sec-markets-data/fails-deliver-data), CUSIP 075896100).*
-
-The 31 unique values are critical. They show that the figure reported to the SEC is not a frozen cumulative balance reprinted on each reporting date; each observation represents a distinct balance. The CUSIP is still actively generating delivery failures.
-
-### The Block-Size Analysis
-
-A reasonable objection would be that post-cancellation FTD fluctuations are DTCC database reconciliation artifacts: automated entries created when the system periodically cleans up residual records. Administrative database adjustments would produce small, regular changes (rounding corrections, sub-100-share adjustments).
-
-I classified each sequential day-to-day FTD change by size:
-
-| Category | Threshold | Count | Percentage |
-|----------|:---------:|:-----:|:----------:|
-| Administrative noise | Less than 100 shares | 0 | **0%** |
-| Small adjustment | 100 to 999 shares | 4 | 13% |
-| Medium block | 1,000 to 9,999 shares | 13 | 43% |
-| **Large block** | **10,000+ shares** | **13** | **43%** |
-
-![BBBY post-cancellation FTD changes by size category. Zero administrative noise, 43% block-sized changes exceeding 10,000 shares. This distribution is inconsistent with database reconciliation.](figures/chart_block_size.png)
-
-*Script: [`bbby_zombie_analysis.py`](https://github.com/TheGameStopsNow/research/blob/main/code/analysis/ftd_research/bbby_zombie_analysis.py). Results: [`bbby_zombie_results.json`](https://github.com/TheGameStopsNow/research/blob/main/results/ftd_research/bbby_zombie_results.json).*
-
-Zero administrative noise. 43% block-sized changes exceeding 10,000 shares. The changes alternate between positive and negative in a pattern consistent with bilateral cycling between counterparties:
-
-```text
-+23,579 shares
--19,544 shares
-+13,421 shares
--12,130 shares
-```
-
-This injection/extraction pattern is inconsistent with DTCC system-wide database reconciliation, which would typically produce small, regular sub-100-share adjustments. A mechanism consistent with this data is ex-clearing bilateral novation: two parties cycling the obligation back and forth through the [DTCC Obligation Warehouse](https://www.dtcc.com/~/media/Files/Downloads/legal/rules/nscc_rules.pdf) (described in [NSCC Rule 11, Section 7](https://www.dtcc.com/~/media/Files/Downloads/legal/rules/nscc_rules.pdf)), where it can sit indefinitely because there is no mechanism to resolve it. The causal mechanism is inferred from the block-size distribution and alternating sign pattern; direct proof would require regulatory-level clearing records. The stock no longer exists. The delivery obligation appears to persist.
-
-![BBBY: 824 days of FTDs on a cancelled CUSIP. Top panel shows the SEC-reported outstanding FTD balance (not a cumulative sum of daily new fails; each data point is the aggregate unsettled shares on that settlement date). The balance trends upward because there is no mechanism to deliver shares of a stock that no longer exists. Bottom panel shows day-to-day changes, with 43% exceeding the 10,000-share block-size threshold.](figures/chart_bbby_zombie.png)
-
-### What Part 3 Predicted
-
-[Failure Waterfall Part 3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/) (The Cavity) identified BBBY as a sealed resonant cavity with an Obligation Distortion Index (a measure of nonlinear signal clipping at system boundaries) of 9.28, the highest of any security tested. The prediction was that BBBY FTDs would continue to fluctuate actively as long as the underlying obligations exist, and would only drop to zero if the obligations were genuinely unwound.
-
-824 days after cancellation, the obligations persist. The prediction holds.
+The remainder of this section's analysis, the CSDR cost asymmetry (5,714:1), the EU equity/ETF selectivity test, and the cross-border export hypothesis, is unaffected by this correction.
 
 ---
 
@@ -181,17 +129,17 @@ Combining the cross-border and zombie findings with [Part 1's overflow channels]
 |---------|:----------------:|----------|:--------:|
 | CSDR cost arbitrage | National jurisdictions | 5,714:1 penalty ratio; EU eq/ETF spike at U.S. events, bonds do not | Suggestive (monthly data limits) |
 | ETF EU persistence | Asset class | EU ETF fails at 2x EU equity fails | Consistent with AP substitution |
-| BBBY zombie FTDs | Existence itself | 824 days, 31 unique values, 0% admin noise, 43% block-sized | Strong (direct SEC data) |
+| ~~BBBY zombie FTDs~~ | ~~Existence itself~~ | ~~824 days, 31 unique values~~ **RETRACTED** — ticker collision; see Correction #22 | Retracted |
 
-The settlement system's boundaries are not just security-level walls that can be breached laterally ([Part 1, KOSS overflow](01_the_overflow.md)) or vertically ([Part 1, Treasury contamination](01_the_overflow.md)). They extend to the jurisdictional boundary between U.S. and EU settlement infrastructure, and to the ontological boundary between existing and non-existing securities. In both cases, the obligations persist.
+The settlement system's boundaries are not just security-level walls that can be breached laterally ([Part 1, KOSS overflow](01_the_overflow.md)) or vertically ([Part 1, Treasury contamination](01_the_overflow.md)). They extend to the jurisdictional boundary between U.S. and EU settlement infrastructure, where a 5,714:1 cost asymmetry and asset-class selectivity pattern suggest obligations migrate toward the cheapest penalty regime.
 
 ### Where This Could Break
 
-Two pieces of evidence would weaken or falsify the cross-border export hypothesis. First, if CUSIP-level EU settlement data — available under [ESMA Article 9](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0909) but not yet published at instrument level — shows zero U.S.-underlying securities in the European fail pool during the T+1 and DFV spike windows, the hypothesis loses its foundation. Second, if EU government bond fail rates spike during a future U.S. equity stress event, the asset-class selectivity that distinguishes cross-border export from ordinary domestic turmoil disappears.
+Two pieces of evidence would weaken or falsify the cross-border export hypothesis. First, if CUSIP-level EU settlement data (available under [ESMA Article 9](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0909) but not yet published at instrument level) shows zero U.S.-underlying securities in the European fail pool during the T+1 and DFV spike windows, the hypothesis loses its foundation. Second, if EU government bond fail rates spike during a future U.S. equity stress event, the asset-class selectivity that distinguishes cross-border export from ordinary domestic turmoil disappears.
 
-On the zombie channel: if BBBY FTDs drop to zero and stay there for 90+ consecutive days, or if the remaining changes shrink to sub-100-share administrative noise, the case for ongoing block-sized obligation cycling becomes coincidence rather than structure.
+*(The zombie channel falsification test has been retracted — the underlying data was a ticker collision artifact. See [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md).)*
 
-The thesis strengthens if the EU equity/ETF fail gap continues closing toward government bond levels, and if a national CSD publishes data granular enough to test the mechanism directly. Until then, the 5,714:1 cost asymmetry and the 824-day zombie cycle are the best available evidence — strong enough to warrant scrutiny, not strong enough to be certain.
+The thesis strengthens if the EU equity/ETF fail gap continues closing toward government bond levels, and if a national CSD publishes data granular enough to test the mechanism directly. Until then, the 5,714:1 cost asymmetry and the cross-border selectivity pattern are the best available evidence: strong enough to warrant scrutiny, not strong enough to be certain.
 
 In [Part 3](03_the_tuning_fork.md), I build an agent-based model from scratch with nothing but the SEC's own regulatory deadlines, and ask the simplest question: *does the macrocycle emerge on its own?* It does. And the math shows exactly how to break it.
 
@@ -201,9 +149,8 @@ In [Part 3](03_the_tuning_fork.md), I build an agent-based model from scratch wi
 
 | Resource | Link |
 |----------|------|
-| BBBY zombie analysis | [`bbby_zombie_analysis.py`](https://github.com/TheGameStopsNow/research/blob/main/code/analysis/ftd_research/bbby_zombie_analysis.py) |
 | CSDR cost analysis | [`csdr_cost_analysis.py`](https://github.com/TheGameStopsNow/research/blob/main/code/analysis/ftd_research/csdr_cost_analysis.py) |
-| BBBY FTD data | [`data/ftd/BBBY_ftd.csv`](https://github.com/TheGameStopsNow/research/blob/main/data/ftd/BBBY_ftd.csv) |
+| BBBY FTD data (corrected, CUSIP 075896100 only) | [`data/ftd/BBBY_ftd.csv`](https://github.com/TheGameStopsNow/research/blob/main/data/ftd/BBBY_ftd.csv) |
 | EU settlement data (ESMA) | [ESMA Statistical Reports](https://www.esma.europa.eu/press-news/esma-news/esma-warns-about-high-levels-etf-settlement-fails) |
 | CSDR regulation text | [EUR-Lex 909/2014](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0909) |
 | Full paper (Paper IX) | [`09_boundary_conditions.md`](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1) |
@@ -224,7 +171,7 @@ In [Part 3](03_the_tuning_fork.md), I build an agent-based model from scratch wi
 | | Boundary Conditions |
 |:-:|:---|
 | [1](https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/) | The Overflow — KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails |
-| 👉 | **Part 2: The Export** — 5,714:1 penalty asymmetry; a cancelled stock still cycles 824 days later |
+| 👉 | **Part 2: The Export** — 5,714:1 penalty asymmetry; cross-border selectivity test |
 | [3](https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/) | The Tuning Fork — The macrocycle emerges from regulation alone; four numbers fix it |
 | [📋](https://www.reddit.com/r/Superstonk/comments/1rgsom0/boundary_conditions_summary_post/) | Summary Post — Plain-language interpretation of the series |
 

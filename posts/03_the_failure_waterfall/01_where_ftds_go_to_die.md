@@ -328,7 +328,7 @@ The full test battery, scripts, and pre-computed results are in the [public repo
 |:-:|:---|
 | 👉 | **Part 1: Where Your FTDs Go To Die** — The first empirical lifecycle map of delivery failures: 15 nodes, 45 days |
 | [2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/) | The Resonance — The settlement system retains 86% echo amplitude per cycle (Q≈21) |
-| [3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/) | The Cavity — A 630-day macrocycle at 13.3x noise; BBBY still fails 824 days after cancellation |
+| [3](https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/) | The Cavity — A 630-day macrocycle at 13.3x noise; 630-day macrocycle at 13.3× noise across 8 securities |
 | [4](https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/) | What the SEC Report Got Wrong — Seven SEC claims tested against five years of post-hoc settlement data |
 
 [Part 2: The Resonance](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/) ➡️

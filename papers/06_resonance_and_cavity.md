@@ -10,7 +10,7 @@
 
 ## Abstract
 
-Paper V mapped the 15-node Failure Accommodation Waterfall through which individual delivery failures propagate over 45 business days. This companion paper examines what happens when multiple waterfalls overlap. Using FTD-to-FTD resonance analysis across 4,234 records spanning 22 years (2004-2026), cross-asset spectral decomposition via full periodogram, and cross-ticker spectral coherence testing, I demonstrate that the settlement system behaves as an under-damped resonator with Quality Factor Q ≈ 20.6 (95% CI: 16-28), retaining approximately 86% of echo signal amplitude per T+35 cycle. The true fundamental frequency is T+25 business days (35 calendar days), anchored to the SEC Rule 204(a)(2) close-out deadline. Three independent analytical frameworks converge: (1) **Resonance Analysis** reveals an under-damped settlement system with a dominant \~2.5-year macroeconomic cycle; (2) **Spectral Fingerprinting** discovers a dominant spectral peak at approximately 630 business days (13.3× power spectral density above median noise), with strong settlement harmonics at T+33 (9.9×) and T+105 (6.8×); (3) **Cross-Asset Validation** demonstrates portfolio-level settlement coherence: KOSS (a stock with no options chain) shares the settlement spectral signature despite lacking the options mechanism to generate it independently, and BBBY (delisted August 2023) FTD data included in the cross-asset spectral analysis. *(Note: the BBBY shadow ledger interpretation in §8.3 was retracted due to a ticker collision — see Correction #22.)*
+Paper V mapped the 15-node Failure Accommodation Waterfall through which individual delivery failures propagate over 45 business days. This companion paper examines what happens when multiple waterfalls overlap. Using FTD-to-FTD resonance analysis across 4,234 records spanning 22 years (2004-2026), cross-asset spectral decomposition via full periodogram, and cross-ticker spectral coherence testing, I demonstrate that the settlement system behaves as an under-damped resonator with Quality Factor Q ≈ 20.6 (95% CI: 16-28), retaining approximately 86% of echo signal amplitude per T+35 cycle. The true fundamental frequency is T+25 business days (35 calendar days), anchored to the SEC Rule 204(a)(2) close-out deadline. Three independent analytical frameworks converge: (1) **Resonance Analysis** reveals an under-damped settlement system with a dominant \~2.5-year macroeconomic cycle; (2) **Spectral Fingerprinting** discovers a dominant spectral peak at approximately 630 business days (13.3× power spectral density above median noise), with strong settlement harmonics at T+33 (9.9×) and T+105 (6.8×); (3) **Cross-Asset Validation** demonstrates portfolio-level settlement coherence: KOSS (a stock with no options chain) shares the settlement spectral signature despite lacking the options mechanism to generate it independently.
 
 > **Key Terminology**: This paper introduces several novel analytical concepts:
 > - **Quality Factor (Q)**: a dimensionless parameter measuring how many oscillation cycles a resonator sustains before its stored energy decays to 1/e of the original; Q \>\> 1 indicates a dramatically under-damped system
@@ -246,7 +246,7 @@ Applying identical full periodogram analysis to the complete ticker basket revea
 
 | Ticker   | \~630bd PSD/Median | Interpretation                       |
 | :------: | :----------------: | ------------------------------------ |
-| **BBBY** | Strong             | Active post-delisting FTDs (see 8.3) |
+| **BBBY** | Elevated           | Pre-bankruptcy basket member |
 | **GME**  | 13.3x              | Primary settlement oscillator        |
 | **AMC**  | Elevated           | Swap basket member                   |
 | **XRT**  | Elevated           | ETF transmission mechanism           |
@@ -257,7 +257,7 @@ Applying identical full periodogram analysis to the complete ticker basket revea
 
 The controls (IWM, AAPL, MSFT) show no spectral elevation at the settlement frequencies. The basket members (GME, AMC, KOSS, XRT) all show the macrocycle peak. This cross-asset discrimination supports the settlement thesis over the LEAPS alternative: if the \~630bd peak were simply a LEAPS rollover cycle, it would appear in AAPL (which has the most active LEAPS market of any equity). It does not.
 
-> **Multiple comparisons note:** 16 tickers were tested. The 5 positives (GME, AMC, KOSS, XRT, BBBY) are a correlated basket that experienced synchronized volatility shocks in January 2021. While the cross-asset consistency is suggestive, these are not fully independent validations in the frequentist sense. A Benjamini-Hochberg FDR correction across the 16-ticker comparison is warranted; the qualitative discrimination between basket members and controls survives this correction.
+> **Multiple comparisons note:** 16 tickers were tested. The 4 positives (GME, AMC, KOSS, XRT) are a correlated basket that experienced synchronized volatility shocks in January 2021. While the cross-asset consistency is suggestive, these are not fully independent validations in the frequentist sense. A Benjamini-Hochberg FDR correction across the 16-ticker comparison is warranted; the qualitative discrimination between basket members and controls survives this correction.
 
 *Results: [`cavity_resonance.json`][4]*
 
@@ -268,18 +268,6 @@ KOSS has no options chain. It cannot generate T+33 or T+35 echoes through the op
 This is strong quantitative evidence of portfolio-level settlement via a Total Return Swap (TRS). KOSS shares are trapped inside a TRS basket anchored by GME. When the prime broker rolls the swap, all basket constituents experience the same settlement cadence, not because they have individual settlement obligations, but because the swap contract itself generates the settlement interference.
 
 A potential objection: KOSS's spectral signature could be an artifact of correlated retail volume spikes on the same calendar dates as GME (January 2021, May 2024). A discriminating test: isolate the spectral analysis to periods *between* the synchronized macro-shocks. If the KOSS settlement signal persists in the inter-crisis periods, the TRS basket thesis is confirmed independently of the shared retail-shock calendar.
-
-### ~~8.3 The BBBY Shadow Ledger~~ **(CORRECTED)**
-
-> **⚠️ Correction (Mar 2, 2026):** This section's analysis was based on a ticker-symbol collision. Beyond, Inc. (Overstock) reclaimed the BBBY ticker on NYSE on August 29, 2025 under CUSIP 690370101, while the original Bed Bath & Beyond CUSIP was 075896100. The post-September 2025 FTD data belongs to a different entity. The original CUSIP has only 1 day of genuine post-cancellation FTDs (October 2, 2023). The "BBBY Shadow Ledger" interpretation — 31 unique post-delisting values indicating ex-clearing obligation management — was a data artifact. See [Correction #22 in corrections.md](corrections.md). The cross-asset spectral validation in Sections 8.1 and 8.2 is unaffected.
-
-~~BBBY (Bed Bath & Beyond) was delisted in August 2023 and its CUSIP cancelled. SEC EDGAR data shows BBBY FTDs being reported **continuously through late 2025**: 644 separate FTD records across the full observation period, with **31 unique post-delisting values** ranging from 30 to 29,857 shares.~~ *(Retracted — see correction above.)*
-
-**Critical evidence: the post-delisting FTD values are NOT a frozen cumulative balance.** First-difference analysis shows 30 out of 30 consecutive day-to-day changes are non-zero (standard deviation: 12,586). This is not a database artifact; the obligations are actively fluctuating with high variance on a cancelled CUSIP.
-
-~~The implication is significant: when a CUSIP is cancelled, it is removed from the DTCC's Continuous Net Settlement (CNS) system. The standard settlement pipe is closed. Active FTD fluctuations on a cancelled CUSIP imply these obligations are being managed *ex-clearing*. The BBBY post-delisting FTD data is direct evidence of an ex-clearing shadow ledger.~~ *(Retracted.)*
-
-*Data: [`data/ftd/BBBY_ftd.csv`][5] (567 records, Dec 2020-Oct 2023, corrected to CUSIP 075896100 only — see Correction #22, downloaded from [SEC EDGAR FTD Data][6])*
 
 ---
 
@@ -293,7 +281,7 @@ In a **linear** system, the low-frequency spectral power should not exceed the s
 
 | Ticker | κ    | Interpretation                   |
 | :----: | :--: | -------------------------------- |
-| BBBY   | 9.28 | Extreme clipping (sealed cavity) |
+| BBBY   | 9.28 | Pre-bankruptcy basket member |
 | AMC    | 2.97 | Moderate clipping                |
 | XRT    | 1.85 | Mild clipping                    |
 | KOSS   | 1.34 | Mild clipping                    |
@@ -301,7 +289,7 @@ In a **linear** system, the low-frequency spectral power should not exceed the s
 | IWM    | 0.82 | Linear (control)                 |
 | MSFT   | 0.67 | Linear (control)                 |
 
-The controls (IWM, MSFT) show κ \< 1; their low-frequency power is weaker than the sum of settlement components, consistent with a linear system with no boundary clipping. The basket members all show κ \> 1, with BBBY showing extreme nonlinearity consistent with a sealed system where all damping has been removed.
+The controls (IWM, MSFT) show κ \< 1; their low-frequency power is weaker than the sum of settlement components, consistent with a linear system with no boundary clipping. The basket members all show κ \> 1, with BBBY's pre-bankruptcy data showing extreme nonlinearity consistent with a system where most damping has been removed.
 
 > **Important caveat:** κ is a dimensionless ratio measuring relative spectral power. It quantifies the *severity* of nonlinear clipping on a relative scale. Converting κ to specific share counts or volumetric visibility percentages would require additional assumptions about baseline obligation levels that have not been independently validated. We report κ as an ordinal index only; higher κ indicates greater signal distortion and more severe boundary clipping.
 
@@ -328,7 +316,7 @@ The offerings increased the system's damping coefficient by flooding the DTCC wi
 
 ### 11.1 Three Convergent Frameworks
 
-The resonance analysis (Q ≈ 21, baseline-corrected exponential decay), spectral fingerprinting (dominant \~630bd peak, settlement harmonics at T+33 and T+105), and cross-asset validation (KOSS phantom limb, BBBY shadow ledger) converge on a single conclusion: the DTCC settlement system contains a standing wave driven by persistent, actively maintained delivery failure obligations.
+The resonance analysis (Q ≈ 21, baseline-corrected exponential decay), spectral fingerprinting (dominant \~630bd peak, settlement harmonics at T+33 and T+105), and cross-asset validation (KOSS phantom limb, cross-basket spectral coherence) converge on a single conclusion: the DTCC settlement system contains a standing wave driven by persistent, actively maintained delivery failure obligations.
 
 ### 11.2 Falsifiability
 
@@ -339,8 +327,6 @@ Each finding is independently falsifiable:
 2. **\~630bd spectral peak (Section 7).** If the peak is spurious or reflects general LEAPS cycling, it should appear in all optionable equities including controls. It appears in GME, AMC, KOSS, and XRT; not in controls.
 
 3. **KOSS phantom limb (Section 8.2).** If KOSS's spectral signature is coincidental (driven by correlated retail volume on shared calendar dates), the signature should disappear when the analysis is restricted to inter-crisis periods. A testable prediction.
-
-4. ~~**BBBY shadow ledger (Section 8.3).**~~ **RETRACTED.** The post-Sept 2025 FTD data was from Beyond, Inc. (Overstock), which reclaimed the BBBY ticker under a different CUSIP. See Correction #22.
 
 ---
 
@@ -356,7 +342,7 @@ The \~630bd spectral peak is consistent with three non-exclusive mechanisms: (a)
 
 ### 12.3 Cross-Asset Correlation
 
-The 5 basket members (GME, AMC, KOSS, XRT, BBBY) experienced synchronized volatility shocks in January 2021 and May 2024. Their spectral coherence may partially reflect shared calendar spikes rather than shared settlement infrastructure. The inter-crisis isolation test (Section 8.2) has been proposed but not yet executed.
+The 4 basket members (GME, AMC, KOSS, XRT) experienced synchronized volatility shocks in January 2021 and May 2024. Their spectral coherence may partially reflect shared calendar spikes rather than shared settlement infrastructure. The inter-crisis isolation test (Section 8.2) has been proposed but not yet executed.
 
 ### 12.4 Volumetric Scaling
 
@@ -368,9 +354,7 @@ The Q-derived leakage rate (\~14% per cycle) and the Obligation Distortion Index
 
 The settlement system is not a pipeline. It is a resonance cavity. Energy enters through FTD spikes, bounces between the regulatory boundaries documented in Paper V, and persists for over a year because someone is spending capital every T+35 cycle to prevent the standing wave from decaying. A passive clearinghouse should be critically damped (Q ≤ 0.5); the measured Q ≈ 21 means the DTCC settlement system stores obligation energy across 20+ successive cycles.
 
-The spectral fingerprint, the cross-asset coherence, and the BBBY shadow ledger are individually surprising. Their simultaneous presence in the data is consistent with a single explanation: a portfolio-level Total Return Swap basket generating settlement interference across multiple securities, maintained by active capital injection, and producing a dominant \~2.5-year macrocycle visible in the spectral decomposition of the public FTD tape.
-
-The most striking finding is the simplest: a stock that was cancelled in August 2023 is still generating actively fluctuating delivery failures in December 2025. The settlement pipe is closed. The obligations continue. Something is managing them outside the standard clearing infrastructure.
+The spectral fingerprint and the cross-asset coherence are individually surprising. Their simultaneous presence in the data is consistent with a single explanation: a portfolio-level Total Return Swap basket generating settlement interference across multiple securities, maintained by active capital injection, and producing a dominant \~2.5-year macrocycle visible in the spectral decomposition of the public FTD tape.
 
 ---
 

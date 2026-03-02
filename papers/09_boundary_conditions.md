@@ -10,7 +10,7 @@
 
 ## Abstract
 
-Papers I–VIII established the existence of a Failure Accommodation Waterfall, a 630-business-day macrocycle in equity settlement failures, and an algorithmic Compliance-as-a-Service infrastructure that operationalizes synthetic close-outs on borrow-constrained securities. This paper tests the boundary conditions of this system by probing seven adjacent domains: the T+1 regime transition as a natural experiment, the equity-to-Treasury settlement contagion channel, ETF creation/redemption as a delivery substitution mechanism, corporate action-induced obligation sealing, deep out-of-the-money put cross-ticker synchronization, cross-border CSDR settlement internalization, and agent-based modeling of emergent macrocycle dynamics. We demonstrate that the May 2024 T+2→T+1 settlement transition did not compress the resonance cavity but shifted its spectral energy to a less-monitored basket member (KOSS: +3,039% T+33 power, $p < 0.001$). A Granger causality test on NY Federal Reserve primary dealer fails-to-deliver data establishes that GME settlement failures *cause* U.S. Treasury settlement fails at a 1-week lag ($F = 19.20$, $p < 0.0001$), with no reverse causation. An expanded panel of 15,916 tickers reveals this contagion channel is systemic: 16% of equities show significant Granger causality with Treasury fails (3.2× the rate expected by chance), with 228 surviving Bonferroni correction—establishing the first documented instance of systemic equity-to-sovereign settlement contagion. The December 2025 macrocycle window produced simultaneous equity ($z = +4.2\sigma$) and Treasury ($z = +4.0\sigma$) stress separated by exactly this 1-week lag. Post-delisting BBBY FTD persistence—~~31 unique~~ *(retracted)* failures spanning ~~824 days~~ *(retracted — Correction #22)* after CUSIP cancellation—provides direct evidence of Obligation Warehouse sealing. A cost-arbitrage analysis demonstrates that CSDR cash penalties create a 5,714:1 incentive asymmetry favoring cross-border failure internalization, and EU settlement fail rates spiked during both the May 2024 T+1 transition and the June 2024 DFV return event. Finally, a minimal agent-based model with only three agents and coded regulatory rules reproduces the 630-day macrocycle at 44.5× mean spectral power **without the period being hard-coded**, suggesting the macrocycle is an emergent property of the regulatory architecture itself.
+Papers I–VIII established the existence of a Failure Accommodation Waterfall, a 630-business-day macrocycle in equity settlement failures, and an algorithmic Compliance-as-a-Service infrastructure that operationalizes synthetic close-outs on borrow-constrained securities. This paper tests the boundary conditions of this system by probing six adjacent domains: the T+1 regime transition as a natural experiment, the equity-to-Treasury settlement contagion channel, ETF creation/redemption as a delivery substitution mechanism, corporate action-induced obligation regime changes, deep out-of-the-money put cross-ticker synchronization, cross-border CSDR settlement internalization, and agent-based modeling of emergent macrocycle dynamics. We demonstrate that the May 2024 T+2→T+1 settlement transition did not compress the resonance cavity but shifted its spectral energy to a less-monitored basket member (KOSS: +3,039% T+33 power, $p < 0.001$). A Granger causality test on NY Federal Reserve primary dealer fails-to-deliver data establishes that GME settlement failures *cause* U.S. Treasury settlement fails at a 1-week lag ($F = 19.20$, $p < 0.0001$), with no reverse causation. An expanded panel of 15,916 tickers reveals this contagion channel is systemic: 16% of equities show significant Granger causality with Treasury fails (3.2× the rate expected by chance), with 228 surviving Bonferroni correction—establishing the first documented instance of systemic equity-to-sovereign settlement contagion. The December 2025 macrocycle window produced simultaneous equity ($z = +4.2\sigma$) and Treasury ($z = +4.0\sigma$) stress separated by exactly this 1-week lag. A cost-arbitrage analysis demonstrates that CSDR cash penalties create a 5,714:1 incentive asymmetry favoring cross-border failure internalization, and EU settlement fail rates spiked during both the May 2024 T+1 transition and the June 2024 DFV return event. Finally, a minimal agent-based model with only three agents and coded regulatory rules reproduces the 630-day macrocycle at 44.5× mean spectral power **without the period being hard-coded**, suggesting the macrocycle is an emergent property of the regulatory architecture itself.
 
 **Keywords:** Settlement failure, Granger causality, T+1 transition, Treasury fails, ETF cannibalization, CUSIP mutation, obligation warehouse, spectral analysis, CSDR, agent-based model
 
@@ -19,7 +19,6 @@ Papers I–VIII established the existence of a Failure Accommodation Waterfall, 
 > **Key Terminology**: This paper introduces or extends several concepts:
 > - **Obligation Migration** — the transfer of settlement stress from higher-scrutiny securities (GME) to lower-scrutiny basket members (KOSS) under regulatory pressure, observed via spectral analysis of the T+1 transition
 > - **Cross-Market Contagion Channel** — the empirically verified causal pathway from equity FTDs to Treasury settlement fails, operating at a 1-week lag via collateral quality degradation
-> - **Zombie FTDs** — delivery failures persisting on cancelled CUSIPs that cannot be settled because the underlying security no longer exists, indicative of Obligation Warehouse sealing
 
 ---
 
@@ -42,9 +41,9 @@ This paper contributes to the market microstructure literature in four ways:
 1. **Settlement compression does not eliminate resonance—it migrates it.** Spectral analysis of pre- versus post-T+1 FTD series shows that the regulatory-linked spectral peaks (T+33, T+35) collapsed in GME/AMC but amplified by +3,039% in KOSS, a less-monitored basket member.
 2. **Equity failures Granger-cause Treasury failures.** Formal VAR-based Granger causality tests on 215 weeks of NY Fed primary dealer FTD data demonstrate that GME settlement failures predict Treasury settlement fails at all tested lags (1–6 weeks). The reverse relationship is not statistically significant. An expanded 15,916-ticker panel reveals this contagion is systemic: 16% of equities show significant Granger causality (3.2× chance rate), with 228 surviving Bonferroni correction.
 3. **ETF substitution operates at settlement-lag timescales.** An event study of 21 GME FTD spikes reveals that the T+33 echo channel produces XRT FTD surges with $z = +5.5\sigma$—the single most extreme event coinciding with January 27, 2021.
-4. **Cancelled CUSIPs create permanent ~~zombie~~ *(retracted)* obligations.** BBBY FTDs persisted for ~~824 days~~ *(retracted — Correction #22)* after the CUSIP was cancelled, with ~~31 unique~~ *(retracted)* observation values confirming active failure cycling on a security that cannot be settled.
+4. **Corporate actions produce measurable FTD regime changes.** The GME 4:1 splividend reduced FTDs by 83% ($p < 0.001$), consistent with forced physical delivery breaking the married-put locate chain.
 
-The remainder of this paper proceeds as follows. Section 2 presents the T+1 natural experiment (Avenue 5). Section 3 documents the equity-to-Treasury contagion channel (Avenue 2). Section 4 analyzes ETF delivery substitution (Avenue 3). Section 5 examines CUSIP mutations and obligation sealing (Avenue 4). Section 6 presents the DMA cross-ticker synchronization test (Avenue 1). Section 7 quantifies the cross-border CSDR settlement arbitrage (Avenue 6). Section 8 presents the agent-based model and the spontaneous emergence of the 630-day macrocycle (Avenue 7). Section 9 synthesizes findings. Section 10 concludes.
+The remainder of this paper proceeds as follows. Section 2 presents the T+1 natural experiment (Avenue 5). Section 3 documents the equity-to-Treasury contagion channel (Avenue 2). Section 4 analyzes ETF delivery substitution (Avenue 3). Section 5 examines CUSIP mutations and corporate action regime changes (Avenue 4). Section 6 presents the DMA cross-ticker synchronization test (Avenue 1). Section 7 quantifies the cross-border CSDR settlement arbitrage (Avenue 6). Section 8 presents the agent-based model and the spontaneous emergence of the 630-day macrocycle (Avenue 7). Section 9 synthesizes findings. Section 10 concludes.
 
 ---
 
@@ -260,31 +259,7 @@ The GME splividend is the only statistically significant event ($p < 0.001$). Af
 
 The AMC APE issuance—which created an entirely new CUSIP—showed minimal impact ($+7.9\%$, not significant), indicating that FTDs migrated cleanly to the new CUSIP structure rather than being orphaned in the Obligation Warehouse.
 
-### 5.2 The BBBY Zombie: 824 Days of Post-Cancellation FTDs
-
-Bed Bath & Beyond completed Chapter 11 bankruptcy around September 29, 2023, at which point its CUSIP was cancelled. Under normal settlement mechanics, a cancelled CUSIP should produce zero subsequent FTDs because the security no longer exists and no market for delivery is available. The data contradicts this expectation:
-
-**Table 8: BBBY Post-Delisting FTD Persistence**
-
-| Metric | Value |
-|--------|-------|
-| Days of post-cancellation FTDs | **824** |
-| Post-delisting FTD observations | **31** |
-| Latest FTD date | **December 31, 2025** |
-| Total post-cancellation FTDs | **244,599 shares** |
-| Unique FTD values | **31** |
-
-The ~~31 unique~~ *(retracted)* FTD values are critical: they prove that the figure reported to the SEC is not a frozen cumulative balance reprinted on each reporting date. The CUSIP is *still actively failing*—settlement obligations are cycling through the Obligation Warehouse with no available settlement mechanism, because the underlying company no longer exists.
-
-This constitutes the most direct evidence in the series for the Obligation Warehouse sealing hypothesis: delivery failures on borrow-constrained securities can, through corporate action, become permanent ~~zombie~~ *(retracted)* obligations that sit indefinitely outside the CNS system.
-
-A block-size analysis of the sequential day-to-day changes in BBBY post-cancellation FTD values provides further discrimination between active manipulation and administrative noise. Of 30 sequential deltas, 43% (13/30) are block-sized changes exceeding ±10,000 shares, while *zero* deltas fall below ±100 shares (the signature of administrative rounding). The block-level changes exhibit an alternating injection/extraction pattern (e.g., +23,579 / −19,544 / +13,421 / −12,130 shares in consecutive observations), consistent with bilateral novation cycling between counterparties rather than DTCC system-wide database reconciliation artifacts.
-
-![Figure 8: BBBY post-cancellation FTD changes by size category. Zero administrative noise, 43% block-sized changes exceeding 10,000 shares.](figures/p9_f08_block_size.png)
-
-![Figure 9: BBBY: ~~824 days~~ *(retracted — Correction #22)* of FTDs on a cancelled CUSIP. Top panel shows the SEC-reported outstanding FTD balance. Bottom panel shows day-to-day changes, with 43% exceeding the 10,000-share block-size threshold.](figures/p9_f09_bbby_~~zombie~~ *(retracted)*.png)
-
-### 5.3 Velocity Collapse at Reverse Split
+### 5.2 Velocity Collapse at Reverse Split
 
 While the AMC 1:10 reverse split produced a nominally large but statistically insignificant FTD *level* increase (+265.5% adjusted), the FTD *velocity* collapsed by −83.3%. This indicates that the share consolidation froze the churn rate—obligations that previously cycled rapidly through accommodate-and-re-fail now sit in static positions, consistent with Obligation Warehouse parking.
 
@@ -490,7 +465,7 @@ The seven empirical tests in this paper collectively establish that the Failure 
 1. **Across securities** (Section 2): When regulatory compression increases scrutiny on primary targets (GME), obligation energy migrates to less-monitored basket members (KOSS: +3,039% spectral amplification).
 2. **Across asset classes** (Section 3): Equity FTDs Granger-cause Treasury settlement fails at a 1-week lag ($F = 19.20$, $p < 0.0001$ in the seven-ticker control). An expanded 15,916-ticker panel (Section 3.6) reveals this contagion channel is systemic: 16% of equities show significant Granger causality (3.2× chance rate), with 228 surviving Bonferroni correction.
 3. **Across delivery mechanisms** (Section 4): ETF creation/redemption serves as a settlement-lag channel, with the most extreme event (XRT $z = +5.5\sigma$) precisely aligning with the January 2021 buy-button event.
-4. **Across time** (Section 5): Corporate actions can *permanently* seal obligations in the Obligation Warehouse, creating ~~zombie~~ *(retracted)* FTDs that persist for years after CUSIP cancellation (BBBY: ~~824 days~~ *(retracted — Correction #22)* and counting).
+4. **Across time** (Section 5): The GME 4:1 splividend reduced FTDs by 83% ($p < 0.001$), consistent with forced physical delivery breaking the married-put locate chain. The AMC reverse split froze FTD velocity by 83%, consistent with Obligation Warehouse parking.
 5. **Across jurisdictions** (Section 7): A 5,714:1 cost asymmetry between CSDR and Reg SHO creates a rational incentive to export settlement failures to European infrastructure.
 6. **Across emergence layers** (Section 8): The 630-day macrocycle is not imposed but *emergent*—a minimal ABM reproduces it from regulatory rules alone.
 
@@ -504,12 +479,12 @@ These six channels can be arranged hierarchically by temporal resolution:
 | ETF substitution | T+33 business days | AP creation/redemption | XRT $z = +5.5\sigma$ |
 | Cross-market contagion | 1-week lag | Collateral quality degradation | Granger $F = 19.20$ |
 | Cross-border arbitrage | Monthly | CSDR penalty cost minimization | 5,714:1 ratio |
-| Obligation sealing | Permanent | CUSIP cancellation | BBBY 824-day ~~zombie~~ *(retracted)* FTDs |
+| Obligation regime change | Permanent | Corporate action | GME splividend −83% FTDs |
 | Emergent oscillation | ~630 bd | Regulatory deadline LCM | ABM Welch 42.3× power |
 
 This hierarchy implies that a single initial delivery failure impulse—such as the January 2021 event—can propagate through faster channels within days, slower channels within weeks, and permanent channels within years, with the 630-day macrocycle serving as the fundamental oscillation that periodically re-aligns all channels. The December 2025 Cycle 2 window is a direct observation of this re-alignment.
 
-![Figure 16: Settlement failure contagion architecture: four channels radiating outward from GME: lateral to KOSS, vertical to U.S. Treasuries, cross-border to European CSDs, and ~~zombie~~ *(retracted)* persistence on BBBY's cancelled CUSIP.](figures/p9_f16_contagion_flow.png)
+![Figure 16: Settlement failure contagion architecture: four channels radiating outward from GME: lateral to KOSS, vertical to U.S. Treasuries, cross-border to European CSDs, and corporate action regime changes.](figures/p9_f16_contagion_flow.png)
 
 ### 9.3 Limitations
 
@@ -529,11 +504,10 @@ To stress-test the findings against the strongest available counter-hypotheses, 
 |---|---|---|---|---|---|
 | (a) | GME→Treasury Granger is spurious macro noise | 25% | Multi-ticker Granger control (7 equities); expanded panel (15,916 tickers) | **Partially confirmed**: GME was the only significant result in the 7-ticker control ($F = 19.20$, $p < 0.0001$). However, an expanded 15,916-ticker panel shows 16.0% of equities are significant (3.2× the 5% chance rate), with 228 surviving Bonferroni correction. The signal is systemic, not GME-specific, but the 3.2× enrichment rules out pure noise. | $\sim 15\%$ |
 | (b) | KOSS +3,039% is small-float denominator noise | 15% | Float-normalized spectral analysis | **Rejected**: Normalization has zero effect on spectral change ratios (constant divisor cancels). KOSS $z = 1{,}050.9\sigma$ vs. controls. | $< 3\%$ |
-| (c) | BBBY ~~zombie~~ *(retracted)* FTDs are admin rounding errors | 10% | Block-size delta analysis (31 observations) | **Strongly disfavored**: 0% admin-noise deltas ($< \pm 100$), 43% block-sized ($\geq \pm 10{,}000$). Alternating injection/extraction pattern. | $\sim 3\%$ |
-| (d) | ABM 630-day peak is FFT windowing artifact | 20% | Welch PSD decontamination ($N = 5{,}000$, $n_{\text{seg}} = 1{,}250$) | **Rejected**: Macrocycle power *increased* from 35.4× to 42.3× mean under Welch. Raw FFT was suppressing, not inflating, the true signal. | $< 5\%$ |
-| (e) | EU fail rate spikes are domestic contagion | 20% | Asset class selectivity decomposition | **Mostly rejected**: Only equities/ETFs spiked at T+1 and DFV events; govt bonds did not. Domestic turmoil would affect all classes. 4/6 sub-tests favor cross-border. | $\sim 8\%$ |
+| (c) | ABM 630-day peak is FFT windowing artifact | 20% | Welch PSD decontamination ($N = 5{,}000$, $n_{\text{seg}} = 1{,}250$) | **Rejected**: Macrocycle power *increased* from 35.4× to 42.3× mean under Welch. Raw FFT was suppressing, not inflating, the true signal. | $< 5\%$ |
+| (d) | EU fail rate spikes are domestic contagion | 20% | Asset class selectivity decomposition | **Mostly rejected**: Only equities/ETFs spiked at T+1 and DFV events; govt bonds did not. Domestic turmoil would affect all classes. 4/6 sub-tests favor cross-border. | $\sim 8\%$ |
 
-**Combined null probability**: Under independence, the probability that *all five* findings are simultaneously spurious is $0.15 \times 0.03 \times 0.03 \times 0.05 \times 0.08 < 0.0005\%$. Even under generous correlation assumptions (shared macro environment), the joint null remains below $0.05\%$.
+**Combined null probability**: Under independence, the probability that *all four* findings are simultaneously spurious is $0.15 \times 0.03 \times 0.05 \times 0.08 < 0.002\%$. Even under generous correlation assumptions (shared macro environment), the joint null remains below $0.1\%$.
 
 The Granger causality finding (a) merits particular discussion. The original seven-ticker control ($F = 19.20$, $p < 0.0001$, 8.1:1 ratio vs. next-strongest equity) appeared to establish a GME-specific channel. The expanded 15,916-ticker panel fundamentally recontextualizes this: the equity-to-Treasury relationship is systemic, with 16% of all equities showing statistically significant Granger causality — 3.2× the rate expected by chance. This shifts the interpretation from "GME uniquely causes Treasury fails" to "equity settlement stress *systemically* contaminates sovereign debt markets, and GME is one participant in a market-wide contagion." The revised null probability for (a) increases from $<5\%$ to $\sim 15\%$, but the core contagion thesis is strengthened: the channel is real, robust across thousands of securities, and more pervasive than initially documented.
 
@@ -545,7 +519,7 @@ This paper demonstrates that the U.S. equity settlement failure accommodation sy
 
 The Granger causality finding — initially that GME's delivery failures predict U.S. Treasury settlement fails at $F = 19.20$, $p < 0.0001$, and subsequently that 16% of 15,916 equities show the same relationship (3.2× the chance rate, 228 surviving Bonferroni correction) — establishes, to our knowledge, the first documented instance of systemic equity-to-sovereign settlement contagion in the literature. The signal is not GME-specific but market-wide, which strengthens rather than weakens the contagion thesis: the entire equity settlement infrastructure leaks stress into sovereign debt markets. The agent-based model finding — that the 630-day macrocycle emerges spontaneously from coded regulatory rules and survives Welch PSD decontamination at 42.3× mean spectral power — elevates the thesis from empirical pattern observation to emergent structural law: the U.S. clearing infrastructure, as currently designed, will inevitably produce long-period settlement oscillations.
 
-An adversarial falsification battery subjected each major finding to the strongest available null hypothesis. Five tests were conducted; zero nulls were confirmed. The combined probability that all five findings are simultaneously spurious is less than 0.03%.
+An adversarial falsification battery subjected each major finding to the strongest available null hypothesis. Four tests were conducted; zero nulls were confirmed. The combined probability that all four findings are simultaneously spurious is less than 0.1%.
 
 Perhaps most consequentially, the LCM analysis of the T+1 regime transition reveals an unintended resonance compression. By shifting regulatory deadlines by one business day, the SEC reduced the system's Least Common Multiple from 2,730 to 1,020 business days—a 63% compression that shifts the 4th harmonic from ~682 business days (the empirical macrocycle) to exactly 255 business days: one trading year. If this prediction holds, the settlement stress that previously accumulated and released over two-year cycles will now compound annually, with higher peak amplitude due to the shortened dissipation window.
 
@@ -599,7 +573,6 @@ The Failure Accommodation Waterfall is not a pipeline—it is an interconnected 
 | ABM T+105 emergence | Power ratio | 16.2× | N/A | 8.2 |
 | ABM Welch 630-day | Welch PSD | 42.3× | N/A | 8.5 |
 | ABM Welch T+105 | Welch PSD | 18.1× | N/A | 8.5 |
-| BBBY block-size deltas | Block fraction | 43% (0% admin) | N/A | 5.2 |
 | CSDR/Reg SHO cost ratio | Ratio | 5,714:1 | N/A | 7.1 |
 | EU asset class selectivity | Sub-test score | 4/6 cross-border | N/A | 9.4 |
 | Combined falsification null | Joint probability | <0.03% | N/A | 9.4 |

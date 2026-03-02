@@ -16,7 +16,7 @@ People have asked me to package it up. So here it is — the five things I would
 
 A meme stock's delivery failures **predict U.S. Treasury settlement failures one week in advance** (Granger causality, F = 19.20, p < 0.0001). When expanded to the full SEC FTD universe (15,916 tickers), 16% of equities show significant Granger causality with Treasury fails — 3.2× the rate expected by random chance, with 228 surviving Bonferroni correction. In December 2025, both markets simultaneously produced >4-sigma stress events separated by exactly one week.
 
-Settlement failures don't disappear — they surf a 15-node regulatory cascade over 45 business days, migrating across tickers, asset classes, and national borders. An algorithm using a single DMA routing fingerprint deploys identically across 31 securities, but its relationship to settlement failures flips from *zero* on liquid stocks to *statistically significant* on borrow-constrained ones (p < 0.001). A cancelled stock is still actively failing 824 days after its CUSIP was erased from existence.
+Settlement failures don't disappear — they surf a 15-node regulatory cascade over 45 business days, migrating across tickers, asset classes, and national borders. An algorithm using a single DMA routing fingerprint deploys identically across 31 securities, but its relationship to settlement failures flips from *zero* on liquid stocks to *statistically significant* on borrow-constrained ones (p < 0.001).
 
 These are not theories. They are empirical observations from public data, validated across 2,038 trading days, 9 tickers, 424 options OI snapshots, and 113 pre-computed result files that anyone can verify without an API key.
 
@@ -40,7 +40,6 @@ Every finding below links to the specific paper, section, and public data source
 | **GME FTDs Granger-cause U.S. Treasury settlement fails** | F = 19.20, p < 0.0001; 16% of 15,916 tickers significant (3.2× chance) | SEC FTD data, NY Fed PDFTD | [IX](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md) |
 | **Regulatory compression migrates stress to less-monitored tickers** | KOSS: +3,039% spectral power at T+33 post-T+1 | SEC FTD data | [IX](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md) |
 | **Cross-border cost arbitrage incentivizes exporting failures** | 5,714:1 CSDR vs. Reg SHO penalty ratio | ESMA reports, Reg SHO | [IX](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md) |
-| **A cancelled stock still actively fails 824 days post-CUSIP** | 31 unique FTD values, 43% block-sized, through Dec 2025 | SEC FTD data | [IX](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md) |
 | **Same DMA fingerprint on 31 tickers, but FTD-coupled only on constrained ones** | GME: t = +3.86, p < 0.001; SPY: t = +0.38, p = 0.708 | ThetaData OPRA, SEC FTD | [VIII](https://github.com/TheGameStopsNow/research/blob/main/papers/08_compliance_as_a_service.md) |
 | **FTX Tokenized Stocks served as phantom locates** | €32.7M total assets vs. $65M claim; 0 GME shares under oath | Bundesanzeiger, Kroll SOAL | [VII](https://github.com/TheGameStopsNow/research/blob/main/papers/07_shadow_ledger_offshore_crypto.md) |
 | **42.2 billion CAT errors, $1 million fine** | $0.0000236 per violation | FINRA AWC 2020067253501 | [III](https://github.com/TheGameStopsNow/research/blob/main/papers/03_policy_regulatory_implications.md) |
@@ -188,8 +187,6 @@ You don't get to claim something this big without saying what would kill it. Her
 3. **"The DMA fingerprint is normal market-making."** It is, on liquid securities. SPY shows zero FTD coupling. GME shows p < 0.001. Same algorithm. Different trigger logic. ([Paper VIII, §3.3](https://github.com/TheGameStopsNow/research/blob/main/papers/08_compliance_as_a_service.md))
 
 4. **"The macrocycle is a data artifact."** I built a simulation with only the SEC's regulatory deadlines. The 630-day cycle emerged at 44.5× background noise without being specified as a parameter. It's emergent arithmetic, not curve-fitting. ([Paper IX, §8.2](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md))
-
-5. **"BBBY is a database glitch."** 31 unique FTD values, 43% block-sized, actively cycling. Zero administrative noise. ([Paper IX, §5.2](https://github.com/TheGameStopsNow/research/blob/main/papers/09_boundary_conditions.md))
 
 If any of these falsification criteria are met, I'll update the record. That's how science works.
 

@@ -48,10 +48,9 @@ Every finding in the research series, mapped to its paper, section, data source,
 | 24 | December 2025: simultaneous >4σ events in both markets, 1-week lag | GME: +4.2σ, Treasury: +4.0σ | IX | §3.5 | SEC FTD, NY Fed PDFTD |
 | 25 | T+1 transition collapsed GME spectral power but amplified KOSS by 3,039% | Obligation migration to less-monitored ticker | IX | §2.3 | SEC FTD |
 | 26 | XRT FTDs surge at T+33 echo of GME spikes | z = +5.5σ on Jan 27, 2021 | IX | §4.2 | SEC FTD |
-| 27 | BBBY: 31 unique FTD values, 824 days post-CUSIP cancellation | 43% block-sized; actively managed | IX | §5.2 | SEC FTD |
-| 28 | 5,714:1 cost asymmetry between CSDR and Reg SHO for a 35-day fail | CSDR: $1,750 vs. Reg SHO: ~$10M/day | IX | §7.1 | ESMA, Reg SHO |
-| 29 | EU equity fail rates spike during U.S. stress events | T+1: +0.5pp; DFV return: +0.3pp | IX | §7.3 | ESMA Statistical Reports |
-| 30 | Agent-based model reproduces 630-day macrocycle without it being coded | 44.5× mean spectral power | IX | §8.2 | Custom ABM |
+| 27 | 5,714:1 cost asymmetry between CSDR and Reg SHO for a 35-day fail | CSDR: $1,750 vs. Reg SHO: ~$10M/day | IX | §7.1 | ESMA, Reg SHO |
+| 28 | EU equity fail rates spike during U.S. stress events | T+1: +0.5pp; DFV return: +0.3pp | IX | §7.3 | ESMA Statistical Reports |
+| 29 | Agent-based model reproduces 630-day macrocycle without it being coded | 44.5× mean spectral power | IX | §8.2 | Custom ABM |
 
 ---
 
@@ -59,16 +58,16 @@ Every finding in the research series, mapped to its paper, section, data source,
 
 | # | Finding | Statistic | Paper | Section | Data Source |
 |:-:|---------|:---------:|:-----:|:-------:|------------|
-| 31 | FTX Tokenized Stocks: CM-Equity AG had €32.7M assets, filed $65M claim | Balance-sheet impossibility | VII | §3.1 | Bundesanzeiger, Kroll |
-| 32 | FTX Trustee reported zero GME shares under penalty of perjury | SOAL | VII | §3.2 | Kroll SOAL |
-| 33 | GME FTDs spiked 9.1× in Dec 2022 T+35 window after FTX collapse | KOSS control: 0.8× (flat) | VII | §4.2 | SEC FTD |
-| 34 | JPMorgan total derivative notional: +$6T in Q1 2021 | $47.2T → $53.2T | VII | §5.1 | FDIC Call Reports |
-| 35 | JPMorgan held 70% of all U.S. bank equity derivatives entering 2021 | $3,187B of $4,529B | VII | §5.1 | OCC Quarterly Report |
-| 36 | 8 ISDA agreements filed in 7 consecutive days before UMR Phase 6 | €8B+ AANA threshold | VII | §5.2 | UK Companies House |
-| 37 | Cantor Fitzgerald: $16.7B repo book, 102% Treasury pledge ratio | Zero mention of Tether | VII | §7.1 | SEC X-17A-5 |
-| 38 | GCF repo spiked +11.6% on $1B Tether mint date; DVP and Tri-Party declined | Channel-specific divergence | VII | §7.3 | OFR Short-Term Funding Monitor |
-| 39 | Goldman Sachs: ~$9–10B in crypto-adjacent 13F positions | IBIT, ETHE, MSTR, COIN | VII | §9.2 | SEC 13F-HR |
-| 40 | 42.2 billion CAT errors, $1M fine = $0.0000236/violation | FINRA AWC 2020067253501 | III | §4.2 | FINRA |
+| 30 | FTX Tokenized Stocks: CM-Equity AG had €32.7M assets, filed $65M claim | Balance-sheet impossibility | VII | §3.1 | Bundesanzeiger, Kroll |
+| 31 | FTX Trustee reported zero GME shares under penalty of perjury | SOAL | VII | §3.2 | Kroll SOAL |
+| 32 | GME FTDs spiked 9.1× in Dec 2022 T+35 window after FTX collapse | KOSS control: 0.8× (flat) | VII | §4.2 | SEC FTD |
+| 33 | JPMorgan total derivative notional: +$6T in Q1 2021 | $47.2T → $53.2T | VII | §5.1 | FDIC Call Reports |
+| 34 | JPMorgan held 70% of all U.S. bank equity derivatives entering 2021 | $3,187B of $4,529B | VII | §5.1 | OCC Quarterly Report |
+| 35 | 8 ISDA agreements filed in 7 consecutive days before UMR Phase 6 | €8B+ AANA threshold | VII | §5.2 | UK Companies House |
+| 36 | Cantor Fitzgerald: $16.7B repo book, 102% Treasury pledge ratio | Zero mention of Tether | VII | §7.1 | SEC X-17A-5 |
+| 37 | GCF repo spiked +11.6% on $1B Tether mint date; DVP and Tri-Party declined | Channel-specific divergence | VII | §7.3 | OFR Short-Term Funding Monitor |
+| 38 | Goldman Sachs: ~$9–10B in crypto-adjacent 13F positions | IBIT, ETHE, MSTR, COIN | VII | §9.2 | SEC 13F-HR |
+| 39 | 42.2 billion CAT errors, $1M fine = $0.0000236/violation | FINRA AWC 2020067253501 | III | §4.2 | FINRA |
 
 ---
 

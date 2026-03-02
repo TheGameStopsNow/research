@@ -29,12 +29,13 @@ The formal findings are divided into a nine-paper series:
 
 ## 📝 The Reddit Series
 
-Four series of narrative distillations written for a general audience:
+Five series of narrative distillations written for a general audience:
 
 1. **The Strike Price Symphony** (3 parts) — Options microstructure forensics, real-time algorithm observation
 2. **Options & Consequences** (4 parts) — Trade data, SEC filings, infrastructure, macro funding
 3. **The Failure Waterfall** (4 parts) — Settlement lifecycle: the 15-node cascade, resonance cavity, macrocycle
 4. **Boundary Conditions** (3 parts) — Cross-boundary overflow, sovereign contamination, coprime fix
+5. **The Shadow Ledger** (7 parts) — Offshore synthetic supply, Ouroboros loop, collateral reflexivity, DMA compliance algo
 
 ## 🔬 Replication & Data
 

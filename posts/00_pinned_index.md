@@ -65,6 +65,24 @@ Follows the settlement energy when it crosses boundaries the waterfall was never
 
 ---
 
+## Series 5: The Shadow Ledger
+
+Seven-part investigation tracing the offshore synthetic supply chain, the Tether-Cantor-JPMorgan Ouroboros loop, collateral reflexivity, and the DMA compliance algorithm operating across 31 U.S. equities. Culminates in the identification of a specific routing fingerprint with statistically significant FTD correlation on borrow-constrained securities.
+
+| # | Post | Reddit | 𝕏 |
+|:-:|------|:------:|:-:|
+| 1 | **The Phantom Locates** — CM-Equity €32.7M vs $65M, BaFin gap, 3.6× FTD spike |  |  |
+| 2 | **The $6 Trillion Swap** — JPMorgan derivative spike, ISDA network, Cayman GAV +115% |  |  |
+| 3 | **The Ouroboros** — Cantor $16.7B repo, GCF spike on Tether mint, Jump $377M ETH dump |  |  |
+| 4 | **The Reflexive Trap** — Goldman $9-10B crypto hedge, proxy hedge across ISDA counterparties |  |  |
+| 5 | **The Bridge** — BNY Mellon vertical integration, ISDA CSA margin, Jane Street litigation |  |  |
+| 6 | **The Cash Engine** — Dreyfus $86.2B repos, FTD negative correlation, Vanguard control test |  |  |
+| 7 | **The Fingerprint** — DMA algo on 31 tickers, FTD trigger discriminator, BBBY delisting trigger |  |  |
+
+📄 **Papers:** [The Shadow Ledger](https://github.com/TheGameStopsNow/research/blob/main/papers/07_shadow_ledger_offshore_crypto.md) · [Compliance-as-a-Service](https://github.com/TheGameStopsNow/research/blob/main/papers/08_compliance_as_a_service.md)
+
+---
+
 ## About This Research
 
 - 📂 All code, data, and results: [github.com/TheGameStopsNow/research](https://github.com/TheGameStopsNow/research)
@@ -73,4 +91,4 @@ Follows the settlement energy when it crosses boundaries the waterfall was never
 
 ---
 
-*Last updated: Feb 27, 2026*
+*Last updated: Mar 2, 2026*

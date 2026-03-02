@@ -15,20 +15,23 @@ cd research
 pip install -r requirements.txt
 ```
 
-No API keys are required for verification. All evidence notebooks load pre-computed results — you are verifying the analysis, not re-running data collection.
+No API keys are required for verification. All analysis scripts load pre-computed results — you are verifying the analysis, not re-running data collection.
 
 ---
 
 ## Pre-Computed Results
 
-The repository contains **113 pre-computed JSON result files** in `results/`. These files contain raw statistical outputs (test statistics, p-values, confidence intervals, raw data arrays) that the evidence notebooks load and render.
+The repository contains pre-computed JSON result files across two directories:
+
+- **`results/`** — Top-level results (113+ files): Granger causality panels, resonance analysis, contagion maps, balance sheet extractions, and round-by-round test outputs.
+- **`code/analysis/results/`** — Analysis pipeline outputs (9 files): cavity resonance, deep OTM puts, origin cascade, settlement architecture, echo validation, and splividend calendar data.
 
 To verify that the pre-computed results match the published claims:
 
 ```bash
-# List all result files
+# Count all result files
 find results/ -name "*.json" | wc -l
-# Expected: 113
+find code/analysis/results/ -name "*.json" | wc -l
 
 # Verify file integrity (SHA-256 hashes are logged in git history)
 git log --oneline results/ | head -20
@@ -36,27 +39,41 @@ git log --oneline results/ | head -20
 
 ---
 
-## Evidence Notebooks
+## Analysis Scripts
 
-| Notebook | Verifies | Key Outputs |
-|----------|----------|-------------|
-| `notebooks/01_acf_panel.ipynb` | Paper I: ACF₁ dampening across 37 tickers | ACF panel figure, IPO transition stats |
-| `notebooks/02_forensic_signatures.ipynb` | Paper II: Jitter, sonar, sweep signatures | Signature prevalence tables, lot-size distributions |
-| `notebooks/03_attribution_roadmap.ipynb` | Paper III: 10b-5 element mapping | Element mapping table, CAT query specifications |
-| `notebooks/05_waterfall_cascade.ipynb` | Paper V: T+33 echo, phantom OI enrichment | Enrichment ratios at each node, control-day comparison |
-| `notebooks/06_resonance_cavity.ipynb` | Paper VI: Q-factor, macrocycle spectral peaks | Spectral power density plots, Q-factor calculation |
-| `notebooks/07_offshore_crypto.ipynb` | Paper VII: FTX locate analysis, derivative spike | Balance sheet comparison, FTD spike timing |
-| `notebooks/08_compliance_routing.ipynb` | Paper VIII: DMA fingerprint, FTD coupling | 31-ticker deployment table, regression coefficients |
-| `notebooks/09_boundary_conditions.ipynb` | Paper IX: Granger causality, KOSS migration | F-statistics, spectral migration |
-| `notebooks/09b_abm_simulation.ipynb` | Paper IX: Agent-based model emergence | Macrocycle emergence at 44.5× without specification |
-| `notebooks/09c_csdr_arbitrage.ipynb` | Paper IX: Cross-border cost asymmetry | CSDR penalty math, EU fail rate correlation |
+The analysis pipeline is organized in `code/analysis/ftd_research/` as numbered Python scripts. Each script can be run independently to reproduce specific findings:
 
-To run a notebook:
+| Script | Paper | Verifies |
+|--------|-------|----------|
+| `01_load_ftd_data.py` | I–IX | SEC FTD data loading and preprocessing |
+| `02_xrt_ftd_rally_signal.py` | IV, IX | XRT FTD substitution signal detection |
+| `04_t33_echo_cascade.py` | V, IX | T+33 echo cascade timing and enrichment |
+| `05_recaps_ftd_convergence.py` | V, VI | RECAPS cycle convergence analysis |
+| `08_cross_ticker_sync.py` | VI, IX | Cross-ticker spectral synchronization |
+| `12_splividend_calendar.py` | IX | Splividend corporate action regime changes |
+| `14_deep_otm_puts.py` | VIII | Deep OTM put cross-ticker fingerprint |
+| `15_settlement_validation.py` | V | Settlement waterfall validation |
+| `17_settlement_architecture.py` | V, VI | Full settlement architecture model |
+| `19_polygon_forensics.py` | VIII | Polygon tick-level trade forensics |
+
+Additional Paper IX analysis scripts are referenced in the paper's Appendix B:
+
+| Script | Avenue | Description |
+|--------|--------|-------------|
+| `t1_spectral_comparison.py` | 5 | Pre/post T+1 spectral analysis |
+| `treasury_equity_overlay_v2.py` | 2 | Treasury-equity correlation and lag analysis |
+| `granger_causality.py` | 2 | Formal Granger causality test with ADF stationarity check |
+| `granger_panel_expanded.py` | 2 | Expanded 15,916-ticker Granger panel |
+| `etf_heartbeat_analysis.py` | 3 | XRT/GME substitution, T+33 echo, event study |
+| `cusip_mutation_analysis.py` | 4 | Corporate action regime changes |
+| `dma_cross_ticker_sync.py` | 1 | DMA fingerprint cross-ticker synchronization test |
+| `csdr_analysis.py` | 6 | Cross-border CSDR settlement arbitrage |
+| `abm_prototype.py` | 7 | Agent-based model with spectral validation |
+
+To run a script:
 ```bash
-jupyter notebook notebooks/05_waterfall_cascade.ipynb
+python code/analysis/ftd_research/04_t33_echo_cascade.py
 ```
-
-Each notebook loads from `results/` and renders all figures and tables. Running a cell-by-cell verification takes approximately 5–15 minutes per notebook.
 
 ---
 
@@ -65,51 +82,42 @@ Each notebook loads from `results/` and renders all figures and tables. Running 
 ### Claim: "18.1× phantom OI enrichment at T+33"
 
 ```bash
-# Open the waterfall notebook
-jupyter notebook notebooks/05_waterfall_cascade.ipynb
-# Navigate to Section 3.3: "T+33 Echo Characterization"
-# The enrichment ratio table shows the observed/expected ratio at each offset
-# Result file: results/ftd_echo_enrichment.json
+# Run the T+33 echo cascade analysis
+python code/analysis/ftd_research/04_t33_echo_cascade.py
+# Result file: code/analysis/results/t33_echo_cascade.json
+# Cross-reference with: results/ftd_echo_enrichment.json (if present)
 ```
 
 ### Claim: "GME Granger-causes Treasury fails (F = 9.25, p = 0.003)"
 
 ```bash
-# Open the boundary conditions notebook
-jupyter notebook notebooks/09_boundary_conditions.ipynb
-# Navigate to Section 3.4: "Granger Causality Panel"
-# The Granger test table shows F-statistics and p-values for all 7 tickers
-# Result file: results/granger_causality_panel.json
+# Result file: results/granger_causality_panel.json (if present)
+# Or run the Granger causality script referenced in Paper IX Appendix B
+# Cross-reference: results/contagion_GME.json
 ```
 
 ### Claim: "630-day macrocycle at 13.3× noise"
 
 ```bash
-# Open the resonance cavity notebook
-jupyter notebook notebooks/06_resonance_cavity.ipynb
-# Navigate to Section 4: "Spectral Analysis"
-# The Lomb-Scargle periodogram shows the dominant peak and its SNR
-# Result file: results/spectral_peaks.json
+# Result file: code/analysis/results/cavity_resonance.json
+# This contains the spectral power density peaks and Q-factor calculation
+cat code/analysis/results/cavity_resonance.json | python -m json.tool | head -50
 ```
 
 ### Claim: "Same DMA fingerprint deploys across 31 securities"
 
 ```bash
-# Open the compliance routing notebook
-jupyter notebook notebooks/08_compliance_routing.ipynb
-# Navigate to Section 2.4: "Cross-Ticker Deployment"
-# The deployment table shows the fingerprint presence across all 31 tickers
-# Result file: results/dma_fingerprint_deployment.json
+# Run the deep OTM puts analysis for cross-ticker fingerprint
+python code/analysis/ftd_research/14_deep_otm_puts.py
+# Result file: code/analysis/results/deep_otm_puts.json
 ```
 
 ### Claim: "ABM produces 630-day cycle at 44.5× without specification"
 
 ```bash
-# Open the ABM simulation notebook
-jupyter notebook notebooks/09b_abm_simulation.ipynb
-# Navigate to Section 8.2: "Emergent Macrocycle"
+# Run the ABM prototype script referenced in Paper IX Appendix B
 # The spectral analysis of ABM output shows the dominant period
-# Result file: results/abm_spectral_output.json
+# Result file: results/abm_spectral_output.json (if present)
 ```
 
 ### Claim: "42.2 billion CAT errors, $1 million fine"
@@ -118,7 +126,7 @@ This is a public regulatory record:
 - **Source:** [FINRA Disciplinary Actions](https://www.finra.org/rules-guidance/oversight-enforcement/finra-disciplinary-actions), AWC No. 2020067253501
 - **Date:** October 2024
 - **Entity:** Citadel Securities LLC
-- No notebook needed — verify against the public FINRA record directly
+- Verify against the public FINRA record directly
 
 ---
 
@@ -128,7 +136,7 @@ All source data is publicly available:
 
 | Data | Source | URL | Cost |
 |------|--------|-----|:----:|
-| SEC FTD data | SEC EDGAR | [sec.gov/data/foiadocsfailsdatahtm](https://www.sec.gov/data/foiadocsfailsdatahtm) | Free |
+| SEC FTD data | SEC EDGAR | [sec.gov/data-research/sec-markets-data/fails-deliver-data](https://www.sec.gov/data-research/sec-markets-data/fails-deliver-data) | Free |
 | Treasury settlement fails | NY Fed | [newyorkfed.org/data-and-statistics/data-visualization/primary-dealer-fails](https://www.newyorkfed.org/data-and-statistics/data-visualization/primary-dealer-fails) | Free |
 | Options/equity trades | ThetaData | [thetadata.net](https://www.thetadata.net) | Subscription |
 | FINRA TRF/ADF data | FINRA | [finra.org/finra-data/browse-catalog](https://www.finra.org/finra-data/browse-catalog) | Free |
@@ -158,4 +166,4 @@ All corrections will be acknowledged and incorporated.
 
 ---
 
-*This verification guide was last updated February 2026.*
+*This verification guide was last updated March 2026.*

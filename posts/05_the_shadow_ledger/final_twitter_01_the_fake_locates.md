@@ -2,7 +2,8 @@
 
 # Part 1 of 7 // Series: [Options & Consequences](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1/)
 
-**TL;DR:** *Options & Consequences* mapped the domestic infrastructure: the tape fractures, the balance sheets, the microwave algorithms, and the yen carry trade. But it left one question unanswered, where did Wall Street find 263 million shares to deliver when 140% of the float was already short? The trail leads offshore. FTX offered "Tokenized Stocks", synthetic GME shares supposedly backed 1:1 by real shares held at a German broker called CM-Equity AG. German sovereign audit data shows CM-Equity had only €32.7 million in total assets. Meanwhile, in the FTX bankruptcy, Binance demanded $65 million in collateral from CM-Equity under the Tokenized Stocks Agreement, a sum nearly double CM-Equity's entire balance sheet. And the FTX Trustee's sworn Schedule of Assets shows zero GameStop shares. The evidence strongly suggests the tokens were not backed by real shares. They appear to have functioned as phantom locates, and when FTX collapsed, GME delivery failures surged onto the lit tape.
+**TL;DR:** *Options & Consequences* mapped the domestic infrastructure: the tape fractures, the balance sheets, the microwave algorithms, and the yen carry trade. But it left one question unanswered, where did Wall Street find 263 million shares to deliver when 140% of the float was already short? The trail leads offshore. FTX offered "Tokenized Stocks", synthetic GME shares supposedly backed 1:1 by real shares held at a German broker called CM-Equity AG. German sovereign audit data shows CM-Equity had only €32.7 million in total assets. Meanwhile, in the FTX bankruptcy, Binance
+demanded $65 million in collateral from CM-Equity under the Tokenized Stocks Agreement, a sum nearly double CM-Equity's entire balance sheet. And the FTX Trustee's sworn Schedule of Assets shows zero GameStop shares. The evidence strongly suggests the tokens were not backed by real shares. They appear to have functioned as phantom locates, and when FTX collapsed, GME delivery failures surged onto the lit tape.
 
 > **📄 Full academic papers:** [The Long Gamma Default (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices.pdf?raw=1), [The Shadow Algorithm (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Shadow%20Algorithm-%20Adversarial%20Microstructure%20Forensics%20in%20Options-Driven%20Equity%20Markets.pdf?raw=1), [Exploitable Infrastructure (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Exploitable%20Infrastructure-%20Regulatory%20Implications%20of%20the%20Long%20Gamma%20Default%20and%20Adversarial%20Microstructure%20Forensics.pdf?raw=1), [Cross-Domain Corroboration (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Cross-Domain%20Corroboration-%20Physical%20Infrastructure%2C%20Settlement%20Mechanics%2C%20and%20Macro%20Funding%20of%20Options-Driven%20Equity%20Displacement.pdf?raw=1)
 
@@ -45,12 +46,7 @@ The German government requires every company to publish audited financial statem
 
 CM-Equity AG's audited financial statements are publicly available on the [Bundesanzeiger](https://www.bundesanzeiger.de/).
 
-| Fiscal Year | Total Assets | Currency |
-| --- | --- | --- |
-| FY2019 | €16.8M | EUR |
-| FY2020 | €22.4M | EUR |
-| **FY2021** | **€32.7M** | EUR (~$36M) |
-| FY2022 | €18.1M | EUR |
+![CM-Equity AG's audited financial statements are publicly available on the [Bundesanzeiger](https://www.bundesanzeiger.de/).](figures/table_01_01_the_fake_locates.png)
 
 *Source: Bundesanzeiger (bundesanzeiger.de), CM-Equity AG annual audited financial reports, FY2019–FY2022. These are sovereign government records maintained under the German Commercial Code (HGB §325).*
 
@@ -87,19 +83,12 @@ In the FTX bankruptcy proceedings (*In re: FTX Trading Ltd.*, Case No. 22-11068-
 
 Now do the math:
 
-| Data Point | Source | Amount |
-| --- | --- | --- |
-| CM-Equity **total assets** (peak, 2021) | German Bundesanzeiger | **€32.7M** (~$36M) |
-| CM-Equity **claim against FTX Europe** | Kroll Docket 11626-6 | **$65,000,000** |
-| Binance **arbitration against CM-Equity** | Kroll Docket 11626-6 | **$65,000,000** |
-| CM-Equity **Swiss claim against FTX Europe** | Kroll Docket 11626-6 | **€68,544,156** |
-| Settlement (CM-Equity accepted) | Kroll Docket 14301 | **$51,000,000** |
+![Now do the math:](figures/table_02_01_the_fake_locates.png)
 
 **The scale raises serious questions.** A broker-dealer reporting €32.7M in *total assets* was entangled in $65M+ in collateral flows under the Tokenized Stocks Agreement. The $65M figure represents collateral that Binance transferred to CM-Equity and demanded back, making it a *liability*, not an asset on CM-Equity's books.
 
-> **The strongest counterargument:** Under the German Commercial Code (HGB §246), fiduciary assets (*Treuhandvermögen*) held on behalf of clients are legally required to be kept *off* the proprietary balance sheet. A €32.7M footprint might therefore reflect only CM-Equity's operating assets, exactly as a legitimate custodian holding billions in client assets *should* look. This is a serious objection and deserves a serious answer.
->
-> The answer is in the claim itself. CM-Equity filed a **$65 million proprietary claim** against FTX Europe (Kroll Docket 11626-6, ¶10) and accepted a **$51 million settlement to its own corporate balance sheet** (Docket 14301). If the tokenized stock backing were fiduciary assets, the loss would belong to the beneficial owners, not to CM-Equity as a corporate entity. CM-Equity's claim was filed as a *proprietary corporate loss*, not a fiduciary one. Additionally, material off-balance-sheet relationships must be disclosed in the Anhang (notes to financial statements) under HGB §285. Whether CM-Equity made such disclosures is not publicly verifiable from the Bundesanzeiger summary data.
+> **The strongest counterargument:** Under the German Commercial Code (HGB §246), fiduciary assets (*Treuhandvermögen*) held on behalf of clients are legally required to be kept *off* the proprietary balance sheet. A €32.7M footprint might therefore reflect only CM-Equity's operating assets, exactly as a legitimate custodian holding billions in client assets *should* look. This is a serious objection and deserves a serious answer. The answer is in the claim itself. CM-Equity filed a **$65 million proprietary claim** against FTX Europe (Kroll Docket 11626-6, ¶10) and accepted a **$51 million settlement to
+its own corporate balance sheet** (Docket 14301). If the tokenized stock backing were fiduciary assets, the loss would belong to the beneficial owners, not to CM-Equity as a corporate entity. CM-Equity's claim was filed as a *proprietary corporate loss*, not a fiduciary one. Additionally, material off-balance-sheet relationships must be disclosed in the Anhang (notes to financial statements) under HGB §285. Whether CM-Equity made such disclosures is not publicly verifiable from the Bundesanzeiger summary data.
 
 Regardless of the accounting treatment, the scale mismatch between CM-Equity's proprietary balance sheet and the proprietary nature of the claim supports the inference that this entity was acting as a pass-through, not as a substantive custodian of billions in tokenized stock backing.
 
@@ -126,13 +115,7 @@ If a regulated broker-dealer filed a $65 million bankruptcy claim for instrument
 
 A search of [BaFin's public enforcement database](https://www.bafin.de/EN/PublishingHouse/Reports/reports_node.html) for any sanctions, license revocations, or formal enforcement actions against CM-Equity AG between 2022 and 2025 yields the following:
 
-| Agency | Finding | Date |
-| --- | --- | --- |
-| **BaFin** | Identity misuse warning (fake cm-equity.io website) | Sep 15, 2022 |
-| **BaFin** | Investigation of Crypto.com partnership | Mar 2023 |
-| **BaFin** | Enforcement / Sanction | **NONE (2022–2025)** |
-| **BaFin** | License Revocation | **NONE (2022–2025)** |
-| **FINMA** | Warning List Entry | **NONE** |
+![A search of [BaFin's public enforcement database](https://www.bafin.de/EN/PublishingHouse/Reports/reports_node.html) for any sanctions, license revocations, or formal enforcement actions against CM-Equity AG between 2022 and 2025 yields the following:](figures/table_03_01_the_fake_locates.png)
 
 *Source: BaFin enforcement database ([bafin.de](https://www.bafin.de/EN/Homepage/homepage_node.html)), FINMA warning list ([finma.ch](https://www.finma.ch/en/finma-public/warnungen/warnliste/)), searched February 2026.*
 
@@ -148,13 +131,7 @@ FTX collapsed on November 11, 2022. If the Tokenized Stocks were being used as o
 
 SEC FTD data (CUSIP 36467W109) shows a two-phase pattern following FTX's collapse:
 
-| Period | GME FTD Daily Avg (shares) | Pattern |
-| --- | --- | --- |
-| Oct 2022 (pre-collapse) | ~38,650 | Baseline |
-| Nov 1-13 (collapse window) | ~19,662 | Suppressed (settlement freeze) |
-| Nov 14-30 (post-collapse) | ~34,968 | Recovery to baseline |
-| Dec 1-15 | ~22,925 | Moderate |
-| **Dec 16-31 (T+35 window)** | **~279,782** | **7.2× baseline** |
+![SEC FTD data (CUSIP 36467W109) shows a two-phase pattern following FTX's collapse:](figures/table_04_01_the_fake_locates.png)
 
 *Source: [SEC FTD data](https://www.sec.gov/data-research/sec-markets-data/fails-deliver-data), CUSIP 36467W109, files cnsfails202210b.txt through cnsfails202212b.txt.*
 
@@ -171,14 +148,7 @@ The pattern is not a simple immediate spike. FTDs initially *compressed* during 
 
 Here is what the publicly verifiable evidence shows:
 
-| Layer | Evidence | Status |
-| --- | --- | --- |
-| **The Claim** | FTX sold Tokenized GME "backed 1:1 by real shares at CM-Equity" | FTX marketing materials (archived) |
-| **The German Audit** | CM-Equity had only €32.7M in total assets at peak | **Sovereign government record** |
-| **The $65M Scale Problem** | Binance demanded $65M collateral from CM-Equity under the Tokenized Stocks Agreement -- nearly 2× its total assets. CM-Equity accepted $51M in settlement. | **Kroll Docket 11626-6, sworn** |
-| **The SOAL** | FTX Trustee reports zero GameStop shares under penalty of perjury | **28 U.S.C. § 1746** |
-| **The Regulatory Gap** | BaFin took zero enforcement action (2022–2025) | BaFin enforcement database |
-| **The FTD Footprint** | GME FTDs surged on T+35 timelines following FTX collapse (late Dec peaks of 597K/day vs. Oct baseline of 39K/day) | **[SEC public data](https://www.sec.gov/data-research/sec-markets-data/fails-deliver-data)** |
+![Here is what the publicly verifiable evidence shows:](figures/table_05_01_the_fake_locates.png)
 
 Two continents. Two sworn documents. One irreconcilable scale problem. And when FTX collapsed, the GME settlement chain fractured — delivery failures surged on T+35 timelines, consistent with the sudden loss of an offshore locate source.
 

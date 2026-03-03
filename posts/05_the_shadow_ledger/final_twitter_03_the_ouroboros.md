@@ -2,7 +2,8 @@
 
 # Part 3 of 7
 
-**TL;DR:** Parts 1 and 2 presented evidence of phantom locates and traced where the risk appears to have been transferred. This post asks how the system was funded for three years without the SEC detecting it. The answer appears to be a closed-loop collateral machine I'm calling The Ouroboros. Cantor Fitzgerald, the broker-dealer that custodies Tether's $100B+ reserves, runs a $16.7 billion repo machine that converts Treasuries into fiat cash for the prime broker network. Its X-17A-5 shows $6.9 billion in reverse repo, $4.4 billion in Treasuries owned with $4.5 billion simultaneously pledged as collateral, and zero mention of Tether anywhere. On August 13, 2024, the same day Tether minted $1 billion USDT, the GCF repo channel spiked to $199.6B (+11.6% vs. average) while all other repo channels declined. And Jump Trading, a Go West consortium partner, liquidated $377 million in Ethereum the same week the yen carry trade unwound. The fiat-to-crypto pipeline and the yen-funded short machine appear to share the same plumbing.
+**TL;DR:** Parts 1 and 2 presented evidence of phantom locates and traced where the risk appears to have been transferred. This post asks how the system was funded for three years without the SEC detecting it. The answer appears to be a closed-loop collateral machine I'm calling The Ouroboros. Cantor Fitzgerald, the broker-dealer that custodies Tether's $100B+ reserves, runs a $16.7 billion repo machine that converts Treasuries into fiat cash for the prime broker network. Its X-17A-5 shows $6.9 billion in reverse repo, $4.4 billion in Treasuries owned with $4.5
+billion simultaneously pledged as collateral, and zero mention of Tether anywhere. On August 13, 2024, the same day Tether minted $1 billion USDT, the GCF repo channel spiked to $199.6B (+11.6% vs. average) while all other repo channels declined. And Jump Trading, a Go West consortium partner, liquidated $377 million in Ethereum the same week the yen carry trade unwound. The fiat-to-crypto pipeline and the yen-funded short machine appear to share the same plumbing.
 
 > **📄 Full academic papers:** [The Long Gamma Default (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices.pdf?raw=1), [The Shadow Algorithm (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Shadow%20Algorithm-%20Adversarial%20Microstructure%20Forensics%20in%20Options-Driven%20Equity%20Markets.pdf?raw=1), [Exploitable Infrastructure (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Exploitable%20Infrastructure-%20Regulatory%20Implications%20of%20the%20Long%20Gamma%20Default%20and%20Adversarial%20Microstructure%20Forensics.pdf?raw=1), [Cross-Domain Corroboration (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Cross-Domain%20Corroboration-%20Physical%20Infrastructure%2C%20Settlement%20Mechanics%2C%20and%20Macro%20Funding%20of%20Options-Driven%20Equity%20Displacement.pdf?raw=1)
 
@@ -30,20 +31,7 @@ The entity custodying $100B+ in Tether reserves claims to hold less than $100M i
 
 Every broker-dealer must file an annual [X-17A-5 (FOCUS Report)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001024896&type=X-17A-5&dateb=&owner=include&count=40) with the SEC. Cantor Fitzgerald & Co.'s most recent filing, the Statement of Financial Condition for December 31, 2024, audited by Deloitte & Touche LLP, reveals the following:
 
-| Line Item | Amount ($000s) |
-| --- | --- |
-| **Total Assets** | **$14,443,714** |
-| **Total Liabilities** | **$13,729,298** |
-| Partners' Capital | $509,416 |
-| **Reverse Repo (purchased under agreements to resell)** | **$6,941,862** |
-| **Repo (sold under agreements to repurchase)** | **$9,765,690** |
-| **U.S. Government Securities Owned** | **$4,432,604** |
-| **U.S. Government Securities Pledged** | **$4,464,957** |
-| Securities Borrowed | $2,197,164 |
-| Securities Loaned | $2,081,464 |
-| Cash & Cash Equivalents | $186,925 |
-| Customer Reserve (Rule 15c3-3) | $11,942 |
-| Net Capital (Rule 15c3-1) | $403,047 |
+![Every broker-dealer must file an annual [X-17A-5 (FOCUS Report)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001024896&type=X-17A-5&dateb=&owner=include&count=40) with the SEC. Cantor Fitzgerald & Co.'s most recent filing, the Statement of Financial Condition for December 31, 2024, audited by Deloitte & Touche LLP, reveals the following:](figures/table_01_03_the_ouroboros.png)
 
 *Source: SEC EDGAR, Cantor Fitzgerald & Co. X-17A-5, report date December 31, 2024, filed March 3, 2025, audited by Deloitte & Touche LLP.*
 
@@ -96,15 +84,7 @@ If Cantor's repo machine is the pipeline for Tether's liquidity, we should see i
 
 On **August 13, 2024**, Tether minted **$1 billion USDT** on Ethereum. OFR (Office of Financial Research) repo market data for the full month of August 2024, broken down by channel:
 
-| Date | GCF Repo Volume | DVP Volume | Tri-Party Volume |
-| --- | --- | --- | --- |
-| Aug 1 | $187.1B | $2,067.7B | $2,348.2B |
-| Aug 5 (yen crash) | $164.5B | $2,008.9B | $2,196.8B |
-| Aug 7 (trough) | $163.8B | $1,983.8B | $2,216.9B |
-| Aug 12 | $165.0B | $1,957.8B | $2,183.3B |
-| **Aug 13 (Tether mint)** | **$199.6B** | **$1,958.3B** | **$2,253.6B** |
-| Aug 14 | $179.1B | $2,008.4B | $2,242.1B |
-| **August avg** | **$178.8B** | **$2,047.4B** | **$2,215.8B** |
+![On **August 13, 2024**, Tether minted **$1 billion USDT** on Ethereum. OFR (Office of Financial Research) repo market data for the full month of August 2024, broken down by channel:](figures/table_02_03_the_ouroboros.png)
 
 *Source: OFR Short-Term Funding Monitor API ([data.financialresearch.gov](https://data.financialresearch.gov)), GCF, DVP, and Tri-Party repo series, August 2024.*
 
@@ -129,12 +109,7 @@ The Ouroboros doesn't just connect crypto to TradFi through the repo market. It 
 
 **Jump Trading**, one of the three Go West microwave consortium partners (*Options & Consequences, Part 4*), dumped **$377 million in Ethereum** during the same week as the yen carry trade unwind.
 
-| Date | Jump Trading Action | Source |
-| --- | --- | --- |
-| Jul 24, 2024 | Begins unstaking massive wstETH positions from Lido | Arkham Intelligence |
-| Aug 5, 2024 | Dumps ~$300M ETH onto Coinbase, Binance, Gate.io | On-chain data |
-| Aug 7, 2024 | Sells 11,501 ETH ($29M); redeems $48M from Lido | CoinSpeaker |
-| Aug 14, 2024 | Unstakes 17,049 ETH ($46.4M) — moves to selling address "0xf58" | SpotonChain |
+![**Jump Trading**, one of the three Go West microwave consortium partners (*Options & Consequences, Part 4*), dumped **$377 million in Ethereum** during the same week as the yen carry trade unwind.](figures/table_03_03_the_ouroboros.png)
 
 *Sources: Arkham Intelligence on-chain tracking, August 2024. [CoinSpeaker (Aug 14, 2024)](https://www.coinspeaker.com/), [CryptoNews AU (Aug 5, 2024)](https://cryptonews.com.au/).*
 
@@ -143,7 +118,8 @@ The Ouroboros doesn't just connect crypto to TradFi through the repo market. It 
 
 On the same week that [CFTC](https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm) data shows leveraged funds unwinding 108,220 yen short contracts ($10.8B), Jump was liquidating $377M in ETH. Both positions were being closed simultaneously, yen shorts AND crypto holdings. The BoJ rate hike forced liquidation across ALL asset classes because the carry trade proceeds were partially deployed into crypto.
 
-> **The macro de-risking defense:** August 5, 2024 was a historic global volatility shock ([VIX](https://www.cboe.com/tradable_products/vix/) hit 65). HFTs de-risk across all asset classes during macro shocks, liquidating crypto is standard VaR-limit management, not evidence of a specific mechanism. This is a fair objection. What makes Jump's case forensically interesting is not the liquidation itself (which was rational), but the *convergence* of three independent connections: the same firm co-funded the microwave infrastructure to Chicago (equities), is registered on the [JFSA High-Speed Trader registry](https://www.fsa.go.jp/en/) (yen carry), **and** liquidated crypto positions during the unwind. The coincidence of all three in one entity is what elevates this from "standard de-risking" to "worth investigating."
+> **The macro de-risking defense:** August 5, 2024 was a historic global volatility shock ([VIX](https://www.cboe.com/tradable_products/vix/) hit 65). HFTs de-risk across all asset classes during macro shocks, liquidating crypto is standard VaR-limit management, not evidence of a specific mechanism. This is a fair objection. What makes Jump's case forensically interesting is not the liquidation itself (which was rational), but the *convergence* of three independent connections: the same firm co-funded the microwave infrastructure to Chicago (equities), is registered on the [JFSA High-Speed Trader registry](https://www.fsa.go.jp/en/) (yen carry), **and** liquidated crypto positions during the
+unwind. The coincidence of all three in one entity is what elevates this from "standard de-risking" to "worth investigating."
 
 And Jump isn't just a crypto firm. They co-funded the microwave infrastructure to Chicago. They're registered on the JFSA High-Speed Trader registry. They paid a [$123 million settlement to the SEC](https://www.sec.gov/) (via subsidiary Tai Mo Shan) for manipulating the TerraUSD stablecoin, where they earned $1.28 billion in profit. This is the same firm whose correlated trading produced the 17-sigma signal in *Options & Consequences, Part 3*.
 
@@ -153,12 +129,7 @@ The same entity connects to the microwave network (equities), the yen carry trad
 
 ## The Funding, Summarized
 
-| Layer | Evidence | Source |
-| --- | --- | --- |
-| **The Plumber** | Cantor: $16.7B repo machine, zero Tether mention, 13F-NT | SEC X-17A-5 (Deloitte audited) |
-| **The Channel** | GCF repo spiked +11.6% on Aug 13 Tether mint day | OFR Short-Term Funding Monitor |
-| **The Crypto Bridge** | Jump dumped $377M ETH during yen carry unwind | Arkham on-chain + CFTC CoT |
-| **The Invisibility** | 13F-NT, zero "Tether" in X-17A-5, no customer reserve | SEC EDGAR |
+![## The Funding, Summarized](figures/table_04_03_the_ouroboros.png)
 
 Cantor Fitzgerald converts Tether's fiat into Treasuries, pledges those Treasuries into the GCF repo market, and generates clean fiat liquidity for the prime broker network. The repo cash funds the margin that sustains the equity derivative positions mapped in Part 2. When the yen carry trade blew up, the crypto assets liquidated simultaneously because the same funding pool backed both positions.
 

@@ -2,7 +2,8 @@
 
 # Part 4 of 7
 
-**TL;DR:** Parts 1-3 mapped the architecture (phantom locates), the derivative paper trail (ISDA offshore network), and the funding (the Ouroboros). This post maps the endgame. In March 2025, GameStop updated its investment policy to add Bitcoin as a treasury reserve asset, subsequently purchasing 4,710 BTC (~$504 million). The market treated it as speculation. The 13F data tells a different story. Within one quarter, Goldman Sachs, Citadel, and Susquehanna all massively increased their positions in MSTR, COIN, IBIT, MARA, and RIOT. Goldman alone now holds $9-10 billion in crypto-adjacent 13F positions, including $2.2 billion in IBIT shares hedged with $1.7 billion in IBIT puts. The same firms that are short GME are now forced to buy the exact assets GME now holds on its balance sheet. Ryan Cohen didn't buy Bitcoin because crypto is cool. He bought Bitcoin because it's their collateral.
+**TL;DR:** Parts 1-3 mapped the architecture (phantom locates), the derivative paper trail (ISDA offshore network), and the funding (the Ouroboros). This post maps the endgame. In March 2025, GameStop updated its investment policy to add Bitcoin as a treasury reserve asset, subsequently purchasing 4,710 BTC (~$504 million). The market treated it as speculation. The 13F data tells a different story. Within one quarter, Goldman Sachs, Citadel, and Susquehanna all massively increased their positions in MSTR, COIN, IBIT, MARA, and RIOT. Goldman alone now holds $9-10 billion in crypto-adjacent 13F positions,
+including $2.2 billion in IBIT shares hedged with $1.7 billion in IBIT puts. The same firms that are short GME are now forced to buy the exact assets GME now holds on its balance sheet. Ryan Cohen didn't buy Bitcoin because crypto is cool. He bought Bitcoin because it's their collateral.
 
 > **📄 Full academic papers:** [The Long Gamma Default (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices.pdf?raw=1), [The Shadow Algorithm (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Shadow%20Algorithm-%20Adversarial%20Microstructure%20Forensics%20in%20Options-Driven%20Equity%20Markets.pdf?raw=1), [Exploitable Infrastructure (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Exploitable%20Infrastructure-%20Regulatory%20Implications%20of%20the%20Long%20Gamma%20Default%20and%20Adversarial%20Microstructure%20Forensics.pdf?raw=1), [Cross-Domain Corroboration (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Cross-Domain%20Corroboration-%20Physical%20Infrastructure%2C%20Settlement%20Mechanics%2C%20and%20Macro%20Funding%20of%20Options-Driven%20Equity%20Displacement.pdf?raw=1)
 
@@ -37,24 +38,7 @@ Within one quarter of [GameStop's Bitcoin announcement](https://news.gamestop.co
 
 ### Q4 2025 Filing (Filed Feb 10, 2026): 70 Crypto-Related Positions
 
-| Security | Position Type | Value ($M) | Shares/Contracts |
-| --- | --- | --- | --- |
-| **iShares Bitcoin Trust (IBIT)** | Shares | **$2,207.6M** | 33,963,324 |
-| **iShares Bitcoin Trust (IBIT)** | Puts | **$1,684.4M** | 25,914,400 |
-| **iShares Bitcoin Trust (IBIT)** | Calls | $459.7M | 7,072,200 |
-| **iShares Ethereum Trust (ETHE)** | Shares | **$1,331.9M** | 42,270,570 |
-| **iShares Ethereum Trust (ETHE)** | Puts | $471.1M | 14,950,000 |
-| **iShares Ethereum Trust (ETHE)** | Calls | $216.8M | 6,879,600 |
-| **Strategy Inc. (MSTR)** | Puts | $660.2M | 2,048,900 |
-| **Strategy Inc. (MSTR)** | Shares | $523.9M | 1,626,058 |
-| **Strategy Inc. (MSTR)** | Calls | $373.2M | 1,158,200 |
-| **Fidelity Ethereum Fund (FETH)** | Shares | $563.4M | 13,558,821 |
-| **Coinbase Global (COIN)** | Shares + Options | ~$900M+ | — |
-| **MARA Holdings** | Shares + Options | ~$230M+ | — |
-| **RIOT Platforms** | Shares + Options | ~$150M+ | — |
-| **Fidelity Wise Origin BTC (FBTC)** | Shares | $94.0M | 942,096 |
-| **Bitcoin Depot Inc** | Shares | $57.3M | 44,427 |
-| **American Bitcoin Corp** | Shares | $52.7M | 30,972 |
+![### Q4 2025 Filing (Filed Feb 10, 2026): 70 Crypto-Related Positions](figures/table_01_04_the_reflexive_trap.png)
 
 **Total estimated crypto-adjacent 13F exposure: ~$9-10 BILLION.**
 
@@ -89,9 +73,11 @@ Now GameStop adds Bitcoin to its balance sheet. This creates a reflexive loop:
 - If **BTC rises**: GME's NAV rises → harder to short GME → Goldman's equity short book suffers → Goldman needs MORE IBIT/MSTR to hedge → more demand for IBIT → BTC rises further
 - If **BTC falls**: Goldman's $2.2B IBIT position falls → margin calls → Goldman sells IBIT → BTC falls further → Tether reserves decline → Ouroboros weakens → less fiat liquidity for the short machine
 
-> **The Authorized Participant defense:** Goldman, Citadel, and Jane Street are [Authorized Participants](https://www.sec.gov/investor/alerts/etfs.pdf) (APs) for Bitcoin ETFs like IBIT. APs are contractually required to hold inventory of the underlying to facilitate create/redeem functions, and they delta-hedge this inventory with options. A defender would argue these positions are delta-neutral market-making, not a proprietary directional proxy hedge. This is a fair point, and it doesn't matter. *Because* they hold these assets for AP duties, their balance sheets are structurally exposed to BTC volatility regardless of intent. The reflexive trap operates through structural exposure, not directional betting.
+> **The Authorized Participant defense:** Goldman, Citadel, and Jane Street are [Authorized Participants](https://www.sec.gov/investor/alerts/etfs.pdf) (APs) for Bitcoin ETFs like IBIT. APs are contractually required to hold inventory of the underlying to facilitate create/redeem functions, and they delta-hedge this inventory with options. A defender would argue these positions are delta-neutral market-making, not a proprietary directional proxy hedge. This is a fair point, and it doesn't matter. *Because* they hold these assets for AP duties, their balance sheets are structurally exposed to BTC volatility regardless of intent. The reflexive trap operates through structural
+exposure, not directional betting.
 
-> **The scale objection:** GME holds ~$500M in BTC. The crypto market is $2.5 trillion. GME's NAV moving a few hundred million dollars exerts negligible reflexive gravity on a multi-trillion dollar prime broker margin model. But the trap doesn't operate through GME moving the *crypto market*. It operates through GME's *NAV floor*, the BTC on its balance sheet creates a book value that makes the stock harder to short through fundamental valuation arguments. The scale that matters is GME's balance sheet relative to its short interest, not GME's BTC relative to the crypto market.
+> **The scale objection:** GME holds ~$500M in BTC. The crypto market is $2.5 trillion. GME's NAV moving a few hundred million dollars exerts negligible reflexive gravity on a multi-trillion dollar prime broker margin model. But the trap doesn't operate through GME moving the *crypto market*. It operates through GME's *NAV floor*, the BTC on its balance sheet creates a book value that makes the stock harder to short through fundamental valuation arguments. The scale that matters is GME's balance sheet relative to its short interest, not GME's BTC relative
+to the crypto market.
 
 There is no comfortable direction. Cohen anchored GME to the same asset that backs the collateral chain. Every hedge Goldman puts on makes the reflexive loop stronger.
 
@@ -106,17 +92,12 @@ There is no comfortable direction. Cohen anchored GME to the same asset that bac
 
 Goldman isn't alone. Pulling the 13F data across the ISDA counterparty network from *Options & Consequences*:
 
-| Firm | IBIT/FBTC | MSTR/Strategy | COIN | Notable |
-| --- | --- | --- | --- | --- |
-| **Goldman Sachs** | $2.2B shares + $1.7B puts | $1.6B (mixed) | $900M+ | IBIT Authorized Participant |
-| **Citadel Advisors** | Yes (Q2 2024+) | 5.7M puts (Q2 2024) | Yes | 47% put increase during squeeze |
-| **Susquehanna (SIG)** | Yes | Yes | Yes | Largest MSTR options holder |
-| **Jane Street Capital** | Yes | Yes | Yes | IBIT Authorized Participant |
-| **BofA/Merrill** | Yes | Limited | Limited | 96% clearing for Citadel Securities |
+![Goldman isn't alone. Pulling the 13F data across the ISDA counterparty network from *Options & Consequences*:](figures/table_02_04_the_reflexive_trap.png)
 
 *Source: [SEC EDGAR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany) 13F-HR filings for each entity, Q2 2024 – Q4 2025. [Citadel Advisors CIK 0001423053](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001423053&type=13-F&dateb=&owner=include&count=40).*
 
-The proxy hedge is systemic. Every major ISDA counterparty, specifically those acting as Authorized Participants (APs) like Goldman and Jane Street, is building the same position: long crypto ETFs, hedged with puts, and holding short exposure on MSTR. As APs, they sit at the nexus of collateral creation for the ETF complex. When their underlying equity short books (e.g., GME) face VaR (Value at Risk, statistical measure of maximum expected loss) pressure, they require pristine collateral to meet margin. The crypto proxy hedge isn't just a speculative bet; it's a structural liquidity requirement. The collateral pressure ripples directly through the plumbing of the ETF creation/redemption mechanism. It's the institutional version of the basket trade documented in *Options & Consequences, Part 3*, except now the basket includes Bitcoin infrastructure companies.
+The proxy hedge is systemic. Every major ISDA counterparty, specifically those acting as Authorized Participants (APs) like Goldman and Jane Street, is building the same position: long crypto ETFs, hedged with puts, and holding short exposure on MSTR. As APs, they sit at the nexus of collateral creation for the ETF complex. When their underlying equity short books (e.g., GME) face VaR (Value at Risk, statistical measure of maximum expected loss) pressure, they require pristine collateral to meet margin. The crypto proxy hedge isn't just a speculative bet; it's a
+structural liquidity requirement. The collateral pressure ripples directly through the plumbing of the ETF creation/redemption mechanism. It's the institutional version of the basket trade documented in *Options & Consequences, Part 3*, except now the basket includes Bitcoin infrastructure companies.
 
 ![Institutional Crypto-Adjacent Positions: Cross-Firm 13F Matrix](figures/chart_proxy_hedge_matrix.png)
 *Figure: Every major ISDA counterparty is building the same crypto proxy hedge to manage AP collateral requirements.*
@@ -131,21 +112,11 @@ Across two series and eight posts, here is what the publicly verifiable data sho
 
 ### Options & Consequences (Series 1)
 
-| Part | Layer | Evidence |
-| --- | --- | --- |
-| **Part 1** | The Tape | 263M off-exchange shares; ETF cannibalization; Rule 605 odd-lot evasion |
-| **Part 2** | The Balance Sheets | $2.16T derivative book; 47% put increase; UK ISDA offshore map |
-| **Part 3** | The Physical Reality | 17-sigma algorithmic basket; 85-tower microwave network; weather test |
-| **Part 4** | The Macro Machine | Yen carry trade funding; NSCC VaR margin + clearinghouse conflict of interest on Jan 28 |
+![### Options & Consequences (Series 1)](figures/table_03_04_the_reflexive_trap.png)
 
 ### The Shadow Ledger (Series 2)
 
-| Part | Layer | Evidence |
-| --- | --- | --- |
-| **Part 1** | The Phantom Locates | FTX tokenized stocks; €32.7M vs $65M scale problem; SOAL: zero GME; T+35 FTD surge |
-| **Part 2** | The Derivative Trail | JPM $6T spike = interest rate swaps (equity declined); ISDA network; Diameter buys FTX claims; Cayman GAV +115% |
-| **Part 3** | The Funding | Cantor $16.7B repo machine; GCF spike on Tether mint; Jump dumps $377M ETH |
-| **Part 4** | The Checkmate | Goldman $9-10B crypto hedge; reflexive loop; Ryan Cohen buys the collateral |
+![### The Shadow Ledger (Series 2)](figures/table_04_04_the_reflexive_trap.png)
 
 The system has four layers: **locates** (supply of shortable shares), **derivatives** (risk transfer), **funding** (yen carry + Tether repo), and **collateral** (crypto proxy hedge). Ryan Cohen attacked the collateral layer. By putting Bitcoin on GME's balance sheet, he introduced a reflexive dependency between GME's fundamental value and the collateral backing the short machine. The same asset the shorts need to maintain their margin is now the asset that makes their target company more valuable.
 

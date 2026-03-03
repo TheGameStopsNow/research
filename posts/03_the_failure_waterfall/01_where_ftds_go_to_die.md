@@ -293,6 +293,18 @@ But this raises a deeper question: **what happens when these 45-day waterfalls s
 
 ---
 
+## March 2026 Addendum: The Ephemeral Channel
+
+Subsequent tick-level analysis of intraday options trading revealed that **85% of deep OTM GME options volume opens and closes on the same day**, leaving zero trace in End-of-Day Open Interest. This "Ephemeral Channel" is the kinetic engine that generates the waterfall's echoes — and its timing locks into the T+6 node documented in §6 above.
+
+**The T+14 Evasion Loop:** Correlating daily ephemeral volume with SEC FTD data at various T+N offsets produced a r=0.74 correlation at T+6 (the BFMM exemption deadline) and a r=-0.47 suppression at T+8 (OCC transit time). The sum: T+6 + T+8 = T+14 — precisely avoiding the 13-day Threshold List trigger documented in §6's T+13 node.
+
+On Feb 24, 2025, the ephemeral channel's capacity was exceeded for the only time in the dataset (FTDs = 164,743 shares > ephemeral share-equivalents = 129,300), and failures leaked onto the SEC tape — confirming the causal link between the intraday cycling engine and the EOD FTD output.
+
+Full analysis: [The Dark Tape](../09_the_dark_tape/01_the_engine.md)
+
+---
+
 ## Credits
 
 This research was built on hypotheses from the community, layered on top of months of independent data collection and analysis:

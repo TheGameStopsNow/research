@@ -2,7 +2,9 @@
 
 # Part 7 of 7
 
-**TL;DR:** Parts 1-6 mapped the system: phantom locates, the derivative trail, the Ouroboros, the Bitcoin checkmate, the BNY Mellon bridge, and the Dreyfus cash engine powering it all. This final post identifies the machine that operationalizes the domestic compliance loop. Using 2,038 days of tick-level OPRA data, I isolated a DMA routing fingerprint, 1-lot trades, inverted-fee venue concentration, monotonic sequencing, tied-to-stock condition codes, operating across 31 U.S. equities and ETFs. On liquid mega-caps (SPY, AAPL), the algo runs with zero FTD (Failure to Deliver, when the seller doesn't deliver shares within the settlement deadline) correlation. On borrow-constrained stocks (GME, AMC), the same hardware shows t = +3.86 FTD correlation at exactly the T-5 to T-7 [Reg SHO](https://www.ecfr.gov/current/title-17/section-242.204) close-out window. A natural experiment confirms it: on BBBY, the algo ran 3x its normal pace during bankruptcy, *inverted* its FTD relationship (deferring rather than resolving failures), and ceased on the exact date of options delisting. The delisting trigger was the options chain. The operator runs on only two exchanges, the only two with [inverted fee models](https://www.sec.gov/comments/s7-18-19/s71819.htm), where 4,307 daily trades generate rebate revenue instead of fees. Wolverine Trading, the confirmed DPM for GME options on [Cboe](https://www.cboe.com/), was previously fined by [FINRA](https://www.finra.org/) for using buy-write transactions to improperly address Reg SHO close-out obligations, the identical mechanical profile.
+**TL;DR:** Parts 1-6 mapped the system: phantom locates, the derivative trail, the Ouroboros, the Bitcoin checkmate, the BNY Mellon bridge, and the Dreyfus cash engine powering it all. This final post identifies the machine that operationalizes the domestic compliance loop. Using 2,038 days of tick-level OPRA data, I isolated a DMA routing fingerprint, 1-lot trades, inverted-fee venue concentration, monotonic sequencing, tied-to-stock condition codes, operating across 31 U.S. equities and ETFs. On liquid mega-caps (SPY, AAPL), the algo runs with zero FTD (Failure to Deliver, when the seller doesn't deliver shares
+within the settlement deadline) correlation. On borrow-constrained stocks (GME, AMC), the same hardware shows t = +3.86 FTD correlation at exactly the T-5 to T-7 [Reg SHO](https://www.ecfr.gov/current/title-17/section-242.204) close-out window. A natural experiment confirms it: on BBBY, the algo ran 3x its normal pace during bankruptcy, *inverted* its FTD relationship (deferring rather than resolving failures), and ceased on the exact date of options delisting. The delisting trigger was the options chain. The operator runs on only two exchanges, the only two with [inverted fee models](https://www.sec.gov/comments/s7-18-19/s71819.htm), where 4,307 daily trades generate rebate
+revenue instead of fees. Wolverine Trading, the confirmed DPM for GME options on [Cboe](https://www.cboe.com/), was previously fined by [FINRA](https://www.finra.org/) for using buy-write transactions to improperly address Reg SHO close-out obligations, the identical mechanical profile.
 
 > **📄 Full academic paper:** [Compliance-as-a-Service (Paper VIII)](https://github.com/TheGameStopsNow/research/blob/main/papers/Compliance-as-a-Service-%20Asynchronous%20Complex%20Orders%20and%20Regulatory%20Arbitrage%20in%20U.S.%20Equity%20Settlement.pdf?raw=1)
 
@@ -18,29 +20,13 @@ I found one. It operates on 31 of 54 securities scanned.
 
 ### The Fingerprint Definition
 
-| Parameter | Threshold |
-| --- | --- |
-| Exchange | [Nasdaq BX](https://www.nasdaq.com/solutions/nasdaq-bx-options) Options (ID: 43) or [MIAX Pearl](https://www.miaxglobal.com/markets/us-options/pearl-options) (ID: 69) |
-| Trade size | 1 contract |
-| Trade price | Less than $0.10 |
-| OPRA condition code | Codes 18 (AUTO), 125 (MASL), 130 (TESL), 131 (TASL) |
-| Minimum daily count | 15+ qualifying trades |
-| Monotonic sequencing | 90%+ sequential OPRA sequence numbers |
+![### The Fingerprint Definition](figures/table_01_07_the_fingerprint.png)
 
 The 90%+ monotonic rate means these trades arrive in strict sequential order without interleaving from other market participants. For comparison, organic options trading exhibits monotonic rates of 40-55%. This is consistent with a dedicated execution channel operating in isolation from organic order flow.
 
 ### Cross-Asset Universality
 
-| Security | Type | Algo Days | Total Trades | Mono % | Date Range |
-| --- | --- | --- | --- | --- | --- |
-| **SPY** | ETF | 190 | 436,919 | 91% | May 2025-Feb 2026 |
-| **QQQ** | ETF | 185 | 190,378 | 88% | May 2025-Feb 2026 |
-| **NVDA** | Equity | 251 | 122,035 | 88% | Feb 2025-Feb 2026 |
-| **TSLA** | Equity | 169 | 121,974 | 87% | Jun 2025-Feb 2026 |
-| **GME** | Equity | 995 | 107,767 | 88% | Jun 2019-Feb 2026 |
-| **IWM** | ETF | 185 | 77,919 | 88% | May 2025-Feb 2026 |
-| **AAPL** | Equity | 165 | 45,330 | 88% | Jun 2025-Feb 2026 |
-| **BBBY** | Equity | 416 | 39,862 | 87% | Jun 2019-May 2023 |
+![### Cross-Asset Universality](figures/table_02_07_the_fingerprint.png)
 
 *Source: ThetaData OPRA historical options trades, February 2019 - February 2026.*
 
@@ -58,20 +44,13 @@ I ran OLS regressions on each security:
 
 ### Placebo Securities (Liquid, No Borrow Constraints)
 
-| Security | n | Market R² | +FTD R² | FTD t-stat | p-value |
-| --- | --- | --- | --- | --- | --- |
-| SPY | 129 | 0.726 | 0.726 | +0.38 | 0.708 |
-| IWM | 132 | 0.662 | 0.662 | +0.11 | 0.909 |
-| NVDA | 120 | 0.446 | 0.453 | -1.18 | 0.241 |
+![### Placebo Securities (Liquid, No Borrow Constraints)](figures/table_03_07_the_fingerprint.png)
 
 Adding FTDs does *nothing* to the model. On liquid securities, the algo runs based on market activity. Zero FTD signal.
 
 ### Treatment Securities (Borrow-Constrained)
 
-| Security | Best Lag | n | Market R² | +FTD R² | FTD t-stat | p-value |
-| --- | --- | --- | --- | --- | --- | --- |
-| **GME** | T-7 | 1,681 | 0.548 | 0.560 | **+3.86** | **<0.001** |
-| **AMC** | T-7 | 66 | 0.877 | 0.895 | **+3.93** | **<0.001** |
+![### Treatment Securities (Borrow-Constrained)](figures/table_04_07_the_fingerprint.png)
 
 On borrow-constrained securities, lagged FTDs are highly significant (p < 0.001), positive (higher FTDs predict more algo trades), and peak at **T-6 to T-7 business days**, precisely within the Reg SHO Rule 204 close-out window.
 
@@ -79,7 +58,8 @@ On borrow-constrained securities, lagged FTDs are highly significant (p < 0.001)
 
 The identical execution hardware produces zero FTD correlation on liquid securities and highly significant FTD correlation on borrow-constrained securities. **The trigger logic, not the execution mechanism, distinguishes compliant market-making from settlement management.**
 
-> **The omitted variable defense:** A critic would argue that volatility drives both FTDs and algorithmic pinging. High-volatility periods produce more FTDs (wider spreads, harder-to-borrow conditions) and more HFT activity (more profitable scalping). Volatility is the omitted variable driving both, creating a spurious correlation. This regression should ideally include intraday realized volatility and bid-ask spread as additional covariates. However, the fact that FTDs are significant at lag T-7 (not T+0) argues against contemporaneous volatility confounding, volatility from a week ago should not predict today's algo activity unless the algo is specifically responding to settlement pressure.
+> **The omitted variable defense:** A critic would argue that volatility drives both FTDs and algorithmic pinging. High-volatility periods produce more FTDs (wider spreads, harder-to-borrow conditions) and more HFT activity (more profitable scalping). Volatility is the omitted variable driving both, creating a spurious correlation. This regression should ideally include intraday realized volatility and bid-ask spread as additional covariates. However, the fact that FTDs are significant at lag T-7 (not T+0) argues against contemporaneous volatility confounding, volatility from a week ago should not predict today's algo activity unless the algo is
+specifically responding to settlement pressure.
 
 > **The maker-taker arbitrage defense:** Pearl and BX are inverted (taker-maker) venues. HFTs run 1-lot algorithms on these venues continuously to harvest sub-penny rebates, this is standard micro-scalping cost-optimization. The response: if it were standard rebate arbitrage, it would trigger on SPY and AAPL based on market volume. It does. But on GME and AMC, lagged FTDs add significant explanatory power (t=3.86, p<0.001) that doesn't exist on liquid securities. The rebate mechanism is real; the discriminant trigger is the finding.
 
@@ -89,12 +69,7 @@ The identical execution hardware produces zero FTD correlation on liquid securit
 
 **MIAX Pearl** and **Nasdaq BX** are the only two U.S. options exchanges operating an **inverted fee model**, where the liquidity *taker* earns a rebate:
 
-| Exchange | Model | Taker Fee | Net Economics |
-| --- | --- | --- | --- |
-| CBOE | Maker-taker | -$0.50/contract | Taker **pays** |
-| NYSE Arca | Maker-taker | -$0.55/contract | Taker **pays** |
-| **MIAX Pearl** | **Inverted** | **+$0.15/contract** | Taker **earns** |
-| **Nasdaq BX** | **Inverted** | **+$0.20/contract** | Taker **earns** |
+![**MIAX Pearl** and **Nasdaq BX** are the only two U.S. options exchanges operating an **inverted fee model**, where the liquidity *taker* earns a rebate:](figures/table_05_07_the_fingerprint.png)
 
 *Source: [MIAX Pearl Options Fee Schedule](https://www.miaxglobal.com/) and [Nasdaq BX Options Fee Schedule](https://nasdaqtrader.com/), January 2026.*
 
@@ -106,13 +81,7 @@ On a standard exchange, 4,307 trades in one day would cost approximately **$2,15
 
 The original hypothesis was that the algo operated primarily through deep OTM puts. Seven years of data revealed something more interesting: the algo is **instrument-agnostic**.
 
-| Date | Context | DMA Trades | Calls | Puts | Primary Venue |
-| --- | --- | --- | --- | --- | --- |
-| 2019-04-02 | Algo inception | 731 | 36% | **64%** | Pearl |
-| 2020-07-01 | BX migration | 185 | **92%** | 8% | **BX (84%)** |
-| 2021-01-27 | Squeeze day 1 | 34,533 | 30% | **70%** | Mixed |
-| 2025-07-01 | Jul 2025 | 2,990 | **81%** | 19% | **BX (94%)** |
-| 2026-02-06 | T+13 peak | 1,662 | **86%** | 14% | BX (62%) |
+![The original hypothesis was that the algo operated primarily through deep OTM puts. Seven years of data revealed something more interesting: the algo is **instrument-agnostic**.](figures/table_06_07_the_fingerprint.png)
 
 *Source: ThetaData OPRA historical options trades, GME, April 2019 - February 2026.*
 
@@ -134,11 +103,7 @@ Not on the bankruptcy filing date. Not on the equity delisting date. On the day 
 
 On AMC, algo dates are followed by significantly *larger* FTD declines than control dates (p = 0.005), consistent with the algo resolving FTDs. On BBBY during bankruptcy, the relationship **inverted**:
 
-| Window | Threshold | Algo Drop Rate | Control Drop Rate | p-value |
-| --- | --- | --- | --- | --- |
-| T+3 | >75% | 45.2% | 67.8% | **<0.001** |
-| T+5 | >75% | 47.1% | 70.2% | **<0.001** |
-| T+5 | >90% | 42.3% | 62.8% | **<0.001** |
+![On AMC, algo dates are followed by significantly *larger* FTD declines than control dates (p = 0.005), consistent with the algo resolving FTDs. On BBBY during bankruptcy, the relationship **inverted**:](figures/table_07_07_the_fingerprint.png)
 
 On BBBY, algorithmic dates are associated with *smaller* FTD drops at all tested windows and thresholds (p < 0.001). The algo was **actively deferring** settlement failures, not resolving them. With no shares available for genuine borrow during bankruptcy, the only way to maintain Reg SHO compliance without triggering Rule 204(b) lockout was to continuously manufacture synthetic locates, each resetting the close-out timer while leaving the net FTD balance unchanged.
 
@@ -152,15 +117,7 @@ This exhibits the structural signature of what I call *Settlement Deferral*, the
 
 As an additional out-of-sample test, I examined **CHWY (Chewy Inc.)** around its IPO on June 14, 2019. Under Reg SHO 203(b)(3), a bona fide market maker receives a **35 calendar-day exemption** from close-out requirements for IPO allocations. June 14 + 35 = July 19, 2019.
 
-| Date | IPO + Days | DMA Trades | Notes |
-| --- | --- | --- | --- |
-| Jul 8 | +24 | 90 | Baseline |
-| Jul 11 | +27 | 182 | Ramp begins |
-| Jul 17 | +33 | 244 | Acceleration |
-| **Jul 18** | **+34** | **649** | **Peak (day before deadline)** |
-| Jul 19 | +35 | 377 | Deadline day |
-| Jul 22 | +38 | 144 | Post-deadline decay |
-| Jul 23 | +39 | 90 | Return to baseline |
+![As an additional out-of-sample test, I examined **CHWY (Chewy Inc.)** around its IPO on June 14, 2019. Under Reg SHO 203(b)(3), a bona fide market maker receives a **35 calendar-day exemption** from close-out requirements for IPO allocations. June 14 + 35 = July 19, 2019.](figures/table_08_07_the_fingerprint.png)
 
 *Source: ThetaData OPRA historical options trades, CHWY, Jun 14 - Jul 31, 2019.*
 
@@ -178,11 +135,7 @@ Who runs this? Public OPRA data is anonymized, but three facts narrow the field:
 
 Based on confirmed exchange memberships, DPM assignments, and the MIAX Pearl/Nasdaq BX venue constraint, the candidate set narrows to three firms:
 
-| Firm | Candidacy | Basis |
-| --- | --- | --- |
-| **Citadel Securities** | ~85% | 32% U.S. options volume; confirmed Pearl + BX memberships |
-| **Wolverine Trading** | ~75% | Confirmed GME DPM; identical prior SEC enforcement |
-| **Susquehanna (SIG)** | ~65% | Probable venue access; largest MSTR options holder |
+![Based on confirmed exchange memberships, DPM assignments, and the MIAX Pearl/Nasdaq BX venue constraint, the candidate set narrows to three firms:](figures/table_09_07_the_fingerprint.png)
 
 Definitive identification requires the [MIAX Pearl](https://www.miaxglobal.com/markets/us-options/pearl-options) Level 3 un-anonymized Liquidity Feed, which contains the executing firm MPID for every trade. It costs approximately $2,000.
 
@@ -192,15 +145,7 @@ Definitive identification requires the [MIAX Pearl](https://www.miaxglobal.com/m
 
 Across seven posts, here is the publicly verifiable architecture:
 
-| Post | Layer | Evidence |
-| --- | --- | --- |
-| **Part 1** | Synthetic Supply | FTX tokenized stocks; zero GME in SOAL; T+35 FTD surge |
-| **Part 2** | Risk Transfer | ISDA charges; Cayman GAV +115%; Diameter buys FTX claims |
-| **Part 3** | Funding | Cantor $16.7B repo; GCF spike on Tether mint; Jump $377M ETH |
-| **Part 4** | Collateral Reflexivity | Goldman $9-10B crypto hedge; Bitcoin checkmate |
-| **Part 5** | The Bridge | BNY Mellon vertical integration; ISDA CSA margin; litigation |
-| **Part 6** | The Cash Engine | Dreyfus $86.2B repos; FTD negative correlation; Vanguard control test |
-| **Part 7** | The Fingerprint | DMA algo on 31 tickers; FTD trigger discriminator; BBBY delisting trigger |
+![Across seven posts, here is the publicly verifiable architecture:](figures/table_10_07_the_fingerprint.png)
 
 Each data source operates under independent regulatory oversight. No single regulator (the SEC, BaFin, FDIC, FCA, OFR, CFTC, or the federal courts) maintains visibility across all seven layers simultaneously. This fragmentation is not incidental. It is the structural feature that enables the system to operate at scale without triggering automated surveillance.
 

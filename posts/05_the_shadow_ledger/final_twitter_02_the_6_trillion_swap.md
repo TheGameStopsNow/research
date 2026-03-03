@@ -2,7 +2,8 @@
 
 # Part 2 of 7
 
-**TL;DR:** Part 1 presented evidence that the phantom locates were not backed by real shares. This post asks: where did the risk go when the shorts could no longer rely on FTX? The trail leads through an offshore ISDA swap network, 8 Initial Margin Agreements filed by Citadel Securities (Europe) with UK Companies House in 7 consecutive days, mapping the prime brokers holding the other side. Citadel's Cayman fund vehicles more than doubled their Gross Asset Value from ~$90B to ~$180B between 2020 and 2025, the period when domestic positions were supposedly closing. And the firm that purchased FTX's bankruptcy claims, the claims containing the counterparty records showing who used the phantom locates, is Diameter Capital Partners, a distressed debt fund with deep Tier-1 bank relationships. The risk didn't disappear. The data suggests it was distributed offshore.
+**TL;DR:** Part 1 presented evidence that the phantom locates were not backed by real shares. This post asks: where did the risk go when the shorts could no longer rely on FTX? The trail leads through an offshore ISDA swap network, 8 Initial Margin Agreements filed by Citadel Securities (Europe) with UK Companies House in 7 consecutive days, mapping the prime brokers holding the other side. Citadel's Cayman fund vehicles more than doubled their Gross Asset Value from ~$90B to ~$180B between 2020 and 2025, the period when domestic positions
+were supposedly closing. And the firm that purchased FTX's bankruptcy claims, the claims containing the counterparty records showing who used the phantom locates, is Diameter Capital Partners, a distressed debt fund with deep Tier-1 bank relationships. The risk didn't disappear. The data suggests it was distributed offshore.
 
 > **📄 Full academic papers:** [The Long Gamma Default (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices.pdf?raw=1), [The Shadow Algorithm (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Shadow%20Algorithm-%20Adversarial%20Microstructure%20Forensics%20in%20Options-Driven%20Equity%20Markets.pdf?raw=1), [Exploitable Infrastructure (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Exploitable%20Infrastructure-%20Regulatory%20Implications%20of%20the%20Long%20Gamma%20Default%20and%20Adversarial%20Microstructure%20Forensics.pdf?raw=1), [Cross-Domain Corroboration (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Cross-Domain%20Corroboration-%20Physical%20Infrastructure%2C%20Settlement%20Mechanics%2C%20and%20Macro%20Funding%20of%20Options-Driven%20Equity%20Displacement.pdf?raw=1)
 
@@ -20,11 +21,7 @@ The FDIC requires every U.S. bank to file quarterly **Call Reports** (FFIEC 031/
 
 JPMorgan's 10-Q (Note 6, Derivative Instruments) breaks out notional by asset class:
 
-| Category | Q4 2020 | Q1 2021 | Change | % Change |
-| --- | --- | --- | --- | --- |
-| **Interest Rate** | ~$49,900B | ~$55,627B | **+$5,727B** | **+11.5%** |
-| **Equity** | **$1,885B** | **$1,475B** | **-$410B** | **-21.7%** |
-| **Total** | $47,175B | $53,187B | +$6,012B | +12.7% |
+![JPMorgan's 10-Q (Note 6, Derivative Instruments) breaks out notional by asset class:](figures/table_01_02_the_6_trillion_swap.png)
 
 *Source: JPMorgan Chase 2020 10-K and Q1 2021 10-Q, Note 6, Derivative Instruments.*
 
@@ -40,21 +37,12 @@ This honest correction strengthens, rather than weakens, the overall thesis, bec
 
 In *Options & Consequences, Part 2*, 8 Initial Margin Security Agreements filed by Citadel Securities (Europe) Limited with UK Companies House were identified, all filed in the 7 days before the September 2022 UMR Phase 6 deadline. Those 8 ISDA agreements suggest a minimum uncleared derivative book of **€8 billion**.
 
-> **An important preemption:** September 1, 2022, was the global regulatory deadline for the Basel Committee's Uncleared Margin Rules (UMR) Phase 6. Every financial institution globally with >€8 billion AANA was required to file ISDA Initial Margin CSAs by that date. The filings themselves are therefore mandatory compliance events, not evidence of unusual behavior. What makes them forensically valuable is not that they were filed, it's that they provide a legally mandated, publicly accessible map of the prime broker network that otherwise operates in the dark. UMR Phase 6 forced the shadow ledger into the light.
+> **An important preemption:** September 1, 2022, was the global regulatory deadline for the Basel Committee's Uncleared Margin Rules (UMR) Phase 6. Every financial institution globally with >€8 billion AANA was required to file ISDA Initial Margin CSAs by that date. The filings themselves are therefore mandatory compliance events, not evidence of unusual behavior. What makes them forensically valuable is not that they were filed, it's that they provide a legally mandated, publicly accessible map of the prime broker network that otherwise operates in the dark. UMR Phase 6 forced
+the shadow ledger into the light.
 
 The ISDA map does more than prove the scale. It maps the **proxy network**, the exact firms that hold the other side of the offshore swaps. Think of it as a wiring diagram: each row is a firm that Citadel Securities is contractually connected to through a derivative agreement, filed with the UK government as a matter of public record:
 
-| ISDA Counterparty | Filed Date | JGB Primary Dealer? | Role in Network |
-| --- | --- | --- | --- |
-| **JPMorgan** | Aug 22, 2022 | ✅ | Prime broker, ISDA counterparty |
-| **Morgan Stanley** | Aug 23, 2022 | ✅ | Prime broker |
-| **Citibank** | Aug 24, 2022 | ✅ | Clearing services |
-| **Barclays** | Aug 25, 2022 | ✅ | Prime broker |
-| **Goldman Sachs** | Aug 26, 2022 | ✅ | $9-10B crypto-adjacent ([13F-HR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000886982&type=13-F&dateb=&owner=include&count=40)) |
-| **HSBC** | Aug 27, 2022 | ❌ | Prime broker |
-| **BofA** | Aug 28, 2022 | ✅ | 96% clearing for Citadel |
-| **Merrill Lynch** | Aug 29, 2022 | ✅ | ETF Authorized Participant |
-
+![The ISDA map does more than prove the scale. It maps the **proxy network**, the exact firms that hold the other side of the offshore swaps. Think of it as a wiring diagram: each row is a firm that Citadel Securities is contractually connected to through a derivative agreement, filed with the UK government as a matter of public record:](figures/table_02_02_the_6_trillion_swap.png)
 
 
 *Source: [UK Companies House, Citadel Securities (Europe) Ltd., charges register](https://find-and-update.company-information.service.gov.uk/company/05462867/charges), Company No. 05462867.*
@@ -99,11 +87,7 @@ If the risk migrated offshore during Q1 2021, we should see it in the offshore f
 
 Pulling Citadel Advisors LLC's Form ADV annual updates for the Cayman Islands funds:
 
-| Fund | Jurisdiction | GAV (2020) | GAV (2025) | Growth |
-| --- | --- | --- | --- | --- |
-| Citadel Multi-Strategy Equities Master Fund Ltd. | Cayman Islands | ~$45B | ~$97B | +115% |
-| Citadel Kensington Global Strategies Fund Ltd. | Cayman Islands | ~$33B | ~$55B | +67% |
-| Citadel Global Equities Master Fund Ltd. | Cayman Islands | ~$12B | ~$28B | +133% |
+![Pulling Citadel Advisors LLC's Form ADV annual updates for the Cayman Islands funds:](figures/table_03_02_the_6_trillion_swap.png)
 
 *Source: SEC EDGAR, [Citadel Advisors LLC Form ADV Part 1A](https://advfm.sec.gov/IAPD/Content/Search/search_firm.aspx), Item 7.B (Private Fund Reporting), annual updates 2020–2025. CIK search "Citadel Advisors."*
 
@@ -118,12 +102,7 @@ The Cayman fund vehicles that hold the equity strategies, the same funds incorpo
 
 ## The Hiding Place, Summarized
 
-| Layer | Evidence | Source |
-| --- | --- | --- |
-| **The JPM Test** | JPM's $6T spike was interest rate swaps; equity derivatives *declined* $410B. GME-specific swap attribution requires SBSR data. | FDIC Call Reports + JPM 10-Q Note 6 |
-| **The ISDA Network** | 8 prime brokers, €8B+ uncleared swaps, all filed in 7 days | UK Companies House |
-| **The Claims Purchase** | Diameter Capital buys FTX claims; CM-Equity settled without discovery | Kroll Docket 14301 |
-| **The Offshore Surge** | Citadel Cayman funds: GAV +115% (2020–2025) | SEC Form ADV |
+![## The Hiding Place, Summarized](figures/table_04_02_the_6_trillion_swap.png)
 
 The original $6 trillion headline doesn't survive scrutiny, the spike was interest rate swaps, not equity derivatives. But the ISDA filing cluster and the Cayman GAV doubling are independent evidence that doesn't depend on JPMorgan's aggregate numbers. The offshore derivative infrastructure exists. What we cannot yet prove, without SBSR data, is the exact GME notional moving through it.
 

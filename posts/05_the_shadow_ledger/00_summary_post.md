@@ -32,7 +32,7 @@ Two problems with this story. First, CM-Equity's total assets at their absolute 
 
 Second, the FTX bankruptcy trustee, John J. Ray III, filed a Schedule of Assets under penalty of federal perjury. It reports **zero GameStop shares**. Not a few. Zero. FTX sold Tokenized GME. They claimed each token was backed by real stock. The sworn filing says there was no stock.
 
-When FTX collapsed on November 11, 2022, GME failures-to-deliver spiked **3.6x** within days. The phantom locates died, and the undelivered shares immediately surfaced on the lit tape. That's what happens when you pull the receipt out from under a pile of IOUs.
+When FTX collapsed on November 11, 2022, the GME settlement chain fractured. Delivery failures surged on T+35 timelines, with late December daily peaks hitting 597K shares against an October baseline of ~39K. The phantom locates died, and the undelivered shares surfaced on the lit tape. That's what happens when you pull the receipt out from under a pile of IOUs.
 
 ### My take
 
@@ -50,7 +50,7 @@ The popular theory was JPMorgan. Their derivatives spiked $6 trillion in Q1 2021
 
 The real trail is offshore. Citadel Securities (Europe) filed **8 Initial Margin Agreements** with UK Companies House in **7 consecutive days** right before the September 2022 regulatory deadline. The counterparties? JPMorgan, Goldman Sachs, Morgan Stanley, Citibank, Barclays, HSBC, Bank of America, and Merrill Lynch. These are the exact banks that fund the carry trade.
 
-Then there's the cleanup. When FTX went bankrupt, its counterparty ledger became an asset of the estate. Those records contain every name that used the phantom locates. A distressed debt fund called **Diameter Capital Partners**, staffed by former Citadel portfolio managers, bought FTX bankruptcy claims. The CM-Equity $65 million phantom locate claim was settled for $51 million, no litigation, no discovery. The evidence stayed sealed.
+Then there's the cleanup. When FTX went bankrupt, its counterparty ledger became an asset of the estate. Those records contain every name that used the phantom locates. A distressed debt fund called **Diameter Capital Partners** bought FTX bankruptcy claims. The CM-Equity $65 million phantom locate claim was settled for $51 million, no litigation, no discovery. The evidence stayed sealed.
 
 And Citadel's Cayman Islands fund vehicles? Their Gross Asset Value more than doubled, from ~$90 billion to ~$180 billion, during the period when domestic positions were supposedly closing.
 
@@ -84,11 +84,13 @@ Cantor is pure plumbing. They take zero directional risk. They clip fees convert
 
 ### The short version
 
-On February 3, 2025, GameStop added Bitcoin as a treasury reserve asset (~$513 million). Most people thought it was a crypto bet. The 13F data suggests something different.
+In March 2025, GameStop updated its investment policy to add Bitcoin as a treasury reserve asset. On May 28, 2025, the company announced it had purchased 4,710 BTC (~$504 million), funded by a $1.3 billion convertible notes offering. Most people thought it was a crypto bet. The 13F data suggests something different.
 
 Within one quarter, Goldman Sachs held **$9-10 billion** in crypto-adjacent positions: $2.2 billion in iShares Bitcoin Trust shares, $1.7 billion in IBIT puts, $1.3 billion in iShares Ethereum Trust, $660 million in MicroStrategy puts, $900+ million in Coinbase. Citadel, Susquehanna, and Jane Street all built similar positions. The same firms that appear in the ISDA map are the same firms loading up on the exact asset class GameStop now holds on its balance sheet.
 
 This creates a trap with no comfortable exit. If Bitcoin rises, GME's net asset value rises, making it harder to short. If Bitcoin falls, Goldman's $2.2 billion IBIT position falls, triggering margin calls, weakening the collateral that backs the Ouroboros.
+
+> **Update (Jan/Feb 2026):** GameStop transferred all BTC to Coinbase Prime in late January 2026. Cohen publicly stated that a new strategy is "way more compelling than Bitcoin." If GME ultimately sells its BTC, the reflexive loop described above would break. The 13F data showing institutional crypto-adjacent positioning remains valid regardless of GameStop's BTC holdings.
 
 ### My take
 
@@ -104,7 +106,7 @@ Parts 1 through 4 described separate layers: locates, derivatives, funding, coll
 
 Both Citadel and Jane Street manage their London derivative books through the same custodian: **BNY Mellon**. Jane Street's ISDA Credit Support Annex charge was filed in April 2022, right when the Fed started hiking rates. BNY Mellon isn't a passive vault. It simultaneously generates the cash (Dreyfus money market funds), manages the collateral, clears the trades (Pershing), custodies the positions ($57.8 trillion), and controls the DTCC settlement layer. One institution touches every link in the chain.
 
-Two federal lawsuits filed in 2025-2026 illuminate the bridge from different angles. *Sutherland v. SEC* names Citadel, Virtu, Jane Street, and Susquehanna as the "Four Horsemen" of retail order flow. *Snyder v. Jane Street* alleges that Jane Street executives maintained a covert information pipeline with a Terraform Labs insider, enabling an $85 million liquidation 10 minutes before the $40 billion Terra/LUNA collapse. Neither case has been adjudicated, but both map the same capital flow pathway between crypto entities and equity market-making desks.
+A federal lawsuit filed in early 2026 illuminates the bridge from the crypto side. *Snyder v. Jane Street* alleges that Jane Street executives maintained a covert information pipeline with a Terraform Labs insider, enabling an $85 million liquidation 10 minutes before the $40 billion Terra/LUNA collapse. The case has not been adjudicated, but it maps a capital flow pathway between crypto entities and equity market-making desks.
 
 ### My take
 
@@ -122,9 +124,9 @@ BNY Mellon's **Dreyfus Government Cash Management** fund is one of the largest m
 
 In **July 2021**, repo lending jumped **58% in a single month**, from $40.5 billion to $64 billion. It never came back down. By December 2021, it had tripled from its baseline to **$86.2 billion**. That same month, Citadel Securities reported $71.33 billion in pledged collateral. The timing sync is the strongest quantitative link in the chain.
 
-Here's the real kicker. Dreyfus repo cash is *negatively correlated* with GME settlement failures: **r = -0.42, p = 0.022**. More BNY Mellon cash flowing into the repo system, fewer FTDs reaching the public tape. At higher GME prices. Standard mechanics predict the opposite: higher prices and sustained short interest should produce *more* failures, not fewer. The inverse relationship is consistent with an institution-specific accommodation mechanism.
+Here's the real kicker. Dreyfus repo cash is *negatively correlated* with GME settlement failures: **r = -0.42, p = 0.022**. More BNY Mellon cash flowing into the repo system, fewer FTDs reaching the public tape. At higher GME prices. Standard mechanics predict the opposite: higher prices and sustained short interest should produce *more* failures, not fewer.
 
-I ran a control test. Vanguard Federal Money Market Fund, roughly the same size, same instruments, not operated by BNY Mellon. It showed **zero** correlation with GME FTDs (r = +0.096, p = 0.619). Dreyfus grew +179% over the period. Vanguard grew +40%. The control test narrows the signal to BNY Mellon's cash pool. Correlation is not causation, and alternative explanations exist, but the control test eliminates the most obvious one: macro liquidity.
+I ran a control test. **Vanguard Federal Money Market Fund**, roughly the same size, same instruments, not operated by BNY Mellon. It showed **zero** correlation with GME FTDs (r = +0.096, p = 0.619). Dreyfus grew +179% over the period. Vanguard grew +40%. The control test narrows the signal to BNY Mellon's cash pool, not macro liquidity.
 
 ### My take
 
@@ -144,11 +146,13 @@ On liquid mega-caps like SPY, the algo runs based purely on market activity. FTD
 
 Same hardware. Different trigger logic. On stocks where delivery is easy, it trades with the market. On stocks where delivery is hard, it trades with the settlement calendar.
 
-The nail in the coffin is BBBY. During Bed Bath & Beyond's bankruptcy, the algo ran at **3x its normal pace**. But here it *inverted*: instead of resolving FTDs (like it does on AMC), it actively *deferred* them. On BBBY, algo days are associated with significantly smaller FTD drops at every tested window (p < 0.001). And the algo ceased on the **exact date** the options chain was delisted. Not the bankruptcy filing. Not the equity delisting. The options chain. The delisting trigger was the options market.
+The nail in the coffin is BBBY. During Bed Bath & Beyond's bankruptcy, the algo ran at **3x its normal pace**. But here it *inverted*: instead of resolving FTDs (like it does on AMC), it actively *deferred* them. On BBBY, algo days are associated with significantly smaller FTD drops at every tested window (p < 0.001).
+
+And the algo ceased on the **exact date** the options chain was delisted. Not the bankruptcy filing. Not the equity delisting. The options chain. The delisting trigger was the options market.
 
 It runs on only two exchanges: MIAX Pearl and Nasdaq BX. The only two with inverted fee models, where the taker *earns* a rebate instead of paying a fee. 4,307 daily trades that would cost $2,150 on a normal exchange instead generate $650-860 in revenue.
 
-And the SEC already caught someone doing this before. In 2013, they prosecuted **Wolverine Trading** for conducting pre-arranged transactions designed solely to reset the Reg SHO settlement clock. Wolverine is the confirmed Designated Primary Market Maker for GME options on Cboe. The identical mechanical profile.
+The SEC already caught someone doing this before. In 2013, they prosecuted **Wolverine Trading** for conducting pre-arranged transactions designed solely to reset the Reg SHO settlement clock. Wolverine is the confirmed Designated Primary Market Maker for GME options on Cboe. The identical mechanical profile.
 
 ### My take
 
@@ -159,9 +163,13 @@ I don't know who operates this algo. The OPRA data is anonymized. But the venue 
 ## How I Tried to Prove Myself Wrong
 
 1. **"The $6 trillion JPMorgan spike is the smoking gun."** I tested it. It was interest rate swaps. Equity derivatives *declined* $410 billion. I killed my own headline.
+
 2. **"The Dreyfus correlation is just macro liquidity."** The Vanguard control test says otherwise: r = +0.096, p = 0.619 vs. Dreyfus r = -0.42, p = 0.022. Only BNY Mellon's cash pool.
+
 3. **"The DMA algo is just normal market-making."** On SPY: zero FTD correlation. On GME: t = +3.86 at the Reg SHO deadline. Same hardware, different trigger.
+
 4. **"BBBY is a glitch."** The algo ran 3x during bankruptcy, inverted its FTD relationship, and ceased on the exact date of options delisting. Glitches don't have delisting triggers.
+
 5. **"The Bitcoin move was just a crypto bet."** Goldman, Citadel, and SIG all massively expanded crypto-adjacent positions within one quarter. The 13F data shows institutional reflexive hedging, not a meme trade.
 
 ---
@@ -189,6 +197,7 @@ I'll be the first to tell you if any of these happen.
 | [7](07_the_fingerprint.md) | **The Fingerprint** | A DMA algo runs on 31 tickers; same hardware, different trigger logic on borrow-constrained stocks |
 
 ⬅️ **Previously:** [Boundary Conditions](../04_the_boundary_conditions/01_the_overflow.md) (Parts 1-3)
+➡️ **Next:** [The Custodian's Ledger](../06_the_custodians_ledger/01_the_satoshi_test.md) (Parts 1-3)
 
 ---
 

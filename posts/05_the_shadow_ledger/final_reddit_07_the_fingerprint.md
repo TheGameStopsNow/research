@@ -2,7 +2,7 @@
 
 # Part 7 of 7
 
-**TL;DR:** Parts 1-6 mapped the system: phantom locates, the derivative trail, the Ouroboros, the Bitcoin checkmate, the BNY Mellon bridge, and the Dreyfus cash engine powering it all. This final post identifies the machine that operationalizes the domestic compliance loop. Using 2,038 days of tick-level OPRA data, I isolated a DMA routing fingerprint, 1-lot trades, inverted-fee venue concentration, monotonic sequencing, tied-to-stock condition codes, operating across 31 U.S. equities and ETFs. On liquid mega-caps (SPY, AAPL), the algo runs with zero FTD (Failure to Deliver, when the seller doesn't deliver shares within the settlement deadline) correlation. On borrow-constrained stocks (GME, AMC), the same hardware shows t = +3.86 FTD correlation at exactly the T-5 to T-7 [Reg SHO](https://www.ecfr.gov/current/title-17/section-242.204) close-out window. A natural experiment confirms it: on BBBY, the algo ran 3x its normal pace during bankruptcy, *inverted* its FTD relationship (deferring rather than resolving failures), and ceased on the exact date of options delisting. The delisting trigger was the options chain. The operator runs on only two exchanges, the only two with [inverted fee models](https://www.sec.gov/comments/s7-18-19/s71819.htm), where 4,307 daily trades generate rebate revenue instead of fees. Wolverine Trading, the confirmed DPM for GME options on [Cboe](https://www.cboe.com/), was previously fined by [FINRA](https://www.finra.org/) for using buy-write transactions to improperly address Reg SHO close-out obligations, the identical mechanical profile.
+**TL;DR:** Parts 1-6 mapped the system: phantom locates, the derivative trail, the Ouroboros, the Bitcoin checkmate, the BNY Mellon bridge, and the Dreyfus cash engine powering it all. This final post identifies the machine that operationalizes the domestic compliance loop. Using 2,038 days of tick-level OPRA data, I isolated a DMA routing fingerprint, 1-lot trades, inverted-fee venue concentration, monotonic sequencing, tied-to-stock condition codes, operating across 31 U.S. equities and ETFs. On liquid mega-caps (📊, 🍎), the algo runs with zero FTD (Failure to Deliver, when the seller doesn't deliver shares within the settlement deadline) correlation. On borrow-constrained stocks (GME, 🎬), the same hardware shows t = +3.86 FTD correlation at exactly the T-5 to T-7 [Reg SHO](https://www.ecfr.gov/current/title-17/section-242.204) close-out window. A natural experiment confirms it: on 🛁, the algo ran 3x its normal pace during bankruptcy, *inverted* its FTD relationship (deferring rather than resolving failures), and ceased on the exact date of options delisting. The delisting trigger was the options chain. The operator runs on only two exchanges, the only two with [inverted fee models](https://www.sec.gov/comments/s7-18-19/s71819.htm), where 4,307 daily trades generate rebate revenue instead of fees. Wolverine Trading, the confirmed DPM for GME options on [Cboe](https://www.cboe.com/), was previously fined by [FINRA](https://www.finra.org/) for using buy-write transactions to improperly address Reg SHO close-out obligations, the identical mechanical profile.
 
 > **📄 Full academic paper:** [Compliance-as-a-Service (Paper VIII)](https://github.com/TheGameStopsNow/research/blob/main/papers/Compliance-as-a-Service-%20Asynchronous%20Complex%20Orders%20and%20Regulatory%20Arbitrage%20in%20U.S.%20Equity%20Settlement.pdf?raw=1)
 
@@ -33,22 +33,25 @@ The 90%+ monotonic rate means these trades arrive in strict sequential order wit
 
 | Security | Type | Algo Days | Total Trades | Mono % | Date Range |
 | --- | --- | --- | --- | --- | --- |
-| **SPY** | ETF | 190 | 436,919 | 91% | May 2025-Feb 2026 |
+| **📊** | ETF | 190 | 436,919 | 91% | May 2025-Feb 2026 |
 | **QQQ** | ETF | 185 | 190,378 | 88% | May 2025-Feb 2026 |
-| **NVDA** | Equity | 251 | 122,035 | 88% | Feb 2025-Feb 2026 |
-| **TSLA** | Equity | 169 | 121,974 | 87% | Jun 2025-Feb 2026 |
+| **🟩** | Equity | 251 | 122,035 | 88% | Feb 2025-Feb 2026 |
+| **🚗** | Equity | 169 | 121,974 | 87% | Jun 2025-Feb 2026 |
 | **GME** | Equity | 995 | 107,767 | 88% | Jun 2019-Feb 2026 |
-| **IWM** | ETF | 185 | 77,919 | 88% | May 2025-Feb 2026 |
-| **AAPL** | Equity | 165 | 45,330 | 88% | Jun 2025-Feb 2026 |
-| **BBBY** | Equity | 416 | 39,862 | 87% | Jun 2019-May 2023 |
+| **📈** | ETF | 185 | 77,919 | 88% | May 2025-Feb 2026 |
+| **🍎** | Equity | 165 | 45,330 | 88% | Jun 2025-Feb 2026 |
+| **🛁** | Equity | 416 | 39,862 | 87% | Jun 2019-May 2023 |
 
 *Source: ThetaData OPRA historical options trades, February 2019 - February 2026.*
 
 ![Cross-Asset DMA Fingerprint Detection](figures/chart_cross_asset_detection.png)
 
-The presence on SPY (the most liquid ETF in the world), AAPL, NVDA, and MSFT eliminates the hypothesis that this is a bespoke tool targeting meme stocks. This is standard Tier-1 market-making infrastructure. The question is not whether it exists, it does, across 31 securities. The question is what triggers it on specific tickers.
+The presence on 📊 (the most liquid ETF in the world), 🍎, 🟩, and 🪟 eliminates the hypothesis that this is a bespoke tool targeting meme stocks. This is standard Tier-1 market-making infrastructure. The question is not whether it exists, it does, across 31 securities. The question is what triggers it on specific tickers.
 
 ---
+
+![Ticker Key](figures/ticker_legend_07_the_fingerprint.png)
+
 
 ## 2. The Trigger Discriminator: Same Hardware, Different Software
 
@@ -60,9 +63,9 @@ I ran OLS regressions on each security:
 
 | Security | n | Market R² | +FTD R² | FTD t-stat | p-value |
 | --- | --- | --- | --- | --- | --- |
-| SPY | 129 | 0.726 | 0.726 | +0.38 | 0.708 |
-| IWM | 132 | 0.662 | 0.662 | +0.11 | 0.909 |
-| NVDA | 120 | 0.446 | 0.453 | -1.18 | 0.241 |
+| 📊 | 129 | 0.726 | 0.726 | +0.38 | 0.708 |
+| 📈 | 132 | 0.662 | 0.662 | +0.11 | 0.909 |
+| 🟩 | 120 | 0.446 | 0.453 | -1.18 | 0.241 |
 
 Adding FTDs does *nothing* to the model. On liquid securities, the algo runs based on market activity. Zero FTD signal.
 
@@ -71,7 +74,7 @@ Adding FTDs does *nothing* to the model. On liquid securities, the algo runs bas
 | Security | Best Lag | n | Market R² | +FTD R² | FTD t-stat | p-value |
 | --- | --- | --- | --- | --- | --- | --- |
 | **GME** | T-7 | 1,681 | 0.548 | 0.560 | **+3.86** | **<0.001** |
-| **AMC** | T-7 | 66 | 0.877 | 0.895 | **+3.93** | **<0.001** |
+| **🎬** | T-7 | 66 | 0.877 | 0.895 | **+3.93** | **<0.001** |
 
 On borrow-constrained securities, lagged FTDs are highly significant (p < 0.001), positive (higher FTDs predict more algo trades), and peak at **T-6 to T-7 business days**, precisely within the Reg SHO Rule 204 close-out window.
 
@@ -81,7 +84,7 @@ The identical execution hardware produces zero FTD correlation on liquid securit
 
 > **The omitted variable defense:** A critic would argue that volatility drives both FTDs and algorithmic pinging. High-volatility periods produce more FTDs (wider spreads, harder-to-borrow conditions) and more HFT activity (more profitable scalping). Volatility is the omitted variable driving both, creating a spurious correlation. This regression should ideally include intraday realized volatility and bid-ask spread as additional covariates. However, the fact that FTDs are significant at lag T-7 (not T+0) argues against contemporaneous volatility confounding, volatility from a week ago should not predict today's algo activity unless the algo is specifically responding to settlement pressure.
 
-> **The maker-taker arbitrage defense:** Pearl and BX are inverted (taker-maker) venues. HFTs run 1-lot algorithms on these venues continuously to harvest sub-penny rebates, this is standard micro-scalping cost-optimization. The response: if it were standard rebate arbitrage, it would trigger on SPY and AAPL based on market volume. It does. But on GME and AMC, lagged FTDs add significant explanatory power (t=3.86, p<0.001) that doesn't exist on liquid securities. The rebate mechanism is real; the discriminant trigger is the finding.
+> **The maker-taker arbitrage defense:** Pearl and BX are inverted (taker-maker) venues. HFTs run 1-lot algorithms on these venues continuously to harvest sub-penny rebates, this is standard micro-scalping cost-optimization. The response: if it were standard rebate arbitrage, it would trigger on 📊 and 🍎 based on market volume. It does. But on GME and 🎬, lagged FTDs add significant explanatory power (t=3.86, p<0.001) that doesn't exist on liquid securities. The rebate mechanism is real; the discriminant trigger is the finding.
 
 ---
 
@@ -122,17 +125,17 @@ The algo shifted from predominantly puts (64-83%) in the Pearl-dominant era to p
 
 ---
 
-## 5. The Delisting Trigger: BBBY Proves It
+## 5. The Delisting Trigger: 🛁 Proves It
 
-[Bed Bath & Beyond filed for Chapter 11](https://cases.ra.kroll.com/702702/) bankruptcy on April 23, 2023. During the bankruptcy, the identified fingerprint executed an average of **600+ qualifying trades per day** on BBBY, **3x its pre-bankruptcy average**. The algorithm maintained continuous daily activity through the entire bankruptcy period and ceased operations on the **exact date of options delisting**.
+[Bed Bath & Beyond filed for Chapter 11](https://cases.ra.kroll.com/702702/) bankruptcy on April 23, 2023. During the bankruptcy, the identified fingerprint executed an average of **600+ qualifying trades per day** on 🛁, **3x its pre-bankruptcy average**. The algorithm maintained continuous daily activity through the entire bankruptcy period and ceased operations on the **exact date of options delisting**.
 
 Not on the bankruptcy filing date. Not on the equity delisting date. On the day the listed options chain ceased to exist.
 
-> **The tautology defense:** A critic would point out that it's mechanically tautological that an options-trading algorithm stops trading when the options cease to exist. Fair. The algorithm's *cessation* at delisting is trivially true. What's not trivially true is the **FTD inversion** documented below, the algorithm switched from *resolving* failures (as on AMC) to *deferring* them (on BBBY), and it ran at 3× capacity during bankruptcy. These behavioral signatures are the forensic findings, not the cessation date.
+> **The tautology defense:** A critic would point out that it's mechanically tautological that an options-trading algorithm stops trading when the options cease to exist. Fair. The algorithm's *cessation* at delisting is trivially true. What's not trivially true is the **FTD inversion** documented below, the algorithm switched from *resolving* failures (as on 🎬) to *deferring* them (on 🛁), and it ran at 3× capacity during bankruptcy. These behavioral signatures are the forensic findings, not the cessation date.
 
 ### The Inversion
 
-On AMC, algo dates are followed by significantly *larger* FTD declines than control dates (p = 0.005), consistent with the algo resolving FTDs. On BBBY during bankruptcy, the relationship **inverted**:
+On 🎬, algo dates are followed by significantly *larger* FTD declines than control dates (p = 0.005), consistent with the algo resolving FTDs. On 🛁 during bankruptcy, the relationship **inverted**:
 
 | Window | Threshold | Algo Drop Rate | Control Drop Rate | p-value |
 | --- | --- | --- | --- | --- |
@@ -140,11 +143,11 @@ On AMC, algo dates are followed by significantly *larger* FTD declines than cont
 | T+5 | >75% | 47.1% | 70.2% | **<0.001** |
 | T+5 | >90% | 42.3% | 62.8% | **<0.001** |
 
-On BBBY, algorithmic dates are associated with *smaller* FTD drops at all tested windows and thresholds (p < 0.001). The algo was **actively deferring** settlement failures, not resolving them. With no shares available for genuine borrow during bankruptcy, the only way to maintain Reg SHO compliance without triggering Rule 204(b) lockout was to continuously manufacture synthetic locates, each resetting the close-out timer while leaving the net FTD balance unchanged.
+On 🛁, algorithmic dates are associated with *smaller* FTD drops at all tested windows and thresholds (p < 0.001). The algo was **actively deferring** settlement failures, not resolving them. With no shares available for genuine borrow during bankruptcy, the only way to maintain Reg SHO compliance without triggering Rule 204(b) lockout was to continuously manufacture synthetic locates, each resetting the close-out timer while leaving the net FTD balance unchanged.
 
 This exhibits the structural signature of what I call *Settlement Deferral*, the rolling of FTD obligations through successive synthetic locate transactions that satisfy the regulatory close-out clock without achieving actual delivery.
 
-![The Delisting Trigger: BBBY Algo Activity vs Options Delisting](figures/chart_kill_switch.png)
+![The Delisting Trigger: 🛁 Algo Activity vs Options Delisting](figures/chart_kill_switch.png)
 
 ---
 
@@ -200,7 +203,7 @@ Across seven posts, here is the publicly verifiable architecture:
 | **Part 4** | Collateral Reflexivity | Goldman $9-10B crypto hedge; Bitcoin checkmate |
 | **Part 5** | The Bridge | BNY Mellon vertical integration; ISDA CSA margin; litigation |
 | **Part 6** | The Cash Engine | Dreyfus $86.2B repos; FTD negative correlation; Vanguard control test |
-| **Part 7** | The Fingerprint | DMA algo on 31 tickers; FTD trigger discriminator; BBBY delisting trigger |
+| **Part 7** | The Fingerprint | DMA algo on 31 tickers; FTD trigger discriminator; 🛁 delisting trigger |
 
 Each data source operates under independent regulatory oversight. No single regulator (the SEC, BaFin, FDIC, FCA, OFR, CFTC, or the federal courts) maintains visibility across all seven layers simultaneously. This fragmentation is not incidental. It is the structural feature that enables the system to operate at scale without triggering automated surveillance.
 
@@ -210,9 +213,9 @@ Each data source operates under independent regulatory oversight. No single regu
 
 1. **If the FTD-algo correlation on GME dissolves with additional controls.** Adding intraday realized volatility and bid-ask spread as covariates could absorb the lagged FTD signal. If the t=3.86 drops below significance after controlling for these, the trigger discriminator fails.
 
-2. **If the placebo securities develop FTD sensitivity.** The thesis depends on the algo being FTD-insensitive on liquid stocks and FTD-sensitive on borrow-constrained ones. If future data shows SPY or AAPL developing lagged FTD correlations, the discriminator isn't about borrow constraints, it's about something else.
+2. **If the placebo securities develop FTD sensitivity.** The thesis depends on the algo being FTD-insensitive on liquid stocks and FTD-sensitive on borrow-constrained ones. If future data shows 📊 or 🍎 developing lagged FTD correlations, the discriminator isn't about borrow constraints, it's about something else.
 
-3. **If the BBBY FTD inversion replicates on non-bankruptcy securities.** The BBBY kill-switch finding depends on the inversion being specific to a stock with no borrowable shares. If other non-bankrupt tickers show the same inverted FTD pattern, the interpretation (synthetic locate manufacturing) weakens.
+3. **If the 🛁 FTD inversion replicates on non-bankruptcy securities.** The 🛁 kill-switch finding depends on the inversion being specific to a stock with no borrowable shares. If other non-bankrupt tickers show the same inverted FTD pattern, the interpretation (synthetic locate manufacturing) weakens.
 
 4. **If the MIAX Pearl Level 3 feed reveals the operator is not a Tier-1 market maker.** If the executing MPID belongs to a retail-facing broker or a non-DPM firm, the entire "compliance infrastructure" framing collapses into a simpler explanation.
 

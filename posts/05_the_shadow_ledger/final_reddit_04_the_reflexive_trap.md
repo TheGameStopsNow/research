@@ -2,7 +2,7 @@
 
 # Part 4 of 7
 
-**TL;DR:** Parts 1-3 mapped the architecture (phantom locates), the derivative paper trail (ISDA offshore network), and the funding (the Ouroboros). This post maps the endgame. In March 2025, GameStop updated its investment policy to add Bitcoin as a treasury reserve asset, subsequently purchasing 4,710 BTC (~$504 million). The market treated it as speculation. The 13F data tells a different story. Within one quarter, Goldman Sachs, Citadel, and Susquehanna all massively increased their positions in MSTR, COIN, IBIT, MARA, and RIOT. Goldman alone now holds $9-10 billion in crypto-adjacent 13F positions, including $2.2 billion in IBIT shares hedged with $1.7 billion in IBIT puts. The same firms that are short GME are now forced to buy the exact assets GME now holds on its balance sheet. Ryan Cohen didn't buy Bitcoin because crypto is cool. He bought Bitcoin because it's their collateral.
+**TL;DR:** Parts 1-3 mapped the architecture (phantom locates), the derivative paper trail (ISDA offshore network), and the funding (the Ouroboros). This post maps the endgame. In March 2025, GameStop updated its investment policy to add Bitcoin as a treasury reserve asset, subsequently purchasing 4,710 BTC (~$504 million). The market treated it as speculation. The 13F data tells a different story. Within one quarter, Goldman Sachs, Citadel, and Susquehanna all massively increased their positions in MSTR, COIN, ₿, MARA, and RIOT. Goldman alone now holds $9-10 billion in crypto-adjacent 13F positions, including $2.2 billion in ₿ shares hedged with $1.7 billion in ₿ puts. The same firms that are short GME are now forced to buy the exact assets GME now holds on its balance sheet. Ryan Cohen didn't buy Bitcoin because crypto is cool. He bought Bitcoin because it's their collateral.
 
 > **📄 Full academic papers:** [The Long Gamma Default (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices.pdf?raw=1), [The Shadow Algorithm (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Shadow%20Algorithm-%20Adversarial%20Microstructure%20Forensics%20in%20Options-Driven%20Equity%20Markets.pdf?raw=1), [Exploitable Infrastructure (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Exploitable%20Infrastructure-%20Regulatory%20Implications%20of%20the%20Long%20Gamma%20Default%20and%20Adversarial%20Microstructure%20Forensics.pdf?raw=1), [Cross-Domain Corroboration (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Cross-Domain%20Corroboration-%20Physical%20Infrastructure%2C%20Settlement%20Mechanics%2C%20and%20Macro%20Funding%20of%20Options-Driven%20Equity%20Displacement.pdf?raw=1)
 
@@ -23,7 +23,7 @@ Here's the logic:
 - **Step 1 (*Options & Consequences, Part 4*):** The equity long positions and collateral chains of the prime broker network are funded by the yen carry trade. When the BOJ raised rates in August 2024, the unwind forced portfolio-level gross deleveraging, including short covering as a side effect of long-book margin calls.
 - **Step 2 (Part 3):** The carry trade liquidity is supplemented by the Tether-to-repo Ouroboros
 - **Step 3 (Part 2):** The risk is held in offshore derivative positions at the 8 ISDA prime brokers
-- **Step 4:** The prime brokers hedge their derivative exposure by holding crypto-adjacent assets (IBIT, MSTR, COIN) as proxy delta hedges
+- **Step 4:** The prime brokers hedge their derivative exposure by holding crypto-adjacent assets (₿, MSTR, COIN) as proxy delta hedges
 
 Now Ryan Cohen adds Bitcoin directly to GME's balance sheet. GME's Net Asset Value (NAV) now has a floor tied to BTC. When Bitcoin goes up, GME's fundamental value rises. But Bitcoin going up *also* increases the value of the collateral backing the Ouroboros and the proxy hedges. The short sellers need Bitcoin to go up to maintain their collateral, but Bitcoin going up makes GME harder to short.
 
@@ -31,17 +31,20 @@ Now Ryan Cohen adds Bitcoin directly to GME's balance sheet. GME's Net Asset Val
 
 ---
 
+![Ticker Key](figures/ticker_legend_04_the_reflexive_trap.png)
+
+
 ## 2. The 13F Proof: Goldman Sachs Tells the Story
 
-Within one quarter of [GameStop's Bitcoin announcement](https://news.gamestop.com/), Goldman Sachs Group Inc.'s [13F-HR filing](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000886982&type=13-F&dateb=&owner=include&count=40) (CIK 0000886982), one of the 8 ISDA counterparties, a JGB Primary Dealer, and the **Authorized Participant** for [iShares Bitcoin Trust (IBIT)](https://www.ishares.com/us/products/333011/ishares-bitcoin-trust), shows the following:
+Within one quarter of [GameStop's Bitcoin announcement](https://news.gamestop.com/), Goldman Sachs Group Inc.'s [13F-HR filing](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000886982&type=13-F&dateb=&owner=include&count=40) (CIK 0000886982), one of the 8 ISDA counterparties, a JGB Primary Dealer, and the **Authorized Participant** for [iShares Bitcoin Trust (₿)](https://www.ishares.com/us/products/333011/ishares-bitcoin-trust), shows the following:
 
 ### Q4 2025 Filing (Filed Feb 10, 2026): 70 Crypto-Related Positions
 
 | Security | Position Type | Value ($M) | Shares/Contracts |
 | --- | --- | --- | --- |
-| **iShares Bitcoin Trust (IBIT)** | Shares | **$2,207.6M** | 33,963,324 |
-| **iShares Bitcoin Trust (IBIT)** | Puts | **$1,684.4M** | 25,914,400 |
-| **iShares Bitcoin Trust (IBIT)** | Calls | $459.7M | 7,072,200 |
+| **iShares Bitcoin Trust (₿)** | Shares | **$2,207.6M** | 33,963,324 |
+| **iShares Bitcoin Trust (₿)** | Puts | **$1,684.4M** | 25,914,400 |
+| **iShares Bitcoin Trust (₿)** | Calls | $459.7M | 7,072,200 |
 | **iShares Ethereum Trust (ETHE)** | Shares | **$1,331.9M** | 42,270,570 |
 | **iShares Ethereum Trust (ETHE)** | Puts | $471.1M | 14,950,000 |
 | **iShares Ethereum Trust (ETHE)** | Calls | $216.8M | 6,879,600 |
@@ -65,8 +68,8 @@ Within one quarter of [GameStop's Bitcoin announcement](https://news.gamestop.co
 
 Goldman Sachs is simultaneously:
 
-- **Long $2.2B in IBIT shares** (creating ETF units as Authorized Participant, earning AP fees)
-- **Hedged with $1.7B in IBIT puts** (the delta hedge against downside)
+- **Long $2.2B in ₿ shares** (creating ETF units as Authorized Participant, earning AP fees)
+- **Hedged with $1.7B in ₿ puts** (the delta hedge against downside)
 - **Long $1.3B in ETHE** (extending the proxy hedge beyond BTC into Ethereum)
 - **Holding $660M in MSTR Puts (short exposure)** (the inverse carry on MicroStrategy/Strategy)
 - **Long $900M+ in Coinbase** across shares, calls, and puts
@@ -79,17 +82,17 @@ The Q3 2025 filing shows similarly heavy positions in the same names. This is no
 
 The 13F data reveals a trap of Goldman's own making:
 
-1. **Goldman is long IBIT** because they are the Authorized Participant, they create and redeem ETF units for profit
+1. **Goldman is long ₿** because they are the Authorized Participant, they create and redeem ETF units for profit
 2. **Goldman is long ETHE** because they are hedging Ethereum exposure from their prime brokerage clients
 3. **Goldman holds MSTR Puts (short exposure)** because MSTR is the levered Bitcoin proxy, if BTC falls, MSTR falls harder
 4. **Goldman is long COIN** because Coinbase is the custodian for institutional crypto and the primary exchange for Tether redemptions
 
 Now GameStop adds Bitcoin to its balance sheet. This creates a reflexive loop:
 
-- If **BTC rises**: GME's NAV rises → harder to short GME → Goldman's equity short book suffers → Goldman needs MORE IBIT/MSTR to hedge → more demand for IBIT → BTC rises further
-- If **BTC falls**: Goldman's $2.2B IBIT position falls → margin calls → Goldman sells IBIT → BTC falls further → Tether reserves decline → Ouroboros weakens → less fiat liquidity for the short machine
+- If **BTC rises**: GME's NAV rises → harder to short GME → Goldman's equity short book suffers → Goldman needs MORE IBIT/MSTR to hedge → more demand for ₿ → BTC rises further
+- If **BTC falls**: Goldman's $2.2B ₿ position falls → margin calls → Goldman sells ₿ → BTC falls further → Tether reserves decline → Ouroboros weakens → less fiat liquidity for the short machine
 
-> **The Authorized Participant defense:** Goldman, Citadel, and Jane Street are [Authorized Participants](https://www.sec.gov/investor/alerts/etfs.pdf) (APs) for Bitcoin ETFs like IBIT. APs are contractually required to hold inventory of the underlying to facilitate create/redeem functions, and they delta-hedge this inventory with options. A defender would argue these positions are delta-neutral market-making, not a proprietary directional proxy hedge. This is a fair point, and it doesn't matter. *Because* they hold these assets for AP duties, their balance sheets are structurally exposed to BTC volatility regardless of intent. The reflexive trap operates through structural exposure, not directional betting.
+> **The Authorized Participant defense:** Goldman, Citadel, and Jane Street are [Authorized Participants](https://www.sec.gov/investor/alerts/etfs.pdf) (APs) for Bitcoin ETFs like ₿. APs are contractually required to hold inventory of the underlying to facilitate create/redeem functions, and they delta-hedge this inventory with options. A defender would argue these positions are delta-neutral market-making, not a proprietary directional proxy hedge. This is a fair point, and it doesn't matter. *Because* they hold these assets for AP duties, their balance sheets are structurally exposed to BTC volatility regardless of intent. The reflexive trap operates through structural exposure, not directional betting.
 
 > **The scale objection:** GME holds ~$500M in BTC. The crypto market is $2.5 trillion. GME's NAV moving a few hundred million dollars exerts negligible reflexive gravity on a multi-trillion dollar prime broker margin model. But the trap doesn't operate through GME moving the *crypto market*. It operates through GME's *NAV floor*, the BTC on its balance sheet creates a book value that makes the stock harder to short through fundamental valuation arguments. The scale that matters is GME's balance sheet relative to its short interest, not GME's BTC relative to the crypto market.
 
@@ -108,10 +111,10 @@ Goldman isn't alone. Pulling the 13F data across the ISDA counterparty network f
 
 | Firm | IBIT/FBTC | MSTR/Strategy | COIN | Notable |
 | --- | --- | --- | --- | --- |
-| **Goldman Sachs** | $2.2B shares + $1.7B puts | $1.6B (mixed) | $900M+ | IBIT Authorized Participant |
+| **Goldman Sachs** | $2.2B shares + $1.7B puts | $1.6B (mixed) | $900M+ | ₿ Authorized Participant |
 | **Citadel Advisors** | Yes (Q2 2024+) | 5.7M puts (Q2 2024) | Yes | 47% put increase during squeeze |
 | **Susquehanna (SIG)** | Yes | Yes | Yes | Largest MSTR options holder |
-| **Jane Street Capital** | Yes | Yes | Yes | IBIT Authorized Participant |
+| **Jane Street Capital** | Yes | Yes | Yes | ₿ Authorized Participant |
 | **BofA/Merrill** | Yes | Limited | Limited | 96% clearing for Citadel Securities |
 
 *Source: [SEC EDGAR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany) 13F-HR filings for each entity, Q2 2024 – Q4 2025. [Citadel Advisors CIK 0001423053](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001423053&type=13-F&dateb=&owner=include&count=40).*
@@ -160,7 +163,7 @@ Verify everything. Every source in this series is publicly accessible. Most of t
 
 But there are gaps I can't fill alone:
 
-1. **[XRT Portfolio Composition File (PCF)](https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-sp-retail-etf-xrt):** The daily basket holdings that would prove exactly which CUSIPs were being swapped during ETF cannibalization. This data is paywalled through DTCC/NYSE Arca. If anyone has a Bloomberg terminal or an institutional data subscription, the specific dates are May 13-17, 2024 and November 11-15, 2022 (FTX collapse week).
+1. **[📦 Portfolio Composition File (PCF)](https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-sp-retail-etf-xrt):** The daily basket holdings that would prove exactly which CUSIPs were being swapped during ETF cannibalization. This data is paywalled through DTCC/NYSE Arca. If anyone has a Bloomberg terminal or an institutional data subscription, the specific dates are May 13-17, 2024 and November 11-15, 2022 (FTX collapse week).
 
 2. **DTCC Equity Swap Data (FOIA pending):** A FOIA request has been filed with the SEC for the archived [SBSR data](https://www.ecfr.gov/current/title-17/section-242.901) from August 2024. The SEC's response deadline is April 3, 2026. If granted, this data would show the exact notional amounts of equity Total Return Swaps on GME during the carry trade unwind.
 

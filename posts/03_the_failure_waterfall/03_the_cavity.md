@@ -9,9 +9,9 @@ Builds on: [Options & Consequences](https://www.reddit.com/r/Superstonk/comments
 Skip to [Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/), [Part 2](https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/), or [Part 4](04_what_the_sec_report_got_wrong.md)
 Continued in: [Boundary Conditions](../04_the_boundary_conditions/01_the_overflow.md) (Parts 1-3)
 
-**TA;DR:** A delisted stock is still producing actively fluctuating FTDs, 644 records on a cancelled CUSIP. That's not an echo. That's a shadow ledger, and it proves the basket is real.
+**TA;DR:** ~~A delisted stock is still producing actively fluctuating FTDs, 644 records on a cancelled CUSIP.~~ *(BBBY zombie FTD claim retracted — ticker collision; see [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md).)* The spectral analysis of 8 securities confirms the 630-day macrocycle, KOSS phantom limb, and basket coherence — all of which stand independently of BBBY.
 
-**TL;DR:** In [Part 2](02_the_resonance.md), I found the standing wave: a Q≈21 under-damped resonator with a ~2.5-year macrocycle. This post finds what's *inside* the wave. Using full periodogram spectral analysis across 8 securities and cross-asset coherence testing, I show that (1) a dominant spectral peak at approximately **630 business days (~2.5 years)** appears at **13.3× median noise** in GME's FTD spectrum, (2) 🔊, a stock with no options chain, shares this exact spectral signature — strong evidence of portfolio-level settlement via a Total Return Swap, (3) 🛁, a **delisted** stock, continues to produce **actively fluctuating FTDs** through late 2025 — 644 records, 31 unique post-delisting values — direct evidence of an ex-clearing shadow ledger on a cancelled CUSIP, and (4) control tickers (🍎, 🪟, 📊) show no settlement spectral signature, confirming the signal is specific to the basket. We're not watching noise. We're watching a bounded resonant cavity.
+**TL;DR:** In [Part 2](02_the_resonance.md), I found the standing wave: a Q≈21 under-damped resonator with a ~2.5-year macrocycle. This post finds what's *inside* the wave. Using full periodogram spectral analysis across 8 securities and cross-asset coherence testing, I show that (1) a dominant spectral peak at approximately **630 business days (~2.5 years)** appears at **13.3× median noise** in GME's FTD spectrum, (2) 🔊, a stock with no options chain, shares this exact spectral signature — strong evidence of portfolio-level settlement via a Total Return Swap, (3) ~~🛁, a **delisted** stock, continues to produce **actively fluctuating FTDs** through late 2025 — 644 records, 31 unique post-delisting values — direct evidence of an ex-clearing shadow ledger on a cancelled CUSIP~~ *(retracted — ticker collision; see [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md))*, and (4) control tickers (🍎, 🪟, 📊) show no settlement spectral signature, confirming the signal is specific to the basket. We're not watching noise. We're watching a bounded resonant cavity.
 
 > **📄 Full academic paper:** [The Resonance Cavity (Paper VI of IX)](https://github.com/TheGameStopsNow/research/blob/main/papers/06_resonance_and_cavity.md)
 
@@ -108,34 +108,38 @@ In acoustic terms: 🔊 is a passive string that vibrates because it's attached 
 
 ## 4. The 🛁 Shadow Ledger
 
-Everything so far has been impressive but incremental, extending Part 2's framework to more assets. 🛁 (Bed Bath & Beyond) shatters the scale.
+> **⚠️ Correction (Mar 2, 2026):** This section's central claim — that BBBY produced 644 records with 31 unique post-delisting FTD values through late 2025 — was **incorrect.** The data file was built filtering by ticker symbol ("BBBY"), not by CUSIP. When Beyond, Inc. (formerly Overstock.com) reclaimed the BBBY ticker in August 2025 under CUSIP 690370101, the CSV conflated two entirely different entities. The original BBBYQ CUSIP (075896100) has only 567 records through October 2, 2023, with just **1 day** of genuine post-cancellation FTDs. The "zombie stock" narrative, the "31 unique values" claim, and the block-size analysis have been **retracted.** Full details in [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md). I got this one wrong.
+>
+> **What survives:** The pre-bankruptcy BBBY spectral analysis (κ = 9.28), the DTC position report analysis (Paper IV §2), and all pre-May 2023 BBBY analyses are unaffected — these reference pre-bankruptcy data on the correct CUSIP. The basket thesis rests on KOSS (no options, same spectral signature), the zombie stock price correlation (Blockbuster, Sears — Paper IV §2), and cross-asset coherence — all of which are independent of the BBBY FTD claim.
 
-🛁 went bankrupt in April 2023. The stock was delisted. The shares were cancelled. There is nothing to trade, nothing to deliver, nothing to borrow.
+~~Everything so far has been impressive but incremental, extending Part 2's framework to more assets. 🛁 (Bed Bath & Beyond) shatters the scale.~~
 
-And yet: SEC EDGAR data shows 🛁 FTDs being reported **continuously through late 2025**. Two and a half years after delisting. The full 🛁 FTD dataset contains 644 records spanning 2020–2025. Within the post-delisting window alone, **31 unique, actively fluctuating FTD values** were published.
+~~🛁 went bankrupt in April 2023. The stock was delisted. The shares were cancelled. There is nothing to trade, nothing to deliver, nothing to borrow.~~
 
-### The Critical Evidence: Active Fluctuation
+~~And yet: SEC EDGAR data shows 🛁 FTDs being reported **continuously through late 2025**. Two and a half years after delisting. The full 🛁 FTD dataset contains 644 records spanning 2020–2025. Within the post-delisting window alone, **31 unique, actively fluctuating FTD values** were published.~~
 
-**The post-delisting FTD values are NOT a frozen cumulative balance.** First-difference analysis shows:
+~~### The Critical Evidence: Active Fluctuation~~
 
-| Metric | Value |
+~~**The post-delisting FTD values are NOT a frozen cumulative balance.** First-difference analysis shows:~~
+
+| ~~Metric~~ | ~~Value~~ |
 |--------|:-----:|
-| Unique post-delisting values | **31** |
-| Day-to-day changes (non-zero) | **30 of 30** |
-| Standard deviation of changes | **12,586 shares** |
-| Range of values | 30 to 29,857 shares |
+| ~~Unique post-delisting values~~ | ~~**31**~~ |
+| ~~Day-to-day changes (non-zero)~~ | ~~**30 of 30**~~ |
+| ~~Standard deviation of changes~~ | ~~**12,586 shares**~~ |
+| ~~Range of values~~ | ~~30 to 29,857 shares~~ |
 
-Every consecutive day-to-day change is non-zero. The values fluctuate with high variance. This is not a database artifact. The obligations are being **actively managed** on a cancelled CUSIP.
+~~Every consecutive day-to-day change is non-zero. The values fluctuate with high variance. This is not a database artifact. The obligations are being **actively managed** on a cancelled CUSIP.~~
 
-### Why This Matters: Ex-Clearing Proof
+~~### Why This Matters: Ex-Clearing Proof~~
 
-When a CUSIP is cancelled, it is removed from the DTCC's Continuous Net Settlement (CNS) system. The standard settlement pipe is closed. There is no mechanism for new FTDs to be generated through normal market activity — the stock no longer exists.
+~~When a CUSIP is cancelled, it is removed from the DTCC's Continuous Net Settlement (CNS) system. The standard settlement pipe is closed. There is no mechanism for new FTDs to be generated through normal market activity — the stock no longer exists.~~
 
-Active FTD fluctuations on a cancelled CUSIP are *strongly suggestive of* obligations being managed **ex-clearing** — through the Obligation Warehouse (OW) or bilateral OTC settlements — as no standard CNS mechanism should generate new FTD fluctuations after delisting.
+~~Active FTD fluctuations on a cancelled CUSIP are *strongly suggestive of* obligations being managed **ex-clearing** — through the Obligation Warehouse (OW) or bilateral OTC settlements — as no standard CNS mechanism should generate new FTD fluctuations after delisting.~~
 
-The spectral characteristics support this: 🛁 shows extreme nonlinearity (κ = 9.28) consistent with a sealed system where all damping has been removed. When shares cease to exist, the netting capacity drops to zero, and every micro-adjustment becomes visible on the FTD tape.
+~~The spectral characteristics support this: 🛁 shows extreme nonlinearity (κ = 9.28) consistent with a sealed system where all damping has been removed. When shares cease to exist, the netting capacity drops to zero, and every micro-adjustment becomes visible on the FTD tape.~~
 
-*Data: [`data/ftd/BBBY_ftd.csv`](https://github.com/TheGameStopsNow/research/blob/main/data/ftd/BBBY_ftd.csv) (567 records, Dec 2020–Oct 2023 — *corrected to CUSIP 075896100 only; see [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md)*, downloaded from [SEC EDGAR FTD Data](https://www.sec.gov/data-research/sec-markets-data/fails-deliver-data))*
+*Data: [`data/ftd/BBBY_ftd.csv`](https://github.com/TheGameStopsNow/research/blob/main/data/ftd/BBBY_ftd.csv) (567 records, Dec 2020–Oct 2023 — corrected to CUSIP 075896100 only; see [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md))*
 
 ---
 

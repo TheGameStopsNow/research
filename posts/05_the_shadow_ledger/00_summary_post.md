@@ -148,7 +148,7 @@ The nail in the coffin is BBBY. During Bed Bath & Beyond's bankruptcy, the algo 
 
 And the algo ceased on the **exact date** the options chain was delisted. Not the bankruptcy filing. Not the equity delisting. The options chain. The delisting trigger was the options market.
 
-It runs on only two exchanges: MIAX Pearl and Nasdaq BX. The only two with inverted fee models, where the taker *earns* a rebate instead of paying a fee. 4,307 daily trades that would cost $2,150 on a normal exchange instead generate $650-860 in revenue.
+It runs on only two exchanges: MIAX Pearl and Nasdaq BX. Nasdaq BX operates an inverted fee model where the taker *earns* a rebate; MIAX Pearl is maker-taker but with thinner order books suited for rapid-fire execution. The exclusive concentration on these two venues — combined with monotonic sequencing indicating dedicated exchange ports — is the venue fingerprint.
 
 Regulators already caught someone doing this before. **Wolverine Trading** was [disciplined by FINRA](https://www.finra.org/) for using buy-write transactions to improperly satisfy Reg SHO close-out obligations — the identical mechanical profile. Wolverine is the confirmed Designated Primary Market Maker for GME options on Cboe.
 

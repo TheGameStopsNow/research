@@ -14,7 +14,7 @@
 
 In **March 2025**, GameStop Corp. (GME) disclosed in its 2024 annual report that its Board of Directors had unanimously approved an update to its investment policy to add **Bitcoin** as a treasury reserve asset. On **May 28, 2025**, the company announced it had purchased **4,710 BTC** (~$504 million, at an average price of ~$107,900/BTC), following a $1.3 billion convertible notes offering.
 
-*Source: [GameStop Corp. 10-K / 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326380&type=8-K), CIK 0001326380, annual report filed March 2025; 8-K September 9, 2025.*
+*Source: [GameStop Corp. 10-K / 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326380&type=8-K), CIK 0001326380, annual report filed March 2025; [8-K May 28, 2025](https://investor.gamestop.com/news-releases/news-details/2025/GameStop-Announces-Purchase-of-Bitcoin/).*
 
 The crypto community celebrated. The GME community debated. Wall Street analysts were confused. But the 13F data that filed 45 days later tells a more interesting story: this may not have been a simple "crypto bet." It looks more like a strategic repositioning against the Ouroboros.
 

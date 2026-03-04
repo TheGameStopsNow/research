@@ -154,7 +154,7 @@ This exhibits the structural signature of what I call *Settlement Deferral*, the
 
 ## 6. The CHWY Cross-Ticker Validation
 
-As an additional out-of-sample test, I examined **CHWY (Chewy Inc.)** around its IPO on June 14, 2019. Under Reg SHO 203(b)(3), a bona fide market maker receives a **35 calendar-day exemption** from close-out requirements for IPO allocations. June 14 + 35 = July 19, 2019.
+As an additional out-of-sample test, I examined **CHWY (Chewy Inc.)** around its IPO on June 14, 2019. Under Reg SHO's market maker exception ([Rule 203(b)(2)(iii)](https://www.ecfr.gov/current/title-17/section-242.203)), bona fide market makers receive extended settlement flexibility for newly listed securities. Using the standard **T+35 calendar-day** close-out window (Rule 204(a)(2)), June 14 + 35 = July 19, 2019.
 
 | Date | IPO + Days | DMA Trades | Notes |
 | --- | --- | --- | --- |

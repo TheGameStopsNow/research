@@ -2,7 +2,7 @@
 
 # Part 7 of 7
 
-**TL;DR:** Parts 1-6 mapped the system: phantom locates, the derivative trail, the Ouroboros, the Bitcoin checkmate, the BNY Mellon bridge, and the Dreyfus cash engine powering it all. This final post identifies the machine that operationalizes the domestic compliance loop. Using 2,038 days of tick-level OPRA data, I isolated a DMA routing fingerprint, 1-lot trades, inverted-fee venue concentration, monotonic sequencing, tied-to-stock condition codes, operating across 31 U.S. equities and ETFs. On liquid mega-caps (📊, 🍎), the algo runs with zero FTD (Failure to Deliver, when the seller doesn't deliver shares within the settlement deadline) correlation. On borrow-constrained stocks (GME, 🎬), the same hardware shows t = +3.86 FTD correlation at exactly the T-5 to T-7 [Reg SHO](https://www.ecfr.gov/current/title-17/section-242.204) close-out window. A natural experiment confirms it: on 🛁, the algo ran 3x its normal pace during bankruptcy, *inverted* its FTD relationship (deferring rather than resolving failures), and ceased on the exact date of options delisting. The delisting trigger was the options chain. The operator runs on only two exchanges, the only two with [inverted fee models](https://www.sec.gov/comments/s7-18-19/s71819.htm), where 4,307 daily trades generate rebate revenue instead of fees. Wolverine Trading, the confirmed DPM for GME options on [Cboe](https://www.cboe.com/), was previously fined by [FINRA](https://www.finra.org/) for using buy-write transactions to improperly address Reg SHO close-out obligations, the identical mechanical profile.
+**TL;DR:** Parts 1-6 mapped the system: phantom locates, the derivative trail, the Ouroboros, the Bitcoin checkmate, the BNY Mellon bridge, and the Dreyfus cash engine powering it all. This final post identifies the machine that operationalizes the domestic compliance loop. Using 2,038 days of tick-level OPRA data, I isolated a DMA routing fingerprint, 1-lot trades, exclusive venue concentration on MIAX Pearl and Nasdaq BX, monotonic sequencing, tied-to-stock condition codes, operating across 31 U.S. equities and ETFs. On liquid mega-caps (📊, 🍎), the algo runs with zero FTD (Failure to Deliver, when the seller doesn't deliver shares within the settlement deadline) correlation. On borrow-constrained stocks (GME, 🎬), the same hardware shows t = +3.86 FTD correlation at exactly the T-5 to T-7 [Reg SHO](https://www.ecfr.gov/current/title-17/section-242.204) close-out window. A natural experiment confirms it: on 🛁, the algo ran 3x its normal pace during bankruptcy, *inverted* its FTD relationship (deferring rather than resolving failures), and ceased on the exact date of options delisting. The delisting trigger was the options chain. The operator runs on only two exchanges, where Nasdaq BX's [inverted fee model](https://www.sec.gov/comments/s7-18-19/s71819.htm) provides taker rebates and MIAX Pearl's thinner order books enable rapid-fire execution, with 4,307 daily trades generating favorable economics. Wolverine Trading, the confirmed DPM for GME options on [Cboe](https://www.cboe.com/), was previously fined by [FINRA](https://www.finra.org/) for using buy-write transactions to improperly address Reg SHO close-out obligations, the identical mechanical profile.
 
 > **📄 Full academic paper:** [Compliance-as-a-Service (Paper VIII)](https://github.com/TheGameStopsNow/research/blob/main/papers/Compliance-as-a-Service-%20Asynchronous%20Complex%20Orders%20and%20Regulatory%20Arbitrage%20in%20U.S.%20Equity%20Settlement.pdf?raw=1)
 
@@ -84,24 +84,24 @@ The identical execution hardware produces zero FTD correlation on liquid securit
 
 > **The omitted variable defense:** A critic would argue that volatility drives both FTDs and algorithmic pinging. High-volatility periods produce more FTDs (wider spreads, harder-to-borrow conditions) and more HFT activity (more profitable scalping). Volatility is the omitted variable driving both, creating a spurious correlation. This regression should ideally include intraday realized volatility and bid-ask spread as additional covariates. However, the fact that FTDs are significant at lag T-7 (not T+0) argues against contemporaneous volatility confounding, volatility from a week ago should not predict today's algo activity unless the algo is specifically responding to settlement pressure.
 
-> **The maker-taker arbitrage defense:** Pearl and BX are inverted (taker-maker) venues. HFTs run 1-lot algorithms on these venues continuously to harvest sub-penny rebates, this is standard micro-scalping cost-optimization. The response: if it were standard rebate arbitrage, it would trigger on 📊 and 🍎 based on market volume. It does. But on GME and 🎬, lagged FTDs add significant explanatory power (t=3.86, p<0.001) that doesn't exist on liquid securities. The rebate mechanism is real; the discriminant trigger is the finding.
+> **The maker-taker arbitrage defense:** The algo concentrates on Pearl and BX — two venues with specific fee structures that shape routing incentives (BX operates an inverted taker-maker model; Pearl is maker-taker with thinner order books). HFTs run 1-lot algorithms on such venues continuously to harvest sub-penny rebates, this is standard micro-scalping cost-optimization. The response: if it were standard rebate arbitrage, it would trigger on 📊 and 🍎 based on market volume. It does. But on GME and 🎬, lagged FTDs add significant explanatory power (t=3.86, p<0.001) that doesn't exist on liquid securities. The venue routing is real; the discriminant trigger is the finding.
 
 ---
 
 ## 3. The Venue Economics: Why Only Two Exchanges
 
-**MIAX Pearl** and **Nasdaq BX** are the only two U.S. options exchanges operating an **inverted fee model**, where the liquidity *taker* earns a rebate:
+The algo concentrates exclusively on **MIAX Pearl** and **Nasdaq BX** — two venues with distinct pricing structures that create specific routing incentives:
 
-| Exchange | Model | Taker Fee | Net Economics |
+| Exchange | Model | Taker Economics | Maker Economics |
 | --- | --- | --- | --- |
-| CBOE | Maker-taker | -$0.50/contract | Taker **pays** |
-| NYSE Arca | Maker-taker | -$0.55/contract | Taker **pays** |
-| **MIAX Pearl** | **Inverted** | **+$0.15/contract** | Taker **earns** |
-| **Nasdaq BX** | **Inverted** | **+$0.20/contract** | Taker **earns** |
+| CBOE | Maker-taker | Taker **pays** ~$0.50/contract | Maker earns rebate |
+| NYSE Arca | Maker-taker | Taker **pays** ~$0.55/contract | Maker earns rebate |
+| **MIAX Pearl** | **Maker-taker** | Taker pays ~$0.49/contract | **Maker earns** ~$0.42/contract |
+| **Nasdaq BX** | **Inverted (taker-maker)** | **Taker earns** ~$0.20/contract | Maker **pays** |
 
-*Source: [MIAX Pearl Options Fee Schedule](https://www.miaxglobal.com/) and [Nasdaq BX Options Fee Schedule](https://nasdaqtrader.com/), January 2026.*
+*Source: [MIAX Pearl Options Fee Schedule](https://www.miaxglobal.com/) and [Nasdaq BX Options Fee Schedule](https://nasdaqtrader.com/), current as of publication. Fees vary by participant category and volume tier.*
 
-On a standard exchange, 4,307 trades in one day would cost approximately **$2,150** in exchange fees. On Pearl and BX, the same activity generates approximately **$650-$860 in rebate revenue**. The inverted fee model transforms the DMA algo from a cost center into a break-even or revenue-positive operation.
+On Nasdaq BX, the algo's 1-lot trades generate rebate revenue as a taker. On MIAX Pearl, the algo incurs standard taker fees but benefits from Pearl's lower-cost routing and thinner order books, making it operationally suited for rapid-fire execution. The forensic significance is the **exclusive concentration** on these two venues — and the monotonic sequencing that indicates dedicated exchange ports — not the blanket economics of either venue in isolation.
 
 ---
 

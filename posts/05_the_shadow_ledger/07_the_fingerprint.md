@@ -14,6 +14,8 @@
 
 Some background: every options trade in the U.S. is reported through [OPRA](https://www.opraplan.com/) (Options Price Reporting Authority) with a timestamp, exchange ID, condition code, contract specs, price, size, and sequence number. Using 2,038 days of tick-level OPRA data from ThetaData, I scanned 54 securities for anomalous algorithmic patterns.
 
+> **Selection criteria:** The 54-ticker universe consists of the most-discussed tickers on r/Superstonk, r/wallstreetbets, and r/amcstock, plus liquid ETF controls (SPY, IWM, QQQ). Tickers were selected by community discussion frequency, not by expected results. Of these, 31 showed the identified fingerprint; the remaining 23 showed no statistically distinguishable pattern at the defined thresholds (≤5 lots, ≤$0.10 premium, inverted-fee venue, algorithmic condition codes).
+
 I found one. It operates on 31 of 54 securities scanned.
 
 ### The Fingerprint Definition
@@ -146,7 +148,7 @@ On BBBY, algorithmic dates are associated with *smaller* FTD drops at all tested
 
 This exhibits the structural signature of what I call *Settlement Deferral*, the rolling of FTD obligations through successive synthetic locate transactions that satisfy the regulatory close-out clock without achieving actual delivery.
 
-![The Delisting Trigger: BBBY Algo Activity vs Options Delisting](figures/chart_kill_switch.png)
+![The Natural Experiment: BBBY Algo Activity vs Options Delisting](figures/chart_kill_switch.png)
 
 ---
 

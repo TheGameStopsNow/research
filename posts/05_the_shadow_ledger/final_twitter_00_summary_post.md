@@ -184,15 +184,7 @@ I'll be the first to tell you if any of these happen.
 
 ## The Series
 
-| Part | Title | One Sentence |
-|:----:|:------|:-------------|
-| [1](01_the_fake_locates.md) | **The Fake Locates** | FTX tokenized stocks functioned as phantom locates; the FTX bankruptcy filing reports zero GME shares |
-| [2](02_the_6_trillion_swap.md) | **The Derivative Paper Trail** | The $6T JPMorgan spike was interest rate swaps; the real trail is 8 offshore ISDA filings in 7 days |
-| [3](03_the_ouroboros.md) | **The Ouroboros** | Cantor's $16.7B repo machine converts Tether reserves into prime broker cash |
-| [4](04_the_reflexive_trap.md) | **The Reflexive Trap** | Goldman holds $9-10B in crypto-adjacent positions; GameStop bought their collateral |
-| [5](05_the_bridge.md) | **The Bridge** | BNY Mellon is the common custodian; Snyder v. Jane Street maps the capital flow |
-| [6](06_the_cash_engine.md) | **The Cash Engine** | Dreyfus repos tripled to $86.2B; the Vanguard control test isolates BNY Mellon |
-| [7](07_the_fingerprint.md) | **The Fingerprint** | A DMA algo runs on 31 tickers; same hardware, different trigger logic on borrow-constrained stocks |
+![## The Series](figures/table_01_00_summary_post.png)
 
 ⬅️ **Previously:** [Boundary Conditions](../04_the_boundary_conditions/01_the_overflow.md) (Parts 1-3)
 ➡️ **Next:** [The Custodian's Ledger](../06_the_custodians_ledger/01_the_satoshi_test.md) (Parts 1-3)

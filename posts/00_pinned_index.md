@@ -78,8 +78,66 @@ Seven-part investigation tracing the offshore synthetic supply chain, the Tether
 | 5 | **The Bridge** — BNY Mellon vertical integration, ISDA CSA margin, Jane Street litigation |  |  |
 | 6 | **The Cash Engine** — Dreyfus $86.2B repos, FTD negative correlation, Vanguard control test |  |  |
 | 7 | **The Fingerprint** — DMA algo on 31 tickers, FTD trigger discriminator, BBBY delisting trigger |  |  |
+| 📋 | **Summary Post** — Plain-language interpretation of the series |  |  |
 
 📄 **Papers:** [The Shadow Ledger](https://github.com/TheGameStopsNow/research/blob/main/papers/07_shadow_ledger_offshore_crypto.md) · [Compliance-as-a-Service](https://github.com/TheGameStopsNow/research/blob/main/papers/08_compliance_as_a_service.md)
+
+---
+
+## Series 6: The Custodian's Ledger
+
+I went inside the blockchain and fingerprinted $915 billion in institutional Bitcoin settlements using a 4-digit modular arithmetic test. Coinbase Prime truncates every delivery to 0.0001 BTC precision — a forensic marker that identified BlackRock (IBIT), Grayscale (GBTC), Crypto.com, and Binance across 100+ wallets. Then I decoded Circle's fleet of 80,690 identical USDC routing contracts that powered the cash creation pipeline.
+
+| # | Post | Reddit | 𝕏 |
+|:-:|------|:------:|:-:|
+| 1 | **The Satoshi Test** — mod_10000=0, FBTC negative control, -380 sat fee passthrough |  |  |
+| 2 | **The Network** — BigQuery scan: 156K deliveries, 13.5M BTC, GBTC/Crypto.com IDs |  |  |
+| 3 | **The Plumbing** — Circle's 80,690 USDC contracts, `0xb76ea962`, Ethereum infrastructure map |  |  |
+
+📄 **Source data:** [IBIT Settlement Forensics Master Report](https://github.com/TheGameStopsNow/research/blob/main/temp/ibit_settlement_forensics_master_report.md) · [BigQuery SQL Suite](https://github.com/TheGameStopsNow/research/blob/main/temp/bigquery_coinbase_fingerprint_scan.sql)
+
+---
+
+## Series 7: The Ask
+
+Regulator-facing synthesis of the enforcement case. *(Held for strategic timing.)*
+
+| # | Post | Reddit | 𝕏 |
+|:-:|------|:------:|:-:|
+| 1 | **The Ask** |  |  |
+
+---
+
+## Series 8: The Terminal Boundary
+
+The NSCC's own audited disclosure shows it was mathematically insolvent for 2 days in Q4 2024. Using PFMI quantitative disclosures, this series presents the clearing system's stress test failures, the 12:1 to 23:1 FTD filter ratio, and the twelve coordinated rule changes filed in December 2025.
+
+| # | Post | Reddit | 𝕏 |
+|:-:|------|:------:|:-:|
+| 1 | **The Autopsy** — PFMI stress tests, $7.07B shortfall, 12:1 FTD filter ratio, twelve rule changes |  |  |
+
+---
+
+## Series 9: The Dark Tape
+
+Four-part investigation documenting the covert channel embedded in the OCC open interest ledger (741/666 steganographic payload), the 49σ spatial anomaly in the intraday NBBO, the 85% ephemeral options channel, and the daily pre-market batch process originating from a single data center in Carteret, NJ.
+
+| # | Post | Reddit | 𝕏 |
+|:-:|------|:------:|:-:|
+| 1 | **The Signature** — 741/666 in OI; 35-month biographical fingerprint; Condition 18 LOTL; P ≈ 2×10⁻¹¹ |  |  |
+| 2 | **The Graffiti** — 49σ spatial anomaly; SVD residuals; negative-space voids; kinetic canvas |  |  |
+| 3 | **The Engine** — 85% ephemeral rate; T+14 evasion loop; T+6 FTD correlation r=0.74 |  |  |
+| 4 | **The Blueprint** — 08:00 ET batch process; Carteret NJ; cross-ticker interleaving; 0% QCT compliance |  |  |
+
+---
+
+## Series 10: The Trojan Horse *(held)*
+
+Speculative forward-looking investigation. *(May not be published.)*
+
+| # | Post | Reddit | 𝕏 |
+|:-:|------|:------:|:-:|
+| 1-5 | Five parts — held for strategic timing |  |  |
 
 ---
 
@@ -91,4 +149,5 @@ Seven-part investigation tracing the offshore synthetic supply chain, the Tether
 
 ---
 
-*Last updated: Mar 2, 2026*
+*Last updated: Mar 3, 2026*
+

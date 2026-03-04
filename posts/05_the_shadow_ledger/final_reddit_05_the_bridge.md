@@ -26,7 +26,7 @@ Two independent Tier-1 market makers, Citadel Securities and Jane Street, are ma
 | **(b) Manages the collateral** | Triparty agent | Industry utility |
 | **(c) Clears the trades** | Pershing LLC | $25.6B securities lent vs. $8.6B borrowed (Dec 31, 2021) |
 | **(d) Custodies the positions** | BNY Mellon custody | $52.1T in AUC/A (Dec 2024) |
-| **(e) Controls the settlement layer** | [Global Collateral Platform](https://www.dtcc.com/dtcc-connection/articles/2023/march/01/simplifying-collateral-management-in-a-complex-world) | DTCC infrastructure |
+| **(e) Operates the settlement layer** | [Global Collateral Platform](https://www.dtcc.com/dtcc-connection/articles/2023/march/01/simplifying-collateral-management-in-a-complex-world) | DTCC infrastructure |
 
 This vertical integration creates a structural blind spot: no external regulator has visibility into the aggregate cash flow from money market investor to settlement failure suppression, because every link in the chain is operated by the same institution.
 
@@ -38,7 +38,7 @@ This vertical integration creates a structural blind spot: no external regulator
 
 Combining the BNY Mellon ISDA CSA data, the Dreyfus cash engine (detailed in [Part 6](06_the_cash_engine.md)), the DMA options tape forensics from Papers V and VIII, and the litigation record, a six-stage integrated model emerges:
 
-> **The "AWS Fallacy" defense:** BNY Mellon custodies $50 trillion in assets. Finding Citadel and Jane Street at BNY Mellon is like finding two tech startups using Amazon Web Services, it proves shared infrastructure, not coordination. This objection misses the point. The forensic significance is not *shared custody*. It's **vertical integration**. No other institution simultaneously generates the cash (Dreyfus MMF), manages the collateral (triparty agent), clears the trades (Pershing), **and** controls the settlement layer (DTCC Global Collateral Platform). AWS doesn't also run the electricity grid, the ISP, and the DNS servers. BNY Mellon does the financial equivalent of all of the above.
+> **The "AWS Fallacy" defense:** BNY Mellon custodies $50 trillion in assets. Finding Citadel and Jane Street at BNY Mellon is like finding two tech startups using Amazon Web Services, it proves shared infrastructure, not coordination. This objection misses the point. The forensic significance is not *shared custody*. It's **vertical integration**. No other institution simultaneously generates the cash (Dreyfus MMF), manages the collateral (triparty agent), clears the trades (Pershing), **and** operates the settlement layer (DTCC Global Collateral Platform). BNY Mellon is an infrastructure operator, not a controlling actor; but no other firm occupies *every layer of the stack simultaneously*. AWS doesn't also run the electricity grid, the ISP, and the DNS servers. BNY Mellon does the financial equivalent of all of the above.
 
 1. **Stage 0: Cash Generation (MMF).** BNY Mellon's Dreyfus fund deploys $80-86 billion in triparty repos to prime broker banks, providing the foundational liquidity layer that finances everything downstream (see [Part 6](06_the_cash_engine.md) for the full breakdown, including the July 2021 regime shift and Vanguard control test).
 

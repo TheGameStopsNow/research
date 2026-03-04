@@ -147,7 +147,7 @@ On 🛁, algorithmic dates are associated with *smaller* FTD drops at all tested
 
 This exhibits the structural signature of what I call *Settlement Deferral*, the rolling of FTD obligations through successive synthetic locate transactions that satisfy the regulatory close-out clock without achieving actual delivery.
 
-![The Delisting Trigger: 🛁 Algo Activity vs Options Delisting](figures/chart_kill_switch.png)
+![The Natural Experiment: BBBY Algo Activity vs Options Delisting](figures/chart_kill_switch.png)
 
 ---
 

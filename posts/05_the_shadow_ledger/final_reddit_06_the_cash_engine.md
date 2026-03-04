@@ -268,7 +268,7 @@ Here is the full system as documented across *The Failure Waterfall* and *The Sh
 
 ### Why It Matters
 
-The settlement system is not merely a regulatory structure that oscillates due to mathematical properties (as documented in [Part 7 of The Failure Waterfall](../03_the_failure_waterfall/07_the_tuning_fork.md)). It oscillates on infrastructure *owned and operated by a single institution* that simultaneously generates the cash, manages the collateral, provides the locates, and controls the settlement layer. The resonance cavity is not an abstract mathematical construct. It is a physical system with an identifiable operator.
+The settlement system is not merely a regulatory structure that oscillates due to mathematical properties (as documented in [Part 7 of The Failure Waterfall](../03_the_failure_waterfall/07_the_tuning_fork.md)). It oscillates on infrastructure *owned and operated by a single institution* that simultaneously generates the cash, manages the collateral, provides the locates, and operates the settlement layer. The resonance cavity is not an abstract mathematical construct. It is a physical system with an identifiable operator.
 
 ### The Fungibility of Cash
 

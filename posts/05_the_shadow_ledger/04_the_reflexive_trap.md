@@ -89,7 +89,7 @@ Now GameStop adds Bitcoin to its balance sheet. This creates a reflexive loop:
 - If **BTC rises**: GME's NAV rises → harder to short GME → Goldman's equity short book suffers → Goldman needs MORE IBIT/MSTR to hedge → more demand for IBIT → BTC rises further
 - If **BTC falls**: Goldman's $2.2B IBIT position falls → margin calls → Goldman sells IBIT → BTC falls further → Tether reserves decline → Ouroboros weakens → less fiat liquidity for the short machine
 
-> **The Authorized Participant defense:** Goldman, Citadel, and Jane Street are [Authorized Participants](https://www.sec.gov/investor/alerts/etfs.pdf) (APs) for Bitcoin ETFs like IBIT. APs are contractually required to hold inventory of the underlying to facilitate create/redeem functions, and they delta-hedge this inventory with options. A defender would argue these positions are delta-neutral market-making, not a proprietary directional proxy hedge. This is a fair point, and it doesn't matter. *Because* they hold these assets for AP duties, their balance sheets are structurally exposed to BTC volatility regardless of intent. The reflexive trap operates through structural exposure, not directional betting.
+> **The Authorized Participant defense:** Goldman, Citadel, and Jane Street are [Authorized Participants](https://www.sec.gov/investor/alerts/etfs.pdf) (APs) for Bitcoin ETFs like IBIT. APs are contractually required to hold inventory of the underlying to facilitate create/redeem functions, and they delta-hedge this inventory with options. A defender would argue these positions are delta-neutral market-making, not a proprietary directional proxy hedge. This is a fair point, and it doesn't matter. *Because* they hold these assets for AP duties, their balance sheets are structurally exposed to BTC volatility regardless of intent. The reflexive trap operates through structural exposure, not directional betting. To be explicit: this analysis describes the *structural consequences* of SEC-mandated AP inventory requirements colliding with a Bitcoin treasury strategy, not an allegation that Goldman or any AP is intentionally coordinating against GME.
 
 > **The scale objection:** GME holds ~$500M in BTC. The crypto market is $2.5 trillion. GME's NAV moving a few hundred million dollars exerts negligible reflexive gravity on a multi-trillion dollar prime broker margin model. But the trap doesn't operate through GME moving the *crypto market*. It operates through GME's *NAV floor*, the BTC on its balance sheet creates a book value that makes the stock harder to short through fundamental valuation arguments. The scale that matters is GME's balance sheet relative to its short interest, not GME's BTC relative to the crypto market.
 
@@ -149,8 +149,7 @@ Across two series and eight posts, here is what the publicly verifiable data sho
 
 The system has four layers: **locates** (supply of shortable shares), **derivatives** (risk transfer), **funding** (yen carry + Tether repo), and **collateral** (crypto proxy hedge). Ryan Cohen attacked the collateral layer. By putting Bitcoin on GME's balance sheet, he introduced a reflexive dependency between GME's fundamental value and the collateral backing the short machine. The same asset the shorts need to maintain their margin is now the asset that makes their target company more valuable.
 
-![The Complete Picture: Four-Layer System Architecture](figures/chart_complete_picture.png)
-*Figure: 15 posts. 4 series. 1 machine.*
+
 
 ---
 

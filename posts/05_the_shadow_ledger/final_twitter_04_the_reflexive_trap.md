@@ -120,8 +120,7 @@ Across two series and eight posts, here is what the publicly verifiable data sho
 
 The system has four layers: **locates** (supply of shortable shares), **derivatives** (risk transfer), **funding** (yen carry + Tether repo), and **collateral** (crypto proxy hedge). Ryan Cohen attacked the collateral layer. By putting Bitcoin on GME's balance sheet, he introduced a reflexive dependency between GME's fundamental value and the collateral backing the short machine. The same asset the shorts need to maintain their margin is now the asset that makes their target company more valuable.
 
-![The Complete Picture: Four-Layer System Architecture](figures/chart_complete_picture.png)
-*Figure: 15 posts. 4 series. 1 machine.*
+
 
 ---
 

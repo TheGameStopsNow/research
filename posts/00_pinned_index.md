@@ -78,10 +78,9 @@ Seven-part investigation tracing the offshore synthetic supply chain, the Tether
 | 5 | **The Bridge** — BNY Mellon vertical integration, ISDA CSA margin, Jane Street litigation |  |  |
 | 6 | **The Cash Engine** — Dreyfus $86.2B repos, FTD negative correlation, Vanguard control test |  |  |
 | 7 | **The Fingerprint** — DMA algo on 31 tickers, FTD trigger discriminator, BBBY delisting trigger |  |  |
+| 📋 | **Summary Post** — Plain-language interpretation of the series |  |  |
 
 📄 **Papers:** [The Shadow Ledger](https://github.com/TheGameStopsNow/research/blob/main/papers/07_shadow_ledger_offshore_crypto.md) · [Compliance-as-a-Service](https://github.com/TheGameStopsNow/research/blob/main/papers/08_compliance_as_a_service.md)
-
----
 
 ---
 
@@ -93,4 +92,5 @@ Seven-part investigation tracing the offshore synthetic supply chain, the Tether
 
 ---
 
-*Last updated: Mar 2, 2026*
+*Last updated: Mar 3, 2026*
+

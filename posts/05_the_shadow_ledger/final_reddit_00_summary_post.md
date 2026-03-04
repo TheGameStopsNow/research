@@ -10,6 +10,9 @@ There's been a lot of interest in this series, but I've been asked to explain wh
 
 ---
 
+![Ticker Key](figures/ticker_legend_00_summary_post.png)
+
+
 ## What Is This Series About?
 
 My [previous series](../04_the_boundary_conditions/01_the_overflow.md) showed that settlement pressure doesn't stay inside GME's pipes. It floods into other stocks, breaks Treasury bond settlement, crosses national borders, and keeps cycling on a cancelled stock. That series ended with a question: *who is actually building the pipes?*
@@ -84,9 +87,9 @@ Cantor is pure plumbing. They take zero directional risk. They clip fees convert
 
 In March 2025, GameStop updated its investment policy to add Bitcoin as a treasury reserve asset. On May 28, 2025, the company announced it had purchased 4,710 BTC (~$504 million), funded by a $1.3 billion convertible notes offering. Most people thought it was a crypto bet. The 13F data (quarterly institutional holdings reports filed with the SEC) suggests something different.
 
-Within one quarter, Goldman Sachs held **$9-10 billion** in crypto-adjacent positions: $2.2 billion in iShares Bitcoin Trust shares, $1.7 billion in IBIT puts, $1.3 billion in iShares Ethereum Trust, $660 million in MicroStrategy puts, $900+ million in Coinbase. Citadel, Susquehanna, and Jane Street all built similar positions. The same firms that appear in the ISDA map are the same firms loading up on the exact asset class GameStop now holds on its balance sheet.
+Within one quarter, Goldman Sachs held **$9-10 billion** in crypto-adjacent positions: $2.2 billion in iShares Bitcoin Trust shares, $1.7 billion in ₿ puts, $1.3 billion in iShares Ethereum Trust, $660 million in MicroStrategy puts, $900+ million in Coinbase. Citadel, Susquehanna, and Jane Street all built similar positions. The same firms that appear in the ISDA map are the same firms loading up on the exact asset class GameStop now holds on its balance sheet.
 
-This creates a trap with no comfortable exit. If Bitcoin rises, GME's net asset value rises, making it harder to short. If Bitcoin falls, Goldman's $2.2 billion IBIT position falls, triggering margin calls, weakening the collateral that backs the Ouroboros.
+This creates a trap with no comfortable exit. If Bitcoin rises, GME's net asset value rises, making it harder to short. If Bitcoin falls, Goldman's $2.2 billion ₿ position falls, triggering margin calls, weakening the collateral that backs the Ouroboros.
 
 > **Update (Jan/Feb 2026):** GameStop transferred all BTC to Coinbase Prime in late January 2026. Cohen publicly stated that a new strategy is "way more compelling than Bitcoin." If GME ultimately sells its BTC, the reflexive loop described above would break. The 13F data showing institutional crypto-adjacent positioning remains valid regardless of GameStop's BTC holdings.
 
@@ -138,13 +141,13 @@ Cash is fungible, and I can't trace a specific dollar from a Dreyfus investor to
 
 This is the part that made me set my laptop down and go for a walk.
 
-Using 2,038 days of tick-level OPRA (Options Price Reporting Authority) data, I found a DMA routing fingerprint: 1-lot trades, sub-$0.10 prices, monotonic sequencing at 90%+, operating on exactly two exchanges. It runs on **31 stocks**, including SPY, AAPL, NVDA, and GME.
+Using 2,038 days of tick-level OPRA (Options Price Reporting Authority) data, I found a DMA routing fingerprint: 1-lot trades, sub-$0.10 prices, monotonic sequencing at 90%+, operating on exactly two exchanges. It runs on **31 stocks**, including 📊, 🍎, 🟩, and GME.
 
-On liquid mega-caps like SPY, the algo runs based purely on market activity. FTDs have zero predictive power (t = 0.38). On borrow-constrained stocks like GME, lagged FTDs are highly significant (**t = +3.86, p < 0.001**), peaking at exactly the T-6 to T-7 Reg SHO close-out window.
+On liquid mega-caps like 📊, the algo runs based purely on market activity. FTDs have zero predictive power (t = 0.38). On borrow-constrained stocks like GME, lagged FTDs are highly significant (**t = +3.86, p < 0.001**), peaking at exactly the T-6 to T-7 Reg SHO close-out window.
 
 Same hardware. Different trigger logic. On stocks where delivery is easy, it trades with the market. On stocks where delivery is hard, it trades with the settlement calendar.
 
-The nail in the coffin is BBBY. During Bed Bath & Beyond's bankruptcy, the algo ran at **3x its normal pace**. But here it *inverted*: instead of resolving FTDs (Failures to Deliver, undelivered shares after the settlement deadline) (like it does on AMC), it actively *deferred* them. On BBBY, algo days are associated with significantly smaller FTD drops at every tested window (p < 0.001).
+The nail in the coffin is 🛁. During Bed Bath & Beyond's bankruptcy, the algo ran at **3x its normal pace**. But here it *inverted*: instead of resolving FTDs (Failures to Deliver, undelivered shares after the settlement deadline) (like it does on 🎬), it actively *deferred* them. On 🛁, algo days are associated with significantly smaller FTD drops at every tested window (p < 0.001).
 
 And the algo ceased on the **exact date** the options chain was delisted. Not the bankruptcy filing. Not the equity delisting. The options chain. The delisting trigger was the options market.
 
@@ -164,9 +167,9 @@ I don't know who operates this algo. The OPRA data is anonymized. But the venue 
 
 2. **"The Dreyfus correlation is just macro liquidity."** The Vanguard control test says otherwise: r = +0.096, p = 0.619 vs. Dreyfus r = -0.42, p = 0.022. Only BNY Mellon's cash pool.
 
-3. **"The DMA algo is just normal market-making."** On SPY: zero FTD correlation. On GME: t = +3.86 at the Reg SHO deadline. Same hardware, different trigger.
+3. **"The DMA algo is just normal market-making."** On 📊: zero FTD correlation. On GME: t = +3.86 at the Reg SHO deadline. Same hardware, different trigger.
 
-4. **"BBBY is a glitch."** The algo ran 3x during bankruptcy, inverted its FTD relationship, and ceased on the exact date of options delisting. Glitches don't have delisting triggers.
+4. **"🛁 is a glitch."** The algo ran 3x during bankruptcy, inverted its FTD relationship, and ceased on the exact date of options delisting. Glitches don't have delisting triggers.
 
 5. **"The Bitcoin move was just a crypto bet."** Goldman, Citadel, and SIG all massively expanded crypto-adjacent positions within one quarter. The 13F data shows institutional reflexive hedging, not a meme trade.
 

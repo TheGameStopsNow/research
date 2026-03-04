@@ -7,7 +7,7 @@ were supposedly closing. And the firm that purchased FTX's bankruptcy claims, th
 
 > **📄 Full academic papers:** [The Long Gamma Default (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices.pdf?raw=1), [The Shadow Algorithm (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Shadow%20Algorithm-%20Adversarial%20Microstructure%20Forensics%20in%20Options-Driven%20Equity%20Markets.pdf?raw=1), [Exploitable Infrastructure (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Exploitable%20Infrastructure-%20Regulatory%20Implications%20of%20the%20Long%20Gamma%20Default%20and%20Adversarial%20Microstructure%20Forensics.pdf?raw=1), [Cross-Domain Corroboration (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Cross-Domain%20Corroboration-%20Physical%20Infrastructure%2C%20Settlement%20Mechanics%2C%20and%20Macro%20Funding%20of%20Options-Driven%20Equity%20Displacement.pdf?raw=1)
 
-*[Options & Consequences](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1/) mapped tape fractures, balance sheets, microwave physics, and yen funding. [Part 1](01_the_fake_locates.md) presented evidence of phantom locates. This post traces where the risk appears to have been transferred.*
+*[Options & Consequences](https://x.com/TheGameStopsNow/status/2025240276915089471) mapped tape fractures, balance sheets, microwave physics, and yen funding. [Part 1](01_the_fake_locates.md) presented evidence of phantom locates. This post traces where the risk appears to have been transferred.*
 
 ---
 

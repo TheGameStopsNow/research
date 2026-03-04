@@ -184,7 +184,7 @@ Based on confirmed exchange memberships, DPM assignments, and the MIAX Pearl/Nas
 | Firm | Candidacy | Basis |
 | --- | --- | --- |
 | **Citadel Securities** | ~85% | 32% U.S. options volume; confirmed Pearl + BX memberships |
-| **Wolverine Trading** | ~75% | Confirmed GME DPM; identical prior SEC enforcement |
+| **Wolverine Trading** | ~75% | Confirmed GME DPM; identical prior FINRA enforcement |
 | **Susquehanna (SIG)** | ~65% | Probable venue access; largest MSTR options holder |
 
 Definitive identification requires the [MIAX Pearl](https://www.miaxglobal.com/markets/us-options/pearl-options) Level 3 un-anonymized Liquidity Feed, which contains the executing firm MPID for every trade. It costs approximately $2,000.

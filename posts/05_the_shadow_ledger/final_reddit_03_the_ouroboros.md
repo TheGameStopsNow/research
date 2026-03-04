@@ -18,7 +18,7 @@ Every filing for both Cantor entities is available on [SEC EDGAR](https://www.se
 
 ### What the 13F Shows: Nothing
 
-**Cantor Fitzgerald & Co.** (CIK 0000017018), the broker-dealer entity that handles the actual custody, files **13F-NT** (Notice of Inability to File). This means they claim to hold less than $100 million in 13F-qualifying securities.
+**Cantor Fitzgerald & Co.** (CIK 0000017018), the broker-dealer entity that handles the actual custody, files **13F-NT** (Notice Filing). A 13F-NT indicates that the filer's 13F-qualifying holdings are reported on another manager's filing — in this case, the parent entity Cantor Fitzgerald, L.P.
 
 **Cantor Fitzgerald, L.P.** ([CIK 0001024896](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001024896&type=&dateb=&owner=include&count=40)), the parent partnership, files 13F-HR. A review of all 10 quarterly filings from Q1 2024 through Q4 2025 shows: **zero Treasury ETF positions, zero Bitcoin ETF positions, zero MSTR positions.** Their 13F shows generic equity holdings in no way connected to their Treasury custody business.
 

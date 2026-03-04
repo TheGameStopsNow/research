@@ -18,13 +18,13 @@ Every filing for both Cantor entities is available on [SEC EDGAR](https://www.se
 
 ### What the 13F Shows: Nothing
 
-**Cantor Fitzgerald & Co.** (CIK 0000017018), the broker-dealer entity that handles the actual custody, files **13F-NT** (Notice of Inability to File). This means they claim to hold less than $100 million in 13F-qualifying securities.
+**Cantor Fitzgerald & Co.** (CIK 0000017018), the broker-dealer entity that handles the actual custody, files **13F-NT** (Notice Filing). A 13F-NT indicates that the filer's 13F-qualifying holdings are reported on another manager's filing — in this case, the parent entity Cantor Fitzgerald, L.P.
 
 **Cantor Fitzgerald, L.P.** ([CIK 0001024896](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001024896&type=&dateb=&owner=include&count=40)), the parent partnership, files 13F-HR. A review of all 10 quarterly filings from Q1 2024 through Q4 2025 shows: **zero Treasury ETF positions, zero Bitcoin ETF positions, zero MSTR positions.** Their 13F shows generic equity holdings in no way connected to their Treasury custody business.
 
 *Source: SEC EDGAR Submissions API, CIK 0000017018 (13F-NT) and CIK 0001024896 (13F-HR), Q1 2024 – Q4 2025. Script: [`cantor_fitzgerald.py`](https://github.com/TheGameStopsNow/research/tree/main/code)*
 
-The entity custodying $100B+ in Tether reserves claims to hold less than $100M in reportable securities. The Treasuries held for Tether don't appear on any 13F because they flow through the **repo market**, not the equity market.
+The entity custodying $100B+ in Tether reserves delegates its 13F reporting to the parent LP — and that parent's 13F-HR shows zero Treasury positions. The Treasuries held for Tether don't appear on any 13F because they flow through the **repo market**, not the equity market. Repo collateral and securities held in a custodial (fiduciary) capacity are excluded from 13F reporting.
 
 ### What the X-17A-5 Shows: The $16.7 Billion Machine
 

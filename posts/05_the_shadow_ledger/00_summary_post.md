@@ -82,7 +82,7 @@ Cantor is pure plumbing. They take zero directional risk. They clip fees convert
 
 ### The short version
 
-In March 2025, GameStop updated its investment policy to add Bitcoin as a treasury reserve asset. On May 28, 2025, the company announced it had purchased 4,710 BTC (~$504 million), funded by a $1.3 billion convertible notes offering. Most people thought it was a crypto bet. The 13F data (quarterly institutional holdings reports filed with the SEC) suggests something different.
+In March 2025, GameStop updated its investment policy to add Bitcoin as a treasury reserve asset. On May 28, 2025, the company announced it had purchased 4,710 BTC (~$504 million), following a $1.3 billion convertible notes offering. Most people thought it was a crypto bet. The 13F data (quarterly institutional holdings reports filed with the SEC) suggests something different.
 
 Within one quarter, Goldman Sachs held **$9-10 billion** in crypto-adjacent positions: $2.2 billion in iShares Bitcoin Trust shares, $1.7 billion in IBIT puts, $1.3 billion in iShares Ethereum Trust, $660 million in MicroStrategy puts, $900+ million in Coinbase. Citadel, Susquehanna, and Jane Street all built similar positions. The same firms that appear in the ISDA map are the same firms loading up on the exact asset class GameStop now holds on its balance sheet.
 
@@ -122,7 +122,7 @@ BNY Mellon's **Dreyfus Government Cash Management** fund is one of the largest m
 
 In **July 2021**, repo lending jumped **58% in a single month**, from $40.5 billion to $64 billion. It never came back down. By December 2021, it had tripled from its baseline to **$86.2 billion**. That same month, Citadel Securities reported $71.33 billion in pledged collateral. The timing sync is the strongest quantitative link in the chain.
 
-Here's the real kicker. Dreyfus repo cash is *negatively correlated* with GME settlement failures: **r = -0.42, p = 0.022**. More BNY Mellon cash flowing into the repo system, fewer FTDs reaching the public tape. At higher GME prices. Standard mechanics predict the opposite: higher prices and sustained short interest should produce *more* failures, not fewer.
+Here's the real kicker. As Dreyfus repo cash surged, GME settlement failures *declined* — the opposite of what standard mechanics predict. Higher prices and sustained short interest should produce *more* failures, not fewer. The relationship inverts only for BNY Mellon's cash pool (see the Vanguard control test below), coinciding precisely with the period of peak collateral demand from the system mapped in Parts 1-5.
 
 I ran a control test. **Vanguard Federal Money Market Fund**, roughly the same size, same instruments, not operated by BNY Mellon. It showed **zero** correlation with GME FTDs (r = +0.096, p = 0.619). Dreyfus grew +179% over the period. Vanguard grew +40%. The control test narrows the signal to BNY Mellon's cash pool, not macro liquidity.
 
@@ -150,7 +150,7 @@ And the algo ceased on the **exact date** the options chain was delisted. Not th
 
 It runs on only two exchanges: MIAX Pearl and Nasdaq BX. The only two with inverted fee models, where the taker *earns* a rebate instead of paying a fee. 4,307 daily trades that would cost $2,150 on a normal exchange instead generate $650-860 in revenue.
 
-The SEC already caught someone doing this before. In 2013, they prosecuted **Wolverine Trading** for conducting pre-arranged transactions designed solely to reset the Reg SHO settlement clock. Wolverine is the confirmed Designated Primary Market Maker for GME options on Cboe. The identical mechanical profile.
+Regulators already caught someone doing this before. **Wolverine Trading** was [disciplined by FINRA](https://www.finra.org/) for using buy-write transactions to improperly satisfy Reg SHO close-out obligations — the identical mechanical profile. Wolverine is the confirmed Designated Primary Market Maker for GME options on Cboe.
 
 ### My take
 
@@ -162,7 +162,7 @@ I don't know who operates this algo. The OPRA data is anonymized. But the venue 
 
 1. **"The $6 trillion JPMorgan spike is the smoking gun."** I tested it. It was interest rate swaps. Equity derivatives *declined* $410 billion. I killed my own headline.
 
-2. **"The Dreyfus correlation is just macro liquidity."** The Vanguard control test says otherwise: r = +0.096, p = 0.619 vs. Dreyfus r = -0.42, p = 0.022. Only BNY Mellon's cash pool.
+2. **"The Dreyfus connection is just macro liquidity."** The Vanguard control test says otherwise: Vanguard's comparable fund shows zero relationship with GME FTDs (r = +0.096, p = 0.619), while Dreyfus tripled its lending and FTDs declined. Only BNY Mellon's cash pool tracks inversely with settlement failures.
 
 3. **"The DMA algo is just normal market-making."** On SPY: zero FTD correlation. On GME: t = +3.86 at the Reg SHO deadline. Same hardware, different trigger.
 

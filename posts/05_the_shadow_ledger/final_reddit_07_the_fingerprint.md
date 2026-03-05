@@ -233,4 +233,20 @@ If you're a financial regulator, attorney, or data provider reading this: the su
 
 **[github.com/TheGameStopsNow/research](https://github.com/TheGameStopsNow/research)**
 
+---
 
+## The Shadow Ledger
+
+| Part | Title |
+|:----:|:------|
+| [1](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/) | The Fake Locates |
+| [2](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/) | The Derivative Paper Trail |
+| [3](https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/) | The Ouroboros |
+| [4](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/) | The Reflexive Trap |
+| [5](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/) | The Bridge |
+| [6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/) | The Cash Engine |
+| **7** | **The Fingerprint** ← you are here |
+| [📋](https://www.reddit.com/r/Superstonk/comments/1rl3q1y/the_shadow_ledger_summary_post/) | Summary Post |
+
+⬅️ **Previous:** [Part 6: The Cash Engine](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/)
+📋 **[Summary Post](https://www.reddit.com/r/Superstonk/comments/1rl3q1y/the_shadow_ledger_summary_post/)**

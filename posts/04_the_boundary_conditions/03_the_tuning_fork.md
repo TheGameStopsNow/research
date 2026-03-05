@@ -214,7 +214,7 @@ Here is the settlement system as documented across the full [Failure Waterfall](
 | **The Ticker Overflow** | Spectral migration from GME to KOSS under T+1 | +1,051% at T+33 (z=1,050.9); float-normalized | [BC 1](01_the_overflow.md) |
 | **The Sovereign Contamination** | GME FTDs Granger-cause Treasury FTDs | F=19.20, p<0.0001; unique among 7 equities | [BC 1](01_the_overflow.md) |
 | **The Cross-Border Export** | 5,714:1 CSDR/Reg SHO cost asymmetry | EU eq/ETF spike at U.S. events; bonds do not | [BC 2](02_the_export.md) |
-| **The Zombie Obligations** | 824-day FTDs on cancelled CUSIP | 0% admin noise; 43% block-sized cycling | [BC 2](02_the_export.md) |
+| ~~**The Zombie Obligations**~~ | ~~824-day FTDs on cancelled CUSIP~~ | **RETRACTED** — ticker collision; see [Correction #22](https://github.com/TheGameStopsNow/research/blob/main/papers/corrections.md) | [BC 2](02_the_export.md) |
 | **The Emergence** | ABM produces macrocycle from rules alone | 42.3x Welch PSD; no period hard-coded | 7 (this post) |
 | **The Compression** | T+1 shifts 4th harmonic to annual cycle | LCM: 2,730 to 1,020 bd | 7 (this post) |
 | **The Fix** | Coprime deadlines eliminate resonance cavity | LCM: 37,037 bd (~147 years) | 7 (this post) |

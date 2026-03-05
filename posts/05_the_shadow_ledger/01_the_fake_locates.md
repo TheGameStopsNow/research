@@ -1,8 +1,8 @@
 # The Shadow Ledger, Part 1: The Fake Locates
 
-# Part 1 of 7 // Series: [Options & Consequences](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1/)
+# Part 1 of 7
 
-**TL;DR:** *Options & Consequences* mapped the domestic infrastructure: the tape fractures, the balance sheets, the microwave algorithms, and the yen carry trade. But it left one question unanswered, where did Wall Street find 263 million shares to deliver when 140% of the float was already short? The trail leads offshore. FTX offered "Tokenized Stocks", synthetic GME shares supposedly backed 1:1 by real shares held at a German broker called CM-Equity AG. German sovereign audit data shows CM-Equity had only €32.7 million in total assets. Meanwhile, in the FTX bankruptcy, Binance demanded $65 million in collateral from CM-Equity under the Tokenized Stocks Agreement, a sum nearly double CM-Equity's entire balance sheet. And the FTX Trustee's sworn Schedule of Assets shows zero GameStop shares. The evidence strongly suggests the tokens were not backed by real shares. They appear to have functioned as phantom locates, and when FTX collapsed, GME delivery failures surged onto the lit tape.
+**TL;DR:** *[Options & Consequences](https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1/)* mapped the domestic infrastructure: the tape fractures, the balance sheets, the microwave algorithms, and the yen carry trade. But it left one question unanswered, where did Wall Street find 263 million shares to deliver when 140% of the float was already short? The trail leads offshore. FTX offered "Tokenized Stocks", synthetic GME shares supposedly backed 1:1 by real shares held at a German broker called CM-Equity AG. German sovereign audit data shows CM-Equity had only €32.7 million in total assets. Meanwhile, in the FTX bankruptcy, Binance demanded $65 million in collateral from CM-Equity under the Tokenized Stocks Agreement, a sum nearly double CM-Equity's entire balance sheet. And the FTX Trustee's sworn Schedule of Assets shows zero GameStop shares. The evidence strongly suggests the tokens were not backed by real shares. They appear to have functioned as phantom locates, and when FTX collapsed, GME delivery failures surged onto the lit tape.
 
 > **📄 Full academic papers:** [The Long Gamma Default (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices.pdf?raw=1), [The Shadow Algorithm (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Shadow%20Algorithm-%20Adversarial%20Microstructure%20Forensics%20in%20Options-Driven%20Equity%20Markets.pdf?raw=1), [Exploitable Infrastructure (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Exploitable%20Infrastructure-%20Regulatory%20Implications%20of%20the%20Long%20Gamma%20Default%20and%20Adversarial%20Microstructure%20Forensics.pdf?raw=1), [Cross-Domain Corroboration (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Cross-Domain%20Corroboration-%20Physical%20Infrastructure%2C%20Settlement%20Mechanics%2C%20and%20Macro%20Funding%20of%20Options-Driven%20Equity%20Displacement.pdf?raw=1)
 
@@ -54,9 +54,6 @@ CM-Equity AG's audited financial statements are publicly available on the [Bunde
 
 *Source: Bundesanzeiger (bundesanzeiger.de), CM-Equity AG annual audited financial reports, FY2019–FY2022. These are sovereign government records maintained under the German Commercial Code (HGB §325).*
 
-![CM-Equity AG: Total Assets vs. Bankruptcy Claims](figures/chart_cm_equity_balance.png)
-*Figure: CM-Equity's total assets vs. the $65M collateral claim. A scale that raises serious questions.*
-
 CM-Equity's **total assets at its absolute peak** were **€32.7 million** (~$36 million). This includes everything, cash, securities in custody, receivables, fixed assets. Everything the firm owned.
 
 During this same period, FTX claimed CM-Equity was custodying billions of dollars in tokenized stock backing. Gamestop alone traded hundreds of millions of dollars in daily volume. CM-Equity would have needed to hold real shares for every token minted, across GME, Tesla, Apple, Amazon, and dozens of other names.
@@ -94,6 +91,9 @@ Now do the math:
 | Binance **arbitration against CM-Equity** | Kroll Docket 11626-6 | **$65,000,000** |
 | CM-Equity **Swiss claim against FTX Europe** | Kroll Docket 11626-6 | **€68,544,156** |
 | Settlement (CM-Equity accepted) | Kroll Docket 14301 | **$51,000,000** |
+
+![CM-Equity AG: Total Assets vs. Bankruptcy Claims](figures/chart_cm_equity_balance.png)
+*Figure: CM-Equity's total assets vs. the $65M collateral claim. A scale that raises serious questions.*
 
 **The scale raises serious questions.** A broker-dealer reporting €32.7M in *total assets* was entangled in $65M+ in collateral flows under the Tokenized Stocks Agreement. The $65M figure represents collateral that Binance transferred to CM-Equity and demanded back, making it a *liability*, not an asset on CM-Equity's books.
 

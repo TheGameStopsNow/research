@@ -6,7 +6,7 @@
 
 > **📄 Full academic paper:** [The Shadow Ledger: Offshore Synthetic Supply (Paper VII)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Shadow%20Ledger-%20Offshore%20Synthetic%20Supply%2C%20Derivative%20Risk%20Transfer%2C%20and%20Collateral%20Reflexivity%20in%20the%20GameStop%20Ecosystem.pdf)
 
-*[Part 1](01_the_fake_locates.md) presented evidence of phantom locates. [Part 2](02_the_6_trillion_swap.md) traced the risk transfer. [Part 3](03_the_ouroboros.md) followed the funding. [Part 4](04_the_reflexive_trap.md) mapped the endgame. This post connects the layers. [Part 6](06_the_cash_engine.md) maps the cash that makes it all possible.*
+*[Part 1](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/) presented evidence of phantom locates. [Part 2](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/) traced the risk transfer. [Part 3](https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/) followed the funding. [Part 4](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/) mapped the endgame. This post connects the layers. [Part 6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/) maps the cash that makes it all possible.*
 
 ---
 
@@ -22,7 +22,7 @@ Two independent Tier-1 market makers, Citadel Securities and Jane Street, are ma
 
 | Role | Function | Scale |
 | --- | --- | --- |
-| **(a) Generates the cash** | Dreyfus MMF | $86.2B peak repo ([Part 6](06_the_cash_engine.md)) |
+| **(a) Generates the cash** | Dreyfus MMF | $86.2B peak repo ([Part 6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/)) |
 | **(b) Manages the collateral** | Triparty agent | Industry utility |
 | **(c) Clears the trades** | Pershing LLC | $25.6B securities lent vs. $8.6B borrowed (Dec 31, 2021) |
 | **(d) Custodies the positions** | BNY Mellon custody | $52.1T in AUC/A (Dec 2024) |
@@ -36,17 +36,17 @@ This vertical integration creates a structural blind spot: no external regulator
 
 ## 2. The Six-Stage Capital Flow Model
 
-Combining the BNY Mellon ISDA CSA data, the Dreyfus cash engine (detailed in [Part 6](06_the_cash_engine.md)), the DMA options tape forensics from Papers V and VIII, and the litigation record, a six-stage integrated model emerges:
+Combining the BNY Mellon ISDA CSA data, the Dreyfus cash engine (detailed in [Part 6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/)), the DMA options tape forensics from Papers V and VIII, and the litigation record, a six-stage integrated model emerges:
 
 > **The "AWS Fallacy" defense:** BNY Mellon custodies $50 trillion in assets. Finding Citadel and Jane Street at BNY Mellon is like finding two tech startups using Amazon Web Services, it proves shared infrastructure, not coordination. This objection misses the point. The forensic significance is not *shared custody*. It's **vertical integration**. No other institution simultaneously generates the cash (Dreyfus MMF), manages the collateral (triparty agent), clears the trades (Pershing), **and** operates the settlement layer (DTCC Global Collateral Platform). BNY Mellon is an infrastructure operator, not a controlling actor; but no other firm occupies *every layer of the stack simultaneously*. AWS doesn't also run the electricity grid, the ISP, and the DNS servers. BNY Mellon does the financial equivalent of all of the above.
 
-1. **Stage 0: Cash Generation (MMF).** BNY Mellon's Dreyfus fund deploys $80-86 billion in triparty repos to prime broker banks, providing the foundational liquidity layer that finances everything downstream (see [Part 6](06_the_cash_engine.md) for the full breakdown, including the July 2021 regime shift and Vanguard control test).
+1. **Stage 0: Cash Generation (MMF).** BNY Mellon's Dreyfus fund deploys $80-86 billion in triparty repos to prime broker banks, providing the foundational liquidity layer that finances everything downstream (see [Part 6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/) for the full breakdown, including the July 2021 regime shift and Vanguard control test).
 
 2. **Stage 1: Settlement Pressure ([Equities](https://www.dtcc.com/clearing-services/equities-clearing-services)).** The firm operates as a Primary Lead Market Maker for borrow-constrained retail stocks, generating persistent FTDs that cycle through the 15-node regulatory waterfall documented in [Failure Waterfall Part 1](https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/).
 
 3. **Stage 2: Margin Stress (TradFi).** The NSCC (National Securities Clearing Corporation, central counterparty for equity settlement) assesses [VaR](https://www.dtcc.com/clearing-services/equities-clearing-services/risk-management) (Value at Risk, statistical measure of maximum expected loss) margin against gross [FTDs](https://www.sec.gov/data-research/sec-markets-data/fails-deliver-data). Simultaneously, rate changes trigger ISDA CSA variation margin calls on the firm's London derivatives book (BNY Mellon Charge 0014). The firm is capital-constrained.
 
-4. **Stage 3: Synthetic Relief (Options).** The DMA algo ([Part 7](07_the_fingerprint.md)) generates thousands of 1-lot near-ATM 0DTE option trades on inverted-fee exchanges (MIAX Pearl, Nasdaq BX), "renting delta" for the duration of the NSCC's 4:15 PM margin snapshot.
+4. **Stage 3: Synthetic Relief (Options).** The DMA algo ([Part 7](https://www.reddit.com/r/Superstonk/comments/1rl39km/the_shadow_ledger_part_7_the_fingerprint/)) generates thousands of 1-lot near-ATM 0DTE option trades on inverted-fee exchanges (MIAX Pearl, Nasdaq BX), "renting delta" for the duration of the NSCC's 4:15 PM margin snapshot.
 
 5. **Stage 4: Crypto Liquidation.** When synthetic relief is insufficient under macro stress (April 2022 rate hikes), the firm's crypto desk liquidates digital assets to raise pristine fiat USD.
 
@@ -69,13 +69,13 @@ Named defendants include Robert Granieri (co-founder) and Michael Huang (executi
 | Layer | Evidence | Source |
 | --- | --- | --- |
 | **The Common Custodian** | Both Citadel and Jane Street file ISDA CSA charges with BNY Mellon | UK Companies House |
-| **The Cash Engine** | Dreyfus repos tripled from $28.6B to $86.2B; 58% regime shift Jul 2021 | SEC DERA N-MFP ([Part 6](06_the_cash_engine.md)) |
+| **The Cash Engine** | Dreyfus repos tripled from $28.6B to $86.2B; 58% regime shift Jul 2021 | SEC DERA N-MFP ([Part 6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/)) |
 | **The Vertical Integration** | BNY Mellon runs cash, collateral, clearing, custody, and settlement | Public filings |
 | **The Litigation** | Snyder alleges MNPI crypto pipeline at Jane Street | [PACER](https://www.courtlistener.com/), [CourtListener](https://www.courtlistener.com/) |
 
 The bridge connects the equity settlement desk (Stages 1-2) to the crypto liquidation pipeline (Stages 4-5) through a single custodian (BNY Mellon) using a standardized margin framework (ISDA CSA). When the equity desk needs cash, the crypto desk liquidates. When the crypto desk needs compliance, the options algo generates synthetic close-outs. The layers are not independent systems. They are one machine with six moving parts.
 
-*In [Part 6](06_the_cash_engine.md), we follow the cash to its source. In [Part 7](07_the_fingerprint.md), we identify the fingerprint of the machine.*
+*In [Part 6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/), we follow the cash to its source. In [Part 7](https://www.reddit.com/r/Superstonk/comments/1rl39km/the_shadow_ledger_part_7_the_fingerprint/), we identify the fingerprint of the machine.*
 
 ---
 

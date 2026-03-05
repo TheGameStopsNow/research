@@ -6,7 +6,7 @@
 
 > **📄 Full academic papers:** [The Long Gamma Default (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices.pdf?raw=1), [The Shadow Algorithm (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Shadow%20Algorithm-%20Adversarial%20Microstructure%20Forensics%20in%20Options-Driven%20Equity%20Markets.pdf?raw=1), [Exploitable Infrastructure (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Exploitable%20Infrastructure-%20Regulatory%20Implications%20of%20the%20Long%20Gamma%20Default%20and%20Adversarial%20Microstructure%20Forensics.pdf?raw=1), [Cross-Domain Corroboration (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Cross-Domain%20Corroboration-%20Physical%20Infrastructure%2C%20Settlement%20Mechanics%2C%20and%20Macro%20Funding%20of%20Options-Driven%20Equity%20Displacement.pdf?raw=1)
 
-*[Part 1](01_the_fake_locates.md) presented evidence of phantom locates. [Part 2](02_the_6_trillion_swap.md) traced the risk transfer. This post follows the money to its source.*
+*[Part 1](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/) presented evidence of phantom locates. [Part 2](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/) traced the risk transfer. This post follows the money to its source.*
 
 ---
 
@@ -20,7 +20,7 @@ Every filing for both Cantor entities is available on [SEC EDGAR](https://www.se
 
 **Cantor Fitzgerald & Co.** (CIK 0000017018), the broker-dealer entity that handles the actual custody, files **13F-NT** (Notice Filing). A 13F-NT indicates that the filer's 13F-qualifying holdings are reported on another manager's filing — in this case, the parent entity Cantor Fitzgerald, L.P.
 
-**Cantor Fitzgerald, L.P.** ([CIK 0001024896](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001024896&type=&dateb=&owner=include&count=40)), the parent partnership, files 13F-HR. A review of all 10 quarterly filings from Q1 2024 through Q4 2025 shows: **zero Treasury ETF positions, zero Bitcoin ETF positions, zero MSTR positions.** Their 13F shows generic equity holdings in no way connected to their Treasury custody business.
+**Cantor Fitzgerald, L.P.** ([CIK 0001024896](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001024896&type=&dateb=&owner=include&count=40)), the parent partnership, files 13F-HR. A review of all 10 quarterly filings from Q1 2024 through Q4 2025 shows: **zero Treasury ETF positions, zero Bitcoin ETF positions, zero MicroStrategy positions.** Their 13F shows generic equity holdings in no way connected to their Treasury custody business.
 
 *Source: SEC EDGAR Submissions API, CIK 0000017018 (13F-NT) and CIK 0001024896 (13F-HR), Q1 2024 – Q4 2025. Script: [`cantor_fitzgerald.py`](https://github.com/TheGameStopsNow/research/tree/main/code)*
 
@@ -118,8 +118,8 @@ On August 13, the Tether mint day:
 
 > **The N=1 caveat:** This is a single observation. The [GCF market](https://www.dtcc.com/clearing-services/ficc-gov/gcf-repo) processes ~$200B daily, and mid-month Treasury auction settlement regularly causes $20B+ swings. A $1B Tether mint cannot mechanically account for a $20B GCF spike without significant leverage or multiplier effects. A systematic test of all Tether mints >$500M over 3 years against GCF volume, controlling for Treasury settlement dates, is required for statistical confidence. I present this as a *consistent observation*, not a causal proof.
 
+*Figure: GCF repo spiked +11.6% on the exact day Tether minted $1B USDT (source: Tether transparency page).*
 ![U.S. Repo Market by Channel: August 2024](figures/chart_gcf_spike.png)
-*Figure: GCF repo spiked +11.6% on the exact day [Tether minted $1B USDT](https://tether.to/en/transparency/).*
 
 ---
 
@@ -136,7 +136,7 @@ The Ouroboros doesn't just connect crypto to TradFi through the repo market. It 
 | Aug 7, 2024 | Sells 11,501 ETH ($29M); redeems $48M from Lido | CoinSpeaker |
 | Aug 14, 2024 | Unstakes 17,049 ETH ($46.4M) — moves to selling address "0xf58" | SpotonChain |
 
-*Sources: Arkham Intelligence on-chain tracking, August 2024. [CoinSpeaker (Aug 14, 2024)](https://www.coinspeaker.com/), [CryptoNews AU (Aug 5, 2024)](https://cryptonews.com.au/).*
+*Sources: Arkham Intelligence on-chain tracking, August 2024. CoinSpeaker (Aug 14, 2024), CryptoNews AU (Aug 5, 2024).*
 
 ![Jump Trading: Ethereum Liquidation Sequence](figures/chart_jump_eth_liquidation.png)
 *Figure: Jump's $377M ETH sell-off synchronized with the yen carry trade unwind.*

@@ -6,13 +6,15 @@
 
 > **📄 Full academic paper:** [Compliance-as-a-Service (Paper VIII)](https://github.com/TheGameStopsNow/research/blob/main/papers/Compliance-as-a-Service-%20Asynchronous%20Complex%20Orders%20and%20Regulatory%20Arbitrage%20in%20U.S.%20Equity%20Settlement.pdf?raw=1)
 
-*[Part 1](01_the_fake_locates.md) presented evidence of phantom locates. [Part 2](02_the_6_trillion_swap.md) traced the risk transfer. [Part 3](03_the_ouroboros.md) followed the funding. [Part 4](04_the_reflexive_trap.md) mapped the endgame. [Part 5](05_the_bridge.md) connected the layers. [Part 6](06_the_cash_engine.md) followed the money. This post identifies the machine.*
+*[Part 1](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/) presented evidence of phantom locates. [Part 2](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/) traced the risk transfer. [Part 3](https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/) followed the funding. [Part 4](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/) mapped the endgame. [Part 5](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/) connected the layers. [Part 6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/) followed the money. This post identifies the machine.*
 
 ---
 
 ## 1. The Host Infrastructure
 
 Some background: every options trade in the U.S. is reported through [OPRA](https://www.opraplan.com/) (Options Price Reporting Authority) with a timestamp, exchange ID, condition code, contract specs, price, size, and sequence number. Using 2,038 days of tick-level OPRA data from ThetaData, I scanned 54 securities for anomalous algorithmic patterns.
+
+> **Selection criteria:** The 54-ticker universe consists of the most-discussed tickers on r/Superstonk, r/wallstreetbets, and r/amcstock, plus liquid ETF controls (📊, 📈, QQQ). Tickers were selected by community discussion frequency, not by expected results. Of these, 31 showed the identified fingerprint; the remaining 23 showed no statistically distinguishable pattern at the defined thresholds (≤5 lots, ≤$0.10 premium, inverted-fee venue, algorithmic condition codes).
 
 I found one. It operates on 31 of 54 securities scanned.
 
@@ -82,6 +84,8 @@ On borrow-constrained securities, lagged FTDs are highly significant (p < 0.001)
 
 The identical execution hardware produces zero FTD correlation on liquid securities and highly significant FTD correlation on borrow-constrained securities. **The trigger logic, not the execution mechanism, distinguishes compliant market-making from settlement management.**
 
+> **Methods note:** OLS with intercept; covariates: total daily options volume, intraday price-range volatility proxy. GME: n=1,681 trading days (df=1,677), T-7 lag. 🎬: n=66 trading days (df=62), T-7 lag. Lag selected by scanning T-3 through T-7 and reporting peak significance at T-7 for both tickers; no Bonferroni correction applied across lags because the T-5 to T-7 window was hypothesis-driven (Reg SHO Rule 204 close-out window), not data-mined. Residual diagnostics show mild positive autocorrelation (Durbin-Watson ≈ 1.5 for GME); Newey-West HAC standard errors with 5 lags yield a modestly reduced GME t-statistic of ≈3.2 (still p < 0.002). The 🎬 result (n=66) should be interpreted with caution due to the small sample size.
+
 > **The omitted variable defense:** A critic would argue that volatility drives both FTDs and algorithmic pinging. High-volatility periods produce more FTDs (wider spreads, harder-to-borrow conditions) and more HFT activity (more profitable scalping). Volatility is the omitted variable driving both, creating a spurious correlation. This regression should ideally include intraday realized volatility and bid-ask spread as additional covariates. However, the fact that FTDs are significant at lag T-7 (not T+0) argues against contemporaneous volatility confounding, volatility from a week ago should not predict today's algo activity unless the algo is specifically responding to settlement pressure.
 
 > **The maker-taker arbitrage defense:** The algo concentrates on Pearl and BX — two venues with specific fee structures that shape routing incentives (BX operates an inverted taker-maker model; Pearl is maker-taker with thinner order books). HFTs run 1-lot algorithms on such venues continuously to harvest sub-penny rebates, this is standard micro-scalping cost-optimization. The response: if it were standard rebate arbitrage, it would trigger on 📊 and 🍎 based on market volume. It does. But on GME and 🎬, lagged FTDs add significant explanatory power (t=3.86, p<0.001) that doesn't exist on liquid securities. The venue routing is real; the discriminant trigger is the finding.
@@ -127,7 +131,7 @@ The algo shifted from predominantly puts (64-83%) in the Pearl-dominant era to p
 
 ## 5. The Delisting Trigger: 🛁 Proves It
 
-[Bed Bath & Beyond filed for Chapter 11](https://cases.ra.kroll.com/702702/) bankruptcy on April 23, 2023. During the bankruptcy, the identified fingerprint executed an average of **600+ qualifying trades per day** on 🛁, **3x its pre-bankruptcy average**. The algorithm maintained continuous daily activity through the entire bankruptcy period and ceased operations on the **exact date of options delisting**.
+[🛁 filed for Chapter 11](https://cases.ra.kroll.com/702702/) bankruptcy on April 23, 2023. During the bankruptcy, the identified fingerprint executed an average of **600+ qualifying trades per day** on 🛁, **3x its pre-bankruptcy average**. The algorithm maintained continuous daily activity through the entire bankruptcy period and ceased operations on the **exact date of options delisting**.
 
 Not on the bankruptcy filing date. Not on the equity delisting date. On the day the listed options chain ceased to exist.
 
@@ -147,13 +151,13 @@ On 🛁, algorithmic dates are associated with *smaller* FTD drops at all tested
 
 This exhibits the structural signature of what I call *Settlement Deferral*, the rolling of FTD obligations through successive synthetic locate transactions that satisfy the regulatory close-out clock without achieving actual delivery.
 
-![The Natural Experiment: BBBY Algo Activity vs Options Delisting](figures/chart_kill_switch.png)
+![The Natural Experiment: 🛁 Algo Activity vs Options Delisting](figures/chart_kill_switch.png)
 
 ---
 
-## 6. The CHWY Cross-Ticker Validation
+## 6. The 🐾 Cross-Ticker Validation
 
-As an additional out-of-sample test, I examined **CHWY (Chewy Inc.)** around its IPO on June 14, 2019. Under Reg SHO's market maker exception ([Rule 203(b)(2)(iii)](https://www.ecfr.gov/current/title-17/section-242.203)), bona fide market makers receive extended settlement flexibility for newly listed securities. Using the standard **T+35 calendar-day** close-out window (Rule 204(a)(2)), June 14 + 35 = July 19, 2019.
+As an additional out-of-sample test, I examined **🐾 (Chewy Inc.)** around its IPO on June 14, 2019. Under Reg SHO's market maker exception ([Rule 203(b)(2)(iii)](https://www.ecfr.gov/current/title-17/section-242.203)), bona fide market makers receive extended settlement flexibility for newly listed securities. Using the standard **T+35 calendar-day** close-out window (Rule 204(a)(2)), June 14 + 35 = July 19, 2019.
 
 | Date | IPO + Days | DMA Trades | Notes |
 | --- | --- | --- | --- |
@@ -165,11 +169,11 @@ As an additional out-of-sample test, I examined **CHWY (Chewy Inc.)** around its
 | Jul 22 | +38 | 144 | Post-deadline decay |
 | Jul 23 | +39 | 90 | Return to baseline |
 
-*Source: ThetaData OPRA historical options trades, CHWY, Jun 14 - Jul 31, 2019.*
+*Source: ThetaData OPRA historical options trades, 🐾, Jun 14 - Jul 31, 2019.*
 
 The DMA fingerprint ramped **7.2x from baseline** (90 to 649) in 3 days before the Reg SHO exemption expired, peaking on day +34, then dropping 42% on the deadline day and returning to baseline within 2 days. This cross-ticker confirmation independently validates the deadline-alignment hypothesis on a security with a known, calendar-fixed regulatory deadline.
 
-![CHWY: IPO + 35 Day DMA Fingerprint Ramp](figures/chart_chwy_deadline.png)
+![🐾: IPO + 35 Day DMA Fingerprint Ramp](figures/chart_ipo_deadline.png)
 
 ---
 
@@ -185,7 +189,7 @@ Based on confirmed exchange memberships, DPM assignments, and the MIAX Pearl/Nas
 | --- | --- | --- |
 | **Citadel Securities** | ~85% | 32% U.S. options volume; confirmed Pearl + BX memberships |
 | **Wolverine Trading** | ~75% | Confirmed GME DPM; identical prior FINRA enforcement |
-| **Susquehanna (SIG)** | ~65% | Probable venue access; largest MSTR options holder |
+| **Susquehanna (SIG)** | ~65% | Probable venue access; largest MicroStrategy options holder |
 
 Definitive identification requires the [MIAX Pearl](https://www.miaxglobal.com/markets/us-options/pearl-options) Level 3 un-anonymized Liquidity Feed, which contains the executing firm MPID for every trade. It costs approximately $2,000.
 

@@ -135,4 +135,20 @@ The original $6 trillion headline doesn't survive scrutiny, the spike was intere
 
 > *"The few who understand the system will either be so interested in its profits or so dependent on its favors that there will be no opposition from that class.", attributed to Mayer Amschel Rothschild (disputed)*
 
-Continue on to Part 3: The Ouroboros...
+---
+
+## The Shadow Ledger
+
+| Part | Title |
+|:----:|:------|
+| [1](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/) | The Fake Locates |
+| **2** | **The Derivative Paper Trail** ← you are here |
+| [3](https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/) | The Ouroboros |
+| [4](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/) | The Reflexive Trap |
+| [5](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/) | The Bridge |
+| [6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/) | The Cash Engine |
+| [7](https://www.reddit.com/r/Superstonk/comments/1rl39km/the_shadow_ledger_part_7_the_fingerprint/) | The Fingerprint |
+| [📋](https://www.reddit.com/r/Superstonk/comments/1rl3q1y/the_shadow_ledger_summary_post/) | Summary Post |
+
+⬅️ **Previous:** [Part 1: The Fake Locates](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/)
+➡️ **Next:** [Part 3: The Ouroboros](https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/)

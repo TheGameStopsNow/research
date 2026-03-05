@@ -172,4 +172,20 @@ The Ouroboros is a snake eating its own tail: acute liquidity demands trigger Te
 
 > *"Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.", Archimedes*
 
-Continue on to Part 4: The Checkmate...
+---
+
+## The Shadow Ledger
+
+| Part | Title |
+|:----:|:------|
+| [1](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/) | The Fake Locates |
+| [2](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/) | The Derivative Paper Trail |
+| **3** | **The Ouroboros** ← you are here |
+| [4](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/) | The Reflexive Trap |
+| [5](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/) | The Bridge |
+| [6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/) | The Cash Engine |
+| [7](https://www.reddit.com/r/Superstonk/comments/1rl39km/the_shadow_ledger_part_7_the_fingerprint/) | The Fingerprint |
+| [📋](https://www.reddit.com/r/Superstonk/comments/1rl3q1y/the_shadow_ledger_summary_post/) | Summary Post |
+
+⬅️ **Previous:** [Part 2: The Derivative Paper Trail](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/)
+➡️ **Next:** [Part 4: The Reflexive Trap](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/)

@@ -83,4 +83,20 @@ The bridge connects the equity settlement desk (Stages 1-2) to the crypto liquid
 
 > *"Follow the money." // William Goldman, All the President's Men (1976 film)*
 
-Continue on to Part 6: The Cash Engine...
+---
+
+## The Shadow Ledger
+
+| Part | Title |
+|:----:|:------|
+| [1](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/) | The Fake Locates |
+| [2](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/) | The Derivative Paper Trail |
+| [3](https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/) | The Ouroboros |
+| [4](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/) | The Reflexive Trap |
+| **5** | **The Bridge** ← you are here |
+| [6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/) | The Cash Engine |
+| [7](https://www.reddit.com/r/Superstonk/comments/1rl39km/the_shadow_ledger_part_7_the_fingerprint/) | The Fingerprint |
+| [📋](https://www.reddit.com/r/Superstonk/comments/1rl3q1y/the_shadow_ledger_summary_post/) | Summary Post |
+
+⬅️ **Previous:** [Part 4: The Reflexive Trap](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/)
+➡️ **Next:** [Part 6: The Cash Engine](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/)

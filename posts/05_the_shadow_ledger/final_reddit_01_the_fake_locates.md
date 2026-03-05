@@ -190,4 +190,20 @@ Two continents. Two sworn documents. One irreconcilable scale problem. And when 
 
 > *"Three may keep a secret, if two of them are dead.", Benjamin Franklin*
 
-Continue on to Part 2: The Derivative Paper Trail...
+---
+
+## The Shadow Ledger
+
+| Part | Title |
+|:----:|:------|
+| **1** | **The Fake Locates** ← you are here |
+| [2](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/) | The Derivative Paper Trail |
+| [3](https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/) | The Ouroboros |
+| [4](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/) | The Reflexive Trap |
+| [5](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/) | The Bridge |
+| [6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/) | The Cash Engine |
+| [7](https://www.reddit.com/r/Superstonk/comments/1rl39km/the_shadow_ledger_part_7_the_fingerprint/) | The Fingerprint |
+| [📋](https://www.reddit.com/r/Superstonk/comments/1rl3q1y/the_shadow_ledger_summary_post/) | Summary Post |
+
+⬅️ **Previously:** [Boundary Conditions](https://www.reddit.com/r/Superstonk/comments/1rgsom0/boundary_conditions_summary_post/)
+➡️ **Next:** [Part 2: The Derivative Paper Trail](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/)

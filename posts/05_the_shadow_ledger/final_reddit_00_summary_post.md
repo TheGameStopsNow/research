@@ -21,7 +21,7 @@ This series answers it. Seven posts. Seven layers. One machine.
 
 ---
 
-## Part 1: The Fake Locates // [Full Post](01_the_fake_locates.md)
+## Part 1: The Fake Locates // [Full Post](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/)
 
 ### The short version
 
@@ -41,7 +41,7 @@ I don't think anyone woke up and said "let's manufacture fake shares through a G
 
 ---
 
-## Part 2: The Derivative Paper Trail // [Full Post](02_the_6_trillion_swap.md)
+## Part 2: The Derivative Paper Trail // [Full Post](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/)
 
 ### The short version
 
@@ -61,7 +61,7 @@ Buying the bankruptcy claims of the company that holds your receipts is legal. S
 
 ---
 
-## Part 3: The Ouroboros // [Full Post](03_the_ouroboros.md)
+## Part 3: The Ouroboros // [Full Post](https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/)
 
 ### The short version
 
@@ -81,7 +81,7 @@ Cantor is pure plumbing. They take zero directional risk. They clip fees convert
 
 ---
 
-## Part 4: The Reflexive Trap // [Full Post](04_the_reflexive_trap.md)
+## Part 4: The Reflexive Trap // [Full Post](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/)
 
 ### The short version
 
@@ -99,7 +99,7 @@ I think Ryan Cohen noticed that the short machine's collateral and GME's balance
 
 ---
 
-## Part 5: The Bridge // [Full Post](05_the_bridge.md)
+## Part 5: The Bridge // [Full Post](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/)
 
 ### The short version
 
@@ -115,7 +115,7 @@ When the equity desk needs cash, the crypto desk liquidates. When the crypto des
 
 ---
 
-## Part 6: The Cash Engine // [Full Post](06_the_cash_engine.md)
+## Part 6: The Cash Engine // [Full Post](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/)
 
 ### The short version
 
@@ -135,7 +135,7 @@ Cash is fungible, and I can't trace a specific dollar from a Dreyfus investor to
 
 ---
 
-## Part 7: The Fingerprint // [Full Post](07_the_fingerprint.md)
+## Part 7: The Fingerprint // [Full Post](https://www.reddit.com/r/Superstonk/comments/1rl39km/the_shadow_ledger_part_7_the_fingerprint/)
 
 ### The short version
 
@@ -189,16 +189,16 @@ I'll be the first to tell you if any of these happen.
 
 | Part | Title | One Sentence |
 |:----:|:------|:-------------|
-| [1](01_the_fake_locates.md) | **The Fake Locates** | FTX tokenized stocks functioned as phantom locates; the FTX bankruptcy filing reports zero GME shares |
-| [2](02_the_6_trillion_swap.md) | **The Derivative Paper Trail** | The $6T JPMorgan spike was interest rate swaps; the real trail is 8 offshore ISDA filings in 7 days |
-| [3](03_the_ouroboros.md) | **The Ouroboros** | Cantor's $16.7B repo machine converts Tether reserves into prime broker cash |
-| [4](04_the_reflexive_trap.md) | **The Reflexive Trap** | Goldman holds $9-10B in crypto-adjacent positions; GameStop bought their collateral |
-| [5](05_the_bridge.md) | **The Bridge** | BNY Mellon is the common custodian; Snyder v. Jane Street maps the capital flow |
-| [6](06_the_cash_engine.md) | **The Cash Engine** | Dreyfus repos tripled to $86.2B; the Vanguard control test isolates BNY Mellon |
-| [7](07_the_fingerprint.md) | **The Fingerprint** | A DMA algo runs on 31 tickers; same hardware, different trigger logic on borrow-constrained stocks |
+| [1](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/) | **The Fake Locates** | FTX tokenized stocks functioned as phantom locates; the FTX bankruptcy filing reports zero GME shares |
+| [2](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/) | **The Derivative Paper Trail** | The $6T JPMorgan spike was interest rate swaps; the real trail is 8 offshore ISDA filings in 7 days |
+| [3](https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/) | **The Ouroboros** | Cantor's $16.7B repo machine converts Tether reserves into prime broker cash |
+| [4](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/) | **The Reflexive Trap** | Goldman holds $9-10B in crypto-adjacent positions; GameStop bought their collateral |
+| [5](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/) | **The Bridge** | BNY Mellon is the common custodian; Snyder v. Jane Street maps the capital flow |
+| [6](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/) | **The Cash Engine** | Dreyfus repos tripled to $86.2B; the Vanguard control test isolates BNY Mellon |
+| [7](https://www.reddit.com/r/Superstonk/comments/1rl39km/the_shadow_ledger_part_7_the_fingerprint/) | **The Fingerprint** | A DMA algo runs on 31 tickers; same hardware, different trigger logic on borrow-constrained stocks |
 
-⬅️ **Previously:** [Boundary Conditions](../04_the_boundary_conditions/01_the_overflow.md) (Parts 1-3)
-➡️ **Next:** [The Custodian's Ledger](../06_the_custodians_ledger/01_the_satoshi_test.md) (Parts 1-3)
+⬅️ **Previously:** [Boundary Conditions](https://www.reddit.com/r/Superstonk/comments/1rgsom0/boundary_conditions_summary_post/) (Parts 1-3)
+➡️ **Next:** The Custodian's Ledger (coming soon)
 
 ---
 

@@ -123,7 +123,7 @@ As an additional out-of-sample test, I examined **CHWY (Chewy Inc.)** around its
 
 The DMA fingerprint ramped **7.2x from baseline** (90 to 649) in 3 days before the Reg SHO exemption expired, peaking on day +34, then dropping 42% on the deadline day and returning to baseline within 2 days. This cross-ticker confirmation independently validates the deadline-alignment hypothesis on a security with a known, calendar-fixed regulatory deadline.
 
-![CHWY: IPO + 35 Day DMA Fingerprint Ramp](figures/chart_chwy_deadline.png)
+![CHWY: IPO + 35 Day DMA Fingerprint Ramp](figures/chart_ipo_deadline.png)
 
 ---
 

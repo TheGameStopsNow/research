@@ -1,0 +1,241 @@
+# Navigation Registry
+# Single source of truth for all DD post navigation.
+# Edit this file, then run: python code/tools/generate_nav.py
+
+# Links used in footers
+index_reddit: ""  # fill when pinned index is posted
+index_github: "https://github.com/TheGameStopsNow/research"
+twitter: "https://x.com/TheGameStopsNow"
+
+series:
+  - id: "01_strike_price_symphony"
+    title: "The Strike Price Symphony"
+    short: "Options microstructure forensics"
+    dir: "01_strike_price_symphony"
+    posts:
+      - id: "01_the_machine_under_the_market"
+        title: "The Machine Under the Market"
+        teaser: "Six anomalies in GME options that can't be explained by normal trading"
+        reddit: "https://www.reddit.com/user/TheGameStopsNow/comments/1r5hog7/strike_price_symphony_1"
+        x: ""
+
+      - id: "02_the_player_piano"
+        title: "The Player Piano"
+        teaser: "25% of GME equity volume is mechanically determined by the options chain"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1r4tr5l/the_strike_price_symphony_2"
+        x: ""
+
+      - id: "03_the_kill_zone"
+        title: "I Watched the Algorithm Execute in Real Time"
+        teaser: "A $34M off-tape conversion caught at 34ms precision"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1r6lmse/the_strike_price_symphony_3"
+        x: ""
+
+  - id: "02_options_and_consequences"
+    title: "Options & Consequences"
+    short: "Institutional flow, balance sheets, macro funding"
+    dir: "02_options_and_consequences"
+    posts:
+      - id: "01_following_the_money"
+        title: "Following the Money"
+        teaser: "263M off-exchange shares traced to 24 internalizers"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1raqqef/options_consequences_following_the_money_1"
+        x: "https://x.com/TheGameStopsNow/status/2025240276915089471"
+
+      - id: "02_the_paper_trail"
+        title: "The Paper Trail"
+        teaser: "Citadel's $2.16T derivative book and the offshore ISDA network"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1raqvja/options_consequences_the_paper_trail_2"
+        x: "https://x.com/TheGameStopsNow/status/2025240741241323931"
+
+      - id: "03_the_systemic_exhaust"
+        title: "The Systemic Exhaust"
+        teaser: "17-sigma algorithmic basket, 85 microwave towers, weather-correlated spreads"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rb695i/options_consequences_the_systemic_exhaust_3"
+        x: "https://x.com/TheGameStopsNow/status/2025355568278351884"
+
+      - id: "04_the_macro_machine"
+        title: "The Macro Machine"
+        teaser: "The yen carry trade and the NSCC margin waiver that killed the squeeze"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rb6rje/options_consequences_the_macro_machine_4"
+        x: "https://x.com/TheGameStopsNow/status/2025361140130230637"
+
+  - id: "03_the_failure_waterfall"
+    title: "The Failure Waterfall"
+    short: "Settlement lifecycle: the 15-node cascade"
+    dir: "03_the_failure_waterfall"
+    posts:
+      - id: "01_where_ftds_go_to_die"
+        title: "Where Your FTDs Go To Die"
+        teaser: "The first empirical lifecycle map of delivery failures: 15 nodes, 45 days"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1re1ps2/1_the_failure_accommodation_waterfall_where_your/"
+        x: "https://x.com/TheGameStopsNow/status/2026497785923551408"
+
+      - id: "02_the_resonance"
+        title: "The Resonance"
+        teaser: "The settlement system retains 86% echo amplitude per cycle (Q≈21)"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1re1pwi/2_the_failure_accommodation_waterfall_part_2_the/"
+        x: "https://x.com/TheGameStopsNow/status/2026497846086639875"
+
+      - id: "03_the_cavity"
+        title: "The Cavity"
+        teaser: "A 630-day macrocycle at 13.3x noise; KOSS phantom limb proves basket-level settlement"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1re1q0f/3_the_failure_accommodation_waterfall_part_3_the/"
+        x: "https://x.com/TheGameStopsNow/status/2026497892060479691"
+
+      - id: "04_what_the_sec_report_got_wrong"
+        title: "What the SEC Report Got Wrong"
+        teaser: "Seven SEC claims tested against five years of post-hoc settlement data"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1re1qft/4_the_failure_accommodation_waterfall_part_4_what/"
+        x: "https://x.com/TheGameStopsNow/status/2026497934376722897"
+
+  - id: "04_the_boundary_conditions"
+    title: "Boundary Conditions"
+    short: "Cross-boundary overflow, sovereign contamination, coprime fix"
+    dir: "04_the_boundary_conditions"
+    summary_post:
+      id: "00_summary_post"
+      title: "Summary Post"
+      teaser: "Plain-language interpretation of the series"
+      reddit: "https://www.reddit.com/r/Superstonk/comments/1rgsom0/boundary_conditions_summary_post/"
+      x: ""
+    posts:
+      - id: "01_the_overflow"
+        title: "The Overflow"
+        teaser: "KOSS amplifies +1,051% at T+33; GME uniquely Granger-causes Treasury fails"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rgrvuw/boundary_conditions_part_1_the_overflow/"
+        x: "https://x.com/TheGameStopsNow/status/2027590498148388975"
+
+      - id: "02_the_export"
+        title: "The Export"
+        teaser: "5,714:1 penalty asymmetry; cross-border selectivity test confirms settlement export"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rgrvz5/boundary_conditions_part_2_the_export/"
+        x: "https://x.com/TheGameStopsNow/status/2027590541735530541"
+
+      - id: "03_the_tuning_fork"
+        title: "The Tuning Fork"
+        teaser: "The macrocycle emerges from regulation alone; four numbers fix it"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rgrwaa/boundary_conditions_part_3_the_tuning_fork/"
+        x: "https://x.com/TheGameStopsNow/status/2027590582906855458"
+
+  - id: "05_the_shadow_ledger"
+    title: "The Shadow Ledger"
+    short: "Offshore synthetic supply, crypto funding, algorithmic fingerprint"
+    dir: "05_the_shadow_ledger"
+    summary_post:
+      id: "00_summary_post"
+      title: "Summary Post"
+      teaser: "Plain-language interpretation of the seven-layer system"
+      reddit: "https://www.reddit.com/r/Superstonk/comments/1rl3q1y/the_shadow_ledger_summary_post/"
+      x: ""
+    posts:
+      - id: "01_the_fake_locates"
+        title: "The Fake Locates"
+        teaser: "FTX tokenized stocks as phantom locates; CM-Equity €32.7M vs $65M; zero GME in SOAL"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/"
+        x: ""
+
+      - id: "02_the_6_trillion_swap"
+        title: "The Derivative Paper Trail"
+        teaser: "JPM $6T spike was interest rate swaps; 8 ISDA filings in 7 days; Cayman GAV +115%"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/"
+        x: ""
+
+      - id: "03_the_ouroboros"
+        title: "The Ouroboros"
+        teaser: "Cantor's $16.7B repo machine converts Tether reserves into prime broker cash"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/"
+        x: ""
+
+      - id: "04_the_reflexive_trap"
+        title: "The Reflexive Trap"
+        teaser: "Goldman $9-10B crypto-adjacent 13F; GameStop bought their collateral"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/"
+        x: ""
+
+      - id: "05_the_bridge"
+        title: "The Bridge"
+        teaser: "BNY Mellon common custodian; six-stage capital flow; two federal lawsuits"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/"
+        x: ""
+
+      - id: "06_the_cash_engine"
+        title: "The Cash Engine"
+        teaser: "Dreyfus repos tripled to $86.2B; Vanguard control test isolates BNY Mellon"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/"
+        x: ""
+
+      - id: "07_the_fingerprint"
+        title: "The Fingerprint"
+        teaser: "DMA algo on 31 tickers; FTD trigger discriminator; BBBY kill switch; Wolverine precedent"
+        reddit: "https://www.reddit.com/r/Superstonk/comments/1rl39km/the_shadow_ledger_part_7_the_fingerprint/"
+        x: ""
+
+  - id: "06_the_trojan_horse"
+    title: "The Trojan Horse"
+    short: "tZERO acquisition thesis, digital spin-off architecture, March 2026 convergence"
+    dir: "06_the_trojan_horse"
+    summary_post:
+      id: "00_summary_post"
+      title: "Summary Post"
+      teaser: "Forward-looking analysis of tZERO, the legal architecture, and the convergence window"
+      reddit: ""
+      x: ""
+    posts:
+      - id: "01_the_blockchain_company"
+        title: "The Blockchain Company"
+        teaser: "BYON owns 55% of tZERO (1 of 2 SPBDs); Section 363 cleansed brands for $26.5M"
+        reddit: ""
+        x: ""
+
+      - id: "02_the_28_day_panic"
+        title: "The 28-Day Panic"
+        teaser: "ICE vacated all board seats; 28 days later BYON locked the door with warrants"
+        reddit: ""
+        x: ""
+
+      - id: "03_the_legal_backdoor"
+        title: "The Legal Backdoor"
+        teaser: "Two-phase tZERO play bypasses bankruptcy; DRS allocation waterfall; $47M firewall"
+        reddit: ""
+        x: ""
+
+      - id: "04_the_checkmate"
+        title: "The Checkmate"
+        teaser: "Trademark tells, HSR vacatur, 10-K countdown, and the EDGAR drop"
+        reddit: ""
+        x: ""
+
+      - id: "05_the_convergence"
+        title: "The Convergence"
+        teaser: "Seven independent catalysts converge on the week of March 16-20, 2026"
+        reddit: ""
+        x: ""
+
+  - id: "07_the_ask"
+    title: "The Ask"
+    short: "Regulatory action guide with downloadable evidence package"
+    dir: "07_the_ask"
+    posts:
+      - id: "01_the_ask"
+        title: "The Ask"
+        teaser: "Five actions for regulators, backed by nine papers and a downloadable evidence package"
+        reddit: ""
+        x: ""
+
+  - id: "08_the_counter_signal"
+    title: "The Counter-Signal"
+    short: "Financial steganography: 741, options surface graffiti, and the biographical fingerprint"
+    dir: "08_the_counter_signal"
+    posts:
+      - id: "01_the_signature"
+        title: "The Signature"
+        teaser: "741/666 embedded in GME OI for 35 months; Condition 18 same pipe; 7-feature biographical fingerprint"
+        reddit: ""
+        x: ""
+
+      - id: "02_the_graffiti"
+        title: "The Graffiti"
+        teaser: "SVD residual structures in the options surface; negative space voids; tweet legend alignment"
+        reddit: ""
+        x: ""

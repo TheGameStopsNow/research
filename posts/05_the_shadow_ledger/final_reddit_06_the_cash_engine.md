@@ -8,7 +8,7 @@
 
 > **📄 Full academic papers:** [The Long Gamma Default (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices.pdf?raw=1) · [Boundary Conditions (PDF)](https://github.com/TheGameStopsNow/research/blob/main/papers/Boundary%20Conditions-%20Settlement%20Stress%20Propagation%2C%20Obligation%20Migration%2C%20and%20Cross-Market%20Contagion%20in%20the%20U.S.%20Clearing%20Infrastructure.pdf?raw=1)
 
-*[Part 1](01_the_fake_locates.md) mapped the phantom locates. [Part 2](02_the_6_trillion_swap.md) traced the risk transfer. [Part 3](03_the_ouroboros.md) followed the funding. [Part 4](04_the_reflexive_trap.md) mapped the collateral endgame. [Part 5](05_the_bridge.md) showed how the plumbing connects. This post maps the cash engine.*
+*[Part 1](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/) mapped the phantom locates. [Part 2](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/) traced the risk transfer. [Part 3](https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/) followed the funding. [Part 4](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/) mapped the collateral endgame. [Part 5](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/) showed how the plumbing connects. This post maps the cash engine.*
 
 ---
 
@@ -256,14 +256,14 @@ Here is the full system as documented across *The Failure Waterfall* and *The Sh
 | Layer | Mechanism | Source |
 |:------|:----------|:-------|
 | **Cash generation** | Dreyfus MMF → $86B triparty repos | This post |
-| **Collateral management** | BNY Mellon triparty agent + Global Collateral Platform | This post, [Part 5](05_the_bridge.md) |
+| **Collateral management** | BNY Mellon triparty agent + Global Collateral Platform | This post, [Part 5](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/) |
 | **Securities lending** | Pershing locate factory ($25.6B loaned, 3x borrowed) | This post |
 | **Settlement waterfall** | 15-node FTD cascade, T+6 to T+45 | [Failure Waterfall, Part 1](../03_the_failure_waterfall/01_where_ftds_go_to_die.md) |
 | **Macrocycle** | LCM(6,13,35,10) = 2,730 bd → 682.5 bd harmonic | [Failure Waterfall, Part 7](../03_the_failure_waterfall/07_the_tuning_fork.md) |
-| **ISDA margin** | BNY Mellon CSA charges for Citadel + Jane Street | [Part 5](05_the_bridge.md) |
+| **ISDA margin** | BNY Mellon CSA charges for Citadel + Jane Street | [Part 5](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/) |
 | **Options circuit** | DMA algo resets margin snapshots (CC125, inverted-fee) | [Failure Waterfall, Part 5](../03_the_failure_waterfall/05_the_overflow.md) |
 | **Offshore route** | Brazil subsidiary (2,535 cancelled funds), ADR precedent | This post |
-| **Crypto valve** | Emergency fiat liquidation under margin stress | [Part 5](05_the_bridge.md) |
+| **Crypto valve** | Emergency fiat liquidation under margin stress | [Part 5](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/) |
 | **Fed backstop** | ON RRP ↔ private repo liquidity valve | This post |
 
 ### Why It Matters

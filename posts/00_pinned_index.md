@@ -71,14 +71,14 @@ Seven-part investigation tracing the offshore synthetic supply chain, the Tether
 
 | # | Post | Reddit | 𝕏 |
 |:-:|------|:------:|:-:|
-| 1 | **The Phantom Locates** — CM-Equity €32.7M vs $65M, BaFin gap, 3.6× FTD spike |  |  |
-| 2 | **The $6 Trillion Swap** — JPMorgan derivative spike, ISDA network, Cayman GAV +115% |  |  |
-| 3 | **The Ouroboros** — Cantor $16.7B repo, GCF spike on Tether mint, Jump $377M ETH dump |  |  |
-| 4 | **The Reflexive Trap** — Goldman $9-10B crypto hedge, proxy hedge across ISDA counterparties |  |  |
-| 5 | **The Bridge** — BNY Mellon vertical integration, ISDA CSA margin, Jane Street litigation |  |  |
-| 6 | **The Cash Engine** — Dreyfus $86.2B repos, FTD negative correlation, Vanguard control test |  |  |
-| 7 | **The Fingerprint** — DMA algo on 31 tickers, FTD trigger discriminator, BBBY delisting trigger |  |  |
-| 📋 | **Summary Post** — Plain-language interpretation of the series |  |  |
+| 1 | **The Phantom Locates** — CM-Equity €32.7M vs $65M, BaFin gap, 3.6× FTD spike | [link](https://www.reddit.com/r/Superstonk/comments/1rl2vtu/the_shadow_ledger_part_1_the_fake_locates/) |  |
+| 2 | **The $6 Trillion Swap** — JPMorgan derivative spike, ISDA network, Cayman GAV +115% | [link](https://www.reddit.com/r/Superstonk/comments/1rl2vwu/the_shadow_ledger_part_2_the_derivative_paper/) |  |
+| 3 | **The Ouroboros** — Cantor $16.7B repo, GCF spike on Tether mint, Jump $377M ETH dump | [link](https://www.reddit.com/r/Superstonk/comments/1rl3nv4/the_shadow_ledger_part_3_the_ouroboros/) |  |
+| 4 | **The Reflexive Trap** — Goldman $9-10B crypto hedge, proxy hedge across ISDA counterparties | [link](https://www.reddit.com/r/Superstonk/comments/1rl2x5e/the_shadow_ledger_part_4_the_reflexive_trap/) |  |
+| 5 | **The Bridge** — BNY Mellon vertical integration, ISDA CSA margin, Jane Street litigation | [link](https://www.reddit.com/r/Superstonk/comments/1rl2x8i/the_shadow_ledger_part_5_the_bridge/) |  |
+| 6 | **The Cash Engine** — Dreyfus $86.2B repos, FTD negative correlation, Vanguard control test | [link](https://www.reddit.com/r/Superstonk/comments/1rl2xbu/the_shadow_ledger_part_6_the_cash_engine/) |  |
+| 7 | **The Fingerprint** — DMA algo on 31 tickers, FTD trigger discriminator, BBBY delisting trigger | [link](https://www.reddit.com/r/Superstonk/comments/1rl39km/the_shadow_ledger_part_7_the_fingerprint/) |  |
+| 📋 | **Summary Post** — Plain-language interpretation of the series | [link](https://www.reddit.com/r/Superstonk/comments/1rl3q1y/the_shadow_ledger_summary_post/) |  |
 
 📄 **Papers:** [The Shadow Ledger](https://github.com/TheGameStopsNow/research/blob/main/papers/07_shadow_ledger_offshore_crypto.md) · [Compliance-as-a-Service](https://github.com/TheGameStopsNow/research/blob/main/papers/08_compliance_as_a_service.md)
 
@@ -149,5 +149,5 @@ Speculative forward-looking investigation. *(May not be published.)*
 
 ---
 
-*Last updated: Mar 3, 2026*
+*Last updated: Mar 4, 2026*
 

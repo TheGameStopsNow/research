@@ -66,3 +66,36 @@ posts/09_the_ask/
 posts/10_the_dark_tape/
 posts/11_the_trojan_horse/
 papers/10_terminal_boundary.md
+
+# ---------------------------------------------------------------------------
+# Per-finding research rounds. 500+ local folders of specs, frozen configs,
+# derived data and scratch. None of it is distributed: the replication package
+# names the folders and documents how to rebuild them from the raw stores.
+# Code that ships with a post is added deliberately (git add -f), which is why
+# borrow_easy_control_2026-07-26/code and flex_blindspot_2026-07-26/code stay
+# tracked -- an ignore rule never un-tracks something already committed.
+posts/claim_tests/
+
+# Local research byproducts, regenerable from the scripts that made them
+data/married_census_rebuilt/
+data/occ/
+code/data_pipeline/
+
+# Private working documents are NOT listed here on purpose. Naming them in a
+# public .gitignore advertises their filenames to anyone who clones. They live
+# in .git/info/exclude instead, which is local-only. The categorical rules in
+# this file (data extensions, research rounds) are the ones that protect the
+# repo regardless of who or what is committing, so those stay here.
+
+# Generated ticker-key images: produced by export_reddit alongside the platform
+# copies, meaningless without them
+**/figures/ticker_legend_*.png
+
+# Derived binary data. Nothing of these types has ever belonged in the repo; the
+# replication package documents how to rebuild them from the raw stores.
+*.parquet
+*.npz
+*.npy
+*.pkl
+*.feather
+**/cache/

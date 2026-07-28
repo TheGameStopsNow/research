@@ -8,7 +8,7 @@ from pathlib import Path
 from scipy import stats
 
 warnings.filterwarnings('ignore')
-ROOT = Path("/Users/redacted/Documents/GitHub/research")
+ROOT = Path(__file__).resolve().parents[3]   # repo root, wherever it is cloned
 OUT = ROOT / "results" / "ftd_research" / "granger_panel_expanded.json"
 
 def granger(x, y, max_lag=6):
